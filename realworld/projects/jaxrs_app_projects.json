@@ -1,0 +1,73 @@
+[
+  {
+    "project_id": "kairosdb-kairosdb",
+    "github_url": "https://github.com/kairosdb/kairosdb",
+    "commit_hash": "7446e4f73553fad63803b36e5b791179438b4cd9",
+    "module_type": "single",
+    "runner_path": "runners/jaxrs-app-single/kairosdb-kairosdb",
+    "full_name": "kairosdb/kairosdb",
+    "default_branch": "develop",
+    "stars": 1753,
+    "commits": 1479,
+    "license_name": "Apache License 2.0",
+    "detected_java_version": 17,
+    "docker_image": "maven:3.9-eclipse-temurin-17",
+    "packaging": "jar",
+    "module_paths": [],
+    "test_count": 658,
+    "test_pass_rate": 0.9574,
+    "line_coverage": null,
+    "branch_coverage": null
+  },
+  {
+    "project_id": "bmarwell-shiro-jwt-showcase",
+    "github_url": "https://github.com/bmarwell/shiro-jwt-showcase",
+    "commit_hash": "119cce2fbe0614e21d4f34d89c5371fa2d1c6eb8",
+    "module_type": "multi",
+    "runner_path": "runners/jaxrs-app-multi/bmarwell-shiro-jwt-showcase",
+    "full_name": "bmarwell/shiro-jwt-showcase",
+    "default_branch": "main",
+    "stars": 10,
+    "commits": 304,
+    "license_name": "Apache License 2.0",
+    "detected_java_version": 17,
+    "docker_image": "maven:3.9-eclipse-temurin-17",
+    "packaging": "pom",
+    "module_paths": [
+      "keystore",
+      "issuer",
+      "start",
+      "finish",
+      "integration-test"
+    ],
+    "test_count": 1,
+    "test_pass_rate": 1.0,
+    "line_coverage": null,
+    "branch_coverage": null
+  },
+  {
+    "project_id": "apache-iotdb-extras",
+    "github_url": "https://github.com/apache/iotdb-extras",
+    "commit_hash": "827cceac0d9f2cfe2ebb752959b8975577a2734d",
+    "module_type": "multi",
+    "runner_path": "runners/jaxrs-app-multi/apache-iotdb-extras",
+    "full_name": "apache/iotdb-extras",
+    "default_branch": "master",
+    "stars": 19,
+    "commits": 79,
+    "license_name": "Apache License 2.0",
+    "detected_java_version": 8,
+    "docker_image": "maven:3.9-eclipse-temurin-8",
+    "packaging": "pom",
+    "module_paths": [
+      "connectors",
+      "distributions",
+      "iotdb-collector",
+      "mybatis-generator"
+    ],
+    "test_count": 0,
+    "test_pass_rate": null,
+    "line_coverage": null,
+    "branch_coverage": null
+  }
+]
