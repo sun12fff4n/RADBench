@@ -1,11 +1,11 @@
-# actual-projects-benchmark
+## actual-projects-benchmark
 
 End-to-end benchmark suite with 29 real-world Java web projects (Spring Boot, Vert.x, Quarkus, JAX-RS) + an `artificial-reflection/` Maven benchmark for small reflection cases.
 
 Prereqs: Docker + Compose v2, Python 3.8+, PyYAML
 (`pip install --break-system-packages pyyaml`).
 
-## QuickStart
+### QuickStart
 
 ```bash
 python3 realworld/scripts/run_compile.py                            # stage 1: Maven compile
@@ -25,15 +25,6 @@ cd artificial-reflection && mvn test                                # artificial
 
 Per-project status is streamed into `results_<stage>.json` as the run progresses, unless `--results` is provided. The `realworld/scripts/*` commands are thin stage-specific entry points over the shared runner implementation. Failure records carry a `stderr` / `stdout_tail` excerpt so you can diagnose without re-running.
 
-## Artificial Reflection Benchmark
-
-```bash
-cd artificial-reflection
-mvn test
-```
-
-Modules are grouped as `l1`-`l5` resolvability levels, `s1`-`s2` binding protocols, `m1`-`m4` reflection mechanisms, and `d1`-`d2` dependency topologies. Each family has a `ground_truth.json`; shared interfaces live in
-`shared-api/`.
 
 Clones are prepared once under `--workdir` (default: `/tmp/runner-driver`) and reused by later stages. Use `--fresh` to delete and recreate a prepared clone. 
 
@@ -46,7 +37,7 @@ python3 -m realworld.runner.run_project --until start
 python3 -m realworld.runner.run_project --until smoke
 ```
 
-## Stages
+### Stages
 
 1. Compile
 ```bash
@@ -73,7 +64,7 @@ stages:
   junit: mvn -B -Dsome.profile=test test
 ```
 
-## run step by step
+### run step by step
 
 Pick an entry from `realworld/projects/springboot_app_single_module.json` (or another manifest under `realworld/projects/`) and read its `github_url`, `commit_hash`, `runner_path`, then:
 
@@ -115,7 +106,7 @@ docker compose down -v                        # default
 ```
 
 
-## Manifests
+### Manifests
 
 Project manifests live under `realworld/projects/`:
 
@@ -128,3 +119,13 @@ Project manifests live under `realworld/projects/`:
 
 **Note:** The stage drivers read `springboot_app_single_module.json` by default. Pass `--manifest <file>` to restrict the run to specific manifests.
 
+
+
+## Artificial Reflection Project
+
+```bash
+cd artificial-reflection
+mvn test
+```
+
+Modules are grouped as `l1`-`l5` resolvability levels, `s1`-`s2` binding protocols, `m1`-`m4` reflection mechanisms, and `d1`-`d2` dependency topologies. Each family has a `ground_truth.json`; shared interfaces live in `shared-api/`.
