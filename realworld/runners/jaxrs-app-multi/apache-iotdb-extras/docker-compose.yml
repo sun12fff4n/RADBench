@@ -1,0 +1,38 @@
+name: iotdb-collector
+
+services:
+  app:
+    image: maven:3.9-eclipse-temurin-8
+    container_name: iotdb-collector-app
+    working_dir: /project
+    volumes:
+      - ./:/project
+      - maven_cache:/root/.m2
+    ports:
+      - "8080:17070"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:17070/ping || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 120s
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        apt-get update -qq && apt-get install -y -qq curl > /dev/null 2>&1
+        # Build only the iotdb-collector modules (skip connectors, distributions, etc.)
+        mvn -q -DskipTests -Dspotless.skip=true -Drat.skip=true \
+            -pl iotdb-collector/collector-openapi,iotdb-collector/collector-core \
+            -am package
+        # Run from the assembled directory
+        ASSEMBLY_DIR=iotdb-collector/collector-core/target/collector-core-2.0.4-SNAPSHOT
+        CLASSPATH=""
+        for f in $${ASSEMBLY_DIR}/lib/*.jar; do
+          CLASSPATH="$${CLASSPATH}:$$f"
+        done
+        exec java -cp "$$CLASSPATH" org.apache.iotdb.collector.Application
+
+volumes:
+  maven_cache:

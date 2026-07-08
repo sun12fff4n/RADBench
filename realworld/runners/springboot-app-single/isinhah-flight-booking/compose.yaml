@@ -1,0 +1,44 @@
+name: flight-booking
+
+services:
+  postgres:
+    image: postgres:16.2
+    container_name: airline-postgres
+    environment:
+      POSTGRES_DB: airline_ticket_api
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      retries: 20
+
+  app:
+    image: maven:3.9-eclipse-temurin-17
+    container_name: airline-app
+    working_dir: /project
+    ports:
+      - "8080:8080"
+    environment:
+      DATABASE_URL: "jdbc:postgresql://postgres:5432/airline_ticket_api"
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: admin
+    volumes:
+      - ./:/project
+      - airline_m2:/root/.m2
+    command:
+      - bash
+      - -c
+      - mvn -q -DskipTests spring-boot:run
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 30s
+
+volumes:
+  airline_m2:

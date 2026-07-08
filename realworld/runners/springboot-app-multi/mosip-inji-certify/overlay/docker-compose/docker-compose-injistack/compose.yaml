@@ -1,0 +1,78 @@
+name: certify
+
+services:
+  database:
+    image: postgres:latest
+    platform: linux/amd64
+    container_name: mosip-inji-certify-db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./certify_init.sql:/docker-entrypoint-initdb.d/certify_init.sql
+    networks:
+      - network
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d inji_certify"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  wiremock:
+    image: wiremock/wiremock:3.5.4
+    platform: linux/amd64
+    container_name: mosip-inji-certify-wiremock
+    command: ["--port", "80", "--global-response-templating"]
+    volumes:
+      - ./wiremock/mappings:/home/wiremock/mappings
+      - ./wiremock/__files:/home/wiremock/__files
+    networks:
+      - network
+
+  certify:
+    image: mosipid/inji-certify-with-plugins:0.13.1
+    platform: linux/amd64
+    container_name: mosip-inji-certify-app
+    user: root
+    ports:
+      - "8090:8090"
+    environment:
+      - container_user=mosip
+      - active_profile_env=default,csvdp-farmer
+      - SPRING_CONFIG_NAME=certify
+      - SPRING_CONFIG_LOCATION=/home/mosip/config/
+      - enable_certify_artifactory=false
+      - download_hsm_client=false
+      - mosip_certify_domain_url=http://localhost:8090
+      # Override AS jwk-set-uri to point at our wiremock-served public key
+      # (Spring Boot relaxed binding: env name -> property mosip.certify.authn.jwk-set-uri).
+      - mosip_certify_authn_jwk_set_uri=http://wiremock/jwks.json
+    volumes:
+      - ./config/certify-default.properties:/home/mosip/config/certify-default.properties
+      - ./config/certify-csvdp-farmer.properties:/home/mosip/config/certify-csvdp-farmer.properties
+      - ./config/certify-mock-mdl.properties:/home/mosip/config/certify-mock-mdl.properties
+      - ./data/CERTIFY_PKCS12:/home/mosip/CERTIFY_PKCS12
+      - ./config/farmer_identity_data.csv:/home/mosip/config/farmer_identity_data.csv
+    networks:
+      - network
+    depends_on:
+      database:
+        condition: service_healthy
+      wiremock:
+        condition: service_started
+    # certify exposes /v1/certify/actuator/health (servlet path is /v1/certify).
+    # Strict 200 once Spring + DB + wiremock are wired.
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8090/v1/certify/actuator/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s
+
+networks:
+  network:
+    # Compose auto-creates the network; the upstream `external: true` would
+    # have required `docker network create mosip_network` outside compose.
+    name: mosip_network

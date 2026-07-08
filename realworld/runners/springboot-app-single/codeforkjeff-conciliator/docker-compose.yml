@@ -1,0 +1,19 @@
+name: conciliator
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        skiptests: "1"
+    container_name: conciliator-app
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/version"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 30s

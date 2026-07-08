@@ -1,0 +1,30 @@
+name: vertx-cluster-watchdog
+
+services:
+  app:
+    image: maven:3.9-eclipse-temurin-11
+    container_name: vertx-cluster-watchdog-app
+    working_dir: /project
+    volumes:
+      - ./:/project
+      - maven_cache:/root/.m2
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/clusterStatus || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        apt-get update -qq && apt-get install -y -qq curl > /dev/null 2>&1
+        mvn -q -DskipTests -PshadowJar package
+        exec java -jar target/cluster-watchdog-3.1.7-SNAPSHOT-all.jar \
+          -conf '{"http.port":8080,"intervalInSec":3,"clusterMemberCount":1}'
+
+volumes:
+  maven_cache:

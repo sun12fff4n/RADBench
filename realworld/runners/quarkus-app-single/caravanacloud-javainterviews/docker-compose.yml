@@ -1,0 +1,31 @@
+name: javainterviews
+
+services:
+  app:
+    image: maven:3.9-eclipse-temurin-17
+    container_name: javainterviews-app
+    working_dir: /project
+    volumes:
+      - ./:/project
+      - maven_cache:/root/.m2
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/hello || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 60s
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        apt-get update -qq && apt-get install -y -qq curl > /dev/null 2>&1
+        mkdir -p src/main/resources
+        printf 'quarkus.datasource.jdbc=false\nquarkus.flyway.enabled=false\n' > src/main/resources/application.properties
+        mvn -q -DskipTests package
+        exec java -jar target/quarkus-app/quarkus-run.jar
+
+volumes:
+  maven_cache:

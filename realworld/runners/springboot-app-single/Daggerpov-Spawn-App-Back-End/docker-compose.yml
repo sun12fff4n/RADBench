@@ -1,0 +1,60 @@
+name: spawn
+
+services:
+  mysql:
+    image: mysql:8.0.35
+    container_name: spawn-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: benchmark
+      MYSQL_DATABASE: spawn
+    networks:
+      - spawn-net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-pbenchmark"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  app:
+    image: maven:3.9-eclipse-temurin-17
+    container_name: spawn-app
+    working_dir: /project
+    environment:
+      SPRING_PROFILES_ACTIVE: test
+      SPRING_DATASOURCE_URL: "jdbc:mysql://mysql:3306/spawn?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.cj.jdbc.Driver
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: benchmark
+      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQLDialect
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      # Fixed JWT signing secret HS256.
+      SIGNING_SECRET: "U3Bhd25UZXN0U2VjcmV0S2V5MDEyMzQ1Njc4OWFiY2Q="
+      JAVA_TOOL_OPTIONS: "-Xlog:class+load=info:file=/tmp/classload.log"
+    volumes:
+      - ./:/project
+      - spawn_m2:/root/.m2
+    networks:
+      - spawn-net
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    command:
+      - bash
+      - -c
+      - mvn -q -DskipTests spring-boot:run
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s
+
+networks:
+  spawn-net:
+    driver: bridge
+
+volumes:
+  spawn_m2:

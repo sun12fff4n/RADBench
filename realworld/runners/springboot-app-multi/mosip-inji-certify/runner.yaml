@@ -1,0 +1,12 @@
+lifecycle:
+  up: |
+    cd docker-compose/docker-compose-injistack && docker compose up -d --wait
+  down: |
+    cd docker-compose/docker-compose-injistack && docker compose down -v
+  smoke: |
+    cd docker-compose/docker-compose-injistack && bash test_api.sh
+
+wait:
+  urls:
+    - http://localhost:8090/v1/certify/actuator/health
+  timeout_seconds: 240

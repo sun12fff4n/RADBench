@@ -1,0 +1,16 @@
+# ── Build stage ───────────────────────────────────────────────────────
+FROM maven:3.9-eclipse-temurin-8 AS build
+WORKDIR /src
+COPY pom.xml .
+COPY src ./src
+RUN mvn -q -B -DskipTests package
+
+# ── Runtime stage (mirrors the project Dockerfile) ────────────────────
+FROM openjdk:8u342-jdk
+VOLUME /tmp
+ENV JAVA_OPTS=
+COPY --from=build /src/target/clklog-api-*.jar /app.jar
+COPY docker-entrypoint.sh /usr/local/bin/entrypoint.sh
+COPY ./sql/* /sql/
+ENTRYPOINT ["entrypoint.sh"]
+EXPOSE 8080

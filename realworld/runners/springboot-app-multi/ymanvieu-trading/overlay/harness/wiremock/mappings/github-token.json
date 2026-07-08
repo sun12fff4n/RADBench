@@ -1,0 +1,12 @@
+{
+  "request": { "method": "POST", "urlPathPattern": "/login/oauth/access_token" },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "access_token": "stub-access-token",
+      "token_type": "bearer",
+      "scope": "user:email"
+    }
+  }
+}

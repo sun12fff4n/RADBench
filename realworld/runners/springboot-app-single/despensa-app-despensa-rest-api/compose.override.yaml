@@ -1,0 +1,10 @@
+name: despensa
+
+services:
+  despensa-rest-api:
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/api/auth/login || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 30s

@@ -1,0 +1,54 @@
+name: favorite-coffee
+
+services:
+  neo4j:
+    image: neo4j:4.4
+    container_name: favorite-coffee-neo4j
+    environment:
+      NEO4J_AUTH: neo4j/testpass1
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p testpass1 'RETURN 1' || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+
+  app:
+    image: maven:3.9-eclipse-temurin-17
+    container_name: favorite-coffee-app
+    working_dir: /project
+    volumes:
+      - ./:/project
+      - maven_cache:/root/.m2
+    ports:
+      - "8080:8080"
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/q/health/ready || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 90s
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        apt-get update -qq && apt-get install -y -qq curl > /dev/null 2>&1
+        printf 'quarkus.neo4j.uri=bolt://neo4j:7687\nquarkus.neo4j.authentication.username=neo4j\nquarkus.neo4j.authentication.password=testpass1\norg.neo4j.ogm.use-native-types=true\n' > src/main/resources/application.properties
+        mvn -q -DskipTests package
+        # Seed Neo4j with example data
+        NEO=http://neo4j:7474/db/data/transaction/commit
+        AUTH="neo4j:testpass1"
+        cypher() { curl -s -H "Content-Type: application/json" -u $$AUTH -d "{\"statements\":[{\"statement\":\"$$1\"}]}" $$NEO; }
+        cypher "MATCH (n) DETACH DELETE n" > /dev/null
+        cypher "CREATE (:User {name: 'User'})" > /dev/null
+        cypher "UNWIND ['Nutty','Sweet','Caramel','Chocolate','Fruit','Floral','Sour','Green','Other','Roasted','Spices'] AS f CREATE (:Flavor {name: f})" > /dev/null
+        cypher "UNWIND ['Colombia','Ethiopia','Kenya','Brazil'] AS c CREATE (:Origin {country: c})" > /dev/null
+        cypher "UNWIND [{name:'Buna',country:'Ethiopia',profile:[{p:0.4,f:'Fruit'},{p:0.3,f:'Sweet'},{p:0.3,f:'Caramel'}]},{name:'El gato loco',country:'Colombia',profile:[{p:0.7,f:'Fruit'},{p:0.3,f:'Floral'}]},{name:'Saboroso',country:'Brazil',profile:[{p:0.5,f:'Chocolate'},{p:0.3,f:'Nutty'},{p:0.2,f:'Caramel'}]},{name:'Kahawa Nzuri',country:'Kenya',profile:[{p:0.5,f:'Chocolate'},{p:0.5,f:'Caramel'}]}] AS row CREATE (b:CoffeeBean {uuid: randomUUID(), name: row.name}) WITH b, row MATCH (c:Origin {country: row.country}) MERGE (b)-[:IS_FROM]->(c) WITH b, row UNWIND row.profile AS profile MATCH (f:Flavor {name: profile.f}) MERGE (b)-[:TASTES {percentage: profile.p}]->(f)" > /dev/null
+        exec java -jar target/quarkus-app/quarkus-run.jar
+
+volumes:
+  maven_cache:

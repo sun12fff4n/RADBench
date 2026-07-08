@@ -1,0 +1,17 @@
+
+lifecycle:
+  up: bash start-all-services.sh    
+  down: bash stop-all-services.sh   
+  post_down: |
+    sleep 10
+    docker compose -f docker-compose.analytics.yaml down -v 2>/dev/null || true
+    docker compose -f docker-compose.monitoring.yaml down -v 2>/dev/null || true
+
+wait:
+  urls:
+    - http://localhost:8080/actuator/health    # executor-service
+    - http://localhost:8081/actuator/health    # strategy-service
+    - http://localhost:8082/actuator/health    # analytics-service
+    - http://localhost:8083/actuator/health    # ingestor-service
+    - http://localhost:8084/actuator/health    # infrastructure-orchestrator-service
+  timeout_seconds: 240

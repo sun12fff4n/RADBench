@@ -1,0 +1,13 @@
+
+lifecycle:
+  up: |
+    docker run --rm -v "$PWD":/workspace -w /workspace -v runner-driver-m2:/root/.m2 maven:3.9-eclipse-temurin-17 mvn -B -DskipTests -Drevision=2.0-SNAPSHOT install
+    docker compose up -d --wait
+  down: |
+    docker compose down -v
+
+wait:
+  urls:
+    - http://localhost:18081/user-api/v3/api-docs
+    - http://localhost:18080/chat-api/v3/api-docs
+  timeout_seconds: 240

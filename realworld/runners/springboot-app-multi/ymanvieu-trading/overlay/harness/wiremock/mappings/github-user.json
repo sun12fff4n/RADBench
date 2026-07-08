@@ -1,0 +1,14 @@
+{
+  "request": { "method": "GET", "urlPathPattern": "/user" },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "id": 999999,
+      "login": "stubgithub",
+      "name": "Stub Github",
+      "email": "stub@github.example",
+      "avatar_url": "http://wiremock/avatar.png"
+    }
+  }
+}

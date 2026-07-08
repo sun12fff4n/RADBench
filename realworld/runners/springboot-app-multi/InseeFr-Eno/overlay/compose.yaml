@@ -1,0 +1,17 @@
+name: eno
+
+services:
+  eno-ws:
+    build: .
+    container_name: eno-ws
+    ports:
+      - "8080:8080"
+    environment:
+      ENO_DIRECT_POGUES_LUNATIC: "true"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 30s

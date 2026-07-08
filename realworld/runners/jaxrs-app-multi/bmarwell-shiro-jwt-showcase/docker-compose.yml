@@ -1,0 +1,42 @@
+name: shiro-jwt-showcase
+
+services:
+  app:
+    image: maven:3.9-eclipse-temurin-17
+    container_name: shiro-jwt-app
+    working_dir: /project
+    volumes:
+      - ./:/project
+      - maven_cache:/root/.m2
+    ports:
+      - "8080:9080"
+    environment:
+      ISSUER_NAME: "http://localhost:9080/"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9080/issuer/login -X POST -H 'Content-Type: application/json' -d '{\"username\":\"test\",\"password\":\"test\"}' || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+      start_period: 120s
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        apt-get update -qq && apt-get install -y -qq curl > /dev/null 2>&1
+        # Build all modules (skip spotless which requires git remote)
+        mvn -q -DskipTests -Dspotless.check.skip=true -Dspotless.apply.skip=true install
+        # Set up Liberty via integration-test module
+        cd integration-test
+        mvn -q liberty:create liberty:install-feature liberty:deploy \
+            -DskipTests -Dspotless.check.skip=true -Dspotless.apply.skip=true \
+            -DdeployPackages=dependencies
+        # Fix Liberty to listen on all interfaces (default is 127.0.0.1)
+        sed -i 's/host="127.0.0.1"/host="*"/' target/liberty/wlp/usr/servers/it/server.xml
+        # Set ISSUER_NAME env var for MicroProfile Config
+        echo "ISSUER_NAME=http://localhost:9080/" > target/liberty/wlp/usr/servers/it/server.env
+        # Run Liberty in foreground
+        exec target/liberty/wlp/bin/server run it
+
+volumes:
+  maven_cache:

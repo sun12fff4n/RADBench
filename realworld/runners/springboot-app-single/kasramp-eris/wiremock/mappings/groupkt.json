@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/country/get/iso2code/.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "RestResponse": {
+        "messages": ["Country found matching code"],
+        "result": {
+          "name": "Germany",
+          "alpha2_code": "DE",
+          "alpha3_code": "DEU"
+        }
+      }
+    }
+  }
+}

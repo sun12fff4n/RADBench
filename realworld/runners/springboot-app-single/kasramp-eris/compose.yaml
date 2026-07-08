@@ -1,0 +1,54 @@
+name: eris
+
+services:
+  wiremock:
+    image: wiremock/wiremock:3.5.4
+    container_name: kasramp-eris-wiremock
+    command: ["--port", "80", "--global-response-templating", "--verbose"]
+    volumes:
+      - ./wiremock/mappings:/home/wiremock/mappings
+    networks:
+      eris-net:
+        aliases:
+          - api.openweathermap.org
+          - services.groupkt.com
+          - extreme-ip-lookup.com
+
+  app:
+    image: maven:3.9-eclipse-temurin-21
+    container_name: kasramp-eris-app
+    working_dir: /project
+    depends_on:
+      - wiremock
+    volumes:
+      - .:/project
+      - eris_m2:/root/.m2
+    ports:
+      - "8080:8080"
+    environment:
+      OPENWEATHERMAP_API_KEY: openweatherapikey
+      SEGMENTIO_WRITE_API_KEY: segmentioapikey
+      ACTUATOR_USERNAME: admin
+      ACTUATOR_PASSWORD: secret
+      SPRING_CLOUD_CONSUL_ENABLED: "false"
+      # @Value("${ip.api.url:...}") -> route to wiremock with a distinct path
+      # so it doesn't collide with extreme-ip-lookup's /json/{ip}.
+      IP_API_URL: "http://wiremock/ipapi/json/%s"
+    networks:
+      - eris-net
+    command: >
+      bash -c "mvn -q -DskipTests spring-boot:run
+      -Dspring-boot.run.jvmArguments=-Dserver.port=8080"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/actuator/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s
+
+networks:
+  eris-net:
+    driver: bridge
+
+volumes:
+  eris_m2:

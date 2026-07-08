@@ -108,7 +108,19 @@ def prepare_project(rec, repo_root, workdir, fresh=False):
     commit = rec["commit_hash"]
 
     print(f"\n=== {project_id} ===")
-    runner_dir = repo_root / runner_path
+    runner_rel = Path(runner_path)
+    runner_dir = repo_root / runner_rel if runner_rel.parts[:1] == ("realworld",) else repo_root / "realworld" / runner_rel
+    if not runner_dir.is_dir():
+        return None, load_runner_config(runner_dir), result(
+            project_id,
+            "MISSING_RUNNER",
+            stderr=(
+                f"Runner overlay directory not found: {runner_dir}. "
+                "Check that the realworld/runners/ tree is present and that "
+                "runner_path in the manifest is correct."
+            ),
+        )
+
     overlay_dir, overlay_ignore = overlay_for(runner_dir)
     config = load_runner_config(runner_dir)
 

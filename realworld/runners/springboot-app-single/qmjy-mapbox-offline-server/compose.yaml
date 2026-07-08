@@ -1,0 +1,25 @@
+name: qmjy-mapbox
+
+services:
+  app:
+    image: maven:3.9-eclipse-temurin-21
+    container_name: qmjy-mapbox-app
+    working_dir: /project
+    volumes:
+      - .:/project
+      - ./data:/data
+      - qmjy_m2:/root/.m2
+    ports:
+      - "8080:10101"
+    command: >
+      bash -c "mvn -q -DskipTests spring-boot:run
+      -Dspring-boot.run.arguments=--data-path=/data"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:10101/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s
+
+volumes:
+  qmjy_m2:

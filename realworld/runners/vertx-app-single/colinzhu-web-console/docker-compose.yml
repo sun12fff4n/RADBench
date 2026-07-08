@@ -1,0 +1,31 @@
+name: web-console
+
+services:
+  app:
+    image: maven:3.9-eclipse-temurin-17
+    container_name: web-console-app
+    working_dir: /project
+    volumes:
+      - ./:/project
+      - maven_cache:/root/.m2
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        apt-get update -qq && apt-get install -y -qq curl > /dev/null 2>&1
+        mvn -q -DskipTests dependency:copy-dependencies -DoutputDirectory=target/deps
+        mvn -q compile test-compile
+        exec java -cp "target/classes:target/test-classes:target/deps/*" \
+          io.github.colinzhu.webconsole.Example
+
+volumes:
+  maven_cache:

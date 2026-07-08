@@ -1,0 +1,97 @@
+name: libraryman
+
+services:
+  mysql:
+    image: mysql:8.0.35
+    container_name: libraryman-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: benchmark
+      MYSQL_DATABASE: libraryman
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - libraryman-net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-pbenchmark"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  app:
+    image: maven:3.9-eclipse-temurin-17
+    container_name: libraryman-app
+    working_dir: /project
+    environment:
+      # Activate application-production.properties so all settings come from env
+      # vars below — no in-repo file modification needed for the harness.
+      ENV: production
+      DATABASE_URL: "jdbc:mysql://mysql:3306/libraryman?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
+      DATABASE_USERNAME: root
+      DATABASE_PASSWORD: benchmark
+      DATABASE_DRIVER_CLASS_NAME: com.mysql.cj.jdbc.Driver
+      # Mail: dummy values so the prod profile resolves; not used by test_api.sh.
+      MAIL_SERVICE_HOST: localhost
+      MAIL_SERVICE_PORT: "1025"
+      MAIL_SERVICE_USERNAME: noreply
+      MAIL_SERVICE_PASSWORD: noreply
+      MAIL_SERVICE_SMTP: "false"
+      MAIL_SERVICE_STARTTLS: "false"
+      MAIL_SERVICE_DOMAIN_NAME: noreply@libraryman.local
+      # OAuth: dummy values; OAuth flow itself isn't exercised by test_api.sh.
+      YOUR_CLIENT_ID: dummy-client-id
+      YOUR_SECRET_KEY: dummy-client-secret
+    volumes:
+      - ./:/project
+      - maven_cache:/root/.m2
+    ports:
+      - "8080:8080"
+    networks:
+      - libraryman-net
+    depends_on:
+      mysql:
+        condition: service_healthy
+    # 401/404 also count as ready: the server is responding to HTTP, which is
+    # all the runner driver needs before invoking test_api.sh. curl exit 22 is
+    # raised on >=400 responses — treat it as success.
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 30s
+    # the project's pom.xml pins jjwt-jackson 0.12.0 against jjwt-api 0.11.5 
+    # that mix crashes /api/login with a NoClassDefFoundError.
+    # We fetch the matching jjwt-jackson 0.11.5 jar and re-install it into the
+    # local Maven repo under the 0.12.0 coordinates, so Spring Boot loads the
+    # correct bytecode at runtime.
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        MARKER=/root/.m2/.jjwt-jackson-patched
+        if [ ! -f "$$MARKER" ]; then
+          echo ">> one-time dep resolve + jjwt-jackson jar swap"
+          mvn -q -DskipTests dependency:resolve || true
+          mvn -q dependency:copy \
+              -Dartifact=io.jsonwebtoken:jjwt-jackson:0.11.5 \
+              -DoutputDirectory=/tmp
+          mvn -q install:install-file \
+              -Dfile=/tmp/jjwt-jackson-0.11.5.jar \
+              -DgroupId=io.jsonwebtoken \
+              -DartifactId=jjwt-jackson \
+              -Dversion=0.12.0 \
+              -Dpackaging=jar
+          touch "$$MARKER"
+        fi
+        exec mvn -q -DskipTests spring-boot:run
+
+networks:
+  libraryman-net:
+    driver: bridge
+
+volumes:
+  mysql_data:
+  maven_cache:

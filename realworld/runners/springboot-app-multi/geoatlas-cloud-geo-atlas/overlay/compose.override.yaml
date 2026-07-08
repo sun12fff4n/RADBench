@@ -1,0 +1,7 @@
+services:
+  tiles-api-app:
+    build: !reset null      # discard the broken Dockerfile build
+    image: eclipse-temurin:21-jre
+    volumes:
+      - ./app/geoatlas-tile-instance/target/geoatlas-tile-instance-1.0.0-SNAPSHOT.jar:/app.jar:ro
+    entrypoint: ["java", "-jar", "/app.jar"]

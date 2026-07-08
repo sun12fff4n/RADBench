@@ -1,0 +1,32 @@
+name: oref-alerts
+
+services:
+  oref-alerts:
+    image: maven:3.8-openjdk-11
+    container_name: oref-alerts
+    working_dir: /project
+    ports:
+      - "8080:9001"
+    environment:
+      TZ: "Asia/Jerusalem"
+      CURRENT_ALERT_TEST_MODE: "TRUE"
+      CURRENT_ALERT_TEST_MODE_LOC: "אשדוד - יא,יב,טו,יז,מרינה"
+      HISTORY_TEST_MODE: "TRUE"
+      LOGGING_LEVEL_COM_DMATIK_OREFALERTS_SERVICE: "INFO"
+    volumes:
+      - ./:/project
+      - oref_m2:/root/.m2
+    command:
+      - bash
+      - -c
+      - mvn -q -DskipTests spring-boot:run
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9001/current"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 20s
+
+volumes:
+  oref_m2:

@@ -1,0 +1,16 @@
+# geo-atlas needs:
+#   1. A host-side `mvn install` first — the project is multi-module Java 21
+#      Spring Boot 3.5, but the upstream tiles-api-app Dockerfile uses
+#      `FROM adoptopenjdk/openjdk8` So we replaces the build with the JAR
+#      and the JAR has to exist first.
+lifecycle:
+  up: |
+    docker run --rm -v "$PWD":/workspace -w /workspace -v runner-driver-m2:/root/.m2 maven:3.9-eclipse-temurin-21 mvn -B -DskipTests install
+    docker compose --env-file .env.production.local up -d --wait geospatial-data-source tiles-api-app
+  down: |
+    docker compose --env-file .env.production.local down -v
+
+wait:
+  urls:
+    - http://localhost:11002/v1/health/check
+  timeout_seconds: 120

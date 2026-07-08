@@ -1,0 +1,36 @@
+# Explicit project name keeps container/image/network names stable regardless
+# of the directory the runner driver clones into, and prevents image-name
+# collisions with other runners (every runner would otherwise default to
+# `<dirname>-app`).
+name: joal
+
+services:
+  joal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: joal
+    ports:
+      - "8080:8080"
+    volumes:
+      # The README's "joal-conf" — contains config.json, clients/, torrents/.
+      # The repo's resources/ directory already has a working config and the
+      # 90 shipped .client files; we mount it directly as /data.
+      - ./resources:/data
+    command:
+      - "--joal-conf=/data"
+      - "--spring.main.web-environment=true"
+      - "--server.port=8080"
+      - "--joal.ui.path.prefix=joaltest"
+      - "--joal.ui.secret-token=joaltest-secret-token"
+    restart: unless-stopped
+    # Any HTTP response counts as ready: curl exit 22 (>=400) is treated as
+    # success because the path-prefix filter rejects "/" with 401/404 — that
+    # rejection itself proves the server is up. Lets `up -d --wait` block
+    # until the application is actually serving HTTP.
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 20s

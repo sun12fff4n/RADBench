@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/json/[^/]+"
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "status": "success",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "BE",
+      "regionName": "Berlin",
+      "city": "Berlin",
+      "zip": "10115",
+      "lat": "52.52",
+      "lon": "13.405",
+      "timezone": "Europe/Berlin",
+      "isp": "Stub ISP",
+      "org": "Stub Org",
+      "as": "AS0 Stub",
+      "query": "127.0.0.1"
+    }
+  }
+}

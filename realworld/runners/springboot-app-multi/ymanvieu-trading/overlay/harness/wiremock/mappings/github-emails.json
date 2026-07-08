@@ -1,0 +1,10 @@
+{
+  "request": { "method": "GET", "urlPathPattern": "/user/emails" },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": [
+      { "email": "stub@github.example", "primary": true, "verified": true }
+    ]
+  }
+}

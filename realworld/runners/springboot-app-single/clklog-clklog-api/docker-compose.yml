@@ -1,0 +1,63 @@
+name: clklog
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: clklog-redis
+    networks:
+      - clklog-net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.3
+    container_name: clklog-clickhouse
+    environment:
+      CLICKHOUSE_USER: default
+      CLICKHOUSE_PASSWORD: "123456"
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+    networks:
+      - clklog-net
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8123/ping | grep -q Ok"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.compose
+    container_name: clklog-app
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_REDIS_HOST: redis
+      SPRING_REDIS_PORT: "6379"
+      SPRING_DATASOURCE_CLICKHOUSE_JDBC_URL: "jdbc:clickhouse://clickhouse:8123/default"
+      SPRING_DATASOURCE_CLICKHOUSE_USERNAME: "default"
+      SPRING_DATASOURCE_CLICKHOUSE_PASSWORD: "123456"
+    networks:
+      - clklog-net
+    depends_on:
+      redis:
+        condition: service_healthy
+      clickhouse:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/actuator/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 30s
+
+networks:
+  clklog-net:
+    driver: bridge

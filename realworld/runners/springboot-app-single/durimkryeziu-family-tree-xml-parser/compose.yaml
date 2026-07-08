@@ -1,0 +1,27 @@
+name: family-tree-xml-parser
+
+services:
+  family-tree-xml-parser:
+    image: maven:3.6-jdk-8
+    container_name: family-tree-xml-parser
+    working_dir: /project
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/project
+      - family_tree_m2:/root/.m2
+    command:
+      - bash
+      - -c
+      - mvn -q -DskipTests spring-boot:run
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 30s
+
+volumes:
+  family_tree_m2:

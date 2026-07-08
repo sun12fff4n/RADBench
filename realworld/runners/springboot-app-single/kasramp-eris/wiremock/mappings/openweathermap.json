@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/data/2.5/weather.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "coord": { "lat": "52.52", "lon": "13.405" },
+      "weather": [
+        { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01d" }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 14.5,
+        "pressure": 1015,
+        "humidity": 60,
+        "temp_min": 13.0,
+        "temp_max": 16.0,
+        "sea_level": 1015,
+        "grnd_level": 1010
+      },
+      "visibility": 10000,
+      "wind": { "speed": 3.5, "deg": 180 },
+      "clouds": { "all": 0 },
+      "dt": 1700000000,
+      "sys": {
+        "type": 1,
+        "id": 1,
+        "country": "DE",
+        "sunrise": 1700000000,
+        "sunset": 1700040000,
+        "message": 0
+      },
+      "id": 2950159,
+      "name": "Berlin",
+      "cod": 200
+    }
+  }
+}

@@ -1,0 +1,19 @@
+name: adahandle-resolver
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: adahandle-resolver
+    ports:
+      - "8080:9095"
+    environment:
+      SPRING_ACTIVE_PROFILES: disable-indexer,h2
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9095/actuator/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 30s

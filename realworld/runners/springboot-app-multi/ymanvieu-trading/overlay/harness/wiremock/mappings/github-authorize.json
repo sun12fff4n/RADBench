@@ -1,0 +1,10 @@
+{
+  "request": { "method": "GET", "urlPathPattern": "/login/oauth/authorize" },
+  "response": {
+    "status": 302,
+    "headers": {
+      "Location": "{{request.query.redirect_uri}}?code=stub-code&state={{request.query.state}}"
+    },
+    "transformers": ["response-template"]
+  }
+}

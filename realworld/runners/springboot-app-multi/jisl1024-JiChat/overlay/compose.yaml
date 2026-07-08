@@ -1,0 +1,129 @@
+name: jichat
+
+services:
+  mysql:
+    image: crpi-3424o5h7ohwr3qjk.cn-shanghai.personal.cr.aliyuncs.com/jisl-images/mysql:8.0.20
+    container_name: jichat-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: aB37z.9
+      MYSQL_DATABASE: ji_chat
+      TZ: Asia/Shanghai
+    volumes:
+      # Combined init: creates nacos schema, populates both nacos and ji_chat.
+      - ./.test-init/01_setup.sql:/docker-entrypoint-initdb.d/01_setup.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -uroot -paB37z.9"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  redis:
+    image: crpi-3424o5h7ohwr3qjk.cn-shanghai.personal.cr.aliyuncs.com/jisl-images/redis:6.2.6
+    container_name: jichat-redis
+    command: redis-server --requirepass aB37z.9
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a aB37z.9 ping | grep PONG"]
+      interval: 5s
+      retries: 30
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    container_name: jichat-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: aB37z.9
+    healthcheck:
+      test: ["CMD-SHELL", "rabbitmq-diagnostics -q ping"]
+      interval: 10s
+      retries: 20
+      start_period: 30s
+
+  nacos:
+    image: nacos/nacos-server:2.0.2
+    container_name: jichat-nacos
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      MODE: standalone
+      EMBEDDED_STORAGE: embedded
+    ports:
+      - "8848:8848"      # HTTP API
+      - "9848:9848"      # gRPC client
+      - "9849:9849"      # gRPC raft
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8848/nacos/v1/console/health/readiness"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s
+  user-service:
+    image: eclipse-temurin:17-jre
+    container_name: jichat-user-service
+    working_dir: /app
+    depends_on:
+      mysql:
+        condition: service_healthy
+      nacos:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    ports:
+      - "18081:18081"
+    environment:
+      SPRING_DATASOURCE_URL: "jdbc:mysql://mysql:3306/ji_chat?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai"
+      SPRING_DATA_REDIS_HOST: redis
+      SPRING_DATA_REDIS_PORT: "6379"
+      SPRING_DATA_REDIS_PASSWORD: "aB37z.9"
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: "5672"
+      SPRING_RABBITMQ_USERNAME: admin
+      SPRING_RABBITMQ_PASSWORD: "aB37z.9"
+      SPRING_CLOUD_NACOS_DISCOVERY_SERVER_ADDR: "nacos:8848"
+    volumes:
+      - ./jichat-modules/user-service/user-service-app/target/user-service-app.jar:/app/app.jar:ro
+    command: ["java", "-jar", "/app/app.jar"]
+    healthcheck:
+      # /user-api/v3/api-docs returns 200 once Tomcat + Spring context fully up.
+      test: ["CMD-SHELL", "curl -sf http://localhost:18081/user-api/v3/api-docs || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s
+
+  chat-service:
+    image: eclipse-temurin:17-jre
+    container_name: jichat-chat-service
+    working_dir: /app
+    depends_on:
+      mysql:
+        condition: service_healthy
+      nacos:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    ports:
+      - "18080:18080"
+    environment:
+      SPRING_DATASOURCE_URL: "jdbc:mysql://mysql:3306/ji_chat?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai"
+      SPRING_DATA_REDIS_HOST: redis
+      SPRING_DATA_REDIS_PORT: "6379"
+      SPRING_DATA_REDIS_PASSWORD: "aB37z.9"
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: "5672"
+      SPRING_RABBITMQ_USERNAME: admin
+      SPRING_RABBITMQ_PASSWORD: "aB37z.9"
+      SPRING_CLOUD_NACOS_DISCOVERY_SERVER_ADDR: "nacos:8848"
+    volumes:
+      - ./jichat-modules/chat-service/chat-service-app/target/chat-service-app.jar:/app/app.jar:ro
+    command: ["java", "-jar", "/app/app.jar"]
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:18080/chat-api/v3/api-docs || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 30s

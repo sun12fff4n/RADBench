@@ -1,0 +1,29 @@
+name: clickhouse-jdbc-bridge
+
+services:
+  app:
+    image: maven:3.9-eclipse-temurin-8
+    container_name: clickhouse-jdbc-bridge-app
+    working_dir: /project
+    volumes:
+      - ./:/project
+      - maven_cache:/root/.m2
+    ports:
+      - "8080:9019"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9019/ping || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 120s
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        apt-get update -qq && apt-get install -y -qq curl > /dev/null 2>&1
+        mvn -q -DskipTests package -pl . -am
+        exec java -jar target/clickhouse-jdbc-bridge-*-shaded.jar
+
+volumes:
+  maven_cache:

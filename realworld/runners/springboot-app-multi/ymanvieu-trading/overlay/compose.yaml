@@ -1,0 +1,74 @@
+name: trading
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ymanvieu-trading-db
+    environment:
+      POSTGRES_DB: trading
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    networks: [benchnet]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d trading"]
+      interval: 5s
+      retries: 30
+
+  wiremock:
+    image: wiremock/wiremock:3.5.4
+    container_name: ymanvieu-trading-wiremock
+    command: ["--port", "80", "--global-response-templating"]
+    volumes:
+      - ./harness/wiremock/mappings:/home/wiremock/mappings
+    networks: [benchnet]
+
+  app:
+    image: maven:3.9-eclipse-temurin-21
+    container_name: ymanvieu-trading-app
+    working_dir: /project
+    volumes:
+      - .:/project
+      - trading_m2:/root/.m2
+    ports:
+      - "8080:8080"
+    environment:
+      SERVER_PORT: 8080
+      SPRING_PROFILES_ACTIVE: dev
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/trading
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_JPA_PROPERTIES_HIBERNATE_GLOBALLY_QUOTED_IDENTIFIERS: "false"
+      SPRING_SQL_INIT_MODE: always
+      SPRING_SQL_INIT_DATA_LOCATIONS: file:/project/harness/seed.sql
+      SPRING_SQL_INIT_PLATFORM: ""
+      RECAPTCHA_ENABLED: "false"
+      SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GITHUB_CLIENT_ID: stub-github-id
+      SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GITHUB_CLIENT_SECRET: stub-github-secret
+      SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_GITHUB_AUTHORIZATION_URI: http://wiremock/login/oauth/authorize
+      SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_GITHUB_TOKEN_URI: http://wiremock/login/oauth/access_token
+      SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_GITHUB_USER_INFO_URI: http://wiremock/user
+      GITHUB_EMAIL_ADDRESS_URI: http://wiremock/user/emails
+      SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GOOGLE_CLIENT_ID: stub-google-id
+      SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GOOGLE_CLIENT_SECRET: stub-google-secret
+
+    networks: [benchnet]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      wiremock:
+        condition: service_started
+    command: bash -c "mvn -q -DskipTests install && mvn -q -f trading-webapp/pom.xml spring-boot:run"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ || [ $$? -eq 22 ]"]
+      interval: 5s
+      timeout: 3s
+      retries: 60
+      start_period: 60s
+
+networks:
+  benchnet:
+    driver: bridge
+
+volumes:
+  trading_m2:
