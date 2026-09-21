@@ -1,0 +1,52 @@
+{
+  "category": "mechanism-method-invoke",
+  "description": "Method.invoke() used for reflective method invocation — both class and method are resolved reflectively",
+  "app_module": "m1-app",
+  "dependencies": [
+    {
+      "artifactId": "shared-api",
+      "scope": "direct",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_direct",
+      "expected_nia": "used_direct",
+      "note": "Plugin interface imported for loadPlugin cast"
+    },
+    {
+      "artifactId": "m1-impl",
+      "scope": "direct",
+      "usage_type": "REFLECTION",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "used_direct",
+      "note": "Class loaded and method invoked reflectively via Class.forName + Method.invoke"
+    },
+    {
+      "artifactId": "m1-impl-helper",
+      "scope": "transitive",
+      "usage_type": "REFLECTION_TRANSITIVE",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "used_transitive",
+      "note": "Used by MethodInvokePlugin at runtime (PluginHelper.transform), transitive via m1-impl"
+    },
+    {
+      "artifactId": "m1-transitive-unused",
+      "scope": "transitive",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "unused_transitive",
+      "note": "Declared by m1-impl but not used by anyone at runtime"
+    },
+    {
+      "artifactId": "m1-unused-direct",
+      "scope": "direct",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "unused_direct",
+      "note": "Declared in m1-app pom but never referenced"
+    }
+  ]
+}

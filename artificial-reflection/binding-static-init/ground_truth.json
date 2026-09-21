@@ -1,0 +1,52 @@
+{
+  "category": "binding-static-init",
+  "description": "JDBC-style self-registration via Class.forName triggering static initializer side effect",
+  "app_module": "s2-app",
+  "dependencies": [
+    {
+      "artifactId": "shared-api",
+      "scope": "direct",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_direct",
+      "expected_nia": "used_direct",
+      "note": "PluginRegistry and Plugin interface imported in App.java"
+    },
+    {
+      "artifactId": "s2-driver",
+      "scope": "direct",
+      "usage_type": "REFLECTION_STATIC_INIT",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "used_direct",
+      "note": "Only loaded via Class.forName for side effect (static initializer). App never imports or references AutoRegisterPlugin."
+    },
+    {
+      "artifactId": "s2-driver-dep",
+      "scope": "transitive",
+      "usage_type": "REFLECTION_TRANSITIVE",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "used_transitive",
+      "note": "Used by AutoRegisterPlugin.execute() at runtime (DriverCodec.encode), transitive via s2-driver"
+    },
+    {
+      "artifactId": "s2-transitive-unused",
+      "scope": "transitive",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "unused_transitive",
+      "note": "Declared by s2-driver but not used by anyone at runtime"
+    },
+    {
+      "artifactId": "s2-unused-direct",
+      "scope": "direct",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "unused_direct",
+      "note": "Declared in s2-app pom but never referenced"
+    }
+  ]
+}

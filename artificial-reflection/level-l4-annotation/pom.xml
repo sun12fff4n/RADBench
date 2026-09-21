@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.benchmark</groupId>
+        <artifactId>artificial-reflection-benchmark</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>level-l4-annotation</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>l4-annotation-api</module>
+        <module>l4-impl-helper</module>
+        <module>l4-transitive-unused</module>
+        <module>l4-impl</module>
+        <module>l4-unused-direct</module>
+        <module>l4-app</module>
+    </modules>
+</project>

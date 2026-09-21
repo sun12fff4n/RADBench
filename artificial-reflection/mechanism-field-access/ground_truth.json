@@ -1,0 +1,52 @@
+{
+  "category": "mechanism-field-access",
+  "description": "Field.get()/Field.set() used for reflective field access — tests debloating tools' handling of Field reflection",
+  "app_module": "m2-app",
+  "dependencies": [
+    {
+      "artifactId": "shared-api",
+      "scope": "direct",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_direct",
+      "expected_nia": "used_direct",
+      "note": "Plugin interface imported for casting"
+    },
+    {
+      "artifactId": "m2-impl",
+      "scope": "direct",
+      "usage_type": "REFLECTION",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "used_direct",
+      "note": "Class loaded reflectively, field accessed via Field.set()"
+    },
+    {
+      "artifactId": "m2-impl-helper",
+      "scope": "transitive",
+      "usage_type": "REFLECTION_TRANSITIVE",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "used_transitive",
+      "note": "Used by FieldAccessPlugin at runtime"
+    },
+    {
+      "artifactId": "m2-transitive-unused",
+      "scope": "transitive",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "unused_transitive",
+      "note": "Truly unused"
+    },
+    {
+      "artifactId": "m2-unused-direct",
+      "scope": "direct",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "unused_direct",
+      "note": "Truly unused"
+    }
+  ]
+}

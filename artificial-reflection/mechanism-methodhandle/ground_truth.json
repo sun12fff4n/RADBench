@@ -1,0 +1,52 @@
+{
+  "category": "mechanism-methodhandle",
+  "description": "MethodHandle-based reflective construction and invocation — alternative to Method.invoke()",
+  "app_module": "m4-app",
+  "dependencies": [
+    {
+      "artifactId": "shared-api",
+      "scope": "direct",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_direct",
+      "expected_nia": "used_direct",
+      "note": "Plugin interface imported for casting"
+    },
+    {
+      "artifactId": "m4-impl",
+      "scope": "direct",
+      "usage_type": "REFLECTION",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "used_direct",
+      "note": "Class loaded via Class.forName, constructed and invoked via MethodHandle"
+    },
+    {
+      "artifactId": "m4-impl-helper",
+      "scope": "transitive",
+      "usage_type": "REFLECTION_TRANSITIVE",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "used_transitive",
+      "note": "Used by HandlePlugin at runtime"
+    },
+    {
+      "artifactId": "m4-transitive-unused",
+      "scope": "transitive",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "unused_transitive",
+      "note": "Truly unused"
+    },
+    {
+      "artifactId": "m4-unused-direct",
+      "scope": "direct",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "unused_direct",
+      "note": "Truly unused"
+    }
+  ]
+}

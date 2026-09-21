@@ -1,0 +1,61 @@
+{
+  "category": "topology-diamond",
+  "description": "Diamond dependency topology — d2-common is transitive via two paths (d2-left uses it reflectively, d2-right uses it statically). Tests DepClean's handling of multi-path transitive deps.",
+  "app_module": "d2-app",
+  "dependencies": [
+    {
+      "artifactId": "d2-left",
+      "scope": "direct",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_direct",
+      "expected_nia": "used_direct",
+      "note": "LeftFacade imported and called directly in App"
+    },
+    {
+      "artifactId": "d2-right",
+      "scope": "direct",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_direct",
+      "expected_nia": "used_direct",
+      "note": "RightFacade imported and called directly in App"
+    },
+    {
+      "artifactId": "d2-common",
+      "scope": "transitive",
+      "usage_type": "REFLECTION_TRANSITIVE",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "used_transitive",
+      "note": "Diamond bottom — transitive via both d2-left (reflection) and d2-right (static). DepClean may miss the reflective usage path."
+    },
+    {
+      "artifactId": "shared-api",
+      "scope": "transitive",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_transitive",
+      "expected_nia": "used_transitive",
+      "note": "Plugin interface — transitive via d2-left and d2-right (not a direct dep of d2-app)"
+    },
+    {
+      "artifactId": "d2-transitive-unused",
+      "scope": "transitive",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "unused_transitive",
+      "note": "Truly unused transitive (declared by d2-left)"
+    },
+    {
+      "artifactId": "d2-unused-direct",
+      "scope": "direct",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "unused_direct",
+      "note": "Truly unused direct dependency"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "level-l1-literal",
+  "description": "Class.forName with literal string constant",
+  "app_module": "l1-app",
+  "dependencies": [
+    {
+      "artifactId": "shared-api",
+      "scope": "direct",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_direct",
+      "expected_nia": "used_direct",
+      "note": "Plugin interface imported in App.java source code"
+    },
+    {
+      "artifactId": "l1-impl",
+      "scope": "direct",
+      "usage_type": "REFLECTION",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "used_direct",
+      "note": "Only loaded via Class.forName(\"com.benchmark.l1.impl.LiteralPlugin\") — no static import"
+    },
+    {
+      "artifactId": "l1-impl-helper",
+      "scope": "transitive",
+      "usage_type": "REFLECTION_TRANSITIVE",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "used_transitive",
+      "note": "Used by LiteralPlugin at runtime (PluginHelper.transform), transitive via l1-impl"
+    },
+    {
+      "artifactId": "l1-transitive-unused",
+      "scope": "transitive",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "unused_transitive",
+      "note": "Declared by l1-impl but not used by anyone at runtime"
+    },
+    {
+      "artifactId": "l1-unused-direct",
+      "scope": "direct",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "unused_direct",
+      "note": "Declared in l1-app pom but never referenced"
+    }
+  ]
+}

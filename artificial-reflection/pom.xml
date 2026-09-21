@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.benchmark</groupId>
+    <artifactId>artificial-reflection-benchmark</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Artificial Reflection Benchmark</name>
+    <description>Minimal projects covering Java reflection patterns</description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.11.4</junit.version>
+    </properties>
+
+    <modules>
+        <module>shared-api</module>
+        <!-- Resolvability levels -->
+        <module>level-l1-literal</module>
+        <module>level-l2-param-passing</module>
+        <module>level-l3-config-file</module>
+        <module>level-l4-annotation</module>
+        <module>level-l5-runtime-computed</module>
+        <!-- Binding protocols -->
+        <module>binding-serviceloader</module>
+        <module>binding-static-init</module>
+        <!-- Reflection mechanisms -->
+        <module>mechanism-method-invoke</module>
+        <module>mechanism-field-access</module>
+        <module>mechanism-proxy</module>
+        <module>mechanism-methodhandle</module>
+        <!-- Dependency topologies -->
+        <module>topology-chain-reflect</module>
+        <module>topology-diamond</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>17</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.2</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>

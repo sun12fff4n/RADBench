@@ -1,0 +1,52 @@
+{
+  "category": "binding-serviceloader",
+  "description": "ServiceLoader SPI — class name only in META-INF/services file, not in Java source",
+  "app_module": "s1-app",
+  "dependencies": [
+    {
+      "artifactId": "shared-api",
+      "scope": "direct",
+      "usage_type": "STATIC",
+      "used_at_runtime": true,
+      "expected_depclean": "used_direct",
+      "expected_nia": "used_direct",
+      "note": "Plugin interface imported in App.java"
+    },
+    {
+      "artifactId": "s1-spi-impl",
+      "scope": "direct",
+      "usage_type": "SPI",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "used_direct",
+      "note": "Only discovered via ServiceLoader from META-INF/services — zero static references in app source"
+    },
+    {
+      "artifactId": "s1-spi-helper",
+      "scope": "transitive",
+      "usage_type": "SPI_TRANSITIVE",
+      "used_at_runtime": true,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "used_transitive",
+      "note": "Used by SpiPlugin.execute() at runtime (SpiHelper.enrich), transitive via s1-spi-impl"
+    },
+    {
+      "artifactId": "s1-transitive-unused",
+      "scope": "transitive",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_transitive",
+      "expected_nia": "unused_transitive",
+      "note": "Declared by s1-spi-impl but not used by anyone at runtime"
+    },
+    {
+      "artifactId": "s1-unused-direct",
+      "scope": "direct",
+      "usage_type": "UNUSED",
+      "used_at_runtime": false,
+      "expected_depclean": "unused_direct",
+      "expected_nia": "unused_direct",
+      "note": "Declared in s1-app pom but never referenced"
+    }
+  ]
+}
