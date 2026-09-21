@@ -1,0 +1,185 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< de.joblift:gitlab-panorama >---------------------
+[INFO] Building gitlab-panorama 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-maven) @ gitlab-panorama ---
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-java) @ gitlab-panorama ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ gitlab-panorama ---
+[INFO] Copying 1 resource
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ gitlab-panorama ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 46 source files to /project/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/storage/local/LocalStorageConfiguration.java:[8,30] package com.google.common.base does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/storage/local/LocalStorageConfiguration.java:[14,24] package javax.annotation does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/aggregator/Aggregator.java:[12,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/aggregator/Aggregator.java:[13,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/PipelinesState.java:[14,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/filter/FilterLists.java:[8,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/util/Mapper.java:[9,45] package com.fasterxml.jackson.datatype.jsr310 does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/adapter/bashboard/ShellResource.java:[14,30] package com.google.common.base does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/adapter/bashboard/ShellResource.java:[15,30] package com.google.common.base does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/api/FullstateController.java:[6,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabFullstateCollector.java:[10,30] package com.google.common.base does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabFullstateCollector.java:[11,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/api/FullstateController.java:[21,17] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.resources.api.FullstateController
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/api/FullstateController.java:[16,1] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.resources.api.FullstateController
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabClient.java:[15,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabClient.java:[16,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabFullstateCollector.java:[29,17] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.gitlab.GitlabFullstateCollector
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabFullstateCollector.java:[25,1] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.gitlab.GitlabFullstateCollector
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookResource.java:[3,24] package javax.annotation does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookService.java:[5,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookService.java:[23,17] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.resources.webhook.WebhookService
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookService.java:[20,1] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.resources.webhook.WebhookService
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/Initializer.java:[9,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/Initializer.java:[31,17] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.initialization.Initializer
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/Initializer.java:[27,1] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.initialization.Initializer
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/AppConfig.java:[10,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/AppConfig.java:[20,16] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.initialization.AppConfig
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[5,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[6,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[24,76] cannot find symbol
+  symbol:   class EventBus
+  location: class de.joblift.service.gitlabpanorama.core.state.StorageListener
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/storage/local/LocalStorageConfiguration.java:[21,1] cannot find symbol
+  symbol:   class Nullable
+  location: class de.joblift.service.gitlabpanorama.storage.local.LocalStorageConfiguration
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/PipelinesState.java:[31,10] cannot find symbol
+  symbol:   class Subscribe
+  location: class de.joblift.service.gitlabpanorama.core.state.PipelinesState
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/PipelinesState.java:[40,10] cannot find symbol
+  symbol:   class Subscribe
+  location: class de.joblift.service.gitlabpanorama.core.state.PipelinesState
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/PipelinesState.java:[47,10] cannot find symbol
+  symbol:   class Subscribe
+  location: class de.joblift.service.gitlabpanorama.core.state.PipelinesState
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookResource.java:[29,59] cannot find symbol
+  symbol:   class Nullable
+  location: class de.joblift.service.gitlabpanorama.resources.webhook.WebhookResource
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookResource.java:[40,59] cannot find symbol
+  symbol:   class Nullable
+  location: class de.joblift.service.gitlabpanorama.resources.webhook.WebhookResource
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[31,10] cannot find symbol
+  symbol:   class Subscribe
+  location: class de.joblift.service.gitlabpanorama.core.state.StorageListener
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[39,10] cannot find symbol
+  symbol:   class Subscribe
+  location: class de.joblift.service.gitlabpanorama.core.state.StorageListener
+[INFO] 38 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.071 s
+[INFO] Finished at: 2026-09-11T19:38:02Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project gitlab-panorama: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/storage/local/LocalStorageConfiguration.java:[8,30] package com.google.common.base does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/storage/local/LocalStorageConfiguration.java:[14,24] package javax.annotation does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/aggregator/Aggregator.java:[12,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/aggregator/Aggregator.java:[13,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/PipelinesState.java:[14,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/filter/FilterLists.java:[8,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/util/Mapper.java:[9,45] package com.fasterxml.jackson.datatype.jsr310 does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/adapter/bashboard/ShellResource.java:[14,30] package com.google.common.base does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/adapter/bashboard/ShellResource.java:[15,30] package com.google.common.base does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/api/FullstateController.java:[6,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabFullstateCollector.java:[10,30] package com.google.common.base does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabFullstateCollector.java:[11,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/api/FullstateController.java:[21,17] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.resources.api.FullstateController
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/api/FullstateController.java:[16,1] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.resources.api.FullstateController
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabClient.java:[15,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabClient.java:[16,33] package com.google.common.collect does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabFullstateCollector.java:[29,17] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.gitlab.GitlabFullstateCollector
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/gitlab/GitlabFullstateCollector.java:[25,1] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.gitlab.GitlabFullstateCollector
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookResource.java:[3,24] package javax.annotation does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookService.java:[5,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookService.java:[23,17] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.resources.webhook.WebhookService
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookService.java:[20,1] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.resources.webhook.WebhookService
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/Initializer.java:[9,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/Initializer.java:[31,17] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.initialization.Initializer
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/Initializer.java:[27,1] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.initialization.Initializer
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/AppConfig.java:[10,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/initialization/AppConfig.java:[20,16] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.initialization.AppConfig
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[5,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[6,34] package com.google.common.eventbus does not exist
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[24,76] cannot find symbol
+[ERROR]   symbol:   class EventBus
+[ERROR]   location: class de.joblift.service.gitlabpanorama.core.state.StorageListener
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/storage/local/LocalStorageConfiguration.java:[21,1] cannot find symbol
+[ERROR]   symbol:   class Nullable
+[ERROR]   location: class de.joblift.service.gitlabpanorama.storage.local.LocalStorageConfiguration
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/PipelinesState.java:[31,10] cannot find symbol
+[ERROR]   symbol:   class Subscribe
+[ERROR]   location: class de.joblift.service.gitlabpanorama.core.state.PipelinesState
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/PipelinesState.java:[40,10] cannot find symbol
+[ERROR]   symbol:   class Subscribe
+[ERROR]   location: class de.joblift.service.gitlabpanorama.core.state.PipelinesState
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/PipelinesState.java:[47,10] cannot find symbol
+[ERROR]   symbol:   class Subscribe
+[ERROR]   location: class de.joblift.service.gitlabpanorama.core.state.PipelinesState
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookResource.java:[29,59] cannot find symbol
+[ERROR]   symbol:   class Nullable
+[ERROR]   location: class de.joblift.service.gitlabpanorama.resources.webhook.WebhookResource
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/resources/webhook/WebhookResource.java:[40,59] cannot find symbol
+[ERROR]   symbol:   class Nullable
+[ERROR]   location: class de.joblift.service.gitlabpanorama.resources.webhook.WebhookResource
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[31,10] cannot find symbol
+[ERROR]   symbol:   class Subscribe
+[ERROR]   location: class de.joblift.service.gitlabpanorama.core.state.StorageListener
+[ERROR] /project/src/main/java/de/joblift/service/gitlabpanorama/core/state/StorageListener.java:[39,10] cannot find symbol
+[ERROR]   symbol:   class Subscribe
+[ERROR]   location: class de.joblift.service.gitlabpanorama.core.state.StorageListener
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

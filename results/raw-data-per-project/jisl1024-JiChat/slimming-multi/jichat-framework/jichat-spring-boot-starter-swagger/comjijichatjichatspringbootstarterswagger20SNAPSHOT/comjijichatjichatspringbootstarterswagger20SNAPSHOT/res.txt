@@ -1,0 +1,80 @@
+Project info>>>>/private/tmp/analysis-runs/jisl1024-JiChat/jichat-framework/jichat-spring-boot-starter-swagger
+Project Name>>>>com.ji.jichat:jichat-spring-boot-starter-swagger:2.0-SNAPSHOT
+OriginalSize>>>>36357KB
+BloatedSize>>>>276KB
+All Dependencies>>>>57
+Used Dependencies>>>>53
+Used Self Direct Dependency>>>>2
+Used Self Indirect Dependency>>>>51
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>4
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>4
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>4
+realBloated>>>>4
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>12091
+buildClassExtendGraphTime>>>>174
+buildCallGraphTime>>>>1318656
+levelTime>>>>109
+stringTime>>>>4
+licenseCheckTime>>>>6297
+bugCheckTime>>>>122
+maintenanceTimeCheckTime>>>>1398
+checkTime>>>>1340423
+repairTime>>>>9810
+mvnTestTime>>>>3959
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>27
+TomcatAPI>>>>0
+.class>>>>8632
+forName>>>>55
+loadClass>>>>40
+getClass>>>>783
+reflectEdges>>>>9332
+unReflectEdges>>>>19
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object getDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.http.codec.CodecConfigurerFactory: org.springframework.http.codec.CodecConfigurer create(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.util.List getDefaultStrategies(org.springframework.context.ApplicationContext,java.lang.Class)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class[] getClassesFromContextPath(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><com.alibaba.fastjson2.reader.ObjectReaderImplObject: java.lang.Object readObject(com.alibaba.fastjson2.JSONReader,java.lang.reflect.Type,java.lang.Object,long)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.springframework.web.util.UrlPathHelper: boolean shouldRemoveTrailingServletPathSlash(jakarta.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.el.ImportHandler: java.lang.Class findClass(java.lang.String,boolean)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.springframework.boot.autoconfigure.http.HttpMessageConverters: void addClassIfExists(java.util.List,java.lang.String)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><com.alibaba.fastjson2.JSONReaderJSONB: com.alibaba.fastjson2.reader.ObjectReader getObjectReaderContext(com.alibaba.fastjson2.reader.ObjectReader,java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class findFirstByJaxbIndex(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>

@@ -1,0 +1,1020 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.codefork.conciliator:conciliator >----------------
+[INFO] Building conciliator 3.1.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ conciliator ---
+[INFO] Executing: /bin/sh -c cd '/project' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /project
+[INFO] Storing buildNumber: 8f95521b53f695f81d82a864571213e3d488b28b at timestamp: 1790021416119
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/project' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /project
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default-prepare-agent) @ conciliator ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ conciliator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ conciliator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ conciliator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 22 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ conciliator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /project/target/test-classes
+[INFO] /project/src/test/java/com/codefork/refine/viaf/VIAFParserTest.java: /project/src/test/java/com/codefork/refine/viaf/VIAFParserTest.java uses or overrides a deprecated API.
+[INFO] /project/src/test/java/com/codefork/refine/viaf/VIAFParserTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ conciliator ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom (7.0 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom (2.5 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.pom (2.2 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom (1.2 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.pom (2.4 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom (2.0 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom (1.7 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar (95 kB at 691 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar (2.2 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar (7.1 kB at 106 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar (66 kB at 289 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar (78 kB at 337 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar (135 kB at 553 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codefork.refine.viaf.VIAFParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.311 s - in com.codefork.refine.viaf.VIAFParserTest
+[INFO] Running com.codefork.refine.viaf.ThreadPoolTest
+20:10:30.715 [main] INFO com.codefork.refine.ThreadPool - Starting thread pool, size = 4
+20:10:30.720 [main] INFO com.codefork.refine.ThreadPool - Shrinking pool, new size = 3
+20:10:32.222 [main] INFO com.codefork.refine.ThreadPool - Shrinking pool, new size = 2
+20:10:34.723 [main] INFO com.codefork.refine.ThreadPool - Growing pool, new size = 3
+20:10:34.724 [main] INFO com.codefork.refine.ThreadPool - Shutting down thread pool
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.159 s - in com.codefork.refine.viaf.ThreadPoolTest
+[INFO] Running com.codefork.refine.viaf.StringUtilTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.codefork.refine.viaf.StringUtilTest
+[INFO] Running com.codefork.refine.orcid.OrcidParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.codefork.refine.orcid.OrcidParserTest
+[INFO] Running com.codefork.refine.ConfigTest
+20:10:34.768 [main] INFO com.codefork.refine.Config - Loading configuration from conciliator.properties
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.codefork.refine.ConfigTest
+[INFO] Running com.codefork.refine.solr.SolrParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.codefork.refine.solr.SolrParserTest
+[INFO] Running com.codefork.refine.controllers.OpenLibraryControllerTest
+20:10:34.882 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:10:34.899 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:10:34.967 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.codefork.refine.controllers.OpenLibraryControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:10:34.997 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.OpenLibraryControllerTest], using SpringBootContextLoader
+20:10:35.010 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.codefork.refine.controllers.OpenLibraryControllerTest]: class path resource [com/codefork/refine/controllers/OpenLibraryControllerTest-context.xml] does not exist
+20:10:35.011 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.codefork.refine.controllers.OpenLibraryControllerTest]: class path resource [com/codefork/refine/controllers/OpenLibraryControllerTestContext.groovy] does not exist
+20:10:35.011 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.codefork.refine.controllers.OpenLibraryControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:10:35.013 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.codefork.refine.controllers.OpenLibraryControllerTest]: OpenLibraryControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:10:35.164 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.codefork.refine.controllers.OpenLibraryControllerTest]
+20:10:35.326 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/project/target/classes/com/codefork/refine/Application.class]
+20:10:35.341 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.OpenLibraryControllerTest
+20:10:35.561 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.codefork.refine.controllers.OpenLibraryControllerTest]: using defaults.
+20:10:35.562 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:10:35.590 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+20:10:35.591 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+20:10:35.592 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f40e5db, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@517566b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@64b73e7a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@530712d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2df6226d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12ed9db6, org.springframework.test.context.event.EventPublishingTestExecutionListener@4ff4357f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@49cb9cb5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@55322aab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2b4c1d96, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@45fd9a4d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@50468873, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@146587a2]
+20:10:35.596 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@13d9b21f testClass = OpenLibraryControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2826f61 testClass = OpenLibraryControllerTest, locations = '{}', classes = '{class com.codefork.refine.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@62727399 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@45d84a20, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@c430e6c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@f29b4915, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@65f8f5ae, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@d554c5f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@624ea235, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@262b2c86], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:10:36.602  INFO 111 --- [           main] c.c.r.c.OpenLibraryControllerTest        : Starting OpenLibraryControllerTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:10:36.604  INFO 111 --- [           main] c.c.r.c.OpenLibraryControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:10:40.444  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:10:40.486  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=3600 secs, size=64 MB
+2026-09-21 20:10:40.658  INFO 111 --- [           main] o.e.s.filters.AnnotationSizeOfFilter     : Using regular expression provided through VM argument org.ehcache.sizeof.filters.AnnotationSizeOfFilter.pattern for IgnoreSizeOf annotation : ^.*cache\..*IgnoreSizeOf$
+2026-09-21 20:10:40.774  INFO 111 --- [           main] org.ehcache.sizeof.impl.JvmInformation   : Detected JVM data model settings of: 64-Bit OpenJDK JVM with Compressed OOPs
+2026-09-21 20:10:40.819  INFO 111 --- [           main] org.ehcache.sizeof.impl.AgentLoader      : Failed to attach to VM and load the agent: class java.io.IOException: Can not attach to current VM
+2026-09-21 20:10:40.966  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:10:41.014  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:10:41.029  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:10:41.048  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:41.077  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:41.078  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:41.108  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:41.125  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:41.140  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:41.622  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 230ad7fc-cf76-4a58-b34d-3852d74e3d37
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:10:42.364  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@56d6a1b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a7163e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@13004dd8, org.springframework.security.web.header.HeaderWriterFilter@74431b9c, org.springframework.security.web.authentication.logout.LogoutFilter@28e94c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f7e52d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e01a26b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44da7eb3, org.springframework.security.web.session.SessionManagementFilter@3070f3e6, org.springframework.security.web.access.ExceptionTranslationFilter@1af677f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8f39224]
+2026-09-21 20:10:45.106  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:10:45.107  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:10:45.111  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-09-21 20:10:45.163  INFO 111 --- [           main] c.c.r.c.OpenLibraryControllerTest        : Started OpenLibraryControllerTest in 9.497 seconds (JVM running for 21.04)
+2026-09-21 20:10:46.910  WARN 111 --- [pool-2-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'transient java.lang.Object[] java.util.ArrayList.elementData' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field transient java.lang.Object[] java.util.ArrayList.elementData accessible: module java.base does not "opens java.util" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:10:46.911  WARN 111 --- [pool-2-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'private final byte[] java.lang.String.value' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:10:46.962  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:46.963  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:46.964  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:46.964  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.126 s - in com.codefork.refine.controllers.OpenLibraryControllerTest
+[INFO] Running com.codefork.refine.controllers.SolrControllerTest
+2026-09-21 20:10:46.970  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.SolrControllerTest], using SpringBootContextLoader
+2026-09-21 20:10:46.974  INFO 111 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.codefork.refine.controllers.SolrControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-09-21 20:10:46.992  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.SolrControllerTest
+2026-09-21 20:10:47.001  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-09-21 20:10:47.007  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@38c55a8a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d7f7962, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@32d1d6c5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4a5b38e6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58583a2d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e8afc2d, org.springframework.test.context.event.EventPublishingTestExecutionListener@2d172c7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@115ef673, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@8ce3f27, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@614cd187, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6802d023, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e895e3e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@77476fcf]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:10:47.159  INFO 111 --- [           main] c.c.r.controllers.SolrControllerTest     : Starting SolrControllerTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:10:47.159  INFO 111 --- [           main] c.c.r.controllers.SolrControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:10:48.540  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:10:48.563  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:10:48.575  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=3600 secs, size=64 MB
+2026-09-21 20:10:48.588  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' removed from EhcacheManager.
+2026-09-21 20:10:48.620  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:10:48.624  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:10:48.641  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:10:48.657  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:48.669  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:48.671  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:48.705  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:48.721  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:48.735  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:49.019  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8171cdab-f439-40f0-8953-d52e59765100
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:10:49.340  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7381d6f0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f262474, org.springframework.security.web.context.SecurityContextPersistenceFilter@11dbcb3b, org.springframework.security.web.header.HeaderWriterFilter@703cb756, org.springframework.security.web.authentication.logout.LogoutFilter@75de7009, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4aa517c3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f369fc6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c03f9d0, org.springframework.security.web.session.SessionManagementFilter@5897aae1, org.springframework.security.web.access.ExceptionTranslationFilter@1af82ba8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f5923ef]
+2026-09-21 20:10:50.782  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:10:50.782  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:10:50.784  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-21 20:10:50.798  INFO 111 --- [           main] c.c.r.controllers.SolrControllerTest     : Started SolrControllerTest in 3.785 seconds (JVM running for 26.675)
+2026-09-21 20:10:50.831  WARN 111 --- [ool-12-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'transient java.lang.Object[] java.util.ArrayList.elementData' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field transient java.lang.Object[] java.util.ArrayList.elementData accessible: module java.base does not "opens java.util" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:10:50.833  WARN 111 --- [ool-12-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'private final byte[] java.lang.String.value' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:10:50.861  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:50.862  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:50.863  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:50.865  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.884 s - in com.codefork.refine.controllers.SolrControllerTest
+[INFO] Running com.codefork.refine.controllers.OrcidSmartNamesControllerTest
+2026-09-21 20:10:50.869  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.OrcidSmartNamesControllerTest], using SpringBootContextLoader
+2026-09-21 20:10:50.873  INFO 111 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.codefork.refine.controllers.OrcidSmartNamesControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-09-21 20:10:50.874  INFO 111 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.codefork.refine.controllers.OrcidSmartNamesControllerTest]: OrcidSmartNamesControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-21 20:10:50.885  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.OrcidSmartNamesControllerTest
+2026-09-21 20:10:50.892  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-09-21 20:10:50.898  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@61bf405d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32298473, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@19f1be04, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5d6b5d3d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@464d5365, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38394dc3, org.springframework.test.context.event.EventPublishingTestExecutionListener@2cacd55e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2ba9f743, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7535f28, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@75f65d54, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3f3a6091, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5b4d9bda, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@467a2584]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:10:50.996  INFO 111 --- [           main] c.c.r.c.OrcidSmartNamesControllerTest    : Starting OrcidSmartNamesControllerTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:10:50.997  INFO 111 --- [           main] c.c.r.c.OrcidSmartNamesControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:10:52.149  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:10:52.162  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=3600 secs, size=64 MB
+2026-09-21 20:10:52.164  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' removed from EhcacheManager.
+2026-09-21 20:10:52.185  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:10:52.187  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:10:52.199  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:10:52.206  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:52.217  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:52.219  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:52.242  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:52.254  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:52.264  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:52.475  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 938fa64d-9f09-4245-bb8a-81d6d0a3a266
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:10:52.761  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57cff804, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f39b534, org.springframework.security.web.context.SecurityContextPersistenceFilter@582ea164, org.springframework.security.web.header.HeaderWriterFilter@5340ccb9, org.springframework.security.web.authentication.logout.LogoutFilter@3ac406d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fccf49e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7abcc0da, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60fbc34d, org.springframework.security.web.session.SessionManagementFilter@2bc8caa7, org.springframework.security.web.access.ExceptionTranslationFilter@104cfb24, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@612290d]
+2026-09-21 20:10:54.372  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:10:54.372  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:10:54.374  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-21 20:10:54.399  INFO 111 --- [           main] c.c.r.c.OrcidSmartNamesControllerTest    : Started OrcidSmartNamesControllerTest in 3.496 seconds (JVM running for 30.276)
+2026-09-21 20:10:54.538  WARN 111 --- [ool-15-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'transient java.lang.Object[] java.util.ArrayList.elementData' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field transient java.lang.Object[] java.util.ArrayList.elementData accessible: module java.base does not "opens java.util" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:10:54.540  WARN 111 --- [ool-15-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'private final byte[] java.lang.String.value' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:10:54.570  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:54.571  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:54.571  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:54.573  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.689 s - in com.codefork.refine.controllers.OrcidSmartNamesControllerTest
+[INFO] Running com.codefork.refine.controllers.OrcidControllerTest
+2026-09-21 20:10:54.578  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.OrcidControllerTest], using SpringBootContextLoader
+2026-09-21 20:10:54.581  INFO 111 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.codefork.refine.controllers.OrcidControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-09-21 20:10:54.582  INFO 111 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.codefork.refine.controllers.OrcidControllerTest]: OrcidControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-21 20:10:54.595  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.OrcidControllerTest
+2026-09-21 20:10:54.601  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-09-21 20:10:54.605  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@671f545b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c335b9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@75c8d8e7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3c68e82, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e66bf2d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7112fa5, org.springframework.test.context.event.EventPublishingTestExecutionListener@342dc040, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3a8ead9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@281ca256, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@26feccf7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c8b37a8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3831f4c2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@75f2ff80]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:10:54.717  INFO 111 --- [           main] c.c.r.controllers.OrcidControllerTest    : Starting OrcidControllerTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:10:54.717  INFO 111 --- [           main] c.c.r.controllers.OrcidControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:10:55.850  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:10:55.864  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=3600 secs, size=64 MB
+2026-09-21 20:10:55.866  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' removed from EhcacheManager.
+2026-09-21 20:10:55.895  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:10:55.900  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:10:55.914  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:10:55.921  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:55.931  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:55.933  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:55.957  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:55.971  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:55.982  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:10:56.246  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 78d4615f-da9d-4479-9cda-fdd1b8e3a626
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:10:56.582  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4c7f2fdb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b5cf611, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f8f5d37, org.springframework.security.web.header.HeaderWriterFilter@566cc6af, org.springframework.security.web.authentication.logout.LogoutFilter@31b289da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f9cd1e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ff53704, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d01ea33, org.springframework.security.web.session.SessionManagementFilter@d70dbeb, org.springframework.security.web.access.ExceptionTranslationFilter@5f65e0c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@574327ed]
+2026-09-21 20:10:58.528  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:10:58.529  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:10:58.531  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-09-21 20:10:58.568  INFO 111 --- [           main] c.c.r.controllers.OrcidControllerTest    : Started OrcidControllerTest in 3.956 seconds (JVM running for 34.446)
+2026-09-21 20:10:58.733  WARN 111 --- [ool-21-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'transient java.lang.Object[] java.util.ArrayList.elementData' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field transient java.lang.Object[] java.util.ArrayList.elementData accessible: module java.base does not "opens java.util" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:10:58.734  WARN 111 --- [ool-21-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'private final byte[] java.lang.String.value' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:10:58.753  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:58.753  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:58.754  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:10:58.754  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.168 s - in com.codefork.refine.controllers.OrcidControllerTest
+[INFO] Running com.codefork.refine.controllers.VIAFLiveTest
+2026-09-21 20:10:58.757  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.VIAFLiveTest], using SpringBootContextLoader
+2026-09-21 20:10:58.760  INFO 111 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.codefork.refine.controllers.VIAFLiveTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-09-21 20:10:58.761  INFO 111 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.codefork.refine.controllers.VIAFLiveTest]: VIAFLiveTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-21 20:10:58.768  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.VIAFLiveTest
+2026-09-21 20:10:58.774  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-09-21 20:10:58.777  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@306bf4c3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5cf80dfb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@532ea86b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4219a4cc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2dbb8da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3130ca39, org.springframework.test.context.event.EventPublishingTestExecutionListener@17fb5184, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@184bb873, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@696ce057, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5eba9e41, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@13809363, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@564d3940, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@58ad0586]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:10:58.869  INFO 111 --- [           main] c.c.refine.controllers.VIAFLiveTest      : Starting VIAFLiveTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:10:58.870  INFO 111 --- [           main] c.c.refine.controllers.VIAFLiveTest      : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:11:00.186  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:11:00.208  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=3600 secs, size=64 MB
+2026-09-21 20:11:00.210  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' removed from EhcacheManager.
+2026-09-21 20:11:00.241  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:11:00.246  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:00.265  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:00.299  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:00.318  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:00.319  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:00.360  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:00.381  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:00.405  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:00.768  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5a5da710-aa53-4046-8072-c0f3b01abbcd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:11:01.529  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76208b80, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@339cde4b, org.springframework.security.web.context.SecurityContextPersistenceFilter@107ebdad, org.springframework.security.web.header.HeaderWriterFilter@37344d31, org.springframework.security.web.authentication.logout.LogoutFilter@767cc126, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e3275d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bfafce1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1774c4e2, org.springframework.security.web.session.SessionManagementFilter@44a98a23, org.springframework.security.web.access.ExceptionTranslationFilter@345540f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70ad0854]
+2026-09-21 20:11:03.392  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:11:03.392  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:11:03.393  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-09-21 20:11:03.406  INFO 111 --- [           main] c.c.refine.controllers.VIAFLiveTest      : Started VIAFLiveTest in 4.624 seconds (JVM running for 39.283)
+2026-09-21 20:11:05.982  WARN 111 --- [ool-31-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'transient java.lang.Object[] java.util.ArrayList.elementData' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field transient java.lang.Object[] java.util.ArrayList.elementData accessible: module java.base does not "opens java.util" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:11:05.982  WARN 111 --- [ool-31-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'private final byte[] java.lang.String.value' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:11:09.102  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:09.103  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:09.104  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:09.104  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.337 s - in com.codefork.refine.controllers.VIAFLiveTest
+[INFO] Running com.codefork.refine.controllers.VIAFTooManyRequestsTest
+2026-09-21 20:11:09.110  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.VIAFTooManyRequestsTest], using SpringBootContextLoader
+2026-09-21 20:11:09.115  INFO 111 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.codefork.refine.controllers.VIAFTooManyRequestsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-09-21 20:11:09.123  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.VIAFTooManyRequestsTest
+2026-09-21 20:11:09.128  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-09-21 20:11:09.130  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@208185c0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1831447c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7741507c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@37a0fc8c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1ba3c03d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9a37591, org.springframework.test.context.event.EventPublishingTestExecutionListener@749c0669, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4468c0ea, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@41cf4272, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@53d2b827, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4769537a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4504a4ed, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7ee3a2ed]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:11:09.185  INFO 111 --- [           main] c.c.r.c.VIAFTooManyRequestsTest          : Starting VIAFTooManyRequestsTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:11:09.186  INFO 111 --- [           main] c.c.r.c.VIAFTooManyRequestsTest          : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:11:10.344  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:11:10.354  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=3600 secs, size=64 MB
+2026-09-21 20:11:10.355  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' removed from EhcacheManager.
+2026-09-21 20:11:10.379  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:11:10.381  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:10.391  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:10.408  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:10.417  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:10.418  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:10.436  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:10.446  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:10.454  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:10.607  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e890bec6-87ac-4ee7-81cb-1278fe28793c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:11:10.768  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ea45a5b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57f83c82, org.springframework.security.web.context.SecurityContextPersistenceFilter@27d0376f, org.springframework.security.web.header.HeaderWriterFilter@712e4b18, org.springframework.security.web.authentication.logout.LogoutFilter@45c2c396, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21948bd1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22617270, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a600e21, org.springframework.security.web.session.SessionManagementFilter@af96ac9, org.springframework.security.web.access.ExceptionTranslationFilter@3e170abe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2696b687]
+2026-09-21 20:11:11.806  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:11:11.806  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:11:11.809  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-21 20:11:11.822  INFO 111 --- [           main] c.c.r.c.VIAFTooManyRequestsTest          : Started VIAFTooManyRequestsTest in 2.687 seconds (JVM running for 47.7)
+2026-09-21 20:11:11.845 ERROR 111 --- [ool-37-thread-1] com.codefork.refine.viaf.VIAF            : error for query=whatever
+
+java.io.IOException: Server returned HTTP response code: 429 for URL:https://www.viaf.org/viaf/search?query=local.mainHeadingEl%20all%20%22whatever%22&sortKeys=holdingscount&maximumRecords=3
+	at com.codefork.refine.viaf.VIAF.search(VIAF.java:140) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:274) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:11:11.849  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shrinking pool, new size = 3
+2026-09-21 20:11:11.860  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:11.861  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:11.861  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:11.861  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.744 s - in com.codefork.refine.controllers.VIAFTooManyRequestsTest
+[INFO] Running com.codefork.refine.controllers.VIAFProxyControllerTest
+2026-09-21 20:11:11.864  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.VIAFProxyControllerTest], using SpringBootContextLoader
+2026-09-21 20:11:11.868  INFO 111 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.codefork.refine.controllers.VIAFProxyControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-09-21 20:11:11.868  INFO 111 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.codefork.refine.controllers.VIAFProxyControllerTest]: VIAFProxyControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-21 20:11:11.879  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.VIAFProxyControllerTest
+2026-09-21 20:11:11.883  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-09-21 20:11:11.886  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@453439e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2d33795c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@779ef5cb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5d9d8ecf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@43cc7951, org.springframework.test.context.support.DirtiesContextTestExecutionListener@758311ed, org.springframework.test.context.event.EventPublishingTestExecutionListener@7533923b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@446981a4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@644f6e89, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@9ae0794, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@60e5eed0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@680937c9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@77ad2767]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:11:11.954  INFO 111 --- [           main] c.c.r.c.VIAFProxyControllerTest          : Starting VIAFProxyControllerTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:11:11.955  INFO 111 --- [           main] c.c.r.c.VIAFProxyControllerTest          : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:11:12.641  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:11:12.649  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=3600 secs, size=64 MB
+2026-09-21 20:11:12.650  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' removed from EhcacheManager.
+2026-09-21 20:11:12.664  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:11:12.666  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:12.673  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:12.677  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:12.682  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:12.684  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:12.695  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:12.701  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:12.706  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:12.817  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 26d637d6-352d-413d-ad27-58ddf024f8a7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:11:12.978  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@459df48d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@790f4933, org.springframework.security.web.context.SecurityContextPersistenceFilter@79486f38, org.springframework.security.web.header.HeaderWriterFilter@7fb02606, org.springframework.security.web.authentication.logout.LogoutFilter@7c93e69, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b364f47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c8d631, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a95c2f6, org.springframework.security.web.session.SessionManagementFilter@49ee3b8d, org.springframework.security.web.access.ExceptionTranslationFilter@1a06b95, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b529d42]
+2026-09-21 20:11:13.603  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:11:13.604  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:11:13.604  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-09-21 20:11:13.611  INFO 111 --- [           main] c.c.r.c.VIAFProxyControllerTest          : Started VIAFProxyControllerTest in 1.721 seconds (JVM running for 49.489)
+2026-09-21 20:11:13.699  WARN 111 --- [ool-43-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'transient java.lang.Object[] java.util.ArrayList.elementData' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field transient java.lang.Object[] java.util.ArrayList.elementData accessible: module java.base does not "opens java.util" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:11:13.701  WARN 111 --- [ool-43-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'private final byte[] java.lang.String.value' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:11:13.888  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:13.889  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:13.890  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:13.891  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.018 s - in com.codefork.refine.controllers.VIAFProxyControllerTest
+[INFO] Running com.codefork.refine.controllers.VIAFSourceSpecificControllerTest
+2026-09-21 20:11:13.893  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.VIAFSourceSpecificControllerTest], using SpringBootContextLoader
+2026-09-21 20:11:13.895  INFO 111 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.codefork.refine.controllers.VIAFSourceSpecificControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-09-21 20:11:13.896  INFO 111 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.codefork.refine.controllers.VIAFSourceSpecificControllerTest]: VIAFSourceSpecificControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-21 20:11:13.902  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.VIAFSourceSpecificControllerTest
+2026-09-21 20:11:13.906  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-09-21 20:11:13.907  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5bc40f5d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20923380, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5b2c41f9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6520625f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1ee52741, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f5a092e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1640a6b5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70940cb8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@47fce2c4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3810806c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2b76ecd5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7bd7c4cf, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5b9df3b3]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:11:13.949  INFO 111 --- [           main] c.c.r.c.VIAFSourceSpecificControllerTest : Starting VIAFSourceSpecificControllerTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:11:13.950  INFO 111 --- [           main] c.c.r.c.VIAFSourceSpecificControllerTest : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:11:14.435  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:11:14.441  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=3600 secs, size=64 MB
+2026-09-21 20:11:14.442  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' removed from EhcacheManager.
+2026-09-21 20:11:14.453  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:11:14.455  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:14.461  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:14.468  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:14.472  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:14.473  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:14.484  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:14.491  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:14.496  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:14.591  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3e6d97cb-d915-4706-92e7-858c26cdc691
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:11:14.711  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2fbb098f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7866a7a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@530d40b4, org.springframework.security.web.header.HeaderWriterFilter@526f8cb0, org.springframework.security.web.authentication.logout.LogoutFilter@5315210d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bc4ec43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6560f387, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2262bc86, org.springframework.security.web.session.SessionManagementFilter@45494046, org.springframework.security.web.access.ExceptionTranslationFilter@4faaff61, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b6e2c83]
+2026-09-21 20:11:15.460  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:11:15.460  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:11:15.462  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-21 20:11:15.473  INFO 111 --- [           main] c.c.r.c.VIAFSourceSpecificControllerTest : Started VIAFSourceSpecificControllerTest in 1.563 seconds (JVM running for 51.35)
+2026-09-21 20:11:15.514  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:15.515  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:15.515  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:15.515  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.618 s - in com.codefork.refine.controllers.VIAFSourceSpecificControllerTest
+[INFO] Running com.codefork.refine.controllers.VIAFControllerTest
+2026-09-21 20:11:15.519  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.codefork.refine.controllers.VIAFControllerTest], using SpringBootContextLoader
+2026-09-21 20:11:15.526  INFO 111 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.codefork.refine.controllers.VIAFControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-09-21 20:11:15.536  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.codefork.refine.Application for test class com.codefork.refine.controllers.VIAFControllerTest
+2026-09-21 20:11:15.543  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-09-21 20:11:15.546  INFO 111 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7ddcd3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@447a557b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7cab8d52, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@141eb85b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7d432bc0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b04689e, org.springframework.test.context.event.EventPublishingTestExecutionListener@4be5b9b1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2ad80cf6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e212f46, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@629fe84, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6067e7c1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ab2e887, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4daead88]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-09-21 20:11:15.604  INFO 111 --- [           main] c.c.r.controllers.VIAFControllerTest     : Starting VIAFControllerTest using Java 17.0.20 on 8d888623a30a with PID 111 (started by root in /project)
+2026-09-21 20:11:15.605  INFO 111 --- [           main] c.c.r.controllers.VIAFControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2026-09-21 20:11:16.323  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:11:16.332  INFO 111 --- [           main] com.codefork.refine.Config               : Loading configuration from conciliator.properties
+2026-09-21 20:11:16.336  INFO 111 --- [           main] ication$$EnhancerBySpringCGLIB$$e2bdbcd5 : Initializing cache TTL=1 secs, size=64 MB
+2026-09-21 20:11:16.337  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' removed from EhcacheManager.
+2026-09-21 20:11:16.345  INFO 111 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'default' created in EhcacheManager.
+2026-09-21 20:11:16.347  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:16.353  INFO 111 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=default
+2026-09-21 20:11:16.357  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:16.362  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:16.363  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:16.375  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:16.381  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:16.386  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Starting thread pool, size = 4
+2026-09-21 20:11:16.481  WARN 111 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 43d59149-3ca9-4ff8-a655-3c50e2756b83
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-21 20:11:16.604  INFO 111 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55731ccd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@750adad8, org.springframework.security.web.context.SecurityContextPersistenceFilter@743f58c3, org.springframework.security.web.header.HeaderWriterFilter@43c3354, org.springframework.security.web.authentication.logout.LogoutFilter@7fa86ddd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d359c69, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28f6a008, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41935a9d, org.springframework.security.web.session.SessionManagementFilter@260fffec, org.springframework.security.web.access.ExceptionTranslationFilter@53fd59d4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@308d4981]
+2026-09-21 20:11:17.457  INFO 111 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21 20:11:17.457  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21 20:11:17.458  INFO 111 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-09-21 20:11:17.465  INFO 111 --- [           main] c.c.r.controllers.VIAFControllerTest     : Started VIAFControllerTest in 1.915 seconds (JVM running for 53.342)
+2026-09-21 20:11:17.527  WARN 111 --- [ool-55-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'transient java.lang.Object[] java.util.ArrayList.elementData' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field transient java.lang.Object[] java.util.ArrayList.elementData accessible: module java.base does not "opens java.util" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:11:17.528  WARN 111 --- [ool-55-thread-1] org.ehcache.sizeof.ObjectGraphWalker     : The JVM is preventing Ehcache from accessing the subgraph beneath 'private final byte[] java.lang.String.value' - cache sizes may be underestimated as a result
+
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @25210d79
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172) ~[na:na]
+	at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.java:245) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWalker.java:204) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultSizeOfEngine.java:52) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePairs(OnHeapStore.java:983) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1528) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapStore.java:1515) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolder(OnHeapStore.java:1466) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeapStore.java:347) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1934) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBackend.java:101) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.java:335) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) ~[ehcache-3.9.9.jar:3.9.9]
+	at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95) ~[spring-context-support-5.3.22.jar:5.3.22]
+	at com.codefork.refine.datasource.WebServiceDataSource.searchCheckCache(WebServiceDataSource.java:275) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:45) ~[classes/:na]
+	at com.codefork.refine.datasource.WebServiceSearchTask.call(WebServiceSearchTask.java:15) ~[classes/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-09-21 20:11:17.683  INFO 111 --- [ool-55-thread-4] com.codefork.refine.viaf.VIAF            : Cache hit for: VIAF|Shakespeare, William, 1564-1616.|3|/people/person|should||false|false
+2026-09-21 20:11:20.127  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:20.129  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:20.130  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+2026-09-21 20:11:20.130  INFO 111 --- [           main] com.codefork.refine.ThreadPool           : Shutting down thread pool
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.599 s - in com.codefork.refine.controllers.VIAFControllerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:07 min
+[INFO] Finished at: 2026-09-21T20:11:20Z
+[INFO] ------------------------------------------------------------------------

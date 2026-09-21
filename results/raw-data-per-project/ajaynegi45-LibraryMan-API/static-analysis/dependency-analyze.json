@@ -1,0 +1,108 @@
+{
+  "count": 23,
+  "g_static": [
+    "com.mysql:mysql-connector-j:8.3.0",
+    "io.jsonwebtoken:jjwt-api:0.11.5",
+    "io.jsonwebtoken:jjwt-impl:0.11.5",
+    "io.jsonwebtoken:jjwt-jackson:0.12.0",
+    "jakarta.persistence:jakarta.persistence-api:3.1.0",
+    "jakarta.validation:jakarta.validation-api:3.0.2",
+    "org.apache.tomcat.embed:tomcat-embed-core:10.1.28",
+    "org.eclipse.angus:jakarta.mail:2.0.3",
+    "org.slf4j:slf4j-api:2.0.16",
+    "org.springframework.boot:spring-boot-autoconfigure:3.3.3",
+    "org.springframework.boot:spring-boot-devtools:3.3.3",
+    "org.springframework.boot:spring-boot:3.3.3",
+    "org.springframework.data:spring-data-commons:3.3.3",
+    "org.springframework.data:spring-data-jpa:3.3.3",
+    "org.springframework.security:spring-security-config:6.3.3",
+    "org.springframework.security:spring-security-core:6.3.3",
+    "org.springframework.security:spring-security-crypto:6.3.3",
+    "org.springframework.security:spring-security-web:6.3.3",
+    "org.springframework:spring-beans:6.1.12",
+    "org.springframework:spring-context-support:6.1.12",
+    "org.springframework:spring-context:6.1.12",
+    "org.springframework:spring-tx:6.1.12",
+    "org.springframework:spring-web:6.1.12"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "root": {
+      "g_static": [
+        "com.mysql:mysql-connector-j:8.3.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-jackson:0.12.0",
+        "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.apache.tomcat.embed:tomcat-embed-core:10.1.28",
+        "org.eclipse.angus:jakarta.mail:2.0.3",
+        "org.slf4j:slf4j-api:2.0.16",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.3",
+        "org.springframework.boot:spring-boot-devtools:3.3.3",
+        "org.springframework.boot:spring-boot:3.3.3",
+        "org.springframework.data:spring-data-commons:3.3.3",
+        "org.springframework.data:spring-data-jpa:3.3.3",
+        "org.springframework.security:spring-security-config:6.3.3",
+        "org.springframework.security:spring-security-core:6.3.3",
+        "org.springframework.security:spring-security-crypto:6.3.3",
+        "org.springframework.security:spring-security-web:6.3.3",
+        "org.springframework:spring-beans:6.1.12",
+        "org.springframework:spring-context-support:6.1.12",
+        "org.springframework:spring-context:6.1.12",
+        "org.springframework:spring-tx:6.1.12",
+        "org.springframework:spring-web:6.1.12"
+      ],
+      "ignoredTestScope": [
+        "org.junit.jupiter:junit-jupiter-api:5.10.3",
+        "org.junit.jupiter:junit-jupiter-params:5.10.3",
+        "org.mockito:mockito-core:5.11.0",
+        "org.mockito:mockito-junit-jupiter:5.11.0",
+        "org.springframework.boot:spring-boot-starter-test:3.3.3",
+        "org.springframework.security:spring-security-test:6.3.3",
+        "org.springframework:spring-test:6.1.12"
+      ],
+      "ignoredUnusedDeclared": [
+        "org.springframework.boot:spring-boot-starter-actuator:3.3.3",
+        "org.springframework.boot:spring-boot-starter-cache:3.3.3",
+        "org.springframework.boot:spring-boot-starter-data-jpa:3.3.3",
+        "org.springframework.boot:spring-boot-starter-mail:3.3.3",
+        "org.springframework.boot:spring-boot-starter-security:3.3.3",
+        "org.springframework.boot:spring-boot-starter-validation:3.3.12",
+        "org.springframework.boot:spring-boot-starter-web:3.3.3",
+        "org.springframework.security:spring-security-oauth2-client:6.3.3"
+      ],
+      "usedDeclared": [
+        "com.mysql:mysql-connector-j:8.3.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-jackson:0.12.0",
+        "org.springframework.boot:spring-boot-devtools:3.3.3"
+      ],
+      "usedUndeclared": [
+        "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.apache.tomcat.embed:tomcat-embed-core:10.1.28",
+        "org.eclipse.angus:jakarta.mail:2.0.3",
+        "org.slf4j:slf4j-api:2.0.16",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.3",
+        "org.springframework.boot:spring-boot:3.3.3",
+        "org.springframework.data:spring-data-commons:3.3.3",
+        "org.springframework.data:spring-data-jpa:3.3.3",
+        "org.springframework.security:spring-security-config:6.3.3",
+        "org.springframework.security:spring-security-core:6.3.3",
+        "org.springframework.security:spring-security-crypto:6.3.3",
+        "org.springframework.security:spring-security-web:6.3.3",
+        "org.springframework:spring-beans:6.1.12",
+        "org.springframework:spring-context-support:6.1.12",
+        "org.springframework:spring-context:6.1.12",
+        "org.springframework:spring-tx:6.1.12",
+        "org.springframework:spring-web:6.1.12"
+      ]
+    }
+  },
+  "project_id": "ajaynegi45-LibraryMan-API"
+}

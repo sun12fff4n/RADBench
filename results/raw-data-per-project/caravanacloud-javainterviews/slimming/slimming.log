@@ -1,0 +1,324 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< cloud.caravana:java-interviews >-------------------
+[INFO] Building java-interviews 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ java-interviews ---
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+java.nio.file.NotDirectoryException: /META-INF/versions
+	at jdk.zipfs/jdk.nio.zipfs.ZipDirectoryStream.<init>(ZipDirectoryStream.java:58)
+	at jdk.zipfs/jdk.nio.zipfs.ZipPath.newDirectoryStream(ZipPath.java:755)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newDirectoryStream(ZipFileSystemProvider.java:262)
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:482)
+	at java.base/java.nio.file.Files.list(Files.java:3792)
+	at sootup.java.bytecode.inputlocation.PathBasedAnalysisInputLocation$MultiReleaseJarAnalysisInputLocation.<init>(PathBasedAnalysisInputLocation.java:282)
+	at sootup.java.bytecode.inputlocation.PathBasedAnalysisInputLocation$MultiReleaseJarAnalysisInputLocation.<init>(PathBasedAnalysisInputLocation.java:256)
+	at sootup.java.bytecode.inputlocation.PathBasedAnalysisInputLocation.<init>(PathBasedAnalysisInputLocation.java:109)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.inputLocationForPath(JavaClassPathAnalysisInputLocation.java:207)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.lambda$explodeClassPath$1(JavaClassPathAnalysisInputLocation.java:235)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:273)
+	at java.base/java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:174)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.explodeClassPath(JavaClassPathAnalysisInputLocation.java:236)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.explodeClassPath(JavaClassPathAnalysisInputLocation.java:221)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.<init>(JavaClassPathAnalysisInputLocation.java:94)
+	at neu.lab.n.a.g(SootUpTools.java:76)
+	at neu.lab.SingleModuleMojo.bloatedDependencyCheck(SingleModuleMojo.java:259)
+	at neu.lab.SingleModuleMojo.execute(SingleModuleMojo.java:149)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+[Fatal Error] jbossts-properties.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] Redundant dependency io.quarkus:quarkus-caffeine:2.9.2.Final release time Optional[2022-05-25] has not been maintained for 1461 days
+[WARNING] Redundant dependency org.hibernate:hibernate-graalvm:5.6.9.Final release time Optional[2022-05-15] has not been maintained for 1471 days
+[WARNING] Redundant dependency org.jboss.logging:jboss-logging-annotations:2.2.1.Final release time Optional[2019-11-21] has not been maintained for 2376 days
+[WARNING] Redundant dependency io.quarkus:quarkus-ide-launcher:2.9.2.Final release time Optional[2022-05-25] has not been maintained for 1461 days
+[WARNING] Redundant dependency com.github.java-json-tools:btf:1.3 release time Optional[2020-01-04] has not been maintained for 2332 days
+[WARNING] Redundant dependency io.quarkus:quarkus-transaction-annotations:2.9.2.Final release time Optional[2022-05-25] has not been maintained for 1461 days
+[WARNING] Redundant dependency com.google.errorprone:error_prone_annotations:2.13.1 release time Optional[2022-04-15] has not been maintained for 1501 days
+[WARNING] Redundant dependency io.smallrye.common:smallrye-common-io:1.11.0 release time Optional[2022-03-25] has not been maintained for 1521 days
+[INFO] ALL DEPENDENCY[221]:
+[INFO]  USED DEPENDENCY[213]:
+[INFO]   USED DIRECT DEPENDENCY[10]:
+[INFO] 		io.quarkus:quarkus-resteasy-jackson:2.9.2.Final:compile [3 KB]
+[INFO] 		io.quarkus:quarkus-junit5:2.9.2.Final:test [165 KB]
+[INFO] 		io.quarkus:quarkus-flyway:2.9.2.Final:compile [38 KB]
+[INFO] 		org.flywaydb:flyway-mysql:8.5.10:compile [30 KB]
+[INFO] 		io.quarkus:quarkus-arc:2.9.2.Final:compile [64 KB]
+[INFO] 		io.quarkus:quarkus-hibernate-orm:2.9.2.Final:compile [220 KB]
+[INFO] 		io.rest-assured:rest-assured:4.5.1:test [685 KB]
+[INFO] 		io.quarkus:quarkus-agroal:2.9.2.Final:compile [41 KB]
+[INFO] 		io.quarkus:quarkus-resteasy:2.9.2.Final:compile [87 KB]
+[INFO] 		io.quarkus:quarkus-jdbc-mysql:2.9.2.Final:compile [10 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[203]:
+[INFO] 		io.smallrye.reactive:mutiny-smallrye-context-propagation:1.4.0:compile [20 KB]
+[INFO] 		org.hibernate:quarkus-local-cache:0.1.1:compile [64 KB]
+[INFO] 		org.apache.maven:maven-core:3.8.4:test [622 KB]
+[INFO] 		com.sun.activation:jakarta.activation:1.2.1:compile [64 KB]
+[INFO] 		io.smallrye.reactive:smallrye-reactive-converter-mutiny:2.7.0:compile [6 KB]
+[INFO] 		com.fasterxml:classmate:1.5.1:compile [66 KB]
+[INFO] 		io.netty:netty-codec:4.1.74.Final:compile [329 KB]
+[INFO] 		io.vertx:vertx-core:4.2.7:compile [1 MB]
+[INFO] 		org.jboss.resteasy:resteasy-jackson2-provider:4.7.5.Final:compile [27 KB]
+[INFO] 		org.codehaus.plexus:plexus-classworlds:2.6.0:test [51 KB]
+[INFO] 		com.google.inject:guice:no_aop:4.2.2:test [508 KB]
+[INFO] 		org.codehaus.plexus:plexus-utils:3.3.0:test [257 KB]
+[INFO] 		io.rest-assured:json-path:4.5.1:test [65 KB]
+[INFO] 		org.apache.maven:maven-repository-metadata:3.8.4:test [26 KB]
+[INFO] 		io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:2.21.0:compile [39 KB]
+[INFO] 		jakarta.interceptor:jakarta.interceptor-api:1.2.5:compile [24 KB]
+[INFO] 		io.netty:netty-transport:4.1.74.Final:compile [467 KB]
+[INFO] 		org.apache.maven.wagon:wagon-file:3.4.3:test [11 KB]
+[INFO] 		org.ow2.asm:asm-commons:9.3:test [71 KB]
+[INFO] 		org.hibernate:hibernate-core:5.6.9.Final:compile [7 MB]
+[INFO] 		org.apache.httpcomponents:httpcore:4.4.15:test [320 KB]
+[INFO] 		org.apache.maven:maven-artifact:3.8.4:test [56 KB]
+[INFO] 		io.quarkus:quarkus-netty:2.9.2.Final:compile [60 KB]
+[INFO] 		com.github.java-json-tools:jackson-coreutils:2.0:compile [31 KB]
+[INFO] 		jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2:compile [106 KB]
+[INFO] 		jakarta.el:jakarta.el-api:3.0.3:compile [77 KB]
+[INFO] 		io.smallrye.reactive:smallrye-mutiny-vertx-core:2.21.0:compile [370 KB]
+[INFO] 		io.quarkus:quarkus-vertx-http:2.9.2.Final:compile [445 KB]
+[INFO] 		org.apache.maven:maven-settings-builder:3.8.4:test [41 KB]
+[INFO] 		io.quarkus:quarkus-mutiny:2.9.2.Final:compile [9 KB]
+[INFO] 		io.smallrye.config:smallrye-config-common:2.10.0:compile [10 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-util:1.6.3:test [164 KB]
+[INFO] 		org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:1.0.0.Final:compile [71 KB]
+[INFO] 		org.apache.maven:maven-embedder:3.8.4:test [95 KB]
+[INFO] 		commons-codec:commons-codec:1.15:test [345 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-connector-basic:1.6.3:test [44 KB]
+[INFO] 		io.quarkus:quarkus-bootstrap-maven-resolver:2.9.2.Final:test [136 KB]
+[INFO] 		org.jboss.narayana.jta:narayana-jta:5.12.6.Final:compile [931 KB]
+[INFO] 		com.github.java-json-tools:json-patch:1.13:compile [42 KB]
+[INFO] 		org.graalvm.sdk:graal-sdk:22.0.0.2:compile [609 KB]
+[INFO] 		org.flywaydb:flyway-core:8.5.10:compile [617 KB]
+[INFO] 		io.smallrye.config:smallrye-config-core:2.10.0:compile [248 KB]
+[INFO] 		org.apache.maven:maven-model-builder:3.8.4:test [187 KB]
+[INFO] 		org.ow2.asm:asm:9.3:test [119 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.8.2:test [563 KB]
+[INFO] 		org.apache.maven.wagon:wagon-http:3.4.3:test [11 KB]
+[INFO] 		org.apache.commons:commons-lang3:3.12.0:test [573 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.3:compile [118 KB]
+[INFO] 		com.sun.istack:istack-commons-runtime:3.0.10:compile [29 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.8.2:test [188 KB]
+[INFO] 		io.agroal:agroal-api:1.16:compile [56 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.13.3:compile [1 MB]
+[INFO] 		io.vertx:vertx-web-common:4.2.7:compile [23 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		io.quarkus:quarkus-development-mode-spi:2.9.2.Final:compile [42 KB]
+[INFO] 		com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.13.3:compile [30 KB]
+[INFO] 		org.jboss.resteasy:resteasy-core:4.7.5.Final:compile [771 KB]
+[INFO] 		org.codehaus.groovy:groovy:3.0.9:test [7 MB]
+[INFO] 		io.netty:netty-codec-http:4.1.74.Final:compile [620 KB]
+[INFO] 		io.agroal:agroal-pool:1.16:compile [115 KB]
+[INFO] 		io.quarkus:quarkus-class-change-agent:2.9.2.Final:test [3 KB]
+[INFO] 		io.vertx:vertx-auth-common:4.2.7:compile [130 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-transport-wagon:1.6.3:test [32 KB]
+[INFO] 		org.jboss:jandex:2.4.2.Final:test [225 KB]
+[INFO] 		org.apache.maven.wagon:wagon-provider-api:3.4.3:test [53 KB]
+[INFO] 		io.netty:netty-codec-socks:4.1.74.Final:compile [116 KB]
+[INFO] 		io.quarkus:quarkus-datasource-common:2.9.2.Final:compile [6 KB]
+[INFO] 		com.google.guava:guava:31.1-jre:test [2 MB]
+[INFO] 		io.rest-assured:rest-assured-common:4.5.1:test [41 KB]
+[INFO] 		io.smallrye:smallrye-context-propagation-storage:1.2.2:compile [7 KB]
+[INFO] 		io.quarkus:quarkus-bootstrap-gradle-resolver:2.9.2.Final:test [2 MB]
+[INFO] 		org.reactivestreams:reactive-streams:1.0.3:compile [11 KB]
+[INFO] 		io.netty:netty-buffer:4.1.74.Final:compile [296 KB]
+[INFO] 		io.quarkus:quarkus-jackson:2.9.2.Final:compile [7 KB]
+[INFO] 		org.jboss.logging:jboss-logging:3.4.3.Final:compile [59 KB]
+[INFO] 		org.apache.httpcomponents:httpclient:4.5.13:test [762 KB]
+[INFO] 		org.aesh:aesh:2.6:test [355 KB]
+[INFO] 		io.quarkus:quarkus-bootstrap-runner:2.9.2.Final:compile [39 KB]
+[INFO] 		org.slf4j:slf4j-api:1.7.36:compile [40 KB]
+[INFO] 		io.netty:netty-resolver-dns:4.1.74.Final:compile [152 KB]
+[INFO] 		io.quarkus:quarkus-builder:2.9.2.Final:test [49 KB]
+[INFO] 		org.jboss.logmanager:jboss-logmanager-embedded:1.0.9:compile [252 KB]
+[INFO] 		org.eclipse.microprofile.config:microprofile-config-api:2.0.1:compile [18 KB]
+[INFO] 		com.github.ben-manes.caffeine:caffeine:2.9.3:compile [890 KB]
+[INFO] 		org.codehaus.plexus:plexus-sec-dispatcher:2.0:test [23 KB]
+[INFO] 		io.smallrye.reactive:smallrye-mutiny-vertx-runtime:2.21.0:compile [24 KB]
+[INFO] 		io.smallrye.common:smallrye-common-classloader:1.11.0:compile [12 KB]
+[INFO] 		io.smallrye.common:smallrye-common-function:1.11.0:compile [42 KB]
+[INFO] 		org.jboss:jboss-transaction-spi:7.6.0.Final:compile [33 KB]
+[INFO] 		io.smallrye.common:smallrye-common-annotation:1.11.0:compile [6 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.12.9:compile [3 MB]
+[INFO] 		org.codehaus.plexus:plexus-component-annotations:2.1.0:test [4 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.8.2:test [181 KB]
+[INFO] 		io.quarkus.security:quarkus-security:1.1.4.Final:compile [17 KB]
+[INFO] 		org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5:test [200 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.3:compile [33 KB]
+[INFO] 		org.codehaus.groovy:groovy-json:3.0.9:test [129 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.13.3:compile [73 KB]
+[INFO] 		io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:2.9.2.Final:compile [11 KB]
+[INFO] 		io.quarkus:quarkus-narayana-jta:2.9.2.Final:compile [49 KB]
+[INFO] 		org.apache.maven:maven-model:3.8.4:test [210 KB]
+[INFO] 		io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:2.21.0:compile [6 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-impl:1.6.3:test [175 KB]
+[INFO] 		org.jsoup:jsoup:1.14.2:test [404 KB]
+[INFO] 		io.smallrye.reactive:smallrye-mutiny-vertx-web-common:2.21.0:compile [19 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-spi:1.6.3:test [37 KB]
+[INFO] 		org.junit.platform:junit-platform-launcher:1.8.2:test [155 KB]
+[INFO] 		io.quarkus:quarkus-security-runtime-spi:2.9.2.Final:compile [6 KB]
+[INFO] 		io.vertx:vertx-bridge-common:4.2.7:compile [10 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.3:compile [9 KB]
+[INFO] 		io.smallrye.common:smallrye-common-constraint:1.11.0:compile [11 KB]
+[INFO] 		io.quarkus:quarkus-junit5-properties:2.9.2.Final:test [2 KB]
+[INFO] 		org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.2:compile [16 KB]
+[INFO] 		org.codehaus.plexus:plexus-interpolation:1.26:test [83 KB]
+[INFO] 		org.opentest4j:opentest4j:1.2.0:test [7 KB]
+[INFO] 		com.thoughtworks.xstream:xstream:1.4.19:test [618 KB]
+[INFO] 		com.github.java-json-tools:msg-simple:1.2:compile [36 KB]
+[INFO] 		org.jboss.threads:jboss-threads:3.4.2.Final:compile [100 KB]
+[INFO] 		org.apache.maven:maven-plugin-api:3.8.4:test [45 KB]
+[INFO] 		io.netty:netty-handler:4.1.74.Final:compile [516 KB]
+[INFO] 		io.netty:netty-common:4.1.74.Final:compile [634 KB]
+[INFO] 		org.codehaus.plexus:plexus-cipher:2.0:test [12 KB]
+[INFO] 		org.apache.maven:maven-builder-support:3.8.4:test [13 KB]
+[INFO] 		mysql:mysql-connector-java:8.0.29:compile [2 MB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.3:compile [35 KB]
+[INFO] 		io.quarkus:quarkus-smallrye-context-propagation:2.9.2.Final:compile [11 KB]
+[INFO] 		io.netty:netty-codec-http2:4.1.74.Final:compile [461 KB]
+[INFO] 		org.apache.maven:maven-settings:3.8.4:test [43 KB]
+[INFO] 		org.jboss.slf4j:slf4j-jboss-logmanager:1.1.0.Final:compile [10 KB]
+[INFO] 		org.ccil.cowan.tagsoup:tagsoup:1.2.1:test [88 KB]
+[INFO] 		io.smallrye:smallrye-context-propagation-api:1.2.2:compile [7 KB]
+[INFO] 		jakarta.persistence:jakarta.persistence-api:2.2.3:compile [160 KB]
+[INFO] 		io.quarkus:quarkus-datasource:2.9.2.Final:compile [13 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-runtime:2.3.3-b02:compile [1011 KB]
+[INFO] 		org.codehaus.groovy:groovy-xml:3.0.9:test [289 KB]
+[INFO] 		io.smallrye.reactive:smallrye-reactive-converter-api:2.7.0:compile [5 KB]
+[INFO] 		org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final:test [16 KB]
+[INFO] 		io.quarkus:quarkus-core:2.9.2.Final:compile [260 KB]
+[INFO] 		org.ow2.asm:asm-util:9.2:test [82 KB]
+[INFO] 		io.quarkus:quarkus-bootstrap-core:2.9.2.Final:test [114 KB]
+[INFO] 		io.smallrye.reactive:mutiny:1.4.0:compile [818 KB]
+[INFO] 		io.smallrye.common:smallrye-common-vertx-context:1.11.0:compile [5 KB]
+[INFO] 		io.netty:netty-resolver:4.1.74.Final:compile [36 KB]
+[INFO] 		io.smallrye:smallrye-context-propagation-jta:1.2.2:compile [7 KB]
+[INFO] 		org.apache.maven:maven-resolver-provider:3.8.4:test [65 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.8.2:test [224 KB]
+[INFO] 		io.quarkus:quarkus-fs-util:0.0.9:compile [23 KB]
+[INFO] 		org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final:compile [110 KB]
+[INFO] 		org.fusesource.jansi:jansi:1.18:test [280 KB]
+[INFO] 		io.smallrye.config:smallrye-config:2.10.0:compile [33 KB]
+[INFO] 		io.quarkus:quarkus-devtools-utilities:2.9.2.Final:test [5 KB]
+[INFO] 		jakarta.transaction:jakarta.transaction-api:1.3.3:compile [15 KB]
+[INFO] 		org.glassfish.jaxb:txw2:2.3.3-b02:compile [70 KB]
+[INFO] 		org.apache.httpcomponents:httpmime:4.5.13:test [40 KB]
+[INFO] 		antlr:antlr:2.7.7:compile [434 KB]
+[INFO] 		xmlpull:xmlpull:1.1.3.1:test [7 KB]
+[INFO] 		org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final:compile [143 KB]
+[INFO] 		io.agroal:agroal-narayana:1.16:compile [14 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:1.3.5:compile [24 KB]
+[INFO] 		org.ow2.asm:asm-analysis:9.3:test [33 KB]
+[INFO] 		io.quarkus:quarkus-core-deployment:2.9.2.Final:test [1 MB]
+[INFO] 		io.quarkus.gizmo:gizmo:1.0.10.Final:test [97 KB]
+[INFO] 		org.hamcrest:hamcrest:2.1:test [120 KB]
+[INFO] 		io.quarkus:quarkus-resteasy-server-common:2.9.2.Final:compile [7 KB]
+[INFO] 		io.netty:netty-codec-haproxy:4.1.74.Final:compile [35 KB]
+[INFO] 		org.ow2.asm:asm-tree:9.3:test [51 KB]
+[INFO] 		io.vertx:vertx-web:4.2.7:compile [347 KB]
+[INFO] 		io.quarkus:quarkus-bootstrap-app-model:2.9.2.Final:test [142 KB]
+[INFO] 		io.smallrye:smallrye-context-propagation:1.2.2:compile [93 KB]
+[INFO] 		com.ibm.async:asyncutil:0.1.0:compile [117 KB]
+[INFO] 		commons-io:commons-io:2.11.0:test [319 KB]
+[INFO] 		org.apache.maven.wagon:wagon-http-shared:3.4.3:test [42 KB]
+[INFO] 		io.rest-assured:xml-path:4.5.1:test [78 KB]
+[INFO] 		org.hibernate.common:hibernate-commons-annotations:5.1.2.Final:compile [77 KB]
+[INFO] 		io.quarkus:quarkus-credentials:2.9.2.Final:compile [3 KB]
+[INFO] 		io.quarkus:quarkus-vertx:2.9.2.Final:compile [95 KB]
+[INFO] 		org.aesh:readline:2.2:test [320 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-api:1.6.3:test [145 KB]
+[INFO] 		org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5:test [370 KB]
+[INFO] 		io.quarkus:quarkus-resteasy-common:2.9.2.Final:compile [24 KB]
+[INFO] 		com.google.guava:failureaccess:1.0.1:test [4 KB]
+[INFO] 		io.vertx:vertx-codegen:4.2.7:compile [199 KB]
+[INFO] 		jakarta.validation:jakarta.validation-api:2.0.2:compile [89 KB]
+[INFO] 		io.netty:netty-codec-dns:4.1.74.Final:compile [63 KB]
+[INFO] 		io.smallrye:smallrye-fault-tolerance-vertx:5.4.0:compile [6 KB]
+[INFO] 		io.github.x-stream:mxparser:1.2.2:test [28 KB]
+[INFO] 		io.netty:netty-tcnative-classes:2.0.48.Final:compile [34 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.8.2:test [98 KB]
+[INFO] 		org.wildfly.common:wildfly-common:1.5.4.Final-format-001:compile [299 KB]
+[INFO] 		io.smallrye.common:smallrye-common-expression:1.11.0:compile [19 KB]
+[INFO] 		org.jboss.resteasy:resteasy-core-spi:4.7.5.Final:compile [180 KB]
+[INFO] 		io.netty:netty-handler-proxy:4.1.74.Final:compile [23 KB]
+[INFO] 		jakarta.inject:jakarta.inject-api:1.0:compile [4 KB]
+[INFO] 		io.quarkus.arc:arc:2.9.2.Final:compile [195 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter:5.8.2:test [6 KB]
+[INFO] 		io.smallrye.reactive:smallrye-mutiny-vertx-web:2.21.0:compile [137 KB]
+[INFO] 		org.apache.maven.shared:maven-shared-utils:3.3.4:test [149 KB]
+[INFO] 		io.smallrye.reactive:vertx-mutiny-generator:2.21.0:compile [89 KB]
+[INFO] 		commons-cli:commons-cli:1.4:test [52 KB]
+[INFO] 		org.jboss.narayana.jts:narayana-jts-integration:5.12.6.Final:compile [49 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.13.3:compile [366 KB]
+[INFO] 		io.quarkus:quarkus-test-common:2.9.2.Final:test [92 KB]
+[INFO] 		com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.13.3:compile [15 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[8]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[8]:
+[INFO] 		io.smallrye.common:smallrye-common-io:1.11.0:compile [7 KB]
+[INFO] 		com.google.errorprone:error_prone_annotations:2.13.1:compile [15 KB]
+[INFO] 		org.hibernate:hibernate-graalvm:5.6.9.Final:compile [7 KB]
+[INFO] 		org.jboss.logging:jboss-logging-annotations:2.2.1.Final:compile [20 KB]
+[INFO] 		io.quarkus:quarkus-transaction-annotations:2.9.2.Final:compile [2 KB]
+[INFO] 		io.quarkus:quarkus-caffeine:2.9.2.Final:compile [6 KB]
+[INFO] 		io.quarkus:quarkus-ide-launcher:2.9.2.Final:compile [13 MB]
+[INFO] 		com.github.java-json-tools:btf:1.3:compile [8 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/caravanacloud-javainterviews/bloatedOutput/cloudcaravanajavainterviews100SNAPSHOT/cloudcaravanajavainterviews100SNAPSHOT/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:28 min
+[INFO] Finished at: 2026-05-25T09:07:14+02:00
+[INFO] ------------------------------------------------------------------------

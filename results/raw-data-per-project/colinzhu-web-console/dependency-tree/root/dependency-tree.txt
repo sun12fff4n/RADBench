@@ -1,0 +1,24 @@
+io.github.colinzhu:web-console:jar:0.1.2
++- org.projectlombok:lombok:jar:1.18.36:provided
++- org.slf4j:slf4j-api:jar:2.0.6:compile
++- ch.qos.logback:logback-classic:jar:1.4.12:runtime
+|  \- ch.qos.logback:logback-core:jar:1.4.12:runtime
+\- io.vertx:vertx-web:jar:4.4.2:compile
+   +- io.vertx:vertx-web-common:jar:4.4.2:compile
+   +- io.vertx:vertx-auth-common:jar:4.4.2:compile
+   +- io.vertx:vertx-bridge-common:jar:4.4.2:compile
+   \- io.vertx:vertx-core:jar:4.4.2:compile
+      +- io.netty:netty-common:jar:4.1.92.Final:compile
+      +- io.netty:netty-buffer:jar:4.1.92.Final:compile
+      +- io.netty:netty-transport:jar:4.1.92.Final:compile
+      +- io.netty:netty-handler:jar:4.1.92.Final:compile
+      |  +- io.netty:netty-transport-native-unix-common:jar:4.1.92.Final:compile
+      |  \- io.netty:netty-codec:jar:4.1.92.Final:compile
+      +- io.netty:netty-handler-proxy:jar:4.1.92.Final:compile
+      |  \- io.netty:netty-codec-socks:jar:4.1.92.Final:compile
+      +- io.netty:netty-codec-http:jar:4.1.92.Final:compile
+      +- io.netty:netty-codec-http2:jar:4.1.92.Final:compile
+      +- io.netty:netty-resolver:jar:4.1.92.Final:compile
+      +- io.netty:netty-resolver-dns:jar:4.1.92.Final:compile
+      |  \- io.netty:netty-codec-dns:jar:4.1.92.Final:compile
+      \- com.fasterxml.jackson.core:jackson-core:jar:2.15.0:compile

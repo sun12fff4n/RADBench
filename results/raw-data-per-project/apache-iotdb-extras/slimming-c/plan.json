@@ -1,0 +1,48 @@
+{
+  "project_id": "apache-iotdb-extras",
+  "module_type": "multi",
+  "modules": [
+    {
+      "modpath": "iotdb-collector/collector-core",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 5,
+      "gray": 29,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "apache-iotdb-extras/slimming-c/iotdb-collector__collector-core/pom.xml"
+    },
+    {
+      "modpath": "iotdb-collector/collector-openapi",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 6,
+      "gray": 6,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "apache-iotdb-extras/slimming-c/iotdb-collector__collector-openapi/pom.xml"
+    },
+    {
+      "modpath": "mybatis-generator",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 0,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "apache-iotdb-extras/slimming-c/mybatis-generator/pom.xml"
+    }
+  ],
+  "variant": "conservative (red only, gray kept)",
+  "status": "ok",
+  "modules_ok": 3,
+  "modules_total": 3,
+  "total_direct_deleted": 0,
+  "total_transitive_excluded": 0
+}

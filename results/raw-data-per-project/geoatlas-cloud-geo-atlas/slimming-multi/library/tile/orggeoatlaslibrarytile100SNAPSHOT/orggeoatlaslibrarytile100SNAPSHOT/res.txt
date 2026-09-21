@@ -1,0 +1,65 @@
+Project info>>>>/private/tmp/analysis-runs/geoatlas-cloud-geo-atlas/library/tile
+Project Name>>>>org.geo-atlas.library:tile:1.0.0-SNAPSHOT
+OriginalSize>>>>14789KB
+BloatedSize>>>>57KB
+All Dependencies>>>>34
+Used Dependencies>>>>31
+Used Self Direct Dependency>>>>4
+Used Self Indirect Dependency>>>>27
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>3
+Unused Self Direct Dependency>>>>1
+Unused Self Indirect Dependency>>>>2
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>3
+realBloated>>>>3
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>6472
+buildClassExtendGraphTime>>>>34
+buildCallGraphTime>>>>29994
+levelTime>>>>10
+stringTime>>>>7
+licenseCheckTime>>>>4173
+bugCheckTime>>>>73
+maintenanceTimeCheckTime>>>>952
+checkTime>>>>42439
+repairTime>>>>6670
+mvnTestTime>>>>2964
+====================BloatedType=========================
+java Reflect>>>>2
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>1
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>8321
+forName>>>>93
+loadClass>>>>5
+getClass>>>>408
+reflectEdges>>>>8703
+unReflectEdges>>>>17
+unSolvedReflect>>>><org.geotools.referencing.operation.transform.WarpTransform2DProvider: java.lang.Object createWarp(java.lang.String,float[],float[],float,float,float,float)>
+unSolvedReflect>>>><org.geotools.util.factory.GeoTools: java.lang.Object instantiate(java.lang.String,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.geotools.filter.FunctionImpl: org.opengis.parameter.Parameter toParameter(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.ecore.impl.EPackageRegistryImpl$Delegator: java.lang.Object put(java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.geotools.util.logging.Logging: void setLoggerFactory(java.lang.String)>
+unSolvedReflect>>>><org.geotools.filter.FunctionImpl: org.opengis.parameter.Parameter toParameter(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.common.EMFPlugin: void main(java.lang.String[])>
+unSolvedReflect>>>><com.google.protobuf.GeneratedMessage$4: com.google.protobuf.Descriptors$FieldDescriptor loadDescriptor()>
+unSolvedReflect>>>><org.eclipse.emf.ecore.impl.EPackageRegistryImpl: org.eclipse.emf.ecore.EPackage$Registry createGlobalRegistry()>
+unSolvedReflect>>>><org.eclipse.emf.common.CommonPlugin: java.lang.Class loadClass(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><com.google.protobuf.Descriptors$FileDescriptor: com.google.protobuf.Descriptors$FileDescriptor[] findDescriptors(java.lang.Class,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><com.sun.media.jai.util.DataBufferUtils: java.lang.Class getDataBufferClass(int)>
+unSolvedReflect>>>><com.google.protobuf.SchemaUtil: java.lang.Object getMapDefaultEntry(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><tech.units.indriya.format.SymbolMap: void <init>(java.util.ResourceBundle)>
+unSolvedReflect>>>><org.geotools.util.factory.FactoryRegistry: boolean registerFromSystemProperty(java.lang.ClassLoader,java.lang.Class,java.lang.StringBuilder)>
+unSolvedReflect>>>><javax.media.jai.RegistryFileParser: java.lang.Object getInstance(java.lang.String)>

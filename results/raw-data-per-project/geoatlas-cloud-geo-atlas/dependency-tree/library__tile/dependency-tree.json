@@ -1,0 +1,339 @@
+{
+  "groupId": "org.geo-atlas.library",
+  "artifactId": "tile",
+  "version": "1.0.0-SNAPSHOT",
+  "type": "jar",
+  "scope": "",
+  "classifier": "",
+  "optional": "false",
+  "children": [
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "2.0.16",
+      "type": "jar",
+      "scope": "compile",
+      "classifier": "",
+      "optional": "false"
+    },
+    {
+      "groupId": "org.geotools",
+      "artifactId": "gt-main",
+      "version": "28.5",
+      "type": "jar",
+      "scope": "compile",
+      "classifier": "",
+      "optional": "false",
+      "children": [
+        {
+          "groupId": "org.geotools",
+          "artifactId": "gt-referencing",
+          "version": "28.5",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false",
+          "children": [
+            {
+              "groupId": "commons-pool",
+              "artifactId": "commons-pool",
+              "version": "1.6",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            },
+            {
+              "groupId": "org.geotools",
+              "artifactId": "gt-metadata",
+              "version": "28.5",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false",
+              "children": [
+                {
+                  "groupId": "org.geotools",
+                  "artifactId": "gt-opengis",
+                  "version": "28.5",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "systems.uom",
+                      "artifactId": "systems-common",
+                      "version": "2.0.2",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "javax.measure",
+                          "artifactId": "unit-api",
+                          "version": "2.0",
+                          "type": "jar",
+                          "scope": "compile",
+                          "classifier": "",
+                          "optional": "false"
+                        },
+                        {
+                          "groupId": "tech.units",
+                          "artifactId": "indriya",
+                          "version": "2.0.2",
+                          "type": "jar",
+                          "scope": "compile",
+                          "classifier": "",
+                          "optional": "false",
+                          "children": [
+                            {
+                              "groupId": "tech.uom.lib",
+                              "artifactId": "uom-lib-common",
+                              "version": "2.0",
+                              "type": "jar",
+                              "scope": "compile",
+                              "classifier": "",
+                              "optional": "false"
+                            },
+                            {
+                              "groupId": "javax.inject",
+                              "artifactId": "javax.inject",
+                              "version": "1",
+                              "type": "jar",
+                              "scope": "compile",
+                              "classifier": "",
+                              "optional": "false"
+                            }
+                            ]
+                        },
+                        {
+                          "groupId": "si.uom",
+                          "artifactId": "si-quantity",
+                          "version": "2.0.1",
+                          "type": "jar",
+                          "scope": "compile",
+                          "classifier": "",
+                          "optional": "false"
+                        },
+                        {
+                          "groupId": "si.uom",
+                          "artifactId": "si-units",
+                          "version": "2.0.1",
+                          "type": "jar",
+                          "scope": "compile",
+                          "classifier": "",
+                          "optional": "false",
+                          "children": [
+                            {
+                              "groupId": "jakarta.annotation",
+                              "artifactId": "jakarta.annotation-api",
+                              "version": "2.1.1",
+                              "type": "jar",
+                              "scope": "compile",
+                              "classifier": "",
+                              "optional": "false"
+                            }
+                            ]
+                        }
+                        ]
+                    }
+                    ]
+                },
+                {
+                  "groupId": "org.geotools.ogc",
+                  "artifactId": "net.opengis.ows",
+                  "version": "28.5",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "org.geotools.ogc",
+                      "artifactId": "org.w3.xlink",
+                      "version": "28.5",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "org.eclipse.emf",
+                      "artifactId": "org.eclipse.emf.common",
+                      "version": "2.15.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "org.eclipse.emf",
+                      "artifactId": "org.eclipse.emf.ecore",
+                      "version": "2.15.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "org.eclipse.emf",
+                      "artifactId": "org.eclipse.emf.ecore.xmi",
+                      "version": "2.15.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+              "groupId": "it.geosolutions.jgridshift",
+              "artifactId": "jgridshift-core",
+              "version": "1.3",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            },
+            {
+              "groupId": "net.sf.geographiclib",
+              "artifactId": "GeographicLib-Java",
+              "version": "1.49",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            }
+            ]
+        },
+        {
+          "groupId": "org.geotools",
+          "artifactId": "gt-http",
+          "version": "28.5",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.locationtech.jts",
+          "artifactId": "jts-core",
+          "version": "1.19.0",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-text",
+          "version": "1.10.0",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false",
+          "children": [
+            {
+              "groupId": "org.apache.commons",
+              "artifactId": "commons-lang3",
+              "version": "3.17.0",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            }
+            ]
+        },
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-core",
+          "version": "2.19.0",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "com.google.re2j",
+          "artifactId": "re2j",
+          "version": "1.6",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.ejml",
+          "artifactId": "ejml-ddense",
+          "version": "0.41",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false",
+          "children": [
+            {
+              "groupId": "org.ejml",
+              "artifactId": "ejml-core",
+              "version": "0.41",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            }
+            ]
+        },
+        {
+          "groupId": "javax.media",
+          "artifactId": "jai_core",
+          "version": "1.1.3",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        }
+        ]
+    },
+    {
+      "groupId": "no.ecc.vectortile",
+      "artifactId": "java-vector-tile",
+      "version": "1.3.23",
+      "type": "jar",
+      "scope": "compile",
+      "classifier": "",
+      "optional": "false",
+      "children": [
+        {
+          "groupId": "com.google.protobuf",
+          "artifactId": "protobuf-java",
+          "version": "3.16.3",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        }
+        ]
+    },
+    {
+      "groupId": "org.geo-atlas.library",
+      "artifactId": "io",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "jar",
+      "scope": "compile",
+      "classifier": "",
+      "optional": "false"
+    },
+    {
+      "groupId": "jakarta.servlet",
+      "artifactId": "jakarta.servlet-api",
+      "version": "5.0.0",
+      "type": "jar",
+      "scope": "provided",
+      "classifier": "",
+      "optional": "false"
+    }
+    ]
+}

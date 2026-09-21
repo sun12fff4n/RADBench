@@ -1,0 +1,2532 @@
+{
+  "project_id": "caravanacloud-javainterviews",
+  "slimming_total": 222,
+  "slimming_counts": {
+    "used": 160,
+    "gray": 54,
+    "red": 8
+  },
+  "nia_total_classes": 121,
+  "nia_mapped_classes": 76,
+  "nia_proxy_recovered": 4,
+  "res_txt": {
+    "Top Project info": "/private/tmp/analysis-runs/caravanacloud-javainterviews",
+    "Project info": "/private/tmp/analysis-runs/caravanacloud-javainterviews",
+    "Project Name": "cloud.caravana:java-interviews:1.0.0-SNAPSHOT",
+    "OriginalSize": "73858KB",
+    "BloatedSize": "13490KB",
+    "All Dependencies": "221",
+    "Used Dependencies": "213",
+    "Used Self Direct Dependency": "10",
+    "Used Self Indirect Dependency": "203",
+    "Used Inherit Direct Dependency": "0",
+    "Used Inherit indirect Dependency": "0",
+    "Unused Dependencies": "8",
+    "Unused Self Direct Dependency": "0",
+    "Unused Self Indirect Dependency": "8",
+    "Unused Inherit Direct Dependency": "0",
+    "Unused Inherit Indirect Dependency": "0",
+    "checkBloated": "8",
+    "realBloated": "8",
+    "unDeleteSelfDirectDependencies": "0",
+    "unDeleteSelfIndirectDependencies": "0",
+    "unDeleteUnusedInheritDirectDependencies": "0",
+    "unDeleteUnusedInheritIndirectDependencies": "0",
+    "configSootTime": "22959",
+    "buildClassExtendGraphTime": "314",
+    "buildCallGraphTime": "126610",
+    "levelTime": "451",
+    "stringTime": "69",
+    "licenseCheckTime": "14618",
+    "bugCheckTime": "264",
+    "maintenanceTimeCheckTime": "2108",
+    "checkTime": "175205",
+    "repairTime": "52095",
+    "mvnTestTime": "29211",
+    "java Reflect": "6",
+    "outdated": "8",
+    "vulnerable": "0",
+    "licenseConflict": "0",
+    "dependencyConflict": "1",
+    "SpringAPI": "0",
+    "TomcatAPI": "0",
+    ".class": "8552",
+    "forName": "88",
+    "loadClass": "39",
+    "getClass": "1081",
+    "reflectEdges": "9578",
+    "unReflectEdges": "29"
+  },
+  "buckets": {
+    "used+hit": 13,
+    "used+nohit": 147,
+    "bloated+hit": 0,
+    "bloated+nohit": 8,
+    "unloaded+hit": 6,
+    "unloaded+nohit": 48
+  },
+  "metrics": {
+    "tp": 8,
+    "fp": 0,
+    "tn": 19,
+    "fn": 195,
+    "precision": 1.0,
+    "recall": 0.0394,
+    "f1": 0.0758
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.jboss.narayana.jta:narayana-jta:5.12.6.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 9
+      },
+      {
+        "gav": "io.vertx:vertx-core:4.2.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 8
+      },
+      {
+        "gav": "org.jboss.threads:jboss-threads:3.4.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 7
+      },
+      {
+        "gav": "org.jboss.resteasy:resteasy-core:4.7.5.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "io.quarkus:quarkus-core:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.vertx:vertx-web:4.2.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.smallrye.config:smallrye-config-core:2.10.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.netty:netty-codec-haproxy:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "io.smallrye:smallrye-context-propagation-api:1.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.jboss.resteasy:resteasy-core-spi:4.7.5.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "cloud.caravana:java-interviews:1.0.0-SNAPSHOT",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "client",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-jdbc-mysql:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "mysql:mysql-connector-java:8.0.29",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-arc:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-vertx-http:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-security-runtime-spi:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus.security:quarkus-security:1.1.4.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-vertx:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:smallrye-fault-tolerance-vertx:5.4.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-vertx-context:1.11.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-netty:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:vertx-mutiny-generator:2.21.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-codegen:4.2.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus.arc:arc:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-web:2.21.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-web-common:2.21.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-web-common:4.2.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:2.21.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-bridge-common:4.2.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:2.21.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-auth-common:4.2.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-smallrye-context-propagation:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:smallrye-context-propagation-storage:1.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:mutiny-smallrye-context-propagation:1.4.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.reactivestreams:reactive-streams:1.0.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-handler-proxy:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-socks:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-tcnative-classes:2.0.48.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-dns:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-resteasy-server-common:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-resteasy-common:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:2.0.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.ibm.async:asyncutil:0.1.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.config:smallrye-config:2.10.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-flyway:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-resteasy-jackson:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-jackson:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.resteasy:resteasy-jackson2-provider:4.7.5.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.java-json-tools:json-patch:1.13",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.java-json-tools:jackson-coreutils:2.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.java-json-tools:msg-simple:1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.13.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.13.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.narayana.jts:narayana-jts-integration:5.12.6.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss:jboss-transaction-spi:7.6.0.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:smallrye-context-propagation-jta:1.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-reactive-converter-mutiny:2.7.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.agroal:agroal-narayana:1.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.agroal:agroal-api:1.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.agroal:agroal-pool:1.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-datasource:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-credentials:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-hibernate-orm:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.ben-manes.caffeine:caffeine:2.9.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate:hibernate-core:5.6.9.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.12.9",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.5.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "antlr:antlr:2.7.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate.common:hibernate-commons-annotations:5.1.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:2.3.3-b02",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:2.3.3-b02",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:3.0.10",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate:quarkus-local-cache:0.1.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-junit5:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-gradle-resolver:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.slf4j:slf4j-jboss-logmanager:1.1.0.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-fs-util:0.0.9",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-maven-resolver:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-utils:3.3.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.12.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.logmanager:jboss-logmanager-embedded:1.0.9",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-embedder:3.8.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-io:commons-io:2.11.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-interpolation:1.26",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-settings-builder:3.8.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.guava:guava:31.1-jre",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.guava:failureaccess:1.0.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-core:3.8.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-component-annotations:2.1.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-plugin-api:3.8.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-cli:commons-cli:1.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-cipher:2.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.wagon:wagon-http:3.4.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.wagon:wagon-http-shared:3.4.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpcore:4.4.15",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jsoup:jsoup:1.14.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.wagon:wagon-file:3.4.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:1.7.36",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-transport-wagon:1.6.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-connector-basic:1.6.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.2.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-test-common:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-core-deployment:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-builder:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm-commons:9.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm:9.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-development-mode-spi:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.aesh:aesh:2.6",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.aesh:readline:2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus.gizmo:gizmo:1.0.10.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss:jandex:2.4.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm-util:9.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-devtools-utilities:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-class-change-agent:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-launcher:1.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.fusesource.jansi:jansi:1.18",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.graalvm.sdk:graal-sdk:22.0.0.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.thoughtworks.xstream:xstream:1.4.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.github.x-stream:mxparser:1.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "xmlpull:xmlpull:1.1.3.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-junit5-properties:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.flywaydb:flyway-mysql:8.5.10",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.inject:jakarta.inject-api:1.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.el:jakarta.el-api:3.0.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.interceptor:jakarta.interceptor-api:1.2.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-runner:2.9.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.config:smallrye-config-common:2.10.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-classloader:1.11.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-expression:1.11.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-function:1.11.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.rest-assured:rest-assured:4.5.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.rest-assured:json-path:4.5.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.groovy:groovy-json:3.0.9",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-codec:commons-codec:1.15",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.rest-assured:xml-path:4.5.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ccil.cowan.tagsoup:tagsoup:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.groovy:groovy-xml:3.0.9",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpmime:4.5.13",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      }
+    ],
+    "bloated+hit": [],
+    "bloated+nohit": [
+      {
+        "gav": "com.github.java-json-tools:btf:1.3",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-transaction-annotations:2.9.2.Final",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-caffeine:2.9.2.Final",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.13.1",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate:hibernate-graalvm:5.6.9.Final",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-io:1.11.0",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-ide-launcher:2.9.2.Final",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging-annotations:2.2.1.Final",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      }
+    ],
+    "unloaded+hit": [
+      {
+        "gav": "io.netty:netty-transport:4.1.74.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 13
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.74.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 12
+      },
+      {
+        "gav": "jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.74.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.13.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.74.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1
+      }
+    ],
+    "unloaded+nohit": [
+      {
+        "gav": "io.quarkus:quarkus-resteasy:2.9.2.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-core:2.21.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-runtime:2.21.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:mutiny:1.4.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-annotation:1.11.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.13.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-mutiny:2.9.2.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:smallrye-context-propagation:1.2.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.4.3.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-constraint:1.11.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.sun.activation:jakarta.activation:1.2.1",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-datasource-common:2.9.2.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-narayana-jta:2.9.2.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.flywaydb:flyway-core:8.5.10",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-agroal:2.9.2.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.13.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-reactive-converter-api:2.7.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:1.0.0.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.transaction:jakarta.transaction-api:1.3.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-core:2.9.2.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-app-model:2.9.2.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-resolver-provider:3.8.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-model:3.8.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-repository-metadata:3.8.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-api:1.6.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-model-builder:3.8.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-util:1.6.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-impl:1.6.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-spi:1.6.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.shared:maven-shared-utils:3.3.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-settings:3.8.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-artifact:3.8.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-builder-support:3.8.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.inject:guice:no_aop",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "4.2.2",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-classworlds:2.6.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-sec-dispatcher:2.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpclient:4.5.13",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.wagon:wagon-provider-api:3.4.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.8.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.8.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.wildfly.common:wildfly-common:1.5.4.Final-format-001",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm-analysis:9.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm-tree:9.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.groovy:groovy:3.0.9",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.rest-assured:rest-assured-common:4.5.1",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0
+      }
+    ]
+  }
+}

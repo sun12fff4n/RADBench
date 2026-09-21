@@ -1,0 +1,231 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/native/libnetty_transport_native_epoll_x86_64.so\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/jakarta.validation.spi.ValidationProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/jakarta.ws.rs.ext.Providers\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/jakarta.ws.rs.ext.RuntimeDelegate\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.maven.surefire.spi.MasterProcessChannelProcessorFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.eclipse.jetty.http.HttpFieldPreEncoder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.slf4j.spi.SLF4JServiceProvider\\E"
+  }, {
+    "pattern":"\\Qcom/mchange/v2/log/default-mchange-log.properties\\E"
+  }, {
+    "pattern":"\\Qconfig.conf\\E"
+  }, {
+    "pattern":"\\Qconfig.properties\\E"
+  }, {
+    "pattern":"\\Qcreate.sql\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-absoluteEndTime-less-than-startTime.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-div-divisor-zero.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-div-no-divisor.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-empty-name.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-no-name.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-percentile-no-percentile.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-percentile-percentile-zero.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-percentile-percentile.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-sampling-timezone.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-sampling-unit.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-sampling-value.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators-sum-no-sampling.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-aggregators.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-cache-time.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-empty-name.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-empty-name.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-no-name.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-tag-empty-tags.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-tag-missing-tags.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-time-missing-group_count.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-time-missing-range_size.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-time-range_size_unit.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-time-range_size_value.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by-value-range_size.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-group_by.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-json.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-no-aggregators.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-no-metric.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-no-name.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-no-start_date.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-relative-endTime-value.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-relative-startTime-value.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-relative-unit.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-relativeEndTime-less-than-startTime.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-tag-empty-name.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-tag-empty-value-in-array.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-query-metric-tag-empty-value.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-rollup-no-execution_interval.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-rollup-no-name-empty.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-rollup-no-query_time.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-rollup-no-range-aggregator.json\\E"
+  }, {
+    "pattern":"\\Qinvalid-rollup-no-saveAs.json\\E"
+  }, {
+    "pattern":"\\Qjson-metric-parser-metrics-with-type.json\\E"
+  }, {
+    "pattern":"\\Qjson-metric-parser-multiple-metric.json\\E"
+  }, {
+    "pattern":"\\Qkairosdb.conf\\E"
+  }, {
+    "pattern":"\\Qkeystore.jks\\E"
+  }, {
+    "pattern":"\\Qlarge_import.gz\\E"
+  }, {
+    "pattern":"\\Qlarge_import_skip.gz\\E"
+  }, {
+    "pattern":"\\Qlogback-test.xml\\E"
+  }, {
+    "pattern":"\\Qmchange-config-resource-paths.txt\\E"
+  }, {
+    "pattern":"\\Qmetrics4j.conf\\E"
+  }, {
+    "pattern":"\\Qmozilla/public-suffix-list.txt\\E"
+  }, {
+    "pattern":"\\Qmulti-metric-long.json\\E"
+  }, {
+    "pattern":"\\Qmulti-metric-timestamp-zero.json\\E"
+  }, {
+    "pattern":"\\Qmultiple-datapoints-metric.json\\E"
+  }, {
+    "pattern":"\\Qnet/jpountz/util/linux/amd64/liblz4-java.so\\E"
+  }, {
+    "pattern":"\\Qorg/apache/http/client/version.properties\\E"
+  }, {
+    "pattern":"\\Qorg/eclipse/jetty/http/encoding.properties\\E"
+  }, {
+    "pattern":"\\Qorg/eclipse/jetty/http/mime.properties\\E"
+  }, {
+    "pattern":"\\Qorg/eclipse/jetty/server/jetty-dir.css\\E"
+  }, {
+    "pattern":"\\Qorg/eclipse/jetty/version/build.properties\\E"
+  }, {
+    "pattern":"\\Qorg/h2/util/data.zip\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Brussels\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Paris\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/ZoneInfoMap\\E"
+  }, {
+    "pattern":"\\Qorg/quartz/core/quartz-build.properties\\E"
+  }, {
+    "pattern":"\\Qorg/xerial/snappy/VERSION\\E"
+  }, {
+    "pattern":"\\Qorg/xerial/snappy/native/Linux/x86_64/libsnappyjava.so\\E"
+  }, {
+    "pattern":"\\Qquery-metric-absolute-dates-with-groupby.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-absolute-dates.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-exclude-tags.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-negative-absolute-dates.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-no-tags.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-null-tag-value-in-array.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-null-tag-value.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-one-tag.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-relative-startTime-before-epoch.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-start_absolute-before-epoch.json\\E"
+  }, {
+    "pattern":"\\Qquery-metric-two-tags.json\\E"
+  }, {
+    "pattern":"\\Qquery-response-two-groups-no-tags.json\\E"
+  }, {
+    "pattern":"\\Qquery-response-two-groups-valid.json\\E"
+  }, {
+    "pattern":"\\Qrollup_old_format.config\\E"
+  }, {
+    "pattern":"\\Qrolluptask1.json\\E"
+  }, {
+    "pattern":"\\Qrolluptask2.json\\E"
+  }, {
+    "pattern":"\\Qrolluptask3.json\\E"
+  }, {
+    "pattern":"\\Qrolluptask4.json\\E"
+  }, {
+    "pattern":"\\Qrolluptask5.json\\E"
+  }, {
+    "pattern":"\\Qrolluptasks.json\\E"
+  }, {
+    "pattern":"\\QrolluptasksExisting.json\\E"
+  }, {
+    "pattern":"\\Qsingle-metric-double.json\\E"
+  }, {
+    "pattern":"\\Qsingle-metric-long.json\\E"
+  }, {
+    "pattern":"\\Qsingle-metric-missing-name.json\\E"
+  }, {
+    "pattern":"\\Qtest_createTableWithConfig.conf\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt67b/nfc.nrm\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt67b/nfkc.nrm\\E"
+  }, {
+    "pattern":"java.base:\\Qsun/net/www/content-types.properties\\E"
+  }]},
+  "bundles":[{
+    "name":"com.datastax.driver.core.Driver",
+    "locales":[""]
+  }, {
+    "name":"jakarta.servlet.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"jakarta.servlet.http.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.hibernate.validator.ValidationMessages",
+    "locales":["", "en"]
+  }]
+}

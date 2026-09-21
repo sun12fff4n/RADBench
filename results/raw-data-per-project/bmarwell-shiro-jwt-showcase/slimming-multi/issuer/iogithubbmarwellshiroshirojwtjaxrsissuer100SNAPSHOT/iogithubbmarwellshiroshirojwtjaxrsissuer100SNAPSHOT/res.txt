@@ -1,0 +1,50 @@
+Top Project info>>>>/private/tmp/analysis-runs/bmarwell-shiro-jwt-showcase
+Project info>>>>/private/tmp/analysis-runs/bmarwell-shiro-jwt-showcase/issuer
+Project Name>>>>io.github.bmarwell.shiro:shiro.jwt.jaxrs.issuer:1.0.0-SNAPSHOT
+OriginalSize>>>>11952KB
+BloatedSize>>>>0KB
+All Dependencies>>>>25
+Used Dependencies>>>>25
+Used Self Direct Dependency>>>>3
+Used Self Indirect Dependency>>>>0
+Used Inherit Direct Dependency>>>>10
+Used Inherit indirect Dependency>>>>12
+Unused Dependencies>>>>0
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>0
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>0
+realBloated>>>>0
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>12126
+buildClassExtendGraphTime>>>>18
+buildCallGraphTime>>>>469
+levelTime>>>>8
+stringTime>>>>1
+licenseCheckTime>>>>7662
+bugCheckTime>>>>119
+maintenanceTimeCheckTime>>>>0
+checkTime>>>>21349
+repairTime>>>>5810
+mvnTestTime>>>>0
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>0
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>1
+forName>>>>0
+loadClass>>>>1
+getClass>>>>4
+reflectEdges>>>>4
+unReflectEdges>>>>1
+unSolvedReflect>>>><io.jsonwebtoken.lang.Classes$ExceptionIgnoringAccessor: java.lang.Class loadClass(java.lang.String)>

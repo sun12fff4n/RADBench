@@ -1,0 +1,57 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.dmatik:oref-alerts-service >-------------------
+[INFO] Building oref-alerts-service 1.0.5-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.5:prepare-agent (default-prepare-agent) @ oref-alerts-service ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jaCoCoArgLine set to empty
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ oref-alerts-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ oref-alerts-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /project/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/service/CurrentAlertHttpRequestInterceptor.java:[21,1] package org.slf4j does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/service/HistoryHttpRequestInterceptor.java:[22,1] package org.slf4j does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/OrefAlertsServiceApplication.java:[3,32] package org.springframework.boot does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/OrefAlertsServiceApplication.java:[4,46] package org.springframework.boot.autoconfigure does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/OrefAlertsServiceApplication.java:[8,2] cannot find symbol
+  symbol: class SpringBootApplication
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/service/ServiceErrorHandler.java:[10,1] package org.slf4j does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/controller/OrefAlertsController.java:[16,1] package org.slf4j does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/service/OrefAlertsService.java:[25,1] package org.slf4j does not exist
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.742 s
+[INFO] Finished at: 2026-09-11T19:37:10Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project oref-alerts-service: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/service/CurrentAlertHttpRequestInterceptor.java:[21,1] package org.slf4j does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/service/HistoryHttpRequestInterceptor.java:[22,1] package org.slf4j does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/OrefAlertsServiceApplication.java:[3,32] package org.springframework.boot does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/OrefAlertsServiceApplication.java:[4,46] package org.springframework.boot.autoconfigure does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/OrefAlertsServiceApplication.java:[8,2] cannot find symbol
+[ERROR]   symbol: class SpringBootApplication
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/service/ServiceErrorHandler.java:[10,1] package org.slf4j does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/controller/OrefAlertsController.java:[16,1] package org.slf4j does not exist
+[ERROR] /project/src/main/java/com/dmatik/orefalerts/service/OrefAlertsService.java:[25,1] package org.slf4j does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

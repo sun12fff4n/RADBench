@@ -1,0 +1,40 @@
+ Network clickhouse-jdbc-bridge_default Creating 
+ Network clickhouse-jdbc-bridge_default Created 
+ Volume clickhouse-jdbc-bridge_m2-nonspring-combined-clickhouse-clickhouse-jdbc-bridge Creating 
+ Volume clickhouse-jdbc-bridge_m2-nonspring-combined-clickhouse-clickhouse-jdbc-bridge Created 
+ Container clickhouse-jdbc-bridge-app Creating 
+ Container clickhouse-jdbc-bridge-app Created 
+ Container clickhouse-jdbc-bridge-app Starting 
+ Container clickhouse-jdbc-bridge-app Started 
+ Container clickhouse-jdbc-bridge-app Waiting 
+container clickhouse-jdbc-bridge-app is unhealthy
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+clickhouse-jdbc-bridge-app  | INFO: Loading JSON from file [config/server.json]...
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+clickhouse-jdbc-bridge-app  | WARNING: Failed to load JSON from file config/server.json
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.JdbcBridgeVerticle registerConfigLoader
+clickhouse-jdbc-bridge-app  | INFO: Start to monitor configuration file(s) at [config/datasources]
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.JdbcBridgeVerticle registerConfigLoader
+clickhouse-jdbc-bridge-app  | INFO: Start to monitor configuration file(s) at [config/schemas]
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.JdbcBridgeVerticle registerConfigLoader
+clickhouse-jdbc-bridge-app  | INFO: Start to monitor configuration file(s) at [config/queries]
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.core.BaseRepository registerType
+clickhouse-jdbc-bridge-app  | INFO: Registering new type of NamedDataSource: [jdbc] -> [com.clickhouse.jdbcbridge.impl.JdbcDataSource]
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.core.BaseRepository registerType
+clickhouse-jdbc-bridge-app  | INFO: Default type of NamedDataSource is set to [jdbc]
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.core.BaseRepository registerType
+clickhouse-jdbc-bridge-app  | INFO: Registering new type of NamedDataSource: [script] -> [com.clickhouse.jdbcbridge.impl.ScriptDataSource]
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+clickhouse-jdbc-bridge-app  | INFO: Loading JSON from file [config/httpd.json]...
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+clickhouse-jdbc-bridge-app  | WARNING: Failed to load JSON from file config/httpd.json
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:21 PM com.clickhouse.jdbcbridge.JdbcBridgeVerticle startServer
+clickhouse-jdbc-bridge-app  | INFO: Starting web server...
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:22 PM com.clickhouse.jdbcbridge.impl.JsonFileRepository reload
+clickhouse-jdbc-bridge-app  | INFO: No NamedDataSource configuration found
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:22 PM com.clickhouse.jdbcbridge.impl.JsonFileRepository reload
+clickhouse-jdbc-bridge-app  | INFO: No NamedSchema configuration found
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:22 PM com.clickhouse.jdbcbridge.impl.JsonFileRepository reload
+clickhouse-jdbc-bridge-app  | INFO: No NamedQuery configuration found
+clickhouse-jdbc-bridge-app  | May 24, 2026 6:25:22 PM com.clickhouse.jdbcbridge.JdbcBridgeVerticle lambda$startServer$0
+clickhouse-jdbc-bridge-app  | INFO: Server http://0.0.0.0:9019 started in 2915 ms

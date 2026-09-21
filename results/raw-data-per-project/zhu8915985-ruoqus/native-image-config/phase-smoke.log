@@ -1,0 +1,45 @@
+ Network ruoqus_default Creating 
+ Network ruoqus_default Created 
+ Volume ruoqus_m2-nonspring-smoke-zhu8915985-ruoqus Creating 
+ Volume ruoqus_m2-nonspring-smoke-zhu8915985-ruoqus Created 
+ Container ruoqus-app Creating 
+ Container ruoqus-app Created 
+ Container ruoqus-app Starting 
+ Container ruoqus-app Started 
+ Container ruoqus-app Waiting 
+ Container ruoqus-app Healthy 
+
+[0;34m== Login — SysLoginService (CDI, BCrypt, JWT creation) ==[0m
+[0;32mPASS[0m POST /login (valid credentials)                              [2m[200, all fields ✓][0m
+[0;32mPASS[0m   → JWT token obtained                                     [2m[token extracted][0m
+
+[0;34m== Login validation — input checking ==[0m
+[0;32mPASS[0m POST /login (wrong password → 500)                         [2m[500, all fields ✓][0m
+[0;32mPASS[0m POST /login (unknown user → 500)                           [2m[500, all fields ✓][0m
+[0;32mPASS[0m POST /login (empty username → 500)                         [2m[500, all fields ✓][0m
+[0;32mPASS[0m POST /login (short password → 500)                         [2m[500, all fields ✓][0m
+
+[0;34m== Authenticated endpoints — JWT verification ==[0m
+[0;32mPASS[0m GET  /list (with valid JWT)                                  [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /list (no token → 401)                                [2m[401][0m
+[0;32mPASS[0m GET  /getUserInfo (insufficient perms → 403)               [2m[403][0m
+[0;32mPASS[0m GET  /getUserInfo (no token → 401)                         [2m[401][0m
+
+[0;34m== Logout — TokenService.delLoginUser() ==[0m
+[0;32mPASS[0m GET  /logout (with JWT)                                      [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /list (after logout → 401)                            [2m[401][0m
+
+[0;34m== Invalid token — JWT parsing error paths ==[0m
+[0;32mPASS[0m GET  /list (invalid token → 401)                           [2m[401][0m
+[0;32mPASS[0m GET  /list (expired/malformed → 401)                       [2m[401][0m
+
+[0;34m== CORS — Quarkus HTTP CORS configuration ==[0m
+[0;32mPASS[0m OPTIONS /login (CORS preflight)                              [2m[200, header ✓][0m
+
+[0;34m== Content-Type — Jackson JSON serialization ==[0m
+[0;32mPASS[0m POST /login (JSON content-type response)                     [2m[200, header ✓][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 16/16 checks passed.[0m
+ Container ruoqus-app Stopping 
+ Container ruoqus-app Stopped 

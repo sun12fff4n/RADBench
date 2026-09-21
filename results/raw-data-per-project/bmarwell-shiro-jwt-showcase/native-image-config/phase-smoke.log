@@ -1,0 +1,59 @@
+ Network shiro-jwt-showcase_default Creating 
+ Network shiro-jwt-showcase_default Created 
+ Container shiro-jwt-app Creating 
+ Container shiro-jwt-app Created 
+ Container shiro-jwt-app Starting 
+ Container shiro-jwt-app Started 
+ Container shiro-jwt-app Waiting 
+ Container shiro-jwt-app Healthy 
+
+[0;34m== Token issuance — IssueEndpoint (CDI, JJWT, MicroProfile Config) ==[0m
+[0;32mPASS[0m POST /issuer/login (valid credentials, admin)                [2m[202, body ✓][0m
+[0;32mPASS[0m POST /issuer/login (valid credentials, user role)            [2m[202, body ✓][0m
+[0;32mPASS[0m POST /issuer/login (valid credentials, mod role)             [2m[202, body ✓][0m
+[0;32mPASS[0m POST /issuer/login (invalid credentials → 401)             [2m[401][0m
+
+[0;34m== Unauthenticated access — Shiro JwtHttpAuthenticator ==[0m
+[0;32mPASS[0m GET  /finish/troopers (no token → 401)                     [2m[401][0m
+
+[0;34m== Guest role — Shiro RBAC (no permissions) ==[0m
+[0;32mPASS[0m GET  /finish/troopers (guest role → 403)                   [2m[403][0m
+
+[0;34m== Admin CRUD — StormtrooperResource (full permissions) ==[0m
+[0;31mFAIL[0m POST /finish/troopers (admin create)                         [2m[got 400, want 202][0m
+[0;31mFAIL[0m GET  /finish/troopers (admin list)                           [2m[body missing '"id"'][0m
+[0;33m--- body ---[0m
+  []
+[0;32mPASS[0m GET  /finish/troopers (JSON content-type)                    [2m[200, header ✓][0m
+[0;33mSKIP[0m Trooper CRUD tests (could not extract ID)
+
+[0;34m== Moderator role — partial permissions (read, create, update) ==[0m
+[0;31mFAIL[0m GET  /finish/troopers (mod read)                             [2m[body missing '"id"'][0m
+[0;33m--- body ---[0m
+  []
+[0;31mFAIL[0m POST /finish/troopers (mod create)                           [2m[got 400, want 202][0m
+
+[0;34m== User role — read-only permissions ==[0m
+[0;31mFAIL[0m GET  /finish/troopers (user read)                            [2m[body missing '"id"'][0m
+[0;33m--- body ---[0m
+  []
+[0;32mPASS[0m POST /finish/troopers (user create → 403)                  [2m[403][0m
+
+[0;34m== Invalid token — JwtCheckingCredentialsMatcher ==[0m
+[0;32mPASS[0m GET  /finish/troopers (invalid token → 401)                [2m[401][0m
+[0;31mFAIL[0m GET  /finish/troopers (empty bearer → 401)                 [2m[got 500, want 401][0m
+[0;33m--- body ---[0m
+  Error 500: javax.servlet.ServletException: java.lang.NullPointerException: Cannot load from object array because &quot;principalsAndCredentials&quot; is null
+
+
+[0;34m== Delete all — admin bulk operation ==[0m
+[0;32mPASS[0m DELETE /finish/troopers/ (admin delete all)                  [2m[202][0m
+[0;32mPASS[0m GET  /finish/troopers (empty after delete all)               [2m[200, body ✓][0m
+
+[0;34m== Concurrent requests — Liberty thread pool ==[0m
+[0;32mPASS[0m 5x parallel GET /finish/troopers                             [2m[all 200][0m
+
+[0;34m== Summary ==[0m
+[0;31m6/18 checks failed[0m (12 passed).
+ Container shiro-jwt-app Stopping 
+ Container shiro-jwt-app Stopped 

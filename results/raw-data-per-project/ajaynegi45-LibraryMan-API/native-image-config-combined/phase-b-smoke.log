@@ -1,0 +1,43 @@
+ Volume libraryman_m2-combined-ajaynegi45-LibraryMan-API Creating 
+ Volume libraryman_m2-combined-ajaynegi45-LibraryMan-API Created 
+ Container libraryman-mysql Running 
+ Container libraryman-app Creating 
+ Container libraryman-app Created 
+ Container libraryman-mysql Waiting 
+ Container libraryman-mysql Healthy 
+ Container libraryman-app Starting 
+ Container libraryman-app Started 
+ Container libraryman-mysql Waiting 
+ Container libraryman-app Waiting 
+ Container libraryman-mysql Healthy 
+container libraryman-app exited (1)
+libraryman-app  | 2026-05-22T01:57:21.575Z  INFO 1 --- [libraryman-api] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+libraryman-app  | 2026-05-22T01:57:21.837Z  INFO 1 --- [libraryman-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+libraryman-app  | 2026-05-22T01:57:23.131Z  INFO 1 --- [libraryman-api] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@166ddfb7
+libraryman-app  | 2026-05-22T01:57:23.150Z  INFO 1 --- [libraryman-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+libraryman-app  | 2026-05-22T01:57:32.541Z  INFO 1 --- [libraryman-api] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+libraryman-app  | 2026-05-22T01:57:33.684Z  INFO 1 --- [libraryman-api] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+libraryman-app  | 2026-05-22T01:57:39.637Z  INFO 1 --- [libraryman-api] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+libraryman-app  | 2026-05-22T01:57:48.375Z  WARN 1 --- [libraryman-api] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'borrowingController' defined in URL [jar:nested:/project/target/libraryman-api-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/libraryman_api/borrowing/BorrowingController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'borrowingService' defined in URL [jar:nested:/project/target/libraryman-api-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/libraryman_api/borrowing/BorrowingService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'notificationService' defined in URL [jar:nested:/project/target/libraryman-api-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/libraryman_api/notification/NotificationService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'emailService' defined in URL [jar:nested:/project/target/libraryman-api-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/libraryman_api/email/EmailService.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+libraryman-app  | 2026-05-22T01:57:48.380Z  INFO 1 --- [libraryman-api] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+libraryman-app  | 2026-05-22T01:57:48.385Z  INFO 1 --- [libraryman-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+libraryman-app  | 2026-05-22T01:57:48.404Z  INFO 1 --- [libraryman-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+libraryman-app  | 2026-05-22T01:57:48.423Z  INFO 1 --- [libraryman-api] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+libraryman-app  | 2026-05-22T01:57:48.497Z  INFO 1 --- [libraryman-api] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+libraryman-app  | 
+libraryman-app  | Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+libraryman-app  | 2026-05-22T01:57:48.995Z ERROR 1 --- [libraryman-api] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+libraryman-app  | 
+libraryman-app  | ***************************
+libraryman-app  | APPLICATION FAILED TO START
+libraryman-app  | ***************************
+libraryman-app  | 
+libraryman-app  | Description:
+libraryman-app  | 
+libraryman-app  | Parameter 1 of constructor in com.libraryman_api.email.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+libraryman-app  | 
+libraryman-app  | 
+libraryman-app  | Action:
+libraryman-app  | 
+libraryman-app  | Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+libraryman-app  | 

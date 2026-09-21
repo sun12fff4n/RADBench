@@ -1,0 +1,2021 @@
+{
+  "project_id": "caravanacloud-javainterviews",
+  "depclean_total": 221,
+  "nia_total_classes": 121,
+  "nia_mapped_classes": 76,
+  "nia_proxy_recovered": 4,
+  "buckets": {
+    "used+hit": 5,
+    "used+nohit": 102,
+    "bloated+hit": 14,
+    "bloated+nohit": 100
+  },
+  "metrics": {
+    "tp": 100,
+    "fp": 14,
+    "tn": 5,
+    "fn": 102,
+    "precision": 0.8772,
+    "recall": 0.495,
+    "f1": 0.6329
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "io.netty:netty-common:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 214,
+        "static_all_classes": 486,
+        "static_ratio": 0.44,
+        "nia_class_hits": 12
+      },
+      {
+        "gav": "io.vertx:vertx-core:4.2.7",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 35,
+        "static_all_classes": 750,
+        "static_ratio": 0.047,
+        "nia_class_hits": 8
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 108,
+        "static_all_classes": 136,
+        "static_ratio": 0.794,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 10,
+        "static_all_classes": 143,
+        "static_ratio": 0.07,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.13.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 678,
+        "static_all_classes": 708,
+        "static_ratio": 0.958,
+        "nia_class_hits": 2
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.4.3.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 35,
+        "static_ratio": 0.171,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.logmanager:jboss-logmanager-embedded:1.0.9",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 43,
+        "static_all_classes": 173,
+        "static_ratio": 0.249,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.wildfly.common:wildfly-common:1.5.4.Final-format-001",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 213,
+        "static_ratio": 0.061,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging-annotations:2.2.1.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 25,
+        "static_ratio": 0.16,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:1.7.36",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 22,
+        "static_all_classes": 34,
+        "static_ratio": 0.647,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.slf4j:slf4j-jboss-logmanager:1.1.0.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 7,
+        "static_ratio": 0.571,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.graalvm.sdk:graal-sdk:22.0.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 308,
+        "static_ratio": 0.003,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:mutiny:1.4.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 508,
+        "static_ratio": 0.002,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.13.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 117,
+        "static_all_classes": 128,
+        "static_ratio": 0.914,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-codegen:4.2.7",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 102,
+        "static_ratio": 0.029,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 7,
+        "static_all_classes": 110,
+        "static_ratio": 0.064,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.sun.activation:jakarta.activation:1.2.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 42,
+        "static_ratio": 0.095,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.13.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 72,
+        "static_all_classes": 72,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "mysql:mysql-connector-java:8.0.29",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 575,
+        "static_all_classes": 1064,
+        "static_ratio": 0.54,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 40,
+        "static_ratio": 0.025,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:2.3.3-b02",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 653,
+        "static_ratio": 0.002,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:2.3.3-b02",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 54,
+        "static_ratio": 0.019,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:3.0.10",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 24,
+        "static_ratio": 0.042,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-junit5:2.9.2.Final",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-core:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-app-model:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-maven-resolver:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-embedder:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-settings:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-settings-builder:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-core:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-model:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-builder-support:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-repository-metadata:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-artifact:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.12.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-plugin-api:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-model-builder:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven:maven-resolver-provider:3.8.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-impl:1.6.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-api:1.6.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-spi:1.6.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-util:1.6.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.shared:maven-shared-utils:3.3.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.inject:guice:4.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-classworlds:2.6.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-interpolation:1.26",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-component-annotations:2.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-io:commons-io:2.11.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.guava:guava:31.1-jre",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.guava:failureaccess:1.0.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-sec-dispatcher:2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-cipher:2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-cli:commons-cli:1.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.plexus:plexus-utils:3.3.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-connector-basic:1.6.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.resolver:maven-resolver-transport-wagon:1.6.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.wagon:wagon-http:3.4.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.wagon:wagon-http-shared:3.4.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jsoup:jsoup:1.14.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpclient:4.5.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpcore:4.4.15",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.wagon:wagon-provider-api:3.4.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.maven.wagon:wagon-file:3.4.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-gradle-resolver:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-test-common:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-core-deployment:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.aesh:readline:2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.fusesource.jansi:jansi:1.18",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.aesh:aesh:2.6",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus.gizmo:gizmo:1.0.10.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm:9.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm-util:9.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm-tree:9.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm-analysis:9.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss:jandex:2.4.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm-commons:9.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-class-change-agent:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-devtools-utilities:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-builder:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-launcher:1.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-junit5-properties:2.9.2.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.thoughtworks.xstream:xstream:1.4.19",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.github.x-stream:mxparser:1.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "xmlpull:xmlpull:1.1.3.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.rest-assured:rest-assured:4.5.1",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.groovy:groovy:3.0.9",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.groovy:groovy-xml:3.0.9",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-codec:commons-codec:1.15",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpmime:4.5.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:2.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ccil.cowan.tagsoup:tagsoup:1.2.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.rest-assured:json-path:4.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.groovy:groovy-json:3.0.9",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.rest-assured:rest-assured-common:4.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.rest-assured:xml-path:4.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "io.netty:netty-transport:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 362,
+        "static_ratio": 0.0,
+        "nia_class_hits": 13
+      },
+      {
+        "gav": "org.jboss.narayana.jta:narayana-jta:5.12.6.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 495,
+        "static_ratio": 0.0,
+        "nia_class_hits": 9
+      },
+      {
+        "gav": "org.jboss.threads:jboss-threads:3.4.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 71,
+        "static_ratio": 0.0,
+        "nia_class_hits": 7
+      },
+      {
+        "gav": "jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 148,
+        "static_ratio": 0.0,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "org.jboss.resteasy:resteasy-core:4.7.5.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 400,
+        "static_ratio": 0.0,
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "io.quarkus:quarkus-core:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 243,
+        "static_ratio": 0.0,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.smallrye.config:smallrye-config-core:2.10.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 158,
+        "static_ratio": 0.0,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 212,
+        "static_ratio": 0.0,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 379,
+        "static_ratio": 0.0,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.vertx:vertx-web:4.2.7",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 165,
+        "static_ratio": 0.0,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.smallrye:smallrye-context-propagation-api:1.2.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 8,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 339,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "io.netty:netty-codec-haproxy:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 19,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.jboss.resteasy:resteasy-core-spi:4.7.5.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 144,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "io.quarkus:quarkus-arc:2.9.2.Final",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 65,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus.arc:arc:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 155,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.el:jakarta.el-api:3.0.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 49,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.interceptor:jakarta.interceptor-api:1.2.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 10,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 15,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.inject:jakarta.inject-api:1.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 6,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.transaction:jakarta.transaction-api:1.3.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 19,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-ide-launcher:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-development-mode-spi:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 37,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.config:smallrye-config:2.10.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 15,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 14,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-annotation:1.11.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-expression:1.11.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 12,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-function:1.11.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 41,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-constraint:1.11.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-classloader:1.11.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.config:smallrye-config-common:2.10.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-bootstrap-runner:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 17,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-io:1.11.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-fs-util:0.0.9",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 13,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 12,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-resteasy:2.9.2.Final",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 54,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-vertx-http:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 324,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-security-runtime-spi:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus.security:quarkus-security:1.1.4.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 25,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-mutiny:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 6,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.reactivestreams:reactive-streams:1.0.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 13,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-smallrye-context-propagation:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:smallrye-context-propagation:1.2.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 74,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:smallrye-context-propagation-storage:1.2.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 6,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:mutiny-smallrye-context-propagation:1.4.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 16,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.common:smallrye-common-vertx-context:1.11.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 29,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-tcnative-classes:2.0.48.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 28,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-handler-proxy:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 12,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-socks:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 107,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 274,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 101,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-dns:4.1.74.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 45,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 6,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-vertx:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 73,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-netty:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 56,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-core:2.21.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 183,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-runtime:2.21.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 14,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:vertx-mutiny-generator:2.21.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 42,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:smallrye-fault-tolerance-vertx:5.4.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-web:2.21.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 66,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-web-common:2.21.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 8,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-web-common:4.2.7",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 19,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:2.21.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 19,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-auth-common:4.2.7",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 84,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:2.21.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 1,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-bridge-common:4.2.7",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-resteasy-server-common:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 3,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-resteasy-common:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 18,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:2.0.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 143,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.ibm.async:asyncutil:0.1.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 90,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-resteasy-jackson:2.9.2.Final",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-jackson:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 3,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 59,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 23,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.resteasy:resteasy-jackson2-provider:4.7.5.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 16,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 9,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 17,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 13,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.java-json-tools:json-patch:1.13",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 29,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.java-json-tools:msg-simple:1.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 23,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.java-json-tools:btf:1.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 3,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.java-json-tools:jackson-coreutils:2.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 14,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-agroal:2.9.2.Final",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 31,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-datasource:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 11,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-datasource-common:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 3,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-credentials:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-narayana-jta:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 34,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-transaction-annotations:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 1,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:smallrye-context-propagation-jta:1.2.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-reactive-converter-api:2.7.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye.reactive:smallrye-reactive-converter-mutiny:2.7.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss:jboss-transaction-spi:7.6.0.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 39,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:1.0.0.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 103,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jboss.narayana.jts:narayana-jts-integration:5.12.6.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 25,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.agroal:agroal-api:1.16",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 56,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.agroal:agroal-narayana:1.16",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 8,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.agroal:agroal-pool:1.16",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 51,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-jdbc-mysql:2.9.2.Final",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 8,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-hibernate-orm:2.9.2.Final",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 148,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate:hibernate-core:5.6.9.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4909,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.12.9",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2647,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "antlr:antlr:2.7.7",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 224,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate.common:hibernate-commons-annotations:5.1.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 68,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate:hibernate-graalvm:5.6.9.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 3,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 207,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate:quarkus-local-cache:0.1.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 36,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-caffeine:2.9.2.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.ben-manes.caffeine:caffeine:2.9.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 692,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.13.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 26,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.quarkus:quarkus-flyway:2.9.2.Final",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 32,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.flywaydb:flyway-core:8.5.10",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 397,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.flywaydb:flyway-mysql:8.5.10",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 12,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      }
+    ]
+  }
+}

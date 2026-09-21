@@ -1,0 +1,35 @@
+{
+  "types":[
+    {
+      "name":"io.jsonwebtoken.ExpiredJwtException",
+      "customTargetConstructorClass":"java.lang.Object"
+    },
+    {
+      "name":"io.jsonwebtoken.MalformedJwtException",
+      "customTargetConstructorClass":"java.lang.Object"
+    },
+    {
+      "name":"io.jsonwebtoken.SignatureException",
+      "customTargetConstructorClass":"java.lang.Object"
+    },
+    {
+      "name":"org.junit.platform.launcher.TestIdentifier$SerializedForm"
+    },
+    {
+      "name":"org.springframework.data.mapping.PropertyReferenceException",
+      "customTargetConstructorClass":"java.lang.Object"
+    },
+    {
+      "name":"org.springframework.security.authentication.BadCredentialsException",
+      "customTargetConstructorClass":"java.lang.Object"
+    },
+    {
+      "name":"org.springframework.security.core.userdetails.UsernameNotFoundException",
+      "customTargetConstructorClass":"java.lang.Object"
+    }
+  ],
+  "lambdaCapturingTypes":[
+  ],
+  "proxies":[
+  ]
+}

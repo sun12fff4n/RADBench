@@ -1,0 +1,116 @@
+org.apache.iotdb:flink-sql-iotdb-connector:jar:2.0.4-SNAPSHOT
++- org.apache.iotdb:iotdb-session:jar:2.0.5:compile
+|  +- org.apache.iotdb:iotdb-thrift-commons:jar:2.0.5:compile
+|  +- org.apache.iotdb:iotdb-thrift:jar:2.0.5:compile
+|  \- org.apache.thrift:libthrift:jar:0.14.1:compile
+|     +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+|     \- org.apache.httpcomponents:httpcore:jar:4.4.12:compile
++- org.apache.iotdb:node-commons:jar:2.0.5:compile
+|  +- org.apache.iotdb:udf-api:jar:2.0.5:compile
+|  +- org.apache.iotdb:trigger-api:jar:2.0.5:compile
+|  +- org.apache.iotdb:pipe-api:jar:2.0.5:compile
+|  +- org.apache.iotdb:iotdb-thrift-confignode:jar:2.0.5:compile
+|  +- org.apache.iotdb:iotdb-thrift-consensus:jar:2.0.5:compile
+|  +- org.apache.iotdb:metrics-interface:jar:2.0.5:compile
+|  |  +- io.projectreactor.netty:reactor-netty-http:jar:1.2.8:compile
+|  |  |  +- io.netty:netty-codec-http2:jar:4.1.122.Final:compile
+|  |  |  +- io.netty:netty-resolver-dns:jar:4.1.122.Final:compile
+|  |  |  |  \- io.netty:netty-codec-dns:jar:4.1.122.Final:compile
+|  |  |  +- io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.122.Final:compile
+|  |  |  |  \- io.netty:netty-resolver-dns-classes-macos:jar:4.1.122.Final:compile
+|  |  |  \- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.122.Final:compile
+|  |  |     +- io.netty:netty-transport-native-unix-common:jar:4.1.122.Final:compile
+|  |  |     \- io.netty:netty-transport-classes-epoll:jar:4.1.122.Final:compile
+|  |  +- io.projectreactor.netty:reactor-netty-core:jar:1.2.8:compile
+|  |  |  +- io.netty:netty-handler:jar:4.1.122.Final:compile
+|  |  |  \- io.netty:netty-handler-proxy:jar:4.1.122.Final:compile
+|  |  |     \- io.netty:netty-codec-socks:jar:4.1.122.Final:compile
+|  |  +- io.projectreactor:reactor-core:jar:3.5.18:compile
+|  |  +- io.netty:netty-common:jar:4.1.119.Final:compile
+|  |  +- io.netty:netty-transport:jar:4.1.119.Final:compile
+|  |  |  +- io.netty:netty-buffer:jar:4.1.119.Final:compile
+|  |  |  \- io.netty:netty-resolver:jar:4.1.119.Final:compile
+|  |  +- io.netty:netty-codec-http:jar:4.1.119.Final:compile
+|  |  |  \- io.netty:netty-codec:jar:4.1.119.Final:compile
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.4:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.3.15:compile
+|  |  \- ch.qos.logback:logback-core:jar:1.3.15:compile
+|  +- org.apache.iotdb:metrics-core:jar:2.0.5:compile
+|  |  \- io.micrometer:micrometer-core:jar:1.11.4:compile
+|  |     +- io.micrometer:micrometer-commons:jar:1.11.4:compile
+|  |     +- io.micrometer:micrometer-observation:jar:1.11.4:compile
+|  |     +- org.hdrhistogram:HdrHistogram:jar:2.1.12:runtime
+|  |     \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+|  +- io.dropwizard.metrics:metrics-core:jar:4.2.19:compile
+|  +- commons-io:commons-io:jar:2.14.0:compile
+|  +- org.apache.commons:commons-pool2:jar:2.11.1:compile
+|  +- commons-cli:commons-cli:jar:1.5.0:compile
+|  +- net.minidev:json-smart:jar:2.5.2:compile
+|  |  \- net.minidev:accessors-smart:jar:2.5.2:compile
+|  +- com.nimbusds:nimbus-jose-jwt:jar:9.37.3:compile
+|  |  \- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+|  +- cglib:cglib:jar:3.3.0:compile
+|  |  \- org.ow2.asm:asm:jar:7.1:compile
+|  +- io.jsonwebtoken:jjwt-api:jar:0.11.5:compile
+|  +- com.nimbusds:oauth2-oidc-sdk:jar:10.15:compile
+|  |  +- com.nimbusds:content-type:jar:2.2:compile
+|  |  \- com.nimbusds:lang-tag:jar:1.7:compile
+|  +- commons-codec:commons-codec:jar:1.16.0:compile
+|  +- com.github.ben-manes.caffeine:caffeine:jar:2.9.3:compile
+|  +- org.apache.commons:commons-jexl3:jar:3.3:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  +- com.github.luben:zstd-jni:jar:1.5.5-5:compile
+|  +- org.reflections:reflections:jar:0.10.2:compile
+|  |  \- org.javassist:javassist:jar:3.28.0-GA:compile
+|  +- org.checkerframework:checker-qual:jar:3.38.0:compile
+|  +- com.timecho.ratis:ratis-common:jar:3.2.1:compile
+|  |  +- org.apache.ratis:ratis-thirdparty-misc:jar:1.0.9:compile
+|  |  \- com.timecho.ratis:ratis-proto:jar:3.2.1:compile
+|  |     \- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+|  \- org.apache.iotdb:iotdb-thrift-ainode:jar:2.0.5:compile
++- org.apache.iotdb:isession:jar:2.0.5:compile
++- org.apache.iotdb:service-rpc:jar:2.0.5:compile
+|  \- org.xerial.snappy:snappy-java:jar:1.1.10.5:compile
++- org.apache.tsfile:common:jar:2.1.1:compile
++- org.apache.tsfile:tsfile:jar:2.1.1:compile
+|  +- org.lz4:lz4-java:jar:1.8.0:compile
+|  +- org.tukaani:xz:jar:1.10:compile
+|  \- org.antlr:antlr4-runtime:jar:4.9.3:compile
++- org.slf4j:slf4j-api:jar:2.0.9:compile
++- org.java-websocket:Java-WebSocket:jar:1.5.4:compile
++- org.apache.commons:commons-lang3:jar:3.13.0:compile
++- com.google.guava:guava:jar:32.1.2-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+|  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- org.apache.flink:flink-table-api-java-bridge:jar:1.17.1:provided
+|  +- org.apache.flink:flink-table-api-java:jar:1.17.1:provided
+|  +- org.apache.flink:flink-table-api-bridge-base:jar:1.17.1:provided
+|  \- org.apache.flink:flink-java:jar:1.17.1:provided
+|     \- com.twitter:chill-java:jar:0.7.6:provided
++- org.apache.flink:flink-streaming-java:jar:1.17.1:provided
+|  +- org.apache.flink:flink-file-sink-common:jar:1.17.1:provided
+|  +- org.apache.flink:flink-runtime:jar:1.17.1:provided
+|  |  +- org.apache.flink:flink-rpc-core:jar:1.17.1:provided
+|  |  +- org.apache.flink:flink-rpc-akka-loader:jar:1.17.1:provided
+|  |  +- org.apache.flink:flink-queryable-state-client-java:jar:1.17.1:provided
+|  |  +- org.apache.flink:flink-hadoop-fs:jar:1.17.1:provided
+|  |  +- org.apache.flink:flink-shaded-netty:jar:4.1.82.Final-16.1:provided
+|  |  \- org.apache.flink:flink-shaded-force-shading:jar:16.1:provided
+|  +- org.apache.flink:flink-shaded-guava:jar:30.1.1-jre-16.1:provided
+|  \- org.apache.commons:commons-math3:jar:3.6.1:provided
++- org.apache.flink:flink-core:jar:1.17.1:provided
+|  +- org.apache.flink:flink-annotations:jar:1.17.1:provided
+|  +- org.apache.flink:flink-metrics-core:jar:1.17.1:provided
+|  +- org.apache.flink:flink-shaded-asm-9:jar:9.3-16.1:provided
+|  +- org.apache.flink:flink-shaded-jackson:jar:2.13.4-16.1:provided
+|  +- org.apache.commons:commons-text:jar:1.10.0:provided
+|  +- com.esotericsoftware.kryo:kryo:jar:2.24.0:provided
+|  |  +- com.esotericsoftware.minlog:minlog:jar:1.2:provided
+|  |  \- org.objenesis:objenesis:jar:2.1:provided
+|  +- commons-collections:commons-collections:jar:3.2.2:provided
+|  \- org.apache.commons:commons-compress:jar:1.21:provided
+\- org.apache.flink:flink-table-common:jar:1.17.1:provided
+   \- com.ibm.icu:icu4j:jar:67.1:provided

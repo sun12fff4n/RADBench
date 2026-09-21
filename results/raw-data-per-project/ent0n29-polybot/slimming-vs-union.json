@@ -1,0 +1,2194 @@
+{
+  "project_id": "ent0n29-polybot",
+  "tool": "slimming",
+  "module_type": "multi",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "slimming_total": 142,
+  "slimming_counts": {
+    "": 120,
+    "gray": 20,
+    "red": 2
+  },
+  "nia_total_classes": 1717,
+  "nia_mapped_classes": 1148,
+  "nia_proxy_recovered": 11,
+  "multi_module_aggregated": true,
+  "modules": [
+    "analytics-service",
+    "executor-service",
+    "infrastructure-orchestrator-service",
+    "ingestor-service",
+    "polybot-core",
+    "strategy-service"
+  ],
+  "buckets": {
+    "used+hit": 52,
+    "used+nohit": 68,
+    "bloated+hit": 0,
+    "bloated+nohit": 2,
+    "unloaded+hit": 6,
+    "unloaded+nohit": 14
+  },
+  "metrics": {
+    "tp": 2,
+    "fp": 0,
+    "tn": 58,
+    "fn": 82,
+    "precision": 1.0,
+    "recall": 0.0238,
+    "f1": 0.0465
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-actuator-autoconfigure:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 136,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-actuator:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 91,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-context:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 66,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-web:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 55,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-webmvc:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 49,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.polybot:polybot-core:0.0.1-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 43,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-core:1.13.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 30,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-tx:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 23,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.kafka:spring-kafka:3.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 23,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-beans:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 21,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-core:10.1.25",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 21,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.hibernate.validator:hibernate-validator:8.0.1.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 20,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-aop:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 16,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-jdbc:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 13,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:3.0.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 13,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.5.6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 10,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.apache.kafka:kafka-clients:3.7.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-observation:1.13.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.zaxxer:HikariCP:5.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.17.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.17.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "at.yawk.lz4:lz4-java:1.8.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-commons:1.13.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.25",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.lz4:lz4-java:1.8.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents.client5:httpclient5:5.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "com.clickhouse:clickhouse-jdbc:0.6.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-registry-prometheus:1.13.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-model:1.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-el:10.1.25",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.5.3.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.17.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.yaml:snakeyaml:2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-to-slf4j:2.23.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-api:2.23.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.slf4j:jul-to-slf4j:2.0.13",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.reactivestreams:reactive-streams:1.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "me.paulschwarz:spring-dotenv:4.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-jdbc:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-validation:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-web:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-actuator:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:core:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.jetbrains:annotations:13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:crypto:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:utils:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:abi:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.bouncycastle:bcprov-jdk15on:1.65",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "com.polybot:analytics-service:0.0.1-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents.core5:httpcore5-h2:5.2.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "org.projectlombok:lombok:1.18.42",
+        "fillColor": "",
+        "problem": [],
+        "scope": "provided",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-test:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.jayway.jsonpath:json-path:2.9.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "net.minidev:json-smart:2.5.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "net.minidev:accessors-smart:2.5.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.ow2.asm:asm:9.6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.3.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test-autoconfigure:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.mockito:mockito-junit-jupiter:5.11.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.mockito:mockito-core:5.11.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.awaitility:awaitility:4.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:2.1.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.xmlunit:xmlunit-core:2.9.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.assertj:assertj-core:3.25.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy-agent:1.14.17",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.objenesis:objenesis:3.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.skyscreamer:jsonassert:1.5.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.vaadin.external.google:android-json:0.0.20131108.vaadin1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-exposition-formats:1.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-config:1.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-shaded-protobuf:1.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.hdrhistogram:HdrHistogram:2.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.latencyutils:LatencyUtils:2.0.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-tracer-common:1.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-core:1.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.7.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-tomcat:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-json:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-jcl:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-logging:3.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.5.6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-expression:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-jakarta9:1.13.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.polybot:executor-service:0.0.1-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jffi:1.2.17",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.ow2.asm:asm-commons:5.0.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jffi:native",
+        "fillColor": "",
+        "problem": [],
+        "scope": "1.2.16",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.ow2.asm:asm-analysis:5.0.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jnr-x86asm:1.0.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jnr-a64asm:1.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.ow2.asm:asm-util:5.0.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jnr-posix:3.0.47",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.24",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.squareup.okio:okio:3.6.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.squareup.okio:okio-jvm:3.6.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.24",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.java-websocket:Java-WebSocket:1.3.8",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:rlp:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:tuples:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.reactivex.rxjava2:rxjava:2.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.squareup.okhttp3:logging-interceptor:4.12.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "io.github.cdimascio:dotenv-java:3.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-messaging:6.1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.retry:spring-retry:2.0.6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.xerial.snappy:snappy-java:1.1.10.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.luben:zstd-jni:1.5.5-6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.polybot:infrastructure-orchestrator-service:0.0.1-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "infrastructure-orchestrator-service"
+        ]
+      },
+      {
+        "gav": "com.polybot:ingestor-service:0.0.1-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "ingestor-service"
+        ]
+      },
+      {
+        "gav": "com.polybot:strategy-service:0.0.1-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "strategy-service"
+        ]
+      }
+    ],
+    "bloated+hit": [],
+    "bloated+nohit": [
+      {
+        "gav": "com.github.jnr:jnr-unixsocket:0.21",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jnr-enxio:0.19",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      }
+    ],
+    "unloaded+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 285,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot:3.3.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 133,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-core:6.1.10",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 25,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 10,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.13",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.squareup.okhttp3:okhttp:4.12.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      }
+    ],
+    "unloaded+nohit": [
+      {
+        "gav": "org.apache.httpcomponents.core5:httpcore5:5.2.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service"
+        ]
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:2.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.14.17",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-test:6.1.10",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "analytics-service",
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jnr-constants:0.9.11",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jnr-ffi:2.1.9",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.ow2.asm:asm-tree:5.0.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.ow2.asm:asm:5.0.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jnr-ffi:2.1.8",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "com.github.jnr:jnr-constants:0.9.9",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.24",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "executor-service",
+          "infrastructure-orchestrator-service",
+          "ingestor-service",
+          "polybot-core",
+          "strategy-service"
+        ]
+      }
+    ]
+  },
+  "runtime_size": 49,
+  "static_size": 27,
+  "base_union_size": 54,
+  "anchor_size": 4,
+  "final_union_size": 58,
+  "missing_from_tree_count": 0
+}

@@ -1,0 +1,685 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Shiro + mpJWT                                               [pom]
+[INFO] Apache Shiro + mpJWT :: keystore                                   [jar]
+[INFO] Apache Shiro + mpJWT :: issuer server                              [war]
+[INFO] Apache Shiro + mpJWT :: start server                               [war]
+[INFO] Apache Shiro + mpJWT :: finish server                              [war]
+[INFO] Apache Shiro + mpJWT :: integration test                           [jar]
+[INFO] 
+[INFO] -----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.root >------------
+[INFO] Building Apache Shiro + mpJWT 1.0.0-SNAPSHOT                       [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.root ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- failsafe:3.5.3:integration-test (default) @ shiro.jwt.jaxrs.root ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- failsafe:3.5.3:verify (default) @ shiro.jwt.jaxrs.root ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ shiro.jwt.jaxrs.root ---
+[INFO] Installing /project/pom.xml to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.root/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.root-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore >----------
+[INFO] Building Apache Shiro + mpJWT :: keystore 1.0.0-SNAPSHOT           [2/6]
+[INFO]   from keystore/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- keytool:1.7:generateKeyPair (generate-keypair) @ shiro.jwt.jaxrs.keystore ---
+[WARNING] Generating 256 bit EC (secp256r1) key pair and self-signed certificate (SHA256withECDSA) with a validity of 90 days
+[WARNING] 	for: CN=http://localhost:9081/, OU=, O=, L=, ST=, C=DE
+[WARNING] 
+[WARNING] Warning:
+[WARNING] Specifying -keysize for generating EC keys is deprecated, please use "-groupname secp256r1" instead.
+[INFO] 
+[INFO] --- keytool:1.7:exportCertificate (export-public-certificate) @ shiro.jwt.jaxrs.keystore ---
+[WARNING] Certificate stored in file </tmp/issuer.crt>
+[INFO] 
+[INFO] --- keytool:1.7:importCertificate (import-public-certificate) @ shiro.jwt.jaxrs.keystore ---
+[WARNING] Certificate was added to keystore
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.5.0:jar (default-jar) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Building jar: /project/keystore/target/shiro.jwt.jaxrs.keystore-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- failsafe:3.5.3:integration-test (default) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- failsafe:3.5.3:verify (default) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Installing /project/keystore/pom.xml to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.keystore/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.keystore-1.0.0-SNAPSHOT.pom
+[INFO] Installing /project/keystore/target/shiro.jwt.jaxrs.keystore-1.0.0-SNAPSHOT.jar to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.keystore/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.keystore-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.issuer >-----------
+[INFO] Building Apache Shiro + mpJWT :: issuer server 1.0.0-SNAPSHOT      [3/6]
+[INFO]   from issuer/pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 9 source files with javac [debug release 17] to target/classes
+[INFO] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java: /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java uses or overrides a deprecated API.
+[INFO] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:3.4.0:war (default-war) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [shiro.jwt.jaxrs.issuer] in [/project/issuer/target/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/project/issuer/src/main/webapp]
+[INFO] Building war: /project/issuer/target/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT.war
+[INFO] Packaging classes
+[INFO] Building jar: /project/issuer/target/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT-classes.jar
+[INFO] 
+[INFO] --- failsafe:3.5.3:integration-test (default) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- failsafe:3.5.3:verify (default) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Installing /project/issuer/pom.xml to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.issuer/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT.pom
+[INFO] Installing /project/issuer/target/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT.war to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.issuer/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT.war
+[INFO] Installing /project/issuer/target/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT-classes.jar to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.issuer/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT-classes.jar
+[INFO] 
+[INFO] -----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.start >-----------
+[INFO] Building Apache Shiro + mpJWT :: start server 1.0.0-SNAPSHOT       [4/6]
+[INFO]   from start/pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.start ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.start ---
+[INFO] skip non existing resourceDirectory /project/start/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.start ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 10 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.start ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.start ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.start ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:3.4.0:war (default-war) @ shiro.jwt.jaxrs.start ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [shiro.jwt.jaxrs.start] in [/project/start/target/shiro.jwt.jaxrs.start-1.0.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/project/start/src/main/webapp]
+[INFO] Building war: /project/start/target/shiro.jwt.jaxrs.start-1.0.0-SNAPSHOT.war
+[INFO] Packaging classes
+[INFO] Building jar: /project/start/target/shiro.jwt.jaxrs.start-1.0.0-SNAPSHOT-classes.jar
+[INFO] 
+[INFO] --- failsafe:3.5.3:integration-test (default) @ shiro.jwt.jaxrs.start ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- failsafe:3.5.3:verify (default) @ shiro.jwt.jaxrs.start ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ shiro.jwt.jaxrs.start ---
+[INFO] Installing /project/start/pom.xml to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.start/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.start-1.0.0-SNAPSHOT.pom
+[INFO] Installing /project/start/target/shiro.jwt.jaxrs.start-1.0.0-SNAPSHOT.war to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.start/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.start-1.0.0-SNAPSHOT.war
+[INFO] Installing /project/start/target/shiro.jwt.jaxrs.start-1.0.0-SNAPSHOT-classes.jar to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.start/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.start-1.0.0-SNAPSHOT-classes.jar
+[INFO] 
+[INFO] ----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.finish >-----------
+[INFO] Building Apache Shiro + mpJWT :: finish server 1.0.0-SNAPSHOT      [5/6]
+[INFO]   from finish/pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.finish ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.finish ---
+[INFO] skip non existing resourceDirectory /project/finish/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.finish ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 17 source files with javac [debug release 17] to target/classes
+[INFO] /project/finish/src/main/java/io/github/bmarwell/shiro/jwt/json/JsonbJwtDeserializer.java: /project/finish/src/main/java/io/github/bmarwell/shiro/jwt/json/JsonbJwtDeserializer.java uses or overrides a deprecated API.
+[INFO] /project/finish/src/main/java/io/github/bmarwell/shiro/jwt/json/JsonbJwtDeserializer.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.finish ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.finish ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.finish ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:3.4.0:war (default-war) @ shiro.jwt.jaxrs.finish ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [shiro.jwt.jaxrs.finish] in [/project/finish/target/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/project/finish/src/main/webapp]
+[INFO] Building war: /project/finish/target/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.war
+[INFO] Packaging classes
+[INFO] Building jar: /project/finish/target/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT-classes.jar
+[INFO] 
+[INFO] --- liberty:3.11.4:create (test-start) @ shiro.jwt.jaxrs.finish ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/openliberty-kernel/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/openliberty-kernel/maven-metadata.xml (3.6 kB at 8.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/openliberty-kernel/26.0.0.9/openliberty-kernel-26.0.0.9.zip
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/openliberty-kernel/26.0.0.9/openliberty-kernel-26.0.0.9.zip (15 MB at 22 MB/s)
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-kernel:null:26.0.0.9:zip.
+[INFO] CWWKM2102I: Using installDirectory : /project/finish/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : shiro-its-jaxrs-openliberty.
+[INFO] CWWKM2102I: Using serverDirectory : /project/finish/target/liberty/wlp/usr/servers/shiro-its-jaxrs-openliberty.
+[INFO] Installing assembly...
+[INFO] Expanding: /root/.m2/repository/io/openliberty/openliberty-kernel/26.0.0.9/openliberty-kernel-26.0.0.9.zip into /project/finish/target/liberty
+[INFO] CWWKM2143I: Server shiro-its-jaxrs-openliberty does not exist. Now creating...
+[INFO] CWWKM2001I: Invoke command is [/project/finish/target/liberty/wlp/bin/server, create, shiro-its-jaxrs-openliberty].
+[INFO] 
+[INFO] Server shiro-its-jaxrs-openliberty created.
+[INFO] CWWKM2129I: Server shiro-its-jaxrs-openliberty has been created at /project/finish/target/liberty/wlp/usr/servers/shiro-its-jaxrs-openliberty.
+[INFO] Copying 2 files to /project/finish/target/liberty/wlp/usr/servers/shiro-its-jaxrs-openliberty
+[INFO] CWWKM2144I: Update server configuration file server.xml from /project/finish/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from /project/finish/src/main/liberty/config/bootstrap.properties.
+[INFO] CWWKM2144I: Update server configuration file server.env from inlined configuration.
+[INFO] CWWKM2185I: The liberty-maven-plugin configuration parameter "appsDirectory" value defaults to "apps".
+[INFO] 
+[INFO] --- liberty:3.11.4:install-feature (test-start) @ shiro.jwt.jaxrs.finish ---
+[INFO] Feature signature verify option: enforce
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/install-map/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/install-map/maven-metadata.xml (350 B at 3.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/features/26.0.0.9/features-26.0.0.9.json
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/features/26.0.0.9/features-26.0.0.9.json (8.4 MB at 42 MB/s)
+[INFO] Parsing the server file for features and includes: shiro-its-jaxrs-openliberty/server.xml
+[INFO] Parsing the server file for features and includes: shiro-its-jaxrs-openliberty/configDropins/overrides/liberty-plugin-variable-config.xml
+[INFO] plugin listed esa: []
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/repository-resolver/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/repository-resolver/maven-metadata.xml (358 B at 2.7 kB/s)
+
+[INFO] Resolving features: [jsonb-1.0, servlet-4.0, mpconfig-2.0, cdi-2.0, localconnector-1.0, jaxrs-2.1]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.eeCompatible-8.0/26.0.0.9/com.ibm.websphere.appserver.eeCompatible-8.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.eeCompatible-8.0/26.0.0.9/com.ibm.websphere.appserver.eeCompatible-8.0-26.0.0.9.esa (13 kB at 371 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.eeCompatible-8.0/26.0.0.9/com.ibm.websphere.appserver.eeCompatible-8.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.eeCompatible-8.0/26.0.0.9/com.ibm.websphere.appserver.eeCompatible-8.0-26.0.0.9.esa.asc (853 B at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.annotation-1.3/26.0.0.9/com.ibm.websphere.appserver.javax.annotation-1.3-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.annotation-1.3/26.0.0.9/com.ibm.websphere.appserver.javax.annotation-1.3-26.0.0.9.esa (16 kB at 577 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.annotation-1.3/26.0.0.9/com.ibm.websphere.appserver.javax.annotation-1.3-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.annotation-1.3/26.0.0.9/com.ibm.websphere.appserver.javax.annotation-1.3-26.0.0.9.esa.asc (853 B at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.artifact-1.0/26.0.0.9/com.ibm.websphere.appserver.artifact-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.artifact-1.0/26.0.0.9/com.ibm.websphere.appserver.artifact-1.0-26.0.0.9.esa (640 kB at 16 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.artifact-1.0/26.0.0.9/com.ibm.websphere.appserver.artifact-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.artifact-1.0/26.0.0.9/com.ibm.websphere.appserver.artifact-1.0-26.0.0.9.esa.asc (853 B at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.jandex.internal-3.0/26.0.0.9/io.openliberty.jandex.internal-3.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.jandex.internal-3.0/26.0.0.9/io.openliberty.jandex.internal-3.0-26.0.0.9.esa (383 kB at 9.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.jandex.internal-3.0/26.0.0.9/io.openliberty.jandex.internal-3.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.jandex.internal-3.0/26.0.0.9/io.openliberty.jandex.internal-3.0-26.0.0.9.esa.asc (853 B at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonpImpl-1.1.1/26.0.0.9/com.ibm.websphere.appserver.jsonpImpl-1.1.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonpImpl-1.1.1/26.0.0.9/com.ibm.websphere.appserver.jsonpImpl-1.1.1-26.0.0.9.esa (127 kB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonpImpl-1.1.1/26.0.0.9/com.ibm.websphere.appserver.jsonpImpl-1.1.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonpImpl-1.1.1/26.0.0.9/com.ibm.websphere.appserver.jsonpImpl-1.1.1-26.0.0.9.esa.asc (853 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.anno-1.0/26.0.0.9/com.ibm.websphere.appserver.anno-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.anno-1.0/26.0.0.9/com.ibm.websphere.appserver.anno-1.0-26.0.0.9.esa (1.3 MB at 7.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.anno-1.0/26.0.0.9/com.ibm.websphere.appserver.anno-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.anno-1.0/26.0.0.9/com.ibm.websphere.appserver.anno-1.0-26.0.0.9.esa.asc (853 B at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeedd-1.0/26.0.0.9/com.ibm.websphere.appserver.javaeedd-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeedd-1.0/26.0.0.9/com.ibm.websphere.appserver.javaeedd-1.0-26.0.0.9.esa (1.7 MB at 19 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeedd-1.0/26.0.0.9/com.ibm.websphere.appserver.javaeedd-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeedd-1.0/26.0.0.9/com.ibm.websphere.appserver.javaeedd-1.0-26.0.0.9.esa.asc (853 B at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonpInternal-1.1/26.0.0.9/com.ibm.websphere.appserver.jsonpInternal-1.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonpInternal-1.1/26.0.0.9/com.ibm.websphere.appserver.jsonpInternal-1.1-26.0.0.9.esa (6.3 kB at 198 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonpInternal-1.1/26.0.0.9/com.ibm.websphere.appserver.jsonpInternal-1.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonpInternal-1.1/26.0.0.9/com.ibm.websphere.appserver.jsonpInternal-1.1-26.0.0.9.esa.asc (853 B at 6.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.containerServices-1.0/26.0.0.9/com.ibm.websphere.appserver.containerServices-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.containerServices-1.0/26.0.0.9/com.ibm.websphere.appserver.containerServices-1.0-26.0.0.9.esa (737 kB at 4.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.containerServices-1.0/26.0.0.9/com.ibm.websphere.appserver.containerServices-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.containerServices-1.0/26.0.0.9/com.ibm.websphere.appserver.containerServices-1.0-26.0.0.9.esa.asc (853 B at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.el-3.0/26.0.0.9/com.ibm.websphere.appserver.javax.el-3.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.el-3.0/26.0.0.9/com.ibm.websphere.appserver.javax.el-3.0-26.0.0.9.esa (114 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.el-3.0/26.0.0.9/com.ibm.websphere.appserver.javax.el-3.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.el-3.0/26.0.0.9/com.ibm.websphere.appserver.javax.el-3.0-26.0.0.9.esa.asc (853 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.interceptor-1.2/26.0.0.9/com.ibm.websphere.appserver.javax.interceptor-1.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.interceptor-1.2/26.0.0.9/com.ibm.websphere.appserver.javax.interceptor-1.2-26.0.0.9.esa (15 kB at 335 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.interceptor-1.2/26.0.0.9/com.ibm.websphere.appserver.javax.interceptor-1.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.interceptor-1.2/26.0.0.9/com.ibm.websphere.appserver.javax.interceptor-1.2-26.0.0.9.esa.asc (853 B at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.dynamicBundle-1.0/26.0.0.9/com.ibm.websphere.appserver.dynamicBundle-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.dynamicBundle-1.0/26.0.0.9/com.ibm.websphere.appserver.dynamicBundle-1.0-26.0.0.9.esa (22 kB at 613 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.dynamicBundle-1.0/26.0.0.9/com.ibm.websphere.appserver.dynamicBundle-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.dynamicBundle-1.0/26.0.0.9/com.ibm.websphere.appserver.dynamicBundle-1.0-26.0.0.9.esa.asc (853 B at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jsonp-1.1/26.0.0.9/jsonp-1.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jsonp-1.1/26.0.0.9/jsonp-1.1-26.0.0.9.esa (17 kB at 447 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jsonp-1.1/26.0.0.9/jsonp-1.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jsonp-1.1/26.0.0.9/jsonp-1.1-26.0.0.9.esa.asc (853 B at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.classloading-1.0/26.0.0.9/com.ibm.websphere.appserver.classloading-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.classloading-1.0/26.0.0.9/com.ibm.websphere.appserver.classloading-1.0-26.0.0.9.esa (549 kB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.classloading-1.0/26.0.0.9/com.ibm.websphere.appserver.classloading-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.classloading-1.0/26.0.0.9/com.ibm.websphere.appserver.classloading-1.0-26.0.0.9.esa.asc (853 B at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.cdi-2.0/26.0.0.9/com.ibm.websphere.appserver.javax.cdi-2.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.cdi-2.0/26.0.0.9/com.ibm.websphere.appserver.javax.cdi-2.0-26.0.0.9.esa (86 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.cdi-2.0/26.0.0.9/com.ibm.websphere.appserver.javax.cdi-2.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.cdi-2.0/26.0.0.9/com.ibm.websphere.appserver.javax.cdi-2.0-26.0.0.9.esa.asc (853 B at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonbImpl-1.0.1/26.0.0.9/com.ibm.websphere.appserver.jsonbImpl-1.0.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonbImpl-1.0.1/26.0.0.9/com.ibm.websphere.appserver.jsonbImpl-1.0.1-26.0.0.9.esa (372 kB at 5.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonbImpl-1.0.1/26.0.0.9/com.ibm.websphere.appserver.jsonbImpl-1.0.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonbImpl-1.0.1/26.0.0.9/com.ibm.websphere.appserver.jsonbImpl-1.0.1-26.0.0.9.esa.asc (853 B at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonbInternal-1.0/26.0.0.9/com.ibm.websphere.appserver.jsonbInternal-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonbInternal-1.0/26.0.0.9/com.ibm.websphere.appserver.jsonbInternal-1.0-26.0.0.9.esa (6.3 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonbInternal-1.0/26.0.0.9/com.ibm.websphere.appserver.jsonbInternal-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jsonbInternal-1.0/26.0.0.9/com.ibm.websphere.appserver.jsonbInternal-1.0-26.0.0.9.esa.asc (853 B at 6.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jsonb-1.0/26.0.0.9/jsonb-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jsonb-1.0/26.0.0.9/jsonb-1.0-26.0.0.9.esa (20 kB at 272 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jsonb-1.0/26.0.0.9/jsonb-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jsonb-1.0/26.0.0.9/jsonb-1.0-26.0.0.9.esa.asc (853 B at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.appLifecycle-1.0/26.0.0.9/com.ibm.websphere.appserver.appLifecycle-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.appLifecycle-1.0/26.0.0.9/com.ibm.websphere.appserver.appLifecycle-1.0-26.0.0.9.esa (9.7 kB at 304 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.appLifecycle-1.0/26.0.0.9/com.ibm.websphere.appserver.appLifecycle-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.appLifecycle-1.0/26.0.0.9/com.ibm.websphere.appserver.appLifecycle-1.0-26.0.0.9.esa.asc (853 B at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.appmanager-1.0/26.0.0.9/com.ibm.websphere.appserver.appmanager-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.appmanager-1.0/26.0.0.9/com.ibm.websphere.appserver.appmanager-1.0-26.0.0.9.esa (602 kB at 7.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.appmanager-1.0/26.0.0.9/com.ibm.websphere.appserver.appmanager-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.appmanager-1.0/26.0.0.9/com.ibm.websphere.appserver.appmanager-1.0-26.0.0.9.esa.asc (853 B at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform-6.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform-6.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform-6.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform-6.0-26.0.0.9.esa (130 kB at 3.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform-6.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform-6.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform-6.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform-6.0-26.0.0.9.esa.asc (853 B at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.eePlatform.7.0.internal-1.0/26.0.0.9/io.openliberty.eePlatform.7.0.internal-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.eePlatform.7.0.internal-1.0/26.0.0.9/io.openliberty.eePlatform.7.0.internal-1.0-26.0.0.9.esa (14 kB at 119 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.eePlatform.7.0.internal-1.0/26.0.0.9/io.openliberty.eePlatform.7.0.internal-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.eePlatform.7.0.internal-1.0/26.0.0.9/io.openliberty.eePlatform.7.0.internal-1.0-26.0.0.9.esa.asc (853 B at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.channelfw-1.0/26.0.0.9/com.ibm.websphere.appserver.channelfw-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.channelfw-1.0/26.0.0.9/com.ibm.websphere.appserver.channelfw-1.0-26.0.0.9.esa (750 kB at 9.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.channelfw-1.0/26.0.0.9/com.ibm.websphere.appserver.channelfw-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.channelfw-1.0/26.0.0.9/com.ibm.websphere.appserver.channelfw-1.0-26.0.0.9.esa.asc (853 B at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.servlet.api-4.0/26.0.0.9/io.openliberty.servlet.api-4.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.servlet.api-4.0/26.0.0.9/io.openliberty.servlet.api-4.0-26.0.0.9.esa (105 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.servlet.api-4.0/26.0.0.9/io.openliberty.servlet.api-4.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.servlet.api-4.0/26.0.0.9/io.openliberty.servlet.api-4.0-26.0.0.9.esa.asc (853 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform-8.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform-8.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform-8.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform-8.0-26.0.0.9.esa (6.4 kB at 220 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform-8.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform-8.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform-8.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform-8.0-26.0.0.9.esa.asc (853 B at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.injection-1.0/26.0.0.9/com.ibm.websphere.appserver.injection-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.injection-1.0/26.0.0.9/com.ibm.websphere.appserver.injection-1.0-26.0.0.9.esa (398 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.injection-1.0/26.0.0.9/com.ibm.websphere.appserver.injection-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.injection-1.0/26.0.0.9/com.ibm.websphere.appserver.injection-1.0-26.0.0.9.esa.asc (853 B at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeeddSchema-1.0/26.0.0.9/com.ibm.websphere.appserver.javaeeddSchema-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeeddSchema-1.0/26.0.0.9/com.ibm.websphere.appserver.javaeeddSchema-1.0-26.0.0.9.esa (39 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeeddSchema-1.0/26.0.0.9/com.ibm.websphere.appserver.javaeeddSchema-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeeddSchema-1.0/26.0.0.9/com.ibm.websphere.appserver.javaeeddSchema-1.0-26.0.0.9.esa.asc (853 B at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.requestProbes-1.0/26.0.0.9/com.ibm.websphere.appserver.requestProbes-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.requestProbes-1.0/26.0.0.9/com.ibm.websphere.appserver.requestProbes-1.0-26.0.0.9.esa (60 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.requestProbes-1.0/26.0.0.9/com.ibm.websphere.appserver.requestProbes-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.requestProbes-1.0/26.0.0.9/com.ibm.websphere.appserver.requestProbes-1.0-26.0.0.9.esa.asc (853 B at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.servlet-servletSpi1.0/26.0.0.9/com.ibm.websphere.appserver.servlet-servletSpi1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.servlet-servletSpi1.0/26.0.0.9/com.ibm.websphere.appserver.servlet-servletSpi1.0-26.0.0.9.esa (598 kB at 9.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.servlet-servletSpi1.0/26.0.0.9/com.ibm.websphere.appserver.servlet-servletSpi1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.servlet-servletSpi1.0/26.0.0.9/com.ibm.websphere.appserver.servlet-servletSpi1.0-26.0.0.9.esa.asc (853 B at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.httptransport-1.0/26.0.0.9/com.ibm.websphere.appserver.httptransport-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.httptransport-1.0/26.0.0.9/com.ibm.websphere.appserver.httptransport-1.0-26.0.0.9.esa (6.2 MB at 18 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.httptransport-1.0/26.0.0.9/com.ibm.websphere.appserver.httptransport-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.httptransport-1.0/26.0.0.9/com.ibm.websphere.appserver.httptransport-1.0-26.0.0.9.esa.asc (853 B at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/servlet-4.0/26.0.0.9/servlet-4.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/servlet-4.0/26.0.0.9/servlet-4.0-26.0.0.9.esa (3.8 MB at 31 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/servlet-4.0/26.0.0.9/servlet-4.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/servlet-4.0/26.0.0.9/servlet-4.0-26.0.0.9.esa.asc (853 B at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.mpCompatible-4.0/26.0.0.9/io.openliberty.mpCompatible-4.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.mpCompatible-4.0/26.0.0.9/io.openliberty.mpCompatible-4.0-26.0.0.9.esa (6.3 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.mpCompatible-4.0/26.0.0.9/io.openliberty.mpCompatible-4.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.mpCompatible-4.0/26.0.0.9/io.openliberty.mpCompatible-4.0-26.0.0.9.esa.asc (853 B at 6.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.org.eclipse.microprofile.config-2.0/26.0.0.9/com.ibm.websphere.appserver.org.eclipse.microprofile.config-2.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.org.eclipse.microprofile.config-2.0/26.0.0.9/com.ibm.websphere.appserver.org.eclipse.microprofile.config-2.0-26.0.0.9.esa (21 kB at 463 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.org.eclipse.microprofile.config-2.0/26.0.0.9/com.ibm.websphere.appserver.org.eclipse.microprofile.config-2.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.org.eclipse.microprofile.config-2.0/26.0.0.9/com.ibm.websphere.appserver.org.eclipse.microprofile.config-2.0-26.0.0.9.esa.asc (853 B at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.slf4j-1.7/26.0.0.9/com.ibm.websphere.appserver.internal.slf4j-1.7-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.slf4j-1.7/26.0.0.9/com.ibm.websphere.appserver.internal.slf4j-1.7-26.0.0.9.esa (51 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.slf4j-1.7/26.0.0.9/com.ibm.websphere.appserver.internal.slf4j-1.7-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.slf4j-1.7/26.0.0.9/com.ibm.websphere.appserver.internal.slf4j-1.7-26.0.0.9.esa.asc (853 B at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/mpConfig-2.0/26.0.0.9/mpConfig-2.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/mpConfig-2.0/26.0.0.9/mpConfig-2.0-26.0.0.9.esa (1.1 MB at 19 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/mpConfig-2.0/26.0.0.9/mpConfig-2.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/mpConfig-2.0/26.0.0.9/mpConfig-2.0-26.0.0.9.esa.asc (853 B at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jta-1.2/26.0.0.9/com.ibm.websphere.appserver.jta-1.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jta-1.2/26.0.0.9/com.ibm.websphere.appserver.jta-1.2-26.0.0.9.esa (152 kB at 3.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jta-1.2/26.0.0.9/com.ibm.websphere.appserver.jta-1.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jta-1.2/26.0.0.9/com.ibm.websphere.appserver.jta-1.2-26.0.0.9.esa.asc (853 B at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.persistence.base-2.2/26.0.0.9/com.ibm.websphere.appserver.javax.persistence.base-2.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.persistence.base-2.2/26.0.0.9/com.ibm.websphere.appserver.javax.persistence.base-2.2-26.0.0.9.esa (149 kB at 2.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.persistence.base-2.2/26.0.0.9/com.ibm.websphere.appserver.javax.persistence.base-2.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.persistence.base-2.2/26.0.0.9/com.ibm.websphere.appserver.javax.persistence.base-2.2-26.0.0.9.esa.asc (853 B at 7.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.connector.internal-1.7/26.0.0.9/com.ibm.websphere.appserver.javax.connector.internal-1.7-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.connector.internal-1.7/26.0.0.9/com.ibm.websphere.appserver.javax.connector.internal-1.7-26.0.0.9.esa (48 kB at 981 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.connector.internal-1.7/26.0.0.9/com.ibm.websphere.appserver.javax.connector.internal-1.7-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.connector.internal-1.7/26.0.0.9/com.ibm.websphere.appserver.javax.connector.internal-1.7-26.0.0.9.esa.asc (853 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.transaction-1.2/26.0.0.9/com.ibm.websphere.appserver.transaction-1.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.transaction-1.2/26.0.0.9/com.ibm.websphere.appserver.transaction-1.2-26.0.0.9.esa (1.2 MB at 20 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.transaction-1.2/26.0.0.9/com.ibm.websphere.appserver.transaction-1.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.transaction-1.2/26.0.0.9/com.ibm.websphere.appserver.transaction-1.2-26.0.0.9.esa.asc (853 B at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.jsp-2.3/26.0.0.9/com.ibm.websphere.appserver.javax.jsp-2.3-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.jsp-2.3/26.0.0.9/com.ibm.websphere.appserver.javax.jsp-2.3-26.0.0.9.esa (74 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.jsp-2.3/26.0.0.9/com.ibm.websphere.appserver.javax.jsp-2.3-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.jsp-2.3/26.0.0.9/com.ibm.websphere.appserver.javax.jsp-2.3-26.0.0.9.esa.asc (853 B at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.persistence-2.2/26.0.0.9/com.ibm.websphere.appserver.javax.persistence-2.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.persistence-2.2/26.0.0.9/com.ibm.websphere.appserver.javax.persistence-2.2-26.0.0.9.esa (151 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.persistence-2.2/26.0.0.9/com.ibm.websphere.appserver.javax.persistence-2.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.persistence-2.2/26.0.0.9/com.ibm.websphere.appserver.javax.persistence-2.2-26.0.0.9.esa.asc (853 B at 8.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.ejb-3.2/26.0.0.9/com.ibm.websphere.appserver.javax.ejb-3.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.ejb-3.2/26.0.0.9/com.ibm.websphere.appserver.javax.ejb-3.2-26.0.0.9.esa (45 kB at 913 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.ejb-3.2/26.0.0.9/com.ibm.websphere.appserver.javax.ejb-3.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.ejb-3.2/26.0.0.9/com.ibm.websphere.appserver.javax.ejb-3.2-26.0.0.9.esa.asc (853 B at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.contextService-1.0/26.0.0.9/com.ibm.websphere.appserver.contextService-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.contextService-1.0/26.0.0.9/com.ibm.websphere.appserver.contextService-1.0-26.0.0.9.esa (124 kB at 4.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.contextService-1.0/26.0.0.9/com.ibm.websphere.appserver.contextService-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.contextService-1.0/26.0.0.9/com.ibm.websphere.appserver.contextService-1.0-26.0.0.9.esa.asc (853 B at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/cdi-2.0/26.0.0.9/cdi-2.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/cdi-2.0/26.0.0.9/cdi-2.0-26.0.0.9.esa (2.7 MB at 15 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/cdi-2.0/26.0.0.9/cdi-2.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/cdi-2.0/26.0.0.9/cdi-2.0-26.0.0.9.esa.asc (853 B at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/localConnector-1.0/26.0.0.9/localConnector-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/localConnector-1.0/26.0.0.9/localConnector-1.0-26.0.0.9.esa (28 kB at 646 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/localConnector-1.0/26.0.0.9/localConnector-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/localConnector-1.0/26.0.0.9/localConnector-1.0-26.0.0.9.esa.asc (853 B at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.optional.jaxb-2.2/26.0.0.9/com.ibm.websphere.appserver.internal.optional.jaxb-2.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.optional.jaxb-2.2/26.0.0.9/com.ibm.websphere.appserver.internal.optional.jaxb-2.2-26.0.0.9.esa (2.9 MB at 14 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.optional.jaxb-2.2/26.0.0.9/com.ibm.websphere.appserver.internal.optional.jaxb-2.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.optional.jaxb-2.2/26.0.0.9/com.ibm.websphere.appserver.internal.optional.jaxb-2.2-26.0.0.9.esa.asc (853 B at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.globalhandler1.0.internal.ee-6.0/26.0.0.9/io.openliberty.globalhandler1.0.internal.ee-6.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.globalhandler1.0.internal.ee-6.0/26.0.0.9/io.openliberty.globalhandler1.0.internal.ee-6.0-26.0.0.9.esa (17 kB at 617 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.globalhandler1.0.internal.ee-6.0/26.0.0.9/io.openliberty.globalhandler1.0.internal.ee-6.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.globalhandler1.0.internal.ee-6.0/26.0.0.9/io.openliberty.globalhandler1.0.internal.ee-6.0-26.0.0.9.esa.asc (853 B at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.optional.jaxb-2.2/26.0.0.9/com.ibm.websphere.appserver.optional.jaxb-2.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.optional.jaxb-2.2/26.0.0.9/com.ibm.websphere.appserver.optional.jaxb-2.2-26.0.0.9.esa (61 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.optional.jaxb-2.2/26.0.0.9/com.ibm.websphere.appserver.optional.jaxb-2.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.optional.jaxb-2.2/26.0.0.9/com.ibm.websphere.appserver.optional.jaxb-2.2-26.0.0.9.esa.asc (853 B at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.servlet.internal-4.0/26.0.0.9/io.openliberty.servlet.internal-4.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.servlet.internal-4.0/26.0.0.9/io.openliberty.servlet.internal-4.0-26.0.0.9.esa (6.4 kB at 199 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.servlet.internal-4.0/26.0.0.9/io.openliberty.servlet.internal-4.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/io.openliberty.servlet.internal-4.0/26.0.0.9/io.openliberty.servlet.internal-4.0-26.0.0.9.esa.asc (853 B at 7.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.jaxrs-2.1/26.0.0.9/com.ibm.websphere.appserver.javax.jaxrs-2.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.jaxrs-2.1/26.0.0.9/com.ibm.websphere.appserver.javax.jaxrs-2.1-26.0.0.9.esa (315 kB at 8.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.jaxrs-2.1/26.0.0.9/com.ibm.websphere.appserver.javax.jaxrs-2.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javax.jaxrs-2.1/26.0.0.9/com.ibm.websphere.appserver.javax.jaxrs-2.1-26.0.0.9.esa.asc (853 B at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.globalhandler-1.0/26.0.0.9/com.ibm.websphere.appserver.globalhandler-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.globalhandler-1.0/26.0.0.9/com.ibm.websphere.appserver.globalhandler-1.0-26.0.0.9.esa (37 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.globalhandler-1.0/26.0.0.9/com.ibm.websphere.appserver.globalhandler-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.globalhandler-1.0/26.0.0.9/com.ibm.websphere.appserver.globalhandler-1.0-26.0.0.9.esa.asc (853 B at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.httpcommons-1.0/26.0.0.9/com.ibm.websphere.appserver.httpcommons-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.httpcommons-1.0/26.0.0.9/com.ibm.websphere.appserver.httpcommons-1.0-26.0.0.9.esa (1.8 MB at 23 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.httpcommons-1.0/26.0.0.9/com.ibm.websphere.appserver.httpcommons-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.httpcommons-1.0/26.0.0.9/com.ibm.websphere.appserver.httpcommons-1.0-26.0.0.9.esa.asc (853 B at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.cxf.common-3.2/26.0.0.9/com.ibm.websphere.appserver.internal.cxf.common-3.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.cxf.common-3.2/26.0.0.9/com.ibm.websphere.appserver.internal.cxf.common-3.2-26.0.0.9.esa (2.1 MB at 23 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.cxf.common-3.2/26.0.0.9/com.ibm.websphere.appserver.internal.cxf.common-3.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.cxf.common-3.2/26.0.0.9/com.ibm.websphere.appserver.internal.cxf.common-3.2-26.0.0.9.esa.asc (853 B at 7.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jaxrs.common-2.1/26.0.0.9/com.ibm.websphere.appserver.jaxrs.common-2.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jaxrs.common-2.1/26.0.0.9/com.ibm.websphere.appserver.jaxrs.common-2.1-26.0.0.9.esa (8.0 MB at 21 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jaxrs.common-2.1/26.0.0.9/com.ibm.websphere.appserver.jaxrs.common-2.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jaxrs.common-2.1/26.0.0.9/com.ibm.websphere.appserver.jaxrs.common-2.1-26.0.0.9.esa.asc (853 B at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.optional.jaxws-2.2/26.0.0.9/com.ibm.websphere.appserver.internal.optional.jaxws-2.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.optional.jaxws-2.2/26.0.0.9/com.ibm.websphere.appserver.internal.optional.jaxws-2.2-26.0.0.9.esa (43 kB at 410 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.optional.jaxws-2.2/26.0.0.9/com.ibm.websphere.appserver.internal.optional.jaxws-2.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.optional.jaxws-2.2/26.0.0.9/com.ibm.websphere.appserver.internal.optional.jaxws-2.2-26.0.0.9.esa.asc (853 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.jaxrs-2.1/26.0.0.9/com.ibm.websphere.appserver.internal.jaxrs-2.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.jaxrs-2.1/26.0.0.9/com.ibm.websphere.appserver.internal.jaxrs-2.1-26.0.0.9.esa (1.6 MB at 17 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.jaxrs-2.1/26.0.0.9/com.ibm.websphere.appserver.internal.jaxrs-2.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.internal.jaxrs-2.1/26.0.0.9/com.ibm.websphere.appserver.internal.jaxrs-2.1-26.0.0.9.esa.asc (853 B at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jaxrsClient-2.1/26.0.0.9/jaxrsClient-2.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jaxrsClient-2.1/26.0.0.9/jaxrsClient-2.1-26.0.0.9.esa (92 kB at 2.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jaxrsClient-2.1/26.0.0.9/jaxrsClient-2.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jaxrsClient-2.1/26.0.0.9/jaxrsClient-2.1-26.0.0.9.esa.asc (853 B at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jaxrs-2.1/26.0.0.9/jaxrs-2.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jaxrs-2.1/26.0.0.9/jaxrs-2.1-26.0.0.9.esa (18 kB at 448 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jaxrs-2.1/26.0.0.9/jaxrs-2.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jaxrs-2.1/26.0.0.9/jaxrs-2.1-26.0.0.9.esa.asc (853 B at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jndi-1.0/26.0.0.9/jndi-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jndi-1.0/26.0.0.9/jndi-1.0-26.0.0.9.esa (250 kB at 5.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jndi-1.0/26.0.0.9/jndi-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/jndi-1.0/26.0.0.9/jndi-1.0-26.0.0.9.esa.asc (853 B at 8.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jaxrscdi-2.1/26.0.0.9/com.ibm.websphere.appserver.jaxrscdi-2.1-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jaxrscdi-2.1/26.0.0.9/com.ibm.websphere.appserver.jaxrscdi-2.1-26.0.0.9.esa (39 kB at 756 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jaxrscdi-2.1/26.0.0.9/com.ibm.websphere.appserver.jaxrscdi-2.1-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.jaxrscdi-2.1/26.0.0.9/com.ibm.websphere.appserver.jaxrscdi-2.1-26.0.0.9.esa.asc (853 B at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.transactionContext-1.0/26.0.0.9/com.ibm.websphere.appserver.transactionContext-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.transactionContext-1.0/26.0.0.9/com.ibm.websphere.appserver.transactionContext-1.0-26.0.0.9.esa (22 kB at 538 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.transactionContext-1.0/26.0.0.9/com.ibm.websphere.appserver.transactionContext-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.transactionContext-1.0/26.0.0.9/com.ibm.websphere.appserver.transactionContext-1.0-26.0.0.9.esa.asc (853 B at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0-26.0.0.9.esa (12 kB at 460 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0/26.0.0.9/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0-26.0.0.9.esa.asc (853 B at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-servlet4.0/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-servlet4.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-servlet4.0/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-servlet4.0-26.0.0.9.esa (112 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-servlet4.0/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-servlet4.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-servlet4.0/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-servlet4.0-26.0.0.9.esa.asc (853 B at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-jndi1.0/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-jndi1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-jndi1.0/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-jndi1.0-26.0.0.9.esa (15 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-jndi1.0/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-jndi1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-jndi1.0/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-jndi1.0-26.0.0.9.esa.asc (853 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-transaction1.2/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-transaction1.2-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-transaction1.2/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-transaction1.2-26.0.0.9.esa (39 kB at 918 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-transaction1.2/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-transaction1.2-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.cdi2.0-transaction1.2/26.0.0.9/com.ibm.websphere.appserver.cdi2.0-transaction1.2-26.0.0.9.esa.asc (853 B at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.classloaderContext-1.0/26.0.0.9/com.ibm.websphere.appserver.classloaderContext-1.0-26.0.0.9.esa
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.classloaderContext-1.0/26.0.0.9/com.ibm.websphere.appserver.classloaderContext-1.0-26.0.0.9.esa (39 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.classloaderContext-1.0/26.0.0.9/com.ibm.websphere.appserver.classloaderContext-1.0-26.0.0.9.esa.asc
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/openliberty/features/com.ibm.websphere.appserver.classloaderContext-1.0/26.0.0.9/com.ibm.websphere.appserver.classloaderContext-1.0-26.0.0.9.esa.asc (853 B at 37 kB/s)
+[INFO] Downloading public key(s) for signature verification
+[INFO] Verifying features
+Verifying signatures ...
+<---------------------> 0%
+All features were successfully verified.
+[INFO] Installing features: [jsonb-1.0, servlet-4.0, mpconfig-2.0, cdi-2.0, localconnector-1.0, jaxrs-2.1]
+[INFO] Product validation completed successfully.
+[INFO] The following features have been installed: jsonb-1.0 jsonp-1.1 localConnector-1.0 jaxrs-2.1 jaxrsClient-2.1 cdi-2.0 jndi-1.0 mpConfig-2.0 servlet-4.0 
+[INFO] 
+[INFO] --- liberty:3.11.4:deploy (test-start) @ shiro.jwt.jaxrs.finish ---
+[INFO] Copying 2 files to /project/finish/target/liberty/wlp/usr/servers/shiro-its-jaxrs-openliberty
+[INFO] CWWKM2144I: Update server configuration file server.xml from /project/finish/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from /project/finish/src/main/liberty/config/bootstrap.properties.
+[INFO] CWWKM2144I: Update server configuration file server.env from inlined configuration.
+[INFO] CWWKM2185I: The liberty-maven-plugin configuration parameter "appsDirectory" value defaults to "apps".
+[INFO] Application configuration is found in server.xml : shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.war
+[INFO] CWWKM2160I: Installing application shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.war.xml.
+[INFO] 
+[INFO] --- liberty:3.11.4:start (test-start) @ shiro.jwt.jaxrs.finish ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-kernel:null:26.0.0.9:zip.
+[INFO] CWWKM2102I: Using installDirectory : /project/finish/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : shiro-its-jaxrs-openliberty.
+[INFO] CWWKM2102I: Using serverDirectory : /project/finish/target/liberty/wlp/usr/servers/shiro-its-jaxrs-openliberty.
+[INFO] CWWKM2112I: Re-using previously installed assembly.
+[INFO] Copying 2 files to /project/finish/target/liberty/wlp/usr/servers/shiro-its-jaxrs-openliberty
+[INFO] CWWKM2144I: Update server configuration file server.xml from /project/finish/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from /project/finish/src/main/liberty/config/bootstrap.properties.
+[INFO] CWWKM2144I: Update server configuration file server.env from inlined configuration.
+[INFO] CWWKM2001I: Invoke command is [/project/finish/target/liberty/wlp/bin/server, start, shiro-its-jaxrs-openliberty].
+[INFO] 
+[INFO] Starting server shiro-its-jaxrs-openliberty.
+[INFO] Server shiro-its-jaxrs-openliberty started with process ID 617.
+[INFO] Waiting up to 30 seconds for server confirmation:  CWWKF0011I to be found in /project/finish/target/liberty/wlp/usr/servers/shiro-its-jaxrs-openliberty/logs/messages.log
+[INFO] CWWKM2010I: Searching for CWWKF0011I in /project/finish/target/liberty/wlp/usr/servers/shiro-its-jaxrs-openliberty/logs/messages.log. This search will timeout after 30 seconds.
+[INFO] CWWKM2015I: Match number: 1 is [2026-09-21T20:01:30.431+0000] 00000026 FeatureManage A   CWWKF0011I: The shiro-its-jaxrs-openliberty server is ready to run a smarter planet. The shiro-its-jaxrs-openliberty server started in 8.863 seconds..
+[INFO] 
+[INFO] --- failsafe:3.5.3:integration-test (default) @ shiro.jwt.jaxrs.finish ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- liberty:3.11.4:stop (test-stop) @ shiro.jwt.jaxrs.finish ---
+[INFO] CWWKM2152I: Stopping server shiro-its-jaxrs-openliberty.
+[INFO] CWWKM2001I: Invoke command is [/project/finish/target/liberty/wlp/bin/server, stop, shiro-its-jaxrs-openliberty].
+[INFO] 
+[INFO] Stopping server shiro-its-jaxrs-openliberty.
+[INFO] CWWKE0968W: A timeout occurred while waiting for the server process to stop.
+[INFO] CWWKM2001I: Invoke command is [/project/finish/target/liberty/wlp/bin/server, status, shiro-its-jaxrs-openliberty].
+[INFO] 
+[INFO] Server shiro-its-jaxrs-openliberty is not running.
+[INFO] 
+[INFO] --- failsafe:3.5.3:verify (default) @ shiro.jwt.jaxrs.finish ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ shiro.jwt.jaxrs.finish ---
+[INFO] Installing /project/finish/pom.xml to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.finish/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.pom
+[INFO] Installing /project/finish/target/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.war to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.finish/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.war
+[INFO] Installing /project/finish/target/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT-classes.jar to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.finish/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT-classes.jar
+[INFO] 
+[INFO] -----< io.github.bmarwell.shiro:shiro.jwt.jaxrs.integration-test >------
+[INFO] Building Apache Shiro + mpJWT :: integration test 1.0.0-SNAPSHOT   [6/6]
+[INFO]   from integration-test/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] skip non existing resourceDirectory /project/integration-test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.5.0:jar (default-jar) @ shiro.jwt.jaxrs.integration-test ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /project/integration-test/target/shiro.jwt.jaxrs.integration-test-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- liberty:3.11.4:create (it-start) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-kernel:null:26.0.0.9:zip.
+[INFO] CWWKM2102I: Using installDirectory : /project/integration-test/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : it.
+[INFO] CWWKM2102I: Using serverDirectory : /project/integration-test/target/liberty/wlp/usr/servers/it.
+[INFO] Installing assembly...
+[INFO] Expanding: /root/.m2/repository/io/openliberty/openliberty-kernel/26.0.0.9/openliberty-kernel-26.0.0.9.zip into /project/integration-test/target/liberty
+[INFO] CWWKM2143I: Server it does not exist. Now creating...
+[INFO] CWWKM2001I: Invoke command is [/project/integration-test/target/liberty/wlp/bin/server, create, it].
+[INFO] 
+[INFO] Server it created.
+[INFO] CWWKM2129I: Server it has been created at /project/integration-test/target/liberty/wlp/usr/servers/it.
+[INFO] Copying 2 files to /project/integration-test/target/liberty/wlp/usr/servers/it
+[INFO] CWWKM2144I: Update server configuration file server.xml from /project/integration-test/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from /project/integration-test/src/main/liberty/config/bootstrap.properties.
+[INFO] CWWKM2144I: Update server configuration file server.env from inlined configuration.
+[INFO] CWWKM2185I: The liberty-maven-plugin configuration parameter "appsDirectory" value defaults to "apps".
+[INFO] 
+[INFO] --- liberty:3.11.4:install-feature (it-start) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Feature signature verify option: enforce
+[INFO] Parsing the server file for features and includes: it/server.xml
+[INFO] Parsing the server file for features and includes: it/configDropins/overrides/liberty-plugin-variable-config.xml
+[INFO] plugin listed esa: []
+
+[INFO] Resolving features: [jsonb-1.0, servlet-4.0, mpconfig-2.0, cdi-2.0, localconnector-1.0, jsonp-1.1, jaxrs-2.1]
+[INFO] Downloading public key(s) for signature verification
+[INFO] Verifying features
+Verifying signatures ...
+Verifying signatures ...
+<---------------------> 0%
+All features were successfully verified.
+All features were successfully verified.
+[INFO] Installing features: [jsonb-1.0, servlet-4.0, mpconfig-2.0, cdi-2.0, localconnector-1.0, jsonp-1.1, jaxrs-2.1]
+[INFO] Product validation completed successfully.
+[INFO] The following features have been installed: jsonb-1.0 jsonp-1.1 localConnector-1.0 jaxrs-2.1 jaxrsClient-2.1 cdi-2.0 jndi-1.0 mpConfig-2.0 servlet-4.0 
+[INFO] 
+[INFO] --- liberty:3.11.4:deploy (it-start) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Copying 2 files to /project/integration-test/target/liberty/wlp/usr/servers/it
+[INFO] CWWKM2144I: Update server configuration file server.xml from /project/integration-test/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from /project/integration-test/src/main/liberty/config/bootstrap.properties.
+[INFO] CWWKM2144I: Update server configuration file server.env from inlined configuration.
+[INFO] CWWKM2185I: The liberty-maven-plugin configuration parameter "appsDirectory" value defaults to "apps".
+[INFO] Application configuration is found in server.xml : shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT.war
+[INFO] CWWKM2160I: Installing application shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT.war.xml.
+[INFO] Application configuration is found in server.xml : shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.war
+[INFO] CWWKM2160I: Installing application shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.war.xml.
+[INFO] 
+[INFO] --- liberty:3.11.4:start (it-start) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] CWWKM2102I: Using artifact based assembly archive : io.openliberty:openliberty-kernel:null:26.0.0.9:zip.
+[INFO] CWWKM2102I: Using installDirectory : /project/integration-test/target/liberty/wlp.
+[INFO] CWWKM2102I: Using serverName : it.
+[INFO] CWWKM2102I: Using serverDirectory : /project/integration-test/target/liberty/wlp/usr/servers/it.
+[INFO] CWWKM2112I: Re-using previously installed assembly.
+[INFO] Copying 2 files to /project/integration-test/target/liberty/wlp/usr/servers/it
+[INFO] CWWKM2144I: Update server configuration file server.xml from /project/integration-test/src/main/liberty/config/server.xml.
+[INFO] CWWKM2144I: Update server configuration file bootstrap.properties from /project/integration-test/src/main/liberty/config/bootstrap.properties.
+[INFO] CWWKM2144I: Update server configuration file server.env from inlined configuration.
+[INFO] CWWKM2001I: Invoke command is [/project/integration-test/target/liberty/wlp/bin/server, start, it].
+[INFO] 
+[INFO] Starting server it.
+[INFO] Server it started with process ID 1329.
+[INFO] Waiting up to 30 seconds for server confirmation:  CWWKF0011I to be found in /project/integration-test/target/liberty/wlp/usr/servers/it/logs/messages.log
+[INFO] CWWKM2010I: Searching for CWWKF0011I in /project/integration-test/target/liberty/wlp/usr/servers/it/logs/messages.log. This search will timeout after 30 seconds.
+[INFO] CWWKM2015I: Match number: 1 is [2026-09-21T20:03:04.130+0000] 00000026 FeatureManage A   CWWKF0011I: The it server is ready to run a smarter planet. The it server started in 18.989 seconds..
+[INFO] 
+[INFO] --- failsafe:3.5.3:integration-test (default) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- liberty:3.11.4:stop (it-stop) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] CWWKM2152I: Stopping server it.
+[INFO] CWWKM2001I: Invoke command is [/project/integration-test/target/liberty/wlp/bin/server, stop, it].
+[INFO] 
+[INFO] Stopping server it.
+[INFO] CWWKE0968W: A timeout occurred while waiting for the server process to stop.
+[INFO] CWWKM2001I: Invoke command is [/project/integration-test/target/liberty/wlp/bin/server, status, it].
+[INFO] 
+[INFO] Server it is not running.
+[INFO] 
+[INFO] --- failsafe:3.5.3:verify (default) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Installing /project/integration-test/pom.xml to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.integration-test/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.integration-test-1.0.0-SNAPSHOT.pom
+[INFO] Installing /project/integration-test/target/shiro.jwt.jaxrs.integration-test-1.0.0-SNAPSHOT.jar to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.integration-test/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.integration-test-1.0.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache Shiro + mpJWT 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] Apache Shiro + mpJWT ............................... SUCCESS [  1.298 s]
+[INFO] Apache Shiro + mpJWT :: keystore ................... SUCCESS [  3.303 s]
+[INFO] Apache Shiro + mpJWT :: issuer server .............. SUCCESS [  2.000 s]
+[INFO] Apache Shiro + mpJWT :: start server ............... SUCCESS [  0.995 s]
+[INFO] Apache Shiro + mpJWT :: finish server .............. SUCCESS [01:21 min]
+[INFO] Apache Shiro + mpJWT :: integration test ........... SUCCESS [01:33 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:03 min
+[INFO] Finished at: 2026-09-21T20:03:36Z
+[INFO] ------------------------------------------------------------------------

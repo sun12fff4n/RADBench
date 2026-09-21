@@ -1,0 +1,42 @@
+ Network clickhouse-jdbc-bridge_default Creating 
+ Network clickhouse-jdbc-bridge_default Created 
+ Volume clickhouse-jdbc-bridge_maven_cache Creating 
+ Volume clickhouse-jdbc-bridge_maven_cache Created 
+ Container clickhouse-jdbc-bridge-app Creating 
+ Container clickhouse-jdbc-bridge-app Created 
+ Container clickhouse-jdbc-bridge-app Starting 
+ Container clickhouse-jdbc-bridge-app Started 
+ Container clickhouse-jdbc-bridge-app Waiting 
+ Container clickhouse-jdbc-bridge-app Healthy 
+
+[0;34m== Ping — health check (Vert.x Router GET handler) ==[0m
+[0;32mPASS[0m GET  /ping (→ Ok.)                                         [2m[200, body ✓][0m
+
+[0;34m== Schema allowed — bridge protocol endpoint ==[0m
+[0;32mPASS[0m GET  /schema_allowed (→ 1)                                 [2m[200, body ✓][0m
+
+[0;34m== Identifier quote — POST handler ==[0m
+[0;32mPASS[0m POST /identifier_quote (→ 200)                             [2m[200][0m
+
+[0;34m== Prometheus metrics — Micrometer integration ==[0m
+[0;32mPASS[0m GET  /metrics (Prometheus scrape)                            [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /metrics (text/plain content-type)                      [2m[200, header ✓][0m
+
+[0;34m== Columns info — POST /columns_info ==[0m
+[0;32mPASS[0m POST /columns_info (no datasource → 500)                   [2m[500][0m
+
+[0;34m== Query execution — POST / (blocking handler) ==[0m
+[0;32mPASS[0m POST / (query without datasource → 500)                    [2m[500][0m
+
+[0;34m== Write endpoint — POST /write ==[0m
+[0;32mPASS[0m POST /write (without datasource → 500)                     [2m[500][0m
+
+[0;34m== Error paths — unknown routes ==[0m
+[0;32mPASS[0m GET  /nonexistent (→ 404)                                  [2m[404][0m
+[0;32mPASS[0m GET  /api/v1/status (→ 404)                                [2m[404][0m
+
+[0;34m== Concurrent requests — Vert.x event loop ==[0m
+[0;32mPASS[0m 5x parallel GET /ping                                        [2m[all 200][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 11/11 checks passed.[0m

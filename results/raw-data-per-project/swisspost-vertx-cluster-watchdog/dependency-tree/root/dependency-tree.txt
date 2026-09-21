@@ -1,0 +1,35 @@
+org.swisspush:cluster-watchdog:jar:3.1.7-SNAPSHOT
++- io.vertx:vertx-core:jar:4.5.23:compile
+|  +- io.netty:netty-common:jar:4.1.130.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.130.Final:compile
+|  +- io.netty:netty-transport:jar:4.1.130.Final:compile
+|  +- io.netty:netty-handler:jar:4.1.130.Final:compile
+|  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.130.Final:compile
+|  |  \- io.netty:netty-codec:jar:4.1.130.Final:compile
+|  +- io.netty:netty-handler-proxy:jar:4.1.130.Final:compile
+|  |  \- io.netty:netty-codec-socks:jar:4.1.130.Final:compile
+|  +- io.netty:netty-codec-http:jar:4.1.130.Final:compile
+|  +- io.netty:netty-codec-http2:jar:4.1.130.Final:compile
+|  +- io.netty:netty-resolver:jar:4.1.130.Final:compile
+|  +- io.netty:netty-resolver-dns:jar:4.1.130.Final:compile
+|  |  \- io.netty:netty-codec-dns:jar:4.1.130.Final:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.16.1:compile
++- io.vertx:vertx-web:jar:4.5.23:compile
+|  +- io.vertx:vertx-web-common:jar:4.5.23:compile
+|  +- io.vertx:vertx-auth-common:jar:4.5.23:compile
+|  \- io.vertx:vertx-bridge-common:jar:4.5.23:compile
++- io.vertx:vertx-hazelcast:jar:4.5.23:compile
+|  \- com.hazelcast:hazelcast:jar:5.3.5:compile
++- commons-io:commons-io:jar:2.15.1:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- org.apache.commons:commons-collections4:jar:4.4:compile
++- org.slf4j:slf4j-api:jar:2.0.10:compile
++- org.slf4j:slf4j-simple:jar:2.0.10:compile
++- io.micrometer:micrometer-core:jar:1.12.13:compile
+|  +- io.micrometer:micrometer-commons:jar:1.12.13:compile
+|  +- io.micrometer:micrometer-observation:jar:1.12.13:compile
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.12:runtime
+|  \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
++- junit:junit:jar:4.13.2:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- io.vertx:vertx-unit:jar:4.5.23:test

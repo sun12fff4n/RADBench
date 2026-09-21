@@ -1,0 +1,95 @@
+ Volume flight-booking_m2-combined-isinhah-flight-booking Creating 
+ Volume flight-booking_m2-combined-isinhah-flight-booking Created 
+ Container airline-postgres Running 
+ Container airline-app Creating 
+ Container airline-app Created 
+ Container airline-postgres Waiting 
+ Container airline-postgres Healthy 
+ Container airline-app Starting 
+ Container airline-app Started 
+ Container airline-postgres Waiting 
+ Container airline-app Waiting 
+ Container airline-postgres Healthy 
+ Container airline-app Healthy 
+
+[0;34m== Public endpoints (no auth required) ==[0m
+[0;32mPASS[0m GET  /v3/api-docs (OpenAPI spec)                           [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /swagger-ui/index.html                                [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/flights (public, empty list)                     [2m[200][0m
+[0;32mPASS[0m GET  /api/seats (public, empty list)                       [2m[200][0m
+
+[0;34m== Auth — register + login (passenger USER role) ==[0m
+[0;32mPASS[0m POST /api/auth/passengers/register                         [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /api/auth/passengers/login                            [2m[200, all fields ✓][0m
+
+[0;34m== Auth — register + login (employee ADMIN role) ==[0m
+[0;32mPASS[0m POST /api/auth/employees/register                          [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /api/auth/employees/login                             [2m[200, all fields ✓][0m
+[2mpassenger_id=85639956-d871-4fa2-8f4d-369abe066628[0m
+
+[0;34m== ADMIN-only listings (require ADMIN token) ==[0m
+[0;32mPASS[0m GET  /api/passengers (ADMIN list)                          [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/employees (ADMIN list)                           [2m[200, all fields ✓][0m
+
+[0;34m== Real CRUD chain — flight → seat → reservation → ticket ==[0m
+[0;32mPASS[0m POST /api/flights (ADMIN creates flight)                   [2m[201, flight created 53eb4e72...][0m
+[0;32mPASS[0m POST /api/seats (ADMIN creates seat)                       [2m[201, seat created b53e6aeb...][0m
+[0;32mPASS[0m POST /api/reservations (USER reserves seat)                [2m[201, seat→unavailable, cc540e3d...][0m
+[0;32mPASS[0m GET  /api/reservations/{id} (USER reads own)               [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/tickets/{id} (auto-generated ticket)             [2m[200, all fields ✓][0m
+
+[0;34m== GET-by-id round-trips (verify writes are persistent + readable) ==[0m
+[0;32mPASS[0m GET  /api/flights/{id} (public)                            [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/seats/{id} (public)                              [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/passengers/{self} (USER reads own)               [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/employees/{id} (ADMIN)                           [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/tickets (ADMIN list)                             [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/reservations (ADMIN list)                        [2m[200, all fields ✓][0m
+
+[0;34m== PUT updates — mutate then verify via GET-by-id ==[0m
+[0;32mPASS[0m PUT  /api/flights (ADMIN updates price)                    [2m[200][0m
+[0;32mPASS[0m GET  /api/flights/{id} (after PUT — new price)           [2m[200, all fields ✓][0m
+[0;32mPASS[0m PUT  /api/passengers (USER updates own phone)              [2m[200][0m
+[0;32mPASS[0m GET  /api/passengers/{self} (after PUT — new phone)      [2m[200, all fields ✓][0m
+
+[0;34m== Search/filter endpoints (representative sample, 1 per controller) ==[0m
+[0;32mPASS[0m GET  /api/flights/searchByAirline?airline=TestAir (public) [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/seats/searchAvailableSeats?flightId={FLIGHT_ID}  [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/passengers/searchByName?name=Test (ADMIN)        [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/passengers/search?email= (ADMIN)                 [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/flights/searchByFlightNumber                     [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/flights/searchByLocation                         [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/seats/search?seatNumber                          [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/reservations/search?passengerId (ADMIN)          [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/reservations/searchByDate?reservationDate (ADMIN) [2m[200][0m
+[0;32mPASS[0m GET  /api/tickets/search?reservationId (ADMIN)             [2m[200, all fields ✓][0m
+
+[0;34m== Employee CRUD (POST + GET filters + PUT + DELETE) ==[0m
+[0;32mPASS[0m POST /api/employees (ADMIN creates 2nd employee)           [2m[201, employee f93078ad...][0m
+[0;32mPASS[0m GET  /api/employees/byEmail (ADMIN)                        [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/employees/byName (ADMIN)                         [2m[200, all fields ✓][0m
+[0;32mPASS[0m PUT  /api/employees (update name)                          [2m[200][0m
+[0;32mPASS[0m DELETE /api/employees/{id}                                 [2m[204][0m
+
+[0;34m== Seat / Ticket PUT + DELETE ==[0m
+[0;32mPASS[0m PUT  /api/seats (ADMIN updates seatNumber)                 [2m[200][0m
+[0;32mPASS[0m GET  /api/seats/{id} (after PUT — new seatNumber)        [2m[200, all fields ✓][0m
+[0;32mPASS[0m PUT  /api/tickets (ADMIN updates ticketNumber)             [2m[200][0m
+[0;32mPASS[0m GET  /api/tickets/{id} (after PUT — new number)          [2m[200, all fields ✓][0m
+
+[0;34m== Cleanup ==[0m
+[2mcleanup: deleted reservation=cc540e3d-4d65-4ad5-9d10-e03d410cae3c flight=53eb4e72-00c9-4c26-85b8-e0241626ff95 (CASCADE drops seats+tickets)[0m
+
+[0;34m== Bean Validation — @Valid on record DTOs (Hibernate Validator + Jackson record deser) ==[0m
+[0;32mPASS[0m POST /flights (empty body → validation error)            [2m[400, all fields ✓][0m
+[0;32mPASS[0m POST /flights (negative price → @Positive)               [2m[400, all fields ✓][0m
+
+[0;34m== Exception handling — GlobalExceptionHandler error envelopes ==[0m
+[0;32mPASS[0m GET  /flights/{bogus} (404 → ExceptionResponse)          [2m[404, all fields ✓][0m
+[0;31mFAIL[0m POST /flights/search (405 → Method Not Allowed)          [2m[got 404, want 405][0m
+[0;31mFAIL[0m GET  /nonexistent (404 → No Resource Found)              [2m[got 403, want 404][0m
+
+[0;34m== Summary ==[0m
+[0;31m2/49 checks failed[0m (47 passed).
+ Container airline-app Stopping 
+ Container airline-app Stopped 

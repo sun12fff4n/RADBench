@@ -1,0 +1,274 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] ------------------< org.apache.iotdb:zeppelin-iotdb >-------------------
+[INFO] Building IoTDB: Connector: Apache Zeppelin 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ zeppelin-iotdb >>>
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin-interpreter/0.11.1/zeppelin-interpreter-0.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin-interpreter/0.11.1/zeppelin-interpreter-0.11.1.pom (10 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin/0.11.1/zeppelin-0.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin/0.11.1/zeppelin-0.11.1.pom (74 kB at 469 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/28/apache-28.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/28/apache-28.pom (21 kB at 263 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin-common/0.11.1/zeppelin-common-0.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin-common/0.11.1/zeppelin-common-0.11.1.pom (2.2 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix/3.0.0-rc5/atomix-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix/3.0.0-rc5/atomix-3.0.0-rc5.pom (2.9 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-parent/3.0.0-rc5/atomix-parent-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-parent/3.0.0-rc5/atomix-parent-3.0.0-rc5.pom (14 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.27.Final/netty-bom-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.27.Final/netty-bom-4.1.27.Final.pom (7.9 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.6/jackson-bom-2.9.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.6/jackson-bom-2.9.6.pom (12 kB at 332 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.1/jackson-parent-2.9.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.1/jackson-parent-2.9.1.1.pom (8.0 kB at 243 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/33/oss-parent-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/33/oss-parent-33.pom (22 kB at 474 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-cluster/3.0.0-rc5/atomix-cluster-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-cluster/3.0.0-rc5/atomix-cluster-3.0.0-rc5.pom (2.3 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-utils/3.0.0-rc5/atomix-utils-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-utils/3.0.0-rc5/atomix-utils-3.0.0-rc5.pom (2.7 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/kryo/4.0.2/kryo-4.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/kryo/4.0.2/kryo-4.0.2.pom (4.7 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3.pom (4.0 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom (1.9 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.21/fast-classpath-scanner-2.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.21/fast-classpath-scanner-2.21.pom (8.3 kB at 162 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.27.Final/netty-transport-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.27.Final/netty-transport-4.1.27.Final.pom (1.8 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.27.Final/netty-parent-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.27.Final/netty-parent-4.1.27.Final.pom (53 kB at 418 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.27.Final/netty-buffer-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.27.Final/netty-buffer-4.1.27.Final.pom (1.6 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.27.Final/netty-common-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.27.Final/netty-common-4.1.27.Final.pom (8.6 kB at 228 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.27.Final/netty-resolver-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.27.Final/netty-resolver-4.1.27.Final.pom (1.6 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.27.Final/netty-codec-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.27.Final/netty-codec-4.1.27.Final.pom (3.3 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.27.Final/netty-handler-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.27.Final/netty-handler-4.1.27.Final.pom (3.0 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.27.Final/netty-transport-native-epoll-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.27.Final/netty-transport-native-epoll-4.1.27.Final.pom (15 kB at 138 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.27.Final/netty-transport-native-unix-common-4.1.27.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.27.Final/netty-transport-native-unix-common-4.1.27.Final.pom (15 kB at 383 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-primitive/3.0.0-rc5/atomix-primitive-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-primitive/3.0.0-rc5/atomix-primitive-3.0.0-rc5.pom (2.2 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-storage/3.0.0-rc5/atomix-storage-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-storage/3.0.0-rc5/atomix-storage-3.0.0-rc5.pom (1.8 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-raft/3.0.0-rc5/atomix-raft-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-raft/3.0.0-rc5/atomix-raft-3.0.0-rc5.pom (1.9 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-protocols-parent/3.0.0-rc5/atomix-protocols-parent-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-protocols-parent/3.0.0-rc5/atomix-protocols-parent-3.0.0-rc5.pom (1.3 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-primary-backup/3.0.0-rc5/atomix-primary-backup-3.0.0-rc5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-primary-backup/3.0.0-rc5/atomix-primary-backup-3.0.0-rc5.pom (2.0 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/1.7.35/slf4j-reload4j-1.7.35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/1.7.35/slf4j-reload4j-1.7.35.pom (1.2 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.25/reload4j-1.2.25.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.25/reload4j-1.2.25.pom (16 kB at 367 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.pom (3.0 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom (26 kB at 211 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.pom (4.1 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.pom (5.3 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.pom (2.4 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.6.3/maven-resolver-provider-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.6.3/maven-resolver-provider-3.6.3.pom (4.3 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.6.3/maven-model-builder-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.6.3/maven-model-builder-3.6.3.pom (3.4 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.6.3/maven-builder-support-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.6.3/maven-builder-support-3.6.3.pom (1.4 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.6.3/maven-repository-metadata-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.6.3/maven-repository-metadata-3.6.3.pom (1.9 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.4.1/maven-resolver-spi-1.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.4.1/maven-resolver-spi-1.4.1.pom (2.6 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.4.1/maven-resolver-impl-1.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.4.1/maven-resolver-impl-1.4.1.pom (4.1 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.4.1/maven-resolver-connector-basic-1.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.4.1/maven-resolver-connector-basic-1.4.1.pom (3.9 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-file/1.4.1/maven-resolver-transport-file-1.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-file/1.4.1/maven-resolver-transport-file-1.4.1.pom (3.7 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-http/1.4.1/maven-resolver-transport-http-1.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-http/1.4.1/maven-resolver-transport-http-1.4.1.pom (5.3 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.pom (5.4 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.10/httpcomponents-core-4.4.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.10/httpcomponents-core-4.4.10.pom (13 kB at 365 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jline/jline/2.14.3/jline-2.14.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jline/jline/2.14.3/jline-2.14.3.pom (20 kB at 538 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin-interpreter/0.11.1/zeppelin-interpreter-0.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin-interpreter/0.11.1/zeppelin-interpreter-0.11.1.jar (2.0 MB at 7.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin-common/0.11.1/zeppelin-common-0.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix/3.0.0-rc5/atomix-3.0.0-rc5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-cluster/3.0.0-rc5/atomix-cluster-3.0.0-rc5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.27.Final/netty-transport-4.1.27.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.27.Final/netty-buffer-4.1.27.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zeppelin/zeppelin-common/0.11.1/zeppelin-common-0.11.1.jar (14 kB at 302 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.27.Final/netty-resolver-4.1.27.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.27.Final/netty-resolver-4.1.27.Final.jar (32 kB at 380 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.27.Final/netty-codec-4.1.27.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-cluster/3.0.0-rc5/atomix-cluster-3.0.0-rc5.jar (164 kB at 766 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.27.Final/netty-handler-4.1.27.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.27.Final/netty-codec-4.1.27.Final.jar (316 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.27.Final/netty-transport-native-epoll-4.1.27.Final-linux-x86_64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.27.Final/netty-transport-4.1.27.Final.jar (459 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.27.Final/netty-common-4.1.27.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.27.Final/netty-transport-native-epoll-4.1.27.Final-linux-x86_64.jar (141 kB at 388 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.27.Final/netty-transport-native-unix-common-4.1.27.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.27.Final/netty-buffer-4.1.27.Final.jar (273 kB at 737 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-primitive/3.0.0-rc5/atomix-primitive-3.0.0-rc5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.27.Final/netty-handler-4.1.27.Final.jar (388 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-storage/3.0.0-rc5/atomix-storage-3.0.0-rc5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.27.Final/netty-transport-native-unix-common-4.1.27.Final.jar (31 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-utils/3.0.0-rc5/atomix-utils-3.0.0-rc5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix/3.0.0-rc5/atomix-3.0.0-rc5.jar (1.0 MB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/kryo/4.0.2/kryo-4.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-storage/3.0.0-rc5/atomix-storage-3.0.0-rc5.jar (110 kB at 251 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.27.Final/netty-common-4.1.27.Final.jar (577 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-utils/3.0.0-rc5/atomix-utils-3.0.0-rc5.jar (149 kB at 319 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar (53 kB at 113 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3.jar (21 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.21/fast-classpath-scanner-2.21.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-raft/3.0.0-rc5/atomix-raft-3.0.0-rc5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/kryo/4.0.2/kryo-4.0.2.jar (338 kB at 708 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-primary-backup/3.0.0-rc5/atomix-primary-backup-3.0.0-rc5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar (286 kB at 558 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-primary-backup/3.0.0-rc5/atomix-primary-backup-3.0.0-rc5.jar (112 kB at 216 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/1.7.35/slf4j-reload4j-1.7.35.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/lukehutch/fast-classpath-scanner/2.21/fast-classpath-scanner-2.21.jar (289 kB at 546 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.25/reload4j-1.2.25.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar (216 kB at 385 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-reload4j/1.7.35/slf4j-reload4j-1.7.35.jar (9.9 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-raft/3.0.0-rc5/atomix-raft-3.0.0-rc5.jar (411 kB at 712 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atomix/atomix-primitive/3.0.0-rc5/atomix-primitive-3.0.0-rc5.jar (219 kB at 369 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.25/reload4j-1.2.25.jar (333 kB at 560 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.4/org.eclipse.sisu.plexus-0.3.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.jar (47 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar (58 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.6.3/maven-resolver-provider-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar (215 kB at 346 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.6.3/maven-model-builder-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar (262 kB at 408 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.4/org.eclipse.sisu.plexus-0.3.4.jar (205 kB at 319 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.6.3/maven-builder-support-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.6.3/maven-resolver-provider-3.6.3.jar (66 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.6.3/maven-repository-metadata-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.6.3/maven-model-builder-3.6.3.jar (192 kB at 295 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.jar (379 kB at 563 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.4.1/maven-resolver-spi-1.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.6.3/maven-builder-support-3.6.3.jar (14 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.4.1/maven-resolver-impl-1.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar (85 kB at 122 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.6.3/maven-repository-metadata-3.6.3.jar (27 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.4.1/maven-resolver-connector-basic-1.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar (149 kB at 211 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-http/1.4.1/maven-resolver-transport-http-1.4.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-file/1.4.1/maven-resolver-transport-file-1.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.4.1/maven-resolver-spi-1.4.1.jar (37 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.4.1/maven-resolver-impl-1.4.1.jar (181 kB at 246 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.4.1/maven-resolver-connector-basic-1.4.1.jar (44 kB at 60 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-http/1.4.1/maven-resolver-transport-http-1.4.1.jar (42 kB at 56 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar (268 kB at 359 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-file/1.4.1/maven-resolver-transport-file-1.4.1.jar (13 kB at 18 kB/s)
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ zeppelin-iotdb ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ zeppelin-iotdb ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] Spotless.Java is keeping 1 files clean - 0 needs changes to be clean, 1 were already clean, 0 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ zeppelin-iotdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ zeppelin-iotdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ zeppelin-iotdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ zeppelin-iotdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ zeppelin-iotdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ zeppelin-iotdb ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ zeppelin-iotdb ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ zeppelin-iotdb ---
+[WARNING] The following annotation processors were found on the classpath: [org.eclipse.sisu.space.SisuIndexAPT6].
+Compile avoidance has been deactivated.
+Please use the maven-compiler-plugin version 3.5 or above and use the <annotationProcessorPaths> configuration element to declare the processors instead.
+If you did not intend to use the processors above (e.g. they were leaked by a dependency), you can use the <proc>none</proc> option to disable annotation processing.
+
+For more information see https://gradle.com/enterprise/help/maven-extension-compile-avoidance.
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug release 8] to target/classes
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ zeppelin-iotdb ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ zeppelin-iotdb ---
+[INFO] skip non existing resourceDirectory /project/connectors/zeppelin-interpreter/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ zeppelin-iotdb ---
+[WARNING] The following annotation processors were found on the classpath: [org.eclipse.sisu.space.SisuIndexAPT6].
+Compile avoidance has been deactivated.
+Please use the maven-compiler-plugin version 3.5 or above and use the <annotationProcessorPaths> configuration element to declare the processors instead.
+If you did not intend to use the processors above (e.g. they were leaked by a dependency), you can use the <proc>none</proc> option to disable annotation processing.
+
+For more information see https://gradle.com/enterprise/help/maven-extension-compile-avoidance.
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ zeppelin-iotdb <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ zeppelin-iotdb ---
+[INFO] No dependency problems found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38.212 s
+[INFO] Finished at: 2026-06-16T08:52:54Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 14 goals, 14 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

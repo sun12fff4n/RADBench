@@ -1,0 +1,3596 @@
+{
+  "project_id": "mosip-inji-certify",
+  "tool": "slimming",
+  "module_type": "multi",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "slimming_total": 305,
+  "slimming_counts": {
+    "": 220,
+    "gray": 71,
+    "red": 14
+  },
+  "nia_total_classes": 4487,
+  "nia_mapped_classes": 3583,
+  "nia_proxy_recovered": 49,
+  "multi_module_aggregated": true,
+  "modules": [
+    "certify-core",
+    "certify-integration-api",
+    "certify-service"
+  ],
+  "buckets": {
+    "used+hit": 106,
+    "used+nohit": 114,
+    "bloated+hit": 5,
+    "bloated+nohit": 9,
+    "unloaded+hit": 40,
+    "unloaded+nohit": 31
+  },
+  "metrics": {
+    "tp": 9,
+    "fp": 5,
+    "tn": 146,
+    "fn": 145,
+    "precision": 0.6429,
+    "recall": 0.0584,
+    "f1": 0.1071
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-autoconfigure:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 362,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-core:2.21.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 223,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.hibernate.orm:hibernate-core:6.4.4.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 188,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-actuator-autoconfigure:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 178,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-actuator:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 174,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-web:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 137,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.data:spring-data-redis:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 118,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.data:spring-data-commons:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 104,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-common:2.5.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 97,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-webmvc:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 96,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-core:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 69,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-core:1.12.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 57,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.cloud:spring-cloud-context:4.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 54,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.cloud:spring-cloud-commons:4.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 54,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-web:6.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 48,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.certify:certify-core:0.13.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 42,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-core:10.1.19",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 41,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-beans:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 40,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-models-jakarta:2.2.21",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 39,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-annotations-jakarta:2.2.21",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 36,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.14.12",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 32,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.lettuce:lettuce-core:6.3.1.RELEASE",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 30,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.quartz-scheduler:quartz:2.3.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 28,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-aop:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 24,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 22,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:3.0.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 22,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-orm:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 22,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.velocity:velocity:1.7",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 17,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.data:spring-data-keyvalue:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 13,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.107.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 11,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.cloud:spring-cloud-config-client:4.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 11,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-core-jakarta:2.2.21",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 10,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.certify:certify-integration-api:0.13.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 10,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.javacrumbs.shedlock:shedlock-spring:6.8.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 10,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:simpleclient:0.16.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 10,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 9,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-webmvc-api:2.5.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 9,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.hibernate.validator:hibernate-validator:8.0.1.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 8,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.zaxxer:HikariCP:5.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 8,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-oauth2-resource-server:6.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 8,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.projectreactor:reactor-core:3.6.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.aspectj:aspectjweaver:1.9.21",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-registry-prometheus:1.12.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.javacrumbs.shedlock:shedlock-core:6.8.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.hypersistence:hypersistence-utils-hibernate-63:3.9.9",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-oauth2-jose:6.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-tracing-bridge-brave:1.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "jakarta.inject:jakarta.inject-api:2.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.code.findbugs:jsr305:3.0.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.code.findbugs:annotations:3.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.cache2k:cache2k-core:2.6.1.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-to-slf4j:2.21.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "jakarta.transaction:jakarta.transaction-api:2.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "aopalliance:aopalliance:1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.retry:spring-retry:2.0.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "javax.validation:validation-api:2.0.1.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.19",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:nimbus-jose-jwt:9.41.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.json:json:20241224",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-oxm:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.guava:guava:18.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "decentralized-identity:jsonld-common-java:1.14.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.pdfbox:pdfbox:2.0.29",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "info.weboftrust:ld-signatures-java:1.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-expression:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-jcl:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.reactivestreams:reactive-streams:1.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:2.1.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-aspects:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bitbucket.b_c:jose4j:0.6.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:6.8.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.16",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.glassfish:jakarta.json:2.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:context-propagation:1.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.cloud:spring-cloud-starter-bootstrap:4.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.slf4j:jcl-over-slf4j:2.0.12",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "javax.persistence:javax.persistence-api:2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:simpleclient_tracer_common:0.16.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.zipkin.brave:brave-context-slf4j:5.16.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.logstash.logback:logstash-logback-encoder:6.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.kernel:kernel-pdfgenerator:1.3.0-beta.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-cache:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-validator:commons-validator:1.7",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-data-redis:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-validation:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-data-jpa:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-oauth2-resource-server:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.projectlombok:lombok:1.18.30",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.crypto.tink:tink:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.authlete:sd-jwt:1.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.danubetech:data-integrity-java:1.17.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.danubetech:key-formats-java:1.22.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.apicatalog:titanium-json-ld:1.6.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test-autoconfigure:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-test:6.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents.client5:httpclient5:5.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-afterburner:2.15.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-actuator:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-web:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.github.multiformats:java-multibase:v1.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "com.h2database:h2:2.2.224",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-digester:commons-digester:2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-logging:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.yaml:snakeyaml:2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.107.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.107.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport:4.1.107.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport-native-unix-common:4.1.107.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.webjars:swagger-ui:5.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-collections:commons-collections:3.2.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-lang:commons-lang:2.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.github.cliftonlabs:json-simple:3.0.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-digester3:3.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-aop:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-jdbc:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.antlr:antlr4-runtime:4.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:4.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-core:4.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.eclipse.angus:angus-activation:2.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:4.1.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:4.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.smallrye:jandex:3.1.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.hibernate.common:hibernate-commons-annotations:6.0.6.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.junit.vintage:junit-vintage-engine:5.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.3.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "junit:junit:4.13.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.hamcrest:hamcrest-core:2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.certify:certify-service:0.13.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.javacrumbs.json-unit:json-unit-assertj:3.4.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.javacrumbs.json-unit:json-unit-json-path:3.4.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.assertj:assertj-core:3.24.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.minidev:json-smart:2.5.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.mockito:mockito-core:5.7.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy-agent:1.14.12",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.objenesis:objenesis:3.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.checkerframework:checker-qual:3.31.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.protobuf:protobuf-java:3.25.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.setl:rdf-urdna:1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bitcoin-s:bitcoin-s-secp256k1jni:1.9.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.scijava:native-lib-loader:javadoc",
+        "fillColor": "",
+        "problem": [],
+        "scope": "2.5.0",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.scijava:native-lib-loader:2.5.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.scijava:native-lib-loader:sources",
+        "fillColor": "",
+        "problem": [],
+        "scope": "2.5.0",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bitcoinj:bitcoinj-core:0.17",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.jcip:jcip-annotations:1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.goterl:lazysodium-java:5.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.goterl:resource-loader:2.0.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:crypto:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:abi:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.github.erdtman:java-json-canonicalization:1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.apicatalog:titanium-rdfc:2.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.apicatalog:titanium-rdf-n-quads:1.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.kernel:kernel-keymanager-service:lib",
+        "fillColor": "",
+        "problem": [],
+        "scope": "1.3.0-beta.5",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-io:commons-io:2.6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-test:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.skyscreamer:jsonassert:1.5.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.awaitility:awaitility:4.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.minidev:accessors-smart:2.5.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.ow2.asm:asm:9.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.xmlunit:xmlunit-core:2.9.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-security:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.colesico.framework:colesico-hikaricp:5.3.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.colesico.framework:colesico-config:5.3.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.squareup:javapoet:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.colesico.framework:colesico-introspection:5.3.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "javax.xml.bind:jaxb-api:2.3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "javax.activation:javax.activation-api:1.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.mchange:mchange-commons-java:0.2.15",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpclient:4.5.13",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpcore:4.4.16",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.cloud:spring-cloud-starter-config:4.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.cloud:spring-cloud-starter:4.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "javax.transaction:javax.transaction-api:1.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:simpleclient_common:0.16.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:simpleclient_tracer_otel_agent:0.16.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.prometheus:simpleclient_tracer_otel:0.16.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.javassist:javassist:3.27.0-GA",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents.core5:httpcore5-h2:5.2.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents.core5:httpcore5:5.2.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-math3:3.6.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.auth0:java-jwt:3.8.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.zipkin.brave:brave-instrumentation-http:5.16.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.zipkin.aws:brave-propagation-aws:0.23.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.github.microsoft:TSS.Java:0.3.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.kernel:kernel-logger-logback:1.3.0-beta.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-access:1.4.14",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "de.mkammerer:argon2-jvm-nolibs:2.11",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.pdfbox:pdfbox-tools:2.0.29",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.pdfbox:pdfbox-debugger:2.0.29",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.openhtmltopdf:openhtmltopdf-pdfbox:1.0.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "de.rototor.pdfbox:graphics2d:0.32",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.pdfbox:xmpbox:2.0.24",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.openhtmltopdf:openhtmltopdf-core:1.0.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.jsoup:jsoup:1.18.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.pdfbox:fontbox:2.0.29",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.java.dev.jna:jna:5.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.googlecode.json-simple:json-simple:1.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.kernel:kernel-dataaccess-hibernate:1.3.0-beta.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.hibernate.orm:hibernate-hikaricp:6.4.4.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bouncycastle:bcpkix-jdk18on:1.78.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bouncycastle:bcutil-jdk18on:1.78.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.hypersistence:hypersistence-tsid:2.1.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-tomcat:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-json:3.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.14.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-jakarta9:1.12.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.hdrhistogram:HdrHistogram:2.1.12",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.latencyutils:LatencyUtils:2.0.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "io.swagger:swagger-annotations:1.5.21",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "javax.inject:javax.inject:1",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.glassfish:jakarta.json:2.0.0",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-rsa:1.1.1",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.mapstruct:mapstruct:1.5.5.Final",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "com.apicatalog:titanium-json-ld:1.1.0",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api"
+        ]
+      },
+      {
+        "gav": "io.setl:rdf-urdna:1.1",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api"
+        ]
+      },
+      {
+        "gav": "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api"
+        ]
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.22.0",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:rlp:5.0.0",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.apicatalog:titanium-jcs:1.0.0",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "javax.activation:activation:1.1",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.swagger:swagger-models:1.5.21",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "javax.interceptor:javax.interceptor-api:1.2",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      }
+    ],
+    "unloaded+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot:3.2.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 187,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-context:6.1.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 139,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bouncycastle:bcprov-jdk18on:1.78.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 97,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-config:6.2.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 74,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.15.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 64,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-tx:6.1.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 37,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 37,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.zipkin.brave:brave:5.16.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 37,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-core:6.2.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 36,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-jdbc:6.1.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 34,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.15.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 26,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.data:spring-data-jpa:3.2.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 23,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-tracing:1.2.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 21,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.code.gson:gson:2.10.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 17,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-observation:1.12.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 15,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.15.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 15,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.kernel:kernel-core:1.3.0-beta.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 12,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-context-support:6.1.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 9,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-commons:1.12.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-api:2.21.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.postgresql:postgresql:42.6.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.12",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.4.14",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.4.14",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:nimbus-jose-jwt:9.24.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "decentralized-identity:jsonld-common-java:0.5.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-oauth2-core:6.2.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.jayway.jsonpath:json-path:2.9.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-logging:commons-logging:1.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.slf4j:jul-to-slf4j:2.0.12",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.107.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.107.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.13.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.5.3.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-el:10.1.19",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-crypto:6.2.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.cache2k:cache2k-api:2.6.1.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.velocity.tools:velocity-tools-generic:3.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-codec:commons-codec:1.16.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      }
+    ],
+    "unloaded+nohit": [
+      {
+        "gav": "commons-collections:commons-collections:3.2.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-beanutils:commons-beanutils:1.9.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-logging:commons-logging:1.1.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-beanutils:commons-beanutils:1.8.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.6.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api",
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.apicatalog:titanium-json-ld:1.0.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-core",
+          "certify-integration-api"
+        ]
+      },
+      {
+        "gav": "net.javacrumbs.json-unit:json-unit-core:3.4.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:nimbus-jose-jwt:10.0.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.github.multiformats:java-multibase:1.1.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.guava:guava:33.4.0-android",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bouncycastle:bcprov-jdk18on:1.80",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.java.dev.jna:jna:5.9.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.java.dev.jna:jna:5.12.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.guava:guava:33.4.0-jre",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.web3j:utils:5.0.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.json:json:20250107",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.apicatalog:titanium-rdf-api:1.0.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.google.code.findbugs:jsr305:3.0.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.colesico.framework:colesico-ioc:5.3.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.java.dev.jna:jna:4.4.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "net.java.dev.jna:jna:5.8.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.apache.pdfbox:pdfbox:2.0.24",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "commons-io:commons-io:2.13.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "io.mosip.kernel:kernel-core:1.3.0-beta.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bitbucket.b_c:jose4j:0.9.6",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:nimbus-jose-jwt:9.37.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "org.bouncycastle:bcprov-jdk18on:1.74",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:nimbus-jose-jwt:9.9",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      },
+      {
+        "gav": "com.github.multiformats:java-multibase:v1.1.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false,
+        "modules": [
+          "certify-service"
+        ]
+      }
+    ]
+  },
+  "runtime_size": 135,
+  "static_size": 79,
+  "base_union_size": 157,
+  "anchor_size": 8,
+  "final_union_size": 165,
+  "missing_from_tree_count": 0
+}

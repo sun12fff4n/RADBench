@@ -1,0 +1,2669 @@
+[
+{
+  "name":"[Lorg.testcontainers.shaded.com.google.common.collect.ImmutableMapEntry;"
+},
+{
+  "name":"cloud.caravana.UtilTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"cloud.caravana.algo.cig.CIGNaiveTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testCase0","parameterTypes":[] }, {"name":"testCase19","parameterTypes":[] }, {"name":"testCaseA","parameterTypes":[] }, {"name":"testCaseB","parameterTypes":[] }]
+},
+{
+  "name":"cloud.caravana.algo.cig.CIGPerfTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setup","parameterTypes":[] }, {"name":"testCase0","parameterTypes":[] }, {"name":"testCase07","parameterTypes":[] }, {"name":"testCase10","parameterTypes":[] }, {"name":"testCase19","parameterTypes":[] }, {"name":"testCase30","parameterTypes":[] }, {"name":"testCaseA","parameterTypes":[] }, {"name":"testCaseB","parameterTypes":[] }]
+},
+{
+  "name":"cloud.caravana.algo.hello.HelloTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testCase","parameterTypes":[] }]
+},
+{
+  "name":"cloud.caravana.algo.lastrepeat.MainTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"cloud.caravana.algo.mutant.MutantTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"cloud.caravana.algo.pairsum.ProgramTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"cloud.caravana.algo.queens2.Queens2Test",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"case0","parameterTypes":[] }, {"name":"case1","parameterTypes":[] }, {"name":"case7","parameterTypes":[] }]
+},
+{
+  "name":"cloud.caravana.algo.reverse.ReverseInplaceTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"cloud.caravana.algo.subsequence.ProgramTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.mysql.cj.jdbc.AbandonedConnectionCleanupThread"
+},
+{
+  "name":"com.mysql.cj.jdbc.Driver"
+},
+{
+  "name":"com.sun.jna.CallbackProxy",
+  "methods":[{"name":"callback","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.sun.xml.internal.stream.XMLInputFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.xml.internal.stream.events.XMLEventFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.agroal.deployment.AgroalMetricsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"registerMetrics","parameterTypes":["io.quarkus.agroal.runtime.metrics.AgroalMetricsRecorder","io.quarkus.datasource.runtime.DataSourcesBuildTimeConfig","io.quarkus.deployment.annotations.BuildProducer","java.util.List"] }]
+},
+{
+  "name":"io.quarkus.agroal.deployment.AgroalProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"agroal","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"build","parameterTypes":["io.quarkus.datasource.runtime.DataSourcesBuildTimeConfig","io.quarkus.agroal.runtime.DataSourcesJdbcBuildTimeConfig","java.util.List","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.pkg.builditem.CurateOutcomeBuildItem"] }, {"name":"generateDataSourceBeans","parameterTypes":["io.quarkus.agroal.runtime.AgroalRecorder","io.quarkus.datasource.runtime.DataSourcesRuntimeConfig","java.util.List","io.quarkus.deployment.builditem.SslNativeConfigBuildItem","io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"generateDataSourceSupportBean","parameterTypes":["io.quarkus.agroal.runtime.AgroalRecorder","java.util.List","io.quarkus.deployment.builditem.SslNativeConfigBuildItem","io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.agroal.deployment.DataSourceBindingProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.agroal.runtime.AgroalRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"agroalDataSourceSupplier","parameterTypes":["java.lang.String","io.quarkus.datasource.runtime.DataSourcesRuntimeConfig"] }, {"name":"dataSourceSupportSupplier","parameterTypes":["io.quarkus.agroal.runtime.DataSourceSupport"] }]
+},
+{
+  "name":"io.quarkus.agroal.runtime.DataSourceJdbcBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.agroal.runtime.DataSourceJdbcRuntimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.agroal.runtime.DataSourceSupport"
+},
+{
+  "name":"io.quarkus.agroal.runtime.DataSourcesJdbcBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.agroal.runtime.DataSourcesJdbcBuildTimeConfig$DataSourceJdbcOuterNamedBuildTimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.agroal.runtime.DataSourcesJdbcRuntimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.agroal.runtime.DataSourcesJdbcRuntimeConfig$DataSourceJdbcOuterNamedRuntimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.agroal.runtime.metrics.AgroalMetricsRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.deployment.ArcConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.ArcDevModeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.ArcProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"exposeCustomScopeNames","parameterTypes":["java.util.List"] }, {"name":"feature","parameterTypes":[] }, {"name":"launchMode","parameterTypes":[] }, {"name":"loggerProducer","parameterTypes":[] }, {"name":"marker","parameterTypes":[] }, {"name":"quarkusApplication","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem"] }, {"name":"quarkusMain","parameterTypes":[] }, {"name":"setupExecutor","parameterTypes":["io.quarkus.deployment.builditem.ExecutorBuildItem","io.quarkus.arc.runtime.ArcRecorder"] }, {"name":"testApplicationClassPredicateBean","parameterTypes":[] }, {"name":"transformListAllInjectionPoints","parameterTypes":[] }, {"name":"unremovableAsyncObserverExceptionHandlers","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.ArcTestConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.AutoAddScopeProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"annotationTransformer","parameterTypes":["java.util.List","io.quarkus.arc.deployment.CustomScopeAnnotationsBuildItem","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.arc.deployment.BeanArchiveIndexBuildItem"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.AutoInjectFieldProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"annotationTransformer","parameterTypes":["io.quarkus.arc.deployment.ArcConfig","java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"autoInjectQualifiers","parameterTypes":["io.quarkus.arc.deployment.BeanArchiveIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer","java.util.List"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.AutoProducerMethodsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"annotationTransformer","parameterTypes":["io.quarkus.arc.deployment.ArcConfig","io.quarkus.arc.deployment.BeanArchiveIndexBuildItem","io.quarkus.arc.deployment.CustomScopeAnnotationsBuildItem","java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.BeanArchiveProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.arc.deployment.ArcConfig","io.quarkus.deployment.builditem.ApplicationArchivesBuildItem","java.util.List","java.util.List","java.util.List","io.quarkus.deployment.builditem.LiveReloadBuildItem","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.arc.deployment.CustomScopeAnnotationsBuildItem","java.util.List","java.util.List"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.BuildTimeEnabledProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"buildExclusions","parameterTypes":["java.util.List"] }, {"name":"conditionTransformer","parameterTypes":["java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"ifBuildProfile","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"ifBuildProperty","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"unlessBuildProfile","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"unlessBuildProperty","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.CommandLineArgumentsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"commandLineArgs","parameterTypes":["io.quarkus.deployment.builditem.RawCommandLineArgumentsBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.ConfigBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"additionalBeans","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"generateConfigClasses","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"registerConfigRootsAsBeans","parameterTypes":["io.quarkus.deployment.builditem.ConfigurationBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"vetoMPConfigProperties","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.HotDeploymentConfigBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"configFile","parameterTypes":[] }, {"name":"startup","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.LifecycleEventsBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.deployment.LookupConditionsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"suppressConditionsGenerators","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.arc.deployment.BeanArchiveIndexBuildItem"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.ObserverValidationProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.deployment.ProxyUnwrapProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.deployment.ReflectiveBeanClassesProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.deployment.SplitPackageProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"splitPackageDetection","parameterTypes":["io.quarkus.deployment.builditem.ApplicationArchivesBuildItem","io.quarkus.arc.deployment.ArcConfig","java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.StartupBuildSteps",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"addScope","parameterTypes":["io.quarkus.arc.deployment.CustomScopeAnnotationsBuildItem"] }, {"name":"unremovableBeans","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.SyntheticBeansProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.deployment.TestsAsBeansProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testAnnotations","parameterTypes":["java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"testClassBeans","parameterTypes":["java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.UnremovableAnnotationsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"unremovableBeans","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.WrongAnnotationUsageProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.deployment.configproperties.ConfigPropertiesBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"produceConfigPropertiesMetadata","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.arc.deployment.ArcConfig","io.quarkus.arc.deployment.BuildExclusionsBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"setup","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","java.util.List","io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.arc.deployment.devconsole.ArcDevConsoleProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.deployment.staticmethods.InterceptedStaticMethodsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.runtime.ArcRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"initExecutor","parameterTypes":["java.util.concurrent.ExecutorService"] }]
+},
+{
+  "name":"io.quarkus.arc.runtime.ConfigRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.runtime.InterceptedStaticMethodsRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.arc.runtime.context.ArcContextProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.banner.BannerConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.bootstrap.classloading.QuarkusClassLoader",
+  "methods":[{"name":"visibleDefineClass","parameterTypes":["java.lang.String","byte[]","int","int"] }]
+},
+{
+  "name":"io.quarkus.bootstrap.resolver.maven.options.BootstrapMavenOptionsParser",
+  "methods":[{"name":"parse","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"io.quarkus.bootstrap.runner.Timing",
+  "methods":[{"name":"staticInitStarted","parameterTypes":["boolean"] }]
+},
+{
+  "name":"io.quarkus.caffeine.deployment.CaffeineProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"cacheLoaders","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.credentials.CredentialsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"registerAdditionalBeans","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.datasource.deployment.DataSourcesExcludedFromHealthChecksProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"produceBean","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.datasource.runtime.DataSourcesHealthSupportRecorder","io.quarkus.datasource.runtime.DataSourcesBuildTimeConfig","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.datasource.deployment.devservices.DevServicesDatasourceProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"launchDatabases","parameterTypes":["io.quarkus.deployment.pkg.builditem.CurateOutcomeBuildItem","io.quarkus.deployment.builditem.DockerStatusBuildItem","java.util.List","java.util.List","io.quarkus.datasource.runtime.DataSourcesBuildTimeConfig","io.quarkus.deployment.builditem.LaunchModeBuildItem","java.util.List","io.quarkus.deployment.annotations.BuildProducer","java.util.Optional","io.quarkus.deployment.builditem.CuratedApplicationShutdownBuildItem","io.quarkus.deployment.logging.LoggingSetupBuildItem","io.quarkus.deployment.dev.devservices.GlobalDevServicesConfig"] }]
+},
+{
+  "name":"io.quarkus.datasource.deployment.devservices.DevUIDatasourceProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.datasource.runtime.DataSourceBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.datasource.runtime.DataSourceRuntimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.datasource.runtime.DataSourcesBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.datasource.runtime.DataSourcesHealthSupportRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.datasource.runtime.DataSourcesRuntimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.datasource.runtime.DatabaseKindConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.datasource.runtime.DatabaseRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.datasource.runtime.DevServicesBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.BootstrapConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.CollectionClassProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupCollectionClasses","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.ConfigBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.ConstructorPropertiesProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.builditem.CombinedIndexBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.DebugConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.DockerStatusProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"IsDockerWorking","parameterTypes":["io.quarkus.deployment.builditem.LaunchModeBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.ForkJoinPoolProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setProperty","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.IsDevelopment",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.runtime.LaunchMode"] }]
+},
+{
+  "name":"io.quarkus.deployment.IsNormal",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.runtime.LaunchMode"] }]
+},
+{
+  "name":"io.quarkus.deployment.IsTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.runtime.LaunchMode"] }]
+},
+{
+  "name":"io.quarkus.deployment.JniProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupJni","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.JniProcessor$JniConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.PlatformConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.SslProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupNativeSsl","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.SslProcessor$SslConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.configuration.ClassLoadingConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.console.ConsoleConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.console.ConsoleProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"helpCommand","parameterTypes":[] }, {"name":"installCliCommands","parameterTypes":["java.util.List"] }, {"name":"quitCommand","parameterTypes":[] }, {"name":"setupExceptionHandler","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.ide.EffectiveIdeBuildItem","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.console.ConsoleProcessor$HelpCommand",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.deployment.console.ConsoleProcessor$QuitCommand",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.deployment.console.QuarkusCommand",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.deployment.dev.ConfigureDisableInstrumentationBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"configure","parameterTypes":["java.util.List","java.util.List"] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.HotDeploymentWatchedFileBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupWatchedFileHotDeployment","parameterTypes":["java.util.List","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.devservices.GlobalDevServicesConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.devservices.GlobalDevServicesConfig$Enabled",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.deployment.dev.devservices.GlobalDevServicesConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.io.NioThreadPoolDevModeProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupTCCL","parameterTypes":["io.quarkus.runtime.dev.io.NioThreadPoolRecorder","io.quarkus.deployment.builditem.ShutdownContextBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestConfig$Container",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestConfig$Profile",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"handle","parameterTypes":[] }, {"name":"instrumentTestClasses","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.builditem.LaunchModeBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"searchForTags","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }, {"name":"testConsoleCommand","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$ExcludePatternCommand",
+  "allDeclaredFields":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$ExcludeTagsCommand",
+  "allDeclaredFields":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$IncludePatternCommand",
+  "allDeclaredFields":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$IncludeTagsCommand",
+  "allDeclaredFields":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$PatternCommand",
+  "allDeclaredFields":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$TagCompleter",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$TagsCommand",
+  "allDeclaredFields":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$TestCommand",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.deployment.dev.testing.TestTracingProcessor$TestSelectionCommand",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.deployment.ide.IdeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.ide.IdeProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"detectIdeFiles","parameterTypes":["io.quarkus.deployment.builditem.LaunchModeBuildItem","io.quarkus.deployment.pkg.builditem.BuildSystemTargetBuildItem"] }, {"name":"detectRunningIdeProcesses","parameterTypes":["io.quarkus.deployment.builditem.LaunchModeBuildItem"] }, {"name":"effectiveIde","parameterTypes":["io.quarkus.deployment.builditem.LaunchModeBuildItem","io.quarkus.deployment.ide.IdeConfig","io.quarkus.deployment.ide.IdeFileBuildItem","io.quarkus.deployment.ide.IdeRunningProcessBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.index.ApplicationArchiveBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"addConfiguredIndexedDependencies","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"build","parameterTypes":["io.quarkus.deployment.builditem.QuarkusBuildCloseablesBuildItem","io.quarkus.deployment.builditem.ArchiveRootBuildItem","io.quarkus.deployment.builditem.ApplicationIndexBuildItem","java.util.List","java.util.List","java.util.List","io.quarkus.deployment.builditem.LiveReloadBuildItem","io.quarkus.deployment.pkg.builditem.CurateOutcomeBuildItem","io.quarkus.deployment.configuration.ClassLoadingConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.index.ApplicationArchiveBuildStep$IndexDependencyConfiguration",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.index.IndexDependencyConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.deployment.logging.LoggingResourceProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"logConsoleCommand","parameterTypes":[] }, {"name":"registerMetrics","parameterTypes":["io.quarkus.runtime.logging.LogMetricsHandlerRecorder","io.quarkus.runtime.logging.LogBuildTimeConfig","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","java.util.Optional"] }, {"name":"setProperty","parameterTypes":[] }, {"name":"setUpDarkeningDefault","parameterTypes":["java.util.function.Consumer"] }, {"name":"setUpDefaultLevels","parameterTypes":["java.util.List","java.util.function.Consumer"] }, {"name":"setUpDefaultLogCleanupFilters","parameterTypes":["java.util.List","java.util.function.Consumer"] }, {"name":"setupLogFilters","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"setupLoggingRuntimeInit","parameterTypes":["io.quarkus.runtime.logging.LoggingSetupRecorder","io.quarkus.runtime.logging.LogConfig","io.quarkus.runtime.logging.LogBuildTimeConfig","java.util.Optional","java.util.List","java.util.List","java.util.List","java.util.Optional","java.util.List","io.quarkus.deployment.builditem.LaunchModeBuildItem","java.util.List"] }, {"name":"setupLoggingStaticInit","parameterTypes":["io.quarkus.runtime.logging.LoggingSetupRecorder","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }, {"name":"setupStackTraceFormatter","parameterTypes":["io.quarkus.deployment.builditem.ApplicationArchivesBuildItem","io.quarkus.deployment.ide.EffectiveIdeBuildItem","io.quarkus.deployment.pkg.builditem.BuildSystemTargetBuildItem","java.util.List","io.quarkus.deployment.builditem.CuratedApplicationShutdownBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.logging.LoggingResourceProcessor$LevelCompleter",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.logging.LoggingResourceProcessor$LogCommand",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.deployment.logging.LoggingResourceProcessor$LoggerCompleter",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.logging.LoggingResourceProcessor$SetLogLevelCommand",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.deployment.logging.LoggingWithPanacheProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"process","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.naming.NamingConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.ManifestConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.NativeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.NativeConfig$Compression",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.NativeConfig$Debug",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.NativeConfig$ResourcesConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.PackageConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.PackageConfig$FernflowerConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.AppCDSBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.AppCDSBuildStep$AppCDSRequired",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.deployment.pkg.PackageConfig","io.quarkus.runtime.LaunchMode"] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.FileSystemResourcesBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"notNormalMode","parameterTypes":["io.quarkus.deployment.pkg.builditem.OutputTargetBuildItem","io.quarkus.deployment.builditem.LaunchModeBuildItem","java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.JarResultBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"outputTarget","parameterTypes":["io.quarkus.deployment.pkg.builditem.BuildSystemTargetBuildItem","io.quarkus.deployment.pkg.PackageConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.JarResultBuildStep$JarRequired",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.deployment.pkg.PackageConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.NativeBuild",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.deployment.pkg.PackageConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.NativeImageBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.NativeOrNativeSourcesBuild",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.deployment.pkg.PackageConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.NativeSourcesBuild",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.deployment.pkg.PackageConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.PackageTypeVerificationBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"builtins","parameterTypes":[] }, {"name":"verify","parameterTypes":["java.util.List","io.quarkus.deployment.pkg.PackageConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.pkg.steps.UpxCompressionBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.recording.AnnotationProxyBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.builditem.ApplicationIndexBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.runtime.RuntimeValue"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy10",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy11",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.hibernate.orm.runtime.proxies.PreGeneratedProxies"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy12",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.runtime.RuntimeValue","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy13",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.runtime.RuntimeValue","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy14",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy15",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy16",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.vertx.http.runtime.HttpConfiguration"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy17",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy18",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy19",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy20",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig","io.quarkus.runtime.RuntimeValue"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy21",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy22",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy23",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy24",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy29",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy3",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.runtime.RuntimeValue","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy36",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy37",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.runtime.ThreadPoolConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy4",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy48",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy5",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy58",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy59",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.runtime.configuration.ConfigurationRuntimeConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy6",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy7",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy8",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$RecordingProxyProxy9",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler","io.quarkus.runtime.RuntimeValue","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy25",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy26",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy27",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy28",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy30",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy38",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy39",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy40",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy41",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy44",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy49",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy51",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy55",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$$ReturnValueProxy60",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.reflect.InvocationHandler"] }]
+},
+{
+  "name":"io.quarkus.deployment.recording.BytecodeRecorderImpl$ReturnedProxy",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.quarkus.deployment.recording.substitutions.AdditionalSubstitutionsBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"additionalSubstitutions","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.AdditionalClassLoaderResourcesBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"appendAdditionalClassloaderResources","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","java.util.List"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ApplicationIndexBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.builditem.ArchiveRootBuildItem","io.quarkus.deployment.pkg.builditem.CurateOutcomeBuildItem","io.quarkus.deployment.configuration.ClassLoadingConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ApplicationInfoBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"create","parameterTypes":["io.quarkus.runtime.ApplicationConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.BannerProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"watchBannerChanges","parameterTypes":["io.quarkus.banner.BannerConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.BlockingOperationControlBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"blockingOP","parameterTypes":["java.util.List","io.quarkus.runtime.BlockingOperationRecorder"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.BootstrapConfigSetupBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupBootstrapConfig","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.CapabilityAggregationStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"aggregateCapabilities","parameterTypes":["java.util.List","io.quarkus.deployment.steps.CapabilityAggregationStep$CapabilitiesConfiguredInDescriptorsBuildItem","io.quarkus.deployment.pkg.builditem.CurateOutcomeBuildItem"] }, {"name":"provideCapabilities","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.pkg.builditem.CurateOutcomeBuildItem","io.quarkus.deployment.BooleanSupplierFactoryBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ChangedClassesBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.ClassTransformingBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.CombinedIndexBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.builditem.ApplicationArchivesBuildItem","java.util.List","io.quarkus.deployment.builditem.LiveReloadBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.CompiledJavaVersionBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.ConfigBuildSteps",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"generateConfigSources","parameterTypes":["java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.builditem.LiveReloadBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ConfigBuildSteps$SystemOnlySources",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ConfigDescriptionBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.ConfigGenerationBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"checkForBuildTimeConfigChange","parameterTypes":["io.quarkus.runtime.configuration.ConfigRecorder","io.quarkus.deployment.builditem.ConfigurationBuildItem","io.quarkus.deployment.logging.LoggingSetupBuildItem","java.util.List"] }, {"name":"extensionMappings","parameterTypes":["io.quarkus.deployment.builditem.ConfigurationBuildItem","io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"setupConfigOverride","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"staticInitSources","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"suppressNonRuntimeConfigChanged","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"watchConfigFiles","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.CurateOutcomeBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"curateOutcome","parameterTypes":["io.quarkus.deployment.builditem.AppModelProviderBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.DevModeBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"watchChanges","parameterTypes":["io.quarkus.runtime.LiveReloadConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.DevServicesConfigBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"deprecated","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.LocaleProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.LocaleProcessor$NonDefaultLocale",
+  "allDeclaredFields":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.deployment.pkg.NativeConfig","io.quarkus.runtime.LocalesBuildTimeConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.MainClassBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"applicationReflection","parameterTypes":[] }, {"name":"mainClassBuildStep","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.builditem.ApplicationArchivesBuildItem","io.quarkus.deployment.builditem.CombinedIndexBuildItem","java.util.Optional","io.quarkus.deployment.pkg.PackageConfig"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.NativeImageAllowIncompleteClasspathAggregateStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.NativeImageAutoFeatureStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.NativeImageConfigBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.runtime.ssl.SslContextConfigurationRecorder","java.util.List","io.quarkus.deployment.builditem.SslNativeConfigBuildItem","java.util.List","java.util.List","java.util.List","java.util.List","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.NativeImageResourcesStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"registerPackageResources","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ProfileBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"defaultProfile","parameterTypes":["io.quarkus.deployment.builditem.LaunchModeBuildItem"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ReflectionDiagnosticProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.ReflectiveHierarchyStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"ignoreJavaClassWarnings","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.RegisterForReflectionBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ResourceBundleStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.RuntimeConfigSetupBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupRuntimeConfig","parameterTypes":["java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.deployment.steps.ShutdownListenerBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.deployment.steps.ThreadPoolSetup",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"createExecutor","parameterTypes":["io.quarkus.runtime.ExecutorRecorder","io.quarkus.deployment.builditem.ShutdownContextBuildItem","io.quarkus.deployment.builditem.LaunchModeBuildItem","java.util.Optional","java.util.Optional"] }]
+},
+{
+  "name":"io.quarkus.devservices.deployment.DevServicesProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.devservices.mysql.deployment.MySQLDevServicesProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupMysql","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"io.quarkus.flyway.FlywayDevConsoleProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.flyway.FlywayProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.flyway.runtime.FlywayRecorder","io.quarkus.deployment.recording.RecorderContext","io.quarkus.deployment.builditem.CombinedIndexBuildItem","java.util.List"] }, {"name":"createBeansAndStartActions","parameterTypes":["io.quarkus.flyway.runtime.FlywayRecorder","java.util.List","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.flyway.FlywayProcessor$MigrationStateBuildItem"] }, {"name":"indexFlyway","parameterTypes":[] }, {"name":"resources","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.flyway.runtime.FlywayBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.flyway.runtime.FlywayDataSourceBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.flyway.runtime.FlywayDataSourceRuntimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.flyway.runtime.FlywayRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"doStartActions","parameterTypes":[] }, {"name":"flywaySupplier","parameterTypes":["java.lang.String","boolean","boolean"] }, {"name":"resetFlywayContainers","parameterTypes":[] }, {"name":"setApplicationCallbackClasses","parameterTypes":["java.util.Map"] }, {"name":"setApplicationMigrationClasses","parameterTypes":["java.util.Collection"] }, {"name":"setApplicationMigrationFiles","parameterTypes":["java.util.Collection"] }]
+},
+{
+  "name":"io.quarkus.flyway.runtime.FlywayRuntimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.flyway.runtime.devconsole.FlywayDevConsoleRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateLogFilterBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupLogFilters","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmCdiProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"convertJpaResourceAnnotationsToQualifier","parameterTypes":["java.util.List","io.quarkus.hibernate.orm.deployment.ImpliedBlockingPersistenceUnitTypeBuildItem"] }, {"name":"generateDataSourceBeans","parameterTypes":["io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder","java.util.List","io.quarkus.hibernate.orm.deployment.ImpliedBlockingPersistenceUnitTypeBuildItem","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"registerAnnotations","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfig$HibernateOrmConfigLog",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitCache",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitCacheExpiration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitCacheMemory",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitDatabase",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitDialect",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitDiscriminator",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitFetch",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitJdbc",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitQuery",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateOrmProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"addPersistenceUnitAnnotationToIndex","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.recording.RecorderContext","io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder","io.quarkus.deployment.Capabilities","io.quarkus.hibernate.orm.deployment.JpaModelBuildItem","java.util.List","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }, {"name":"build","parameterTypes":["io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder","io.quarkus.hibernate.orm.deployment.HibernateOrmConfig","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","java.util.List","io.quarkus.hibernate.orm.deployment.JpaModelBuildItem"] }, {"name":"candidatesForFieldAccess","parameterTypes":["io.quarkus.hibernate.orm.deployment.JpaModelBuildItem"] }, {"name":"configurationDescriptorBuilding","parameterTypes":["io.quarkus.hibernate.orm.deployment.HibernateOrmConfig","io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.hibernate.orm.deployment.ImpliedBlockingPersistenceUnitTypeBuildItem","java.util.List","java.util.List","io.quarkus.deployment.builditem.ApplicationArchivesBuildItem","io.quarkus.deployment.builditem.LaunchModeBuildItem","io.quarkus.hibernate.orm.deployment.JpaModelBuildItem","io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"contributePersistenceXmlToJpaModel","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","java.util.List"] }, {"name":"contributeQuarkusConfigToJpaModel","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.hibernate.orm.deployment.HibernateOrmConfig"] }, {"name":"defineJpaEntities","parameterTypes":["io.quarkus.hibernate.orm.deployment.JpaModelIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","java.util.List"] }, {"name":"defineTypeOfImpliedPU","parameterTypes":["java.util.List","java.util.List","io.quarkus.deployment.Capabilities"] }, {"name":"enforceDisableRuntimeEnhancer","parameterTypes":[] }, {"name":"enrollBeanValidationTypeSafeActivatorForReflection","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"handleNativeImageImportSql","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","java.util.List","io.quarkus.hibernate.orm.deployment.JpaModelBuildItem","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }, {"name":"hotDeploymentWatchedFiles","parameterTypes":["io.quarkus.deployment.builditem.LaunchModeBuildItem"] }, {"name":"includeArchivesHostingEntityPackagesInIndex","parameterTypes":["io.quarkus.hibernate.orm.deployment.HibernateOrmConfig","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"jpaEntitiesIndexer","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","java.util.List"] }, {"name":"multitenancy","parameterTypes":["io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"parsePersistenceXmlDescriptors","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"produceLoggingCategories","parameterTypes":["io.quarkus.hibernate.orm.deployment.HibernateOrmConfig","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"registerBeans","parameterTypes":["io.quarkus.hibernate.orm.deployment.HibernateOrmConfig","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.Capabilities","io.quarkus.deployment.builditem.CombinedIndexBuildItem","java.util.List","io.quarkus.hibernate.orm.deployment.JpaModelBuildItem"] }, {"name":"setupPersistenceProvider","parameterTypes":["io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder","io.quarkus.deployment.Capabilities","io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfig","java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.HibernateUserTypeProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.builditem.CombinedIndexBuildItem"] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.ResteasyReactiveServerIntegrationProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.devconsole.HibernateDevConsoleProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.deployment.metrics.HibernateOrmMetricsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"metrics","parameterTypes":["io.quarkus.hibernate.orm.deployment.HibernateOrmConfig","io.quarkus.hibernate.orm.runtime.metrics.HibernateMetricsRecorder","java.util.List","java.util.Optional","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"callHibernateFeatureInit","parameterTypes":["boolean"] }, {"name":"setupPersistenceProvider","parameterTypes":["io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfig","java.util.Map"] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfigPersistenceUnit",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitDatabase",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitDatabaseGeneration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitLog",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitScriptGeneration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.HibernateOrmRuntimeConfigPersistenceUnit$HibernateOrmConfigPersistenceUnitScripts",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.metrics.HibernateMetricsRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.hibernate.orm.runtime.proxies.PreGeneratedProxies",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.jackson.deployment.JacksonProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"autoRegisterModules","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"generateCustomizer","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","java.util.List","java.util.List"] }, {"name":"register","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"unremovable","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.jackson.runtime.JacksonBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.jdbc.mysql.deployment.JDBCMySQLProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"configureAgroalConnection","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.Capabilities"] }, {"name":"devDbHandler","parameterTypes":[] }, {"name":"disableAbandonedConnectionCleanUpInJVMMode","parameterTypes":[] }, {"name":"enableAllCharsets","parameterTypes":[] }, {"name":"feature","parameterTypes":[] }, {"name":"registerDriver","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.builditem.SslNativeConfigBuildItem"] }, {"name":"registerServiceBinding","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"resource","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.jdbc.mysql.deployment.MySQLJDBCReflections",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"registerDriverForReflection","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"registerExceptionsForReflection","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"registerSocketFactoryForReflection","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.mutiny.deployment.MutinyProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"buildTimeInit","parameterTypes":["io.quarkus.mutiny.runtime.MutinyInfrastructure"] }, {"name":"runtimeInit","parameterTypes":["io.quarkus.deployment.builditem.ExecutorBuildItem","io.quarkus.mutiny.runtime.MutinyInfrastructure","io.quarkus.deployment.builditem.ShutdownContextBuildItem"] }]
+},
+{
+  "name":"io.quarkus.mutiny.runtime.MutinyInfrastructure",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"configureDroppedExceptionHandler","parameterTypes":[] }, {"name":"configureMutinyInfrastructure","parameterTypes":["java.util.concurrent.ExecutorService","io.quarkus.runtime.ShutdownContext"] }, {"name":"configureOperatorLogger","parameterTypes":[] }, {"name":"configureThreadBlockingChecker","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.narayana.jta.deployment.NarayanaJtaProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.narayana.jta.runtime.NarayanaJtaRecorder","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.narayana.jta.runtime.TransactionManagerConfiguration","io.quarkus.deployment.builditem.ShutdownContextBuildItem"] }, {"name":"registerScope","parameterTypes":[] }, {"name":"testTx","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"unremovableBean","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.narayana.jta.runtime.NarayanaJtaRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"disableTransactionStatusManager","parameterTypes":[] }, {"name":"handleShutdown","parameterTypes":["io.quarkus.runtime.ShutdownContext"] }, {"name":"setConfig","parameterTypes":["io.quarkus.narayana.jta.runtime.TransactionManagerConfiguration"] }, {"name":"setDefaultProperties","parameterTypes":["java.util.Properties"] }, {"name":"setDefaultTimeout","parameterTypes":["io.quarkus.narayana.jta.runtime.TransactionManagerConfiguration"] }, {"name":"setNodeName","parameterTypes":["io.quarkus.narayana.jta.runtime.TransactionManagerConfiguration"] }]
+},
+{
+  "name":"io.quarkus.narayana.jta.runtime.TransactionManagerConfiguration",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.netty.deployment.NettyBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.netty.deployment.NettyProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.netty.deployment.NettyBuildTimeConfig","io.quarkus.deployment.annotations.BuildProducer","java.util.List"] }, {"name":"cleanup","parameterTypes":[] }, {"name":"eagerlyInitClass","parameterTypes":["io.quarkus.netty.runtime.NettyRecorder"] }, {"name":"limitArenaSize","parameterTypes":["io.quarkus.netty.deployment.NettyBuildTimeConfig","java.util.List"] }, {"name":"registerEventLoopBeans","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","java.util.Optional","io.quarkus.netty.runtime.NettyRecorder"] }, {"name":"registerQualifiers","parameterTypes":[] }, {"name":"setNettyMachineId","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.netty.runtime.NettyRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"eagerlyInitChannelId","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.panache.common.deployment.PanacheHibernateCommonResourceProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"findEntityClasses","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.panache.common.deployment.HibernateModelClassCandidatesForFieldAccessBuildItem","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.resteasy.common.deployment.ResteasyCommonProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"addStaticInitConfigSourceProvider","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"registerJsonContextResolvers","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.Capabilities","io.quarkus.resteasy.common.deployment.ResteasyJsonConfig","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"resteasyConfig","parameterTypes":["io.quarkus.resteasy.common.deployment.ResteasyJsonConfig","io.quarkus.deployment.Capabilities"] }, {"name":"setupGzipProviders","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"setupProviders","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.arc.deployment.BeanArchiveIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer","java.util.List","java.util.List","io.quarkus.resteasy.common.spi.ResteasyConfigBuildItem","io.quarkus.deployment.Capabilities"] }]
+},
+{
+  "name":"io.quarkus.resteasy.common.deployment.ResteasyCommonProcessor$ResteasyCommonConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.resteasy.common.deployment.ResteasyCommonProcessor$ResteasyCommonConfigGzip",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.resteasy.common.deployment.ResteasyJsonConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.resteasy.common.runtime.ResteasyContextProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.resteasy.common.runtime.ResteasyInjectorFactoryRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.resteasy.common.runtime.providers.ServerFormUrlEncodedProvider"
+},
+{
+  "name":"io.quarkus.resteasy.deployment.RestPathAnnotationProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"registerBeanClasses","parameterTypes":["io.quarkus.deployment.Capabilities","java.util.Optional"] }]
+},
+{
+  "name":"io.quarkus.resteasy.deployment.ResteasyBuiltinsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setUpSecurity","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.Capabilities"] }, {"name":"vertxProviders","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.resteasy.deployment.ResteasyServletProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"webXmlMapping","parameterTypes":["java.util.Optional"] }]
+},
+{
+  "name":"io.quarkus.resteasy.deployment.ResteasyStandaloneBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.resteasy.jackson.deployment.ResteasyJacksonProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"feature","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.resteasy.runtime.ExceptionMapperRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.resteasy.runtime.JaxRsSecurityConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.resteasy.runtime.ResteasyVertxConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.resteasy.runtime.standalone.ResteasyStandaloneRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.resteasy.server.common.deployment.ResteasyLogFilterBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupLogFilters","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.resteasy.server.common.deployment.ResteasyServerCommonProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"beanDefiningAnnotations","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"build","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","java.util.List","java.util.List","java.util.List","java.util.List","java.util.List","java.util.List","java.util.List","io.quarkus.resteasy.common.deployment.JaxrsProvidersToRegisterBuildItem","io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.arc.deployment.BeanArchiveIndexBuildItem","java.util.Optional","io.quarkus.arc.deployment.CustomScopeAnnotationsBuildItem"] }, {"name":"processPathInterfaceImplementors","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.arc.deployment.CustomScopeAnnotationsBuildItem"] }, {"name":"registerCompatibleAnnotationPrefixes","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.resteasy.server.common.deployment.ResteasyServerCommonProcessor$ResteasyConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runner.bootstrap.AugmentActionImpl",
+  "methods":[{"name":"<init>","parameterTypes":["io.quarkus.bootstrap.app.CuratedApplication","java.util.List"] }]
+},
+{
+  "name":"io.quarkus.runtime.ApplicationConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.BannerRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.runtime.BannerRuntimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.BlockingOperationRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"control","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"io.quarkus.runtime.CommandLineRuntimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.runtime.ConfigConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.runtime.ExecutorRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"setupRunTime","parameterTypes":["io.quarkus.runtime.ShutdownContext","io.quarkus.runtime.LaunchMode","java.util.concurrent.ThreadFactory","org.jboss.threads.ContextHandler"] }]
+},
+{
+  "name":"io.quarkus.runtime.IOThreadDetector",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.quarkus.runtime.LaunchMode"
+},
+{
+  "name":"io.quarkus.runtime.LiveReloadConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.LocalesBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.RuntimeValue",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.ShutdownContext"
+},
+{
+  "name":"io.quarkus.runtime.ThreadPoolConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.TlsConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.TopLevelRootConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.runtime.configuration.ConfigRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"handleConfigChange","parameterTypes":["java.util.Map"] }]
+},
+{
+  "name":"io.quarkus.runtime.configuration.ConfigurationRuntimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.configuration.HyphenateEnumConverter",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"io.quarkus.runtime.configuration.NormalizeRootHttpPathConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.configuration.TrimmedStringConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.console.ConsoleRuntimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.dev.io.NioThreadPoolRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"updateTccl","parameterTypes":["io.quarkus.runtime.ShutdownContext"] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.AsyncConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.CategoryBuildTimeConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.runtime.logging.CategoryConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.runtime.logging.CleanupFilterConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.runtime.logging.ConsoleConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.FileConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.FileConfig$RotationConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.LogBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.LogConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.LogMetricsHandlerRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.runtime.logging.LoggingSetupRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"handleFailedStart","parameterTypes":[] }, {"name":"initializeLogging","parameterTypes":["io.quarkus.runtime.logging.LogConfig","io.quarkus.runtime.logging.LogBuildTimeConfig","boolean","io.quarkus.runtime.RuntimeValue","java.util.List","java.util.List","java.util.List","io.quarkus.runtime.RuntimeValue","io.quarkus.runtime.LaunchMode"] }, {"name":"initializeLoggingForImageBuild","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.SyslogConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.shutdown.ShutdownConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.shutdown.ShutdownRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.runtime.ssl.SslContextConfigurationRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"setSslNativeEnabled","parameterTypes":["boolean"] }]
+},
+{
+  "name":"io.quarkus.smallrye.context.deployment.SmallRyeContextPropagationProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.smallrye.context.runtime.SmallRyeContextPropagationRecorder","io.quarkus.deployment.builditem.ExecutorBuildItem","io.quarkus.deployment.builditem.ShutdownContextBuildItem","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"buildStatic","parameterTypes":["io.quarkus.smallrye.context.runtime.SmallRyeContextPropagationRecorder"] }, {"name":"registerBean","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"transformInjectionPoint","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.smallrye.context.runtime.SmallRyeContextPropagationRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"configureRuntime","parameterTypes":["java.util.concurrent.ExecutorService","io.quarkus.runtime.ShutdownContext"] }, {"name":"configureStaticInit","parameterTypes":["java.util.List","java.util.List"] }, {"name":"initializeManagedExecutor","parameterTypes":["java.util.concurrent.ExecutorService"] }]
+},
+{
+  "name":"io.quarkus.test.junit.QuarkusTest",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.quarkus.test.junit.QuarkusTestExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.test.junit.QuarkusTestExtension$TestBuildChainFunction",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.test.junit.util.QuarkusTestProfileAwareClassOrderer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.undertow.deployment.UndertowStaticResourcesBuildStep",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"handleGeneratedWebResources","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer","java.util.List"] }, {"name":"nativeImageResources","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.undertow.deployment.KnownPathsBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"scanStaticResources","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.deployment.builditem.ApplicationArchivesBuildItem","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","java.util.List","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }]
+},
+{
+  "name":"io.quarkus.vertx.core.deployment.VertxCoreProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"build","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"build","parameterTypes":["io.quarkus.vertx.core.runtime.VertxCoreRecorder","io.quarkus.deployment.builditem.LaunchModeBuildItem","io.quarkus.deployment.builditem.ShutdownContextBuildItem","io.quarkus.vertx.core.runtime.config.VertxConfiguration","java.util.List","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.builditem.ExecutorBuildItem"] }, {"name":"cleanupVertxWarnings","parameterTypes":[] }, {"name":"createVertxContextHandlers","parameterTypes":["io.quarkus.vertx.core.runtime.VertxCoreRecorder"] }, {"name":"createVertxThreadFactory","parameterTypes":["io.quarkus.vertx.core.runtime.VertxCoreRecorder","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }, {"name":"eventLoopCount","parameterTypes":["io.quarkus.vertx.core.runtime.VertxCoreRecorder","io.quarkus.vertx.core.runtime.config.VertxConfiguration"] }, {"name":"filterNettyHostsFileParsingWarn","parameterTypes":[] }, {"name":"ioThreadDetector","parameterTypes":["io.quarkus.vertx.core.runtime.VertxCoreRecorder"] }, {"name":"overrideContextToAddSafeGuards","parameterTypes":[] }, {"name":"preventLoggerContention","parameterTypes":[] }, {"name":"registerVerticleClasses","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.VertxCoreRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"bossSupplier","parameterTypes":[] }, {"name":"calculateEventLoopThreads","parameterTypes":["io.quarkus.vertx.core.runtime.config.VertxConfiguration"] }, {"name":"configureVertx","parameterTypes":["io.quarkus.vertx.core.runtime.config.VertxConfiguration","io.quarkus.runtime.LaunchMode","io.quarkus.runtime.ShutdownContext","java.util.List","java.util.concurrent.ExecutorService"] }, {"name":"createThreadFactory","parameterTypes":["io.quarkus.runtime.LaunchMode"] }, {"name":"detector","parameterTypes":[] }, {"name":"executionContextHandler","parameterTypes":[] }, {"name":"mainSupplier","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.config.AddressResolverConfiguration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.config.ClusterConfiguration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.config.EventBusConfiguration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.config.JksConfiguration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.config.PemKeyCertConfiguration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.config.PemTrustCertConfiguration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.config.PfxConfiguration",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.core.runtime.config.VertxConfiguration",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.deployment.EventBusCodecProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"registerCodecs","parameterTypes":["io.quarkus.arc.deployment.BeanArchiveIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.vertx.deployment.VertxProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"autoAddScope","parameterTypes":[] }, {"name":"featureAndCapability","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"registerBean","parameterTypes":[] }, {"name":"registerVerticleClasses","parameterTypes":["io.quarkus.deployment.builditem.CombinedIndexBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"unremovableBeans","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.HttpSecurityProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"builtins","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"initBasicAuth","parameterTypes":["io.quarkus.vertx.http.runtime.security.HttpSecurityRecorder","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"initFormAuth","parameterTypes":["io.quarkus.vertx.http.runtime.security.HttpSecurityRecorder","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"initMtlsClientAuth","parameterTypes":["io.quarkus.vertx.http.runtime.security.HttpSecurityRecorder","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig"] }, {"name":"setupAuthenticationMechanisms","parameterTypes":["io.quarkus.vertx.http.runtime.security.HttpSecurityRecorder","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.Capabilities","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.vertx.http.runtime.HttpBuildTimeConfig","java.util.List","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.StaticResourcesProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"collectStaticResources","parameterTypes":["io.quarkus.deployment.Capabilities","io.quarkus.deployment.builditem.ApplicationArchivesBuildItem","java.util.List","java.util.Optional","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.VertxHttpProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"additionalBeans","parameterTypes":[] }, {"name":"bodyHandler","parameterTypes":["io.quarkus.vertx.http.runtime.VertxHttpRecorder"] }, {"name":"cors","parameterTypes":["io.quarkus.vertx.http.runtime.cors.CORSRecorder"] }, {"name":"filterMultipleVertxInstancesWarning","parameterTypes":["io.quarkus.deployment.builditem.LaunchModeBuildItem","io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"frameworkRoot","parameterTypes":["io.quarkus.vertx.http.runtime.HttpBuildTimeConfig"] }, {"name":"hostDefault","parameterTypes":["io.quarkus.deployment.annotations.BuildProducer"] }, {"name":"httpRoot","parameterTypes":["io.quarkus.vertx.http.runtime.HttpBuildTimeConfig"] }, {"name":"logging","parameterTypes":[] }, {"name":"preinitializeRouter","parameterTypes":["io.quarkus.vertx.core.deployment.CoreVertxBuildItem","io.quarkus.vertx.http.runtime.VertxHttpRecorder","io.quarkus.deployment.annotations.BuildProducer","io.quarkus.deployment.annotations.BuildProducer"] }]
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.devmode.ArcDevProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.devmode.console.ConfigEditorProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.devmode.console.DevConsoleProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setupConsole","parameterTypes":["io.quarkus.vertx.http.deployment.HttpRootPathBuildItem","io.quarkus.vertx.http.deployment.NonApplicationRootPathBuildItem","io.quarkus.deployment.builditem.LaunchModeBuildItem"] }]
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.devmode.console.DevUIConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.devmode.tests.TestsProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.vertx.http.deployment.webjar.WebJarProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"processWebJarDevMode","parameterTypes":["io.quarkus.vertx.http.runtime.webjar.WebJarRecorder","java.util.List","io.quarkus.deployment.pkg.builditem.CurateOutcomeBuildItem","io.quarkus.deployment.builditem.ShutdownContextBuildItem","io.quarkus.runtime.ApplicationConfig"] }]
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.AccessLogConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.AuthConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.BodyConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.CertificateConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.FilterConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.FormAuthConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.HeaderConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.HttpBuildTimeConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.HttpConfiguration",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.PolicyConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.PolicyMappingConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.ProxyConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.SameSiteCookieConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.ServerLimitsConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.ServerSslConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.StaticResourcesRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.VertxHttpRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"createBodyHandler","parameterTypes":[] }, {"name":"createMutinyRouter","parameterTypes":["io.quarkus.runtime.RuntimeValue"] }, {"name":"initializeRouter","parameterTypes":["java.util.function.Supplier"] }]
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.cors.CORSConfig",
+  "allDeclaredFields":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.cors.CORSRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"corsHandler","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.devmode.ArcDevRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.devmode.ConfigDescriptionsRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.devmode.DevConsoleRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.logstream.LogStreamRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.security.HttpSecurityRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"setupBasicAuth","parameterTypes":["io.quarkus.vertx.http.runtime.HttpBuildTimeConfig"] }]
+},
+{
+  "name":"io.quarkus.vertx.http.runtime.webjar.WebJarRecorder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"shutdownTask","parameterTypes":["io.quarkus.runtime.ShutdownContext","java.lang.String"] }]
+},
+{
+  "name":"io.quarkus.vertx.runtime.VertxRecorder",
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"io.smallrye.context.jta.context.propagation.JtaContextProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.smallrye.mutiny.context.MutinyContextManagerExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.vertx.core.Handler",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.io.File",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }, {"name":"of","parameterTypes":["java.lang.CharSequence"] }, {"name":"of","parameterTypes":["java.lang.String"] }, {"name":"parse","parameterTypes":["java.lang.CharSequence"] }, {"name":"parse","parameterTypes":["java.lang.String"] }, {"name":"valueOf","parameterTypes":["java.lang.CharSequence"] }, {"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.ClassLoader",
+  "methods":[{"name":"getPlatformClassLoader","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"equals","parameterTypes":["java.lang.Object"] }, {"name":"hashCode","parameterTypes":[] }, {"name":"toString","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Runtime",
+  "methods":[{"name":"version","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Runtime$Version",
+  "methods":[{"name":"version","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.String",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"contextClassLoader"}, {"name":"threadLocalRandomProbe"}]
+},
+{
+  "name":"java.lang.Throwable",
+  "methods":[{"name":"addSuppressed","parameterTypes":["java.lang.Throwable"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandle",
+  "methods":[{"name":"bindTo","parameterTypes":["java.lang.Object"] }, {"name":"invokeWithArguments","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[{"name":"lookup","parameterTypes":[] }, {"name":"privateLookupIn","parameterTypes":["java.lang.Class","java.lang.invoke.MethodHandles$Lookup"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup",
+  "methods":[{"name":"findSpecial","parameterTypes":["java.lang.Class","java.lang.String","java.lang.invoke.MethodType","java.lang.Class"] }, {"name":"in","parameterTypes":["java.lang.Class"] }, {"name":"unreflectSpecial","parameterTypes":["java.lang.reflect.Method","java.lang.Class"] }]
+},
+{
+  "name":"java.lang.invoke.MethodType",
+  "methods":[{"name":"methodType","parameterTypes":["java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getInputArguments","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Method",
+  "methods":[{"name":"isDefault","parameterTypes":[] }, {"name":"isVarArgs","parameterTypes":[] }]
+},
+{
+  "name":"java.net.URI",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }, {"name":"of","parameterTypes":["java.lang.CharSequence"] }, {"name":"of","parameterTypes":["java.lang.String"] }, {"name":"parse","parameterTypes":["java.lang.CharSequence"] }, {"name":"parse","parameterTypes":["java.lang.String"] }, {"name":"valueOf","parameterTypes":["java.lang.CharSequence"] }, {"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.nio.Bits",
+  "fields":[{"name":"UNALIGNED"}]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"alignedSlice","parameterTypes":["int"] }]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.time.ZoneOffset"
+},
+{
+  "name":"java.time.ZoneRegion"
+},
+{
+  "name":"java.util.Collection"
+},
+{
+  "name":"java.util.List"
+},
+{
+  "name":"java.util.Map"
+},
+{
+  "name":"java.util.Properties"
+},
+{
+  "name":"java.util.concurrent.ExecutorService",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.concurrent.ForkJoinTask",
+  "fields":[{"name":"aux"}, {"name":"status"}]
+},
+{
+  "name":"java.util.concurrent.ThreadFactory",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"java.util.function.Supplier",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"javax.servlet.FilterConfig"
+},
+{
+  "name":"javax.servlet.ServletConfig"
+},
+{
+  "name":"javax.servlet.ServletContext"
+},
+{
+  "name":"javax.xml.stream.XMLInputFactory"
+},
+{
+  "name":"jdk.internal.misc.Unsafe",
+  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
+},
+{
+  "name":"org.aesh.command.impl.completer.BooleanOptionCompleter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.aesh.command.impl.parser.AeshOptionParser",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Build",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getOutputDirectory","parameterTypes":[] }, {"name":"getSourceDirectory","parameterTypes":[] }, {"name":"getTestOutputDirectory","parameterTypes":[] }, {"name":"getTestSourceDirectory","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.BuildBase",
+  "methods":[{"name":"getDirectory","parameterTypes":[] }, {"name":"getFinalName","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Model",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getArtifactId","parameterTypes":[] }, {"name":"getBuild","parameterTypes":[] }, {"name":"getDescription","parameterTypes":[] }, {"name":"getGroupId","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getOrganization","parameterTypes":[] }, {"name":"getPackaging","parameterTypes":[] }, {"name":"getParent","parameterTypes":[] }, {"name":"getScm","parameterTypes":[] }, {"name":"getUrl","parameterTypes":[] }, {"name":"getVersion","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.ModelBase",
+  "methods":[{"name":"getReporting","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Organization",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getName","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Parent",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getVersion","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Reporting",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getOutputDirectory","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Scm",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getConnection","parameterTypes":[] }, {"name":"getDeveloperConnection","parameterTypes":[] }, {"name":"getTag","parameterTypes":[] }, {"name":"getUrl","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.DefaultArtifactDescriptorReader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.DefaultVersionRangeResolver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.DefaultVersionResolver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.SnapshotMetadataGeneratorFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.VersionsMetadataGeneratorFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.settings.Mirror",
+  "methods":[{"name":"isBlocked","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.surefire.junitplatform.JUnitPlatformProvider",
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.surefire.api.provider.ProviderParameters"] }]
+},
+{
+  "name":"org.apiguardian.api.API",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.eclipse.aether.connector.basic.BasicRepositoryConnectorFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultArtifactResolver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultChecksumPolicyProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultDeployer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultFileProcessor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultInstaller",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultLocalRepositoryProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultMetadataResolver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultOfflineController",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRemoteRepositoryManager",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRepositoryConnectorProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRepositoryLayoutProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRepositorySystem",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultSyncContextFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultTransporterProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultUpdateCheckManager",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultUpdatePolicyAnalyzer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManagerFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.Maven2RepositoryLayoutFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.SimpleLocalRepositoryManagerFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.transport.wagon.WagonTransporterFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.internal.CoreMessageLogger_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.hibernate.internal.CoreMessageLogger_$logger_en"
+},
+{
+  "name":"org.hibernate.internal.CoreMessageLogger_$logger_en_US"
+},
+{
+  "name":"org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.hibernate.internal.EntityManagerMessageLogger_$logger_en"
+},
+{
+  "name":"org.hibernate.internal.EntityManagerMessageLogger_$logger_en_US"
+},
+{
+  "name":"org.jboss.logmanager.CopyOnWriteMap",
+  "fields":[{"name":"map"}]
+},
+{
+  "name":"org.jboss.logmanager.ExtHandler",
+  "fields":[{"name":"handlers"}]
+},
+{
+  "name":"org.jboss.logmanager.LogManager"
+},
+{
+  "name":"org.jboss.logmanager.Logger$AttachmentKey"
+},
+{
+  "name":"org.jboss.resteasy.microprofile.config.FilterConfigSourceImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.microprofile.config.ServletConfigSourceImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.microprofile.config.ServletContextConfigSourceImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.interceptors.CacheControlFeature"
+},
+{
+  "name":"org.jboss.resteasy.plugins.interceptors.ClientContentEncodingAnnotationFeature"
+},
+{
+  "name":"org.jboss.resteasy.plugins.interceptors.MessageSanitizerContainerResponseFilter"
+},
+{
+  "name":"org.jboss.resteasy.plugins.interceptors.ServerContentEncodingAnnotationFeature"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.ByteArrayProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.CompletionStageProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DataSourceProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DefaultBooleanWriter"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DefaultNumberWriter"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DefaultTextPlain"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DocumentProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.FileProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.FileRangeWriter"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.FormUrlEncodedProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.IIOImageProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.InputStreamProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.JaxrsFormProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.MultiValuedParamConverterProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.ReactiveStreamProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.ReaderProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.SourceProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.StreamingOutputProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.StringTextStar"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.jackson.PatchMethodFilter"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.jackson.UnrecognizedPropertyExceptionHandler"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.sse.SseEventProvider"
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.sse.SseEventSinkInterceptor"
+},
+{
+  "name":"org.jboss.threads.ContextHandler",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor",
+  "fields":[{"name":"activeCount"}, {"name":"peakQueueSize"}, {"name":"peakThreadCount"}, {"name":"queueSize"}, {"name":"terminationWaiters"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor$1"
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor$PoolThreadNode",
+  "fields":[{"name":"parked"}, {"name":"task"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor$QNode",
+  "fields":[{"name":"next"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase1",
+  "fields":[{"name":"tail"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase3",
+  "fields":[{"name":"head"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase5",
+  "fields":[{"name":"threadStatus"}]
+},
+{
+  "name":"org.jboss.threads.Messages_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.jboss.threads.Messages_$logger_en"
+},
+{
+  "name":"org.jboss.threads.Messages_$logger_en_US"
+},
+{
+  "name":"org.junit.jupiter.api.Tag",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.api.Test",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.api.Timeout",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.api.extension.ExtendWith",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.engine.extension.TimeoutExtension$ExecutorResource",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.junit.platform.commons.annotation.Testable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.testcontainers.DockerClientFactory",
+  "methods":[{"name":"instance","parameterTypes":[] }, {"name":"isDockerAvailable","parameterTypes":[] }]
+},
+{
+  "name":"org.wildfly.common.lock.SpinLock",
+  "fields":[{"name":"owner"}]
+},
+{
+  "name":"sun.misc.SharedSecrets"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }]
+},
+{
+  "name":"sun.misc.VM"
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

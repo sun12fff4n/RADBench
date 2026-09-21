@@ -1,0 +1,61 @@
+{
+  "count": 11,
+  "g_static": [
+    "com.fasterxml.jackson.core:jackson-core:2.11.4",
+    "com.github.ben-manes.caffeine:caffeine:2.9.3",
+    "com.zaxxer:HikariCP:3.4.5",
+    "dnsjava:dnsjava:3.5.0",
+    "io.micrometer:micrometer-core:1.1.0",
+    "io.micrometer:micrometer-registry-prometheus:1.1.19",
+    "io.vertx:vertx-config:3.9.13",
+    "io.vertx:vertx-core:3.9.13",
+    "io.vertx:vertx-micrometer-metrics:3.9.13",
+    "io.vertx:vertx-web:3.9.13",
+    "org.slf4j:slf4j-api:1.7.36"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "root": {
+      "g_static": [
+        "com.fasterxml.jackson.core:jackson-core:2.11.4",
+        "com.github.ben-manes.caffeine:caffeine:2.9.3",
+        "com.zaxxer:HikariCP:3.4.5",
+        "dnsjava:dnsjava:3.5.0",
+        "io.micrometer:micrometer-core:1.1.0",
+        "io.micrometer:micrometer-registry-prometheus:1.1.19",
+        "io.vertx:vertx-config:3.9.13",
+        "io.vertx:vertx-core:3.9.13",
+        "io.vertx:vertx-micrometer-metrics:3.9.13",
+        "io.vertx:vertx-web:3.9.13",
+        "org.slf4j:slf4j-api:1.7.36"
+      ],
+      "ignoredTestScope": [
+        "org.testcontainers:testcontainers:1.16.3",
+        "org.testng:testng:6.14.3"
+      ],
+      "ignoredUnusedDeclared": [
+        "io.vertx:vertx-web-client:3.9.13",
+        "org.slf4j:slf4j-jdk14:1.7.36"
+      ],
+      "usedDeclared": [
+        "com.github.ben-manes.caffeine:caffeine:2.9.3",
+        "com.zaxxer:HikariCP:3.4.5",
+        "dnsjava:dnsjava:3.5.0",
+        "io.micrometer:micrometer-registry-prometheus:1.1.19",
+        "io.vertx:vertx-config:3.9.13",
+        "io.vertx:vertx-core:3.9.13",
+        "io.vertx:vertx-micrometer-metrics:3.9.13",
+        "io.vertx:vertx-web:3.9.13",
+        "org.slf4j:slf4j-api:1.7.36"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-core:2.11.4",
+        "io.micrometer:micrometer-core:1.1.0"
+      ]
+    }
+  },
+  "project_id": "clickhouse-clickhouse-jdbc-bridge"
+}

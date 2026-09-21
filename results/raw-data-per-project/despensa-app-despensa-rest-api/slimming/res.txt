@@ -1,0 +1,102 @@
+Project info>>>>/private/tmp/analysis-runs/despensa-app-despensa-rest-api
+Project Name>>>>dev.nmarulo:despensa-rest-api:0.0.1
+OriginalSize>>>>75737KB
+BloatedSize>>>>27KB
+All Dependencies>>>>125
+Used Dependencies>>>>122
+Used Self Direct Dependency>>>>17
+Used Self Indirect Dependency>>>>105
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>3
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>3
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>3
+realBloated>>>>3
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>13513
+buildClassExtendGraphTime>>>>424
+buildCallGraphTime>>>>1578138
+levelTime>>>>64
+stringTime>>>>4
+licenseCheckTime>>>>8826
+bugCheckTime>>>>230
+maintenanceTimeCheckTime>>>>1124
+checkTime>>>>1605934
+repairTime>>>>23806
+mvnTestTime>>>>10147
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>38
+TomcatAPI>>>>0
+.class>>>>18822
+forName>>>>66
+loadClass>>>>58
+getClass>>>>1358
+reflectEdges>>>>20078
+unReflectEdges>>>>36
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.beans.factory.config.ConstructorArgumentValues: org.springframework.beans.factory.config.ConstructorArgumentValues$ValueHolder getArgumentValue(int,java.lang.Class)>
+springReflectAPI>>>><org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor: java.lang.Object lookup(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.jndi.JndiTemplate: java.lang.Object lookup(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.core.convert.TypeDescriptor: org.springframework.core.convert.TypeDescriptor valueOf(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.BeanDefinitionBuilder: org.springframework.beans.factory.support.BeanDefinitionBuilder addPropertyValue(java.lang.String,java.lang.Object)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object getDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.http.codec.CodecConfigurerFactory: org.springframework.http.codec.CodecConfigurer create(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.util.List getDefaultStrategies(org.springframework.context.ApplicationContext,java.lang.Class)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setExceptionOverrideClassName(java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$DispatcherServletRequestMatcher: boolean matches(jakarta.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><org.springframework.security.authentication.DefaultAuthenticationEventPublisher: void setAdditionalExceptionMappings(java.util.Properties)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: boolean safeIsAssignableFrom(java.lang.Object,java.lang.String)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>
+unSolvedReflect>>>><jakarta.el.ImportHandler: java.lang.Class findClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl: java.lang.Object loadSettingInstance(java.lang.String,java.lang.Object,java.lang.Class)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: java.lang.Class attemptFromContextLoader(java.lang.String)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.springdoc.core.service.OpenAPIService: io.swagger.v3.oas.annotations.Webhooks[] getWebhooks()>
+unSolvedReflect>>>><org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry: boolean isDispatcherServlet(jakarta.servlet.ServletRegistration)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class findFirstByJaxbIndex(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.flywaydb.core.internal.util.ClassUtils: java.lang.Class loadClass(java.lang.Class,java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class[] getClassesFromContextPath(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.springframework.web.util.UrlPathHelper: boolean shouldRemoveTrailingServletPathSlash(jakarta.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: java.lang.Object createInstance(java.lang.String,java.lang.Class,java.lang.Object[])>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><org.springframework.security.web.authentication.preauth.websphere.DefaultWASUsernameAndGroupsExtractor: java.lang.reflect.Method getMethod(java.lang.String,java.lang.String,java.lang.String[])>
+unSolvedReflect>>>><org.springframework.util.ClassUtils: boolean isLoadable(java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><io.swagger.v3.core.jackson.ModelResolver: void setConfiguration(io.swagger.v3.core.util.Configuration)>
+unSolvedReflect>>>><org.flywaydb.core.internal.util.ClassUtils: boolean isImplementationPresent(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor: java.lang.invoke.MethodHandle createMethodHandle(java.lang.String,java.lang.String,java.lang.Class[])>
+unSolvedReflect>>>><org.springframework.data.config.TypeFilterParser$FilterType$5: org.springframework.core.type.filter.TypeFilter getFilter(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor: byte[] getMirrorClassBytes(java.lang.String,java.lang.String,boolean)>

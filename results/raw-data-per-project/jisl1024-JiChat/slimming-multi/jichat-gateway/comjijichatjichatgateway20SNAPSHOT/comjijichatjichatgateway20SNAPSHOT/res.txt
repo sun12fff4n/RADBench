@@ -1,0 +1,87 @@
+Project info>>>>/private/tmp/analysis-runs/jisl1024-JiChat/jichat-gateway
+Project Name>>>>com.ji.jichat:jichat-gateway:2.0-SNAPSHOT
+OriginalSize>>>>58302KB
+BloatedSize>>>>381KB
+All Dependencies>>>>117
+Used Dependencies>>>>111
+Used Self Direct Dependency>>>>4
+Used Self Indirect Dependency>>>>107
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>6
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>6
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>7
+realBloated>>>>6
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>1
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+unDeleteSelfIndirectDependency>>>>org.springframework.security:spring-security-rsa:1.1.3
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>15744
+buildClassExtendGraphTime>>>>395
+buildCallGraphTime>>>>1316101
+levelTime>>>>96
+stringTime>>>>2
+licenseCheckTime>>>>6799
+bugCheckTime>>>>105
+maintenanceTimeCheckTime>>>>1681
+checkTime>>>>1345020
+repairTime>>>>16151
+mvnTestTime>>>>5811
+====================BloatedType=========================
+java Reflect>>>>2
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>1
+====================Java Reflect=========================
+SpringAPI>>>>32
+TomcatAPI>>>>0
+.class>>>>14207
+forName>>>>115
+loadClass>>>>55
+getClass>>>>1210
+reflectEdges>>>>15334
+unReflectEdges>>>>25
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object getDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.http.codec.CodecConfigurerFactory: org.springframework.http.codec.CodecConfigurer create(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.util.List getDefaultStrategies(org.springframework.context.ApplicationContext,java.lang.Class)>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><com.alibaba.nacos.shaded.com.google.protobuf.Descriptors$FileDescriptor: com.alibaba.nacos.shaded.com.google.protobuf.Descriptors$FileDescriptor[] findDescriptors(java.lang.Class,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><com.alibaba.fastjson2.reader.ObjectReaderImplObject: java.lang.Object readObject(com.alibaba.fastjson2.JSONReader,java.lang.reflect.Type,java.lang.Object,long)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>
+unSolvedReflect>>>><com.alibaba.nacos.shaded.com.google.protobuf.GeneratedMessage$4: com.alibaba.nacos.shaded.com.google.protobuf.Descriptors$FieldDescriptor loadDescriptor()>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.el.ImportHandler: java.lang.Class findClass(java.lang.String,boolean)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class[] getClassesFromContextPath(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.alibaba.nacos.shaded.com.google.protobuf.SchemaUtil: java.lang.Object getMapDefaultEntry(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.springframework.web.util.UrlPathHelper: boolean shouldRemoveTrailingServletPathSlash(jakarta.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><com.alibaba.fastjson2.JSONReaderJSONB: com.alibaba.fastjson2.reader.ObjectReader getObjectReaderContext(com.alibaba.fastjson2.reader.ObjectReader,java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class findFirstByJaxbIndex(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.springframework.util.ClassUtils: boolean isLoadable(java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.http.impl.client.AbstractHttpClient: org.apache.http.conn.ClientConnectionManager createClientConnectionManager()>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>

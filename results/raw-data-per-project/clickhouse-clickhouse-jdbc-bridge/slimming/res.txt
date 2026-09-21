@@ -1,0 +1,65 @@
+Top Project info>>>>/private/tmp/analysis-runs/clickhouse-clickhouse-jdbc-bridge
+Project info>>>>/private/tmp/analysis-runs/clickhouse-clickhouse-jdbc-bridge
+Project Name>>>>com.clickhouse:clickhouse-jdbc-bridge:2.1.0-SNAPSHOT
+OriginalSize>>>>28102KB
+BloatedSize>>>>232KB
+All Dependencies>>>>49
+Used Dependencies>>>>47
+Used Self Direct Dependency>>>>13
+Used Self Indirect Dependency>>>>34
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>2
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>2
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>2
+realBloated>>>>2
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>13640
+buildClassExtendGraphTime>>>>34
+buildCallGraphTime>>>>38829
+levelTime>>>>16
+stringTime>>>>9
+licenseCheckTime>>>>3264
+bugCheckTime>>>>223
+maintenanceTimeCheckTime>>>>735
+checkTime>>>>58404
+repairTime>>>>13696
+mvnTestTime>>>>5079
+====================BloatedType=========================
+java Reflect>>>>0
+outdated>>>>2
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>1695
+forName>>>>15
+loadClass>>>>13
+getClass>>>>272
+reflectEdges>>>>1955
+unReflectEdges>>>>16
+unSolvedReflect>>>><com.github.benmanes.caffeine.cache.LocalCacheFactory: com.github.benmanes.caffeine.cache.BoundedLocalCache newBoundedLocalCache(com.github.benmanes.caffeine.cache.Caffeine,com.github.benmanes.caffeine.cache.CacheLoader,boolean)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setExceptionOverrideClassName(java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><com.clickhouse.jdbcbridge.core.Utils: com.clickhouse.jdbcbridge.core.Extension loadExtension(java.util.Collection,java.lang.String)>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: boolean safeIsAssignableFrom(java.lang.Object,java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><io.vertx.core.logging.LoggerFactory: void initialise()>
+unSolvedReflect>>>><com.github.benmanes.caffeine.cache.NodeFactory: com.github.benmanes.caffeine.cache.NodeFactory newFactory(com.github.benmanes.caffeine.cache.Caffeine,boolean)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: java.lang.Object createInstance(java.lang.String,java.lang.Class,java.lang.Object[])>
+unSolvedReflect>>>><io.vertx.core.impl.VertxImpl: io.vertx.core.spi.cluster.ClusterManager getClusterManager(io.vertx.core.VertxOptions)>
+unSolvedReflect>>>><com.clickhouse.jdbcbridge.core.Extension: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><io.vertx.core.impl.JavaVerticleFactory: io.vertx.core.Verticle createVerticle(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: java.lang.Class attemptFromContextLoader(java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>

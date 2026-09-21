@@ -1,0 +1,160 @@
+org.kairosdb:kairosdb:jar:1.4.0-SNAPSHOT
++- com.google.guava:guava:jar:32.1.3-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- org.checkerframework:checker-qual:jar:3.37.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.21.1:compile
+|  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
++- com.github.rholder:guava-retrying:jar:2.0.0:compile
++- org.apache.commons:commons-lang3:jar:3.19.0:compile
++- org.apache.commons:commons-collections4:jar:4.1:compile
++- org.json:json:jar:20250517:compile
++- com.google.code.gson:gson:jar:2.8.9:compile
++- junit:junit:jar:4.13.2:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
++- org.mockito:mockito-core:jar:2.23.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.9.0:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.9.0:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.assertj:assertj-core:jar:3.14.0:test
++- org.assertj:assertj-guava:jar:3.3.0:test
++- io.netty:netty-all:jar:4.1.128.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-dns:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-haproxy:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-http:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-http2:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-memcache:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-mqtt:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-redis:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-smtp:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-socks:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-stomp:jar:4.1.128.Final:compile
+|  +- io.netty:netty-codec-xml:jar:4.1.128.Final:compile
+|  +- io.netty:netty-common:jar:4.1.128.Final:compile
+|  +- io.netty:netty-handler:jar:4.1.128.Final:compile
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.128.Final:compile
+|  +- io.netty:netty-handler-proxy:jar:4.1.128.Final:compile
+|  +- io.netty:netty-handler-ssl-ocsp:jar:4.1.128.Final:compile
+|  +- io.netty:netty-resolver:jar:4.1.128.Final:compile
+|  +- io.netty:netty-resolver-dns:jar:4.1.128.Final:compile
+|  +- io.netty:netty-transport:jar:4.1.128.Final:compile
+|  +- io.netty:netty-transport-rxtx:jar:4.1.128.Final:compile
+|  +- io.netty:netty-transport-sctp:jar:4.1.128.Final:compile
+|  +- io.netty:netty-transport-udt:jar:4.1.128.Final:compile
+|  +- io.netty:netty-transport-classes-epoll:jar:4.1.128.Final:compile
+|  +- io.netty:netty-transport-classes-kqueue:jar:4.1.128.Final:compile
+|  +- io.netty:netty-resolver-dns-classes-macos:jar:4.1.128.Final:compile
+|  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.128.Final:runtime
+|  +- io.netty:netty-transport-native-epoll:jar:linux-aarch_64:4.1.128.Final:runtime
+|  +- io.netty:netty-transport-native-epoll:jar:linux-riscv64:4.1.128.Final:runtime
+|  +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.128.Final:runtime
+|  +- io.netty:netty-transport-native-kqueue:jar:osx-aarch_64:4.1.128.Final:runtime
+|  +- io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.128.Final:runtime
+|  \- io.netty:netty-resolver-dns-native-macos:jar:osx-aarch_64:4.1.128.Final:runtime
++- com.google.inject:guice:jar:7.0.0:compile
+|  +- jakarta.inject:jakarta.inject-api:jar:2.0.1:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
++- com.google.inject.extensions:guice-assistedinject:jar:7.0.0:compile
++- com.google.inject.extensions:guice-servlet:jar:7.0.0:compile
++- com.h2database:h2:jar:2.4.240:compile
++- org.kairosdb:bigqueue:jar:1.0.4:compile
++- io.grpc:grpc-netty-shaded:jar:1.76.0:compile
+|  +- io.grpc:grpc-util:jar:1.76.0:runtime
+|  +- io.grpc:grpc-core:jar:1.76.0:compile
+|  |  +- com.google.android:annotations:jar:4.1.1.4:runtime
+|  |  \- io.grpc:grpc-context:jar:1.76.0:runtime
+|  +- io.perfmark:perfmark-api:jar:0.27.0:runtime
+|  +- io.grpc:grpc-api:jar:1.76.0:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.24:compile
++- io.grpc:grpc-protobuf:jar:1.76.0:compile
+|  +- com.google.protobuf:protobuf-java:jar:3.25.8:compile
+|  +- com.google.api.grpc:proto-google-common-protos:jar:2.59.2:compile
+|  \- io.grpc:grpc-protobuf-lite:jar:1.76.0:runtime
++- io.grpc:grpc-stub:jar:1.76.0:compile
++- io.opentelemetry.proto:opentelemetry-proto:jar:1.8.0-alpha:compile
++- com.typesafe:config:jar:1.4.0:compile
++- org.xerial.snappy:snappy-java:jar:1.1.10.8:compile
++- org.projectlombok:lombok:jar:1.18.22:compile
++- com.mchange:c3p0:jar:0.9.5.5:compile
+|  \- com.mchange:mchange-commons-java:jar:0.2.19:compile
++- org.apache.commons:commons-math3:jar:3.2:compile
++- commons-io:commons-io:jar:2.21.0:compile
++- com.beust:jcommander:jar:1.75:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.16:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- commons-codec:commons-codec:jar:1.19.0:compile
++- joda-time:joda-time:jar:2.10.6:compile
++- ch.qos.logback:logback-core:jar:1.5.25:compile
++- ch.qos.logback:logback-classic:jar:1.5.25:compile
++- org.slf4j:slf4j-api:jar:2.0.17:compile
++- org.slf4j:jul-to-slf4j:jar:2.0.17:compile
++- org.agileclick.genorm:genormous:jar:1.7.0:compile
+|  \- org.dom4j:dom4j:jar:2.2.0:compile
++- org.antlr:stringtemplate:jar:3.2.1:compile
+|  \- antlr:antlr:jar:2.7.7:compile
++- org.apache.cassandra:cassandra-driver-core:jar:3.12.1:compile
+|  +- io.dropwizard.metrics:metrics-core:jar:3.2.2:compile
+|  +- com.github.jnr:jnr-ffi:jar:2.1.7:compile
+|  |  +- com.github.jnr:jffi:jar:1.2.16:compile
+|  |  +- com.github.jnr:jffi:jar:native:1.2.16:runtime
+|  |  +- org.ow2.asm:asm:jar:5.0.3:compile
+|  |  +- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|  |  +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|  |  +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  |  +- org.ow2.asm:asm-util:jar:5.0.3:compile
+|  |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+|  \- com.github.jnr:jnr-posix:jar:3.0.44:compile
+|     \- com.github.jnr:jnr-constants:jar:0.9.9:compile
++- at.yawk.lz4:lz4-java:jar:1.10.2:compile
++- org.eclipse.jetty:jetty-server:jar:12.0.17:compile
+|  +- org.eclipse.jetty:jetty-http:jar:12.0.17:compile
+|  \- org.eclipse.jetty:jetty-io:jar:12.0.17:compile
++- org.eclipse.jetty.ee10:jetty-ee10-servlet:jar:12.0.17:compile
+|  +- org.eclipse.jetty:jetty-security:jar:12.0.17:compile
+|  \- org.eclipse.jetty:jetty-session:jar:12.0.17:compile
++- org.eclipse.jetty.ee10:jetty-ee10-servlets:jar:12.0.17:compile
+|  \- org.eclipse.jetty:jetty-util:jar:12.0.17:compile
++- org.apache.mina:mina-core:jar:2.2.4:compile
++- org.jboss.resteasy:resteasy-servlet-initializer:jar:6.2.10.Final:compile
+|  \- org.jboss.logging:jboss-logging:jar:3.5.3.Final:compile
++- org.jboss.resteasy:resteasy-core:jar:6.2.10.Final:compile
+|  +- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+|  +- org.jboss:jandex:jar:2.4.5.Final:compile
+|  +- org.jboss.resteasy:resteasy-core-spi:jar:6.2.10.Final:compile
+|  +- org.reactivestreams:reactive-streams:jar:1.0.4:compile
+|  +- org.eclipse.angus:angus-activation:jar:1.0.0:compile
+|  \- com.ibm.async:asyncutil:jar:0.1.0:compile
++- org.jboss.resteasy:resteasy-jackson2-provider:jar:6.2.10.Final:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile
+|  +- com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:jar:2.15.4:compile
+|  +- com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:jar:2.15.4:compile
+|  \- com.github.java-json-tools:json-patch:jar:1.13:compile
+|     +- com.github.java-json-tools:msg-simple:jar:1.2:compile
+|     |  \- com.github.java-json-tools:btf:jar:1.3:compile
+|     \- com.github.java-json-tools:jackson-coreutils:jar:2.0:compile
++- jakarta.el:jakarta.el-api:jar:5.0.1:compile
++- org.glassfish:jakarta.el:jar:5.0.0-M1:compile
++- jakarta.ws.rs:jakarta.ws.rs-api:jar:3.1.0:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.20.1:compile
++- com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:jar:2.20.1:compile
++- jakarta.validation:jakarta.validation-api:jar:3.1.0:compile
++- org.hibernate.validator:hibernate-validator:jar:8.0.3.Final:compile
+|  \- com.fasterxml:classmate:jar:1.5.1:compile
++- com.google.code.findbugs:jsr305:jar:1.3.9:compile
++- org.quartz-scheduler:quartz:jar:2.3.2:compile
+|  \- com.zaxxer:HikariCP-java7:jar:2.4.13:compile
++- io.dropwizard.metrics:metrics-healthchecks:jar:3.2.6:compile
++- io.dropwizard.metrics:metrics-jvm:jar:3.2.6:compile
++- org.kairosdb:metrics4j:jar:1.0.4:compile
++- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile
++- org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:compile
+|  \- org.glassfish.jaxb:jaxb-core:jar:4.0.5:compile
+|     +- org.glassfish.jaxb:txw2:jar:4.0.5:compile
+|     \- com.sun.istack:istack-commons-runtime:jar:4.1.2:compile
++- jakarta.activation:jakarta.activation-api:jar:2.1.3:compile
+\- jakarta.servlet:jakarta.servlet-api:jar:6.1.0:compile

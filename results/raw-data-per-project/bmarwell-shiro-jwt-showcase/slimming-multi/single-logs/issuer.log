@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.issuer >-----------
+[INFO] Building Apache Shiro + mpJWT :: issuer server 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ shiro.jwt.jaxrs.issuer ---
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[INFO] ALL DEPENDENCY[25]:
+[INFO]  USED DEPENDENCY[25]:
+[INFO]   USED DIRECT DEPENDENCY[3]:
+[INFO] 		io.jsonwebtoken:jjwt-api:0.12.7:compile [137 KB]
+[INFO] 		io.jsonwebtoken:jjwt-impl:0.12.7:runtime [470 KB]
+[INFO] 		io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore:1.0.0-SNAPSHOT:compile [6 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[0]:
+[INFO]   USED INHERIT DIRECT DEPENDENCY[10]:
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.13.4:test [333 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.13.4:test [234 KB]
+[INFO] 		org.assertj:assertj-core:3.27.4:test [1 MB]
+[INFO] 		jakarta.servlet:jakarta.servlet-api:4.0.4:provided [81 KB]
+[INFO] 		jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2:provided [106 KB]
+[INFO] 		org.eclipse.microprofile.config:microprofile-config-api:2.0.1:provided [18 KB]
+[INFO] 		jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:provided [137 KB]
+[INFO] 		org.slf4j:jcl-over-slf4j:2.0.17:runtime [17 KB]
+[INFO] 		org.slf4j:slf4j-jdk14:2.0.17:runtime [10 KB]
+[INFO] 		jakarta.json.bind:jakarta.json.bind-api:1.0.2:provided [34 KB]
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[12]:
+[INFO] 		jakarta.annotation:jakarta.annotation-api:1.3.5:provided [24 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		jakarta.el:jakarta.el-api:3.0.3:provided [77 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.13.4:test [262 KB]
+[INFO] 		jakarta.inject:jakarta.inject-api:1.0:provided [4 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.13.4:test [154 KB]
+[INFO] 		org.opentest4j:opentest4j:1.3.0:test [13 KB]
+[INFO] 		jakarta.transaction:jakarta.transaction-api:1.3.2:provided [27 KB]
+[INFO] 		jakarta.interceptor:jakarta.interceptor-api:1.2.5:provided [24 KB]
+[INFO] 		jakarta.ejb:jakarta.ejb-api:3.2.6:provided [62 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.15.11:test [8 MB]
+[INFO] 		org.slf4j:slf4j-api:2.0.17:runtime [68 KB]
+[INFO]  UNUSED DEPENDENCY[0]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] No Bloated
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.041 s
+[INFO] Finished at: 2026-05-25T09:13:54+02:00
+[INFO] ------------------------------------------------------------------------

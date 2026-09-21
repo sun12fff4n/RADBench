@@ -1,0 +1,12 @@
+== reactor install (skip tests + heavyweight lifecycle plugins) ==
+  leaf module dirs: 5
+
+==== ./api-test (-> api-test) ====
+
+==== ./certify-core (-> certify-core) ====
+
+==== ./certify-integration-api (-> certify-integration-api) ====
+
+==== ./certify-service (-> certify-service) ====
+
+==== ./certify-service-with-plugins (-> certify-service-with-plugins) ====

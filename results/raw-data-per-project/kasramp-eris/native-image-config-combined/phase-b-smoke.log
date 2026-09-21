@@ -1,0 +1,56 @@
+ Volume eris_m2-combined-kasramp-eris Creating 
+ Volume eris_m2-combined-kasramp-eris Created 
+ Container kasramp-eris-wiremock Running 
+ Container kasramp-eris-app Creating 
+ Container kasramp-eris-app Created 
+ Container kasramp-eris-app Starting 
+ Container kasramp-eris-app Started 
+ Container kasramp-eris-wiremock Waiting 
+ Container kasramp-eris-app Waiting 
+ Container kasramp-eris-wiremock Healthy 
+ Container kasramp-eris-app Healthy 
+==> Wait for boot
+    health=200
+
+==> Public surface (200)
+  ok   GET /actuator/health (permitAll)                        -> 200
+  FAIL GET /v3/api-docs (springdoc)                            -> got 000, want 200
+  ok   GET /swagger-ui/index.html                              -> 200
+
+==> Redirect endpoints (302)
+  ok   GET /apidocs -> swagger-ui                              -> 302
+  ok   GET /api-docs (dash alias, same handler)                -> 302
+  ok   GET / (redirect to external doc)                        -> 302
+
+==> Weather happy & error paths (CurrentWeatherAPIController)
+  ok   GET /v1/weather/current (no params)                     -> 400
+  ok   GET /v1/weather/current (non-numeric)                   -> 400
+  ok   GET /v1/weather/current (valid numeric)                 -> 200
+  ok   GET /current alias                                      -> 200
+  ok   GET /v1/weather/current?fahrenheit=true                 -> 200
+  ok   GET /v1/weather/currentbyip                             -> 200
+
+==> Response body assertions — CurrentWeatherCondition DTO serialization
+  ok   weather response has apiVersion                         -> 200
+  ok   weather response has errors field                       -> 200
+  ok   error body contains error message                       -> 200
+
+==> HTTP method errors
+  FAIL POST /v1/weather/current (wrong method)                 -> got 403, want 405
+
+==> Cacheable AOP proxy — repeat request should hit cache
+  ok   GET /v1/weather/current (cache warm-up)                 -> 200
+  ok   GET /v1/weather/current (cache hit)                     -> 200
+
+==> GlobalControllerExceptionHandler catch-all (501)
+  ok   GET /does-not-exist -> 501                              -> 501
+
+==> Actuator security (HttpBasic, ROLE_ADMIN)
+  ok   GET /actuator/info (wrong creds)                        -> 401
+  ok   GET /actuator/info (admin)                              -> 200
+  ok   GET /actuator/env (admin)                               -> 200
+  ok   GET /actuator/mappings (admin)                          -> 200
+
+==> Summary: 21 passed, 2 failed
+ Container kasramp-eris-app Stopping 
+ Container kasramp-eris-app Stopped 

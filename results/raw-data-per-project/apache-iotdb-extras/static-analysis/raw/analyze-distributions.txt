@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] ------------< org.apache.iotdb:iotdb-extras-distributions >-------------
+[INFO] Building IoTDB Extras: Distributions 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ iotdb-extras-distributions >>>
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ iotdb-extras-distributions ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ iotdb-extras-distributions ---
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ iotdb-extras-distributions ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ iotdb-extras-distributions ---
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ iotdb-extras-distributions <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ iotdb-extras-distributions ---
+[INFO] Skipping pom project
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.674 s
+[INFO] Finished at: 2026-06-16T08:53:35Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 10 goals, 10 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

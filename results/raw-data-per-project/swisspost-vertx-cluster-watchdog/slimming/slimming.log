@@ -1,0 +1,123 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.swisspush:cluster-watchdog >-------------------
+[INFO] Building cluster-watchdog 3.1.7-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ cluster-watchdog ---
+[main] WARN io.netty.resolver.dns.DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - started with config: 
+{
+  "intervalInSec" : 0,
+  "clusterMemberCount" : 2
+}
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog interval in sec is: 0
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog used resultQueueLength: 100
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog used http port: 7878
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog created the ClusterWatchdogHttpHandler
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog started cluster check verticle: e2568dcb-7047-4ac7-b56f-9b625d789226
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.TwoClusterMembersOneVerticleInstancesTests - success of deployment of  module org.swisspush.vertx.cluster.ClusterWatchdog: 872ecff2-7187-49bb-904e-3c9261865ce6
+[vert.x-eventloop-thread-1] ERROR org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog known cluster members: 2 responses: 1
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.TwoClusterMembersOneVerticleInstancesTests - response status message: INCONSISTENT
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - started with config: 
+{
+  "intervalInSec" : 0,
+  "clusterMemberCount" : 2
+}
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog interval in sec is: 0
+[vert.x-eventloop-thread-2] INFO org.swisspush.vertx.cluster.ClusterWatchdog - started with config: 
+{
+  "intervalInSec" : 0,
+  "clusterMemberCount" : 2
+}
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog used resultQueueLength: 100
+[vert.x-eventloop-thread-2] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog interval in sec is: 0
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog used http port: 7878
+[vert.x-eventloop-thread-2] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog used resultQueueLength: 100
+[vert.x-eventloop-thread-2] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog used http port: 7878
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog created the ClusterWatchdogHttpHandler
+[vert.x-eventloop-thread-2] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog created the ClusterWatchdogHttpHandler
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog started cluster check verticle: 4bdc44e8-51bc-4928-a2d8-7ebfb763a4e4
+[vert.x-eventloop-thread-2] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog started cluster check verticle: 32c7fff6-d617-440f-ab88-ffc20d431f20
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.TwoClusterMembersTwoVerticleInstancesTests - success of deployment of  module org.swisspush.vertx.cluster.ClusterWatchdog: d032dd9e-3094-4a56-a32d-ad3712b21c91
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.TwoClusterMembersTwoVerticleInstancesTests - got message in test: {"responseAddress":"responseAddress-4bdc44e8-51bc-4928-a2d8-7ebfb763a4e4","timestamp":"1779691313124"}
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.TwoClusterMembersTwoVerticleInstancesTests - got message in test: {"responseAddress":"responseAddress-32c7fff6-d617-440f-ab88-ffc20d431f20","timestamp":"1779691313123"}
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.TwoClusterMembersTwoVerticleInstancesTests - cluster watchdog stats:
+{"results":[{"status":"CONSISTENT","time":"2026-05-25 08:41:55","broadcastTimestamp":"1779691313123","verticleId":"32c7fff6-d617-440f-ab88-ffc20d431f20","clusterMemberCount":2,"responders":["4bdc44e8-51bc-4928-a2d8-7ebfb763a4e4","32c7fff6-d617-440f-ab88-ffc20d431f20"]},{"status":"CONSISTENT","time":"2026-05-25 08:41:55","broadcastTimestamp":"1779691313124","verticleId":"4bdc44e8-51bc-4928-a2d8-7ebfb763a4e4","clusterMemberCount":2,"responders":["4bdc44e8-51bc-4928-a2d8-7ebfb763a4e4","32c7fff6-d617-440f-ab88-ffc20d431f20"]}]}
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.TwoClusterMembersTwoVerticleInstancesTests - response status message: CONSISTENT
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - started with config: 
+{
+  "intervalInSec" : 0,
+  "clusterMemberCount" : 0
+}
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog interval in sec is: 0
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog used resultQueueLength: 100
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog used http port: 7878
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog created the ClusterWatchdogHttpHandler
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog started cluster check verticle: d3d57778-ad4b-4223-b8af-e58d65869d3c
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.NoClusterMembersOneVerticleInstancesTests - success of deployment of module org.swisspush.vertx.cluster.ClusterWatchdog: e8d8b0a2-8fba-45de-8590-6c5a8b9c3bfd
+[vert.x-eventloop-thread-1] INFO org.swisspush.vertx.cluster.ClusterWatchdog - ClusterWatchdog no cluster members found, no watchdog will run
+[vert.x-eventloop-thread-0] INFO org.swisspush.vertx.cluster.NoClusterMembersOneVerticleInstancesTests - response status message: NO_RESULT
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[INFO] ALL DEPENDENCY[34]:
+[INFO]  USED DEPENDENCY[34]:
+[INFO]   USED DIRECT DEPENDENCY[11]:
+[INFO] 		org.slf4j:slf4j-api:2.0.10:compile [66 KB]
+[INFO] 		org.apache.commons:commons-collections4:4.4:compile [734 KB]
+[INFO] 		io.vertx:vertx-unit:4.5.23:test [95 KB]
+[INFO] 		junit:junit:4.13.2:test [375 KB]
+[INFO] 		commons-io:commons-io:2.15.1:compile [489 KB]
+[INFO] 		io.vertx:vertx-core:4.5.23:compile [1 MB]
+[INFO] 		io.vertx:vertx-web:4.5.23:compile [354 KB]
+[INFO] 		org.slf4j:slf4j-simple:2.0.10:compile [14 KB]
+[INFO] 		io.micrometer:micrometer-core:1.12.13:compile [864 KB]
+[INFO] 		commons-lang:commons-lang:2.6:compile [277 KB]
+[INFO] 		io.vertx:vertx-hazelcast:4.5.23:compile [43 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[23]:
+[INFO] 		io.vertx:vertx-auth-common:4.5.23:compile [130 KB]
+[INFO] 		org.hamcrest:hamcrest-core:1.3:test [43 KB]
+[INFO] 		io.netty:netty-common:4.1.130.Final:compile [707 KB]
+[INFO] 		io.netty:netty-codec:4.1.130.Final:compile [349 KB]
+[INFO] 		io.netty:netty-codec-http:4.1.130.Final:compile [666 KB]
+[INFO] 		io.netty:netty-codec-http2:4.1.130.Final:compile [487 KB]
+[INFO] 		io.netty:netty-resolver:4.1.130.Final:compile [37 KB]
+[INFO] 		io.micrometer:micrometer-commons:1.12.13:compile [46 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.16.1:compile [564 KB]
+[INFO] 		io.netty:netty-handler:4.1.130.Final:compile [567 KB]
+[INFO] 		io.vertx:vertx-web-common:4.5.23:compile [31 KB]
+[INFO] 		org.latencyutils:LatencyUtils:2.0.3:runtime [29 KB]
+[INFO] 		io.netty:netty-codec-dns:4.1.130.Final:compile [65 KB]
+[INFO] 		io.netty:netty-transport:4.1.130.Final:compile [509 KB]
+[INFO] 		io.netty:netty-codec-socks:4.1.130.Final:compile [118 KB]
+[INFO] 		org.hdrhistogram:HdrHistogram:2.1.12:runtime [169 KB]
+[INFO] 		io.vertx:vertx-bridge-common:4.5.23:compile [10 KB]
+[INFO] 		io.netty:netty-transport-native-unix-common:4.1.130.Final:compile [43 KB]
+[INFO] 		io.netty:netty-buffer:4.1.130.Final:compile [346 KB]
+[INFO] 		io.netty:netty-resolver-dns:4.1.130.Final:compile [183 KB]
+[INFO] 		io.micrometer:micrometer-observation:1.12.13:compile [70 KB]
+[INFO] 		io.netty:netty-handler-proxy:4.1.130.Final:compile [25 KB]
+[INFO] 		com.hazelcast:hazelcast:5.3.5:compile [15 MB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[0]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] No Bloated
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:34 min
+[INFO] Finished at: 2026-05-25T08:44:09+02:00
+[INFO] ------------------------------------------------------------------------

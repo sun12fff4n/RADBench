@@ -1,0 +1,89 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.danielagapov:spawn >-----------------------
+[INFO] Building spawn 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.1:analyze (default-cli) > test-compile @ spawn >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spawn ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] Copying 37 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ spawn ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spawn ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ spawn ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< dependency:3.6.1:analyze (default-cli) < test-compile @ spawn <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.1:analyze (default-cli) @ spawn ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    org.springframework:spring-context-support:jar:6.1.14:compile
+[WARNING]    org.junit.jupiter:junit-jupiter-api:jar:5.10.5:test
+[WARNING]    org.springframework.boot:spring-boot-test:jar:3.3.5:test
+[WARNING]    org.mockito:mockito-junit-jupiter:jar:5.11.0:test
+[WARNING]    org.mockito:mockito-core:jar:5.11.0:test
+[WARNING]    software.amazon.awssdk:sdk-core:jar:2.25.27:compile
+[WARNING]    com.google.auth:google-auth-library-oauth2-http:jar:1.27.0:compile
+[WARNING]    org.springframework:spring-context:jar:6.1.14:compile
+[WARNING]    org.springframework:spring-core:jar:6.1.14:compile
+[WARNING]    org.springframework:spring-webmvc:jar:6.1.14:compile
+[WARNING]    com.fasterxml.jackson.core:jackson-core:jar:2.17.2:compile
+[WARNING]    jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+[WARNING]    org.slf4j:slf4j-api:jar:2.0.16:compile
+[WARNING]    org.springframework.data:spring-data-commons:jar:3.3.5:compile
+[WARNING]    org.springframework.boot:spring-boot-test-autoconfigure:jar:3.3.5:test
+[WARNING]    org.springframework.boot:spring-boot:jar:3.3.5:compile
+[WARNING]    org.springframework.data:spring-data-jpa:jar:3.3.5:compile
+[WARNING]    com.google.http-client:google-http-client-gson:jar:1.44.1:compile
+[WARNING]    com.google.http-client:google-http-client:jar:1.45.0:compile
+[WARNING]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.17.2:compile
+[WARNING]    org.hibernate.orm:hibernate-core:jar:6.5.3.Final:compile
+[WARNING]    software.amazon.awssdk:auth:jar:2.25.27:compile
+[WARNING]    software.amazon.awssdk:aws-core:jar:2.25.27:compile
+[WARNING]    org.springframework:spring-tx:jar:6.1.14:compile
+[WARNING]    org.springframework:spring-orm:jar:6.1.14:compile
+[WARNING]    org.springframework.data:spring-data-redis:jar:3.3.5:compile
+[WARNING]    org.springframework:spring-web:jar:6.1.14:compile
+[WARNING]    com.fasterxml.jackson.core:jackson-annotations:jar:2.17.2:compile
+[WARNING]    org.springframework:spring-beans:jar:6.1.14:compile
+[WARNING]    org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.31:compile
+[WARNING]    com.google.api:api-common:jar:2.37.1:compile
+[WARNING]    com.google.code.gson:gson:jar:2.10.1:compile
+[WARNING]    org.springframework:spring-test:jar:6.1.14:test
+[WARNING]    com.fasterxml.jackson.core:jackson-databind:jar:2.17.2:compile
+[WARNING]    org.springframework.security:spring-security-crypto:jar:6.3.4:compile
+[WARNING]    org.eclipse.angus:jakarta.mail:jar:2.0.3:compile
+[WARNING]    jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile
+[WARNING]    org.springframework.security:spring-security-web:jar:6.3.4:compile
+[WARNING]    software.amazon.awssdk:regions:jar:2.25.27:compile
+[WARNING]    software.amazon.awssdk:utils:jar:2.25.27:compile
+[WARNING]    org.springframework.boot:spring-boot-autoconfigure:jar:3.3.5:compile
+[WARNING]    org.springframework.security:spring-security-core:jar:6.3.4:compile
+[WARNING]    org.springframework.security:spring-security-config:jar:6.3.4:compile
+[WARNING] Unused declared dependencies found:
+[WARNING]    org.springframework.boot:spring-boot-starter-mail:jar:3.3.5:compile
+[WARNING]    io.jsonwebtoken:jjwt-impl:jar:0.12.6:compile
+[WARNING]    io.jsonwebtoken:jjwt-jackson:jar:0.12.6:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.3.5:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.3.5:compile
+[WARNING]    com.twilio.sdk:twilio:jar:10.9.1:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-data-redis:jar:3.2.5:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-security:jar:3.3.5:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-web:jar:3.3.5:compile
+[WARNING]    org.apache.commons:commons-pool2:jar:2.12.0:compile
+[WARNING] Non-test scoped test only dependencies found:
+[WARNING]    org.springframework:spring-orm:jar:6.1.14:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.502 s
+[INFO] Finished at: 2026-06-16T08:19:35Z
+[INFO] ------------------------------------------------------------------------

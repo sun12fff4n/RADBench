@@ -1,0 +1,3083 @@
+{
+  "project_id": "ymanvieu-trading",
+  "slimming_total": 275,
+  "slimming_counts": {
+    "": 212,
+    "gray": 60,
+    "red": 3
+  },
+  "nia_total_classes": 1895,
+  "nia_mapped_classes": 1408,
+  "nia_proxy_recovered": 45,
+  "multi_module_aggregated": true,
+  "modules": [
+    "trading-common",
+    "trading-data-collect",
+    "trading-gatling",
+    "trading-test",
+    "trading-webapp"
+  ],
+  "buckets": {
+    "used+hit": 65,
+    "used+nohit": 147,
+    "bloated+hit": 0,
+    "bloated+nohit": 3,
+    "unloaded+hit": 11,
+    "unloaded+nohit": 49
+  },
+  "metrics": {
+    "tp": 3,
+    "fp": 0,
+    "tn": 76,
+    "fn": 196,
+    "precision": 1.0,
+    "recall": 0.0151,
+    "f1": 0.0297
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-autoconfigure:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 267,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.hibernate.orm:hibernate-core:6.3.1.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 103,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-context:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 79,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.data:spring-data-commons:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 67,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "fr.ymanvieu.trading:trading-common:5.0.0-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 63,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-web:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 63,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-webmvc:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 50,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-config:6.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 41,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-web:6.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 38,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-core:10.1.16",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 37,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.14.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 34,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-messaging:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 31,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-tx:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 28,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.data:spring-data-jpa:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 24,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 23,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-oauth2-client:6.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 17,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-jms:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 16,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:3.0.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 13,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.15.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 12,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-orm:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 12,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-jdbc:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 11,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-websocket:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 11,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.4.11",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 10,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.aspectj:aspectjweaver:1.9.20.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.hibernate.validator:hibernate-validator:8.0.1.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.zaxxer:HikariCP:5.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-messaging:6.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-oauth2-resource-server:6.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.15.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-aspects:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-core-client:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.15.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.google.guava:guava:32.1.3-jre",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "jakarta.inject:jakarta.inject-api:2.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "fr.ymanvieu.trading:trading-data-collect:5.0.0-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.retry:spring-retry:2.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.postgresql:postgresql:42.6.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.16",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.querydsl:querydsl-core:5.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.google.code.findbugs:jsr305:3.0.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "jakarta.transaction:jakarta.transaction-api:2.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-jakarta-client:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "jakarta.jms:jakarta.jms-api:3.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-jms-client:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "com.google.code.gson:gson:2.10.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.9",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.h2database:h2:2.2.224",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 2,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-crypto:6.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.flywaydb:flyway-core:9.22.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.woodstox:woodstox-core:6.5.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.slf4j:jul-to-slf4j:2.0.9",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-to-slf4j:2.21.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-api:2.21.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.5.3.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-jms-server:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-server:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "com.github.ben-manes.caffeine:caffeine:3.1.8",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-dbcp2:2.10.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-pool2:2.12.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-el:10.1.16",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-webapp"
+        ]
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "com.querydsl:querydsl-jpa:jakarta",
+        "fillColor": "",
+        "problem": [],
+        "scope": "5.0.0",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.mysema.commons:mysema-commons-lang:0.2.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "fr.ymanvieu.trading:trading-test:5.0.0-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.15.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.projectlombok:lombok:1.18.30",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-test:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.jayway.jsonpath:json-path:2.8.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "net.minidev:json-smart:2.5.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "net.minidev:accessors-smart:2.5.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.ow2.asm:asm:9.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.awaitility:awaitility:4.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-test:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.objenesis:objenesis:3.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy-agent:1.14.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test-autoconfigure:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.mockito:mockito-junit-jupiter:5.7.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.10.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.10.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.10.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.10.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.skyscreamer:jsonassert:1.5.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.vaadin.external.google:android-json:0.0.20131108.vaadin1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.xmlunit:xmlunit-core:2.9.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.google.guava:failureaccess:1.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.checkerframework:checker-qual:3.37.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.21.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.mapstruct:mapstruct-processor:1.6.0.Beta1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-security:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-observation:1.12.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.yaml:snakeyaml:2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-logging:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.4.11",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-data-jpa:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.6.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.antlr:antlr4-runtime:4.10.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:4.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-core:4.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.eclipse.angus:angus-activation:2.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:4.1.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:4.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.hibernate.common:hibernate-commons-annotations:6.0.6.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.smallrye:jandex:3.1.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-aop:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-jdbc:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-jcl:6.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-commons:1.12.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-artemis:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-selector:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-commons:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-configuration-processor:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport-classes-epoll:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "commons-collections:commons-collections:3.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport-native-kqueue:osx-x86_64",
+        "fillColor": "",
+        "problem": [],
+        "scope": "4.1.101.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport-classes-kqueue:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "commons-beanutils:commons-beanutils:1.9.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-journal:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-quorum-api:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "io.micrometer:micrometer-core:1.12.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-jdbc-store:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport-native-epoll:linux-x86_64",
+        "fillColor": "",
+        "problem": [],
+        "scope": "4.1.101.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-configuration2:2.9.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-text:1.10.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:artemis-service-extensions:2.31.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "org.apache.activemq:activemq-artemis-native:2.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-handler-proxy:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-codec-socks:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.jgroups:jgroups:5.3.0.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-devtools:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "fr.ymanvieu.trading:trading-gatling:5.0.0-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling.highcharts:gatling-charts-highcharts:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-app:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-jdbc-java:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-jdbc:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-charts:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.tdunning:t-digest:3.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-codec-mqtt:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-redis-java:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-redis:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang.modules:scala-collection-compat_2.13:2.11.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty.incubator:netty-incubator-transport-native-io_uring:linux-aarch_64",
+        "fillColor": "",
+        "problem": [],
+        "scope": "0.0.24.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty.incubator:netty-incubator-transport-classes-io_uring:0.0.24.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty.incubator:netty-incubator-transport-native-io_uring:linux-x86_64",
+        "fillColor": "",
+        "problem": [],
+        "scope": "0.0.24.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.typesafe.akka:akka-actor_2.13:2.6.20",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-commons:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.github.metarank:cfor_2.13:0.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-reflect:2.13.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-shared-enterprise:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.github.scopt:scopt_2.13:3.7.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.typesafe.akka:akka-slf4j_2.13:2.6.20",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.softwaremill.quicklens:quicklens_2.13:1.9.6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.burt:jmespath-jackson:0.6.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.burt:jmespath-core:0.6.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.pebbletemplates:pebble:3.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.unbescape:unbescape:1.1.6.RELEASE",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.simpleflatmapper:lightning-csv:8.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.simpleflatmapper:sfm-util:8.2.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-shared-model_2.13:0.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.suzaku:boopickle_2.13:1.3.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.jodd:jodd-util:6.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.jodd:jodd-lagarto:6.0.6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-jsonpath:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "net.debasishg:redisclient_2.13:3.42",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-graphite:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.hdrhistogram:HdrHistogram:2.1.12",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-jms-java:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-jms:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-http-client:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.aayushatharva.brotli4j:native-osx-aarch64:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-codec-dns:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-tcnative-boringssl-static:2.0.61.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.aayushatharva.brotli4j:brotli4j:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.aayushatharva.brotli4j:service:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.aayushatharva.brotli4j:native-osx-x86_64:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.aayushatharva.brotli4j:native-linux-x86_64:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.aayushatharva.brotli4j:native-linux-aarch64:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns-native-macos:osx-aarch_64",
+        "fillColor": "",
+        "problem": [],
+        "scope": "4.1.101.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns-classes-macos:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.aayushatharva.brotli4j:native-windows-x86_64:1.13.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns-native-macos:osx-x86_64",
+        "fillColor": "",
+        "problem": [],
+        "scope": "4.1.101.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.1.101.Final",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-http-java:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "net.jodah:typetools:0.6.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "javax.jms:javax.jms-api:2.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.eatthepath:fast-uuid:0.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-mqtt-java:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-recorder:3.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.typesafe:config:1.4.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang.modules:scala-java8-compat_2.13:1.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang.modules:scala-swing_2.13:3.0.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-recorder-bc-shaded:1.77.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "fr.ymanvieu.trading:trading-webapp:5.0.0-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-websocket:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-web:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.github.ymanvieu:test-scenario:0.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-test:6.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-oauth2-client:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:oauth2-oidc-sdk:9.43.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:content-type:2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:lang-tag:1.7",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-validation:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-json:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-oauth2-resource-server:3.2.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      }
+    ],
+    "bloated+hit": [],
+    "bloated+nohit": [
+      {
+        "gav": "com.google.j2objc:j2objc-annotations:2.8",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.checkerframework:checker-qual:3.31.0",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      }
+    ],
+    "unloaded+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot:3.2.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 117,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-core:6.2.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 32,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-core:6.1.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 31,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-beans:6.1.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 28,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-aop:6.1.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 22,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-oauth2-jose:6.2.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:2.1.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.101.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.101.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "com.nimbusds:nimbus-jose-jwt:9.24.4",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "modules": [
+          "trading-webapp"
+        ]
+      }
+    ],
+    "unloaded+nohit": [
+      {
+        "gav": "org.assertj:assertj-core:3.24.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.codehaus.woodstox:stax2-api:4.2.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.mapstruct:mapstruct:1.6.0.Beta1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter:3.2.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test:3.2.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.mockito:mockito-core:5.7.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.10.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.10.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.3.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-test",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework:spring-expression:6.1.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-common",
+          "trading-data-collect",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.jctools:jctools-core:2.1.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "commons-logging:commons-logging:1.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.101.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport:4.1.101.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport-native-unix-common:4.1.101.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.101.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-data-collect",
+          "trading-gatling",
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.12",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.github.spotbugs:spotbugs-annotations:4.7.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-core-java:3.10.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-core:3.10.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-mqtt:3.10.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-transport-native-epoll:linux-aarch_64",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "4.1.101.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-tcnative-classes:2.0.61.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-netty-util:3.10.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-shared-util_2.13:0.0.5",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.11",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.typesafe:config:1.4.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "com.typesafe.scala-logging:scala-logging_2.13:3.9.5",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.8",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-reflect:2.13.8",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.10",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang.modules:scala-parser-combinators_2.13:2.3.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "net.sf.saxon:Saxon-HE:10.6",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.jodd:jodd-util:6.1.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.7",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.gatling:gatling-http:3.10.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns:4.1.101.Final",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-tcnative-boringssl-static:linux-x86_64",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "2.0.61.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-tcnative-boringssl-static:osx-x86_64",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "2.0.61.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-tcnative-boringssl-static:osx-aarch_64",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "2.0.61.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-tcnative-boringssl-static:windows-x86_64",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "2.0.61.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "io.netty:netty-tcnative-boringssl-static:linux-aarch_64",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "2.0.61.Final",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.5",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.scala-lang:scala-library:2.13.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-gatling"
+        ]
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-tomcat:3.2.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      },
+      {
+        "gav": "org.springframework.security:spring-security-oauth2-core:6.2.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "trading-webapp"
+        ]
+      }
+    ]
+  }
+}

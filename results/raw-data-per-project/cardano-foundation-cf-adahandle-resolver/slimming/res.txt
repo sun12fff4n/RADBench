@@ -1,0 +1,140 @@
+Project info>>>>/private/tmp/analysis-runs/cardano-foundation-cf-adahandle-resolver
+Project Name>>>>org.cardanofoundation.tools:cf-adahandle-resolver:0.1.4
+OriginalSize>>>>106941KB
+BloatedSize>>>>645KB
+All Dependencies>>>>229
+Used Dependencies>>>>213
+Used Self Direct Dependency>>>>13
+Used Self Indirect Dependency>>>>200
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>16
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>16
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>21
+realBloated>>>>16
+unDeleteSelfDirectDependencies>>>>2
+unDeleteSelfIndirectDependencies>>>>3
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+unDeleteSelfDirectDependency>>>>com.bloxbean.cardano:yaci-store-spring-boot-starter:0.1.2
+unDeleteSelfDirectDependency>>>>com.bloxbean.cardano:yaci-store-utxo-spring-boot-starter:0.1.2
+unDeleteSelfIndirectDependency>>>>com.bloxbean.cardano:yaci-store-utxo-api:0.1.2
+unDeleteSelfIndirectDependency>>>>com.bloxbean.cardano:yaci-store-common:0.1.2
+unDeleteSelfIndirectDependency>>>>com.bloxbean.cardano:cardano-client-core:0.6.2
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>29196
+buildClassExtendGraphTime>>>>1151
+buildCallGraphTime>>>>2856079
+levelTime>>>>345
+stringTime>>>>19
+licenseCheckTime>>>>9410
+bugCheckTime>>>>373
+maintenanceTimeCheckTime>>>>3952
+checkTime>>>>2909649
+repairTime>>>>35739
+mvnTestTime>>>>18531
+====================BloatedType=========================
+java Reflect>>>>2
+outdated>>>>2
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>9
+====================Java Reflect=========================
+SpringAPI>>>>39
+TomcatAPI>>>>0
+.class>>>>24620
+forName>>>>152
+loadClass>>>>175
+getClass>>>>1519
+reflectEdges>>>>26095
+unReflectEdges>>>>69
+springReflectAPI>>>><org.springframework.data.repository.util.ReactiveWrapperConverters: java.lang.Object toWrapper(java.lang.Object,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor: java.lang.Object lookup(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.jndi.JndiTemplate: java.lang.Object lookup(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.core.convert.TypeDescriptor: org.springframework.core.convert.TypeDescriptor valueOf(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object getDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.http.codec.CodecConfigurerFactory: org.springframework.http.codec.CodecConfigurer create(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.util.List getDefaultStrategies(org.springframework.context.ApplicationContext,java.lang.Class)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><org.springframework.web.util.UrlPathHelper: boolean shouldRemoveTrailingServletPathSlash(jakarta.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.h2.mvstore.type.MetaType: org.h2.mvstore.type.DataType read(java.nio.ByteBuffer)>
+unSolvedReflect>>>><org.apache.naming.factory.FactoryBase: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.tomcat.util.digester.ObjectCreateRule: void begin(java.lang.String,java.lang.String,org.xml.sax.Attributes)>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.SimpleServerAuthConfig: jakarta.security.auth.message.config.ServerAuthContext getAuthContext(java.lang.String,javax.security.auth.Subject,java.util.Map)>
+unSolvedReflect>>>><org.apache.catalina.startup.LifecycleListenerRule: void begin(java.lang.String,java.lang.String,org.xml.sax.Attributes)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.apache.naming.NamingContext: java.lang.Object lookup(javax.naming.Name,boolean)>
+unSolvedReflect>>>><org.springframework.data.config.TypeFilterParser$FilterType$5: org.springframework.core.type.filter.TypeFilter getFilter(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.postgresql.jdbc.PgConnection: void initObjectTypes(java.util.Properties)>
+unSolvedReflect>>>><org.springframework.cglib.core.ReflectUtils: java.lang.Class defineClass(java.lang.String,byte[],java.lang.ClassLoader,java.security.ProtectionDomain,java.lang.Class)>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor: byte[] getMirrorClassBytes(java.lang.String,java.lang.String,boolean)>
+unSolvedReflect>>>><org.apache.catalina.util.SessionIdGeneratorBase: java.security.SecureRandom createSecureRandom()>
+unSolvedReflect>>>><org.apache.naming.factory.BeanFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployWAR(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.catalina.util.Introspection: java.lang.Class loadClass(org.apache.catalina.Context,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.startup.Tomcat: org.apache.catalina.Context addWebapp(org.apache.catalina.Host,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.realm.JNDIRealm: java.lang.Object constructInstance(java.lang.String)>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: java.lang.Object createInstance(java.lang.String,java.lang.Class,java.lang.Object[])>
+unSolvedReflect>>>><org.h2.util.SourceCompiler: java.lang.Class javaxToolsJavac(java.lang.String,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><reactor.core.publisher.CallSiteSupplierFactory: java.util.stream.Stream lambda$static$0(java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLImplementation: org.apache.tomcat.util.net.SSLImplementation getInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLUtilBase: javax.net.ssl.TrustManager[] getTrustManagers()>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setExceptionOverrideClassName(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.postgresql.jdbc.PgConnection: org.postgresql.xml.PGXmlFactoryFactory getXmlFactoryFactory()>
+unSolvedReflect>>>><org.apache.catalina.servlets.WebdavServlet: void init()>
+unSolvedReflect>>>><org.apache.coyote.ProtocolHandler: org.apache.coyote.ProtocolHandler create(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDescriptor(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><jakarta.el.ImportHandler: java.lang.Class findClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.apache.catalina.core.NamingContextListener: java.lang.Object constructEnvEntry(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl: java.lang.Object loadSettingInstance(java.lang.String,java.lang.Object,java.lang.Class)>
+unSolvedReflect>>>><org.springframework.util.ClassUtils: boolean isLoadable(java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class findFirstByJaxbIndex(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.codehaus.janino.ClassLoaderIClassLoader: org.codehaus.janino.IClass findIClass(java.lang.String)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDirectory(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl: jakarta.security.auth.message.config.AuthConfigProvider createAuthConfigProvider(java.lang.String,java.util.Map)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.webservices.ServiceRefFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.realm.RealmBase: org.apache.catalina.realm.X509UsernameRetriever createUsernameRetriever(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.FactoryBase: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.jooq.impl.Tools: org.jooq.EnumType[] enums(java.lang.Class)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.Registry: org.apache.tomcat.util.modeler.modules.ModelerSource getModelerSource(java.lang.String)>
+unSolvedReflect>>>><org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor: java.lang.invoke.MethodHandle createMethodHandle(java.lang.String,java.lang.String,java.lang.Class[])>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.websocket.Util: org.apache.tomcat.websocket.Util$TypeResult getGenericType(java.lang.Class,java.lang.Class)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: boolean safeIsAssignableFrom(java.lang.Object,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.loader.WebappClassLoaderBase: java.lang.Class loadClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: java.lang.Class attemptFromContextLoader(java.lang.String)>
+unSolvedReflect>>>><org.h2.mvstore.type.ObjectDataType$ObjectArrayType: java.lang.Object read(java.nio.ByteBuffer,int)>

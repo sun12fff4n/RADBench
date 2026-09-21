@@ -1,0 +1,210 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.kairosdb:kairosdb:jar:1.4.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 398, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< org.kairosdb:kairosdb >------------------------
+[INFO] Building kairosdb 1.4.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ kairosdb ---
+[INFO] mvn test successfully
+[INFO] artifact com.google.guava:guava: checking for updates from central
+[INFO] The project has no target/test-classes folder
+[Fatal Error] checkstyle.xml:3:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] Redundant dependency aopalliance:aopalliance:1.0 release time Optional[2015-12-28] has not been maintained for 3800 days
+[WARNING] Redundant dependency com.github.java-json-tools:btf:1.3 release time Optional[2020-01-04] has not been maintained for 2332 days
+[WARNING] Redundant dependency com.google.j2objc:j2objc-annotations:2.8 release time Optional[2023-01-11] has not been maintained for 1229 days
+[INFO] ALL DEPENDENCY[159]:
+[INFO]  USED DEPENDENCY[153]:
+[INFO]   USED DIRECT DEPENDENCY[62]:
+[INFO] 		org.mockito:mockito-core:2.23.0:test [551 KB]
+[INFO] 		org.xerial.snappy:snappy-java:1.1.10.8:compile [2 MB]
+[INFO] 		com.google.code.gson:gson:2.8.9:compile [252 KB]
+[INFO] 		org.apache.commons:commons-lang3:3.19.0:compile [692 KB]
+[INFO] 		jakarta.servlet:jakarta.servlet-api:6.1.0:compile [389 KB]
+[INFO] 		org.apache.httpcomponents:httpclient:4.5.14:compile [767 KB]
+[INFO] 		com.h2database:h2:2.4.240:compile [2 MB]
+[INFO] 		org.eclipse.jetty.ee10:jetty-ee10-servlet:12.0.17:compile [423 KB]
+[INFO] 		io.grpc:grpc-netty-shaded:1.76.0:compile [10 MB]
+[INFO] 		ch.qos.logback:logback-classic:1.5.25:compile [301 KB]
+[INFO] 		joda-time:joda-time:2.10.6:compile [628 KB]
+[INFO] 		org.apache.mina:mina-core:2.2.4:compile [685 KB]
+[INFO] 		jakarta.ws.rs:jakarta.ws.rs-api:3.1.0:compile [151 KB]
+[INFO] 		org.eclipse.jetty.ee10:jetty-ee10-servlets:12.0.17:compile [49 KB]
+[INFO] 		org.apache.cassandra:cassandra-driver-core:3.12.1:compile [1 MB]
+[INFO] 		com.google.inject.extensions:guice-servlet:7.0.0:compile [80 KB]
+[INFO] 		commons-codec:commons-codec:1.19.0:compile [365 KB]
+[INFO] 		com.typesafe:config:1.4.0:compile [287 KB]
+[INFO] 		com.google.guava:guava:32.1.3-jre:compile [2 MB]
+[INFO] 		com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.1:compile [17 KB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:4.0.2:compile [127 KB]
+[INFO] 		org.agileclick.genorm:genormous:1.7.0:compile [182 KB]
+[INFO] 		org.assertj:assertj-guava:3.3.0:test [39 KB]
+[INFO] 		org.jboss.resteasy:resteasy-servlet-initializer:6.2.10.Final:compile [9 KB]
+[INFO] 		jakarta.activation:jakarta.activation-api:2.1.3:compile [64 KB]
+[INFO] 		jakarta.el:jakarta.el-api:5.0.1:compile [86 KB]
+[INFO] 		com.google.code.findbugs:jsr305:1.3.9:compile [32 KB]
+[INFO] 		org.jboss.resteasy:resteasy-core:6.2.10.Final:compile [823 KB]
+[INFO] 		io.netty:netty-all:4.1.128.Final:compile [4 KB]
+[INFO] 		junit:junit:4.13.2:test [375 KB]
+[INFO] 		org.apache.commons:commons-math3:3.2:compile [1 MB]
+[INFO] 		org.apache.commons:commons-collections4:4.1:compile [733 KB]
+[INFO] 		io.grpc:grpc-stub:1.76.0:compile [60 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-runtime:4.0.5:compile [898 KB]
+[INFO] 		org.antlr:stringtemplate:3.2.1:compile [145 KB]
+[INFO] 		com.github.rholder:guava-retrying:2.0.0:compile [32 KB]
+[INFO] 		at.yawk.lz4:lz4-java:1.10.2:compile [978 KB]
+[INFO] 		commons-io:commons-io:2.21.0:compile [571 KB]
+[INFO] 		org.eclipse.jetty:jetty-server:12.0.17:compile [616 KB]
+[INFO] 		org.kairosdb:bigqueue:1.0.4:compile [43 KB]
+[INFO] 		org.projectlombok:lombok:1.18.34:compile [1 MB]
+[INFO] 		org.jboss.resteasy:resteasy-jackson2-provider:6.2.10.Final:compile [31 KB]
+[INFO] 		org.hamcrest:hamcrest-library:1.3:test [51 KB]
+[INFO] 		com.beust:jcommander:1.75:compile [82 KB]
+[INFO] 		io.dropwizard.metrics:metrics-jvm:3.2.6:compile [39 KB]
+[INFO] 		com.google.inject.extensions:guice-assistedinject:7.0.0:compile [50 KB]
+[INFO] 		org.assertj:assertj-core:3.14.0:test [4 MB]
+[INFO] 		ch.qos.logback:logback-core:1.5.25:compile [643 KB]
+[INFO] 		io.grpc:grpc-protobuf:1.76.0:compile [5 KB]
+[INFO] 		org.kairosdb:metrics4j:1.0.4:compile [510 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.17:compile [68 KB]
+[INFO] 		com.mchange:c3p0:0.9.5.5:compile [489 KB]
+[INFO] 		jakarta.validation:jakarta.validation-api:3.1.0:compile [91 KB]
+[INFO] 		com.google.inject:guice:7.0.0:compile [782 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.20.1:compile [1 MB]
+[INFO] 		io.dropwizard.metrics:metrics-healthchecks:3.2.6:compile [20 KB]
+[INFO] 		org.slf4j:jul-to-slf4j:2.0.17:compile [6 KB]
+[INFO] 		org.glassfish:jakarta.el:5.0.0-M1:compile [169 KB]
+[INFO] 		org.hibernate.validator:hibernate-validator:8.0.3.Final:compile [1 MB]
+[INFO] 		org.json:json:20250517:compile [80 KB]
+[INFO] 		org.quartz-scheduler:quartz:2.3.2:compile [676 KB]
+[INFO] 		io.opentelemetry.proto:opentelemetry-proto:1.8.0-alpha:compile [884 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[91]:
+[INFO] 		io.netty:netty-codec-smtp:4.1.128.Final:compile [21 KB]
+[INFO] 		io.netty:netty-codec-http2:4.1.128.Final:compile [487 KB]
+[INFO] 		com.github.jnr:jffi:1.2.16:compile [147 KB]
+[INFO] 		com.fasterxml:classmate:1.5.1:compile [66 KB]
+[INFO] 		io.netty:netty-transport-native-epoll:linux-x86_64:4.1.128.Final:runtime [39 KB]
+[INFO] 		org.eclipse.jetty:jetty-session:12.0.17:compile [114 KB]
+[INFO] 		io.netty:netty-buffer:4.1.128.Final:compile [346 KB]
+[INFO] 		com.github.java-json-tools:msg-simple:1.2:compile [36 KB]
+[INFO] 		com.google.android:annotations:4.1.1.4:runtime [3 KB]
+[INFO] 		io.netty:netty-codec-redis:4.1.128.Final:compile [44 KB]
+[INFO] 		com.github.jnr:jffi:native:1.2.16:runtime [648 KB]
+[INFO] 		com.github.jnr:jnr-constants:0.9.9:compile [350 KB]
+[INFO] 		io.netty:netty-codec-mqtt:4.1.128.Final:compile [111 KB]
+[INFO] 		io.grpc:grpc-api:1.76.0:compile [316 KB]
+[INFO] 		com.zaxxer:HikariCP-java7:2.4.13:compile [130 KB]
+[INFO] 		com.github.java-json-tools:jackson-coreutils:2.0:compile [31 KB]
+[INFO] 		io.grpc:grpc-util:1.76.0:runtime [96 KB]
+[INFO] 		io.grpc:grpc-core:1.76.0:compile [646 KB]
+[INFO] 		com.github.jnr:jnr-posix:3.0.44:compile [234 KB]
+[INFO] 		io.netty:netty-resolver-dns-classes-macos:4.1.128.Final:compile [8 KB]
+[INFO] 		org.apache.httpcomponents:httpcore:4.4.16:compile [320 KB]
+[INFO] 		io.netty:netty-handler-ssl-ocsp:4.1.128.Final:compile [26 KB]
+[INFO] 		org.ow2.asm:asm-commons:5.0.3:compile [40 KB]
+[INFO] 		com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.15.4:compile [31 KB]
+[INFO] 		com.google.protobuf:protobuf-java:3.25.8:compile [1 MB]
+[INFO] 		org.ow2.asm:asm-tree:5.0.3:compile [28 KB]
+[INFO] 		org.ow2.asm:asm:5.0.3:compile [51 KB]
+[INFO] 		io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.128.Final:runtime [24 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:2.1.1:compile [25 KB]
+[INFO] 		org.objenesis:objenesis:2.6:test [54 KB]
+[INFO] 		com.github.java-json-tools:json-patch:1.13:compile [42 KB]
+[INFO] 		io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.128.Final:runtime [41 KB]
+[INFO] 		io.dropwizard.metrics:metrics-core:3.2.2:compile [126 KB]
+[INFO] 		io.netty:netty-codec:4.1.128.Final:compile [348 KB]
+[INFO] 		io.netty:netty-codec-stomp:4.1.128.Final:compile [33 KB]
+[INFO] 		org.eclipse.jetty:jetty-http:12.0.17:compile [420 KB]
+[INFO] 		io.netty:netty-handler:4.1.128.Final:compile [567 KB]
+[INFO] 		org.reactivestreams:reactive-streams:1.0.4:compile [11 KB]
+[INFO] 		io.netty:netty-transport-classes-kqueue:4.1.128.Final:compile [109 KB]
+[INFO] 		io.netty:netty-codec-memcache:4.1.128.Final:compile [43 KB]
+[INFO] 		antlr:antlr:2.7.7:compile [434 KB]
+[INFO] 		com.google.guava:failureaccess:1.0.1:compile [4 KB]
+[INFO] 		com.sun.istack:istack-commons-runtime:4.1.2:compile [25 KB]
+[INFO] 		org.jboss.logging:jboss-logging:3.5.3.Final:compile [57 KB]
+[INFO] 		io.netty:netty-codec-xml:4.1.128.Final:compile [19 KB]
+[INFO] 		org.hamcrest:hamcrest-core:1.3:test [43 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.15.4:compile [535 KB]
+[INFO] 		io.netty:netty-resolver:4.1.128.Final:compile [37 KB]
+[INFO] 		org.eclipse.jetty:jetty-security:12.0.17:compile [141 KB]
+[INFO] 		io.netty:netty-resolver-dns-native-macos:osx-aarch_64:4.1.128.Final:runtime [19 KB]
+[INFO] 		io.perfmark:perfmark-api:0.27.0:runtime [6 KB]
+[INFO] 		net.bytebuddy:byte-buddy-agent:1.9.0:test [42 KB]
+[INFO] 		org.dom4j:dom4j:2.2.0:compile [324 KB]
+[INFO] 		io.netty:netty-codec-dns:4.1.128.Final:compile [65 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.15.4:compile [73 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-core:4.0.5:compile [135 KB]
+[INFO] 		com.ibm.async:asyncutil:0.1.0:compile [117 KB]
+[INFO] 		io.netty:netty-codec-haproxy:4.1.128.Final:compile [36 KB]
+[INFO] 		io.netty:netty-handler-proxy:4.1.128.Final:compile [25 KB]
+[INFO] 		io.netty:netty-transport-native-unix-common:4.1.128.Final:compile [43 KB]
+[INFO] 		io.netty:netty-transport-sctp:4.1.128.Final:compile [49 KB]
+[INFO] 		io.netty:netty-transport:4.1.128.Final:compile [509 KB]
+[INFO] 		org.glassfish.jaxb:txw2:4.0.5:compile [71 KB]
+[INFO] 		org.eclipse.jetty:jetty-util:12.0.17:compile [673 KB]
+[INFO] 		io.netty:netty-transport-native-kqueue:osx-aarch_64:4.1.128.Final:runtime [25 KB]
+[INFO] 		com.google.api.grpc:proto-google-common-protos:2.59.2:compile [2 MB]
+[INFO] 		io.netty:netty-transport-udt:4.1.128.Final:compile [31 KB]
+[INFO] 		com.github.jnr:jnr-ffi:2.1.7:compile [665 KB]
+[INFO] 		org.ow2.asm:asm-util:5.0.3:compile [42 KB]
+[INFO] 		io.grpc:grpc-protobuf-lite:1.76.0:runtime [7 KB]
+[INFO] 		com.github.jnr:jnr-x86asm:1.0.2:compile [214 KB]
+[INFO] 		io.netty:netty-transport-classes-epoll:4.1.128.Final:compile [144 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.15.4:compile [31 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.9.0:test [3 MB]
+[INFO] 		io.netty:netty-codec-http:4.1.128.Final:compile [665 KB]
+[INFO] 		io.netty:netty-resolver-dns:4.1.128.Final:compile [183 KB]
+[INFO] 		org.jboss:jandex:2.4.5.Final:compile [230 KB]
+[INFO] 		io.grpc:grpc-context:1.76.0:runtime [293 bytes]
+[INFO] 		io.netty:netty-transport-rxtx:4.1.128.Final:compile [17 KB]
+[INFO] 		com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile [2 KB]
+[INFO] 		org.eclipse.angus:angus-activation:1.0.0:compile [20 KB]
+[INFO] 		com.mchange:mchange-commons-java:0.2.19:compile [616 KB]
+[INFO] 		org.eclipse.jetty:jetty-io:12.0.17:compile [323 KB]
+[INFO] 		jakarta.inject:jakarta.inject-api:2.0.1:compile [10 KB]
+[INFO] 		commons-logging:commons-logging:1.2:compile [60 KB]
+[INFO] 		org.jboss.resteasy:resteasy-core-spi:6.2.10.Final:compile [236 KB]
+[INFO] 		org.ow2.asm:asm-analysis:5.0.3:compile [19 KB]
+[INFO] 		io.netty:netty-transport-native-epoll:linux-riscv64:4.1.128.Final:runtime [36 KB]
+[INFO] 		io.netty:netty-codec-socks:4.1.128.Final:compile [118 KB]
+[INFO] 		io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.128.Final:runtime [19 KB]
+[INFO] 		io.netty:netty-common:4.1.128.Final:compile [707 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[6]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[6]:
+[INFO] 		com.google.errorprone:error_prone_annotations:2.21.1:compile [16 KB]
+[INFO] 		aopalliance:aopalliance:1.0:compile [4 KB]
+[INFO] 		org.checkerframework:checker-qual:3.37.0:compile [219 KB]
+[INFO] 		com.google.j2objc:j2objc-annotations:2.8:compile [9 KB]
+[INFO] 		com.github.java-json-tools:btf:1.3:compile [8 KB]
+[INFO] 		org.codehaus.mojo:animal-sniffer-annotations:1.24:compile [3 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/kairosdb-kairosdb/bloatedOutput/orgkairosdbkairosdb140SNAPSHOT/orgkairosdbkairosdb140SNAPSHOT/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  07:08 min
+[INFO] Finished at: 2026-05-25T08:53:48+02:00
+[INFO] ------------------------------------------------------------------------

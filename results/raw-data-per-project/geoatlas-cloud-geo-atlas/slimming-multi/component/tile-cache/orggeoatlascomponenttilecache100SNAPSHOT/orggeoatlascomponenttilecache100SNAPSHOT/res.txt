@@ -1,0 +1,131 @@
+Project info>>>>/private/tmp/analysis-runs/geoatlas-cloud-geo-atlas/component/tile-cache
+Project Name>>>>org.geo-atlas.component:tile-cache:1.0.0-SNAPSHOT
+OriginalSize>>>>50940KB
+BloatedSize>>>>302KB
+All Dependencies>>>>139
+Used Dependencies>>>>133
+Used Self Direct Dependency>>>>11
+Used Self Indirect Dependency>>>>122
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>6
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>6
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>6
+realBloated>>>>6
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>11037
+buildClassExtendGraphTime>>>>376
+buildCallGraphTime>>>>2075984
+levelTime>>>>196
+stringTime>>>>22
+licenseCheckTime>>>>6978
+bugCheckTime>>>>214
+maintenanceTimeCheckTime>>>>1712
+checkTime>>>>2099075
+repairTime>>>>15565
+mvnTestTime>>>>3924
+====================BloatedType=========================
+java Reflect>>>>2
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>28
+TomcatAPI>>>>0
+.class>>>>17492
+forName>>>>215
+loadClass>>>>145
+getClass>>>>1297
+reflectEdges>>>>18762
+unReflectEdges>>>>70
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object getDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.http.codec.CodecConfigurerFactory: org.springframework.http.codec.CodecConfigurer create(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.util.List getDefaultStrategies(org.springframework.context.ApplicationContext,java.lang.Class)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDescriptor(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.naming.factory.BeanFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.eclipse.emf.ecore.impl.EPackageRegistryImpl$Delegator: java.lang.Object put(java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.AuthenticatorBase: javax.security.auth.callback.CallbackHandler createCallbackHandler()>
+unSolvedReflect>>>><it.geosolutions.jaiext.RegistryFileParser: java.lang.Object getInstance(java.lang.String)>
+unSolvedReflect>>>><javax.media.jai.RegistryFileParser: java.lang.Object getInstance(java.lang.String)>
+unSolvedReflect>>>><org.geotools.filter.FunctionImpl: org.opengis.parameter.Parameter toParameter(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl: jakarta.security.auth.message.config.AuthConfigProvider createAuthConfigProvider(java.lang.String,java.util.Map)>
+unSolvedReflect>>>><com.google.protobuf.Descriptors$FileDescriptor: com.google.protobuf.Descriptors$FileDescriptor[] findDescriptors(java.lang.Class,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.Registry: org.apache.tomcat.util.modeler.modules.ModelerSource getModelerSource(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.servlets.WebdavServlet: void init()>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLImplementation: org.apache.tomcat.util.net.SSLImplementation getInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.eclipse.emf.common.CommonPlugin: java.lang.Class loadClass(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><com.sun.media.jai.util.DataBufferUtils: java.lang.Class getDataBufferClass(int)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.springframework.cglib.core.ReflectUtils: java.lang.Class defineClass(java.lang.String,byte[],java.lang.ClassLoader,java.security.ProtectionDomain,java.lang.Class)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><tech.units.indriya.format.SymbolMap: void <init>(java.util.ResourceBundle)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.apache.catalina.util.SessionIdGeneratorBase: java.security.SecureRandom createSecureRandom()>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><org.apache.naming.factory.BeanFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.catalina.startup.LifecycleListenerRule: void begin(java.lang.String,java.lang.String,org.xml.sax.Attributes)>
+unSolvedReflect>>>><org.apache.tomcat.websocket.Util: org.apache.tomcat.websocket.Util$TypeResult getGenericType(java.lang.Class,java.lang.Class)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><org.apache.catalina.startup.Tomcat: org.apache.catalina.Context addWebapp(org.apache.catalina.Host,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLUtilBase: javax.net.ssl.TrustManager[] getTrustManagers()>
+unSolvedReflect>>>><org.apache.catalina.core.NamingContextListener: java.lang.Object constructEnvEntry(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Class loadClass(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.sun.media.imageioimpl.plugins.tiff.TIFFImageMetadata: com.sun.media.imageioimpl.plugins.tiff.TIFFIFD parseIFD(org.w3c.dom.Node)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.geotools.referencing.operation.transform.WarpTransform2DProvider: java.lang.Object createWarp(java.lang.String,float[],float[],float,float,float,float)>
+unSolvedReflect>>>><com.google.protobuf.GeneratedMessage$4: com.google.protobuf.Descriptors$FieldDescriptor loadDescriptor()>
+unSolvedReflect>>>><org.apache.naming.NamingContext: java.lang.Object lookup(javax.naming.Name,boolean)>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.springframework.cglib.core.ReflectUtils: java.lang.Class defineClass(java.lang.String,byte[],java.lang.ClassLoader,java.security.ProtectionDomain,java.lang.Class)>
+unSolvedReflect>>>><org.apache.naming.factory.FactoryBase: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.catalina.realm.RealmBase: org.apache.catalina.realm.X509UsernameRetriever createUsernameRetriever(java.lang.String)>
+unSolvedReflect>>>><com.google.protobuf.SchemaUtil: java.lang.Object getMapDefaultEntry(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.SimpleServerAuthConfig: jakarta.security.auth.message.config.ServerAuthContext getAuthContext(java.lang.String,javax.security.auth.Subject,java.util.Map)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.security.auth.message.config.AuthConfigFactory: jakarta.security.auth.message.config.AuthConfigFactory lambda$getFactory$0(java.lang.String)>
+unSolvedReflect>>>><jakarta.el.ImportHandler: java.lang.Class findClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.geotools.util.logging.Logging: void setLoggerFactory(java.lang.String)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.apache.tomcat.util.digester.ObjectCreateRule: void begin(java.lang.String,java.lang.String,org.xml.sax.Attributes)>
+unSolvedReflect>>>><org.apache.catalina.loader.WebappClassLoaderBase: java.lang.Class loadClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><org.apache.coyote.ProtocolHandler: org.apache.coyote.ProtocolHandler create(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.common.EMFPlugin: void main(java.lang.String[])>
+unSolvedReflect>>>><javax.media.jai.JAI: java.lang.Class class$(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.webservices.ServiceRefFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.naming.factory.FactoryBase: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.springframework.web.util.UrlPathHelper: boolean shouldRemoveTrailingServletPathSlash(jakarta.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><it.geosolutions.imageioimpl.plugins.tiff.TIFFImageMetadata: it.geosolutions.imageioimpl.plugins.tiff.TIFFIFD parseIFD(org.w3c.dom.Node)>
+unSolvedReflect>>>><org.apache.catalina.util.Introspection: java.lang.Class loadClass(org.apache.catalina.Context,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployWAR(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDirectory(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.catalina.realm.JNDIRealm: java.lang.Object constructInstance(java.lang.String)>
+unSolvedReflect>>>><org.geotools.filter.FunctionImpl: org.opengis.parameter.Parameter toParameter(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.geotools.util.factory.GeoTools: java.lang.Object instantiate(java.lang.String,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.geotools.util.factory.FactoryRegistry: boolean registerFromSystemProperty(java.lang.ClassLoader,java.lang.Class,java.lang.StringBuilder)>

@@ -1,0 +1,52 @@
+ Network qmjy-mapbox_default Creating 
+ Network qmjy-mapbox_default Created 
+ Volume qmjy-mapbox_m2-combined-qmjy-mapbox-offline-server Creating 
+ Volume qmjy-mapbox_m2-combined-qmjy-mapbox-offline-server Created 
+ Container qmjy-mapbox-app Creating 
+ Container qmjy-mapbox-app Created 
+ Container qmjy-mapbox-app Starting 
+ Container qmjy-mapbox-app Started 
+ Container qmjy-mapbox-app Waiting 
+ Container qmjy-mapbox-app Healthy 
+==> Wait for boot
+    /=200
+
+==> Thymeleaf web pages (200)
+  ok   GET /                                                             -> 200
+  ok   GET /tilesets.html                                                -> 200
+
+==> springdoc / swagger (200)
+  ok   GET /v3/api-docs                                                  -> 200
+  ok   GET /swagger-ui/index.html                                        -> 200
+
+==> Filesystem-scan listings (200) — distinct controllers
+  ok   GET /api/tilesets                                                 -> 200
+  ok   GET /api/fonts                                                    -> 200
+  ok   GET /api/geo/admins (OSMB seeded)                                 -> 200
+  ok   GET /api/geo/admins/nodes/1 (StubLand)                            -> 200
+
+==> mbtiles success path (sqlite-jdbc + mapbox-vector-tile)
+  FAIL GET /api/tilesets/stub.mbtiles/metadata                           -> got 500, want 200
+  ok   GET /api/tilesets/stub.mbtiles/tiles.json                         -> 200
+  FAIL GET /api/tilesets/stub.mbtiles/0/0/0.pbf (real tile)              -> got 404, want 200
+  ok   DELETE /api/tilesets/none                                         -> 200
+
+==> Static map assets (200) — sprite/style file reads
+  FAIL GET /api/sprites/streets/sprite.json                              -> got 404, want 200
+  FAIL GET /api/sprites/streets/sprite.png                               -> got 404, want 200
+  FAIL GET /api/styles/world.json                                        -> got 404, want 200
+
+==> Distinct dep paths added in second pass
+  ok   POST /api/georeferencer (gt-referencing transform)                -> 200
+  ok   POST /api/tilesets/merge (async sqlite-jdbc INSERT)               -> 200
+  ok   GET /admins/nodes/1/contains (Geometry.covers true)               -> 200
+  FAIL GET /api/fonts/Stub/0-255.pbf (stub file)                         -> got 404, want 200
+  ok   GET /api/route/none?... (graphhopper not-ready env)               -> 200
+
+==> POI / geocode happy paths (correct param names)
+  ok   GET /api/poi?keywords=cafe                                        -> 200
+  ok   GET /api/geocode/regeo?location=0.5,0.5 (in Stub)                 -> 200
+
+==> Summary: 16 passed, 6 failed
+ Container qmjy-mapbox-app Stopping 
+ Container qmjy-mapbox-app Stopped 

@@ -1,0 +1,43 @@
+org.apache.iotdb:flink-example:jar:2.0.4-SNAPSHOT
++- org.apache.iotdb:flink-iotdb-connector:jar:2.0.4-SNAPSHOT:compile
++- org.apache.tsfile:tsfile:jar:2.1.1:compile
+|  +- org.apache.tsfile:common:jar:2.1.1:compile
+|  +- com.github.luben:zstd-jni:jar:1.5.5-5:compile
+|  +- org.xerial.snappy:snappy-java:jar:1.1.10.5:compile
+|  +- commons-io:commons-io:jar:2.14.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.13.0:compile
+|  +- org.lz4:lz4-java:jar:1.8.0:compile
+|  +- org.tukaani:xz:jar:1.10:compile
+|  +- org.slf4j:slf4j-api:jar:2.0.9:compile
+|  \- org.antlr:antlr4-runtime:jar:4.9.3:compile
++- org.apache.iotdb:flink-tsfile-connector:jar:2.0.4-SNAPSHOT:compile
+\- org.apache.flink:flink-clients:jar:1.17.1:compile
+   +- org.apache.flink:flink-core:jar:1.17.1:compile
+   |  +- org.apache.flink:flink-annotations:jar:1.17.1:compile
+   |  +- org.apache.flink:flink-metrics-core:jar:1.17.1:compile
+   |  +- org.apache.flink:flink-shaded-asm-9:jar:9.3-16.1:compile
+   |  +- org.apache.flink:flink-shaded-jackson:jar:2.13.4-16.1:compile
+   |  +- org.apache.commons:commons-text:jar:1.10.0:compile
+   |  +- com.esotericsoftware.kryo:kryo:jar:2.24.0:compile
+   |  |  +- com.esotericsoftware.minlog:minlog:jar:1.2:compile
+   |  |  \- org.objenesis:objenesis:jar:2.1:compile
+   |  +- commons-collections:commons-collections:jar:3.2.2:compile
+   |  +- org.apache.commons:commons-compress:jar:1.21:compile
+   |  \- org.apache.flink:flink-shaded-guava:jar:30.1.1-jre-16.1:compile
+   +- org.apache.flink:flink-runtime:jar:1.17.1:compile
+   |  +- org.apache.flink:flink-rpc-core:jar:1.17.1:compile
+   |  +- org.apache.flink:flink-rpc-akka-loader:jar:1.17.1:compile
+   |  +- org.apache.flink:flink-queryable-state-client-java:jar:1.17.1:compile
+   |  +- org.apache.flink:flink-hadoop-fs:jar:1.17.1:compile
+   |  +- org.apache.flink:flink-shaded-netty:jar:4.1.82.Final-16.1:compile
+   |  +- org.apache.flink:flink-shaded-zookeeper-3:jar:3.8.1-17.0:compile
+   |  +- org.javassist:javassist:jar:3.24.0-GA:compile
+   |  \- org.apache.flink:flink-shaded-force-shading:jar:16.1:compile
+   +- org.apache.flink:flink-optimizer:jar:1.17.1:compile
+   +- org.apache.flink:flink-java:jar:1.17.1:compile
+   |  +- org.apache.commons:commons-math3:jar:3.6.1:compile
+   |  \- com.twitter:chill-java:jar:0.7.6:compile
+   +- commons-cli:commons-cli:jar:1.5.0:compile
+   +- org.apache.flink:flink-streaming-java:jar:1.17.1:compile
+   |  \- org.apache.flink:flink-file-sink-common:jar:1.17.1:compile
+   \- com.google.code.findbugs:jsr305:jar:3.0.2:compile

@@ -1,0 +1,60 @@
+{
+  "project_id": "bmarwell-shiro-jwt-showcase",
+  "module_type": "multi",
+  "modules": [
+    {
+      "modpath": "finish",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 15,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "bmarwell-shiro-jwt-showcase/slimming-c/finish/pom.xml"
+    },
+    {
+      "modpath": "issuer",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 7,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "bmarwell-shiro-jwt-showcase/slimming-c/issuer/pom.xml"
+    },
+    {
+      "modpath": "keystore",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 1,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "bmarwell-shiro-jwt-showcase/slimming-c/keystore/pom.xml"
+    },
+    {
+      "modpath": "start",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 7,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "bmarwell-shiro-jwt-showcase/slimming-c/start/pom.xml"
+    }
+  ],
+  "variant": "conservative (red only, gray kept)",
+  "status": "ok",
+  "modules_ok": 4,
+  "modules_total": 4,
+  "total_direct_deleted": 0,
+  "total_transitive_excluded": 0
+}

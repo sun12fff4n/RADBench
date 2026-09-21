@@ -1,0 +1,831 @@
+{
+  "project_id": "extenda-structurizr-to-png",
+  "tool": "depclean",
+  "module_type": "single",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "depclean_total": 79,
+  "nia_total_classes": 131,
+  "nia_mapped_classes": 76,
+  "nia_proxy_recovered": 2,
+  "buckets": {
+    "used+hit": 22,
+    "used+nohit": 45,
+    "bloated+hit": 1,
+    "bloated+nohit": 11
+  },
+  "metrics": {
+    "tp": 11,
+    "fp": 1,
+    "tn": 22,
+    "fn": 45,
+    "precision": 0.9167,
+    "recall": 0.1964,
+    "f1": 0.3235
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "com.structurizr:structurizr-core:4.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 101,
+        "static_all_classes": 109,
+        "static_ratio": 0.927,
+        "nia_class_hits": 13,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-transport:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 293,
+        "static_all_classes": 408,
+        "static_ratio": 0.718,
+        "nia_class_hits": 13,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-common:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 431,
+        "static_all_classes": 577,
+        "static_ratio": 0.747,
+        "nia_class_hits": 12,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-core:5.0.4",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 826,
+        "static_all_classes": 868,
+        "static_ratio": 0.952,
+        "nia_class_hits": 10,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.5.18",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 59,
+        "static_all_classes": 473,
+        "static_ratio": 0.125,
+        "nia_class_hits": 6,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 154,
+        "static_all_classes": 182,
+        "static_ratio": 0.846,
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.5.18",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 22,
+        "static_all_classes": 189,
+        "static_ratio": 0.116,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.20.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 740,
+        "static_all_classes": 809,
+        "static_ratio": 0.915,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 254,
+        "static_all_classes": 401,
+        "static_ratio": 0.633,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "commons-logging:commons-logging:1.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 20,
+        "static_all_classes": 28,
+        "static_ratio": 0.714,
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-core-logging:5.0.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 7,
+        "static_all_classes": 13,
+        "static_ratio": 0.538,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-codec-base:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 56,
+        "static_all_classes": 97,
+        "static_ratio": 0.577,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 115,
+        "static_all_classes": 124,
+        "static_ratio": 0.927,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-web:5.0.4",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 114,
+        "static_all_classes": 182,
+        "static_ratio": 0.626,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "net.sourceforge.plantuml:plantuml:1.2025.7",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 5311,
+        "static_all_classes": 7518,
+        "static_ratio": 0.706,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:jcl-over-slf4j:2.0.17",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 7,
+        "static_all_classes": 9,
+        "static_ratio": 0.778,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.17",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 50,
+        "static_all_classes": 56,
+        "static_ratio": 0.893,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.structurizr:structurizr-client:4.1.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 10,
+        "static_all_classes": 28,
+        "static_ratio": 0.357,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.structurizr:structurizr-dsl:4.1.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 165,
+        "static_all_classes": 167,
+        "static_ratio": 0.988,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.structurizr:structurizr-export:4.1.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 23,
+        "static_all_classes": 30,
+        "static_ratio": 0.767,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "commons-cli:commons-cli:1.10.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 31,
+        "static_all_classes": 57,
+        "static_ratio": 0.544,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-bridge-common:5.0.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 8,
+        "static_ratio": 0.75,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.20",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 72,
+        "static_all_classes": 74,
+        "static_ratio": 0.973,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.code.findbugs:jsr305:3.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 9,
+        "static_all_classes": 35,
+        "static_ratio": 0.257,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.20.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 191,
+        "static_all_classes": 221,
+        "static_ratio": 0.864,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.httpcomponents.client5:httpclient5:5.4.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 244,
+        "static_all_classes": 524,
+        "static_ratio": 0.466,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.httpcomponents.core5:httpcore5:5.3.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 244,
+        "static_all_classes": 657,
+        "static_ratio": 0.371,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.httpcomponents.core5:httpcore5-h2:5.3.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 150,
+        "static_ratio": 0.027,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.structurizr:structurizr-import:4.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 16,
+        "static_all_classes": 17,
+        "static_ratio": 0.941,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.structurizr:structurizr-component:4.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 47,
+        "static_all_classes": 48,
+        "static_ratio": 0.979,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.bcel:bcel:6.10.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 348,
+        "static_all_classes": 453,
+        "static_ratio": 0.768,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.14.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 108,
+        "static_all_classes": 404,
+        "static_ratio": 0.267,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.github.javaparser:javaparser-core:3.26.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 610,
+        "static_all_classes": 678,
+        "static_ratio": 0.9,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.guava:guava:32.1.2-jre",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 790,
+        "static_all_classes": 2020,
+        "static_ratio": 0.391,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.checkerframework:checker-qual:3.33.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 358,
+        "static_ratio": 0.034,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.18.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 14,
+        "static_all_classes": 26,
+        "static_ratio": 0.538,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.j2objc:j2objc-annotations:2.8",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 13,
+        "static_ratio": 0.154,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 26,
+        "static_all_classes": 30,
+        "static_ratio": 0.867,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 266,
+        "static_all_classes": 346,
+        "static_ratio": 0.769,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-native-unix-common:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 9,
+        "static_all_classes": 33,
+        "static_ratio": 0.273,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler-proxy:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 13,
+        "static_ratio": 0.923,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-socks:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 56,
+        "static_all_classes": 117,
+        "static_ratio": 0.479,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-compression:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 57,
+        "static_all_classes": 101,
+        "static_ratio": 0.564,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 194,
+        "static_all_classes": 287,
+        "static_ratio": 0.676,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-dns:4.2.5.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 38,
+        "static_all_classes": 47,
+        "static_ratio": 0.809,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-web-common:5.0.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 20,
+        "static_ratio": 0.05,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-auth-common:5.0.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 40,
+        "static_all_classes": 85,
+        "static_ratio": 0.471,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.scilab.forge:jlatexmath:1.0.7",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 185,
+        "static_all_classes": 196,
+        "static_ratio": 0.944,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.elk:org.eclipse.elk.core:0.10.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 100,
+        "static_all_classes": 163,
+        "static_ratio": 0.613,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.elk:org.eclipse.elk.graph:0.10.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 43,
+        "static_all_classes": 52,
+        "static_ratio": 0.827,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.emf:org.eclipse.emf.common:2.12.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 189,
+        "static_all_classes": 215,
+        "static_ratio": 0.879,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.emf:org.eclipse.emf.ecore:2.12.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 535,
+        "static_all_classes": 587,
+        "static_ratio": 0.911,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.12.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 80,
+        "static_all_classes": 107,
+        "static_ratio": 0.748,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-junit5:5.0.4",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.13.4",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.13.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.13.4",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-tcp-eventbus-bridge:5.0.4",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.assertj:assertj-core:3.27.6",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.17.7",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.3.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.13.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.13.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.mockito:mockito-core:5.20.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy-agent:1.17.7",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.objenesis:objenesis:3.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "org.fusesource.jansi:jansi:2.4.2",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 46,
+        "static_ratio": 0.0,
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "javax.xml.bind:jaxb-api:2.4.0-b180830.0359",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 112,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "javax.activation:javax.activation-api:1.2.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 31,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.github.javaparser:javaparser-symbol-solver-core:3.26.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 196,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.javassist:javassist:3.30.2-GA",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 426,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.guava:failureaccess:1.0.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.scilab.forge:jlatexmath-font-greek:1.0.7",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.scilab.forge:jlatexmath-font-cyrillic:1.0.7",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.elk:org.eclipse.elk.alg.layered:0.10.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 346,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.elk:org.eclipse.elk.alg.common:0.10.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 106,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.elk:org.eclipse.elk.alg.mrtree:0.10.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 51,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ]
+  },
+  "runtime_size": 17,
+  "static_size": 11,
+  "base_union_size": 23,
+  "anchor_size": 0,
+  "final_union_size": 23,
+  "missing_from_tree_count": 0
+}

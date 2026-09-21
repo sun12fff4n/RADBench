@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.mosip.certify:certify-service-with-plugins:jar:0.13.1
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-gpg-plugin @ line 149, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules
+[INFO] Installing Central Publishing features
+[INFO] 
+[INFO] -----------< io.mosip.certify:certify-service-with-plugins >------------
+[INFO] Building certify-service-with-plugins 0.13.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.8.1:analyze (default-cli) > test-compile @ certify-service-with-plugins >>>
+[INFO] 
+[INFO] --- git-commit-id:3.0.1:revision (get-the-git-infos) @ certify-service-with-plugins ---
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (default) @ certify-service-with-plugins ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/project/certify-service-with-plugins/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ certify-service-with-plugins ---
+[INFO] skip non existing resourceDirectory /project/certify-service-with-plugins/src/main/resources
+[INFO] skip non existing resourceDirectory /project/certify-service-with-plugins/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ certify-service-with-plugins ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ certify-service-with-plugins ---
+[INFO] skip non existing resourceDirectory /project/certify-service-with-plugins/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ certify-service-with-plugins ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.8.1:analyze (default-cli) < test-compile @ certify-service-with-plugins <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.8.1:analyze (default-cli) @ certify-service-with-plugins ---
+[WARNING] Unused declared dependencies found:
+[WARNING]    org.springframework.boot:spring-boot-starter-oauth2-resource-server:jar:3.2.3:compile
+[WARNING]    org.json:json:jar:20241224:compile
+[WARNING]    jakarta.servlet:jakarta.servlet-api:jar:6.0.0:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-validation:jar:3.2.3:compile
+[WARNING]    org.projectlombok:lombok:jar:1.18.30:compile
+[WARNING]    org.bitbucket.b_c:jose4j:jar:0.6.5:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.149 s
+[INFO] Finished at: 2026-06-16T09:13:48Z
+[INFO] ------------------------------------------------------------------------

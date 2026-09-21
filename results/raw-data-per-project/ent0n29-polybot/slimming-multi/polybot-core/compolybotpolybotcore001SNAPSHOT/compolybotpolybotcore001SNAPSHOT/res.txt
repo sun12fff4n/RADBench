@@ -1,0 +1,80 @@
+Project info>>>>/private/tmp/analysis-runs/ent0n29-polybot/polybot-core
+Project Name>>>>com.polybot:polybot-core:0.0.1-SNAPSHOT
+OriginalSize>>>>60744KB
+BloatedSize>>>>90KB
+All Dependencies>>>>105
+Used Dependencies>>>>102
+Used Self Direct Dependency>>>>11
+Used Self Indirect Dependency>>>>91
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>3
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>3
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>3
+realBloated>>>>3
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>12529
+buildClassExtendGraphTime>>>>171
+buildCallGraphTime>>>>1173287
+levelTime>>>>127
+stringTime>>>>12
+licenseCheckTime>>>>5866
+bugCheckTime>>>>178
+maintenanceTimeCheckTime>>>>1454
+checkTime>>>>1195328
+repairTime>>>>20080
+mvnTestTime>>>>9183
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>3
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>14
+TomcatAPI>>>>0
+.class>>>>10520
+forName>>>>69
+loadClass>>>>29
+getClass>>>>1042
+reflectEdges>>>>11497
+unReflectEdges>>>>23
+springReflectAPI>>>><org.springframework.messaging.MessageHeaders: java.lang.Object get(java.lang.Object,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.http.codec.CodecConfigurerFactory: org.springframework.http.codec.CodecConfigurer create(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+unSolvedReflect>>>><org.web3j.abi.TypeDecoder: org.web3j.abi.datatypes.Type instantiateArrayType(org.web3j.abi.TypeReference,java.lang.Object)>
+unSolvedReflect>>>><org.web3j.abi.DefaultFunctionReturnDecoder: org.web3j.abi.datatypes.Type decodeEventParameter(java.lang.String,org.web3j.abi.TypeReference)>
+unSolvedReflect>>>><jnr.ffi.provider.jffi.NativeRuntime: jnr.ffi.NativeType[] buildNativeTypeAliases()>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><org.apache.kafka.common.config.ConfigDef: java.lang.Object parseType(java.lang.String,java.lang.Object,org.apache.kafka.common.config.ConfigDef$Type)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><jakarta.el.ImportHandler: java.lang.Class findClass(java.lang.String,boolean)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.type.TypeFactory: java.lang.Class classForName(java.lang.String)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.web3j.abi.TypeReference: org.web3j.abi.TypeReference makeTypeReference(java.lang.String,boolean,boolean)>
+unSolvedReflect>>>><okhttp3.internal.platform.android.StandardAndroidSocketAdapter$Companion: okhttp3.internal.platform.android.SocketAdapter buildIfSupported(java.lang.String)>
+unSolvedReflect>>>><org.web3j.abi.Utils: java.lang.String getTypeName(org.web3j.abi.TypeReference)>
+unSolvedReflect>>>><org.apache.kafka.shaded.com.google.protobuf.GeneratedMessage$4: org.apache.kafka.shaded.com.google.protobuf.Descriptors$FieldDescriptor loadDescriptor()>
+unSolvedReflect>>>><org.apache.kafka.shaded.com.google.protobuf.Descriptors$FileDescriptor: org.apache.kafka.shaded.com.google.protobuf.Descriptors$FileDescriptor[] findDescriptors(java.lang.Class,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><org.apache.kafka.shaded.com.google.protobuf.SchemaUtil: java.lang.Object getMapDefaultEntry(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><org.web3j.abi.TypeDecoder: org.web3j.abi.datatypes.Type instantiateStaticArray(org.web3j.abi.TypeReference,java.util.List,int)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><jnr.ffi.Platform: jnr.ffi.Platform determinePlatform()>

@@ -1,0 +1,309 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] trading                                                            [pom]
+[INFO] trading-test                                                       [jar]
+[INFO] trading-common                                                     [jar]
+[INFO] trading-data-collect                                               [jar]
+[INFO] trading-webapp                                                     [jar]
+[INFO] trading-gatling                                                    [jar]
+[INFO] 
+[INFO] --------------------< fr.ymanvieu.trading:trading >---------------------
+[INFO] Building trading 5.0.0-SNAPSHOT                                    [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ trading ---
+[INFO] Installing /project/pom.xml to /root/.m2/repository/fr/ymanvieu/trading/trading/5.0.0-SNAPSHOT/trading-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< fr.ymanvieu.trading:trading-test >------------------
+[INFO] Building trading-test 5.0.0-SNAPSHOT                               [2/6]
+[INFO]   from trading-test/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ trading-test ---
+[INFO] skip non existing resourceDirectory /project/trading-test/src/main/resources
+[INFO] skip non existing resourceDirectory /project/trading-test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ trading-test ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ trading-test ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ trading-test ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ trading-test ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ trading-test ---
+[INFO] Building jar: /project/trading-test/target/trading-test-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ trading-test ---
+[INFO] Installing /project/trading-test/pom.xml to /root/.m2/repository/fr/ymanvieu/trading/trading-test/5.0.0-SNAPSHOT/trading-test-5.0.0-SNAPSHOT.pom
+[INFO] Installing /project/trading-test/target/trading-test-5.0.0-SNAPSHOT.jar to /root/.m2/repository/fr/ymanvieu/trading/trading-test/5.0.0-SNAPSHOT/trading-test-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------< fr.ymanvieu.trading:trading-common >-----------------
+[INFO] Building trading-common 5.0.0-SNAPSHOT                             [3/6]
+[INFO]   from trading-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- apt:1.1.3:process (default) @ trading-common ---
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/rate/mapper/RateMapper.java:5: error: package org.mapstruct does not exist
+import org.mapstruct.Mapper;
+                    ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/rate/mapper/RateMapper.java:12: error: cannot find symbol
+@Mapper(config = MapstructConfig.class, uses = SymbolMapper.class)
+ ^
+  symbol: class Mapper
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/provider/mapper/PairMapper.java:5: error: package org.mapstruct does not exist
+import org.mapstruct.Mapper;
+                    ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/provider/mapper/PairMapper.java:12: error: cannot find symbol
+@Mapper(config = MapstructConfig.class, uses = SymbolMapper.class)
+ ^
+  symbol: class Mapper
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:7: error: package org.springframework.security.core.authority does not exist
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+                                                  ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:8: error: package org.springframework.security.core.userdetails does not exist
+import org.springframework.security.core.userdetails.User;
+                                                    ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:9: error: package org.springframework.security.crypto.password does not exist
+import org.springframework.security.crypto.password.PasswordEncoder;
+                                                   ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:30: error: cannot find symbol
+    private PasswordEncoder passwordEncoder;
+            ^
+  symbol:   class PasswordEncoder
+  location: class UserService
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:33: error: cannot find symbol
+    public User createLocalUser(String username, String plaintextPassword) {
+           ^
+  symbol:   class User
+  location: class UserService
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:48: error: cannot find symbol
+    public User createSocialUser(String username, UserProvider socialProvider, String socialProviderUserId, String email) {
+           ^
+  symbol:   class User
+  location: class UserService
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:65: error: cannot find symbol
+    public User updateSocialUser(String email, String username) {
+           ^
+  symbol:   class User
+  location: class UserService
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:83: error: cannot find symbol
+    public Optional<User> getUser(Integer userId) {
+                    ^
+  symbol:   class User
+  location: class UserService
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/symbol/mapper/SymbolMapper.java:5: error: package org.mapstruct does not exist
+import org.mapstruct.Mapper;
+                    ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/symbol/mapper/SymbolMapper.java:11: error: cannot find symbol
+@Mapper(config = MapstructConfig.class)
+ ^
+  symbol: class Mapper
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/portofolio/repository/AssetRepository.java:9: error: package org.springframework.security.core does not exist
+import org.springframework.security.core.Authentication;
+                                        ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:9: error: package org.springframework.security.authentication does not exist
+import org.springframework.security.authentication.AnonymousAuthenticationToken;
+                                                  ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:10: error: package org.springframework.security.core does not exist
+import org.springframework.security.core.Authentication;
+                                        ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:11: error: package org.springframework.security.core.context does not exist
+import org.springframework.security.core.context.SecurityContextHolder;
+                                                ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:3: error: package org.mapstruct does not exist
+import org.mapstruct.MapperConfig;
+                    ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:4: error: package org.mapstruct does not exist
+import org.mapstruct.ReportingPolicy;
+                    ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:6: error: cannot find symbol
+@MapperConfig(unmappedTargetPolicy = ReportingPolicy.ERROR, componentModel = "spring")
+ ^
+  symbol: class MapperConfig
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:7: error: package org.springframework.security.authentication does not exist
+import org.springframework.security.authentication.AuthenticationManager;
+                                                  ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:10: error: package org.springframework.security.crypto.bcrypt does not exist
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+                                                 ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:11: error: package org.springframework.security.crypto.password does not exist
+import org.springframework.security.crypto.password.PasswordEncoder;
+                                                   ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:12: error: package org.springframework.security.provisioning does not exist
+import org.springframework.security.provisioning.JdbcUserDetailsManager;
+                                                ^
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:19: error: cannot find symbol
+    public PasswordEncoder passwordEncoder() {
+           ^
+  symbol:   class PasswordEncoder
+  location: class SecurityConfig
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:24: error: cannot find symbol
+    public JdbcUserDetailsManager jdbcUserDetailsManager(DataSource ds) {
+           ^
+  symbol:   class JdbcUserDetailsManager
+  location: class SecurityConfig
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:32: error: cannot find symbol
+	public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception {
+	       ^
+  symbol:   class AuthenticationManager
+  location: class SecurityConfig
+/project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:6: error: cannot find symbol
+@MapperConfig(unmappedTargetPolicy = ReportingPolicy.ERROR, componentModel = "spring")
+                                     ^
+  symbol: variable ReportingPolicy
+29 errors
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ trading-common ---
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] Copying 7 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ trading-common ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 92 source files with javac [debug release 21] to target/classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/provider/mapper/PairMapper.java:[5,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/provider/mapper/PairMapper.java:[12,2] cannot find symbol
+  symbol: class Mapper
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/rate/mapper/RateMapper.java:[5,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/rate/mapper/RateMapper.java:[12,2] cannot find symbol
+  symbol: class Mapper
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/portofolio/repository/AssetRepository.java:[9,41] package org.springframework.security.core does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[7,51] package org.springframework.security.core.authority does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[8,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[9,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[30,13] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[33,12] cannot find symbol
+  symbol:   class User
+  location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[48,12] cannot find symbol
+  symbol:   class User
+  location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[65,12] cannot find symbol
+  symbol:   class User
+  location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[83,21] cannot find symbol
+  symbol:   class User
+  location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/symbol/mapper/SymbolMapper.java:[5,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/symbol/mapper/SymbolMapper.java:[11,2] cannot find symbol
+  symbol: class Mapper
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:[9,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:[10,41] package org.springframework.security.core does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:[11,49] package org.springframework.security.core.context does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[7,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[10,50] package org.springframework.security.crypto.bcrypt does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[11,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[12,49] package org.springframework.security.provisioning does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[19,12] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class fr.ymanvieu.trading.common.config.SecurityConfig
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[24,12] cannot find symbol
+  symbol:   class JdbcUserDetailsManager
+  location: class fr.ymanvieu.trading.common.config.SecurityConfig
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[32,16] cannot find symbol
+  symbol:   class AuthenticationManager
+  location: class fr.ymanvieu.trading.common.config.SecurityConfig
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:[3,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:[4,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:[6,2] cannot find symbol
+  symbol: class MapperConfig
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:[6,38] cannot find symbol
+  symbol: variable ReportingPolicy
+[INFO] 29 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for trading 5.0.0-SNAPSHOT:
+[INFO] 
+[INFO] trading ............................................ SUCCESS [  0.308 s]
+[INFO] trading-test ....................................... SUCCESS [  3.254 s]
+[INFO] trading-common ..................................... FAILURE [  9.100 s]
+[INFO] trading-data-collect ............................... SKIPPED
+[INFO] trading-webapp ..................................... SKIPPED
+[INFO] trading-gatling .................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.503 s
+[INFO] Finished at: 2026-09-11T19:42:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project trading-common: Compilation failure: Compilation failure: 
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/provider/mapper/PairMapper.java:[5,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/provider/mapper/PairMapper.java:[12,2] cannot find symbol
+[ERROR]   symbol: class Mapper
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/rate/mapper/RateMapper.java:[5,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/rate/mapper/RateMapper.java:[12,2] cannot find symbol
+[ERROR]   symbol: class Mapper
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/portofolio/repository/AssetRepository.java:[9,41] package org.springframework.security.core does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[7,51] package org.springframework.security.core.authority does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[8,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[9,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[30,13] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[33,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[48,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[65,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/user/UserService.java:[83,21] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class fr.ymanvieu.trading.common.user.UserService
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/symbol/mapper/SymbolMapper.java:[5,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/symbol/mapper/SymbolMapper.java:[11,2] cannot find symbol
+[ERROR]   symbol: class Mapper
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:[9,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:[10,41] package org.springframework.security.core does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/AuditingConfig.java:[11,49] package org.springframework.security.core.context does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[7,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[10,50] package org.springframework.security.crypto.bcrypt does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[11,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[12,49] package org.springframework.security.provisioning does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[19,12] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class fr.ymanvieu.trading.common.config.SecurityConfig
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[24,12] cannot find symbol
+[ERROR]   symbol:   class JdbcUserDetailsManager
+[ERROR]   location: class fr.ymanvieu.trading.common.config.SecurityConfig
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/SecurityConfig.java:[32,16] cannot find symbol
+[ERROR]   symbol:   class AuthenticationManager
+[ERROR]   location: class fr.ymanvieu.trading.common.config.SecurityConfig
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:[3,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:[4,21] package org.mapstruct does not exist
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:[6,2] cannot find symbol
+[ERROR]   symbol: class MapperConfig
+[ERROR] /project/trading-common/src/main/java/fr/ymanvieu/trading/common/config/MapstructConfig.java:[6,38] cannot find symbol
+[ERROR]   symbol: variable ReportingPolicy
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :trading-common

@@ -1,0 +1,44 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.geo-atlas.library:pyramid >--------------------
+[INFO] Building pyramid 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.8.1:analyze (default-cli) > test-compile @ pyramid >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pyramid ---
+[INFO] skip non existing resourceDirectory /project/library/mse/pyramid/src/main/resources
+[INFO] skip non existing resourceDirectory /project/library/mse/pyramid/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ pyramid ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pyramid ---
+[INFO] skip non existing resourceDirectory /project/library/mse/pyramid/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ pyramid ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< dependency:3.8.1:analyze (default-cli) < test-compile @ pyramid <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.8.1:analyze (default-cli) @ pyramid ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    com.google.guava:guava:jar:33.2.0-jre:compile
+[WARNING]    si.uom:si-units:jar:2.0.1:compile
+[WARNING]    org.apache.commons:commons-lang3:jar:3.17.0:compile
+[WARNING]    org.geotools:gt-cql:jar:28.5:compile
+[WARNING]    javax.measure:unit-api:jar:2.0:compile
+[WARNING]    org.geo-atlas.library:io:jar:1.0.0-SNAPSHOT:compile
+[WARNING]    org.geotools:gt-opengis:jar:28.5:compile
+[WARNING]    org.geotools:gt-metadata:jar:28.5:compile
+[WARNING]    jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+[WARNING] Unused declared dependencies found:
+[WARNING]    org.geotools:gt-epsg-hsql:jar:28.5:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.815 s
+[INFO] Finished at: 2026-06-16T08:50:21Z
+[INFO] ------------------------------------------------------------------------

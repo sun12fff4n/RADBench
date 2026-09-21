@@ -1,0 +1,41 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/resources/com/sebastian_daschner/coffee/beans/entity/neo4j-ogm.index\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/com/sebastian_daschner/coffee/user/entity/neo4j-ogm.index\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/ratings.js\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/style.css\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.smallrye.config.SmallRyeConfigFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.eclipse.microprofile.config.spi.Converter\\E"
+  }, {
+    "pattern":"\\QMETA-INF\\E"
+  }, {
+    "pattern":"\\Qapplication.properties\\E"
+  }, {
+    "pattern":"\\Qorg/jboss/threads/Version.properties\\E"
+  }, {
+    "pattern":"\\Qquarkus-build-time-runtime.properties\\E"
+  }, {
+    "pattern":"\\Qquarkus-runtime-config-defaults.properties\\E"
+  }, {
+    "pattern":"\\Qtemplates/index.html\\E"
+  }, {
+    "pattern":"\\Qtemplates/profile.html\\E"
+  }, {
+    "pattern":"java.base:\\Qsun/net/www/content-types.properties\\E"
+  }]},
+  "bundles":[{
+    "name":"org.glassfish.json.messages",
+    "locales":[""]
+  }, {
+    "name":"yasson-messages",
+    "locales":[""]
+  }]
+}

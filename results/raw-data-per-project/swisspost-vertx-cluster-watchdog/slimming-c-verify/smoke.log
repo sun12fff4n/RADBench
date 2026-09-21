@@ -1,0 +1,48 @@
+ Network vertx-cluster-watchdog_default Creating 
+ Network vertx-cluster-watchdog_default Created 
+ Volume vertx-cluster-watchdog_maven_cache Creating 
+ Volume vertx-cluster-watchdog_maven_cache Created 
+ Container vertx-cluster-watchdog-app Creating 
+ Container vertx-cluster-watchdog-app Created 
+ Container vertx-cluster-watchdog-app Starting 
+ Container vertx-cluster-watchdog-app Started 
+ Container vertx-cluster-watchdog-app Waiting 
+ Container vertx-cluster-watchdog-app Healthy 
+
+[0;34m== Cluster status endpoint — /clusterStatus ==[0m
+[0;32mPASS[0m GET  /clusterStatus (status field present)                   [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /clusterStatus (Content-Type: application/json)         [2m[200, header ✓][0m
+[0;32mPASS[0m GET  /clusterStatus (valid enum value)                       [2m[valid enum][0m
+[0;32mPASS[0m GET  /clusterStatus (HTTP reason = enum)                     [2m[status msg ✓][0m
+[0;32mPASS[0m GET  /admin/clusterStatus (regex route prefix)               [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /api/v1/clusterStatus (deep prefix)                     [2m[200, body ✓][0m
+
+[0;34m== Watchdog stats endpoint — /clusterWatchdogStats ==[0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (results array present)           [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (Content-Type: application/json)  [2m[200, header ✓][0m
+[0;32mPASS[0m GET  /admin/clusterWatchdogStats (regex prefix)              [2m[200, body ✓][0m
+
+[0;34m== Wait for watchdog interval — then verify CONSISTENT state ==[0m
+[2mWaiting for watchdog cycle (up to 15s)...[0m
+[0;32mPASS[0m GET  /clusterStatus (after interval → CONSISTENT)          [2m[CONSISTENT][0m
+
+[0;34m== WatchdogResult JSON schema — full field validation ==[0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (full WatchdogResult schema)      [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (has responder entries)           [2m[count=1][0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (verticleId is UUID)              [2m[UUID ✓][0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (time is date format)             [2m[date ✓][0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (broadcastTimestamp is millis)    [2m[millis ✓][0m
+
+[0;34m== Result accumulation — CircularFifoQueue grows over time ==[0m
+[2mWaiting for second watchdog cycle...[0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (multiple results accumulated)    [2m[count=2][0m
+[0;32mPASS[0m GET  /clusterWatchdogStats (newest-first ordering)           [2m[1790023610642 >= 1790023607643][0m
+
+[0;34m== Error paths — unmatched routes ==[0m
+[0;32mPASS[0m GET  /nonexistent (no matching route → 404)                [2m[404][0m
+[0;32mPASS[0m GET  / (root, no matching route → 404)                     [2m[404][0m
+[0;32mPASS[0m POST /clusterStatus (wrong method → 405)                   [2m[405][0m
+[0;32mPASS[0m POST /clusterWatchdogStats (wrong method → 405)            [2m[405][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 21/21 checks passed.[0m

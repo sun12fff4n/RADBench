@@ -1,0 +1,731 @@
+{
+  "project_id": "codeforkjeff-conciliator",
+  "tool": "depclean",
+  "module_type": "single",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "depclean_total": 69,
+  "nia_total_classes": 1085,
+  "nia_mapped_classes": 634,
+  "nia_proxy_recovered": 8,
+  "buckets": {
+    "used+hit": 25,
+    "used+nohit": 31,
+    "bloated+hit": 8,
+    "bloated+nohit": 5
+  },
+  "metrics": {
+    "tp": 5,
+    "fp": 8,
+    "tn": 25,
+    "fn": 31,
+    "precision": 0.3846,
+    "recall": 0.1389,
+    "f1": 0.2041
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-autoconfigure:2.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 31,
+        "static_all_classes": 1221,
+        "static_ratio": 0.025,
+        "nia_class_hits": 144,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot:2.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 203,
+        "static_all_classes": 922,
+        "static_ratio": 0.22,
+        "nia_class_hits": 98,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-context:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 423,
+        "static_all_classes": 892,
+        "static_ratio": 0.474,
+        "nia_class_hits": 59,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-webmvc:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 165,
+        "static_all_classes": 557,
+        "static_ratio": 0.296,
+        "nia_class_hits": 49,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-web:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 242,
+        "static_all_classes": 1010,
+        "static_ratio": 0.24,
+        "nia_class_hits": 45,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.ehcache:ehcache:3.9.9",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 694,
+        "static_all_classes": 1181,
+        "static_ratio": 0.588,
+        "nia_class_hits": 33,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.security:spring-security-config:5.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 176,
+        "static_all_classes": 560,
+        "static_ratio": 0.314,
+        "nia_class_hits": 32,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.security:spring-security-core:5.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 152,
+        "static_all_classes": 337,
+        "static_ratio": 0.451,
+        "nia_class_hits": 29,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.security:spring-security-web:5.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 272,
+        "static_all_classes": 455,
+        "static_ratio": 0.598,
+        "nia_class_hits": 23,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-core:9.0.65",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1174,
+        "static_all_classes": 1535,
+        "static_ratio": 0.765,
+        "nia_class_hits": 22,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-core:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 657,
+        "static_all_classes": 978,
+        "static_ratio": 0.672,
+        "nia_class_hits": 20,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-beans:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 285,
+        "static_all_classes": 388,
+        "static_ratio": 0.735,
+        "nia_class_hits": 18,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-context-support:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 46,
+        "static_all_classes": 119,
+        "static_ratio": 0.387,
+        "nia_class_hits": 12,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-aop:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 189,
+        "static_all_classes": 277,
+        "static_ratio": 0.682,
+        "nia_class_hits": 10,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.13.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 671,
+        "static_all_classes": 708,
+        "static_ratio": 0.948,
+        "nia_class_hits": 9,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 96,
+        "static_all_classes": 157,
+        "static_ratio": 0.611,
+        "nia_class_hits": 7,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.13.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 117,
+        "static_all_classes": 128,
+        "static_ratio": 0.914,
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "javax.cache:cache-api:1.1.1",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 55,
+        "static_all_classes": 62,
+        "static_ratio": 0.887,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 9,
+        "static_all_classes": 15,
+        "static_ratio": 0.6,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.13.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 71,
+        "static_all_classes": 72,
+        "static_ratio": 0.986,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:1.7.36",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 32,
+        "static_all_classes": 34,
+        "static_ratio": 0.941,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-to-slf4j:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 6,
+        "static_ratio": 1.0,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-api:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 121,
+        "static_all_classes": 180,
+        "static_ratio": 0.672,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.security:spring-security-crypto:5.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 32,
+        "static_all_classes": 47,
+        "static_ratio": 0.681,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-jcl:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 15,
+        "static_all_classes": 17,
+        "static_ratio": 0.882,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "ch.qos.logback:logback-core:1.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 254,
+        "static_all_classes": 354,
+        "static_ratio": 0.718,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-el:9.0.65",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 156,
+        "static_all_classes": 162,
+        "static_ratio": 0.963,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework:spring-expression:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 138,
+        "static_all_classes": 150,
+        "static_ratio": 0.92,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-test:2.7.3",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test:2.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test-autoconfigure:2.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.jayway.jsonpath:json-path:2.7.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.minidev:json-smart:2.4.8",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.minidev:accessors-smart:2.4.8",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.ow2.asm:asm:9.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:1.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.assertj:assertj-core:3.22.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.8.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.mockito:mockito-core:4.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.12.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy-agent:1.12.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.objenesis:objenesis:3.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.mockito:mockito-junit-jupiter:4.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.skyscreamer:jsonassert:1.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.vaadin.external.google:android-json:0.0.20131108.vaadin1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework:spring-test:5.3.22",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.xmlunit:xmlunit-core:2.9.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-websocket:9.0.65",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 183,
+        "static_ratio": 0.0,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:jul-to-slf4j:1.7.36",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 1,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 23,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 59,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-web:2.7.3",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-cache:2.7.3",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-security:2.7.3",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-starter:2.7.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-logging:2.7.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.yaml:snakeyaml:1.30",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 227,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-json:2.7.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-tomcat:2.7.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ]
+  },
+  "runtime_size": 29,
+  "static_size": 16,
+  "base_union_size": 30,
+  "anchor_size": 3,
+  "final_union_size": 33,
+  "missing_from_tree_count": 0
+}

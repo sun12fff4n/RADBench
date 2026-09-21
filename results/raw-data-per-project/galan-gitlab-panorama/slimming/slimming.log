@@ -1,0 +1,192 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< de.joblift:gitlab-panorama >---------------------
+[INFO] Building gitlab-panorama 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ gitlab-panorama ---
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+java.nio.file.NotDirectoryException: /META-INF/versions
+	at jdk.zipfs/jdk.nio.zipfs.ZipDirectoryStream.<init>(ZipDirectoryStream.java:58)
+	at jdk.zipfs/jdk.nio.zipfs.ZipPath.newDirectoryStream(ZipPath.java:755)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newDirectoryStream(ZipFileSystemProvider.java:262)
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:482)
+	at java.base/java.nio.file.Files.list(Files.java:3792)
+	at sootup.java.bytecode.inputlocation.PathBasedAnalysisInputLocation$MultiReleaseJarAnalysisInputLocation.<init>(PathBasedAnalysisInputLocation.java:282)
+	at sootup.java.bytecode.inputlocation.PathBasedAnalysisInputLocation$MultiReleaseJarAnalysisInputLocation.<init>(PathBasedAnalysisInputLocation.java:256)
+	at sootup.java.bytecode.inputlocation.PathBasedAnalysisInputLocation.<init>(PathBasedAnalysisInputLocation.java:109)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.inputLocationForPath(JavaClassPathAnalysisInputLocation.java:207)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.lambda$explodeClassPath$1(JavaClassPathAnalysisInputLocation.java:235)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:273)
+	at java.base/java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:174)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.explodeClassPath(JavaClassPathAnalysisInputLocation.java:236)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.explodeClassPath(JavaClassPathAnalysisInputLocation.java:221)
+	at sootup.java.bytecode.inputlocation.JavaClassPathAnalysisInputLocation.<init>(JavaClassPathAnalysisInputLocation.java:94)
+	at neu.lab.n.a.g(SootUpTools.java:76)
+	at neu.lab.SingleModuleMojo.bloatedDependencyCheck(SingleModuleMojo.java:259)
+	at neu.lab.SingleModuleMojo.execute(SingleModuleMojo.java:149)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] log4j.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] log4j.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] Redundant dependency com.google.j2objc:j2objc-annotations:1.3 release time Optional[2017-01-19] has not been maintained for 3386 days
+[WARNING] Redundant dependency org.checkerframework:checker-qual:3.12.0 release time Optional[2021-04-01] has not been maintained for 1854 days
+[WARNING] Redundant dependency javax.activation:activation:1.1.1 release time Optional[2009-10-23] has not been maintained for 6032 days
+[WARNING] Redundant dependency com.google.errorprone:error_prone_annotations:2.11.0 release time Optional[2022-01-25] has not been maintained for 1554 days
+[INFO] ALL DEPENDENCY[88]:
+[INFO]  USED DEPENDENCY[84]:
+[INFO]   USED DIRECT DEPENDENCY[9]:
+[INFO] 		org.springframework.boot:spring-boot-starter-test:3.0.3:test [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-web:3.0.3:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-validation:3.0.3:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-actuator:3.0.3:compile [4 KB]
+[INFO] 		de.galan:commons:2.0.2:compile [166 KB]
+[INFO] 		org.springframework.boot:spring-boot-configuration-processor:3.0.3:compile [118 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter:3.0.3:compile [4 KB]
+[INFO] 		org.fusesource.jansi:jansi:1.18:compile [280 KB]
+[INFO] 		org.projectlombok:lombok:1.18.26:compile [1 MB]
+[INFO]   USED TRANSITIVE DEPENDENCY[75]:
+[INFO] 		org.objenesis:objenesis:3.2:test [48 KB]
+[INFO] 		org.ow2.asm:asm:9.1:test [118 KB]
+[INFO] 		com.jayway.jsonpath:json-path:2.7.0:test [264 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-websocket:10.1.5:compile [270 KB]
+[INFO] 		io.micrometer:micrometer-core:1.10.4:compile [758 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		org.springframework.boot:spring-boot-test:3.0.3:test [240 KB]
+[INFO] 		jakarta.activation:jakarta.activation-api:2.1.1:test [65 KB]
+[INFO] 		com.fasterxml:classmate:1.5.1:compile [66 KB]
+[INFO] 		org.assertj:assertj-core:3.23.1:test [1 MB]
+[INFO] 		org.jboss.logging:jboss-logging:3.5.0.Final:compile [61 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.2:compile [34 KB]
+[INFO] 		com.google.code.findbugs:jsr305:3.0.2:compile [19 KB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:3.0.3:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-test-autoconfigure:3.0.3:test [220 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.2:compile [119 KB]
+[INFO] 		io.micrometer:micrometer-commons:1.10.4:compile [38 KB]
+[INFO] 		org.slf4j:jul-to-slf4j:2.0.6:compile [4 KB]
+[INFO] 		org.opentest4j:opentest4j:1.2.0:test [7 KB]
+[INFO] 		org.springframework.boot:spring-boot-actuator-autoconfigure:3.0.3:compile [671 KB]
+[INFO] 		org.yaml:snakeyaml:1.33:compile [323 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-json:3.0.3:compile [4 KB]
+[INFO] 		org.xmlunit:xmlunit-core:2.9.1:test [171 KB]
+[INFO] 		org.springframework.boot:spring-boot-actuator:3.0.3:compile [651 KB]
+[INFO] 		org.hamcrest:hamcrest:2.2:test [120 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.2:compile [9 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.9.2:test [566 KB]
+[INFO] 		org.springframework:spring-context:6.0.5:compile [1 MB]
+[INFO] 		org.springframework:spring-web:6.0.5:compile [1 MB]
+[INFO] 		org.junit.jupiter:junit-jupiter:5.9.2:test [6 KB]
+[INFO] 		org.hibernate.validator:hibernate-validator:8.0.0.Final:compile [1 MB]
+[INFO] 		com.vaadin.external.google:android-json:0.0.20131108.vaadin1:test [17 KB]
+[INFO] 		net.minidev:accessors-smart:2.4.8:test [28 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.9.2:test [202 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-logging:3.0.3:compile [4 KB]
+[INFO] 		io.micrometer:micrometer-observation:1.10.4:compile [64 KB]
+[INFO] 		org.hdrhistogram:HdrHistogram:2.1.12:runtime [169 KB]
+[INFO] 		org.apache.logging.log4j:log4j-to-slf4j:2.19.0:compile [18 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.12.23:test [3 MB]
+[INFO] 		net.bytebuddy:byte-buddy-agent:1.12.23:test [250 KB]
+[INFO] 		org.springframework:spring-jcl:6.0.5:compile [22 KB]
+[INFO] 		org.springframework.boot:spring-boot:3.0.3:compile [1 MB]
+[INFO] 		org.skyscreamer:jsonassert:1.5.1:test [29 KB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:4.0.0:test [124 KB]
+[INFO] 		org.mockito:mockito-junit-jupiter:4.8.1:test [5 KB]
+[INFO] 		jakarta.validation:jakarta.validation-api:3.0.2:compile [91 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-el:10.1.5:compile [251 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.14.2:compile [74 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:2.1.1:compile [25 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-guava:2.14.2:compile [86 KB]
+[INFO] 		ch.qos.logback:logback-core:1.4.5:compile [563 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.9.2:test [240 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.9.2:test [100 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.14.2:compile [1 MB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.14.2:compile [448 KB]
+[INFO] 		com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile [2 KB]
+[INFO] 		org.apache.logging.log4j:log4j-api:2.19.0:compile [310 KB]
+[INFO] 		net.minidev:json-smart:2.4.8:test [116 KB]
+[INFO] 		com.sun.mail:javax.mail:1.6.2:compile [643 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.9.2:test [184 KB]
+[INFO] 		org.springframework:spring-expression:6.0.5:compile [285 KB]
+[INFO] 		com.google.guava:guava:31.1-jre:compile [2 MB]
+[INFO] 		org.mockito:mockito-core:4.8.1:test [667 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.6:compile [61 KB]
+[INFO] 		org.springframework:spring-test:6.0.5:test [804 KB]
+[INFO] 		ch.qos.logback:logback-classic:1.4.5:compile [259 KB]
+[INFO] 		org.springframework:spring-beans:6.0.5:compile [824 KB]
+[INFO] 		org.latencyutils:LatencyUtils:2.0.3:runtime [29 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-core:10.1.5:compile [3 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-tomcat:3.0.3:compile [4 KB]
+[INFO] 		com.google.guava:failureaccess:1.0.1:compile [4 KB]
+[INFO] 		org.springframework:spring-core:6.0.5:compile [1 MB]
+[INFO] 		org.springframework:spring-aop:6.0.5:compile [387 KB]
+[INFO] 		org.springframework:spring-webmvc:6.0.5:compile [984 KB]
+[INFO] 		org.apache.commons:commons-lang3:3.12.0:compile [573 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[4]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[4]:
+[INFO] 		com.google.errorprone:error_prone_annotations:2.11.0:compile [15 KB]
+[INFO] 		org.checkerframework:checker-qual:3.12.0:compile [203 KB]
+[INFO] 		javax.activation:activation:1.1.1:compile [67 KB]
+[INFO] 		com.google.j2objc:j2objc-annotations:1.3:compile [8 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/galan-gitlab-panorama/bloatedOutput/dejobliftgitlabpanorama001SNAPSHOT/dejobliftgitlabpanorama001SNAPSHOT/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:53 h
+[INFO] Finished at: 2026-04-29T17:01:55+02:00
+[INFO] ------------------------------------------------------------------------

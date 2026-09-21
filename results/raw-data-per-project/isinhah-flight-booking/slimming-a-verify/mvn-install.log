@@ -1,0 +1,443 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.airline-ticket:api >-----------------------
+[INFO] Building api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ api ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 64 source files with javac [debug parameters release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[11,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[12,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[13,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[14,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[15,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[17,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[18,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[24,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.AuthController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[30,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.AuthController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[36,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.AuthController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[42,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.AuthController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[24,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.AuthControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[33,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.AuthControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[42,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.AuthControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[51,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.AuthControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/EmployeeControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[19,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[20,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/service/EmployeeService.java:[11,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[53,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.EmployeeController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[59,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.EmployeeController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[65,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.EmployeeController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/EmployeeControllerInterface.java:[62,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.EmployeeControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/EmployeeControllerInterface.java:[72,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.EmployeeControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/EmployeeControllerInterface.java:[81,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.EmployeeControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/FlightControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[20,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[21,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/service/FlightService.java:[11,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[83,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.FlightController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[89,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.FlightController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[95,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.FlightController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/FlightControllerInterface.java:[99,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.FlightControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/FlightControllerInterface.java:[108,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.FlightControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/FlightControllerInterface.java:[117,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.FlightControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/PassengerControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[19,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[20,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/service/PassengerService.java:[11,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[55,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.PassengerController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[61,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.PassengerController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[68,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.PassengerController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/PassengerControllerInterface.java:[63,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.PassengerControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/PassengerControllerInterface.java:[72,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.PassengerControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/PassengerControllerInterface.java:[81,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.PassengerControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/ReservationControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[19,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[20,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[54,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.ReservationController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[60,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.ReservationController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[66,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.ReservationController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/ReservationControllerInterface.java:[66,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.ReservationControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/ReservationControllerInterface.java:[76,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.ReservationControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/ReservationControllerInterface.java:[85,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.ReservationControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/SeatControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[19,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[20,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[57,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.SeatController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[63,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.SeatController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[69,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.SeatController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/SeatControllerInterface.java:[66,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.SeatControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/SeatControllerInterface.java:[76,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.SeatControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/SeatControllerInterface.java:[85,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.SeatControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/TicketControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[19,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[20,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/service/TicketService.java:[14,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[46,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.TicketController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[52,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.TicketController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[58,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.airline_ticket.api.controller.TicketController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/TicketControllerInterface.java:[57,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.TicketControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/TicketControllerInterface.java:[67,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.TicketControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/TicketControllerInterface.java:[76,5] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.airline_ticket.api.controller.swagger.TicketControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/ResourceNotFoundException.java:[3,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/ResourceNotFoundException.java:[4,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/ResourceNotFoundException.java:[6,2] cannot find symbol
+  symbol: class ResponseStatus
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[6,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[8,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[10,31] cannot find symbol
+  symbol:   class HttpRequestMethodNotSupportedException
+  location: package org.springframework.web
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[11,36] package org.springframework.web.bind does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.294 s
+[INFO] Finished at: 2026-09-11T19:38:33Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project api: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[11,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[12,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[13,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[14,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[15,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[17,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[18,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[24,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.AuthController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[30,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.AuthController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[36,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.AuthController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/AuthController.java:[42,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.AuthController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[24,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.AuthControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[33,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.AuthControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[42,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.AuthControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/AuthControllerInterface.java:[51,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.AuthControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/EmployeeControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[19,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[20,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/service/EmployeeService.java:[11,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[53,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.EmployeeController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[59,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.EmployeeController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[65,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.EmployeeController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/EmployeeControllerInterface.java:[62,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.EmployeeControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/EmployeeControllerInterface.java:[72,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.EmployeeControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/EmployeeControllerInterface.java:[81,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.EmployeeControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/EmployeeController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/FlightControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[20,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[21,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/service/FlightService.java:[11,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[83,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.FlightController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[89,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.FlightController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[95,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.FlightController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/FlightControllerInterface.java:[99,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.FlightControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/FlightControllerInterface.java:[108,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.FlightControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/FlightControllerInterface.java:[117,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.FlightControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/FlightController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/PassengerControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[19,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[20,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/service/PassengerService.java:[11,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[55,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.PassengerController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[61,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.PassengerController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[68,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.PassengerController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/PassengerControllerInterface.java:[63,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.PassengerControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/PassengerControllerInterface.java:[72,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.PassengerControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/PassengerControllerInterface.java:[81,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.PassengerControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/PassengerController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/ReservationControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[19,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[20,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[54,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.ReservationController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[60,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.ReservationController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[66,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.ReservationController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/ReservationControllerInterface.java:[66,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.ReservationControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/ReservationControllerInterface.java:[76,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.ReservationControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/ReservationControllerInterface.java:[85,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.ReservationControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/ReservationController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/SeatControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[19,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[20,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[57,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.SeatController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[63,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.SeatController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[69,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.SeatController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/SeatControllerInterface.java:[66,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.SeatControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/SeatControllerInterface.java:[76,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.SeatControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/SeatControllerInterface.java:[85,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.SeatControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/SeatController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[12,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/TicketControllerInterface.java:[13,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[19,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[20,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/src/main/java/com/airline_ticket/api/service/TicketService.java:[14,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[46,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.TicketController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[52,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.TicketController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[58,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.airline_ticket.api.controller.TicketController
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/TicketControllerInterface.java:[57,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.TicketControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/TicketControllerInterface.java:[67,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.TicketControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/swagger/TicketControllerInterface.java:[76,5] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.airline_ticket.api.controller.swagger.TicketControllerInterface
+[ERROR] /project/src/main/java/com/airline_ticket/api/controller/TicketController.java:[14,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/ResourceNotFoundException.java:[3,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/ResourceNotFoundException.java:[4,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/ResourceNotFoundException.java:[6,2] cannot find symbol
+[ERROR]   symbol: class ResponseStatus
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[6,31] package org.springframework.dao does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[8,32] package org.springframework.http does not exist
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[10,31] cannot find symbol
+[ERROR]   symbol:   class HttpRequestMethodNotSupportedException
+[ERROR]   location: package org.springframework.web
+[ERROR] /project/src/main/java/com/airline_ticket/api/exceptions/handler/GlobalExceptionHandler.java:[11,36] package org.springframework.web.bind does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

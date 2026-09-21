@@ -1,0 +1,379 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.sebastian-daschner:favorite-coffee >---------------
+[INFO] Building favorite-coffee 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.13.0/smallrye-common-annotation-1.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.13.0/smallrye-common-annotation-1.13.0.pom (2.1 kB at 2.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-parent/1.13.0/smallrye-common-parent-1.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-parent/1.13.0/smallrye-common-parent-1.13.0.pom (8.8 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/smallrye-parent/35/smallrye-parent-35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/smallrye-parent/35/smallrye-parent-35.pom (9.8 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6/jakarta.ejb-api-3.2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6/jakarta.ejb-api-3.2.6.pom (19 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.2/jakarta.transaction-api-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.2/jakarta.transaction-api-1.3.2.pom (13 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.pom (15 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/wildfly/common/wildfly-common/1.5.0.Final-format-001/wildfly-common-1.5.0.Final-format-001.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/wildfly/common/wildfly-common/1.5.0.Final-format-001/wildfly-common-1.5.0.Final-format-001.pom (7.3 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.pom (5.0 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/wildfly/common/wildfly-common/1.5.0.Final/wildfly-common-1.5.0.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/wildfly/common/wildfly-common/1.5.0.Final/wildfly-common-1.5.0.Final.pom (7.3 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom (6.4 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom (32 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny/0.4.3/mutiny-0.4.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny/0.4.3/mutiny-0.4.3.pom (3.0 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny-project/0.4.3/mutiny-project-0.4.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny-project/0.4.3/mutiny-project-0.4.3.pom (11 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/smallrye-parent/15/smallrye-parent-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/smallrye-parent/15/smallrye-parent-15.pom (39 kB at 138 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.5.0.Final/arquillian-bom-1.5.0.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.5.0.Final/arquillian-bom-1.5.0.Final.pom (9.1 kB at 38 kB/s)
+[INFO] Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.6/shrinkwrap-resolver-bom-2.2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.6/shrinkwrap-resolver-bom-2.2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.6/shrinkwrap-resolver-bom-2.2.6.pom (5.3 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny/1.6.0/mutiny-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny/1.6.0/mutiny-1.6.0.pom (8.6 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny-project/1.6.0/mutiny-project-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny-project/1.6.0/mutiny-project-1.6.0.pom (19 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.12.0/smallrye-common-annotation-1.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.12.0/smallrye-common-annotation-1.12.0.pom (2.1 kB at 7.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-parent/1.12.0/smallrye-common-parent-1.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-parent/1.12.0/smallrye-common-parent-1.12.0.pom (8.8 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/microprofile/config/microprofile-config-api/1.4/microprofile-config-api-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/microprofile/config/microprofile-config-api/1.4/microprofile-config-api-1.4.pom (5.2 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/microprofile/config/microprofile-config-parent/1.4/microprofile-config-parent-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/microprofile/config/microprofile-config-parent/1.4/microprofile-config-parent-1.4.pom (17 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/3.1.1.Final/jboss-threads-3.1.1.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/3.1.1.Final/jboss-threads-3.1.1.Final.pom (6.9 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.3.3/vertx-core-4.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.3.3/vertx-core-4.3.3.pom (32 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/4.3.3/vertx-dependencies-4.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/4.3.3/vertx-dependencies-4.3.3.pom (32 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.78.Final/netty-bom-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.78.Final/netty-bom-4.1.78.Final.pom (13 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.2.20220324/jackson-bom-2.13.2.20220324.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.2.20220324/jackson-bom-2.13.2.20220324.pom (17 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.pom (12 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.78.Final/netty-parent-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.78.Final/netty-parent-4.1.78.Final.pom (76 kB at 272 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.pom (1.6 kB at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.pom (1.9 kB at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.pom (1.6 kB at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.pom (3.9 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.pom (26 kB at 111 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.pom (4.4 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.78.Final/netty-handler-proxy-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.78.Final/netty-handler-proxy-4.1.78.Final.pom (2.8 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.78.Final/netty-codec-socks-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.78.Final/netty-codec-socks-4.1.78.Final.pom (2.0 kB at 6.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.pom (3.3 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.78.Final/netty-codec-http2-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.78.Final/netty-codec-http2-4.1.78.Final.pom (3.6 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.78.Final/netty-resolver-dns-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.78.Final/netty-resolver-dns-4.1.78.Final.pom (3.2 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.78.Final/netty-codec-dns-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.78.Final/netty-codec-dns-4.1.78.Final.pom (2.1 kB at 7.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.pom (5.5 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.2/jackson-base-2.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.2/jackson-base-2.13.2.pom (9.9 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.2/jackson-bom-2.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.2/jackson-bom-2.13.2.pom (17 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j/1.7.1/brotli4j-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j/1.7.1/brotli4j-1.7.1.pom (3.5 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j-parent/1.7.1/brotli4j-parent-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j-parent/1.7.1/brotli4j-parent-1.7.1.pom (6.3 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-x86_64/1.7.1/native-linux-x86_64-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-x86_64/1.7.1/native-linux-x86_64-1.7.1.pom (3.0 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/natives/1.7.1/natives-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/natives/1.7.1/natives-1.7.1.pom (3.1 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.pom (15 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom (5.1 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/annotation/jboss-annotations-api_1.3_spec/2.0.1.Final/jboss-annotations-api_1.3_spec-2.0.1.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/annotation/jboss-annotations-api_1.3_spec/2.0.1.Final/jboss-annotations-api_1.3_spec-2.0.1.Final.pom (12 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config/2.3.0/smallrye-config-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config/2.3.0/smallrye-config-2.3.0.pom (2.8 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-parent/2.3.0/smallrye-config-parent-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-parent/2.3.0/smallrye-config-parent-2.3.0.pom (5.7 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-bom/1.6.0/smallrye-common-bom-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-bom/1.6.0/smallrye-common-bom-1.6.0.pom (3.9 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-core/2.3.0/smallrye-config-core-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-core/2.3.0/smallrye-config-core-2.3.0.pom (4.7 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/microprofile/config/microprofile-config-api/2.0/microprofile-config-api-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/microprofile/config/microprofile-config-api/2.0/microprofile-config-api-2.0.pom (8.1 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/microprofile/config/microprofile-config-parent/2.0/microprofile-config-parent-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/microprofile/config/microprofile-config-parent/2.0/microprofile-config-parent-2.0.pom (21 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.6.0/smallrye-common-annotation-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.6.0/smallrye-common-annotation-1.6.0.pom (1.8 kB at 5.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-parent/1.6.0/smallrye-common-parent-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-parent/1.6.0/smallrye-common-parent-1.6.0.pom (6.7 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-expression/1.6.0/smallrye-common-expression-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-expression/1.6.0/smallrye-common-expression-1.6.0.pom (2.2 kB at 8.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-function/1.6.0/smallrye-common-function-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-function/1.6.0/smallrye-common-function-1.6.0.pom (1.6 kB at 5.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0.pom (1.9 kB at 8.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-classloader/1.6.0/smallrye-common-classloader-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-classloader/1.6.0/smallrye-common-classloader-1.6.0.pom (2.1 kB at 9.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.pom (2.4 kB at 9.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-common/2.3.0/smallrye-config-common-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-common/2.3.0/smallrye-config-common-2.3.0.pom (1.1 kB at 3.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.pom (6.0 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/yasson/1.0.9/yasson-1.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/yasson/1.0.9/yasson-1.0.9.pom (26 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config/2.11.1/smallrye-config-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config/2.11.1/smallrye-config-2.11.1.pom (2.8 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-parent/2.11.1/smallrye-config-parent-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-parent/2.11.1/smallrye-config-parent-2.11.1.pom (5.2 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-bom/1.13.0/smallrye-common-bom-1.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-bom/1.13.0/smallrye-common-bom-1.13.0.pom (4.4 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-core/2.11.1/smallrye-config-core-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-core/2.11.1/smallrye-config-core-2.11.1.pom (4.2 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-expression/1.13.0/smallrye-common-expression-1.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-expression/1.13.0/smallrye-common-expression-1.13.0.pom (2.8 kB at 3.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-function/1.13.0/smallrye-common-function-1.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-function/1.13.0/smallrye-common-function-1.13.0.pom (1.9 kB at 5.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-classloader/1.13.0/smallrye-common-classloader-1.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-classloader/1.13.0/smallrye-common-classloader-1.13.0.pom (2.4 kB at 8.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-common/2.11.1/smallrye-config-common-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-common/2.11.1/smallrye-config-common-2.11.1.pom (1.1 kB at 5.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-arc/2.15.2.Final/quarkus-arc-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-arc/2.15.2.Final/quarkus-arc-2.15.2.Final.pom (1.8 kB at 6.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-arc-parent/2.15.2.Final/quarkus-arc-parent-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-arc-parent/2.15.2.Final/quarkus-arc-parent-2.15.2.Final.pom (735 B at 3.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-extensions-parent/2.15.2.Final/quarkus-extensions-parent-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-extensions-parent/2.15.2.Final/quarkus-extensions-parent-2.15.2.Final.pom (8.5 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-build-parent/2.15.2.Final/quarkus-build-parent-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-build-parent/2.15.2.Final/quarkus-build-parent-2.15.2.Final.pom (65 kB at 255 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-parent/2.15.2.Final/quarkus-parent-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-parent/2.15.2.Final/quarkus-parent-2.15.2.Final.pom (16 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/arc/arc/2.15.2.Final/arc-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/arc/arc/2.15.2.Final/arc-2.15.2.Final.pom (1.5 kB at 4.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/arc/arc-parent/2.15.2.Final/arc-parent-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/arc/arc-parent/2.15.2.Final/arc-parent-2.15.2.Final.pom (22 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny/1.8.0/mutiny-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny/1.8.0/mutiny-1.8.0.pom (8.6 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny-project/1.8.0/mutiny-project-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny-project/1.8.0/mutiny-project-1.8.0.pom (20 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/smallrye-build-parent/37/smallrye-build-parent-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/smallrye-build-parent/37/smallrye-build-parent-37.pom (67 kB at 231 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-core/2.15.2.Final/quarkus-core-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-core/2.15.2.Final/quarkus-core-2.15.2.Final.pom (16 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-core-parent/2.15.2.Final/quarkus-core-parent-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-core-parent/2.15.2.Final/quarkus-core-parent-2.15.2.Final.pom (964 B at 4.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-ide-launcher/2.15.2.Final/quarkus-ide-launcher-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-ide-launcher/2.15.2.Final/quarkus-ide-launcher-2.15.2.Final.pom (2.8 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-development-mode-spi/2.15.2.Final/quarkus-development-mode-spi-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-development-mode-spi/2.15.2.Final/quarkus-development-mode-spi-2.15.2.Final.pom (759 B at 2.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config/2.13.0/smallrye-config-2.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config/2.13.0/smallrye-config-2.13.0.pom (4.2 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-parent/2.13.0/smallrye-config-parent-2.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-parent/2.13.0/smallrye-config-parent-2.13.0.pom (5.4 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/smallrye-parent/37/smallrye-parent-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/smallrye-parent/37/smallrye-parent-37.pom (10 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-bom/1.13.2/smallrye-common-bom-1.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-bom/1.13.2/smallrye-common-bom-1.13.2.pom (4.4 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/testing/smallrye-testing-bom/1.1.0/smallrye-testing-bom-1.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/testing/smallrye-testing-bom/1.1.0/smallrye-testing-bom-1.1.0.pom (4.5 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/testing/smallrye-testing-parent/1.1.0/smallrye-testing-parent-1.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/testing/smallrye-testing-parent/1.1.0/smallrye-testing-parent-1.1.0.pom (3.5 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-core/2.13.0/smallrye-config-core-2.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-core/2.13.0/smallrye-config-core-2.13.0.pom (4.2 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.13.2/smallrye-common-annotation-1.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.13.2/smallrye-common-annotation-1.13.2.pom (2.1 kB at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-parent/1.13.2/smallrye-common-parent-1.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-parent/1.13.2/smallrye-common-parent-1.13.2.pom (9.5 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-expression/1.13.2/smallrye-common-expression-1.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-expression/1.13.2/smallrye-common-expression-1.13.2.pom (2.8 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-function/1.13.2/smallrye-common-function-1.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-function/1.13.2/smallrye-common-function-1.13.2.pom (1.9 kB at 8.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-constraint/1.13.2/smallrye-common-constraint-1.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-constraint/1.13.2/smallrye-common-constraint-1.13.2.pom (2.1 kB at 6.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-classloader/1.13.2/smallrye-common-classloader-1.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-classloader/1.13.2/smallrye-common-classloader-1.13.2.pom (2.4 kB at 7.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.4/asm-9.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.4/asm-9.4.pom (2.4 kB at 8.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-common/2.13.0/smallrye-config-common-2.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-common/2.13.0/smallrye-config-common-2.13.0.pom (1.1 kB at 4.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logmanager/jboss-logmanager-embedded/1.0.11/jboss-logmanager-embedded-1.0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logmanager/jboss-logmanager-embedded/1.0.11/jboss-logmanager-embedded-1.0.11.pom (5.2 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/22.3.0/graal-sdk-22.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/22.3.0/graal-sdk-22.3.0.pom (1.4 kB at 5.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bootstrap-runner/2.15.2.Final/quarkus-bootstrap-runner-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bootstrap-runner/2.15.2.Final/quarkus-bootstrap-runner-2.15.2.Final.pom (3.5 kB at 3.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bootstrap-parent/2.15.2.Final/quarkus-bootstrap-parent-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bootstrap-parent/2.15.2.Final/quarkus-bootstrap-parent-2.15.2.Final.pom (21 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bootstrap-bom/2.15.2.Final/quarkus-bootstrap-bom-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bootstrap-bom/2.15.2.Final/quarkus-bootstrap-bom-2.15.2.Final.pom (21 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bootstrap-bom-test/2.15.2.Final/quarkus-bootstrap-bom-test-2.15.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bootstrap-bom-test/2.15.2.Final/quarkus-bootstrap-bom-test-2.15.2.Final.pom (3.0 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-io/1.13.2/smallrye-common-io-1.13.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-io/1.13.2/smallrye-common-io-1.13.2.pom (2.1 kB at 8.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.pom (3.2 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.pom (2.8 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.13.0/smallrye-common-annotation-1.13.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-annotation/1.13.0/smallrye-common-annotation-1.13.0.jar (7.0 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.3.3/vertx-core-4.3.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar (304 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar (43 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.78.Final/netty-handler-proxy-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar (653 kB at 204 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.78.Final/netty-codec-socks-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.3.3/vertx-core-4.3.3.jar (1.5 MB at 458 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.78.Final/netty-handler-proxy-4.1.78.Final.jar (24 kB at 7.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.78.Final/netty-codec-http2-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.78.Final/netty-codec-socks-4.1.78.Final.jar (119 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar (38 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.78.Final/netty-resolver-dns-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar (530 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.78.Final/netty-codec-dns-4.1.78.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar (481 kB at 118 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.78.Final/netty-resolver-dns-4.1.78.Final.jar (157 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j/1.7.1/brotli4j-1.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.78.Final/netty-codec-http2-4.1.78.Final.jar (474 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-x86_64/1.7.1/native-linux-x86_64-1.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar (639 kB at 142 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/annotation/jboss-annotations-api_1.3_spec/2.0.1.Final/jboss-annotations-api_1.3_spec-2.0.1.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/brotli4j/1.7.1/brotli4j-1.7.1.jar (41 kB at 8.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/annotation/jboss-annotations-api_1.3_spec/2.0.1.Final/jboss-annotations-api_1.3_spec-2.0.1.Final.jar (25 kB at 5.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config/2.11.1/smallrye-config-2.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config/2.11.1/smallrye-config-2.11.1.jar (34 kB at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-core/2.11.1/smallrye-config-core-2.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.jar (61 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-expression/1.13.0/smallrye-common-expression-1.13.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar (375 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-function/1.13.0/smallrye-common-function-1.13.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-expression/1.13.0/smallrye-common-expression-1.13.0.jar (20 kB at 3.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-classloader/1.13.0/smallrye-common-classloader-1.13.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-classloader/1.13.0/smallrye-common-classloader-1.13.0.jar (13 kB at 2.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-common/2.11.1/smallrye-config-common-2.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-core/2.11.1/smallrye-config-core-2.11.1.jar (261 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6/jakarta.ejb-api-3.2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/config/smallrye-config-common/2.11.1/smallrye-config-common-2.11.1.jar (11 kB at 1.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/common/smallrye-common-function/1.13.0/smallrye-common-function-1.13.0.jar (45 kB at 7.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-arc/2.15.2.Final/quarkus-arc-2.15.2.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar (43 kB at 7.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/arc/arc/2.15.2.Final/arc-2.15.2.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6/jakarta.ejb-api-3.2.6.jar (64 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-arc/2.15.2.Final/quarkus-arc-2.15.2.Final.jar (66 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar (100 kB at 15 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar (181 kB at 27 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/arc/arc/2.15.2.Final/arc-2.15.2.Final.jar (218 kB at 31 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.78.Final/netty-codec-dns-4.1.78.Final.jar (65 kB at 8.5 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/aayushatharva/brotli4j/native-linux-x86_64/1.7.1/native-linux-x86_64-1.7.1.jar (448 kB at 58 kB/s)
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ favorite-coffee ---
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ favorite-coffee ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 18 source files with javac [debug target 17] to target/classes
+[INFO] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java: /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java uses unchecked or unsafe operations.
+[INFO] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[5,34] package javax.json.bind.serializer does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[6,34] package javax.json.bind.serializer does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[9,46] cannot find symbol
+  symbol: class JsonbSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[7,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[14,2] cannot find symbol
+  symbol: class JsonbTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[12,67] cannot find symbol
+  symbol:   class SerializationContext
+  location: class com.sebastian_daschner.coffee.beans.FlavorTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[9,33] package org.neo4j.ogm.transaction does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[10,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[5,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/control/UserRatingTypeAdapter.java:[5,31] package javax.json.bind.adapter does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/control/UserRatingTypeAdapter.java:[7,47] cannot find symbol
+  symbol: class JsonbAdapter
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[35,6] cannot find symbol
+  symbol:   class JsonbTypeAdapter
+  location: class com.sebastian_daschner.coffee.beans.entity.CoffeeBean
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[16,6] cannot find symbol
+  symbol:   class JsonbTransient
+  location: class com.sebastian_daschner.coffee.beans.entity.FlavorProfile
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[11,5] method does not override or implement a method from a supertype
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[246,9] cannot find symbol
+  symbol:   class Transaction
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/control/UserRatingTypeAdapter.java:[9,5] method does not override or implement a method from a supertype
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/control/UserRatingTypeAdapter.java:[14,5] method does not override or implement a method from a supertype
+[INFO] 17 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  47.534 s
+[INFO] Finished at: 2026-09-11T19:41:57Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile) on project favorite-coffee: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[5,34] package javax.json.bind.serializer does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[6,34] package javax.json.bind.serializer does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[9,46] cannot find symbol
+[ERROR]   symbol: class JsonbSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[7,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[14,2] cannot find symbol
+[ERROR]   symbol: class JsonbTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[12,67] cannot find symbol
+[ERROR]   symbol:   class SerializationContext
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.FlavorTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[9,33] package org.neo4j.ogm.transaction does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[10,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[5,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/control/UserRatingTypeAdapter.java:[5,31] package javax.json.bind.adapter does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/control/UserRatingTypeAdapter.java:[7,47] cannot find symbol
+[ERROR]   symbol: class JsonbAdapter
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[35,6] cannot find symbol
+[ERROR]   symbol:   class JsonbTypeAdapter
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.entity.CoffeeBean
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[16,6] cannot find symbol
+[ERROR]   symbol:   class JsonbTransient
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.entity.FlavorProfile
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[11,5] method does not override or implement a method from a supertype
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[246,9] cannot find symbol
+[ERROR]   symbol:   class Transaction
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/control/UserRatingTypeAdapter.java:[9,5] method does not override or implement a method from a supertype
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/control/UserRatingTypeAdapter.java:[14,5] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

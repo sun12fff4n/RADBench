@@ -1,0 +1,48 @@
+{
+  "project_id": "InseeFr-Eno",
+  "module_type": "multi",
+  "modules": [
+    {
+      "modpath": "eno-core",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 12,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "InseeFr-Eno/slimming-c/eno-core/pom.xml"
+    },
+    {
+      "modpath": "eno-treatments",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 2,
+      "gray": 10,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "InseeFr-Eno/slimming-c/eno-treatments/pom.xml"
+    },
+    {
+      "modpath": "eno-ws",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 2,
+      "gray": 41,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "InseeFr-Eno/slimming-c/eno-ws/pom.xml"
+    }
+  ],
+  "variant": "conservative (red only, gray kept)",
+  "status": "ok",
+  "modules_ok": 3,
+  "modules_total": 3,
+  "total_direct_deleted": 0,
+  "total_transitive_excluded": 0
+}

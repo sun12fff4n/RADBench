@@ -1,0 +1,56 @@
+Project info>>>>/private/tmp/analysis-runs/apache-iotdb-extras/iotdb-collector/collector-openapi
+Project Name>>>>org.apache.iotdb:collector-openapi:2.0.4-SNAPSHOT
+OriginalSize>>>>9948KB
+BloatedSize>>>>421KB
+All Dependencies>>>>35
+Used Dependencies>>>>29
+Used Self Direct Dependency>>>>11
+Used Self Indirect Dependency>>>>18
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>6
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>6
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>6
+realBloated>>>>6
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>12673
+buildClassExtendGraphTime>>>>137
+buildCallGraphTime>>>>38582
+levelTime>>>>45
+stringTime>>>>4
+licenseCheckTime>>>>14796
+bugCheckTime>>>>365
+maintenanceTimeCheckTime>>>>1229
+checkTime>>>>69095
+repairTime>>>>24138
+mvnTestTime>>>>16315
+====================BloatedType=========================
+java Reflect>>>>3
+outdated>>>>6
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>3
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>753
+forName>>>>21
+loadClass>>>>5
+getClass>>>>248
+reflectEdges>>>>977
+unReflectEdges>>>>8
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><javax.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.jvnet.mimepull.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.apache.iotdb.collector.api.v1.task.TaskApi: void <init>(javax.servlet.ServletConfig)>
+unSolvedReflect>>>><javax.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>

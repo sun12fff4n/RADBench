@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Eno                                                                [pom]
+[INFO] Eno core                                                           [jar]
+[INFO] Eno specific treatments                                            [jar]
+[INFO] Eno web-service app                                                [jar]
+[INFO] 
+[INFO] --------------------------< fr.insee.eno:eno >--------------------------
+[INFO] Building Eno 3.62.0                                                [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ eno ---
+[INFO] Installing /project/pom.xml to /root/.m2/repository/fr/insee/eno/eno/3.62.0/eno-3.62.0.pom
+[INFO] 
+[INFO] -----------------------< fr.insee.eno:eno-core >------------------------
+[INFO] Building Eno core 3.62.0                                           [2/4]
+[INFO]   from eno-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eno-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ eno-core ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 265 source files with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eno-core ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ eno-core ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ eno-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ eno-core ---
+[INFO] Building jar: /project/eno-core/target/eno-core-3.62.0.jar
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ eno-core ---
+[INFO] Installing /project/eno-core/pom.xml to /root/.m2/repository/fr/insee/eno/eno-core/3.62.0/eno-core-3.62.0.pom
+[INFO] Installing /project/eno-core/target/eno-core-3.62.0.jar to /root/.m2/repository/fr/insee/eno/eno-core/3.62.0/eno-core-3.62.0.jar
+[INFO] 
+[INFO] --------------------< fr.insee.eno:eno-treatments >---------------------
+[INFO] Building Eno specific treatments 3.62.0                            [3/4]
+[INFO]   from eno-treatments/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eno-treatments ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ eno-treatments ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 16 source files with javac [debug parameters release 21] to target/classes
+[WARNING] /project/eno-treatments/src/main/java/fr/insee/eno/treatments/LunaticSuggesterSpecificTreatment.java:[68,26] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eno-treatments ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ eno-treatments ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ eno-treatments ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ eno-treatments ---
+[INFO] Building jar: /project/eno-treatments/target/eno-treatments-3.62.0.jar
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ eno-treatments ---
+[INFO] Installing /project/eno-treatments/pom.xml to /root/.m2/repository/fr/insee/eno/eno-treatments/3.62.0/eno-treatments-3.62.0.pom
+[INFO] Installing /project/eno-treatments/target/eno-treatments-3.62.0.jar to /root/.m2/repository/fr/insee/eno/eno-treatments/3.62.0/eno-treatments-3.62.0.jar
+[INFO] 
+[INFO] ------------------------< fr.insee.eno:eno-ws >-------------------------
+[INFO] Building Eno web-service app 3.62.0                                [4/4]
+[INFO]   from eno-ws/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eno-ws ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ eno-ws ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 35 source files with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eno-ws ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ eno-ws ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ eno-ws ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ eno-ws ---
+[INFO] Building jar: /project/eno-ws/target/eno-ws-3.62.0.jar
+[INFO] 
+[INFO] --- spring-boot:3.5.7:repackage (repackage) @ eno-ws ---
+[INFO] Replacing main artifact /project/eno-ws/target/eno-ws-3.62.0.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /project/eno-ws/target/eno-ws-3.62.0.jar.original
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ eno-ws ---
+[INFO] Installing /project/eno-ws/pom.xml to /root/.m2/repository/fr/insee/eno/eno-ws/3.62.0/eno-ws-3.62.0.pom
+[INFO] Installing /project/eno-ws/target/eno-ws-3.62.0.jar to /root/.m2/repository/fr/insee/eno/eno-ws/3.62.0/eno-ws-3.62.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Eno 3.62.0:
+[INFO] 
+[INFO] Eno ................................................ SUCCESS [  0.291 s]
+[INFO] Eno core ........................................... SUCCESS [ 15.035 s]
+[INFO] Eno specific treatments ............................ SUCCESS [  2.037 s]
+[INFO] Eno web-service app ................................ SUCCESS [  6.855 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.954 s
+[INFO] Finished at: 2026-09-11T19:31:55Z
+[INFO] ------------------------------------------------------------------------

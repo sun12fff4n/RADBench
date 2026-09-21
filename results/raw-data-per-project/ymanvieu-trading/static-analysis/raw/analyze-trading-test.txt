@@ -1,0 +1,37 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< fr.ymanvieu.trading:trading-test >------------------
+[INFO] Building trading-test 5.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.1:analyze (default-cli) > test-compile @ trading-test >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ trading-test ---
+[INFO] skip non existing resourceDirectory /project/trading-test/src/main/resources
+[INFO] skip non existing resourceDirectory /project/trading-test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ trading-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ trading-test ---
+[INFO] skip non existing resourceDirectory /project/trading-test/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ trading-test ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug release 21] to target/test-classes
+[INFO] 
+[INFO] <<< dependency:3.6.1:analyze (default-cli) < test-compile @ trading-test <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.1:analyze (default-cli) @ trading-test ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    org.junit.jupiter:junit-jupiter-api:jar:5.10.1:test
+[WARNING] Non-test scoped test only dependencies found:
+[WARNING]    org.assertj:assertj-core:jar:3.24.2:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.697 s
+[INFO] Finished at: 2026-06-16T09:20:42Z
+[INFO] ------------------------------------------------------------------------

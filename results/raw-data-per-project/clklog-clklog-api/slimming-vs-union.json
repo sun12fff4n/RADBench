@@ -1,0 +1,1560 @@
+{
+  "project_id": "clklog-clklog-api",
+  "tool": "slimming",
+  "module_type": "single",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "slimming_total": 122,
+  "slimming_counts": {
+    "used": 98,
+    "gray": 24
+  },
+  "nia_total_classes": 2382,
+  "nia_mapped_classes": 1561,
+  "nia_proxy_recovered": 34,
+  "res_txt": {
+    "Project info": "/private/tmp/analysis-runs/clklog-clklog-api",
+    "Project Name": "com.zcunsoft:clklog-api:1.2.1",
+    "OriginalSize": "85767KB",
+    "BloatedSize": "0KB",
+    "All Dependencies": "120",
+    "Used Dependencies": "120",
+    "Used Self Direct Dependency": "15",
+    "Used Self Indirect Dependency": "105",
+    "Used Inherit Direct Dependency": "0",
+    "Used Inherit indirect Dependency": "0",
+    "Unused Dependencies": "0",
+    "Unused Self Direct Dependency": "0",
+    "Unused Self Indirect Dependency": "0",
+    "Unused Inherit Direct Dependency": "0",
+    "Unused Inherit Indirect Dependency": "0",
+    "checkBloated": "0",
+    "realBloated": "0",
+    "unDeleteSelfDirectDependencies": "0",
+    "unDeleteSelfIndirectDependencies": "0",
+    "unDeleteUnusedInheritDirectDependencies": "0",
+    "unDeleteUnusedInheritIndirectDependencies": "0",
+    "configSootTime": "36726",
+    "buildClassExtendGraphTime": "412",
+    "buildCallGraphTime": "236272",
+    "levelTime": "169",
+    "stringTime": "22",
+    "licenseCheckTime": "7662",
+    "bugCheckTime": "166",
+    "maintenanceTimeCheckTime": "2",
+    "checkTime": "288000",
+    "repairTime": "15826",
+    "mvnTestTime": "0",
+    "java Reflect": "2",
+    "outdated": "0",
+    "vulnerable": "0",
+    "licenseConflict": "0",
+    "dependencyConflict": "0",
+    "SpringAPI": "42",
+    "TomcatAPI": "0",
+    ".class": "30648",
+    "forName": "161",
+    "loadClass": "189",
+    "getClass": "2407",
+    "reflectEdges": "32955",
+    "unReflectEdges": "72"
+  },
+  "buckets": {
+    "used+hit": 58,
+    "used+nohit": 40,
+    "bloated+hit": 0,
+    "bloated+nohit": 0,
+    "unloaded+hit": 18,
+    "unloaded+nohit": 6
+  },
+  "metrics": {
+    "tp": 0,
+    "fp": 0,
+    "tn": 76,
+    "fn": 46,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-actuator-autoconfigure:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 97,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-actuator:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 95,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.hibernate:hibernate-core:5.6.5.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 67,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-common:1.6.15",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 52,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.lettuce:lettuce-core:6.1.6.RELEASE",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 41,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-core:9.0.58",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 40,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.security:spring-security-config:5.6.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 35,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.micrometer:micrometer-core:1.8.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 32,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.projectreactor:reactor-core:3.4.15",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 31,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.data:spring-data-redis:2.6.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 30,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.security:spring-security-web:5.6.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 29,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.11.22",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 25,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-annotations:2.2.8",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 25,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-models:2.2.8",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 25,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.github.classgraph:classgraph:4.8.149",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 21,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.data:spring-data-jpa:2.6.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 17,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-orm:5.3.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 14,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-core:2.2.8",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 14,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-jdbc:5.3.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 13,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 12,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-transport:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 12,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-webmvc-core:1.6.15",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 11,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.2.10",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.zaxxer:HikariCP:4.0.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-ui:1.6.15",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:2.0.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-api:2.17.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.data:spring-data-keyvalue:2.6.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.hdrhistogram:HdrHistogram:2.1.12",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 5,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.13.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-context-support:5.3.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-websocket:9.0.58",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-to-slf4j:2.17.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.transaction:jakarta.transaction-api:1.3.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:1.7.36",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.2.10",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-oxm:5.3.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:jul-to-slf4j:1.7.36",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.sun.activation:jakarta.activation:1.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.hibernate.common:hibernate-commons-annotations:5.1.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.aspectj:aspectjweaver:1.9.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.reactivestreams:reactive-streams:1.0.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.webjars:webjars-locator-core:0.48",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-web:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.poi:poi-ooxml:5.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.commons:commons-collections4:4.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.poi:poi:5.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "commons-io:commons-io:2.11.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-actuator:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.jsonwebtoken:jjwt:0.9.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-data-jpa:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-data-redis:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-security:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.12.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "com.zcunsoft:clklog-api:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-tomcat:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-el:9.0.58",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-json:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-logging:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework:spring-jcl:5.3.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.commons:commons-compress:1.21",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.github.virtuald:curvesapi:1.07",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.poi:poi-ooxml-lite:5.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.latencyutils:LatencyUtils:2.0.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.projectlombok:lombok:1.18.22",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "antlr:antlr:2.7.7",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:2.3.6",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:3.0.12",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.5.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.jboss:jandex:2.4.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework:spring-aspects:5.3.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-aop:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-jdbc:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "commons-codec:commons-codec:1.15",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.zaxxer:SparseBitSet:1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.commons:commons-math3:3.6.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.74.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-tcnative-classes:2.0.48.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.security:spring-security-crypto:5.6.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.github.xiaoymin:knife4j-springdoc-ui:3.0.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.2.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.8.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.clickhouse:clickhouse-jdbc:http",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "0.4.6",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.webjars:swagger-ui:4.17.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.poi:poi-ooxml-schemas:4.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-configuration-processor:2.6.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ],
+    "bloated+hit": [],
+    "bloated+nohit": [],
+    "unloaded+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-autoconfigure:2.6.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 217,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot:2.6.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 112,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-context:5.3.16",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 68,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-web:5.3.16",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 56,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-webmvc:5.3.16",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 52,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.data:spring-data-commons:2.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 47,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.security:spring-security-core:5.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 37,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-core:5.3.16",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 30,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-beans:5.3.16",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 25,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-tx:5.3.16",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 25,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-aop:5.3.16",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 23,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.74.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 16,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.13.1",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 13,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.13.1",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.74.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.yaml:snakeyaml:1.29",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      }
+    ],
+    "unloaded+nohit": [
+      {
+        "gav": "org.springframework:spring-expression:5.3.16",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter:2.6.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.xmlbeans:xmlbeans:5.0.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.4.3.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.74.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.xmlbeans:xmlbeans:3.1.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ]
+  },
+  "runtime_size": 66,
+  "static_size": 33,
+  "base_union_size": 72,
+  "anchor_size": 5,
+  "final_union_size": 77,
+  "missing_from_tree_count": 0
+}

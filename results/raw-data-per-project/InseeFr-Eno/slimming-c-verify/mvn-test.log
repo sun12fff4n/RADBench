@@ -1,0 +1,930 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Eno                                                                [pom]
+[INFO] Eno core                                                           [jar]
+[INFO] Eno specific treatments                                            [jar]
+[INFO] Eno web-service app                                                [jar]
+[INFO] 
+[INFO] --------------------------< fr.insee.eno:eno >--------------------------
+[INFO] Building Eno 3.62.0                                                [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------------< fr.insee.eno:eno-core >------------------------
+[INFO] Building Eno core 3.62.0                                           [2/4]
+[INFO]   from eno-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eno-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ eno-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eno-core ---
+[INFO] Copying 159 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ eno-core ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 178 source files with javac [debug parameters release 21] to target/test-classes
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddControlFormatTest.java:[30,19] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddControlFormatTest.java:[35,15] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddControlFormatTest.java:[41,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddControlFormatTest.java:[280,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddControlFormatTest.java:[300,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddControlFormatTest.java:[334,15] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesPairwiseTest.java:[22,22] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesPairwiseTest.java:[24,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[103,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[281,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[297,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[306,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[315,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[324,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[333,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[342,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[352,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[361,15] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[371,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[408,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[418,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticAddMissingVariablesTest.java:[433,22] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticFilterResultTest.java:[49,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticFilterResultTest.java:[55,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticFilterResultTest.java:[153,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticFilterResultTest.java:[158,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticFinalizePairwiseTest.java:[41,23] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticFinalizePairwiseTest.java:[45,23] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticFinalizePairwiseTest.java:[92,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticQuestionComponentTest.java:[21,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticQuestionComponentTest.java:[25,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticQuestionComponentTest.java:[89,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticQuestionComponentTest.java:[93,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticQuestionComponentTest.java:[97,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticReverseConsistencyControlLabelTest.java:[114,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticReverseConsistencyControlLabelTest.java:[128,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticReverseConsistencyControlLabelTest.java:[135,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticReverseConsistencyControlLabelTest.java:[142,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticReverseConsistencyControlLabelTest.java:[149,15] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticReverseConsistencyControlLabelTest.java:[157,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/LunaticReverseConsistencyControlLabelTest.java:[190,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticAddPageNumbersUtils.java:[13,11] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticAddPageNumbersUtils.java:[21,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticAddPageNumbersUtils.java:[29,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticAddPageNumbersUtils.java:[38,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticAddPageNumbersUtils.java:[45,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticAddPageNumbersUtils.java:[51,15] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticAddPageNumbersUtils.java:[59,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticAddPageNumbersUtils.java:[73,22] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationAllModesTest.java:[26,53] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationQuestionModeTest.java:[23,53] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationQuestionModeTest.java:[25,37] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationQuestionModeTest.java:[30,65] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationQuestionModeTest.java:[39,55] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[26,21] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[28,19] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[30,19] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[32,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[82,22] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[84,19] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[86,22] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[88,19] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[90,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[144,21] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[146,19] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationTest.java:[148,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationWithFilterDescriptionTest.java:[15,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationWithFilterDescriptionTest.java:[20,23] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/LunaticPaginationWithFilterDescriptionTest.java:[43,37] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/PaginationSequenceFilterDescriptionTest.java:[15,55] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/PaginationSequenceFilterDescriptionTest.java:[19,55] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/PaginationSequenceFilterDescriptionTest.java:[37,39] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/pagination/PaginationSequenceFilterDescriptionTest.java:[41,39] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[52,24] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[56,32] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[117,24] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[122,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[131,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[136,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[141,19] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[146,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[151,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[156,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[161,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[184,22] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[208,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[351,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticLoopResizingLogicTest.java:[387,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/resizing/LunaticPairwiseResizingLogicTest.java:[30,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/shapefrom/LunaticShapeFromTest.java:[32,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/shapefrom/LunaticShapeFromTest.java:[35,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-core/src/test/java/fr/insee/eno/core/processing/out/steps/lunatic/shapefrom/LunaticShapeFromTest.java:[40,22] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ eno-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.SuggesterQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.440 s -- in fr.insee.eno.core.mapping.out.lunatic.SuggesterQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.ArticulationIntegrationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.918 s -- in fr.insee.eno.core.mapping.out.lunatic.ArticulationIntegrationTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.BooleanQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in fr.insee.eno.core.mapping.out.lunatic.BooleanQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.MultimodeIntegrationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.393 s -- in fr.insee.eno.core.mapping.out.lunatic.MultimodeIntegrationTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.PairwiseQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.PairwiseQuestionTest$UnitTestsPairwise
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.mapping.out.lunatic.PairwiseQuestionTest$UnitTestsPairwise
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.742 s -- in fr.insee.eno.core.mapping.out.lunatic.PairwiseQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.LabelTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in fr.insee.eno.core.mapping.out.lunatic.LabelTests
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.TableCellsFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 s -- in fr.insee.eno.core.mapping.out.lunatic.TableCellsFilterTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.CalculatedVariableTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.CalculatedVariableTest$IntegrationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.368 s -- in fr.insee.eno.core.mapping.out.lunatic.CalculatedVariableTest$IntegrationTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.395 s -- in fr.insee.eno.core.mapping.out.lunatic.CalculatedVariableTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.NumberQuestionTest
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lk6pzgni': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.669 s -- in fr.insee.eno.core.mapping.out.lunatic.NumberQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.DetailResponseTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in fr.insee.eno.core.mapping.out.lunatic.DetailResponseTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.StandaloneLoopTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.210 s -- in fr.insee.eno.core.mapping.out.lunatic.StandaloneLoopTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.DurationQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s -- in fr.insee.eno.core.mapping.out.lunatic.DurationQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.UniqueChoiceQuestionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in fr.insee.eno.core.mapping.out.lunatic.UniqueChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.NumericQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in fr.insee.eno.core.mapping.out.lunatic.NumericQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.ComponentFilterTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.ComponentFilterTest$IntegrationTestCalculated
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 s -- in fr.insee.eno.core.mapping.out.lunatic.ComponentFilterTest$IntegrationTestCalculated
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.ComponentFilterTest$IntegrationTestExtended
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.295 s -- in fr.insee.eno.core.mapping.out.lunatic.ComponentFilterTest$IntegrationTestExtended
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.ComponentFilterTest$IntegrationTestSimple
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 s -- in fr.insee.eno.core.mapping.out.lunatic.ComponentFilterTest$IntegrationTestSimple
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.662 s -- in fr.insee.eno.core.mapping.out.lunatic.ComponentFilterTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.MandatoryQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.300 s -- in fr.insee.eno.core.mapping.out.lunatic.MandatoryQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.ControlRowTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.188 s -- in fr.insee.eno.core.mapping.out.lunatic.ControlRowTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.TableCellsReadOnlyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 s -- in fr.insee.eno.core.mapping.out.lunatic.TableCellsReadOnlyTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.DateQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in fr.insee.eno.core.mapping.out.lunatic.DateQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.TextQuestionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 s -- in fr.insee.eno.core.mapping.out.lunatic.TextQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.SimpleUniqueChoiceQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 s -- in fr.insee.eno.core.mapping.out.lunatic.SimpleUniqueChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.TableQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s -- in fr.insee.eno.core.mapping.out.lunatic.TableQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.LoopTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in fr.insee.eno.core.mapping.out.lunatic.LoopTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.VariableTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in fr.insee.eno.core.mapping.out.lunatic.VariableTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.DynamicTableIntegrationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.360 s -- in fr.insee.eno.core.mapping.out.lunatic.DynamicTableIntegrationTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.MultipleChoiceQuestionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 s -- in fr.insee.eno.core.mapping.out.lunatic.MultipleChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.out.lunatic.DeclarationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 s -- in fr.insee.eno.core.mapping.out.lunatic.DeclarationTest
+[INFO] Running fr.insee.eno.core.mapping.in.SimpleMultipleChoiceQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.351 s -- in fr.insee.eno.core.mapping.in.SimpleMultipleChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.ComplexMultipleChoiceQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.335 s -- in fr.insee.eno.core.mapping.in.ComplexMultipleChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.NumericQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.274 s -- in fr.insee.eno.core.mapping.in.NumericQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.SubsequenceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.200 s -- in fr.insee.eno.core.mapping.in.SubsequenceTest
+[INFO] Running fr.insee.eno.core.mapping.in.TextQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s -- in fr.insee.eno.core.mapping.in.TextQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.SuggesterQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s -- in fr.insee.eno.core.mapping.in.pogues.SuggesterQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.EnoQuestionnaireTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s -- in fr.insee.eno.core.mapping.in.pogues.EnoQuestionnaireTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.SimpleMultipleChoiceQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in fr.insee.eno.core.mapping.in.pogues.SimpleMultipleChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.CodeListTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in fr.insee.eno.core.mapping.in.pogues.CodeListTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.ResponseCellTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in fr.insee.eno.core.mapping.in.pogues.ResponseCellTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.CalculatedExpressionTest
+2026-09-21 19:52 WARN  f.i.e.c.m.c.CalculatedExpression - Name 'ANOTHER_GHOST' used in expression:
+"Value with " || $ANOTHER_GHOST$
+does not match any variable.
+[WARNING] Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.131 s -- in fr.insee.eno.core.mapping.in.pogues.CalculatedExpressionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.DynamicLabelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in fr.insee.eno.core.mapping.in.pogues.DynamicLabelTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.ComplexMultipleChoiceQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in fr.insee.eno.core.mapping.in.pogues.ComplexMultipleChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.DynamicTableQuestionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s -- in fr.insee.eno.core.mapping.in.pogues.DynamicTableQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.UniqueChoiceQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in fr.insee.eno.core.mapping.in.pogues.UniqueChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.NumericQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in fr.insee.eno.core.mapping.in.pogues.NumericQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.TextQuestionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in fr.insee.eno.core.mapping.in.pogues.TextQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.RoundaboutSequenceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 s -- in fr.insee.eno.core.mapping.in.pogues.RoundaboutSequenceTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.StructureItemReferenceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 s -- in fr.insee.eno.core.mapping.in.pogues.StructureItemReferenceTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.LabelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in fr.insee.eno.core.mapping.in.pogues.LabelTest
+[INFO] Running fr.insee.eno.core.mapping.in.pogues.TableQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in fr.insee.eno.core.mapping.in.pogues.TableQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.SequenceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.228 s -- in fr.insee.eno.core.mapping.in.SequenceTest
+[INFO] Running fr.insee.eno.core.mapping.in.ControlTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.170 s -- in fr.insee.eno.core.mapping.in.ControlTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.PairwiseQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s -- in fr.insee.eno.core.mapping.in.ddi.PairwiseQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.TableWithNoDataCellTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s -- in fr.insee.eno.core.mapping.in.ddi.TableWithNoDataCellTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.EnoQuestionnaireTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s -- in fr.insee.eno.core.mapping.in.ddi.EnoQuestionnaireTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.SimpleMultipleChoiceQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s -- in fr.insee.eno.core.mapping.in.ddi.SimpleMultipleChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.DurationQuestionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 s -- in fr.insee.eno.core.mapping.in.ddi.DurationQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.DynamicTableQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 s -- in fr.insee.eno.core.mapping.in.ddi.DynamicTableQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.UniqueChoiceQuestionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in fr.insee.eno.core.mapping.in.ddi.UniqueChoiceQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.DateQuestionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s -- in fr.insee.eno.core.mapping.in.ddi.DateQuestionTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.VariableUnitTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 s -- in fr.insee.eno.core.mapping.in.ddi.VariableUnitTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.CodeListSuggesterTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.300 s -- in fr.insee.eno.core.mapping.in.ddi.CodeListSuggesterTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.RoundaboutSequenceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s -- in fr.insee.eno.core.mapping.in.ddi.RoundaboutSequenceTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.ControlTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.ControlTest$IntegrationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s -- in fr.insee.eno.core.mapping.in.ddi.ControlTest$IntegrationTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s -- in fr.insee.eno.core.mapping.in.ddi.ControlTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.LoopTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.LoopTest$SubsequenceExtendedLoopsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s -- in fr.insee.eno.core.mapping.in.ddi.LoopTest$SubsequenceExtendedLoopsTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.LoopTest$SequenceExtendedLoopsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s -- in fr.insee.eno.core.mapping.in.ddi.LoopTest$SequenceExtendedLoopsTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.LoopTest$SubsequenceLoopsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s -- in fr.insee.eno.core.mapping.in.ddi.LoopTest$SubsequenceLoopsTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.LoopTest$SequenceLoopsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s -- in fr.insee.eno.core.mapping.in.ddi.LoopTest$SequenceLoopsTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.491 s -- in fr.insee.eno.core.mapping.in.ddi.LoopTest
+[INFO] Running fr.insee.eno.core.mapping.in.ddi.VariableGroupTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.219 s -- in fr.insee.eno.core.mapping.in.ddi.VariableGroupTest
+[INFO] Running fr.insee.eno.core.mapping.in.VariableTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.459 s -- in fr.insee.eno.core.mapping.in.VariableTest
+[INFO] Running fr.insee.eno.core.mapping.in.DeclarationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 s -- in fr.insee.eno.core.mapping.in.DeclarationTest
+[INFO] Running fr.insee.eno.core.PoguesDDIToLunaticTest
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'm4be3n1t': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'm4behj1c': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'm4beg559': year-from-date(current-date())
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'm4be3n1t': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'm4behj1c': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'm4beg559': year-from-date(current-date())
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lk6pzgni': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lk6pzgni': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'ljintclc': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'liudjf9l': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'ljintclc': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:52 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'liudjf9l': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+line 1:244 extraneous input ')' expecting ';'
+line 1:244 extraneous input ')' expecting ';'
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.19 s -- in fr.insee.eno.core.PoguesDDIToLunaticTest
+[INFO] Running fr.insee.eno.core.PoguesToLunaticTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 s -- in fr.insee.eno.core.PoguesToLunaticTest
+[INFO] Running fr.insee.eno.core.DDIToLunaticTest
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lr11upfe': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lr11wjd6': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lr11j70b': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lr11xkd9': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lr12dlcj': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'lr12b3vu': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'l0b5t4q1': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'ls8zwnte': format-date(current-date(),'[Y0001]-[M01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'ljintclc': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'liudjf9l': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+line 1:244 extraneous input ')' expecting ';'
+line 1:3 token recognition error at: '$'
+line 1:3 token recognition error at: '$'
+line 1:3 token recognition error at: '$'
+line 1:9 token recognition error at: '$'
+line 1:3 token recognition error at: '$'
+[INFO] Running DDI to Lunatic, functional test with 'l20g2ba7'
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.022 s -- in DDI to Lunatic, functional test with 'l20g2ba7'
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.49 s -- in fr.insee.eno.core.DDIToLunaticTest
+[INFO] Running fr.insee.eno.core.converter.LunaticConverterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in fr.insee.eno.core.converter.LunaticConverterTest
+[INFO] Running fr.insee.eno.core.converter.DDIQuestionGridConversionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in fr.insee.eno.core.converter.DDIQuestionGridConversionTest
+[INFO] Running fr.insee.eno.core.converter.DDIConverterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.converter.DDIConverterTest
+[INFO] Running fr.insee.eno.core.converter.DDIQuestionItemConversionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in fr.insee.eno.core.converter.DDIQuestionItemConversionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.resizing.LunaticPairwiseResizingLogicTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in fr.insee.eno.core.processing.out.steps.lunatic.resizing.LunaticPairwiseResizingLogicTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.resizing.LunaticAddResizingTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s -- in fr.insee.eno.core.processing.out.steps.lunatic.resizing.LunaticAddResizingTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.resizing.LunaticLoopResizingLogicTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in fr.insee.eno.core.processing.out.steps.lunatic.resizing.LunaticLoopResizingLogicTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.resizing.LunaticRosterResizingLogicTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.170 s -- in fr.insee.eno.core.processing.out.steps.lunatic.resizing.LunaticRosterResizingLogicTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticAddPageNumbersQuestionModeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticAddPageNumbersQuestionModeTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticAddPageNumbersSequenceModeTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticAddPageNumbersSequenceModeTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationFunctionalTests
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.379 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationFunctionalTests
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationWithFilterDescriptionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationWithFilterDescriptionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.PaginationSequenceFilterDescriptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.PaginationSequenceFilterDescriptionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationAllModesTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationAllModesTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest$LoopOnSubsequence
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest$LoopOnSubsequence
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest$LoopOnSequenceMinMaxEquals
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest$LoopOnSequenceMinMaxEquals
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest$LoopOnTwoSequences
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest$LoopOnTwoSequences
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest$LoopOnSequence
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest$LoopOnSequence
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationQuestionModeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 s -- in fr.insee.eno.core.processing.out.steps.lunatic.pagination.LunaticPaginationQuestionModeTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticSortComponentsTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticSortComponentsTest$IntegrationTests
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.690 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticSortComponentsTest$IntegrationTests
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.693 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticSortComponentsTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddControlFormatTest
+2026-09-21 19:53 WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'datepicker-id': year-from-date(current-date())
+2026-09-21 19:53 ERROR f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for min date of question 'datepicker-id': Date 'invalid-min' is invalid or doesn't match format 'YYYY-MM-DD'.
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddControlFormatTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddMissingVariablesPairwiseTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddMissingVariablesPairwiseTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopFilterIntegrationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopFilterIntegrationTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticFilterResultTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticFilterResultTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest$RoundaboutWithExcept
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest$RoundaboutWithExcept
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest$RoundaboutWithControls
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest$RoundaboutWithControls
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest$RoundaboutOnSubsequence
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.060 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest$RoundaboutOnSubsequence
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest$RoundaboutOnSequence
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest$RoundaboutOnSequence
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.244 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticRoundaboutLoopsTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticDateDescriptionTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticDateDescriptionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticFinalizePairwiseTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticFinalizePairwiseTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.shapefrom.LunaticShapeFromTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s -- in fr.insee.eno.core.processing.out.steps.lunatic.shapefrom.LunaticShapeFromTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.shapefrom.LunaticHierarchyShapeFromTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s -- in fr.insee.eno.core.processing.out.steps.lunatic.shapefrom.LunaticHierarchyShapeFromTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticSuggesterOptionResponsesTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.339 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticSuggesterOptionResponsesTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticDurationDescriptionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticDurationDescriptionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticQuestionComponentTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticQuestionComponentTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddFilterDescriptionTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.224 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddFilterDescriptionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticReverseConsistencyControlLabelTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticReverseConsistencyControlLabelTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.table.TableQuestionProcessingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in fr.insee.eno.core.processing.out.steps.lunatic.table.TableQuestionProcessingTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.table.LunaticTableProcessingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.183 s -- in fr.insee.eno.core.processing.out.steps.lunatic.table.LunaticTableProcessingTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.table.LeftColumnCellsProcessingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in fr.insee.eno.core.processing.out.steps.lunatic.table.LeftColumnCellsProcessingTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.table.ComputeCodeListSizesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in fr.insee.eno.core.processing.out.steps.lunatic.table.ComputeCodeListSizesTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.table.DynamicTableQuestionProcessingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s -- in fr.insee.eno.core.processing.out.steps.lunatic.table.DynamicTableQuestionProcessingTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticInsertUniqueChoiceDetailsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticInsertUniqueChoiceDetailsTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticSuggesterConfigurationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.350 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticSuggesterConfigurationTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticVariableDimensionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.190 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticVariableDimensionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddControlMandatoryTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddControlMandatoryTest$IntegrationTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddControlMandatoryTest$IntegrationTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.220 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddControlMandatoryTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticInputNumberDescriptionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticInputNumberDescriptionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticSequenceDescriptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticSequenceDescriptionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.cleaning.LunaticAddCleaningTest
+2026-09-21 19:53 WARN  f.i.e.c.m.c.CalculatedExpression - Name 'TAB13' used in expression:
+nvl($TAB13$,0) > 0 and nvl($TAB12$,0) > 0 and nvl($TAB13$,0) > nvl($TAB12$,0)
+does not match any variable.
+2026-09-21 19:53 WARN  f.i.e.c.m.c.CalculatedExpression - Name 'TAB12' used in expression:
+nvl($TAB13$,0) > 0 and nvl($TAB12$,0) > 0 and nvl($TAB13$,0) > nvl($TAB12$,0)
+does not match any variable.
+2026-09-21 19:53 WARN  f.i.e.c.m.c.CalculatedExpression - Name 'TAB13' used in expression:
+nvl($TAB13$,0) > 0 and nvl($TAB12$,0) > 0 and nvl($TAB13$,0) > nvl($TAB12$,0)
+does not match any variable.
+2026-09-21 19:53 WARN  f.i.e.c.m.c.CalculatedExpression - Name 'TAB12' used in expression:
+nvl($TAB13$,0) > 0 and nvl($TAB12$,0) > 0 and nvl($TAB13$,0) > nvl($TAB12$,0)
+does not match any variable.
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.742 s -- in fr.insee.eno.core.processing.out.steps.lunatic.cleaning.LunaticAddCleaningTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.cleaning.CleaningUtilsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s -- in fr.insee.eno.core.processing.out.steps.lunatic.cleaning.CleaningUtilsTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddMissingVariablesTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticAddMissingVariablesTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$LinkedLoopBasedOnDynamicTable
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$LinkedLoopBasedOnDynamicTable
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$LoopWithExcept
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$LoopWithExcept
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$TestWithLargeQuestionnaire
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.660 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$TestWithLargeQuestionnaire
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$IntegrationTest4
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$IntegrationTest4
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$IntegrationTest3
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$IntegrationTest3
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$IntegrationTest2
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$IntegrationTest2
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$IntegrationTest1
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest$IntegrationTest1
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.085 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticLoopResolutionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.control.DurationControlMessageTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.control.DurationControlMessageTest$HourMinuteCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in fr.insee.eno.core.processing.out.steps.lunatic.control.DurationControlMessageTest$HourMinuteCase
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.control.DurationControlMessageTest$YearMonthCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in fr.insee.eno.core.processing.out.steps.lunatic.control.DurationControlMessageTest$YearMonthCase
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in fr.insee.eno.core.processing.out.steps.lunatic.control.DurationControlMessageTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.control.LunaticTableControlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.140 s -- in fr.insee.eno.core.processing.out.steps.lunatic.control.LunaticTableControlTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.control.DurationControlExpressionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in fr.insee.eno.core.processing.out.steps.lunatic.control.DurationControlExpressionTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.control.LunaticDurationControlTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s -- in fr.insee.eno.core.processing.out.steps.lunatic.control.LunaticDurationControlTest
+[INFO] Running fr.insee.eno.core.processing.out.steps.lunatic.LunaticResponseTimeQuestionPaginationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in fr.insee.eno.core.processing.out.steps.lunatic.LunaticResponseTimeQuestionPaginationTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.pogues.PoguesEditUnitLabelTypeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.090 s -- in fr.insee.eno.core.processing.in.steps.pogues.PoguesEditUnitLabelTypeTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.pogues.PoguesResolveLoopScopeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in fr.insee.eno.core.processing.in.steps.pogues.PoguesResolveLoopScopeTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.pogues.PoguesNestedCodeListsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s -- in fr.insee.eno.core.processing.in.steps.pogues.PoguesNestedCodeListsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.pogues.PoguesRoundaboutLoopsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s -- in fr.insee.eno.core.processing.in.steps.pogues.PoguesRoundaboutLoopsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.pogues.PoguesSortLoopsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 s -- in fr.insee.eno.core.processing.in.steps.pogues.PoguesSortLoopsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.pogues.PoguesCheckFilterModeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.in.steps.pogues.PoguesCheckFilterModeTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.pogues.PoguesCheckExpressionLanguageTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.in.steps.pogues.PoguesCheckExpressionLanguageTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDICleanUpQuestionnaireIdTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDICleanUpQuestionnaireIdTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveVariableReferencesInExpressionsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveVariableReferencesInExpressionsTest$OverlappingCases
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveVariableReferencesInExpressionsTest$OverlappingCases
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveVariableReferencesInExpressionsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIInsertMultipleChoiceLabelsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIInsertMultipleChoiceLabelsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIInsertControlsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.201 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIInsertControlsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIInsertResponseInTableCellsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIInsertResponseInTableCellsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIInsertCodeListsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIInsertCodeListsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveSequencesStructureTest
+[INFO] Running Larger tests with 'l20g2ba7'
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.603 s -- in Larger tests with 'l20g2ba7'
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.607 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveSequencesStructureTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIMoveUnitInQuestionsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIMoveUnitInQuestionsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIMarkRoundaboutFiltersTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIMarkRoundaboutFiltersTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIMarkRowControlsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIMarkRowControlsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$LoopWithExceptTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$LoopWithExceptTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$SubsequenceExtendedLoopsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$SubsequenceExtendedLoopsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$SequenceExtendedLoopsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$SequenceExtendedLoopsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$SubsequenceLoopsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$SubsequenceLoopsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$SequenceLoopsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest$SequenceLoopsTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.280 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveLoopsScopeTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIInsertDeclarationsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.320 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIInsertDeclarationsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveFiltersScopeTest
+[INFO] Running Nested filters
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 s -- in Nested filters
+[INFO] Running Filters on several items
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s -- in Filters on several items
+[INFO] Running Simple filters
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s -- in Simple filters
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.311 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveFiltersScopeTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIInsertDetailResponsesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIInsertDetailResponsesTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIInsertNoDataCellLabelsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.100 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIInsertNoDataCellLabelsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveVariableReferencesInLabelsTest
+[INFO] Running fr.insee.eno.core.processing.in.steps.ddi.DDIResolveVariableReferencesInLabelsTest$IntegrationTestLabels
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.090 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveVariableReferencesInLabelsTest$IntegrationTestLabels
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.256 s -- in fr.insee.eno.core.processing.in.steps.ddi.DDIResolveVariableReferencesInLabelsTest
+[INFO] Running fr.insee.eno.core.processing.common.steps.EnoAddCommentSectionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.060 s -- in fr.insee.eno.core.processing.common.steps.EnoAddCommentSectionTest
+[INFO] Running fr.insee.eno.core.processing.common.steps.EnoInsertComponentFiltersTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in fr.insee.eno.core.processing.common.steps.EnoInsertComponentFiltersTest
+[INFO] Running fr.insee.eno.core.processing.common.steps.EnoAddResponseTimeSectionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s -- in fr.insee.eno.core.processing.common.steps.EnoAddResponseTimeSectionTest
+[INFO] Running fr.insee.eno.core.processing.common.steps.EnoAddIdentificationSectionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s -- in fr.insee.eno.core.processing.common.steps.EnoAddIdentificationSectionTest
+[INFO] Running fr.insee.eno.core.processing.common.steps.EnoAddNumberingInSequencesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in fr.insee.eno.core.processing.common.steps.EnoAddNumberingInSequencesTest
+[INFO] Running fr.insee.eno.core.processing.common.steps.EnoCleanTooltipsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s -- in fr.insee.eno.core.processing.common.steps.EnoCleanTooltipsTest
+[INFO] Running fr.insee.eno.core.processing.common.steps.EnoAddPrefixInQuestionLabelsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in fr.insee.eno.core.processing.common.steps.EnoAddPrefixInQuestionLabelsTest
+[INFO] Running fr.insee.eno.core.serialize.DDIDeserializerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in fr.insee.eno.core.serialize.DDIDeserializerTest
+[INFO] Running fr.insee.eno.core.serialize.DDISuggesterDeserializerTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.070 s -- in fr.insee.eno.core.serialize.DDISuggesterDeserializerTest
+[INFO] Running fr.insee.eno.core.serialize.PoguesDeserializerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 s -- in fr.insee.eno.core.serialize.PoguesDeserializerTest
+[INFO] Running fr.insee.eno.core.utils.vtl.VtlSyntaxUtilsTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in fr.insee.eno.core.utils.vtl.VtlSyntaxUtilsTest
+[INFO] Running fr.insee.eno.core.utils.TooltipUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in fr.insee.eno.core.utils.TooltipUtilsTest
+[INFO] Running fr.insee.eno.core.DDIToEnoTest
+[INFO] Running DDI to Eno, functional test with 'l20g2ba7'
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.481 s -- in DDI to Eno, functional test with 'l20g2ba7'
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.312 s -- in fr.insee.eno.core.DDIToEnoTest
+[INFO] Running fr.insee.eno.core.sandbox.SpelTests
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in fr.insee.eno.core.sandbox.SpelTests
+[INFO] Running fr.insee.eno.core.sandbox.SandboxTests
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in fr.insee.eno.core.sandbox.SandboxTests
+[INFO] Running fr.insee.eno.core.sandbox.AnnotationTests
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in fr.insee.eno.core.sandbox.AnnotationTests
+[INFO] Running fr.insee.eno.core.sandbox.DDITests
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s -- in fr.insee.eno.core.sandbox.DDITests
+[INFO] Running fr.insee.eno.core.HelloTest
+Hello !
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in fr.insee.eno.core.HelloTest
+[INFO] Running fr.insee.eno.core.parameter.EnoParametersTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s -- in fr.insee.eno.core.parameter.EnoParametersTest
+[INFO] Running fr.insee.eno.core.parameter.EnoParameterTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s -- in fr.insee.eno.core.parameter.EnoParameterTest
+[INFO] Running fr.insee.eno.core.mappers.MapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in fr.insee.eno.core.mappers.MapperTest
+[INFO] Running fr.insee.eno.core.mappers.DDIMapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in fr.insee.eno.core.mappers.DDIMapperTest
+[INFO] Running fr.insee.eno.core.mappers.LunaticMapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in fr.insee.eno.core.mappers.LunaticMapperTest
+[INFO] Running fr.insee.eno.core.i18n.date.Iso8601FormatterTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in fr.insee.eno.core.i18n.date.Iso8601FormatterTest
+[INFO] Running fr.insee.eno.core.i18n.Iso8601ToFrenchTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in fr.insee.eno.core.i18n.Iso8601ToFrenchTest
+[INFO] Running fr.insee.eno.core.PoguesDDIToEnoTest
+[WARNING] Tests run: 48, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 16.83 s -- in fr.insee.eno.core.PoguesDDIToEnoTest
+[INFO] Running fr.insee.eno.core.reference.EnoIndexTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.583 s -- in fr.insee.eno.core.reference.EnoIndexTest
+[INFO] Running fr.insee.eno.core.reference.DDIIndexTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in fr.insee.eno.core.reference.DDIIndexTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 780, Failures: 0, Errors: 0, Skipped: 2
+[INFO] 
+[INFO] 
+[INFO] --------------------< fr.insee.eno:eno-treatments >---------------------
+[INFO] Building Eno specific treatments 3.62.0                            [3/4]
+[INFO]   from eno-treatments/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eno-treatments ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ eno-treatments ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eno-treatments ---
+[INFO] Copying 22 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ eno-treatments ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 11 source files with javac [debug parameters release 21] to target/test-classes
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingIntegrationTest.java:[174,11] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingIntegrationTest.java:[182,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingIntegrationTest.java:[190,14] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingIntegrationTest.java:[199,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingIntegrationTest.java:[206,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingIntegrationTest.java:[212,15] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingIntegrationTest.java:[220,13] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingIntegrationTest.java:[234,22] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingUnitTest.java:[18,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingUnitTest.java:[20,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingUnitTest.java:[43,17] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[WARNING] /project/eno-treatments/src/test/java/fr/insee/eno/treatments/LunaticPaginationRegroupingUnitTest.java:[45,20] setComponentType(fr.insee.lunatic.model.flat.ComponentTypeEnum) in fr.insee.lunatic.model.flat.ComponentType has been deprecated and marked for removal
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ eno-treatments ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running fr.insee.eno.treatments.dto.EnoSuggesterQueryParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s -- in fr.insee.eno.treatments.dto.EnoSuggesterQueryParserTest
+[INFO] Running fr.insee.eno.treatments.dto.EnoSuggesterQueryParserParamsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in fr.insee.eno.treatments.dto.EnoSuggesterQueryParserParamsTest
+[INFO] Running fr.insee.eno.treatments.dto.EnoSuggesterOrderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in fr.insee.eno.treatments.dto.EnoSuggesterOrderTest
+[INFO] Running fr.insee.eno.treatments.dto.EnoSuggesterTypeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in fr.insee.eno.treatments.dto.EnoSuggesterTypeTest
+[INFO] Running fr.insee.eno.treatments.dto.EnoSuggesterFieldTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 s -- in fr.insee.eno.treatments.dto.EnoSuggesterFieldTest
+[INFO] Running fr.insee.eno.treatments.JsonSchemaValidationTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.914 s -- in fr.insee.eno.treatments.JsonSchemaValidationTest
+[INFO] Running fr.insee.eno.treatments.SpecificTreatmentsDeserializerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.496 s -- in fr.insee.eno.treatments.SpecificTreatmentsDeserializerTest
+[INFO] Running fr.insee.eno.treatments.LunaticPaginationRegroupingIntegrationTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s -- in fr.insee.eno.treatments.LunaticPaginationRegroupingIntegrationTest
+[INFO] Running fr.insee.eno.treatments.LunaticPaginationRegroupingUnitTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in fr.insee.eno.treatments.LunaticPaginationRegroupingUnitTest
+[INFO] Running fr.insee.eno.treatments.LunaticSuggesterSpecificTreatmentTest
+2026-09-21 19:54:23.043 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:24.612 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context HOUSEHOLD, out format LUNATIC, mode CAWI
+2026-09-21 19:54:24.818 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:27.041 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:27.312 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:27.405 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:27.505 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:27.641 [main] INFO  f.i.e.t.LunaticSuggesterSpecificTreatment - Processing suggesters on Lunatic Questionnaire
+2026-09-21 19:54:27.651 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context HOUSEHOLD, out format LUNATIC, mode CAWI
+2026-09-21 19:54:27.652 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:27.672 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:27.812 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:27.814 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:27.841 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:27.843 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:27.877 [main] INFO  f.i.e.t.LunaticSuggesterSpecificTreatment - Processing suggesters on Lunatic Questionnaire
+2026-09-21 19:54:27.883 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context HOUSEHOLD, out format LUNATIC, mode CAWI
+2026-09-21 19:54:27.884 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:27.914 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:28.172 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:28.182 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:28.228 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:28.244 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:28.281 [main] INFO  f.i.e.t.LunaticSuggesterSpecificTreatment - Processing suggesters on Lunatic Questionnaire
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.261 s -- in fr.insee.eno.treatments.LunaticSuggesterSpecificTreatmentTest
+[INFO] Running fr.insee.eno.treatments.LunaticRegroupingSpecificTreatmentTest
+2026-09-21 19:54:28.553 [main] INFO  f.i.l.conversion.JsonDeserializer - Questionnaire questionnaire-id successfully deserialized
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s -- in fr.insee.eno.treatments.LunaticRegroupingSpecificTreatmentTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ------------------------< fr.insee.eno:eno-ws >-------------------------
+[INFO] Building Eno web-service app 3.62.0                                [4/4]
+[INFO]   from eno-ws/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eno-ws ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ eno-ws ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eno-ws ---
+[INFO] Copying 21 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ eno-ws ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ eno-ws ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running fr.insee.eno.ws.service.DDIToLunaticServiceTest
+2026-09-21 19:54:37.322 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:37.363 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:38.380 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:42.454 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:42.730 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:42.953 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:43.067 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:43.201 [main] INFO  f.i.e.t.LunaticSuggesterSpecificTreatment - Processing suggesters on Lunatic Questionnaire
+2026-09-21 19:54:43.222 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='l7ugetj0').
+2026-09-21 19:54:43.225 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire l7ugetj0
+2026-09-21 19:54:43.558 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire l7ugetj0 successfully deserialized
+2026-09-21 19:54:43.811 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:43.812 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:43.853 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:44.949 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:44.974 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:45.288 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:45.310 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:46.893 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='lhpz68wp').
+2026-09-21 19:54:46.893 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire lhpz68wp
+2026-09-21 19:54:46.991 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire lhpz68wp successfully deserialized
+2026-09-21 19:54:47.072 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:47.073 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:47.149 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:47.564 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:47.570 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:47.691 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:47.700 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:47.713 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='lhpz68wp').
+2026-09-21 19:54:47.714 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire lhpz68wp
+2026-09-21 19:54:47.846 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire lhpz68wp successfully deserialized
+2026-09-21 19:54:47.889 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:47.890 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:47.932 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:48.543 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:48.557 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:48.636 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:48.640 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:48.663 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='lna9ksqx').
+2026-09-21 19:54:48.664 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire lna9ksqx
+2026-09-21 19:54:48.741 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire lna9ksqx successfully deserialized
+2026-09-21 19:54:48.760 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:48.761 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:48.793 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:49.121 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:49.125 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:49.183 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:49.192 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:49.198 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='lmyjrqbb').
+2026-09-21 19:54:49.199 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire lmyjrqbb
+2026-09-21 19:54:49.265 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire lmyjrqbb successfully deserialized
+2026-09-21 19:54:49.275 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:49.276 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:49.353 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:50.748 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:50.765 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:50.977 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:51.085 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:51.140 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='ll27mb7f').
+2026-09-21 19:54:51.141 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire ll27mb7f
+2026-09-21 19:54:51.289 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire ll27mb7f successfully deserialized
+2026-09-21 19:54:51.315 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:51.316 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:51.399 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:52.289 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:52.298 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:52.480 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:52.536 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:52.547 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='ll28it6e').
+2026-09-21 19:54:52.547 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire ll28it6e
+2026-09-21 19:54:52.621 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire ll28it6e successfully deserialized
+2026-09-21 19:54:52.632 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:52.632 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:52.665 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:52.989 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:52.996 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:53.111 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:53.119 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:53.163 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='lk6x162e').
+2026-09-21 19:54:53.164 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire lk6x162e
+2026-09-21 19:54:53.247 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire lk6x162e successfully deserialized
+2026-09-21 19:54:53.265 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:53.265 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:53.297 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:53.738 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:53.748 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:53.825 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:53.827 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:53.848 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='kzfezgxb').
+2026-09-21 19:54:53.848 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire kzfezgxb
+2026-09-21 19:54:53.889 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire kzfezgxb successfully deserialized
+2026-09-21 19:54:53.897 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:53.898 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:53.939 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:55.134 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:55.146 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:55.276 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:55.348 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:55.374 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='l9o7l439').
+2026-09-21 19:54:55.374 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire l9o7l439
+2026-09-21 19:54:55.436 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire l9o7l439 successfully deserialized
+2026-09-21 19:54:55.443 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:55.443 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:55.453 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:55.574 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:55.577 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:55.595 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:55.600 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:55.610 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='ldodefpq').
+2026-09-21 19:54:55.611 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire ldodefpq
+2026-09-21 19:54:55.645 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire ldodefpq successfully deserialized
+2026-09-21 19:54:55.651 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:55.651 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:55.661 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:55.717 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:55.718 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:55.721 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:55.728 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:55.735 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='ljps8p2l').
+2026-09-21 19:54:55.735 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire ljps8p2l
+2026-09-21 19:54:55.754 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire ljps8p2l successfully deserialized
+2026-09-21 19:54:55.761 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:55.762 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:55.774 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:55.924 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:55.927 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:55.939 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:55.941 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:55.948 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='lb3ei722').
+2026-09-21 19:54:55.949 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire lb3ei722
+2026-09-21 19:54:55.976 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire lb3ei722 successfully deserialized
+2026-09-21 19:54:55.983 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:55.984 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:55.997 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:56.111 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:56.116 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:56.130 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:56.131 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:56.134 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='l7j0wwqx').
+2026-09-21 19:54:56.135 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire l7j0wwqx
+2026-09-21 19:54:56.161 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire l7j0wwqx successfully deserialized
+2026-09-21 19:54:56.169 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:56.169 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:56.194 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:57.072 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:57.076 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:57.123 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:57.200 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:57.202 [main] WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'kiq71eoi': format-date(current-date(),'[Y0001]-[M01]-[D01]')
+2026-09-21 19:54:57.204 [main] WARN  f.i.e.c.p.o.s.l.c.LunaticDatepickerControl - Invalid value for max date of question 'k5nw1fir': year-from-date(current-date())
+2026-09-21 19:54:57.235 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='simpsonsvtl').
+2026-09-21 19:54:57.236 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire simpsonsvtl
+2026-09-21 19:54:57.284 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire simpsonsvtl successfully deserialized
+2026-09-21 19:54:57.295 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:57.295 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:57.306 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:57.424 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:57.427 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:57.441 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:57.446 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:57.450 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='kx0a2hn8').
+2026-09-21 19:54:57.450 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire kx0a2hn8
+2026-09-21 19:54:57.479 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire kx0a2hn8 successfully deserialized
+2026-09-21 19:54:57.486 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:57.486 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:57.497 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:57.613 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:57.617 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:57.637 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:57.638 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:57.640 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='kzguw1v7').
+2026-09-21 19:54:57.641 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire kzguw1v7
+2026-09-21 19:54:57.665 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire kzguw1v7 successfully deserialized
+2026-09-21 19:54:57.674 [main] INFO  f.i.eno.core.parameter.EnoParameters - Parameters with context DEFAULT, out format LUNATIC, mode CAWI
+2026-09-21 19:54:57.674 [main] INFO  f.i.e.core.serialize.DDIDeserializer - Deserializing DDI document from input stream given.
+2026-09-21 19:54:57.688 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Starting mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:57.885 [main] INFO  fr.insee.eno.core.mappers.DDIMapper - Finished mapping between DDI instance and Eno questionnaire.
+2026-09-21 19:54:57.888 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Starting mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:57.905 [main] INFO  f.i.eno.core.mappers.LunaticMapper - Finished mapping between Eno model and Lunatic questionnaire
+2026-09-21 19:54:57.907 [main] INFO  f.i.e.c.p.o.s.l.p.LunaticAddPageNumbers - Adding page numbers by question.
+2026-09-21 19:54:57.910 [main] INFO  f.i.e.c.serialize.LunaticSerializer - Serializing Lunatic questionnaire (id='kanye31s_1').
+2026-09-21 19:54:57.910 [main] INFO  f.i.l.conversion.JsonSerializer - Serializing questionnaire kanye31s_1
+2026-09-21 19:54:57.935 [main] INFO  f.i.l.conversion.JsonSerializer - Questionnaire kanye31s_1 successfully deserialized
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.54 s -- in fr.insee.eno.ws.service.DDIToLunaticServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Eno 3.62.0:
+[INFO] 
+[INFO] Eno ................................................ SUCCESS [  0.004 s]
+[INFO] Eno core ........................................... SUCCESS [02:09 min]
+[INFO] Eno specific treatments ............................ SUCCESS [ 11.626 s]
+[INFO] Eno web-service app ................................ SUCCESS [ 29.480 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:51 min
+[INFO] Finished at: 2026-09-21T19:54:58Z
+[INFO] ------------------------------------------------------------------------

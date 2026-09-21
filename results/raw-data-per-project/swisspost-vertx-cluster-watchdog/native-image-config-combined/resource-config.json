@@ -1,0 +1,35 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/services/com.hazelcast.DataSerializerHook\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.hazelcast.PortableHook\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.hazelcast.SerializerHook\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.hazelcast.client.impl.protocol.MessageTaskFactoryProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.hazelcast.dataconnection.DataConnectionRegistration\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.hazelcast.instance.impl.NodeExtension\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.hazelcast.spi.discovery.DiscoveryStrategyFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.hazelcast.spi.impl.servicemanager.ServiceDescriptorProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.vertx.core.spi.VertxServiceProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.maven.surefire.spi.MasterProcessChannelProcessorFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.slf4j.spi.SLF4JServiceProvider\\E"
+  }, {
+    "pattern":"\\Qhazelcast-download.properties\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt67b/nfkc.nrm\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt67b/uprops.icu\\E"
+  }, {
+    "pattern":"java.base:\\Qsun/net/idn/uidna.spp\\E"
+  }]},
+  "bundles":[]
+}

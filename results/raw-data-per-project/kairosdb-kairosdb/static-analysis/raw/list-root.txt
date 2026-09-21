@@ -1,0 +1,65 @@
+
+The following files have been resolved:
+   com.google.guava:guava:jar:32.1.3-jre:compile -- module com.google.common [auto]
+   com.github.rholder:guava-retrying:jar:2.0.0:compile -- module guava.retrying (auto)
+   org.apache.commons:commons-lang3:jar:3.19.0:compile -- module org.apache.commons.lang3
+   org.apache.commons:commons-collections4:jar:4.1:compile -- module commons.collections4 (auto)
+   org.json:json:jar:20250517:compile -- module org.json
+   com.google.code.gson:gson:jar:2.8.9:compile -- module com.google.gson
+   junit:junit:jar:4.13.2:test -- module junit [auto]
+   org.hamcrest:hamcrest-library:jar:1.3:test -- module hamcrest.library (auto)
+   org.mockito:mockito-core:jar:2.23.0:test -- module org.mockito [auto]
+   org.assertj:assertj-core:jar:3.14.0:test -- module org.assertj.core
+   org.assertj:assertj-guava:jar:3.3.0:test -- module assertj.guava (auto)
+   io.netty:netty-all:jar:4.1.128.Final:compile -- module io.netty.all [auto]
+   com.google.inject:guice:jar:7.0.0:compile -- module com.google.guice [auto]
+   com.google.inject.extensions:guice-assistedinject:jar:7.0.0:compile -- module com.google.guice.extensions.assistedinject [auto]
+   com.google.inject.extensions:guice-servlet:jar:7.0.0:compile -- module com.google.guice.extensions.servlet [auto]
+   com.h2database:h2:jar:2.4.240:compile -- module com.h2database [auto]
+   org.kairosdb:bigqueue:jar:1.0.4:compile -- module bigqueue (auto)
+   io.grpc:grpc-netty-shaded:jar:1.76.0:compile -- module io.grpc.netty.shaded [auto]
+   io.grpc:grpc-protobuf:jar:1.76.0:compile -- module io.grpc.protobuf [auto]
+   io.grpc:grpc-stub:jar:1.76.0:compile -- module io.grpc.stub [auto]
+   io.opentelemetry.proto:opentelemetry-proto:jar:1.8.0-alpha:compile -- module io.opentelemetry.proto [auto]
+   com.typesafe:config:jar:1.4.0:compile -- module typesafe.config [auto]
+   org.xerial.snappy:snappy-java:jar:1.1.10.8:compile -- module snappy.java (auto)
+   org.projectlombok:lombok:jar:1.18.22:compile -- module lombok
+   com.mchange:c3p0:jar:0.9.5.5:compile -- module c3p0 (auto)
+   org.apache.commons:commons-math3:jar:3.2:compile -- module commons.math3 (auto)
+   commons-io:commons-io:jar:2.21.0:compile -- module org.apache.commons.io
+   com.beust:jcommander:jar:1.75:compile -- module com.beust.jcommander [auto]
+   org.apache.httpcomponents:httpclient:jar:4.5.14:compile -- module org.apache.httpcomponents.httpclient [auto]
+   commons-codec:commons-codec:jar:1.19.0:compile -- module org.apache.commons.codec
+   joda-time:joda-time:jar:2.10.6:compile -- module org.joda.time [auto]
+   ch.qos.logback:logback-core:jar:1.5.25:compile -- module ch.qos.logback.core
+   ch.qos.logback:logback-classic:jar:1.5.25:compile -- module ch.qos.logback.classic
+   org.slf4j:slf4j-api:jar:2.0.17:compile -- module org.slf4j
+   org.slf4j:jul-to-slf4j:jar:2.0.17:compile -- module jul.to.slf4j
+   org.agileclick.genorm:genormous:jar:1.7.0:compile -- module genormous (auto)
+   org.antlr:stringtemplate:jar:3.2.1:compile -- module stringtemplate (auto)
+   org.apache.cassandra:cassandra-driver-core:jar:3.12.1:compile -- module cassandra.driver.core (auto)
+   at.yawk.lz4:lz4-java:jar:1.10.2:compile -- module org.lz4.java [auto]
+   org.eclipse.jetty:jetty-server:jar:12.0.17:compile -- module org.eclipse.jetty.server
+   org.eclipse.jetty.ee10:jetty-ee10-servlet:jar:12.0.17:compile -- module org.eclipse.jetty.ee10.servlet
+   org.eclipse.jetty.ee10:jetty-ee10-servlets:jar:12.0.17:compile -- module org.eclipse.jetty.ee10.servlets
+   org.apache.mina:mina-core:jar:2.2.4:compile -- module mina.core (auto)
+   org.jboss.resteasy:resteasy-servlet-initializer:jar:6.2.10.Final:compile -- module resteasy.servlet.initializer (auto)
+   org.jboss.resteasy:resteasy-core:jar:6.2.10.Final:compile -- module resteasy.core (auto)
+   org.jboss.resteasy:resteasy-jackson2-provider:jar:6.2.10.Final:compile -- module resteasy.jackson2.provider (auto)
+   jakarta.el:jakarta.el-api:jar:5.0.1:compile -- module jakarta.el
+   org.glassfish:jakarta.el:jar:5.0.0-M1:compile -- module com.sun.el [auto]
+   jakarta.ws.rs:jakarta.ws.rs-api:jar:3.1.0:compile -- module jakarta.ws.rs
+   com.fasterxml.jackson.core:jackson-databind:jar:2.20.1:compile -- module com.fasterxml.jackson.databind
+   com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:jar:2.20.1:compile -- module com.fasterxml.jackson.jakarta.rs.json
+   jakarta.validation:jakarta.validation-api:jar:3.1.0:compile -- module jakarta.validation
+   org.hibernate.validator:hibernate-validator:jar:8.0.3.Final:compile -- module org.hibernate.validator [auto]
+   com.google.code.findbugs:jsr305:jar:1.3.9:compile -- module jsr305 (auto)
+   org.quartz-scheduler:quartz:jar:2.3.2:compile -- module quartz (auto)
+   io.dropwizard.metrics:metrics-healthchecks:jar:3.2.6:compile -- module metrics.healthchecks (auto)
+   io.dropwizard.metrics:metrics-jvm:jar:3.2.6:compile -- module metrics.jvm (auto)
+   org.kairosdb:metrics4j:jar:1.0.4:compile -- module metrics4j (auto)
+   jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile -- module jakarta.xml.bind
+   org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:compile -- module org.glassfish.jaxb.runtime
+   jakarta.activation:jakarta.activation-api:jar:2.1.3:compile -- module jakarta.activation
+   jakarta.servlet:jakarta.servlet-api:jar:6.1.0:compile -- module jakarta.servlet
+

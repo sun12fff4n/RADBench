@@ -1,0 +1,301 @@
+{
+  "count": 27,
+  "g_static": [
+    "at.yawk.lz4:lz4-java:1.8.1",
+    "com.clickhouse:clickhouse-jdbc:0.6.5",
+    "com.fasterxml.jackson.core:jackson-annotations:2.17.1",
+    "com.fasterxml.jackson.core:jackson-core:2.17.1",
+    "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+    "com.polybot:polybot-core:0.0.1-SNAPSHOT",
+    "io.micrometer:micrometer-core:1.13.1",
+    "jakarta.annotation:jakarta.annotation-api:2.1.1",
+    "jakarta.validation:jakarta.validation-api:3.0.2",
+    "org.apache.httpcomponents.client5:httpclient5:5.3.1",
+    "org.apache.tomcat.embed:tomcat-embed-core:10.1.25",
+    "org.jetbrains:annotations:13.0",
+    "org.slf4j:slf4j-api:2.0.13",
+    "org.springframework.boot:spring-boot-actuator:3.3.1",
+    "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+    "org.springframework.boot:spring-boot:3.3.1",
+    "org.springframework.kafka:spring-kafka:3.2.1",
+    "org.springframework:spring-beans:6.1.10",
+    "org.springframework:spring-context:6.1.10",
+    "org.springframework:spring-core:6.1.10",
+    "org.springframework:spring-jdbc:6.1.10",
+    "org.springframework:spring-tx:6.1.10",
+    "org.springframework:spring-web:6.1.10",
+    "org.web3j:abi:5.0.0",
+    "org.web3j:core:5.0.0",
+    "org.web3j:crypto:5.0.0",
+    "org.web3j:utils:5.0.0"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "analytics-service": {
+      "g_static": [
+        "at.yawk.lz4:lz4-java:1.8.1",
+        "com.clickhouse:clickhouse-jdbc:0.6.5",
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "org.apache.httpcomponents.client5:httpclient5:5.3.1",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-jdbc:6.1.10",
+        "org.springframework:spring-tx:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ],
+      "ignoredTestScope": [
+        "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "org.projectlombok:lombok:1.18.42",
+        "org.springframework.boot:spring-boot-starter-test:3.3.1",
+        "org.springframework.boot:spring-boot-test:3.3.1"
+      ],
+      "ignoredUnusedDeclared": [
+        "io.micrometer:micrometer-registry-prometheus:1.13.1",
+        "org.springframework.boot:spring-boot-starter-actuator:3.3.1",
+        "org.springframework.boot:spring-boot-starter-jdbc:3.3.1",
+        "org.springframework.boot:spring-boot-starter-validation:3.3.1",
+        "org.springframework.boot:spring-boot-starter-web:3.3.1"
+      ],
+      "usedDeclared": [
+        "at.yawk.lz4:lz4-java:1.8.1",
+        "com.clickhouse:clickhouse-jdbc:0.6.5",
+        "org.apache.httpcomponents.client5:httpclient5:5.3.1"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-jdbc:6.1.10",
+        "org.springframework:spring-tx:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ]
+    },
+    "executor-service": {
+      "g_static": [
+        "com.fasterxml.jackson.core:jackson-core:2.17.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "com.polybot:polybot-core:0.0.1-SNAPSHOT",
+        "io.micrometer:micrometer-core:1.13.1",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.apache.tomcat.embed:tomcat-embed-core:10.1.25",
+        "org.jetbrains:annotations:13.0",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-web:6.1.10",
+        "org.web3j:abi:5.0.0",
+        "org.web3j:core:5.0.0",
+        "org.web3j:crypto:5.0.0",
+        "org.web3j:utils:5.0.0"
+      ],
+      "ignoredTestScope": [
+        "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "org.projectlombok:lombok:1.18.42",
+        "org.springframework.boot:spring-boot-starter-test:3.3.1",
+        "org.springframework.boot:spring-boot-test:3.3.1"
+      ],
+      "ignoredUnusedDeclared": [
+        "io.micrometer:micrometer-registry-prometheus:1.13.1",
+        "org.springframework.boot:spring-boot-starter-actuator:3.3.1",
+        "org.springframework.boot:spring-boot-starter-validation:3.3.1",
+        "org.springframework.boot:spring-boot-starter-web:3.3.1",
+        "org.springframework.kafka:spring-kafka:3.2.1"
+      ],
+      "usedDeclared": [
+        "com.polybot:polybot-core:0.0.1-SNAPSHOT"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-core:2.17.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "io.micrometer:micrometer-core:1.13.1",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.apache.tomcat.embed:tomcat-embed-core:10.1.25",
+        "org.jetbrains:annotations:13.0",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-web:6.1.10",
+        "org.web3j:abi:5.0.0",
+        "org.web3j:core:5.0.0",
+        "org.web3j:crypto:5.0.0",
+        "org.web3j:utils:5.0.0"
+      ]
+    },
+    "infrastructure-orchestrator-service": {
+      "g_static": [
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-actuator:3.3.1",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ],
+      "ignoredTestScope": [
+        "org.projectlombok:lombok:1.18.42",
+        "org.springframework.boot:spring-boot-starter-test:3.3.1"
+      ],
+      "ignoredUnusedDeclared": [
+        "com.polybot:polybot-core:0.0.1-SNAPSHOT",
+        "io.micrometer:micrometer-registry-prometheus:1.13.1",
+        "org.springframework.boot:spring-boot-starter-actuator:3.3.1",
+        "org.springframework.boot:spring-boot-starter-web:3.3.1"
+      ],
+      "usedDeclared": [],
+      "usedUndeclared": [
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-actuator:3.3.1",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ]
+    },
+    "ingestor-service": {
+      "g_static": [
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "com.polybot:polybot-core:0.0.1-SNAPSHOT",
+        "io.micrometer:micrometer-core:1.13.1",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-beans:6.1.10",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ],
+      "ignoredTestScope": [
+        "org.projectlombok:lombok:1.18.42",
+        "org.springframework.boot:spring-boot-starter-test:3.3.1"
+      ],
+      "ignoredUnusedDeclared": [
+        "io.micrometer:micrometer-registry-prometheus:1.13.1",
+        "org.springframework.boot:spring-boot-starter-actuator:3.3.1",
+        "org.springframework.boot:spring-boot-starter-validation:3.3.1",
+        "org.springframework.boot:spring-boot-starter-web:3.3.1",
+        "org.springframework.kafka:spring-kafka:3.2.1"
+      ],
+      "usedDeclared": [
+        "com.polybot:polybot-core:0.0.1-SNAPSHOT"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "io.micrometer:micrometer-core:1.13.1",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-beans:6.1.10",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ]
+    },
+    "polybot-core": {
+      "g_static": [
+        "com.fasterxml.jackson.core:jackson-annotations:2.17.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "io.micrometer:micrometer-core:1.13.1",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework.kafka:spring-kafka:3.2.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-web:6.1.10",
+        "org.web3j:crypto:5.0.0",
+        "org.web3j:utils:5.0.0"
+      ],
+      "ignoredTestScope": [
+        "org.assertj:assertj-core:3.25.3",
+        "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "org.projectlombok:lombok:1.18.42",
+        "org.springframework.boot:spring-boot-starter-test:3.3.1",
+        "org.springframework.boot:spring-boot-test:3.3.1"
+      ],
+      "ignoredUnusedDeclared": [
+        "me.paulschwarz:spring-dotenv:4.0.0",
+        "org.springframework.boot:spring-boot-starter-validation:3.3.1",
+        "org.web3j:core:5.0.0"
+      ],
+      "usedDeclared": [
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "io.micrometer:micrometer-core:1.13.1",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.kafka:spring-kafka:3.2.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-annotations:2.17.1",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-core:6.1.10",
+        "org.web3j:crypto:5.0.0",
+        "org.web3j:utils:5.0.0"
+      ]
+    },
+    "strategy-service": {
+      "g_static": [
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "com.polybot:polybot-core:0.0.1-SNAPSHOT",
+        "io.micrometer:micrometer-core:1.13.1",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ],
+      "ignoredTestScope": [
+        "org.projectlombok:lombok:1.18.42",
+        "org.springframework.boot:spring-boot-starter-test:3.3.1"
+      ],
+      "ignoredUnusedDeclared": [
+        "io.micrometer:micrometer-registry-prometheus:1.13.1",
+        "org.springframework.boot:spring-boot-starter-actuator:3.3.1",
+        "org.springframework.boot:spring-boot-starter-web:3.3.1",
+        "org.springframework.kafka:spring-kafka:3.2.1"
+      ],
+      "usedDeclared": [
+        "com.polybot:polybot-core:0.0.1-SNAPSHOT"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-databind:2.17.1",
+        "io.micrometer:micrometer-core:1.13.1",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "org.slf4j:slf4j-api:2.0.13",
+        "org.springframework.boot:spring-boot-autoconfigure:3.3.1",
+        "org.springframework.boot:spring-boot:3.3.1",
+        "org.springframework:spring-context:6.1.10",
+        "org.springframework:spring-core:6.1.10",
+        "org.springframework:spring-web:6.1.10"
+      ]
+    }
+  },
+  "project_id": "ent0n29-polybot"
+}

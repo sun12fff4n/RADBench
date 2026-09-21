@@ -1,0 +1,48 @@
+ Network favorite-coffee_default Creating 
+ Network favorite-coffee_default Created 
+ Volume favorite-coffee_m2-nonspring-combined-sdaschner-favorite-coffee Creating 
+ Volume favorite-coffee_m2-nonspring-combined-sdaschner-favorite-coffee Created 
+ Container favorite-coffee-neo4j Creating 
+ Container favorite-coffee-neo4j Created 
+ Container favorite-coffee-app Creating 
+ Container favorite-coffee-app Created 
+ Container favorite-coffee-neo4j Starting 
+ Container favorite-coffee-neo4j Started 
+ Container favorite-coffee-neo4j Waiting 
+ Container favorite-coffee-neo4j Healthy 
+ Container favorite-coffee-app Starting 
+ Container favorite-coffee-app Started 
+ Container favorite-coffee-app Waiting 
+ Container favorite-coffee-neo4j Waiting 
+ Container favorite-coffee-neo4j Healthy 
+container favorite-coffee-app is unhealthy
+favorite-coffee-app  | 		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+favorite-coffee-app  | 		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+favorite-coffee-app  | 		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+favorite-coffee-app  | 		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+favorite-coffee-app  | 		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+favorite-coffee-app  | 		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+favorite-coffee-app  | 		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+favorite-coffee-app  | 		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+favorite-coffee-app  | 		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+favorite-coffee-app  | 		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+favorite-coffee-app  | 		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+favorite-coffee-app  | 		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+favorite-coffee-app  | 		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+favorite-coffee-app  | 		... 2 more
+favorite-coffee-app  | Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:7687
+favorite-coffee-app  | Caused by: java.net.ConnectException: Connection refused
+favorite-coffee-app  | 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+favorite-coffee-app  | 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+favorite-coffee-app  | 	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+favorite-coffee-app  | 	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+favorite-coffee-app  | 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+favorite-coffee-app  | 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+favorite-coffee-app  | 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+favorite-coffee-app  | 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+favorite-coffee-app  | 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+favorite-coffee-app  | 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+favorite-coffee-app  | 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+favorite-coffee-app  | 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+favorite-coffee-app  | 	at java.base/java.lang.Thread.run(Thread.java:840)
+favorite-coffee-app  | 

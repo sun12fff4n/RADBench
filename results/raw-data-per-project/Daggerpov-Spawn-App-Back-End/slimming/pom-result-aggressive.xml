@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.3.5</version>
+    <relativePath></relativePath>
+  </parent>
+  <groupId>com.danielagapov</groupId>
+  <artifactId>spawn</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>spawn</name>
+  <description>Spring Boot Spawn App Back-End</description>
+  <url></url>
+  <licenses>
+    <license>
+      <name>UNSPECIFIED</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer />
+  </developers>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <tag></tag>
+    <url></url>
+  </scm>
+  <properties>
+    <lombok.version>1.18.32</lombok.version>
+    <java.version>17</java.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-impl</artifactId>
+        <version>0.12.6</version>
+        <scope>compile</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>3.3.5</version>
+      <scope>compile</scope>
+    <exclusions>
+<exclusion><groupId>io.micrometer</groupId><artifactId>micrometer-observation</artifactId></exclusion>
+<exclusion><groupId>jakarta.annotation</groupId><artifactId>jakarta.annotation-api</artifactId></exclusion>
+<exclusion><groupId>org.springframework</groupId><artifactId>spring-beans</artifactId></exclusion>
+<exclusion><groupId>org.springframework</groupId><artifactId>spring-context</artifactId></exclusion>
+<exclusion><groupId>org.springframework</groupId><artifactId>spring-expression</artifactId></exclusion>
+<exclusion><groupId>org.springframework</groupId><artifactId>spring-web</artifactId></exclusion>
+<exclusion><groupId>org.springframework.boot</groupId><artifactId>spring-boot</artifactId></exclusion>
+<exclusion><groupId>org.springframework.boot</groupId><artifactId>spring-boot-autoconfigure</artifactId></exclusion>
+<exclusion><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter</artifactId></exclusion>
+</exclusions></dependency>
+    <dependency>
+      <groupId>io.github.cdimascio</groupId>
+      <artifactId>dotenv-java</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <version>3.3.5</version>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>com.vaadin.external.google</groupId>
+          <artifactId>android-json</artifactId>
+        </exclusion>
+      
+<exclusion><groupId>jakarta.xml.bind</groupId><artifactId>jakarta.xml.bind-api</artifactId></exclusion>
+<exclusion><groupId>net.bytebuddy</groupId><artifactId>byte-buddy</artifactId></exclusion>
+<exclusion><groupId>org.apiguardian</groupId><artifactId>apiguardian-api</artifactId></exclusion>
+<exclusion><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter-api</artifactId></exclusion>
+<exclusion><groupId>org.mockito</groupId><artifactId>mockito-core</artifactId></exclusion>
+<exclusion><groupId>org.springframework</groupId><artifactId>spring-core</artifactId></exclusion>
+</exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+      <version>3.3.5</version>
+      <scope>compile</scope>
+    <exclusions>
+<exclusion><groupId>org.antlr</groupId><artifactId>antlr4-runtime</artifactId></exclusion>
+<exclusion><groupId>org.springframework</groupId><artifactId>spring-tx</artifactId></exclusion>
+<exclusion><groupId>org.springframework.data</groupId><artifactId>spring-data-commons</artifactId></exclusion>
+</exclusions></dependency>
+    <dependency>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <version>8.3.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>com.google.protobuf</groupId>
+          <artifactId>protobuf-java</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>2.2.224</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.7.4</version>
+      <scope>runtime</scope>
+    <exclusions>
+<exclusion><groupId>org.checkerframework</groupId><artifactId>checker-qual</artifactId></exclusion>
+</exclusions></dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.32</version>
+      <scope>provided</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-impl</artifactId>
+      <version>0.12.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-jackson</artifactId>
+      <version>0.12.6</version>
+      <scope>compile</scope>
+    <exclusions>
+<exclusion><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId></exclusion>
+</exclusions></dependency>
+    <dependency>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>s3</artifactId>
+      <version>2.25.27</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>software.amazon.awssdk</groupId>
+          <artifactId>annotations</artifactId>
+        </exclusion>
+      
+<exclusion><groupId>io.netty</groupId><artifactId>netty-buffer</artifactId></exclusion>
+<exclusion><groupId>io.netty</groupId><artifactId>netty-resolver</artifactId></exclusion>
+<exclusion><groupId>org.reactivestreams</groupId><artifactId>reactive-streams</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>auth</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>checksums-spi</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>endpoints-spi</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>http-auth</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>http-auth-aws</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>http-auth-spi</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>http-client-spi</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>identity-spi</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>json-utils</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>metrics-spi</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>profiles</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>protocol-core</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>regions</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>sdk-core</artifactId></exclusion>
+<exclusion><groupId>software.amazon.awssdk</groupId><artifactId>utils</artifactId></exclusion>
+<exclusion><groupId>software.amazon.eventstream</groupId><artifactId>eventstream</artifactId></exclusion>
+</exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-security</artifactId>
+      <version>3.3.5</version>
+      <scope>compile</scope>
+    <exclusions>
+<exclusion><groupId>org.springframework.security</groupId><artifactId>spring-security-core</artifactId></exclusion>
+</exclusions></dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-mail</artifactId>
+      <version>3.3.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+      <version>3.3.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.notnoop.apns</groupId>
+      <artifactId>apns</artifactId>
+      <version>1.0.0.Beta6</version>
+      <scope>compile</scope>
+    <exclusions>
+<exclusion><groupId>commons-logging</groupId><artifactId>commons-logging</artifactId></exclusion>
+<exclusion><groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId></exclusion>
+</exclusions></dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-text</artifactId>
+      <version>1.12.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-redis</artifactId>
+      <version>3.2.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-pool2</artifactId>
+      <version>2.12.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-admin</artifactId>
+      <version>9.4.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>com.google.j2objc</groupId>
+          <artifactId>j2objc-annotations</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>io.opentelemetry</groupId>
+          <artifactId>opentelemetry-sdk-extension-autoconfigure-spi</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.google.auto.value</groupId>
+          <artifactId>auto-value-annotations</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.google.api-client</groupId>
+          <artifactId>google-api-client-gson</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.google.code.findbugs</groupId>
+          <artifactId>jsr305</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>javax.annotation</groupId>
+          <artifactId>javax.annotation-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.google.errorprone</groupId>
+          <artifactId>error_prone_annotations</artifactId>
+        </exclusion>
+      
+<exclusion><groupId>com.google.auth</groupId><artifactId>google-auth-library-oauth2-http</artifactId></exclusion>
+<exclusion><groupId>com.google.errorprone</groupId><artifactId>error_prone_annotations</artifactId></exclusion>
+<exclusion><groupId>com.google.guava</groupId><artifactId>guava</artifactId></exclusion>
+<exclusion><groupId>com.google.http-client</groupId><artifactId>google-http-client</artifactId></exclusion>
+<exclusion><groupId>io.grpc</groupId><artifactId>grpc-api</artifactId></exclusion>
+<exclusion><groupId>io.grpc</groupId><artifactId>grpc-context</artifactId></exclusion>
+<exclusion><groupId>io.grpc</groupId><artifactId>grpc-netty-shaded</artifactId></exclusion>
+<exclusion><groupId>io.netty</groupId><artifactId>netty-handler</artifactId></exclusion>
+<exclusion><groupId>io.netty</groupId><artifactId>netty-transport</artifactId></exclusion>
+<exclusion><groupId>io.opencensus</groupId><artifactId>opencensus-api</artifactId></exclusion>
+<exclusion><groupId>io.opencensus</groupId><artifactId>opencensus-contrib-http-util</artifactId></exclusion>
+<exclusion><groupId>io.opentelemetry.semconv</groupId><artifactId>opentelemetry-semconv</artifactId></exclusion>
+<exclusion><groupId>org.apache.httpcomponents.core5</groupId><artifactId>httpcore5</artifactId></exclusion>
+</exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.twilio.sdk</groupId>
+      <artifactId>twilio</artifactId>
+      <version>10.9.1</version>
+      <scope>compile</scope>
+    <exclusions>
+<exclusion><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-annotations</artifactId></exclusion>
+<exclusion><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-core</artifactId></exclusion>
+<exclusion><groupId>com.google.code.gson</groupId><artifactId>gson</artifactId></exclusion>
+<exclusion><groupId>commons-codec</groupId><artifactId>commons-codec</artifactId></exclusion>
+<exclusion><groupId>org.apache.httpcomponents</groupId><artifactId>httpclient</artifactId></exclusion>
+<exclusion><groupId>org.apache.httpcomponents</groupId><artifactId>httpcore</artifactId></exclusion>
+</exclusions></dependency>
+    
+    
+    <dependency>
+      <groupId>com.auth0</groupId>
+      <artifactId>jwks-rsa</artifactId>
+      <version>0.22.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-hibernate6</artifactId>
+      <version>2.17.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <excludes>
+            <exclude>
+              <groupId>org.projectlombok</groupId>
+              <artifactId>lombok</artifactId>
+            </exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <parameters>true</parameters>
+          <annotationProcessorPaths>
+            <path>
+              <groupId>org.projectlombok</groupId>
+              <artifactId>lombok</artifactId>
+              <version>${lombok.version}</version>
+            </path>
+          </annotationProcessorPaths>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+        <configuration>
+          <parallel>all</parallel>
+          <useUnlimitedThreads>false</useUnlimitedThreads>
+          <threadCount>4</threadCount>
+          <perCoreThreadCount>true</perCoreThreadCount>
+          <forkCount>1</forkCount>
+          <reuseForks>true</reuseForks>
+          <argLine>-XX:+EnableDynamicAgentLoading
+                        -Djdk.instrument.traceUsage=false
+                        -Xmx1g
+                        -Xms512m</argLine>
+          <systemPropertyVariables>
+            <junit.jupiter.execution.parallel.enabled>true</junit.jupiter.execution.parallel.enabled>
+            <junit.jupiter.execution.parallel.mode.default>concurrent</junit.jupiter.execution.parallel.mode.default>
+            <junit.jupiter.execution.parallel.mode.classes.default>concurrent</junit.jupiter.execution.parallel.mode.classes.default>
+            <junit.jupiter.execution.parallel.config.strategy>dynamic</junit.jupiter.execution.parallel.config.strategy>
+            <junit.jupiter.execution.parallel.config.dynamic.factor>1.0</junit.jupiter.execution.parallel.config.dynamic.factor>
+          </systemPropertyVariables>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

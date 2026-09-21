@@ -1,0 +1,2885 @@
+{
+  "project_id": "cardano-foundation-cf-adahandle-resolver",
+  "tool": "slimming",
+  "module_type": "single",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "slimming_total": 232,
+  "slimming_counts": {
+    "used": 148,
+    "gray": 68,
+    "red": 16
+  },
+  "nia_total_classes": 3261,
+  "nia_mapped_classes": 2649,
+  "nia_proxy_recovered": 52,
+  "res_txt": {
+    "Project info": "/private/tmp/analysis-runs/cardano-foundation-cf-adahandle-resolver",
+    "Project Name": "org.cardanofoundation.tools:cf-adahandle-resolver:0.1.4",
+    "OriginalSize": "106941KB",
+    "BloatedSize": "645KB",
+    "All Dependencies": "229",
+    "Used Dependencies": "213",
+    "Used Self Direct Dependency": "13",
+    "Used Self Indirect Dependency": "200",
+    "Used Inherit Direct Dependency": "0",
+    "Used Inherit indirect Dependency": "0",
+    "Unused Dependencies": "16",
+    "Unused Self Direct Dependency": "0",
+    "Unused Self Indirect Dependency": "16",
+    "Unused Inherit Direct Dependency": "0",
+    "Unused Inherit Indirect Dependency": "0",
+    "checkBloated": "21",
+    "realBloated": "16",
+    "unDeleteSelfDirectDependencies": "2",
+    "unDeleteSelfIndirectDependencies": "3",
+    "unDeleteUnusedInheritDirectDependencies": "0",
+    "unDeleteUnusedInheritIndirectDependencies": "0",
+    "unDeleteSelfDirectDependency": "com.bloxbean.cardano:yaci-store-utxo-spring-boot-starter:0.1.2",
+    "unDeleteSelfIndirectDependency": "com.bloxbean.cardano:cardano-client-core:0.6.2",
+    "configSootTime": "29196",
+    "buildClassExtendGraphTime": "1151",
+    "buildCallGraphTime": "2856079",
+    "levelTime": "345",
+    "stringTime": "19",
+    "licenseCheckTime": "9410",
+    "bugCheckTime": "373",
+    "maintenanceTimeCheckTime": "3952",
+    "checkTime": "2909649",
+    "repairTime": "35739",
+    "mvnTestTime": "18531",
+    "java Reflect": "2",
+    "outdated": "2",
+    "vulnerable": "0",
+    "licenseConflict": "0",
+    "dependencyConflict": "9",
+    "SpringAPI": "39",
+    "TomcatAPI": "0",
+    ".class": "24620",
+    "forName": "152",
+    "loadClass": "175",
+    "getClass": "1519",
+    "reflectEdges": "26095",
+    "unReflectEdges": "69"
+  },
+  "buckets": {
+    "used+hit": 52,
+    "used+nohit": 96,
+    "bloated+hit": 2,
+    "bloated+nohit": 14,
+    "unloaded+hit": 43,
+    "unloaded+nohit": 25
+  },
+  "metrics": {
+    "tp": 14,
+    "fp": 2,
+    "tn": 95,
+    "fn": 121,
+    "precision": 0.875,
+    "recall": 0.1037,
+    "f1": 0.1854
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.hibernate.orm:hibernate-core:6.5.3.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 181,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-actuator:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 131,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-actuator-autoconfigure:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 130,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-context:6.1.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 102,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.data:spring-data-commons:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 92,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-common:2.3.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 88,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-core:10.1.40",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 40,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-annotations-jakarta:2.2.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 36,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-store-utxo:0.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 36,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 34,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-store-core:0.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 32,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-models-jakarta:2.2.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 30,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.data:spring-data-jpa:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 24,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-orm:6.1.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 22,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.h2database:h2:2.2.224",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 20,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-core-jakarta:2.2.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 17,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.google.code.gson:gson:2.10.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 17,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-model:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 11,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-helper:0.3.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 10,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-webmvc-api:2.3.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 9,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.zaxxer:HikariCP:5.1.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 8,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.micrometer:micrometer-registry-prometheus:1.13.13",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-store-spring-boot-starter:0.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.hypersistence:hypersistence-utils-hibernate-63:3.7.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 6,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.hibernate.validator:hibernate-validator:8.0.2.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 5,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.inject:jakarta.inject-api:2.0.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.projectreactor:reactor-core:3.6.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.5.18",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.40",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.transaction:jakarta.transaction-api:2.0.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.google.code.findbugs:jsr305:3.0.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-store-utxo-spring-boot-starter:0.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.flywaydb:flyway-database-postgresql:10.10.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.17.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:2.1.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-aspects:6.1.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.postgresql:postgresql:42.6.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.yaml:snakeyaml:2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-properties-migrator:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.r2dbc:r2dbc-spi:1.0.0.RELEASE",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:jul-to-slf4j:2.0.17",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-to-slf4j:2.23.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-api:2.23.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-jcl:6.1.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-store-utxo-api:0.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.retry:spring-retry:2.0.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.projectlombok:lombok:1.18.38",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "org.cardanofoundation.tools:cf-adahandle-resolver:0.1.4",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-tomcat:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-json:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-aop:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-core:4.0.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.angus:angus-activation:2.0.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:4.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:4.0.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.smallrye:jandex:3.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.hibernate.common:hibernate-commons-annotations:6.0.6.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.mockito:mockito-core:5.3.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.objenesis:objenesis:3.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy-agent:1.14.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.hamcrest:hamcrest-all:1.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-all:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler-ssl-ocsp:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-memcache:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns-native-macos:osx-x86_64",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "4.1.119.Final",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-xml:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-native-epoll:linux-aarch_64",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "4.1.119.Final",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-udt:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-smtp:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns-native-macos:osx-aarch_64",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "4.1.119.Final",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler-proxy:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-rxtx:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-native-kqueue:osx-aarch_64",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "4.1.119.Final",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-classes-kqueue:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-dns:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-native-kqueue:osx-x86_64",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "4.1.119.Final",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-sctp:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-native-epoll:linux-x86_64",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "4.1.119.Final",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-haproxy:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-mqtt:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-redis:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-socks:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-stomp:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.119.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-native-epoll:linux-riscv64",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "4.1.119.Final",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "co.nstant.in:cbor:0.9",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.webjars:swagger-ui:5.10.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-validation:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-configuration-metadata:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.17.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-actuator:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.micrometer:micrometer-jakarta9:1.13.13",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.hdrhistogram:HdrHistogram:2.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.latencyutils:LatencyUtils:2.0.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-jooq:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-exposition-formats:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-config:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-shaded-protobuf:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-core:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.prometheus:prometheus-metrics-tracer-common:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.flywaydb:flyway-mysql:10.10.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-cip:0.6.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-crypto:0.6.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.i2p.crypto:eddsa:0.3.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.codehaus.janino:janino:3.1.12",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.codehaus.janino:commons-compiler:3.1.12",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.guava:failureaccess:1.0.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-logging:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.5.18",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-test:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.assertj:assertj-core:3.25.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework:spring-test:6.1.19",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.jayway.jsonpath:json-path:2.9.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.minidev:json-smart:2.5.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test-autoconfigure:3.3.11",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.awaitility:awaitility:4.2.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.xmlunit:xmlunit-core:2.9.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.skyscreamer:jsonassert:1.5.3",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.minidev:accessors-smart:2.5.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.ow2.asm:asm:9.7.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.10.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.10.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.10.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.10.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.10.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.3.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.10.5",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.rest-assured:rest-assured:5.3.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.rest-assured:json-path:5.4.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.groovy:groovy-json:4.0.26",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpcore:4.4.16",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "commons-logging:commons-logging:1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.rest-assured:xml-path:5.4.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.ccil.cowan.tagsoup:tagsoup:1.2.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpmime:4.5.13",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.mockito:mockito-junit-jupiter:5.3.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.hypersistence:hypersistence-tsid:2.1.1",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "com.bloxbean.cardano:yaci-store-events:0.1.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 14,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-store-client:0.1.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "org.checkerframework:checker-qual:3.31.0",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-backend:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-quicktx:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-cip8:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-cip27:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-cip25:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-cip68:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-cip67:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-cip30:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-cip20:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-coinselection:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-governance:0.6.2",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.j2objc:j2objc-annotations:2.8",
+        "fillColor": "red",
+        "problem": [
+          "1",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.23.0",
+        "fillColor": "red",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ],
+    "unloaded+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-autoconfigure:3.3.11",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 311,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.jooq:jooq:3.19.22",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 269,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot:3.3.11",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 172,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-web:6.1.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 113,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-webmvc:6.1.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 79,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.17.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 69,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-core:6.1.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 59,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.micrometer:micrometer-core:1.13.13",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 56,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.14.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 49,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-beans:6.1.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 37,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-tx:6.1.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 37,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-jdbc:6.1.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 35,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.flywaydb:flyway-core:10.10.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 29,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.17.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 24,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework:spring-aop:6.1.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 22,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-core:0.3.5",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 17,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci-store-common:0.1.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 15,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:3.0.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 15,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.micrometer:micrometer-observation:1.13.13",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 12,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.17.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 12,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.119.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 12,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-transport:4.1.119.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 11,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 9,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.aspectj:aspectjweaver:1.9.24",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 7,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.micrometer:micrometer-commons:1.13.13",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 4,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.17",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.119.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.reactivestreams:reactive-streams:1.0.4",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-address:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-el:10.1.40",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.3",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.5.3.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.commons:commons-pool2:2.12.1",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.mapstruct:mapstruct:1.5.5.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.google.guava:guava:33.0.0-jre",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-web:3.3.11",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter:3.3.11",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-data-jpa:3.3.11",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "commons-codec:commons-codec:1.16.1",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.14.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-plutus:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-transaction-spec:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-common-spec:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "unloaded+nohit": [
+      {
+        "gav": "org.springframework:spring-expression:6.1.19",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-jdbc:3.3.11",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.antlr:antlr4-runtime:4.13.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.7.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:yaci:0.3.5",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns-classes-macos:4.1.119.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-native-unix-common:4.1.119.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-classes-epoll:4.1.119.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-lib:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.vaadin.external.google:android-json:0.0.20131108.vaadin1",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-function:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-core:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-common:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-metadata:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.bloxbean.cardano:cardano-client-core-api:0.6.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.bouncycastle:bcprov-jdk18on:1.78",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.mockito:mockito-junit-jupiter:5.11.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test:3.3.11",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.mockito:mockito-core:5.11.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:2.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.groovy:groovy:4.0.26",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.rest-assured:rest-assured-common:5.4.0",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpclient:4.5.13",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.groovy:groovy-xml:4.0.26",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "test",
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ]
+  },
+  "runtime_size": 92,
+  "static_size": 18,
+  "base_union_size": 94,
+  "anchor_size": 3,
+  "final_union_size": 97,
+  "missing_from_tree_count": 0
+}

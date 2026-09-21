@@ -1,0 +1,16 @@
+
+The following files have been resolved:
+   fr.ymanvieu.trading:trading-common:jar:5.0.0-SNAPSHOT:compile -- module trading.common (auto)
+   org.projectlombok:lombok:jar:1.18.30:compile (optional) -- module lombok
+   org.postgresql:postgresql:jar:42.6.0:compile -- module org.postgresql.jdbc [auto]
+   org.springframework.boot:spring-boot-starter-artemis:jar:3.2.0:compile -- module spring.boot.starter.artemis [auto]
+   org.apache.activemq:artemis-jms-server:jar:2.31.2:compile -- module artemis.jms.server (auto)
+   jakarta.jms:jakarta.jms-api:jar:3.1.0:compile -- module jakarta.messaging
+   com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.3:compile -- module com.fasterxml.jackson.datatype.jsr310
+   org.springframework.retry:spring-retry:jar:2.0.4:compile -- module spring.retry (auto)
+   org.springframework.boot:spring-boot-configuration-processor:jar:3.2.0:compile (optional) -- module spring.boot.configuration.processor [auto]
+   org.springframework.boot:spring-boot-devtools:jar:3.2.0:compile (optional) -- module spring.boot.devtools [auto]
+   com.h2database:h2:jar:2.2.224:compile (optional) -- module com.h2database [auto]
+   fr.ymanvieu.trading:trading-test:jar:5.0.0-SNAPSHOT:test -- module trading.test (auto)
+   org.springframework.boot:spring-boot-starter-test:jar:3.2.0:test -- module spring.boot.starter.test [auto]
+

@@ -1,0 +1,40 @@
+{
+  "project_id": "qmjy-mapbox-offline-server",
+  "tool": "slimming",
+  "status": "ok",
+  "module_type": "single",
+  "orig_total_dep_entries": 123,
+  "post_total_dep_entries": 118,
+  "idc_count": 0,
+  "removed_count": 5,
+  "added_count": 0,
+  "idc": [],
+  "removed": [
+    {
+      "module": ".",
+      "ga": "jakarta.activation:jakarta.activation-api",
+      "version": "2.1.4"
+    },
+    {
+      "module": ".",
+      "ga": "org.geotools:gt-http",
+      "version": "32.0"
+    },
+    {
+      "module": ".",
+      "ga": "jakarta.inject:jakarta.inject-api",
+      "version": "2.0.1"
+    },
+    {
+      "module": ".",
+      "ga": "org.apiguardian:apiguardian-api",
+      "version": "1.1.2"
+    },
+    {
+      "module": ".",
+      "ga": "org.jspecify:jspecify",
+      "version": "1.0.0"
+    }
+  ],
+  "added": []
+}

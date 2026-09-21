@@ -1,0 +1,93 @@
+Project info>>>>/private/tmp/analysis-runs/InseeFr-Eno/eno-treatments
+Project Name>>>>fr.insee.eno:eno-treatments:3.62.0
+OriginalSize>>>>56373KB
+BloatedSize>>>>48KB
+All Dependencies>>>>54
+Used Dependencies>>>>52
+Used Self Direct Dependency>>>>9
+Used Self Indirect Dependency>>>>42
+Used Inherit Direct Dependency>>>>1
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>2
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>2
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>2
+realBloated>>>>2
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>15602
+buildClassExtendGraphTime>>>>234
+buildCallGraphTime>>>>93387
+levelTime>>>>90
+stringTime>>>>19
+licenseCheckTime>>>>15
+bugCheckTime>>>>188
+maintenanceTimeCheckTime>>>>924
+checkTime>>>>112507
+repairTime>>>>20779
+mvnTestTime>>>>10775
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>4
+TomcatAPI>>>>0
+.class>>>>14605
+forName>>>>43
+loadClass>>>>54
+getClass>>>>589
+reflectEdges>>>>15098
+unReflectEdges>>>>42
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+unSolvedReflect>>>><org.eclipse.persistence.sessions.DatasourceLogin: void setPlatformClassName(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.JAXBContext$TypeMappingInfoInput: org.eclipse.persistence.jaxb.TypeMappingInfo[] getXmlBindingsClasses(org.eclipse.persistence.jaxb.xmlmodel.XmlBindings,java.lang.ClassLoader,org.eclipse.persistence.jaxb.TypeMappingInfo[])>
+unSolvedReflect>>>><org.eclipse.persistence.platform.xml.XMLPlatformFactory: java.lang.Class getXMLPlatformClass()>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.javamodel.reflection.JavaModelImpl: org.eclipse.persistence.jaxb.javamodel.JavaClass getClass(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.sessions.DatasourceLogin: void setPlatformClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.jpa.deployment.PersistenceUnitProcessor: java.lang.Class loadClass(java.lang.String,java.lang.ClassLoader,boolean,org.eclipse.persistence.internal.jpa.metadata.MetadataProject)>
+unSolvedReflect>>>><org.eclipse.persistence.sdo.SDOType: java.lang.Class getInstanceClass()>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.javamodel.xjc.XJCJavaAnnotationImpl: java.lang.annotation.Annotation getJavaAnnotation()>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.JAXBContext$ContextPathInput: java.util.List getXmlBindingsClasses(org.eclipse.persistence.jaxb.xmlmodel.XmlBindings,java.lang.ClassLoader,java.util.List)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void buildUserDefinedTransportManagerConfig(org.eclipse.persistence.internal.sessions.factories.model.transport.UserDefinedTransportManagerConfig,org.eclipse.persistence.sessions.coordination.RemoteCommandManager)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.helper.Helper: java.lang.String getComponentTypeNameFromArrayString(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.dynamic.metadata.OXMMetadata: org.eclipse.persistence.jaxb.javamodel.JavaClass[] createClassModelFromOXM(org.eclipse.persistence.dynamic.DynamicClassLoader)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void processSessionConfig(org.eclipse.persistence.internal.sessions.factories.model.session.SessionConfig,org.eclipse.persistence.internal.sessions.AbstractSession)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.sessions.Login buildEISLoginConfig(org.eclipse.persistence.internal.sessions.factories.model.login.EISLoginConfig)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void processLoginConfig(org.eclipse.persistence.internal.sessions.factories.model.login.LoginConfig,org.eclipse.persistence.sessions.DatasourceLogin)>
+unSolvedReflect>>>><org.eclipse.persistence.descriptors.InheritancePolicy: java.lang.Class classFromValue(java.lang.Object,org.eclipse.persistence.internal.sessions.AbstractSession)>
+unSolvedReflect>>>><org.apache.xmlbeans.XmlBeans: org.apache.xmlbeans.SchemaTypeSystem typeSystemForClassLoader(java.lang.ClassLoader,java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.platform.server.ServerPlatform buildServerPlatformConfig(org.eclipse.persistence.internal.sessions.factories.model.platform.ServerPlatformConfig,org.eclipse.persistence.internal.sessions.DatabaseSessionImpl)>
+unSolvedReflect>>>><org.eclipse.persistence.sdo.helper.SDOClassLoader: java.lang.Class loadClass(java.lang.String,org.eclipse.persistence.sdo.SDOType)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.javamodel.xjc.XJCJavaMethodImpl: boolean hasActualTypeArguments()>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void buildOc4jJGroupsTransportManagerConfig(org.eclipse.persistence.internal.sessions.factories.model.transport.Oc4jJGroupsTransportManagerConfig,org.eclipse.persistence.sessions.coordination.RemoteCommandManager)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.jpa.deployment.PersistenceUnitProcessor: org.eclipse.persistence.jpa.ArchiveFactory getArchiveFactory(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.xmlbeans.impl.common.SAXHelper: void trySetXercesSecurityManager(org.xml.sax.XMLReader,org.apache.xmlbeans.XmlOptions)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void processSessionCustomizer(org.eclipse.persistence.internal.sessions.factories.model.session.SessionConfig,org.eclipse.persistence.internal.sessions.AbstractSession)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.compiler.XMLProcessor: org.eclipse.persistence.oxm.XMLNameTransformer getXMLNameTransformerClassFromString(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataAsmFactory: void buildClassMetadata(org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataClass,java.lang.String,boolean)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.platform.server.ServerPlatform buildCustomServerPlatformConfig(org.eclipse.persistence.internal.sessions.factories.model.platform.CustomServerPlatformConfig,org.eclipse.persistence.internal.sessions.DatabaseSessionImpl)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.platform.server.ServerPlatform buildServerPlatformConfig(org.eclipse.persistence.internal.sessions.factories.model.platform.ServerPlatformConfig,org.eclipse.persistence.internal.sessions.DatabaseSessionImpl)>
+unSolvedReflect>>>><org.springframework.cglib.core.ReflectUtils: java.lang.Class defineClass(java.lang.String,byte[],java.lang.ClassLoader,java.security.ProtectionDomain,java.lang.Class)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.javamodel.reflection.JavaModelImpl: org.eclipse.persistence.jaxb.javamodel.JavaClass getClass(java.lang.String)>
+unSolvedReflect>>>><org.springframework.cglib.core.ReflectUtils: java.lang.Class defineClass(java.lang.String,byte[],java.lang.ClassLoader,java.security.ProtectionDomain,java.lang.Class)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.sessions.Login buildDatabaseLoginConfig(org.eclipse.persistence.internal.sessions.factories.model.login.DatabaseLoginConfig)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.jaxb.JaxbClassLoader: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.type.TypeFactory: java.lang.Class classForName(java.lang.String)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.JAXBContext$ContextPathInput: org.eclipse.persistence.jaxb.JAXBContext$JAXBContextState createContextState()>

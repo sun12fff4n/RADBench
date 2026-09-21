@@ -1,0 +1,78 @@
+Top Project info>>>>/private/tmp/analysis-runs/caravanacloud-javainterviews
+Project info>>>>/private/tmp/analysis-runs/caravanacloud-javainterviews
+Project Name>>>>cloud.caravana:java-interviews:1.0.0-SNAPSHOT
+OriginalSize>>>>73858KB
+BloatedSize>>>>13490KB
+All Dependencies>>>>221
+Used Dependencies>>>>213
+Used Self Direct Dependency>>>>10
+Used Self Indirect Dependency>>>>203
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>8
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>8
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>8
+realBloated>>>>8
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>22959
+buildClassExtendGraphTime>>>>314
+buildCallGraphTime>>>>126610
+levelTime>>>>451
+stringTime>>>>69
+licenseCheckTime>>>>14618
+bugCheckTime>>>>264
+maintenanceTimeCheckTime>>>>2108
+checkTime>>>>175205
+repairTime>>>>52095
+mvnTestTime>>>>29211
+====================BloatedType=========================
+java Reflect>>>>6
+outdated>>>>8
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>1
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>8552
+forName>>>>88
+loadClass>>>>39
+getClass>>>>1081
+reflectEdges>>>>9578
+unReflectEdges>>>>29
+unSolvedReflect>>>><javax.xml.bind.ServiceLoaderUtil: java.lang.Object lookupUsingOSGiServiceLoader(java.lang.String,java.util.logging.Logger)>
+unSolvedReflect>>>><io.smallrye.config.ConfigMappingLoader: java.lang.Class loadClass(java.lang.Class,io.smallrye.config.ConfigMappingMetadata)>
+unSolvedReflect>>>><org.hibernate.boot.registry.classloading.internal.AggregatedServiceLoader: void <clinit>()>
+unSolvedReflect>>>><org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader: java.lang.Class findClass(java.lang.String)>
+unSolvedReflect>>>><io.quarkus.vertx.runtime.VertxRecorder: io.quarkus.vertx.runtime.EventConsumerInvoker createInvoker(java.lang.String)>
+unSolvedReflect>>>><com.mysql.cj.log.LogFactory: com.mysql.cj.log.Log getLogger(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl: java.lang.Object loadSettingInstance(java.lang.String,java.lang.Object,java.lang.Class)>
+unSolvedReflect>>>><io.quarkus.hibernate.orm.runtime.boot.FastBootMetadataBuilder: java.lang.Object loadSettingInstance(java.lang.String,java.lang.Object,java.lang.Class)>
+unSolvedReflect>>>><com.sun.xml.bind.v2.ContextFactory: javax.xml.bind.JAXBContext createContext(java.lang.String,java.lang.ClassLoader,java.util.Map)>
+unSolvedReflect>>>><org.jboss.resteasy.plugins.providers.RegisterBuiltin: void registerProviders(org.jboss.resteasy.spi.ResteasyProviderFactory)>
+unSolvedReflect>>>><javax.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><io.quarkus.bootstrap.runner.Timing: void restart(java.lang.ClassLoader)>
+unSolvedReflect>>>><io.quarkus.bootstrap.runner.Timing: void staticInitStarted(java.lang.ClassLoader,boolean)>
+unSolvedReflect>>>><com.github.benmanes.caffeine.cache.LocalCacheFactory: com.github.benmanes.caffeine.cache.BoundedLocalCache newBoundedLocalCache(com.github.benmanes.caffeine.cache.Caffeine,com.github.benmanes.caffeine.cache.CacheLoader,boolean)>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()>
+unSolvedReflect>>>><io.vertx.codegen.type.TypeUse: void <clinit>()>
+unSolvedReflect>>>><com.arjuna.common.internal.util.ClassloadingUtility: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><com.mysql.cj.log.LogFactory: com.mysql.cj.log.Log getLogger(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><com.github.benmanes.caffeine.cache.NodeFactory: com.github.benmanes.caffeine.cache.NodeFactory newFactory(com.github.benmanes.caffeine.cache.Caffeine,boolean)>
+unSolvedReflect>>>><io.quarkus.runtime.configuration.RuntimeConfigSourceProvider: java.lang.Iterable getConfigSources(java.lang.ClassLoader)>
+unSolvedReflect>>>><io.vertx.codegen.Helper: java.lang.reflect.Method getReflectMethod(java.lang.ClassLoader,javax.lang.model.element.ExecutableElement)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.flywaydb.core.internal.util.ClassUtils: boolean isImplementationPresent(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.flywaydb.core.internal.util.ClassUtils: java.lang.Class loadClass(java.lang.Class,java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><io.vertx.core.impl.VertxBuilder: void initClusterManager(io.vertx.core.VertxOptions,java.util.Collection)>
+unSolvedReflect>>>><com.mysql.cj.jdbc.ConnectionImpl: void createPreparedStatementCaches()>

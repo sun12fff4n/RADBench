@@ -1,0 +1,118 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -------------< org.apache.iotdb:spark-iotdb-table-common >--------------
+[INFO] Building IoTDB: Table Connector: Apache Spark Common 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ spark-iotdb-table-common >>>
+[WARNING] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scalatest/scalatest_2.12/3.0.9/scalatest_2.12-3.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scalatest/scalatest_2.12/3.0.9/scalatest_2.12-3.0.9.pom (5.1 kB at 8.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9.pom (2.2 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom (1.8 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.pom (2.8 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scalatest/scalatest_2.12/3.0.9/scalatest_2.12-3.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scalatest/scalatest_2.12/3.0.9/scalatest_2.12-3.0.9.jar (7.5 MB at 8.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar (557 kB at 6.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9.jar (722 kB at 3.9 MB/s)
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ spark-iotdb-table-common ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ spark-iotdb-table-common ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ spark-iotdb-table-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ spark-iotdb-table-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ spark-iotdb-table-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ spark-iotdb-table-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ spark-iotdb-table-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- scala:2.15.2:add-source (default) @ spark-iotdb-table-common ---
+[INFO] Add Source directory: /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/src/main/scala
+[INFO] Add Test Source directory: /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/src/test/scala
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ spark-iotdb-table-common ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spark-iotdb-table-common ---
+[INFO] skip non existing resourceDirectory /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ spark-iotdb-table-common ---
+[WARNING] The following annotation processors were found on the classpath: [org.apache.logging.log4j.core.config.plugins.processor.PluginProcessor].
+Compile avoidance has been deactivated.
+Please use the maven-compiler-plugin version 3.5 or above and use the <annotationProcessorPaths> configuration element to declare the processors instead.
+If you did not intend to use the processors above (e.g. they were leaked by a dependency), you can use the <proc>none</proc> option to disable annotation processing.
+
+For more information see https://gradle.com/enterprise/help/maven-extension-compile-avoidance.
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ spark-iotdb-table-common ---
+[INFO] 
+[INFO] --- scala:2.15.2:compile (default) @ spark-iotdb-table-common ---
+[INFO] Checking for multiple versions of scala
+[INFO] includes = [**/*.java,**/*.scala,]
+[INFO] excludes = []
+[INFO] /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/src/main/scala:-1: info: compiling
+[INFO] /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/target/generated-sources/annotations:-1: info: compiling
+[INFO] Compiling 14 source files to /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/target/classes at 1781599828508
+[INFO] prepare-compile in 0 s
+[INFO] compile in 19 s
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spark-iotdb-table-common ---
+[INFO] skip non existing resourceDirectory /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ spark-iotdb-table-common ---
+[WARNING] The following annotation processors were found on the classpath: [org.apache.logging.log4j.core.config.plugins.processor.PluginProcessor].
+Compile avoidance has been deactivated.
+Please use the maven-compiler-plugin version 3.5 or above and use the <annotationProcessorPaths> configuration element to declare the processors instead.
+If you did not intend to use the processors above (e.g. they were leaked by a dependency), you can use the <proc>none</proc> option to disable annotation processing.
+
+For more information see https://gradle.com/enterprise/help/maven-extension-compile-avoidance.
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] 
+[INFO] --- scala:2.15.2:testCompile (default) @ spark-iotdb-table-common ---
+[INFO] Checking for multiple versions of scala
+[WARNING] Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+[INFO] includes = [**/*.java,**/*.scala,]
+[INFO] excludes = []
+[INFO] /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/src/test/scala:-1: info: compiling
+[INFO] /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/target/generated-test-sources/test-annotations:-1: info: compiling
+[INFO] Compiling 2 source files to /project/connectors/spark-iotdb-table-connector/spark-iotdb-table-common/target/test-classes at 1781599850987
+[INFO] prepare-compile in 0 s
+[INFO] compile in 12 s
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ spark-iotdb-table-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ spark-iotdb-table-common ---
+[INFO] No dependency problems found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:03 min
+[INFO] Finished at: 2026-06-16T08:51:05Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 17 goals, 17 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

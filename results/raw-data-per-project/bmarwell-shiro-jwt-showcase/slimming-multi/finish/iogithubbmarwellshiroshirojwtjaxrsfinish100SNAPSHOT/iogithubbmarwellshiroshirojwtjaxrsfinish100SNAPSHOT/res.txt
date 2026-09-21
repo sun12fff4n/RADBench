@@ -1,0 +1,54 @@
+Top Project info>>>>/private/tmp/analysis-runs/bmarwell-shiro-jwt-showcase
+Project info>>>>/private/tmp/analysis-runs/bmarwell-shiro-jwt-showcase/finish
+Project Name>>>>io.github.bmarwell.shiro:shiro.jwt.jaxrs.finish:1.0.0-SNAPSHOT
+OriginalSize>>>>20457KB
+BloatedSize>>>>0KB
+All Dependencies>>>>61
+Used Dependencies>>>>61
+Used Self Direct Dependency>>>>9
+Used Self Indirect Dependency>>>>32
+Used Inherit Direct Dependency>>>>10
+Used Inherit indirect Dependency>>>>10
+Unused Dependencies>>>>0
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>0
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>0
+realBloated>>>>0
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>13773
+buildClassExtendGraphTime>>>>181
+buildCallGraphTime>>>>7064
+levelTime>>>>8
+stringTime>>>>2
+licenseCheckTime>>>>7077
+bugCheckTime>>>>112
+maintenanceTimeCheckTime>>>>0
+checkTime>>>>30186
+repairTime>>>>5599
+mvnTestTime>>>>0
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>0
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>272
+forName>>>>4
+loadClass>>>>7
+getClass>>>>70
+reflectEdges>>>>325
+unReflectEdges>>>>5
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.commons.collections.map.MultiValueMap: java.lang.Class class$(java.lang.String)>
+unSolvedReflect>>>><javax.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><javax.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><io.jsonwebtoken.lang.Classes$ExceptionIgnoringAccessor: java.lang.Class loadClass(java.lang.String)>

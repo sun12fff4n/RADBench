@@ -1,0 +1,37 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.geo-atlas.library:common >--------------------
+[INFO] Building common 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ common ---
+[INFO] mvn test successfully
+[INFO] The project has no target folder
+[INFO] The project has no target/test-classes folder
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[INFO] ALL DEPENDENCY[0]:
+[INFO]  USED DEPENDENCY[0]:
+[INFO]   USED SELF DIRECT DEPENDENCY[0]:
+[INFO]   USED TRANSITIVE DEPENDENCY[0]:
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[0]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] No Bloated
+[ERROR] dependency graph prints unsuccessfully
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.991 s
+[INFO] Finished at: 2026-05-02T15:43:37+02:00
+[INFO] ------------------------------------------------------------------------

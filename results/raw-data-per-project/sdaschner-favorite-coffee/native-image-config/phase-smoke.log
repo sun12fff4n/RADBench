@@ -1,0 +1,86 @@
+ Network favorite-coffee_default Creating 
+ Network favorite-coffee_default Created 
+ Container favorite-coffee-neo4j Creating 
+ Container favorite-coffee-neo4j Created 
+ Container favorite-coffee-app Creating 
+ Container favorite-coffee-app Created 
+ Container favorite-coffee-neo4j Starting 
+ Container favorite-coffee-neo4j Started 
+ Container favorite-coffee-neo4j Waiting 
+ Container favorite-coffee-neo4j Healthy 
+ Container favorite-coffee-app Starting 
+ Container favorite-coffee-app Started 
+ Container favorite-coffee-neo4j Waiting 
+ Container favorite-coffee-app Waiting 
+ Container favorite-coffee-neo4j Healthy 
+ Container favorite-coffee-app Healthy 
+
+[0;34m== Health check — SmallRye Health (@Readiness) ==[0m
+[0;32mPASS[0m GET  /q/health/ready (readiness check)                       [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /q/health/live (liveness check)                         [2m[200, body ✓][0m
+
+[0;34m== Beans list — CoffeeBeansResource (Neo4j OGM, JSON-B) ==[0m
+[0;32mPASS[0m GET  /beans (list all beans)                                 [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /beans (JSON content-type)                              [2m[200, header ✓][0m
+[0;32mPASS[0m GET  /beans?flavor=Fruit (filter by flavor)                  [2m[200, body ✓][0m
+
+[0;34m== Bean ratings — CoffeeBeansResource (Cypher queries) ==[0m
+[0;32mPASS[0m GET  /beans/rated (rated beans list)                         [2m[200][0m
+
+[0;34m== Recommendations — CoffeeBeansResource (complex Cypher) ==[0m
+[0;32mPASS[0m GET  /beans/recommended (recommendations)                    [2m[200][0m
+[0;32mPASS[0m GET  /beans/untested (untested beans)                        [2m[200][0m
+
+[0;34m== Write — POST /beans (JSON-B deserialization, Neo4j OGM persist) ==[0m
+[0;31mFAIL[0m POST /beans (create bean)                                    [2m[got 500, want 200|201|204][0m
+
+[0;34m== Write — PUT /beans/{id}/ratings (Neo4j OGM relationship write) ==[0m
+[0;31mFAIL[0m PUT  /beans/{id}/ratings (rate bean)                         [2m[got 400, want 200|204][0m
+[0;33m--- body ---[0m
+  javax.ws.rs.ProcessingException: RESTEASY008200: JSON Binding deserialization error: javax.json.bind.JsonbException: JsonbCreator parameter rating is missing in json document.
+[0;31mFAIL[0m GET  /beans/rated (after rating)                             [2m[body missing '"name"'][0m
+[0;33m--- body ---[0m
+  []
+
+[0;34m== Write — PATCH /beans/{id} (Neo4j OGM partial update) ==[0m
+[0;31mFAIL[0m PATCH /beans/{id} (update flavors)                           [2m[got 400, want 200|204][0m
+[0;33m--- body ---[0m
+  javax.json.stream.JsonParsingException: JsonParser#getObject() or JsonParser#getObjectStream() is valid only for START_OBJECT parser state. But current parser state is START_ARRAY
+
+[0;34m== Write — DELETE /beans/{id} (Neo4j OGM delete) ==[0m
+[0;32mPASS[0m DELETE /beans/{id} (delete bean)                             [2m[204][0m
+
+[0;34m== Profile page — UserPageController (Qute template) ==[0m
+[0;32mPASS[0m GET  /profile (user profile page)                            [2m[200][0m
+
+[0;34m== Index page — IndexController (Qute templates) ==[0m
+[0;32mPASS[0m GET  / (HTML index page)                                     [2m[200, body ✓][0m
+[0;32mPASS[0m GET  / (text/html content-type)                              [2m[200, header ✓][0m
+[0;32mPASS[0m GET  /?sortBy=NAME (sort criteria)                           [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /?sortBy=RATING (sort by rating)                        [2m[200][0m
+
+[0;34m== Static resources — CSS/JS ==[0m
+[0;32mPASS[0m GET  /style.css (static CSS)                                 [2m[200][0m
+[0;32mPASS[0m GET  /ratings.js (static JS)                                 [2m[200][0m
+
+[0;34m== Error paths — 404 and validation ==[0m
+[0;32mPASS[0m GET  /nonexistent (→ 404)                                  [2m[404][0m
+[0;32mPASS[0m GET  /beans/00000000-0000-0000-0000-000000000000 (→ 404)   [2m[404][0m
+[0;31mFAIL[0m GET  /?sortBy=INVALID (bad sort → 400|500)                 [2m[got 200, want 400|500][0m
+[0;33m--- body ---[0m
+  <!doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Coffee beans</title>
+      <link hr
+
+[0;34m== Concurrent requests — Vert.x event loop (Quarkus) ==[0m
+[0;32mPASS[0m 5x parallel GET /beans                                       [2m[all 200][0m
+
+[0;34m== Summary ==[0m
+[0;31m5/24 checks failed[0m (19 passed).
+ Container favorite-coffee-app Stopping 
+ Container favorite-coffee-app Stopped 

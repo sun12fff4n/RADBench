@@ -1,0 +1,130 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/MANIFEST.MF\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.json.bind.spi.JsonbProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.json.spi.JsonProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.maven.surefire.spi.MasterProcessChannelProcessorFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.engine.TestEngine\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.TestExecutionListener\\E"
+  }, {
+    "pattern":"\\Qhookconfigurators.properties\\E"
+  }, {
+    "pattern":"\\Qjava/io/Serializable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/AutoCloseable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Object.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Record.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/annotation/Annotation.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/Serializable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/AutoCloseable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Object.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Record.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/annotation/Annotation.class\\E"
+  }, {
+    "pattern":"java.xml:\\Qcom/sun/org/apache/xml/internal/serializer/Encodings.properties\\E"
+  }, {
+    "pattern":"jdk.internal.jvmstat:\\Qsun/jvmstat/perfdata/resources/aliasmap\\E"
+  }]},
+  "bundles":[{
+    "name":"com.ibm.ws.app.manager.internal.resources.AppManagerMessages",
+    "classNames":["com.ibm.ws.app.manager.internal.resources.AppManagerMessages"]
+  }, {
+    "name":"com.ibm.ws.app.manager.war.internal.resources.Messages",
+    "classNames":["com.ibm.ws.app.manager.war.internal.resources.Messages"]
+  }, {
+    "name":"com.ibm.ws.cdi.internal.resources.CDI",
+    "classNames":["com.ibm.ws.cdi.internal.resources.CDI"]
+  }, {
+    "name":"com.ibm.ws.config.internal.resources.ConfigMessages",
+    "classNames":["com.ibm.ws.config.internal.resources.ConfigMessages"]
+  }, {
+    "name":"com.ibm.ws.http.channel.internal.resources.httpchannelmessages",
+    "classNames":["com.ibm.ws.http.channel.internal.resources.httpchannelmessages"]
+  }, {
+    "name":"com.ibm.ws.kernel.boot.resources.LauncherMessages",
+    "classNames":["com.ibm.ws.kernel.boot.resources.LauncherMessages"]
+  }, {
+    "name":"com.ibm.ws.kernel.feature.internal.resources.ProvisionerMessages",
+    "classNames":["com.ibm.ws.kernel.feature.internal.resources.ProvisionerMessages"]
+  }, {
+    "name":"com.ibm.ws.logging.internal.resources.FFDCMessages",
+    "classNames":["com.ibm.ws.logging.internal.resources.FFDCMessages"]
+  }, {
+    "name":"com.ibm.ws.runtime.update.internal.resources.Messages",
+    "classNames":["com.ibm.ws.runtime.update.internal.resources.Messages"]
+  }, {
+    "name":"com.ibm.ws.tcpchannel.internal.resources.TCPChannelMessages",
+    "classNames":["com.ibm.ws.tcpchannel.internal.resources.TCPChannelMessages"]
+  }, {
+    "name":"com.ibm.ws.webcontainer.resources.LShimMessages",
+    "classNames":["com.ibm.ws.webcontainer.resources.LShimMessages"]
+  }, {
+    "name":"com.ibm.ws.webcontainer.resources.Messages",
+    "classNames":["com.ibm.ws.webcontainer.resources.Messages"]
+  }, {
+    "name":"com.ibm.wsspi.injectionengine.injection",
+    "classNames":["com.ibm.wsspi.injectionengine.injection"]
+  }, {
+    "name":"com.sun.org.apache.xalan.internal.xsltc.runtime.ErrorMessages",
+    "classNames":["com.sun.org.apache.xalan.internal.xsltc.runtime.ErrorMessages"]
+  }, {
+    "name":"com.sun.org.apache.xml.internal.serializer.XMLEntities",
+    "locales":[""]
+  }, {
+    "name":"javax.servlet.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"javax.servlet.http.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.bus.extension.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.bus.managers.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.common.annotation.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.common.injection.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.common.util.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.endpoint.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.jaxrs.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.jaxrs.impl.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.jaxrs.utils.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.resource.Messages",
+    "locales":[""]
+  }, {
+    "name":"org.apache.cxf.service.factory.Messages",
+    "locales":[""]
+  }]
+}

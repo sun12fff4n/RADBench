@@ -1,0 +1,526 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.kairosdb:kairosdb:jar:1.4.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 491, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< org.kairosdb:kairosdb >------------------------
+[INFO] Building kairosdb 1.4.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml (5.9 kB at 6.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.0-android/guava-33.7.0-android.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.0-android/guava-33.7.0-android.pom (10.0 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.7.0-android/guava-parent-33.7.0-android.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.7.0-android/guava-parent-33.7.0-android.pom (30 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.pom (1.9 kB at 8.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.50.0/error_prone_annotations-2.50.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.50.0/error_prone_annotations-2.50.0.pom (4.3 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.50.0/error_prone_parent-2.50.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.50.0/error_prone_parent-2.50.0.pom (16 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.0-jre/guava-33.7.0-jre.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.0-jre/guava-33.7.0-jre.pom (9.7 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.7.0-jre/guava-parent-33.7.0-jre.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.7.0-jre/guava-parent-33.7.0-jre.pom (30 kB at 133 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-android/guava-33.7.1-android.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-android/guava-33.7.1-android.pom (10.0 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.7.1-android/guava-parent-33.7.1-android.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.7.1-android/guava-parent-33.7.1-android.pom (30 kB at 133 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre/guava-33.7.1-jre.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre/guava-33.7.1-jre.pom (9.7 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.7.1-jre/guava-parent-33.7.1-jre.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.7.1-jre/guava-parent-33.7.1-jre.pom (30 kB at 128 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre/guava-33.7.1-jre.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.7.1-jre/guava-33.7.1-jre.jar (3.1 MB at 515 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.50.0/error_prone_annotations-2.50.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.2/jsr305-2.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar (11 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar (68 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/kairosdb/metrics4j/1.0.2/metrics4j-1.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar (3.1 kB at 4.1 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.50.0/error_prone_annotations-2.50.0.jar (20 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.32.0/protobuf-java-4.32.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar (17 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.94.Final/netty-handler-4.1.94.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.2/jsr305-2.0.2.jar (32 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.94.Final/netty-common-4.1.94.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/kairosdb/metrics4j/1.0.2/metrics4j-1.0.2.jar (520 kB at 205 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.94.Final/netty-transport-4.1.94.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.94.Final/netty-handler-4.1.94.Final.jar (555 kB at 219 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.94.Final/netty-transport-native-unix-common-4.1.94.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.94.Final/netty-common-4.1.94.Final.jar (659 kB at 240 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar (348 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar (129 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.32.0/protobuf-java-4.32.0.jar (1.9 MB at 492 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.94.Final/netty-transport-4.1.94.Final.jar (489 kB at 123 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar (88 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mchange/c3p0/0.9.5.4/c3p0-0.9.5.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.94.Final/netty-transport-native-unix-common-4.1.94.Final.jar (44 kB at 9.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mchange/c3p0/0.9.5.4/c3p0-0.9.5.4.jar (500 kB at 99 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/3.2.6/metrics-core-3.2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar (93 kB at 18 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15.jar (624 kB at 105 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar (1.6 MB at 258 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/3.2.6/metrics-core-3.2.6.jar (136 kB at 19 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar (335 kB at 46 kB/s)
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kairosdb ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 7 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ kairosdb ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 361 source files with javac [debug target 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/org/kairosdb/core/GuiceKairosDataPointFactory.java:[19,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/KairosDataPointFactory.java:[19,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/DataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/GuiceKairosDataPointFactory.java:[102,71] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.GuiceKairosDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/DataPointFactory.java:[45,48] cannot find symbol
+  symbol:   class JsonElement
+  location: interface org.kairosdb.core.datapoints.DataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/KairosDataPointFactory.java:[34,64] cannot find symbol
+  symbol:   class JsonElement
+  location: interface org.kairosdb.core.KairosDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/Main.java:[26,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/ComplexDataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/ComplexDataPointFactory.java:[4,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/ComplexDataPointFactory.java:[32,55] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.datapoints.ComplexDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/DoubleDataPointFactoryImpl.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/DoubleDataPointFactoryImpl.java:[35,55] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.datapoints.DoubleDataPointFactoryImpl
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LegacyDataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LegacyDataPointFactory.java:[75,55] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.datapoints.LegacyDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LongDataPointFactoryImpl.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LongDataPointFactoryImpl.java:[63,55] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.datapoints.LongDataPointFactoryImpl
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LongNanoDataPointFactoryImpl.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LongNanoDataPointFactoryImpl.java:[29,55] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.datapoints.LongNanoDataPointFactoryImpl
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/NullDataPointFactory.java:[16,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/NullDataPointFactory.java:[50,55] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.datapoints.NullDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/SnappyStringDataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/SnappyStringDataPointFactory.java:[35,55] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.datapoints.SnappyStringDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/StringDataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/StringDataPointFactory.java:[30,55] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.datapoints.StringDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datastore/QueryMetric.java:[20,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datastore/QueryMetric.java:[51,17] cannot find symbol
+  symbol:   class JsonObject
+  location: class org.kairosdb.core.datastore.QueryMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/datastore/QueryMetric.java:[239,32] cannot find symbol
+  symbol:   class JsonObject
+  location: class org.kairosdb.core.datastore.QueryMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/datastore/QueryMetric.java:[244,16] cannot find symbol
+  symbol:   class JsonObject
+  location: class org.kairosdb.core.datastore.QueryMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[21,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[22,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[23,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[24,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[25,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[23,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[24,31] package com.google.gson.reflect does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[25,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[26,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[27,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[99,23] cannot find symbol
+  symbol:   class Gson
+  location: class org.kairosdb.core.http.rest.MetricsResource
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/Query.java:[3,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/Query.java:[4,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[69,23] cannot find symbol
+  symbol:   class Gson
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[97,16] cannot find symbol
+  symbol:   class Gson
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[190,40] cannot find symbol
+  symbol:   class JsonObject
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[195,40] cannot find symbol
+  symbol:   class JsonObject
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[324,25] cannot find symbol
+  symbol:   class JsonArray
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/rollup/RollupTask.java:[3,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[390,44] cannot find symbol
+  symbol:   class JsonObject
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[449,79] cannot find symbol
+  symbol:   class JsonArray
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[474,60] cannot find symbol
+  symbol:   class JsonObject
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/rollup/Rollup.java:[3,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[22,1] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/AdminResource.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/AdminResource.java:[4,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/AdminResource.java:[5,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/FeaturesResource.java:[5,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/FeaturesResource.java:[26,19] cannot find symbol
+  symbol:   class Gson
+  location: class org.kairosdb.core.http.rest.FeaturesResource
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointDeserializer.java:[19,34] package com.fasterxml.jackson.core does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointDeserializer.java:[20,34] package com.fasterxml.jackson.core does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointDeserializer.java:[38,51] cannot find symbol
+  symbol:   class JsonParser
+  location: class org.kairosdb.core.http.rest.json.DataPointDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[21,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[22,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[23,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[24,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[25,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[26,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[53,23] cannot find symbol
+  symbol:   class Gson
+  location: class org.kairosdb.core.http.rest.json.DataPointsParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[69,85] cannot find symbol
+  symbol:   class Gson
+  location: class org.kairosdb.core.http.rest.json.DataPointsParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[126,39] cannot find symbol
+  symbol:   class JsonReader
+  location: class org.kairosdb.core.http.rest.json.DataPointsParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[231,33] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.DataPointsParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[419,25] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.DataPointsParser.NewMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[421,25] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.DataPointsParser.NewMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[439,24] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.DataPointsParser.NewMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[449,25] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.DataPointsParser.NewMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/ErrorResponse.java:[20,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/ErrorResponse.java:[21,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/MetricRequestList.java:[20,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/NewMetricRequest.java:[19,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/NewMetricRequest.java:[20,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[631,73] cannot find symbol
+  symbol:   class TypeAdapterFactory
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[633,50] cannot find symbol
+  symbol:   class Gson
+  location: class org.kairosdb.core.http.rest.json.QueryParser.LowercaseEnumTypeAdapterFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[633,61] cannot find symbol
+  symbol:   class TypeToken
+  location: class org.kairosdb.core.http.rest.json.QueryParser.LowercaseEnumTypeAdapterFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[633,28] cannot find symbol
+  symbol:   class TypeAdapter
+  location: class org.kairosdb.core.http.rest.json.QueryParser.LowercaseEnumTypeAdapterFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[685,62] cannot find symbol
+  symbol:   class JsonDeserializer
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[687,45] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.QueryParser.TimeUnitDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[687,77] cannot find symbol
+  symbol:   class JsonDeserializationContext
+  location: class org.kairosdb.core.http.rest.json.QueryParser.TimeUnitDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[688,40] cannot find symbol
+  symbol:   class JsonParseException
+  location: class org.kairosdb.core.http.rest.json.QueryParser.TimeUnitDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[707,94] cannot find symbol
+  symbol:   class JsonDeserializer
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[709,43] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.QueryParser.EnumDeserializer<TEnum>
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[710,40] cannot find symbol
+  symbol:   class JsonParseException
+  location: class org.kairosdb.core.http.rest.json.QueryParser.EnumDeserializer<TEnum>
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[737,56] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.QueryParser.TrimDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[737,88] cannot find symbol
+  symbol:   class JsonDeserializationContext
+  location: class org.kairosdb.core.http.rest.json.QueryParser.TrimDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[738,40] cannot find symbol
+  symbol:   class JsonParseException
+  location: class org.kairosdb.core.http.rest.json.QueryParser.TrimDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[746,69] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.QueryParser.FilterOperationDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[746,101] cannot find symbol
+  symbol:   class JsonDeserializationContext
+  location: class org.kairosdb.core.http.rest.json.QueryParser.FilterOperationDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[747,40] cannot find symbol
+  symbol:   class JsonParseException
+  location: class org.kairosdb.core.http.rest.json.QueryParser.FilterOperationDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[754,66] cannot find symbol
+  symbol:   class JsonDeserializer
+  location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[756,49] cannot find symbol
+  symbol:   class JsonElement
+  location: class org.kairosdb.core.http.rest.json.QueryParser.DateTimeZoneDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[756,81] cannot find symbol
+  symbol:   class JsonDeserializationContext
+  location: class org.kairosdb.core.http.rest.json.QueryParser.DateTimeZoneDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[757,40] cannot find symbol
+  symbol:   class JsonParseException
+  location: class org.kairosdb.core.http.rest.json.QueryParser.DateTimeZoneDeserializer
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.573 s
+[INFO] Finished at: 2026-09-11T19:39:32Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile) on project kairosdb: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/org/kairosdb/core/GuiceKairosDataPointFactory.java:[19,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/KairosDataPointFactory.java:[19,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/DataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/GuiceKairosDataPointFactory.java:[102,71] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.GuiceKairosDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/DataPointFactory.java:[45,48] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: interface org.kairosdb.core.datapoints.DataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/KairosDataPointFactory.java:[34,64] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: interface org.kairosdb.core.KairosDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/Main.java:[26,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/ComplexDataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/ComplexDataPointFactory.java:[4,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/ComplexDataPointFactory.java:[32,55] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.datapoints.ComplexDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/DoubleDataPointFactoryImpl.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/DoubleDataPointFactoryImpl.java:[35,55] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.datapoints.DoubleDataPointFactoryImpl
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LegacyDataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LegacyDataPointFactory.java:[75,55] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.datapoints.LegacyDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LongDataPointFactoryImpl.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LongDataPointFactoryImpl.java:[63,55] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.datapoints.LongDataPointFactoryImpl
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LongNanoDataPointFactoryImpl.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/LongNanoDataPointFactoryImpl.java:[29,55] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.datapoints.LongNanoDataPointFactoryImpl
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/NullDataPointFactory.java:[16,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/NullDataPointFactory.java:[50,55] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.datapoints.NullDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/SnappyStringDataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/SnappyStringDataPointFactory.java:[35,55] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.datapoints.SnappyStringDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/StringDataPointFactory.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datapoints/StringDataPointFactory.java:[30,55] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.datapoints.StringDataPointFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/datastore/QueryMetric.java:[20,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/datastore/QueryMetric.java:[51,17] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class org.kairosdb.core.datastore.QueryMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/datastore/QueryMetric.java:[239,32] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class org.kairosdb.core.datastore.QueryMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/datastore/QueryMetric.java:[244,16] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class org.kairosdb.core.datastore.QueryMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[21,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[22,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[23,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[24,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[25,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[23,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[24,31] package com.google.gson.reflect does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[25,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[26,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[27,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/MetricsResource.java:[99,23] cannot find symbol
+[ERROR]   symbol:   class Gson
+[ERROR]   location: class org.kairosdb.core.http.rest.MetricsResource
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/Query.java:[3,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/Query.java:[4,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[69,23] cannot find symbol
+[ERROR]   symbol:   class Gson
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[97,16] cannot find symbol
+[ERROR]   symbol:   class Gson
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[190,40] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[195,40] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[324,25] cannot find symbol
+[ERROR]   symbol:   class JsonArray
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/rollup/RollupTask.java:[3,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[390,44] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[449,79] cannot find symbol
+[ERROR]   symbol:   class JsonArray
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[474,60] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/rollup/Rollup.java:[3,35] package com.google.gson.annotations does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[22,1] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/AdminResource.java:[3,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/AdminResource.java:[4,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/AdminResource.java:[5,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/FeaturesResource.java:[5,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/FeaturesResource.java:[26,19] cannot find symbol
+[ERROR]   symbol:   class Gson
+[ERROR]   location: class org.kairosdb.core.http.rest.FeaturesResource
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointDeserializer.java:[19,34] package com.fasterxml.jackson.core does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointDeserializer.java:[20,34] package com.fasterxml.jackson.core does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointDeserializer.java:[38,51] cannot find symbol
+[ERROR]   symbol:   class JsonParser
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[21,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[22,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[23,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[24,23] package com.google.gson does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[25,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[26,30] package com.google.gson.stream does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[53,23] cannot find symbol
+[ERROR]   symbol:   class Gson
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointsParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[69,85] cannot find symbol
+[ERROR]   symbol:   class Gson
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointsParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[126,39] cannot find symbol
+[ERROR]   symbol:   class JsonReader
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointsParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[231,33] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointsParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[419,25] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointsParser.NewMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[421,25] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointsParser.NewMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[439,24] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointsParser.NewMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/DataPointsParser.java:[449,25] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.DataPointsParser.NewMetric
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/ErrorResponse.java:[20,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/ErrorResponse.java:[21,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/MetricRequestList.java:[20,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/NewMetricRequest.java:[19,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/NewMetricRequest.java:[20,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[631,73] cannot find symbol
+[ERROR]   symbol:   class TypeAdapterFactory
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[633,50] cannot find symbol
+[ERROR]   symbol:   class Gson
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.LowercaseEnumTypeAdapterFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[633,61] cannot find symbol
+[ERROR]   symbol:   class TypeToken
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.LowercaseEnumTypeAdapterFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[633,28] cannot find symbol
+[ERROR]   symbol:   class TypeAdapter
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.LowercaseEnumTypeAdapterFactory
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[685,62] cannot find symbol
+[ERROR]   symbol:   class JsonDeserializer
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[687,45] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.TimeUnitDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[687,77] cannot find symbol
+[ERROR]   symbol:   class JsonDeserializationContext
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.TimeUnitDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[688,40] cannot find symbol
+[ERROR]   symbol:   class JsonParseException
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.TimeUnitDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[707,94] cannot find symbol
+[ERROR]   symbol:   class JsonDeserializer
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[709,43] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.EnumDeserializer<TEnum>
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[710,40] cannot find symbol
+[ERROR]   symbol:   class JsonParseException
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.EnumDeserializer<TEnum>
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[737,56] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.TrimDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[737,88] cannot find symbol
+[ERROR]   symbol:   class JsonDeserializationContext
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.TrimDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[738,40] cannot find symbol
+[ERROR]   symbol:   class JsonParseException
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.TrimDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[746,69] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.FilterOperationDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[746,101] cannot find symbol
+[ERROR]   symbol:   class JsonDeserializationContext
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.FilterOperationDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[747,40] cannot find symbol
+[ERROR]   symbol:   class JsonParseException
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.FilterOperationDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[754,66] cannot find symbol
+[ERROR]   symbol:   class JsonDeserializer
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[756,49] cannot find symbol
+[ERROR]   symbol:   class JsonElement
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.DateTimeZoneDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[756,81] cannot find symbol
+[ERROR]   symbol:   class JsonDeserializationContext
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.DateTimeZoneDeserializer
+[ERROR] /project/src/main/java/org/kairosdb/core/http/rest/json/QueryParser.java:[757,40] cannot find symbol
+[ERROR]   symbol:   class JsonParseException
+[ERROR]   location: class org.kairosdb.core.http.rest.json.QueryParser.DateTimeZoneDeserializer
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

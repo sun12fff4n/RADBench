@@ -1,0 +1,16 @@
+
+The following files have been resolved:
+   org.apache.spark:spark-sql-api_2.12:jar:3.5.0:provided
+   org.apache.spark:spark-catalyst_2.12:jar:3.5.0:provided
+   org.apache.spark:spark-unsafe_2.12:jar:3.5.0:provided
+   org.slf4j:slf4j-api:jar:2.0.9:provided -- module org.slf4j
+   org.apache.spark:spark-common-utils_2.12:jar:3.5.0:provided
+   org.apache.tsfile:common:jar:2.1.1:compile -- module common (auto)
+   org.apache.iotdb:iotdb-session:jar:2.0.5:compile -- module iotdb.session (auto)
+   org.apache.tsfile:tsfile:jar:2.1.1:compile -- module tsfile (auto)
+   org.apache.iotdb:isession:jar:2.0.5:compile -- module isession (auto)
+   org.scala-lang:scala-library:jar:2.12.19:provided -- module scala.library [auto]
+   junit:junit:jar:4.13.2:test -- module junit [auto]
+   org.scalatest:scalatest_2.12:jar:3.0.9:test
+   org.scalactic:scalactic_2.12:jar:3.0.9:test
+

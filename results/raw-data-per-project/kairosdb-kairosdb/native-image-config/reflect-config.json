@@ -1,0 +1,2847 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"[C"
+},
+{
+  "name":"[D"
+},
+{
+  "name":"[F"
+},
+{
+  "name":"[I"
+},
+{
+  "name":"[J"
+},
+{
+  "name":"[Lcom.google.gson.JsonElement;"
+},
+{
+  "name":"[Ljakarta.ws.rs.container.ContainerRequestFilter;"
+},
+{
+  "name":"[Ljakarta.ws.rs.container.ContainerResponseFilter;"
+},
+{
+  "name":"[Ljakarta.ws.rs.ext.ReaderInterceptor;"
+},
+{
+  "name":"[Ljakarta.ws.rs.ext.WriterInterceptor;"
+},
+{
+  "name":"[Ljava.lang.Object;"
+},
+{
+  "name":"[Ljava.lang.String;"
+},
+{
+  "name":"[Ljava.lang.invoke.MethodHandles$Lookup$ClassOption;"
+},
+{
+  "name":"[Ljavax.management.openmbean.CompositeData;"
+},
+{
+  "name":"[S"
+},
+{
+  "name":"[Z"
+},
+{
+  "name":"[[Lcom.google.gson.JsonElement;"
+},
+{
+  "name":"ch.qos.logback.classic.Level",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.classic.Logger"
+},
+{
+  "name":"ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.filter.LevelFilter",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setLevel","parameterTypes":["ch.qos.logback.classic.Level"] }]
+},
+{
+  "name":"ch.qos.logback.classic.util.DefaultJoranConfigurator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.ConsoleAppender",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.FileAppender",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.OutputStreamAppender",
+  "methods":[{"name":"setEncoder","parameterTypes":["ch.qos.logback.core.encoder.Encoder"] }]
+},
+{
+  "name":"ch.qos.logback.core.UnsynchronizedAppenderBase",
+  "methods":[{"name":"addFilter","parameterTypes":["ch.qos.logback.core.filter.Filter"] }]
+},
+{
+  "name":"ch.qos.logback.core.encoder.Encoder",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+  "methods":[{"name":"setParent","parameterTypes":["ch.qos.logback.core.spi.ContextAware"] }]
+},
+{
+  "name":"ch.qos.logback.core.filter.AbstractMatcherFilter",
+  "methods":[{"name":"setOnMatch","parameterTypes":["ch.qos.logback.core.spi.FilterReply"] }, {"name":"setOnMismatch","parameterTypes":["ch.qos.logback.core.spi.FilterReply"] }]
+},
+{
+  "name":"ch.qos.logback.core.filter.Filter",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+  "methods":[{"name":"setPattern","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.RollingFileAppender",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setFile","parameterTypes":["java.lang.String"] }, {"name":"setRollingPolicy","parameterTypes":["ch.qos.logback.core.rolling.RollingPolicy"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.RollingPolicy",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.RollingPolicyBase",
+  "methods":[{"name":"setFileNamePattern","parameterTypes":["java.lang.String"] }, {"name":"setParent","parameterTypes":["ch.qos.logback.core.FileAppender"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setMaxFileSize","parameterTypes":["ch.qos.logback.core.util.FileSize"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.TimeBasedRollingPolicy",
+  "methods":[{"name":"setMaxHistory","parameterTypes":["int"] }]
+},
+{
+  "name":"ch.qos.logback.core.spi.ContextAware",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.spi.FilterReply",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.util.FileSize",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.beust.jcommander.converters.StringConverter",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.beust.jcommander.validators.NoValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.beust.jcommander.validators.NoValueValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.codahale.metrics.health.HealthCheck",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.codahale.metrics.health.jvm.ThreadDeadlockHealthCheck",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.fasterxml.jackson.core.Versioned",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.jakarta.rs.base.ProviderBase",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.fasterxml.jackson.jakarta.rs.json.JacksonJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.jakarta.rs.json.JacksonJsonProvider$$FastClassByGuice$$3cbade8",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"com.google.common.collect.RegularImmutableList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture",
+  "fields":[{"name":"listeners"}, {"name":"value"}, {"name":"waiters"}]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture$Waiter",
+  "fields":[{"name":"next"}, {"name":"thread"}]
+},
+{
+  "name":"com.google.gson.annotations.Expose",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"com.google.gson.annotations.SerializedName",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.AbstractModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.Inject",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.KotlinSupportImpl"
+},
+{
+  "name":"com.google.inject.Provider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.Annotations",
+  "methods":[{"name":"determineAnnotationToStringConfig","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.internal.InjectorShell$RootModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.InternalProviderInstanceBindingImpl$Factory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.ProviderMethod",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.ProviderMethod$FastClassProviderMethod",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.UniqueAnnotations$Internal",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.name.Named",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.servlet.FilterDefinition",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.servlet.FilterPipeline",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.servlet.GuiceFilter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.servlet.GuiceFilter$$FastClassByGuice$$4e8b1d3",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"com.google.inject.servlet.InternalServletModule",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.google.inject.servlet.InternalServletModule$$FastClassByGuice$$1f2bd2",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"com.google.inject.servlet.InternalServletModule$BackwardsCompatibleServletContextProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.google.inject.servlet.InternalServletModule$BackwardsCompatibleServletContextProvider$$FastClassByGuice$$34a20b3",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"com.google.inject.servlet.ManagedFilterPipeline",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.google.inject.servlet.ManagedFilterPipeline$$FastClassByGuice$$32bf0e2",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"com.google.inject.servlet.ManagedServletPipeline",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.google.inject.servlet.ManagedServletPipeline$$FastClassByGuice$$33518c3",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"com.google.inject.servlet.RequestParameters",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.servlet.ScopingOnly",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.servlet.ServletModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.spi.ProviderWithExtensionVisitor",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.util.Modules$EmptyModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.ibm.icu.text.Collator"
+},
+{
+  "name":"com.mchange.v1.cachedstore.CachedStore",
+  "methods":[{"name":"find","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"com.mchange.v2.c3p0.PoolBackedDataSource",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.mchange.v2.c3p0.PoolBackedDataSourceBeanInfo"
+},
+{
+  "name":"com.mchange.v2.c3p0.PoolBackedDataSourceCustomizer"
+},
+{
+  "name":"com.mchange.v2.c3p0.PooledDataSource",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"close","parameterTypes":["boolean"] }, {"name":"getLastAcquisitionFailure","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getLastCheckinFailure","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getLastCheckoutFailure","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getLastConnectionTestFailure","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getLastIdleTestFailure","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"com.mchange.v2.c3p0.WrapperConnectionPoolDataSource",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getPassword","parameterTypes":[] }, {"name":"getUser","parameterTypes":[] }]
+},
+{
+  "name":"com.mchange.v2.c3p0.WrapperConnectionPoolDataSourceBeanInfo"
+},
+{
+  "name":"com.mchange.v2.c3p0.WrapperConnectionPoolDataSourceCustomizer"
+},
+{
+  "name":"com.mchange.v2.c3p0.cfg.C3P0ConfigXmlUtils"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.AbstractIdentityTokenized",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.AbstractIdentityTokenizedBeanInfo"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.AbstractIdentityTokenizedCustomizer"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSourceBeanInfo"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSourceCustomizer"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.C3P0Defaults",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"acquireIncrement","parameterTypes":[] }, {"name":"acquireRetryAttempts","parameterTypes":[] }, {"name":"acquireRetryDelay","parameterTypes":[] }, {"name":"autoCommitOnClose","parameterTypes":[] }, {"name":"automaticTestTable","parameterTypes":[] }, {"name":"breakAfterAcquireFailure","parameterTypes":[] }, {"name":"checkoutTimeout","parameterTypes":[] }, {"name":"connectionCustomizerClassName","parameterTypes":[] }, {"name":"connectionTesterClassName","parameterTypes":[] }, {"name":"contextClassLoaderSource","parameterTypes":[] }, {"name":"dataSourceName","parameterTypes":[] }, {"name":"debugUnreturnedConnectionStackTraces","parameterTypes":[] }, {"name":"driverClass","parameterTypes":[] }, {"name":"extensions","parameterTypes":[] }, {"name":"factoryClassLocation","parameterTypes":[] }, {"name":"forceIgnoreUnresolvedTransactions","parameterTypes":[] }, {"name":"forceSynchronousCheckins","parameterTypes":[] }, {"name":"forceUseNamedDriverClass","parameterTypes":[] }, {"name":"idleConnectionTestPeriod","parameterTypes":[] }, {"name":"initialPoolSize","parameterTypes":[] }, {"name":"jdbcUrl","parameterTypes":[] }, {"name":"maxAdministrativeTaskTime","parameterTypes":[] }, {"name":"maxConnectionAge","parameterTypes":[] }, {"name":"maxIdleTime","parameterTypes":[] }, {"name":"maxIdleTimeExcessConnections","parameterTypes":[] }, {"name":"maxPoolSize","parameterTypes":[] }, {"name":"maxStatements","parameterTypes":[] }, {"name":"maxStatementsPerConnection","parameterTypes":[] }, {"name":"minPoolSize","parameterTypes":[] }, {"name":"numHelperThreads","parameterTypes":[] }, {"name":"overrideDefaultPassword","parameterTypes":[] }, {"name":"overrideDefaultUser","parameterTypes":[] }, {"name":"password","parameterTypes":[] }, {"name":"preferredTestQuery","parameterTypes":[] }, {"name":"privilegeSpawnedThreads","parameterTypes":[] }, {"name":"propertyCycle","parameterTypes":[] }, {"name":"statementCacheNumDeferredCloseThreads","parameterTypes":[] }, {"name":"testConnectionOnCheckin","parameterTypes":[] }, {"name":"testConnectionOnCheckout","parameterTypes":[] }, {"name":"unreturnedConnectionTimeout","parameterTypes":[] }, {"name":"user","parameterTypes":[] }, {"name":"userOverridesAsString","parameterTypes":[] }, {"name":"usesTraditionalReflectiveProxies","parameterTypes":[] }]
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.DefaultConnectionTester",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.IdentityTokenResolvable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.IdentityTokenResolvableBeanInfo"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.IdentityTokenResolvableCustomizer"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.PoolBackedDataSourceBase",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.PoolBackedDataSourceBaseBeanInfo"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.PoolBackedDataSourceBaseCustomizer"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.WrapperConnectionPoolDataSourceBase",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getAcquireIncrement","parameterTypes":[] }, {"name":"getAcquireRetryAttempts","parameterTypes":[] }, {"name":"getAcquireRetryDelay","parameterTypes":[] }, {"name":"getAutomaticTestTable","parameterTypes":[] }, {"name":"getCheckoutTimeout","parameterTypes":[] }, {"name":"getConnectionCustomizerClassName","parameterTypes":[] }, {"name":"getConnectionTesterClassName","parameterTypes":[] }, {"name":"getContextClassLoaderSource","parameterTypes":[] }, {"name":"getFactoryClassLocation","parameterTypes":[] }, {"name":"getIdentityToken","parameterTypes":[] }, {"name":"getIdleConnectionTestPeriod","parameterTypes":[] }, {"name":"getInitialPoolSize","parameterTypes":[] }, {"name":"getMaxAdministrativeTaskTime","parameterTypes":[] }, {"name":"getMaxConnectionAge","parameterTypes":[] }, {"name":"getMaxIdleTime","parameterTypes":[] }, {"name":"getMaxIdleTimeExcessConnections","parameterTypes":[] }, {"name":"getMaxPoolSize","parameterTypes":[] }, {"name":"getMaxStatements","parameterTypes":[] }, {"name":"getMaxStatementsPerConnection","parameterTypes":[] }, {"name":"getMinPoolSize","parameterTypes":[] }, {"name":"getOverrideDefaultPassword","parameterTypes":[] }, {"name":"getOverrideDefaultUser","parameterTypes":[] }, {"name":"getPreferredTestQuery","parameterTypes":[] }, {"name":"getPropertyCycle","parameterTypes":[] }, {"name":"getStatementCacheNumDeferredCloseThreads","parameterTypes":[] }, {"name":"getUnreturnedConnectionTimeout","parameterTypes":[] }, {"name":"getUserOverridesAsString","parameterTypes":[] }, {"name":"isBreakAfterAcquireFailure","parameterTypes":[] }, {"name":"isDebugUnreturnedConnectionStackTraces","parameterTypes":[] }, {"name":"isForceSynchronousCheckins","parameterTypes":[] }, {"name":"isPrivilegeSpawnedThreads","parameterTypes":[] }, {"name":"isTestConnectionOnCheckin","parameterTypes":[] }, {"name":"isTestConnectionOnCheckout","parameterTypes":[] }]
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.WrapperConnectionPoolDataSourceBaseBeanInfo"
+},
+{
+  "name":"com.mchange.v2.c3p0.impl.WrapperConnectionPoolDataSourceBaseCustomizer"
+},
+{
+  "name":"com.mchange.v2.c3p0.management.ActiveManagementCoordinator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.mchange.v2.c3p0.management.C3P0RegistryManager",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.mchange.v2.c3p0.management.C3P0RegistryManagerMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean",
+  "methods":[{"name":"<init>","parameterTypes":["com.mchange.v2.c3p0.PooledDataSource","java.lang.String","javax.management.MBeanServer"] }]
+},
+{
+  "name":"com.mchange.v2.cfg.DelayedLogItem"
+},
+{
+  "name":"com.mchange.v2.cfg.MConfig",
+  "methods":[{"name":"dumpToLogger","parameterTypes":["com.mchange.v2.cfg.DelayedLogItem","com.mchange.v2.log.MLogger"] }]
+},
+{
+  "name":"com.mchange.v2.log.MLevel",
+  "fields":[{"name":"ALL"}, {"name":"CONFIG"}, {"name":"FINE"}, {"name":"FINER"}, {"name":"FINEST"}, {"name":"INFO"}, {"name":"OFF"}, {"name":"SEVERE"}, {"name":"WARNING"}]
+},
+{
+  "name":"com.mchange.v2.log.slf4j.Slf4jMLog",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.el.ExpressionFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.management.GarbageCollectorMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.GcInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.HotSpotDiagnosticMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.ThreadMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.UnixOperatingSystemMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.VMOption",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.internal.GarbageCollectorExtImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.HotSpotDiagnostic",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.HotSpotThreadImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.OperatingSystemImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.typesafe.config.Config"
+},
+{
+  "name":"com.typesafe.config.ConfigList",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.ConfigMergeable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.ConfigValue",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.AbstractConfigValue",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.ConfigBoolean",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.ConfigInt",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.ConfigNumber",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.ConfigString",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.ConfigString$Quoted",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.ConfigString$Unquoted",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.Container",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.MergeableValue",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.typesafe.config.impl.SimpleConfigList",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap$1"
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap$ServerBootstrapAcceptor",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"io.netty.buffer.AbstractByteBufAllocator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.channel.AbstractChannelHandlerContext",
+  "fields":[{"name":"handlerState"}]
+},
+{
+  "name":"io.netty.channel.ChannelHandler",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.channel.ChannelHandlerAdapter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.channel.ChannelInboundHandler",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.channel.ChannelInboundHandlerAdapter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.channel.ChannelInitializer",
+  "methods":[{"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"io.netty.channel.ChannelOutboundBuffer",
+  "fields":[{"name":"totalPendingSize"}, {"name":"unwritable"}]
+},
+{
+  "name":"io.netty.channel.DefaultChannelConfig",
+  "fields":[{"name":"autoRead"}, {"name":"writeBufferWaterMark"}]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline",
+  "fields":[{"name":"estimatorHandle"}]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline$HeadContext",
+  "methods":[{"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline$TailContext",
+  "methods":[{"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.channel.socket.nio.NioServerSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.util.DefaultAttributeMap",
+  "fields":[{"name":"attributes"}]
+},
+{
+  "name":"io.netty.util.concurrent.DefaultPromise",
+  "fields":[{"name":"result"}]
+},
+{
+  "name":"io.netty.util.concurrent.SingleThreadEventExecutor",
+  "fields":[{"name":"state"}, {"name":"threadProperties"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"jakarta.inject.Named",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.inject.Provider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.persistence.Persistence"
+},
+{
+  "name":"jakarta.servlet.Filter",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.servlet.ServletContextListener",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.servlet.ServletRequest",
+  "methods":[{"name":"getRemoteAddr","parameterTypes":[] }]
+},
+{
+  "name":"jakarta.servlet.http.HttpServletResponse"
+},
+{
+  "name":"jakarta.validation.Valid",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"jakarta.validation.constraints.Min",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"groups","parameterTypes":[] }, {"name":"message","parameterTypes":[] }, {"name":"payload","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"jakarta.validation.constraints.NotEmpty",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"groups","parameterTypes":[] }, {"name":"message","parameterTypes":[] }, {"name":"payload","parameterTypes":[] }]
+},
+{
+  "name":"jakarta.validation.constraints.NotNull",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"groups","parameterTypes":[] }, {"name":"message","parameterTypes":[] }, {"name":"payload","parameterTypes":[] }]
+},
+{
+  "name":"jakarta.ws.rs.core.HttpHeaders",
+  "methods":[{"name":"getRequestHeader","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"jakarta.ws.rs.ext.ExceptionMapper",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.ws.rs.ext.MessageBodyReader",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.ws.rs.ext.MessageBodyWriter",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.ws.rs.ext.Providers",
+  "methods":[{"name":"getContextResolver","parameterTypes":["java.lang.Class","jakarta.ws.rs.core.MediaType"] }]
+},
+{
+  "name":"java.beans.PropertyChangeListener",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.beans.PropertyVetoException"
+},
+{
+  "name":"java.beans.VetoableChangeListener",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.io.Serializable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.BaseVirtualThread"
+},
+{
+  "name":"java.lang.Boolean",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"parseBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Byte",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"parseByte","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.CharSequence",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Character",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Class",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getModule","parameterTypes":[] }, {"name":"getRecordComponents","parameterTypes":[] }, {"name":"isRecord","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.ClassLoader$$DefineAccessByGuice$$/0x00007efeac17c400",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Cloneable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.Comparable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.Deprecated",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.Double",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"parseDouble","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Float",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"parseFloat","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Integer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"parseInt","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Iterable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.Long",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }, {"name":"parseLong","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Module",
+  "methods":[{"name":"isNamed","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"checkLocalService","parameterTypes":["java.lang.String"] }, {"name":"checkServerType","parameterTypes":["org.kairosdb.core.http.rest.ServerType","java.lang.String","java.lang.String"] }, {"name":"checkServerTypeStatic","parameterTypes":["java.util.EnumSet","org.kairosdb.core.http.rest.ServerType","java.lang.String","java.lang.String"] }, {"name":"executeNameQuery","parameterTypes":["org.kairosdb.core.http.rest.NameType"] }, {"name":"executeNameQuery","parameterTypes":["org.kairosdb.core.http.rest.NameType","java.lang.String"] }, {"name":"getCorsPreflightResponseBuilder","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getServiceValue","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","boolean"] }, {"name":"runQuery","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"setHeaders","parameterTypes":["jakarta.ws.rs.core.Response$ResponseBuilder"] }, {"name":"setServerType","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.ObjectBeanInfo"
+},
+{
+  "name":"java.lang.ObjectCustomizer"
+},
+{
+  "name":"java.lang.ProcessHandle",
+  "methods":[{"name":"current","parameterTypes":[] }, {"name":"pid","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Short",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"parseShort","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.StackTraceElement",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.String",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.System",
+  "methods":[{"name":"getSecurityManager","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}],
+  "methods":[{"name":"isVirtual","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Thread$Builder"
+},
+{
+  "name":"java.lang.Void",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.constant.Constable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.constant.ConstantDesc",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup",
+  "fields":[{"name":"IMPL_LOOKUP"}],
+  "methods":[{"name":"defineHiddenClass","parameterTypes":["byte[]","boolean","java.lang.invoke.MethodHandles$Lookup$ClassOption[]"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup$ClassOption"
+},
+{
+  "name":"java.lang.management.BufferPoolMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.ClassLoadingMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.CompilationMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.LockInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.ManagementPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.management.MemoryMXBean",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getHeapMemoryUsage","parameterTypes":[] }, {"name":"getNonHeapMemoryUsage","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.MemoryManagerMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.MemoryPoolMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.MemoryUsage",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getCommitted","parameterTypes":[] }, {"name":"getInit","parameterTypes":[] }, {"name":"getMax","parameterTypes":[] }, {"name":"getUsed","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.MonitorInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.PlatformLoggingMXBean",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getLoggerLevel","parameterTypes":["java.lang.String"] }, {"name":"getLoggerNames","parameterTypes":[] }, {"name":"getParentLoggerName","parameterTypes":["java.lang.String"] }, {"name":"setLoggerLevel","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getUptime","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.ThreadInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.ThreadMXBean",
+  "methods":[{"name":"getThreadCount","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.RecordComponent",
+  "methods":[{"name":"getName","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }]
+},
+{
+  "name":"java.math.BigDecimal"
+},
+{
+  "name":"java.math.BigInteger"
+},
+{
+  "name":"java.nio.Bits",
+  "fields":[{"name":"MAX_MEMORY"}, {"name":"UNALIGNED"}]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"alignedSlice","parameterTypes":["int"] }]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.nio.channels.spi.SelectorProvider",
+  "methods":[{"name":"openServerSocketChannel","parameterTypes":["java.net.ProtocolFamily"] }]
+},
+{
+  "name":"java.security.AccessController",
+  "methods":[{"name":"doPrivileged","parameterTypes":["java.security.PrivilegedAction"] }]
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.sql.Date"
+},
+{
+  "name":"java.sql.SQLException",
+  "fields":[{"name":"next"}]
+},
+{
+  "name":"java.util.AbstractCollection",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.util.AbstractList",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.util.ArrayList",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.util.Collection",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.EventListener",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.HashSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.List",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.util.PropertyPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.util.RandomAccess",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"java.util.logging.Level",
+  "fields":[{"name":"ALL"}, {"name":"CONFIG"}, {"name":"FINE"}, {"name":"FINER"}, {"name":"FINEST"}, {"name":"INFO"}, {"name":"OFF"}, {"name":"SEVERE"}, {"name":"WARNING"}]
+},
+{
+  "name":"java.util.logging.LogManager",
+  "methods":[{"name":"getLoggingMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.util.logging.LoggingMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"javafx.beans.value.ObservableValue"
+},
+{
+  "name":"javax.management.MBeanOperationInfo",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getSignature","parameterTypes":[] }]
+},
+{
+  "name":"javax.management.MBeanServerBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javax.management.ObjectName"
+},
+{
+  "name":"javax.management.StandardEmitterMBean",
+  "methods":[{"name":"cacheMBeanInfo","parameterTypes":["javax.management.MBeanInfo"] }, {"name":"getCachedMBeanInfo","parameterTypes":[] }, {"name":"getMBeanInfo","parameterTypes":[] }]
+},
+{
+  "name":"javax.management.openmbean.CompositeData"
+},
+{
+  "name":"javax.management.openmbean.OpenMBeanOperationInfoSupport"
+},
+{
+  "name":"javax.management.openmbean.TabularData"
+},
+{
+  "name":"javax.money.MonetaryAmount"
+},
+{
+  "name":"javax.security.auth.Subject",
+  "methods":[{"name":"doAs","parameterTypes":["javax.security.auth.Subject","java.security.PrivilegedAction"] }]
+},
+{
+  "name":"javax.sql.DataSource",
+  "methods":[{"name":"getConnection","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"jdk.internal.misc.Unsafe",
+  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
+},
+{
+  "name":"jdk.management.jfr.ConfigurationInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.EventTypeInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.FlightRecorderMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.FlightRecorderMXBeanImpl",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"cacheMBeanInfo","parameterTypes":["javax.management.MBeanInfo"] }, {"name":"getCachedMBeanInfo","parameterTypes":[] }, {"name":"getMBeanInfo","parameterTypes":[] }, {"name":"getNotificationInfo","parameterTypes":[] }]
+},
+{
+  "name":"jdk.management.jfr.RecordingInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.SettingDescriptorInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.Logger"
+},
+{
+  "name":"org.eclipse.jetty.http.pathmap.PathSpecSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jetty.util.AsciiLowerCaseSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jetty.util.TypeUtil",
+  "methods":[{"name":"getClassLoaderLocation","parameterTypes":["java.lang.Class"] }, {"name":"getCodeSourceLocation","parameterTypes":["java.lang.Class"] }, {"name":"getModuleLocation","parameterTypes":["java.lang.Class"] }, {"name":"getSystemClassLoaderLocation","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"org.eclipse.jetty.util.security.SecurityUtils",
+  "methods":[{"name":"callableToPrivilegedAction","parameterTypes":["java.util.concurrent.Callable"] }]
+},
+{
+  "name":"org.h2.jdbc.JdbcConnection",
+  "methods":[{"name":"setHoldability","parameterTypes":["int"] }, {"name":"setReadOnly","parameterTypes":["boolean"] }, {"name":"setTypeMap","parameterTypes":["java.util.Map"] }]
+},
+{
+  "name":"org.h2.jdbcx.JdbcDataSource",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getDescription","parameterTypes":[] }, {"name":"getPassword","parameterTypes":[] }, {"name":"getURL","parameterTypes":[] }, {"name":"getUrl","parameterTypes":[] }, {"name":"getUser","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.jdbcx.JdbcDataSourceBeanInfo"
+},
+{
+  "name":"org.h2.jdbcx.JdbcDataSourceCustomizer"
+},
+{
+  "name":"org.h2.message.TraceObject",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getTraceObjectName","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.message.TraceObjectBeanInfo"
+},
+{
+  "name":"org.h2.message.TraceObjectCustomizer"
+},
+{
+  "name":"org.h2.mvstore.MVStore$TxCounter",
+  "fields":[{"name":"counter"}]
+},
+{
+  "name":"org.h2.mvstore.Page",
+  "fields":[{"name":"pos"}]
+},
+{
+  "name":"org.h2.mvstore.db.LobStorageMap$BlobMeta$Type",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.h2.mvstore.db.LobStorageMap$BlobReference$Type",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.h2.mvstore.db.NullValueDataType",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.h2.mvstore.db.RowDataType$Factory",
+  "fields":[{"name":"INSTANCE"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.mvstore.tx.VersionedValueType$Factory",
+  "fields":[{"name":"INSTANCE"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.mvstore.type.ByteArrayDataType",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.h2.mvstore.type.LongDataType",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.h2.store.fs.async.FilePathAsync",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.store.fs.mem.FilePathMem",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.store.fs.mem.FilePathMemLZF",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.store.fs.niomapped.FilePathNioMapped",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.store.fs.niomem.FilePathNioMem",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.store.fs.niomem.FilePathNioMemLZF",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.store.fs.retry.FilePathRetryOnInterrupt",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.store.fs.split.FilePathSplit",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.h2.store.fs.zip.FilePathZip",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCollection",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForInteger",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.hibernate.validator.internal.util.logging.Log_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.hibernate.validator.internal.util.logging.Log_$logger_en"
+},
+{
+  "name":"org.hibernate.validator.internal.util.logging.Log_$logger_en_US"
+},
+{
+  "name":"org.hibernate.validator.internal.util.logging.Messages_$bundle",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.hibernate.validator.internal.util.logging.Messages_$bundle_en"
+},
+{
+  "name":"org.hibernate.validator.internal.util.logging.Messages_$bundle_en_US"
+},
+{
+  "name":"org.jboss.logmanager.LogManager"
+},
+{
+  "name":"org.jboss.resteasy.core.ContextServletOutputStream",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.resteasy.core.ContextParameterInjector","java.io.OutputStream"] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.interceptors.CacheControlFeature",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.interceptors.ClientContentEncodingAnnotationFeature",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.interceptors.MessageSanitizerContainerResponseFilter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.interceptors.ServerContentEncodingAnnotationFeature",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.AbstractEntityProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.AbstractPatchMethodFilter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.ByteArrayProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.CompletionStageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DataSourceProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DefaultBooleanWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DefaultNumberWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DefaultTextPlain",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.DocumentProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.resteasy.spi.ResteasyConfiguration"] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.FileProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.FileRangeWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.FormUrlEncodedProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.IIOImageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.InputStreamProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.JaxrsFormProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.JaxrsServerFormUrlEncodedProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.MultiValuedParamConverterProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.ReactiveStreamProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.ReaderProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.ServerFormUrlEncodedProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.SourceProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.StreamingOutputProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.StringTextStar",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.jackson.JsonProcessingExceptionMapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.jackson.PatchMethodFilter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.sse.SseEventProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.providers.sse.SseEventSinkInterceptor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jboss.resteasy.resteasy_jaxrs.i18n.LogMessages_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.jboss.resteasy.resteasy_jaxrs.i18n.LogMessages_$logger_en"
+},
+{
+  "name":"org.jboss.resteasy.resteasy_jaxrs.i18n.LogMessages_$logger_en_US"
+},
+{
+  "name":"org.jboss.resteasy.resteasy_jaxrs.i18n.Messages_$bundle",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.jboss.resteasy.resteasy_jaxrs.i18n.Messages_$bundle_en"
+},
+{
+  "name":"org.jboss.resteasy.resteasy_jaxrs.i18n.Messages_$bundle_en_US"
+},
+{
+  "name":"org.jboss.resteasy.spi.ResteasyConfiguration",
+  "methods":[{"name":"getParameter","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.jboss.resteasy.tracing.api.RESTEasyTracing"
+},
+{
+  "name":"org.joda.time.ReadableInstant"
+},
+{
+  "name":"org.kairosdb.core.CoreModule",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.CoreModule$$FastClassByGuice$$5299e",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.GuiceKairosDataPointFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.GuiceKairosDataPointFactory$$FastClassByGuice$$4aaadd0",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.HostManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.HostManager$$FastClassByGuice$$2c413d8",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.KairosConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.KairosDBService",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.KairosDataPointFactory",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.KairosFeatureProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.KairosFeatureProcessor$$FastClassByGuice$$488df1e",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.KairosPostConstructInit",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.KairosRootConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.Main$Arguments",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.AggregatorFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.AggregatorFactory$$FastClassByGuice$$4667a79",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.AvgAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.AvgAggregator$$FastClassByGuice$$d792db",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.CountAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.CountAggregator$$FastClassByGuice$$156d598",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.DataGapsMarkingAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.DataGapsMarkingAggregator$$FastClassByGuice$$175cbcb",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.DiffAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.DiffAggregator$$FastClassByGuice$$1628b27",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.DivideAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.DivideAggregator$$FastClassByGuice$$13b8f2d",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.FilterAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.aggregator.FilterAggregator$$FastClassByGuice$$1d9b098",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.FilterAggregator$FilterOperation",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.FirstAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.FirstAggregator$$FastClassByGuice$$18168dc",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.LastAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.LastAggregator$$FastClassByGuice$$19621f3",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.LeastSquaresAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.LeastSquaresAggregator$$FastClassByGuice$$11132fc",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.MaxAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.MaxAggregator$$FastClassByGuice$$ce824f",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.MinAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.MinAggregator$$FastClassByGuice$$b4d008",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.PadAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.PadAggregator$$FastClassByGuice$$1f4c359",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.PercentileAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.PercentileAggregator$$FastClassByGuice$$129e786",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.RangeAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"setSampling","parameterTypes":["org.kairosdb.core.aggregator.Sampling"] }]
+},
+{
+  "name":"org.kairosdb.core.aggregator.RangeAggregatorBeanInfo"
+},
+{
+  "name":"org.kairosdb.core.aggregator.RangeAggregatorCustomizer"
+},
+{
+  "name":"org.kairosdb.core.aggregator.RateAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.RateAggregator$$FastClassByGuice$$f41b41",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.SamplerAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.SamplerAggregator$$FastClassByGuice$$1078690",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.Sampling",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.aggregator.SaveAsAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.SaveAsAggregator$$FastClassByGuice$$1abc9d8",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.ScaleAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.ScaleAggregator$$FastClassByGuice$$148388b",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.ScoreAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.ScoreAggregator$$FastClassByGuice$$1e17539",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.ScoreAggregator$Order",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.SmaAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.SmaAggregator$$FastClassByGuice$$1c9319f",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.StdAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.StdAggregator$$FastClassByGuice$$e5a68e",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.SumAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.SumAggregator$$FastClassByGuice$$a357f9",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.SumAggregatorBeanInfo"
+},
+{
+  "name":"org.kairosdb.core.aggregator.SumAggregatorCustomizer"
+},
+{
+  "name":"org.kairosdb.core.aggregator.TimeDiffAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.TimeDiffAggregator$$FastClassByGuice$$207143f",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.TimezoneAware",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.TrimAggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.aggregator.TrimAggregator$$FastClassByGuice$$1b16a51",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.aggregator.TrimAggregator$Trim",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.kairosdb.core.annotation.FeatureComponent",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.annotation.FeatureCompoundProperty",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.annotation.FeatureProperty",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.datapoints.DataPointFactory",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.datapoints.DoubleDataPointFactory",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.datapoints.DoubleDataPointFactoryImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.datapoints.DoubleDataPointFactoryImpl$$FastClassByGuice$$26e2d9d",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.datapoints.LegacyDataPointFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.datapoints.LegacyDataPointFactory$$FastClassByGuice$$286250e",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.datapoints.LongDataPointFactory",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.datapoints.LongDataPointFactoryImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.datapoints.LongDataPointFactoryImpl$$FastClassByGuice$$2776301",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.datapoints.NullDataPointFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.datapoints.NullDataPointFactory$$FastClassByGuice$$2a01e47",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.datapoints.StringDataPointFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.datapoints.StringDataPointFactory$$FastClassByGuice$$295c307",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.datastore.Datastore",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.datastore.Duration",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.datastore.GuiceQueryPluginFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.datastore.GuiceQueryPluginFactory$$FastClassByGuice$$49e70c5",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.datastore.KairosDatastore",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.datastore.KairosDatastore$$FastClassByGuice$$3a8c23",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.datastore.PluggableQuery",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.datastore.QueryMetric",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.datastore.QueryPluginFactory",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.datastore.QueryQueuingManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.datastore.QueryQueuingManager$$FastClassByGuice$$209b79",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.datastore.ServiceKeyStore",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.datastore.TimeUnit",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.kairosdb.core.groupby.BinGroupBy",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.groupby.BinGroupBy$$FastClassByGuice$$24ee337",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.groupby.GroupByFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.groupby.GroupByFactory$$FastClassByGuice$$47363ab",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.groupby.TagGroupBy",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setTags","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"org.kairosdb.core.groupby.TagGroupBy$$FastClassByGuice$$2364522",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.groupby.TagGroupByBeanInfo"
+},
+{
+  "name":"org.kairosdb.core.groupby.TagGroupByCustomizer"
+},
+{
+  "name":"org.kairosdb.core.groupby.TimeGroupBy",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setGroupCount","parameterTypes":["int"] }, {"name":"setRangeSize","parameterTypes":["org.kairosdb.core.datastore.Duration"] }]
+},
+{
+  "name":"org.kairosdb.core.groupby.TimeGroupBy$$FastClassByGuice$$2272aa8",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.groupby.TimeGroupByBeanInfo"
+},
+{
+  "name":"org.kairosdb.core.groupby.TimeGroupByCustomizer"
+},
+{
+  "name":"org.kairosdb.core.groupby.ValueGroupBy",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.groupby.ValueGroupBy$$FastClassByGuice$$21f2f27",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.health.DatastoreQueryHealthCheck",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.health.DatastoreQueryHealthCheck$$FastClassByGuice$$309fad4",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.health.HealthCheckModule",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["org.kairosdb.core.KairosRootConfig"] }]
+},
+{
+  "name":"org.kairosdb.core.health.HealthCheckResource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"check","parameterTypes":[] }, {"name":"status","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.health.HealthCheckResource$$FastClassByGuice$$31f80e7",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.health.HealthCheckService",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.health.HealthCheckServiceImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.health.HealthCheckServiceImpl$$FastClassByGuice$$4c57b40",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.health.HealthStatus",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.health.ThreadDeadlockHealthStatus",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.health.ThreadDeadlockHealthStatus$$FastClassByGuice$$2fe6ca7",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.GuiceResourceInjectionListener",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.http.GuiceResourceInjectionListener$$FastClassByGuice$$35fe6ec",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.LoggingFilter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.http.LoggingFilter$$FastClassByGuice$$3bcbf1a",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.MonitorFilter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.http.MonitorFilter$$FastClassByGuice$$3e73b3b",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.WebServer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.http.WebServer$$FastClassByGuice$$36586a8",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.WebServletModule",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.kairosdb.core.KairosRootConfig"] }]
+},
+{
+  "name":"org.kairosdb.core.http.exceptionmapper.InvalidServerTypeExceptionMapper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.http.exceptionmapper.InvalidServerTypeExceptionMapper$$FastClassByGuice$$3d248ed",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.rest.AdminResource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"listRunningQueries","parameterTypes":[] }, {"name":"listScheduledJobs","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.http.rest.AdminResource$$FastClassByGuice$$3ab847e",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.rest.FeaturesResource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getFeature","parameterTypes":["java.lang.String"] }, {"name":"getFeatures","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.http.rest.FeaturesResource$$FastClassByGuice$$397e95e",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.rest.GuiceQueryPreProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.http.rest.GuiceQueryPreProcessor$$FastClassByGuice$$4bb3298",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.rest.MetadataResource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"deleteKey","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"getValue","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"listKeys","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"listServiceKeys","parameterTypes":["java.lang.String"] }, {"name":"setValue","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"org.kairosdb.core.http.rest.MetadataResource$$FastClassByGuice$$38ef029",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.rest.MetricsResource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"add","parameterTypes":["jakarta.ws.rs.core.HttpHeaders","java.io.InputStream"] }, {"name":"addGzip","parameterTypes":["java.io.InputStream"] }, {"name":"delete","parameterTypes":["java.lang.String"] }, {"name":"getMeta","parameterTypes":["java.lang.String"] }, {"name":"getMetricNames","parameterTypes":["java.lang.String"] }, {"name":"getVersion","parameterTypes":[] }, {"name":"metricDelete","parameterTypes":["java.lang.String"] }, {"name":"postQuery","parameterTypes":["java.lang.String","jakarta.servlet.http.HttpServletRequest"] }]
+},
+{
+  "name":"org.kairosdb.core.http.rest.MetricsResource$$FastClassByGuice$$3711999",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.rest.QueryPreProcessorContainer",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.http.rest.json.DataPointsParser$NewMetric",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.http.rest.json.ErrorResponse",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getErrors","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.http.rest.json.Query",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.http.rest.json.QueryParser",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.http.rest.json.QueryParser$$FastClassByGuice$$488392",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.http.rest.json.QueryParser$Metric",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.jobs.CacheFileCleaner",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.jobs.CacheFileCleaner$$FastClassByGuice$$5b9c57",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.processingstage.FeatureProcessingFactory",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.processingstage.FeatureProcessor",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.processingstage.GenericFeatureProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.processingstage.GenericFeatureProcessorFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.processingstage.metadata.FeatureProcessingMetadata",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.processingstage.metadata.FeatureProcessorMetadata",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.processingstage.metadata.FeaturePropertyMetadata",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.processingstage.metadata.FeatureValidationMetadata",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.core.queue.DataPointEventSerializer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.queue.DataPointEventSerializer$$FastClassByGuice$$88a539",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.queue.FileQueueProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.queue.FileQueueProcessor$$FastClassByGuice$$254cae3",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.queue.QueueProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.reporting.DataPointsMonitor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"dataPoint","parameterTypes":["org.kairosdb.events.DataPointEvent"] }]
+},
+{
+  "name":"org.kairosdb.core.reporting.DataPointsMonitor$$FastClassByGuice$$3f857e7",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.reporting.JavaMonitor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.reporting.JavaMonitor$$FastClassByGuice$$40540cf",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.reporting.MetricReportingModule",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["org.kairosdb.core.KairosRootConfig"] }]
+},
+{
+  "name":"org.kairosdb.core.scheduler.KairosDBJob",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.scheduler.KairosDBScheduler",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.scheduler.KairosDBSchedulerImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.scheduler.KairosDBSchedulerImpl$$FastClassByGuice$$64649c",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.telnet.CommandProvider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.telnet.GuiceCommandProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.telnet.GuiceCommandProvider$$FastClassByGuice$$4da5d9c",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.telnet.PutCommand",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.telnet.PutCommand$$FastClassByGuice$$4270f00",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.telnet.PutMillisecondCommand",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.telnet.PutMillisecondCommand$$FastClassByGuice$$43b18da",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.telnet.PutStringCommand",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.telnet.PutStringCommand$$FastClassByGuice$$4457bdd",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.telnet.TelnetCommand",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.core.telnet.TelnetServer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.telnet.TelnetServer$$FastClassByGuice$$41892d5",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.core.telnet.TelnetServerModule",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.kairosdb.core.KairosRootConfig"] }]
+},
+{
+  "name":"org.kairosdb.core.telnet.VersionCommand",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.core.telnet.VersionCommand$$FastClassByGuice$$45a762c",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.datastore.h2.H2Datastore",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"putDataPoint","parameterTypes":["org.kairosdb.events.DataPointEvent"] }]
+},
+{
+  "name":"org.kairosdb.datastore.h2.H2Datastore$$FastClassByGuice$$2ed6699",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.datastore.h2.H2Module",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["org.kairosdb.core.KairosRootConfig"] }]
+},
+{
+  "name":"org.kairosdb.eventbus.FilterEventBus",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.metrics.InternalSink",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.metrics.InternalSinkBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics.InternalSinkCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics.InternalSinkSetup",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.metrics.InternalSinkSetup$$FastClassByGuice$$91e575",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.metrics4j.SinkNotification",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.helpers.TimerCollector",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"setReportUnit","parameterTypes":["java.time.temporal.ChronoUnit"] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.helpers.TimerCollectorBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.helpers.TimerCollectorCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.BagCollector",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.BagCollectorBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.BagCollectorCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.LongCounter",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setReportZero","parameterTypes":["boolean"] }, {"name":"setReset","parameterTypes":["boolean"] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.LongCounterBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.LongCounterCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.SimpleStats",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setReportZero","parameterTypes":["boolean"] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.SimpleStatsBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.SimpleStatsCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.SimpleTimerMetric",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setReportUnit","parameterTypes":["java.time.temporal.ChronoUnit"] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.SimpleTimerMetricBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.SimpleTimerMetricCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.StringReporter",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.StringReporterBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.collectors.impl.StringReporterCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.formatters.MethodToSnakeCase",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.formatters.MethodToSnakeCaseBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.formatters.MethodToSnakeCaseCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.formatters.TemplateFormatter",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setTemplate","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.formatters.TemplateFormatterBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.formatters.TemplateFormatterCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.plugins.JMXReporter",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setClassNameAttributes","parameterTypes":["java.util.List"] }, {"name":"setTypeMap","parameterTypes":["org.kairosdb.metrics4j.shaded.config.Config"] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.plugins.JMXReporterBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.plugins.JMXReporterCustomizer"
+},
+{
+  "name":"org.kairosdb.metrics4j.triggers.IntervalTrigger",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setInterval","parameterTypes":["java.time.Duration"] }]
+},
+{
+  "name":"org.kairosdb.metrics4j.triggers.IntervalTriggerBeanInfo"
+},
+{
+  "name":"org.kairosdb.metrics4j.triggers.IntervalTriggerCustomizer"
+},
+{
+  "name":"org.kairosdb.plugin.Aggregator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.plugin.GroupBy",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.sample.SampleQueryPlugin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.sample.SampleQueryPlugin$$FastClassByGuice$$2d74492",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.util.IngestExecutorService",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.kairosdb.util.IngestExecutorService$$FastClassByGuice$$2beec90",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.kairosdb.util.MemoryMonitor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.kairosdb.util.MemoryMonitor$$FastClassByGuice$$79185e",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.quartz.InterruptableJob",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.quartz.Job",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.quartz.simpl.CascadingClassLoadHelper",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.quartz.simpl.RAMJobStore",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setInstanceId","parameterTypes":["java.lang.String"] }, {"name":"setInstanceName","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.quartz.simpl.RAMJobStoreBeanInfo"
+},
+{
+  "name":"org.quartz.simpl.RAMJobStoreCustomizer"
+},
+{
+  "name":"org.quartz.simpl.SimpleThreadPool",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setInstanceId","parameterTypes":["java.lang.String"] }, {"name":"setInstanceName","parameterTypes":["java.lang.String"] }, {"name":"setThreadCount","parameterTypes":["int"] }]
+},
+{
+  "name":"org.quartz.simpl.SimpleThreadPoolBeanInfo"
+},
+{
+  "name":"org.quartz.simpl.SimpleThreadPoolCustomizer"
+},
+{
+  "name":"org.slf4j.LoggerFactory"
+},
+{
+  "name":"org.slf4j.spi.LocationAwareLogger",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "name":"org.w3c.dom.Node"
+},
+{
+  "name":"sun.management.ClassLoadingImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.CompilationImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.ManagementFactoryHelper$1",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.ManagementFactoryHelper$PlatformLoggingImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryManagerImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryPoolImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.RuntimeImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true,
+  "methods":[{"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, {"name":"defineAnonymousClass","parameterTypes":["java.lang.Class","byte[]","java.lang.Object[]"] }, {"name":"getAndAddLong","parameterTypes":["java.lang.Object","long","long"] }, {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }, {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }, {"name":"storeFence","parameterTypes":[] }]
+},
+{
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[{"name":"publicSelectedKeys"}, {"name":"selectedKeys"}]
+},
+{
+  "name":"sun.security.provider.MD5",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

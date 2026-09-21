@@ -1,0 +1,136 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< org.araymond.joal:jack-of-all-trades >----------------
+[INFO] Building jack-of-all-trades 2.1.38-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ jack-of-all-trades ---
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] catalog.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] Redundant dependency javax.inject:javax.inject:1 release time Optional[2009-10-14] has not been maintained for 6041 days
+[WARNING] Redundant dependency com.google.j2objc:j2objc-annotations:1.3 release time Optional[2017-01-19] has not been maintained for 3386 days
+[WARNING] Redundant dependency com.google.code.findbugs:jsr305:3.0.2 release time Optional[2017-03-31] has not been maintained for 3316 days
+[WARNING] Redundant dependency org.checkerframework:checker-qual:3.12.0 release time Optional[2021-04-01] has not been maintained for 1854 days
+[WARNING] Redundant dependency com.google.errorprone:error_prone_annotations:2.11.0 release time Optional[2022-01-25] has not been maintained for 1554 days
+[INFO] ALL DEPENDENCY[90]:
+[INFO]  USED DEPENDENCY[85]:
+[INFO]   USED DIRECT DEPENDENCY[19]:
+[INFO] 		org.springframework.security:spring-security-test:5.7.3:test [120 KB]
+[INFO] 		com.turn:ttorrent-core:1.5:compile [160 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-test:2.7.3:test [4 KB]
+[INFO] 		org.springframework:spring-messaging:5.3.22:compile [554 KB]
+[INFO] 		org.projectlombok:lombok:1.18.24:compile [1 MB]
+[INFO] 		org.mockito:mockito-core:4.5.1:test [646 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-websocket:2.7.3:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter:2.7.3:compile [4 KB]
+[INFO] 		com.github.mifmif:generex:1.0.2:compile [14 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-security:2.7.3:compile [4 KB]
+[INFO] 		commons-io:commons-io:2.12.0:compile [463 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-web:2.7.3:compile [4 KB]
+[INFO] 		org.springframework.security:spring-security-messaging:5.7.3:compile [35 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-log4j2:2.7.3:compile [4 KB]
+[INFO] 		org.assertj:assertj-core:3.22.0:test [4 MB]
+[INFO] 		org.apache.httpcomponents:fluent-hc:4.5.13:compile [30 KB]
+[INFO] 		commons-codec:commons-codec:1.15:compile [345 KB]
+[INFO] 		org.apache.commons:commons-lang3:3.12.0:compile [573 KB]
+[INFO] 		com.google.guava:guava:31.1-jre:compile [2 MB]
+[INFO]   USED TRANSITIVE DEPENDENCY[66]:
+[INFO] 		org.objenesis:objenesis:3.2:test [48 KB]
+[INFO] 		com.jayway.jsonpath:json-path:2.7.0:test [264 KB]
+[INFO] 		org.springframework:spring-expression:5.3.22:compile [282 KB]
+[INFO] 		org.ow2.asm:asm:9.1:test [118 KB]
+[INFO] 		org.apache.httpcomponents:httpcore:4.4.15:compile [320 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:1.3.5:compile [24 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.3:compile [9 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.12.13:test [3 MB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:2.7.3:compile [1 MB]
+[INFO] 		org.apache.logging.log4j:log4j-core:2.17.2:compile [1 MB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-websocket:9.0.65:compile [270 KB]
+[INFO] 		org.opentest4j:opentest4j:1.2.0:test [7 KB]
+[INFO] 		org.apache.logging.log4j:log4j-api:2.17.2:compile [295 KB]
+[INFO] 		net.bytebuddy:byte-buddy-agent:1.12.13:test [250 KB]
+[INFO] 		org.hamcrest:hamcrest:2.2:test [120 KB]
+[INFO] 		org.apache.logging.log4j:log4j-jul:2.17.2:compile [30 KB]
+[INFO] 		org.apache.logging.log4j:log4j-slf4j-impl:2.17.2:compile [23 KB]
+[INFO] 		org.springframework:spring-jcl:5.3.22:compile [23 KB]
+[INFO] 		org.springframework:spring-beans:5.3.22:compile [682 KB]
+[INFO] 		dk.brics.automaton:automaton:1.11-8:compile [172 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-core:9.0.65:compile [3 MB]
+[INFO] 		org.springframework:spring-webmvc:5.3.22:compile [1004 KB]
+[INFO] 		com.vaadin.external.google:android-json:0.0.20131108.vaadin1:test [17 KB]
+[INFO] 		net.minidev:accessors-smart:2.4.8:test [28 KB]
+[INFO] 		org.springframework.security:spring-security-config:5.7.3:compile [1 MB]
+[INFO] 		org.springframework:spring-context:5.3.22:compile [1 MB]
+[INFO] 		org.springframework:spring-test:5.3.22:test [769 KB]
+[INFO] 		org.springframework:spring-aop:5.3.22:compile [373 KB]
+[INFO] 		org.springframework.boot:spring-boot:2.7.3:compile [1 MB]
+[INFO] 		org.springframework:spring-websocket:5.3.22:compile [437 KB]
+[INFO] 		org.skyscreamer:jsonassert:1.5.1:test [29 KB]
+[INFO] 		org.slf4j:slf4j-api:1.7.36:compile [40 KB]
+[INFO] 		org.mockito:mockito-junit-jupiter:4.5.1:test [5 KB]
+[INFO] 		org.springframework:spring-core:5.3.22:compile [1 MB]
+[INFO] 		org.simpleframework:simple:4.1.21:compile [237 KB]
+[INFO] 		org.yaml:snakeyaml:1.30:compile [323 KB]
+[INFO] 		org.springframework:spring-web:5.3.22:compile [1 MB]
+[INFO] 		org.apache.httpcomponents:httpclient:4.5.13:compile [762 KB]
+[INFO] 		com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile [2 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-el:9.0.65:compile [250 KB]
+[INFO] 		net.minidev:json-smart:2.4.8:test [116 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.8.2:test [98 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.8.2:test [224 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.8.2:test [181 KB]
+[INFO] 		org.springframework.boot:spring-boot-test:2.7.3:test [231 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-json:2.7.3:compile [4 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.3:compile [33 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter:5.8.2:test [6 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.8.2:test [563 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.13.3:compile [73 KB]
+[INFO] 		jakarta.activation:jakarta.activation-api:1.2.2:test [45 KB]
+[INFO] 		commons-logging:commons-logging:1.2:compile [60 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.3:compile [118 KB]
+[INFO] 		org.xmlunit:xmlunit-core:2.9.0:test [169 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.8.2:test [188 KB]
+[INFO] 		org.springframework.security:spring-security-core:5.7.3:compile [435 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.13.3:compile [1 MB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:test [112 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.13.3:compile [366 KB]
+[INFO] 		org.springframework.boot:spring-boot-test-autoconfigure:2.7.3:test [211 KB]
+[INFO] 		com.google.guava:failureaccess:1.0.1:compile [4 KB]
+[INFO] 		org.springframework.security:spring-security-web:5.7.3:compile [658 KB]
+[INFO] 		org.slf4j:jul-to-slf4j:1.7.36:compile [4 KB]
+[INFO] 		org.springframework.security:spring-security-crypto:5.7.3:compile [80 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-tomcat:2.7.3:compile [4 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[5]:
+[INFO]   UNUSED DIRECT DEPENDENCY[1]:
+[INFO] 		javax.inject:javax.inject:1:compile [2 KB]
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[4]:
+[INFO] 		com.google.code.findbugs:jsr305:3.0.2:compile [19 KB]
+[INFO] 		com.google.errorprone:error_prone_annotations:2.11.0:compile [15 KB]
+[INFO] 		org.checkerframework:checker-qual:3.12.0:compile [203 KB]
+[INFO] 		com.google.j2objc:j2objc-annotations:1.3:compile [8 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/anthonyraymond-joal/bloatedOutput/orgaraymondjoaljackofalltrades2138SNAPSHOT/orgaraymondjoaljackofalltrades2138SNAPSHOT/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:04 min
+[INFO] Finished at: 2026-04-29T17:06:53+02:00
+[INFO] ------------------------------------------------------------------------

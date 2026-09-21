@@ -1,0 +1,98 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.hongdux:ruoyi-quarkus >----------------------
+[INFO] Building ruoyi-quarkus 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/wildfly/common/wildfly-common/1.6.0.Final/wildfly-common-1.6.0.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/wildfly/common/wildfly-common/1.6.0.Final/wildfly-common-1.6.0.Final.pom (7.1 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.pom (2.4 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.6/jandex-3.1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.6/jandex-3.1.6.pom (7.0 kB at 188 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/jandex-parent/3.1.6/jandex-parent-3.1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/jandex-parent/3.1.6/jandex-parent-3.1.6.pom (7.2 kB at 217 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.20/maven-resolver-api-1.9.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.20/maven-resolver-api-1.9.20.pom (2.7 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.9.20/maven-resolver-spi-1.9.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.9.20/maven-resolver-spi-1.9.20.pom (2.7 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.20/maven-resolver-util-1.9.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.20/maven-resolver-util-1.9.20.pom (2.9 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.9.20/maven-resolver-connector-basic-1.9.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.9.20/maven-resolver-connector-basic-1.9.20.pom (3.7 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.1/plexus-utils-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.1/plexus-utils-3.3.1.pom (5.3 kB at 144 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.1.0/plexus-cipher-2.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.1.0/plexus-cipher-2.1.0.pom (2.8 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/15/plexus-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/15/plexus-15.pom (28 kB at 219 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.pom (6.3 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/26/weld-parent-26.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/26/weld-parent-26.pom (32 kB at 788 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.8.0/plexus-classworlds-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.8.0/plexus-classworlds-2.8.0.pom (7.1 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny/2.6.0/mutiny-2.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/smallrye/reactive/mutiny/2.6.0/mutiny-2.6.0.jar (873 kB at 4.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jctools/jctools-core/4.0.3/jctools-core-4.0.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.20/maven-resolver-api-1.9.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.9.20/maven-resolver-spi-1.9.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.20/maven-resolver-util-1.9.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.1.0/plexus-cipher-2.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jctools/jctools-core/4.0.3/jctools-core-4.0.3.jar (416 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.8.0/plexus-classworlds-2.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.1.0/plexus-cipher-2.1.0.jar (9.2 kB at 34 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.8.0/plexus-classworlds-2.8.0.jar (54 kB at 202 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.9.20/maven-resolver-spi-1.9.20.jar (52 kB at 180 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.20/maven-resolver-util-1.9.20.jar (196 kB at 615 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.20/maven-resolver-api-1.9.20.jar (157 kB at 472 kB/s)
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ ruoyi-quarkus ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- quarkus:3.15.1:generate-code (default) @ ruoyi-quarkus ---
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ruoyi-quarkus ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 26 source files with javac [debug release 17] to target/classes
+[WARNING] unknown enum constant org.osgi.annotation.bundle.Requirement.Resolution.OPTIONAL
+  reason: class file for org.osgi.annotation.bundle.Requirement$Resolution not found
+[WARNING] unknown enum constant org.osgi.annotation.bundle.Requirement.Resolution.OPTIONAL
+  reason: class file for org.osgi.annotation.bundle.Requirement$Resolution not found
+[WARNING] unknown enum constant org.osgi.annotation.bundle.Requirement.Resolution.OPTIONAL
+  reason: class file for org.osgi.annotation.bundle.Requirement$Resolution not found
+[WARNING] unknown enum constant org.osgi.annotation.bundle.Requirement.Resolution.OPTIONAL
+  reason: class file for org.osgi.annotation.bundle.Requirement$Resolution not found
+[WARNING] unknown enum constant org.osgi.annotation.bundle.Requirement.Resolution.OPTIONAL
+  reason: class file for org.osgi.annotation.bundle.Requirement$Resolution not found
+[INFO] 
+[INFO] --- quarkus:3.15.1:generate-code-tests (default) @ ruoyi-quarkus ---
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ ruoyi-quarkus ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ruoyi-quarkus ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ ruoyi-quarkus ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.5.0:jar (default-jar) @ ruoyi-quarkus ---
+[INFO] Building jar: /project/target/ruoyi-quarkus-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- quarkus:3.15.1:build (default) @ ruoyi-quarkus ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.430 s
+[INFO] Finished at: 2026-09-21T20:47:51Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal io.quarkus.platform:quarkus-maven-plugin:3.15.1:build (default) on project ruoyi-quarkus: Failed to build quarkus application: Configuration validation failed:
+[ERROR] 	java.util.NoSuchElementException: SRCFG00011: Could not expand value platform.quarkus.native.builder-image in property quarkus.native.builder-image
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

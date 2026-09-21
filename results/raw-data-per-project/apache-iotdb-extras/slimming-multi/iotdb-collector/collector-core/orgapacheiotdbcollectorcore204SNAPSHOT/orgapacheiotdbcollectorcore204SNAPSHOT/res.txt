@@ -1,0 +1,83 @@
+Project info>>>>/private/tmp/analysis-runs/apache-iotdb-extras/iotdb-collector/collector-core
+Project Name>>>>org.apache.iotdb:collector-core:2.0.4-SNAPSHOT
+OriginalSize>>>>55049KB
+BloatedSize>>>>334KB
+All Dependencies>>>>76
+Used Dependencies>>>>71
+Used Self Direct Dependency>>>>29
+Used Self Indirect Dependency>>>>42
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>5
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>5
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>5
+realBloated>>>>5
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>17507
+buildClassExtendGraphTime>>>>371
+buildCallGraphTime>>>>145848
+levelTime>>>>249
+stringTime>>>>31
+licenseCheckTime>>>>17099
+bugCheckTime>>>>1384
+maintenanceTimeCheckTime>>>>2551
+checkTime>>>>191756
+repairTime>>>>51067
+mvnTestTime>>>>28137
+====================BloatedType=========================
+java Reflect>>>>4
+outdated>>>>4
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>3
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>6740
+forName>>>>59
+loadClass>>>>45
+getClass>>>>2984
+reflectEdges>>>>9685
+unReflectEdges>>>>35
+unSolvedReflect>>>><javax.xml.bind.ModuleUtil: java.lang.Class[] getClassesFromContextPath(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.tsfile.fileSystem.fileOutputFactory.OSFileOutputFactory: void <init>()>
+unSolvedReflect>>>><org.apache.commons.logging.impl.LogFactoryImpl: org.apache.commons.logging.Log createLogFromClass(java.lang.String,java.lang.String,boolean)>
+unSolvedReflect>>>><net.jpountz.lz4.LZ4Factory: java.lang.Object classInstance(java.lang.String)>
+unSolvedReflect>>>><javax.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.eclipse.jetty.util.TypeUtil: void <clinit>()>
+unSolvedReflect>>>><org.eclipse.jetty.servlet.listener.ContainerInitializer$ServletContainerInitializerServletContextListener: java.util.Set getClasses()>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.lang.Object createFactory(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.apache.http.impl.client.AbstractHttpClient: org.apache.http.conn.ClientConnectionManager createClientConnectionManager()>
+unSolvedReflect>>>><com.github.benmanes.caffeine.cache.NodeFactory: com.github.benmanes.caffeine.cache.NodeFactory newFactory(com.github.benmanes.caffeine.cache.Caffeine,boolean)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.lang.Object createFactory(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><javax.xml.bind.ModuleUtil: java.lang.Class findFirstByJaxbIndex(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.apache.tsfile.fileSystem.fileOutputFactory.HDFSOutputFactory: void <init>()>
+unSolvedReflect>>>><org.apache.tsfile.encrypt.IEncryptor: org.apache.tsfile.encrypt.IEncryptor getEncryptor(java.lang.String,byte[])>
+unSolvedReflect>>>><org.apache.tsfile.fileSystem.fileInputFactory.HDFSInputFactory: void <init>()>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.tsfile.encrypt.EncryptUtils: org.apache.tsfile.encrypt.IEncrypt getEncrypt(java.lang.String,byte[])>
+unSolvedReflect>>>><org.apache.tsfile.fileSystem.fileInputFactory.OSFileInputFactory: void <init>()>
+unSolvedReflect>>>><javax.xml.bind.ServiceLoaderUtil: java.lang.Object lookupUsingOSGiServiceLoader(java.lang.String,java.util.logging.Logger)>
+unSolvedReflect>>>><org.eclipse.jetty.server.handler.ContextHandler$Context: void addListener(java.lang.String)>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.util.Hashtable createFactoryStore()>
+unSolvedReflect>>>><org.eclipse.jetty.util.Loader: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><net.jpountz.xxhash.XXHashFactory: java.lang.Object classInstance(java.lang.String)>
+unSolvedReflect>>>><com.github.benmanes.caffeine.cache.LocalCacheFactory: com.github.benmanes.caffeine.cache.BoundedLocalCache newBoundedLocalCache(com.github.benmanes.caffeine.cache.Caffeine,com.github.benmanes.caffeine.cache.CacheLoader,boolean)>
+unSolvedReflect>>>><org.apache.kafka.common.config.ConfigDef: java.lang.Object parseType(java.lang.String,java.lang.Object,org.apache.kafka.common.config.ConfigDef$Type)>
+unSolvedReflect>>>><org.eclipse.jetty.server.session.SessionData: void serializeAttributes(org.eclipse.jetty.server.session.SessionData,java.io.ObjectOutputStream)>
+unSolvedReflect>>>><org.apache.iotdb.collector.config.Options: void <clinit>()>
+unSolvedReflect>>>><org.jvnet.mimepull.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.apache.tsfile.fileSystem.fsFactory.OSFSFactory: void <init>()>

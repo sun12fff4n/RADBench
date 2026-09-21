@@ -1,0 +1,609 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] geo-atlas                                                          [pom]
+[INFO] library                                                            [pom]
+[INFO] base                                                               [jar]
+[INFO] component                                                          [pom]
+[INFO] metadata                                                           [jar]
+[INFO] tile                                                               [jar]
+[INFO] mse                                                                [pom]
+[INFO] pyramid                                                            [jar]
+[INFO] tile-cache                                                         [jar]
+[INFO] ogc-api                                                            [jar]
+[INFO] boot                                                               [pom]
+[INFO] geoatlas-tile-boot-stater                                          [jar]
+[INFO] common                                                             [jar]
+[INFO] io                                                                 [jar]
+[INFO] app                                                                [pom]
+[INFO] geoatlas-tile-instance                                             [jar]
+[INFO] 
+[INFO] ----------------------< org.geo-atlas:geo-atlas >-----------------------
+[INFO] Building geo-atlas 1.0.0-SNAPSHOT                                 [1/16]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ geo-atlas ---
+[INFO] Installing /project/pom.xml to /root/.m2/repository/org/geo-atlas/geo-atlas/1.0.0-SNAPSHOT/geo-atlas-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------------< org.geo-atlas:library >------------------------
+[INFO] Building library 1.0.0-SNAPSHOT                                   [2/16]
+[INFO]   from library/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ library ---
+[INFO] Installing /project/library/pom.xml to /root/.m2/repository/org/geo-atlas/library/1.0.0-SNAPSHOT/library-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------------< org.geo-atlas.library:base >---------------------
+[INFO] Building base 1.0.0-SNAPSHOT                                      [3/16]
+[INFO]   from library/base/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from ECC: https://maven.ecc.no/releases/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.7 kB at 1.3 kB/s)
+[INFO] Downloading from ECC: https://maven.ecc.no/releases/org/eclipse/emf/org.eclipse.emf.common/2.46.0/org.eclipse.emf.common-2.46.0.pom
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.common/2.46.0/org.eclipse.emf.common-2.46.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/2.46.0/org.eclipse.emf.common-2.46.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/2.46.0/org.eclipse.emf.common-2.46.0.pom (1.8 kB at 7.6 kB/s)
+[INFO] Downloading from ECC: https://maven.ecc.no/releases/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.7 kB at 6.5 kB/s)
+[INFO] Downloading from ECC: https://maven.ecc.no/releases/org/eclipse/emf/org.eclipse.emf.ecore/2.43.0/org.eclipse.emf.ecore-2.43.0.pom
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.ecore/2.43.0/org.eclipse.emf.ecore-2.43.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/2.43.0/org.eclipse.emf.ecore-2.43.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/2.43.0/org.eclipse.emf.ecore-2.43.0.pom (2.4 kB at 11 kB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ base ---
+[INFO] skip non existing resourceDirectory /project/library/base/src/main/resources
+[INFO] skip non existing resourceDirectory /project/library/base/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ base ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ base ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ base ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.3.1:test (default-test) @ base ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ base ---
+[INFO] Building jar: /project/library/base/target/base-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ base ---
+[INFO] Installing /project/library/base/pom.xml to /root/.m2/repository/org/geo-atlas/library/base/1.0.0-SNAPSHOT/base-1.0.0-SNAPSHOT.pom
+[INFO] Installing /project/library/base/target/base-1.0.0-SNAPSHOT.jar to /root/.m2/repository/org/geo-atlas/library/base/1.0.0-SNAPSHOT/base-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------------< org.geo-atlas:component >-----------------------
+[INFO] Building component 1.0.0-SNAPSHOT                                 [4/16]
+[INFO]   from component/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ component ---
+[INFO] Installing /project/component/pom.xml to /root/.m2/repository/org/geo-atlas/component/1.0.0-SNAPSHOT/component-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< org.geo-atlas.component:metadata >------------------
+[INFO] Building metadata 1.0.0-SNAPSHOT                                  [5/16]
+[INFO]   from component/metadata/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ metadata ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ metadata ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 43 source files with javac [debug parameters release 21] to target/classes
+[INFO] /project/component/metadata/src/main/java/org/geoatlas/metadata/helper/FeatureSourceConveyor.java: /project/component/metadata/src/main/java/org/geoatlas/metadata/helper/FeatureSourceConveyor.java uses unchecked or unsafe operations.
+[INFO] /project/component/metadata/src/main/java/org/geoatlas/metadata/helper/FeatureSourceConveyor.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/DataStoreInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[3,53] package com.ulisesbocchio.jasyptspringboot.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[4,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[5,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[6,40] package org.jasypt.encryption.pbe.config does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[17,2] cannot find symbol
+  symbol: class EnableEncryptableProperties
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[24,12] cannot find symbol
+  symbol:   class PBEStringEncryptor
+  location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/NamespaceInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureLayerInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/SpatialReferenceInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/VirtualViewInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/PyramidRuleExpression.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureBBoxInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[15,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[16,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[14,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[26,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[33,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[39,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[45,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[55,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[63,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[34,19] cannot find symbol
+  symbol:   class PBEStringEncryptor
+  location: class org.geoatlas.metadata.persistence.managent.DataStoreInfoManagement
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[42,36] cannot find symbol
+  symbol:   class PBEStringEncryptor
+  location: class org.geoatlas.metadata.persistence.managent.DataStoreInfoManagement
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[8,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[9,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[22,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[23,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[36,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[46,30] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[57,30] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[68,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[78,30] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[92,30] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[11,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[17,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[18,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[28,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[34,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[40,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[46,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[55,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[64,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[72,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[8,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[15,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[16,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[26,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.SpatialReferenceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[34,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class org.geoatlas.metadata.endpoint.SpatialReferenceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[8,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/exception/RestExceptionHandler.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/exception/RestExceptionHandler.java:[8,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/exception/RestExceptionHandler.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/exception/RestExceptionHandler.java:[16,2] cannot find symbol
+  symbol: class RestControllerAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[4,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[8,42] package org.springframework.http.converter does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[9,39] package org.springframework.http.server does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[10,39] package org.springframework.http.server does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[11,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[19,2] cannot find symbol
+  symbol: class RestControllerAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[23,13] cannot find symbol
+  symbol:   class ObjectMapper
+  location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[25,73] cannot find symbol
+  symbol:   class HttpMessageConverter
+  location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[30,76] cannot find symbol
+  symbol:   class MediaType
+  location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[30,123] cannot find symbol
+  symbol:   class HttpMessageConverter
+  location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[30,171] cannot find symbol
+  symbol:   class ServerHttpRequest
+  location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[30,198] cannot find symbol
+  symbol:   class ServerHttpResponse
+  location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/DataStoreInfo.java:[85,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.DataStoreInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/DataStoreInfo.java:[89,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.DataStoreInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/SpatialReferenceInfo.java:[43,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.SpatialReferenceInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/SpatialReferenceInfo.java:[47,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.SpatialReferenceInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureLayerInfo.java:[56,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.FeatureLayerInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureLayerInfo.java:[60,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.FeatureLayerInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureBBoxInfo.java:[44,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.FeatureBBoxInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureBBoxInfo.java:[48,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.FeatureBBoxInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/PyramidRuleExpression.java:[40,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.PyramidRuleExpression
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/PyramidRuleExpression.java:[44,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.PyramidRuleExpression
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/VirtualViewInfo.java:[55,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.VirtualViewInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/VirtualViewInfo.java:[59,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.VirtualViewInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/NamespaceInfo.java:[33,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.NamespaceInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/NamespaceInfo.java:[37,6] cannot find symbol
+  symbol:   class JsonFormat
+  location: class org.geoatlas.metadata.model.NamespaceInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[26,48] cannot find symbol
+  symbol:   class RequestBody
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[25,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[33,51] cannot find symbol
+  symbol:   class PathVariable
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[32,6] cannot find symbol
+  symbol:   class DeleteMapping
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[39,51] cannot find symbol
+  symbol:   class RequestBody
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[38,6] cannot find symbol
+  symbol:   class PutMapping
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[45,48] cannot find symbol
+  symbol:   class PathVariable
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[44,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[55,49] cannot find symbol
+  symbol:   class RequestParam
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[56,49] cannot find symbol
+  symbol:   class RequestParam
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[57,49] cannot find symbol
+  symbol:   class RequestParam
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[54,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[62,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[36,51] cannot find symbol
+  symbol:   class RequestBody
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[35,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[46,73] cannot find symbol
+  symbol:   class PathVariable
+  location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for geo-atlas 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] geo-atlas .......................................... SUCCESS [  0.352 s]
+[INFO] library ............................................ SUCCESS [  0.019 s]
+[INFO] base ............................................... SUCCESS [  8.340 s]
+[INFO] component .......................................... SUCCESS [  0.017 s]
+[INFO] metadata ........................................... FAILURE [  2.760 s]
+[INFO] tile ............................................... SKIPPED
+[INFO] mse ................................................ SKIPPED
+[INFO] pyramid ............................................ SKIPPED
+[INFO] tile-cache ......................................... SKIPPED
+[INFO] ogc-api ............................................ SKIPPED
+[INFO] boot ............................................... SKIPPED
+[INFO] geoatlas-tile-boot-stater .......................... SKIPPED
+[INFO] common ............................................. SKIPPED
+[INFO] io ................................................. SKIPPED
+[INFO] app ................................................ SKIPPED
+[INFO] geoatlas-tile-instance ............................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.651 s
+[INFO] Finished at: 2026-09-11T19:38:21Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project metadata: Compilation failure: Compilation failure: 
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/DataStoreInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[3,53] package com.ulisesbocchio.jasyptspringboot.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[4,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[5,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[6,40] package org.jasypt.encryption.pbe.config does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[17,2] cannot find symbol
+[ERROR]   symbol: class EnableEncryptableProperties
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[24,12] cannot find symbol
+[ERROR]   symbol:   class PBEStringEncryptor
+[ERROR]   location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/NamespaceInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureLayerInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/SpatialReferenceInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/VirtualViewInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/PyramidRuleExpression.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureBBoxInfo.java:[3,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[15,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[16,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[14,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[26,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[33,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[39,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[45,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[55,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[63,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[34,19] cannot find symbol
+[ERROR]   symbol:   class PBEStringEncryptor
+[ERROR]   location: class org.geoatlas.metadata.persistence.managent.DataStoreInfoManagement
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[42,36] cannot find symbol
+[ERROR]   symbol:   class PBEStringEncryptor
+[ERROR]   location: class org.geoatlas.metadata.persistence.managent.DataStoreInfoManagement
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[8,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[9,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[22,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[23,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[36,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[46,30] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[57,30] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[68,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[78,30] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[92,30] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[11,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[17,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[18,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[28,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[34,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[40,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[46,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[55,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[64,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[72,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.NamespaceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/NamespaceInfoEndpoint.java:[8,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[15,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[16,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[26,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.SpatialReferenceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[34,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class org.geoatlas.metadata.endpoint.SpatialReferenceInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/SpatialReferenceInfoEndpoint.java:[8,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/exception/RestExceptionHandler.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/exception/RestExceptionHandler.java:[8,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/exception/RestExceptionHandler.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/exception/RestExceptionHandler.java:[16,2] cannot find symbol
+[ERROR]   symbol: class RestControllerAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[4,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[7,32] package org.springframework.http does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[8,42] package org.springframework.http.converter does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[9,39] package org.springframework.http.server does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[10,39] package org.springframework.http.server does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[11,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[19,2] cannot find symbol
+[ERROR]   symbol: class RestControllerAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[23,13] cannot find symbol
+[ERROR]   symbol:   class ObjectMapper
+[ERROR]   location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[25,73] cannot find symbol
+[ERROR]   symbol:   class HttpMessageConverter
+[ERROR]   location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[30,76] cannot find symbol
+[ERROR]   symbol:   class MediaType
+[ERROR]   location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[30,123] cannot find symbol
+[ERROR]   symbol:   class HttpMessageConverter
+[ERROR]   location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[30,171] cannot find symbol
+[ERROR]   symbol:   class ServerHttpRequest
+[ERROR]   location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/response/ResponseWrapperAdvice.java:[30,198] cannot find symbol
+[ERROR]   symbol:   class ServerHttpResponse
+[ERROR]   location: class org.geoatlas.metadata.response.ResponseWrapperAdvice
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/DataStoreInfo.java:[85,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.DataStoreInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/DataStoreInfo.java:[89,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.DataStoreInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/SpatialReferenceInfo.java:[43,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.SpatialReferenceInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/SpatialReferenceInfo.java:[47,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.SpatialReferenceInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureLayerInfo.java:[56,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.FeatureLayerInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureLayerInfo.java:[60,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.FeatureLayerInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureBBoxInfo.java:[44,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.FeatureBBoxInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/FeatureBBoxInfo.java:[48,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.FeatureBBoxInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/PyramidRuleExpression.java:[40,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.PyramidRuleExpression
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/PyramidRuleExpression.java:[44,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.PyramidRuleExpression
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/VirtualViewInfo.java:[55,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.VirtualViewInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/VirtualViewInfo.java:[59,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.VirtualViewInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/NamespaceInfo.java:[33,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.NamespaceInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/model/NamespaceInfo.java:[37,6] cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class org.geoatlas.metadata.model.NamespaceInfo
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[26,48] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[25,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[33,51] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[32,6] cannot find symbol
+[ERROR]   symbol:   class DeleteMapping
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[39,51] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[38,6] cannot find symbol
+[ERROR]   symbol:   class PutMapping
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[45,48] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[44,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[55,49] cannot find symbol
+[ERROR]   symbol:   class RequestParam
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[56,49] cannot find symbol
+[ERROR]   symbol:   class RequestParam
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[57,49] cannot find symbol
+[ERROR]   symbol:   class RequestParam
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[54,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/DataStoreInfoEndpoint.java:[62,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class org.geoatlas.metadata.endpoint.DataStoreInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[36,51] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[35,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/endpoint/FeatureLayerInfoEndpoint.java:[46,73] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class org.geoatlas.metadata.endpoint.FeatureLayerInfoEndpoint
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :metadata

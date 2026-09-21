@@ -1,0 +1,71 @@
+[
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.KeyDeserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.ValueInstantiators;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.ser.Serializers;"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.joblift.service.gitlabpanorama.core.aggregator.PipelinePairTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"currentActiveFromRetry","parameterTypes":[] }, {"name":"currentAfterRunning","parameterTypes":[] }, {"name":"currentFailedSucceeded","parameterTypes":[] }, {"name":"currentSuccessFromRetry","parameterTypes":[] }, {"name":"currentSuccessSucceeded","parameterTypes":[] }, {"name":"retrySuccess","parameterTypes":[] }, {"name":"singleActive","parameterTypes":[] }, {"name":"singleActiveAndCurrent","parameterTypes":[] }, {"name":"singleCurrent","parameterTypes":[] }]
+},
+{
+  "name":"de.joblift.service.gitlabpanorama.util.Dummy",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.joblift.service.gitlabpanorama.util.InstantDeserializerTest",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"offsetPlainUtcFormat","parameterTypes":[] }, {"name":"offsetUtcFormat","parameterTypes":[] }, {"name":"standardUtcApiFormat","parameterTypes":[] }, {"name":"standardUtcMilis1ApiFormat","parameterTypes":[] }, {"name":"standardUtcMilis2ApiFormat","parameterTypes":[] }, {"name":"standardUtcMilis3ApiFormat","parameterTypes":[] }, {"name":"standardUtcWebhookFormat","parameterTypes":[] }]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"org.apache.maven.surefire.junitplatform.JUnitPlatformProvider",
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.surefire.providerapi.ProviderParameters"] }]
+},
+{
+  "name":"org.apiguardian.api.API",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.junit.jupiter.api.Test",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.junit.platform.commons.annotation.Testable",
+  "queryAllPublicMethods":true
+}
+]

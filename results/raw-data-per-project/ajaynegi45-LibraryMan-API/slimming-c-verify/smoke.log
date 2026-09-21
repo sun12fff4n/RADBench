@@ -1,0 +1,105 @@
+ Network libraryman_libraryman-net Creating 
+ Network libraryman_libraryman-net Created 
+ Volume libraryman_maven_cache Creating 
+ Volume libraryman_maven_cache Created 
+ Volume libraryman_mysql_data Creating 
+ Volume libraryman_mysql_data Created 
+ Container libraryman-mysql Creating 
+ Container libraryman-mysql Created 
+ Container libraryman-app Creating 
+ Container libraryman-app Created 
+ Container libraryman-mysql Starting 
+ Container libraryman-mysql Started 
+ Container libraryman-mysql Waiting 
+ Container libraryman-mysql Healthy 
+ Container libraryman-app Starting 
+ Container libraryman-app Started 
+ Container libraryman-app Waiting 
+ Container libraryman-mysql Waiting 
+ Container libraryman-mysql Healthy 
+ Container libraryman-app Healthy 
+
+[0;34m== Public endpoints (no auth) ==[0m
+[0;32mPASS[0m GET  /api/get-all-books                                 [2m[200][0m
+[0;32mPASS[0m GET  /api/get-all-books (paging+sort)                   [2m[200][0m
+[0;32mPASS[0m GET  /api/book/search (no result)                       [2m[204][0m
+
+[0;34m== Signup + Login (USER) ==[0m
+[0;32mPASS[0m POST /api/signup (new user)                             [2m[200][0m
+[0;32mPASS[0m POST /api/signup (duplicate → 404)                    [2m[404][0m
+[0;32mPASS[0m POST /api/login (USER → JWT)                          [2m[200][0m
+[2mUSER token: eyJhbGciOiJIUzUxMiJ9.eyJ...[0m
+[0;32mPASS[0m POST /api/login (bad password → 401)                  [2m[401][0m
+
+[0;34m== Newsletter (USER) ==[0m
+[0;32mPASS[0m POST /api/newsletter/subscribe                          [2m[201][0m
+[0;32mPASS[0m GET  /api/newsletter/unsubscribe (bad token)            [2m[404][0m
+
+[0;34m== USER hits admin-only endpoints → expect 401/403 ==[0m
+[0;32mPASS[0m GET  /api/get-member-by-id/1                            [2m[401][0m
+[0;32mPASS[0m PUT  /api/update-member-by-id/999999                    [2m[401][0m
+[0;32mPASS[0m PUT  /api/update-password-by-id/999999                  [2m[401][0m
+[0;32mPASS[0m POST /api/add-book                                      [2m[401][0m
+[0;32mPASS[0m PUT  /api/update-book/1                                 [2m[401][0m
+[0;32mPASS[0m DEL  /api/delete-book/1                                 [2m[401][0m
+[0;32mPASS[0m GET  /api/get-all-borrowings                            [2m[401][0m
+[0;32mPASS[0m GET  /api/get-borrowing-by-id/1                         [2m[401][0m
+[0;32mPASS[0m GET  /api/get-all-members                               [2m[401][0m
+[0;32mPASS[0m GET  /api/analytics/overview                            [2m[401][0m
+[0;32mPASS[0m GET  /api/analytics/popular-books                       [2m[401][0m
+[0;32mPASS[0m GET  /api/analytics/borrowing-trends                    [2m[401][0m
+[0;32mPASS[0m GET  /api/analytics/member-activity                     [2m[401][0m
+
+[0;34m== USER: endpoints with no @PreAuthorize (should succeed past security) ==[0m
+[0;32mPASS[0m GET  /api/get-book-by-id/1                              [2m[404][0m
+[0;32mPASS[0m PUT  /api/1/return-borrow-book                          [2m[404][0m
+[0;32mPASS[0m PUT  /api/borrowing/1/pay-fine                          [2m[404][0m
+
+[0;34m== Promote USER → ADMIN (direct DB update) ==[0m
+mysql: [Warning] Using a password on the command line interface can be insecure.
+[2mPromoted: username=tester_1790020636_27414  memberId=1[0m
+[0;32mPASS[0m POST /api/login (re-login as ADMIN)                     [2m[200][0m
+[2mADMIN token: eyJhbGciOiJIUzUxMiJ9.eyJ...[0m
+
+[0;34m== ADMIN: Members ==[0m
+[0;32mPASS[0m GET  /api/get-all-members                               [2m[200][0m
+[0;32mPASS[0m GET  /api/get-member-by-id/1                            [2m[200][0m
+[0;32mPASS[0m PUT  /api/update-member-by-id/1 (self)                  [2m[200][0m
+
+[0;34m== ADMIN: Role-protected signup ==[0m
+[0;32mPASS[0m POST /api/signup/librarian                              [2m[200][0m
+[0;32mPASS[0m POST /api/signup/admin                                  [2m[200][0m
+
+[0;34m== ADMIN: Books CRUD ==[0m
+[0;32mPASS[0m POST /api/add-book                                      [2m[200][0m
+[2mCreated bookId=1[0m
+[0;32mPASS[0m PUT  /api/update-book/1                                 [2m[200][0m
+[0;32mPASS[0m GET  /api/get-book-by-id/1                              [2m[200][0m
+[0;32mPASS[0m GET  /api/book/search?keyword=Updated                   [2m[200][0m
+
+[0;34m== ADMIN: Project-defined error states (representative) ==[0m
+[0;32mPASS[0m POST /api/add-book (missing title → 400)              [2m[400][0m
+[0;32mPASS[0m POST /api/add-book (bad isbn format → 400)            [2m[400][0m
+[0;32mPASS[0m GET  /api/get-all-books?sortBy=__bogus__ (→ 400)      [2m[400][0m
+
+[0;34m== ADMIN: Borrowings ==[0m
+[0;32mPASS[0m POST /api/borrow-book (known source bug → 401/500)    [2m[401][0m
+[2mCreated borrowingId=[0m
+[0;32mPASS[0m GET  /api/get-all-borrowings                            [2m[200][0m
+[0;32mPASS[0m GET  /api/get-all-borrowings-of-a-member/1              [2m[404][0m
+
+[0;34m== ADMIN: Analytics ==[0m
+[0;32mPASS[0m GET  /api/analytics/overview                            [2m[200][0m
+[0;32mPASS[0m GET  /api/analytics/popular-books (known source bug → 401/500) [2m[401][0m
+[0;32mPASS[0m GET  /api/analytics/borrowing-trends (known source bug → 401/500) [2m[401][0m
+[0;32mPASS[0m GET  /api/analytics/member-activity                     [2m[200][0m
+
+[0;34m== ADMIN: Cleanup + state-transition closure ==[0m
+[0;32mPASS[0m DEL  /api/delete-book/1                                 [2m[200][0m
+[0;32mPASS[0m GET  /api/get-book-by-id/1 (after delete → 404)       [2m[404][0m
+
+[0;34m== Logout ==[0m
+[0;32mPASS[0m POST /api/logout                                        [2m[200][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 46/46 checks passed.[0m

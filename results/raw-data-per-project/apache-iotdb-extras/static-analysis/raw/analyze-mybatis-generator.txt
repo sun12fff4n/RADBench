@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -------------< org.apache.iotdb:mybatis-generator-plugin >--------------
+[INFO] Building IoTDB Extras: Mybatis Generator Plugin 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ mybatis-generator-plugin >>>
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ mybatis-generator-plugin ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ mybatis-generator-plugin ---
+[INFO] Spotless.Java is keeping 8 files clean - 0 needs changes to be clean, 0 were already clean, 8 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ mybatis-generator-plugin ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ mybatis-generator-plugin ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ mybatis-generator-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ mybatis-generator-plugin ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ mybatis-generator-plugin ---
+[INFO] skip non existing resourceDirectory /project/mybatis-generator/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ mybatis-generator-plugin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ mybatis-generator-plugin <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ mybatis-generator-plugin ---
+[INFO] No dependency problems found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.309 s
+[INFO] Finished at: 2026-06-16T09:05:14Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 14 goals, 14 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

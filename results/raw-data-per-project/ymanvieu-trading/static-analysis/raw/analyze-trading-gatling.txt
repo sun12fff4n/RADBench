@@ -1,0 +1,101 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< fr.ymanvieu.trading:trading-gatling >-----------------
+[INFO] Building trading-gatling 5.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.1:analyze (default-cli) > test-compile @ trading-gatling >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ trading-gatling ---
+[INFO] skip non existing resourceDirectory /project/trading-gatling/src/main/resources
+[INFO] skip non existing resourceDirectory /project/trading-gatling/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ trading-gatling ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ trading-gatling ---
+[INFO] skip non existing resourceDirectory /project/trading-gatling/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ trading-gatling ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- scala:4.8.1:testCompile (default) @ trading-gatling ---
+[WARNING] Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar (12 MB at 4.2 MB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom (2.5 kB at 22 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom (1.8 kB at 23 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.pom (2.7 kB at 48 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/java-diff-utils/java-diff-utils-parent/4.12/java-diff-utils-parent-4.12.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils-parent/4.12/java-diff-utils-parent-4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils-parent/4.12/java-diff-utils-parent-4.12.pom (10 kB at 68 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jline/jline/3.22.0/jline-3.22.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom (18 kB at 361 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom (28 kB at 542 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jline/jline/3.22.0/jline-3.22.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar (3.8 MB at 9.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar (1.1 MB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar (72 kB at 1.2 MB/s)
+[INFO] Compiler bridge file: /root/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.13-1.8.0-bin_2.13.12__65.0-1.8.0_20221110T195421.jar
+[INFO] Compiler bridge file is not installed yet
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/scala-sbt/compiler-bridge_2.13/1.8.0/compiler-bridge_2.13-1.8.0-sources.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.8.0/compiler-bridge_2.13-1.8.0-sources.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.8.0/compiler-bridge_2.13-1.8.0-sources.jar (52 kB at 322 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jline/jline/3.21.0/jline-3.21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.pom (18 kB at 361 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jline/jline-parent/3.21.0/jline-parent-3.21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-parent/3.21.0/jline-parent-3.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-parent/3.21.0/jline-parent-3.21.0.pom (24 kB at 216 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jline/jline/3.21.0/jline-3.21.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (1.7 MB at 19 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar (995 kB at 6.3 MB/s)
+warning: 4 deprecations (since 2.12.0)
+warning: 1 deprecation (since 2.12.5)
+warning: 2 deprecations (since 2.12.9)
+warning: 2 deprecations (since 2.13)
+warning: 7 deprecations (since 2.13.0)
+warning: 1 deprecation (since 2.13.12)
+warning: 1 deprecation (since 2.13.4)
+warning: 18 deprecations in total; re-run with -deprecation for details
+warning: 2 feature warnings; re-run with -feature for details
+9 warnings
+[INFO] Compiler bridge installed
+[INFO] compiling 6 Scala sources to /project/trading-gatling/target/test-classes ...
+[INFO] done compiling
+[INFO] compile in 56.5 s
+[INFO] 
+[INFO] <<< dependency:3.6.1:analyze (default-cli) < test-compile @ trading-gatling <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.1:analyze (default-cli) @ trading-gatling ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    io.gatling:gatling-core:jar:3.10.2:test
+[WARNING]    io.gatling:gatling-http:jar:3.10.2:test
+[WARNING]    org.scala-lang:scala-library:jar:2.13.12:test
+[WARNING]    io.gatling:gatling-commons:jar:3.10.2:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:07 min
+[INFO] Finished at: 2026-06-16T09:20:16Z
+[INFO] ------------------------------------------------------------------------

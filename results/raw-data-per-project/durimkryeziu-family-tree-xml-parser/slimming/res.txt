@@ -1,0 +1,127 @@
+Project info>>>>/private/tmp/analysis-runs/durimkryeziu-family-tree-xml-parser
+Project Name>>>>com.programmingskillz:family-tree-xml-parser:1.0.0-SNAPSHOT
+OriginalSize>>>>24343KB
+BloatedSize>>>>0KB
+All Dependencies>>>>69
+Used Dependencies>>>>69
+Used Self Direct Dependency>>>>11
+Used Self Indirect Dependency>>>>58
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>0
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>0
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>0
+realBloated>>>>0
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>12597
+buildClassExtendGraphTime>>>>137
+buildCallGraphTime>>>>47239
+levelTime>>>>38
+stringTime>>>>15
+licenseCheckTime>>>>10001
+bugCheckTime>>>>132
+maintenanceTimeCheckTime>>>>1
+checkTime>>>>71910
+repairTime>>>>7182
+mvnTestTime>>>>0
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>0
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>38
+TomcatAPI>>>>0
+.class>>>>7128
+forName>>>>92
+loadClass>>>>163
+getClass>>>>790
+reflectEdges>>>>7916
+unReflectEdges>>>>61
+springReflectAPI>>>><org.springframework.core.GenericTypeResolver: java.lang.Class resolveReturnTypeArgument(java.lang.reflect.Method,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object createDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.config.MvcNamespaceUtils: java.lang.Object getContentNegotiationManager(org.springframework.beans.factory.xml.ParserContext)>
+springReflectAPI>>>><org.springframework.beans.MutablePropertyValues: org.springframework.beans.MutablePropertyValues add(java.lang.String,java.lang.Object)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.expression.common.ExpressionUtils: java.lang.Object convertTypedValue(org.springframework.expression.EvaluationContext,org.springframework.expression.TypedValue,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object getDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.util.ClassUtils: java.lang.Class resolveClassName(java.lang.String,java.lang.ClassLoader)>
+springReflectAPI>>>><org.springframework.web.servlet.config.MvcNamespaceUtils: org.springframework.beans.factory.config.RuntimeBeanReference registerCorsConfigurations(java.util.Map,org.springframework.beans.factory.xml.ParserContext,java.lang.Object)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.util.List getDefaultStrategies(org.springframework.context.ApplicationContext,java.lang.Class)>
+unSolvedReflect>>>><org.apache.catalina.util.Introspection: java.lang.Class loadClass(org.apache.catalina.Context,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Class loadClass(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployWAR(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.springframework.remoting.jaxws.AbstractJaxWsServiceExporter: javax.xml.ws.WebServiceFeature convertWebServiceFeature(java.lang.Object)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl: java.lang.String doRegisterConfigProvider(java.lang.String,java.util.Map,java.lang.String,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.realm.JNDIRealm: java.lang.Object constructInstance(java.lang.String)>
+unSolvedReflect>>>><org.h2.mvstore.type.ObjectDataType$ObjectArrayType: java.lang.Object read(java.nio.ByteBuffer,int)>
+unSolvedReflect>>>><org.apache.catalina.core.NamingContextListener: java.lang.Object constructEnvEntry(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.websocket.Util: org.apache.tomcat.websocket.Util$TypeResult getGenericType(java.lang.Class,java.lang.Class)>
+unSolvedReflect>>>><org.springframework.boot.SpringApplication: java.lang.Class deduceMainApplicationClass()>
+unSolvedReflect>>>><org.springframework.core.type.classreading.AnnotationReadingVisitorUtils: org.springframework.core.annotation.AnnotationAttributes convertClassValues(java.lang.Object,java.lang.ClassLoader,org.springframework.core.annotation.AnnotationAttributes,boolean)>
+unSolvedReflect>>>><javax.xml.bind.ServiceLoaderUtil: java.lang.Object lookupUsingOSGiServiceLoader(java.lang.String,java.util.logging.Logger)>
+unSolvedReflect>>>><org.apache.catalina.loader.WebappClassLoaderBase: java.lang.Class loadClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><org.apache.catalina.realm.JDBCRealm: java.sql.Connection open()>
+unSolvedReflect>>>><org.h2.util.SourceCompiler: java.lang.Class javaxToolsJavac(java.lang.String,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><javax.security.auth.message.config.AuthConfigFactory$1: javax.security.auth.message.config.AuthConfigFactory run()>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.util.SessionIdGeneratorBase: java.security.SecureRandom createSecureRandom()>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardWrapper: void servletSecurityAnnotationScan()>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDirectory(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.springframework.core.type.classreading.AbstractRecursiveAnnotationVisitor: java.lang.Object getEnumValue(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.flywaydb.core.internal.util.scanner.classpath.android.AndroidScanner: java.lang.Class[] scanForClasses(org.flywaydb.core.internal.util.Location,java.lang.Class)>
+unSolvedReflect>>>><org.springframework.remoting.jaxws.JaxWsPortClientInterceptor: javax.xml.ws.WebServiceFeature convertWebServiceFeature(java.lang.Object)>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String)>
+unSolvedReflect>>>><org.springframework.util.ClassUtils: java.lang.Class forName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.startup.Tomcat: org.apache.catalina.Context addWebapp(org.apache.catalina.Host,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner: java.lang.Class[] scanForClasses(org.flywaydb.core.internal.util.Location,java.lang.Class)>
+unSolvedReflect>>>><org.springframework.util.ClassUtils: java.lang.Class forName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.startup.LifecycleListenerRule: void begin(java.lang.String,java.lang.String,org.xml.sax.Attributes)>
+unSolvedReflect>>>><org.springframework.util.ClassUtils: boolean isVisible(java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.springframework.web.util.UrlPathHelper: boolean shouldRemoveTrailingServletPathSlash(javax.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardWrapper: boolean isContainerProvidedServlet(java.lang.String)>
+unSolvedReflect>>>><com.sun.xml.bind.v2.ContextFactory: javax.xml.bind.JAXBContext createContext(java.lang.String,java.lang.ClassLoader,java.util.Map)>
+unSolvedReflect>>>><org.springframework.cglib.core.AbstractClassGenerator: java.lang.Class generate(org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: java.lang.Object createInstance(java.lang.String,java.lang.Class,java.lang.Object[])>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLImplementation: org.apache.tomcat.util.net.SSLImplementation getInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDescriptor(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.catalina.realm.RealmBase: org.apache.catalina.realm.X509UsernameRetriever createUsernameRetriever(java.lang.String)>
+unSolvedReflect>>>><javax.el.ExpressionFactory: javax.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.util.CharsetMapper getCharsetMapper()>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><javax.el.ExpressionFactory: javax.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.introspect.AnnotatedClass: java.lang.reflect.Method[] _findClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.h2.mvstore.type.MetaType: org.h2.mvstore.type.DataType read(java.nio.ByteBuffer)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><org.springframework.web.context.support.AnnotationConfigWebApplicationContext: void loadBeanDefinitions(org.springframework.beans.factory.support.DefaultListableBeanFactory)>
+unSolvedReflect>>>><org.springframework.context.annotation.ComponentScanBeanDefinitionParser: org.springframework.core.type.filter.TypeFilter createTypeFilter(org.w3c.dom.Element,java.lang.ClassLoader,org.springframework.beans.factory.xml.ParserContext)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.Registry: org.apache.tomcat.util.modeler.modules.ModelerSource getModelerSource(java.lang.String)>
+unSolvedReflect>>>><javax.el.ImportHandler: java.lang.Class findClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.SimpleServerAuthConfig: javax.security.auth.message.config.ServerAuthContext getAuthContext(java.lang.String,javax.security.auth.Subject,java.util.Map)>

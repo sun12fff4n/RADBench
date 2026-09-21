@@ -1,0 +1,29 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QConfigurationInfo.properties\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/index.html\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.smallrye.config.SmallRyeConfigFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.vertx.core.spi.JsonFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.eclipse.microprofile.config.spi.Converter\\E"
+  }, {
+    "pattern":"\\QMETA-INF\\E"
+  }, {
+    "pattern":"\\Qapplication.properties\\E"
+  }, {
+    "pattern":"\\Qjbossts-properties.xml\\E"
+  }, {
+    "pattern":"\\Qorg/jboss/threads/Version.properties\\E"
+  }, {
+    "pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"
+  }, {
+    "pattern":"\\Qquarkus-runtime-config-defaults.properties\\E"
+  }]},
+  "bundles":[]
+}

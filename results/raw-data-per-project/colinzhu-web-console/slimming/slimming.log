@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -------------------< io.github.colinzhu:web-console >-------------------
+[INFO] Building Web Console 0.1.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ web-console ---
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[INFO] ALL DEPENDENCY[23]:
+[INFO]  USED DEPENDENCY[23]:
+[INFO]   USED DIRECT DEPENDENCY[4]:
+[INFO] 		org.slf4j:slf4j-api:2.0.6:compile [61 KB]
+[INFO] 		org.projectlombok:lombok:1.18.36:provided [1 MB]
+[INFO] 		io.vertx:vertx-web:4.4.2:compile [350 KB]
+[INFO] 		ch.qos.logback:logback-classic:1.4.12:runtime [276 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[19]:
+[INFO] 		io.netty:netty-resolver:4.1.92.Final:compile [36 KB]
+[INFO] 		io.vertx:vertx-core:4.4.2:compile [1 MB]
+[INFO] 		io.netty:netty-codec-dns:4.1.92.Final:compile [65 KB]
+[INFO] 		io.netty:netty-resolver-dns:4.1.92.Final:compile [161 KB]
+[INFO] 		io.netty:netty-common:4.1.92.Final:compile [643 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.15.0:compile [529 KB]
+[INFO] 		io.netty:netty-handler:4.1.92.Final:compile [541 KB]
+[INFO] 		io.netty:netty-handler-proxy:4.1.92.Final:compile [24 KB]
+[INFO] 		io.netty:netty-buffer:4.1.92.Final:compile [298 KB]
+[INFO] 		io.netty:netty-transport-native-unix-common:4.1.92.Final:compile [42 KB]
+[INFO] 		io.vertx:vertx-bridge-common:4.4.2:compile [10 KB]
+[INFO] 		io.netty:netty-codec-http2:4.1.92.Final:compile [469 KB]
+[INFO] 		io.netty:netty-codec-http:4.1.92.Final:compile [641 KB]
+[INFO] 		io.vertx:vertx-auth-common:4.4.2:compile [130 KB]
+[INFO] 		io.vertx:vertx-web-common:4.4.2:compile [23 KB]
+[INFO] 		io.netty:netty-codec:4.1.92.Final:compile [337 KB]
+[INFO] 		io.netty:netty-codec-socks:4.1.92.Final:compile [117 KB]
+[INFO] 		ch.qos.logback:logback-core:1.4.12:runtime [585 KB]
+[INFO] 		io.netty:netty-transport:4.1.92.Final:compile [477 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[0]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] No Bloated
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:01 min
+[INFO] Finished at: 2026-05-25T08:45:42+02:00
+[INFO] ------------------------------------------------------------------------

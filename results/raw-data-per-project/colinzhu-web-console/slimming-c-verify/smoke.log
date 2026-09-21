@@ -1,0 +1,34 @@
+ Network web-console_default Creating 
+ Network web-console_default Created 
+ Volume web-console_maven_cache Creating 
+ Volume web-console_maven_cache Created 
+ Container web-console-app Creating 
+ Container web-console-app Created 
+ Container web-console-app Starting 
+ Container web-console-app Started 
+ Container web-console-app Waiting 
+ Container web-console-app Healthy 
+
+[0;34m== Static file serving — Vert.x StaticHandler ('web' classpath) ==[0m
+[0;32mPASS[0m GET  / (root → index.html)                                 [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /index.html (explicit path)                             [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  / (Content-Type: text/html)                             [2m[200, header ✓][0m
+[0;32mPASS[0m GET  / (ws protocol selection logic)                         [2m[200, body ✓][0m
+[0;32mPASS[0m GET  / (location.host based WS URL)                          [2m[200, body ✓][0m
+
+[0;34m== WebSocket upgrade — server.webSocketHandler path ==[0m
+[0;32mPASS[0m GET  / + Upgrade: websocket (→ 101 Switching)              [2m[101][0m
+[0;32mPASS[0m   → response has Sec-WebSocket-Accept                      [2m[header ✓][0m
+[0;32mPASS[0m   → response has Upgrade: websocket                        [2m[header ✓][0m
+[0;32mPASS[0m GET  / (normal request, no upgrade)                          [2m[200, body ✓][0m
+
+[0;34m== Error paths — 404 for missing static resources ==[0m
+[0;32mPASS[0m GET  /nonexistent.html (→ 404)                             [2m[404][0m
+[0;32mPASS[0m GET  /api/anything (→ 404)                                 [2m[404][0m
+[0;32mPASS[0m GET  /favicon.ico (→ 404)                                  [2m[404][0m
+
+[0;34m== Concurrent requests — Vert.x event loop ==[0m
+[0;32mPASS[0m 5x parallel GET /                                            [2m[all 200][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 13/13 checks passed.[0m

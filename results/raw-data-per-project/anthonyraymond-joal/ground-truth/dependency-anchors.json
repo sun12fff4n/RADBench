@@ -1,0 +1,37 @@
+{
+  "org.apache.httpcomponents:fluent-hc:4.5.13": [
+    "unique provider of org.apache.httpcomponents:httpclient:4.5.13",
+    "unique provider of org.apache.httpcomponents:httpcore:4.4.15"
+  ],
+  "org.springframework.boot:spring-boot-starter-log4j2:2.7.3": [
+    "unique provider of org.apache.logging.log4j:log4j-api:2.17.2",
+    "unique provider of org.apache.logging.log4j:log4j-core:2.17.2",
+    "unique provider of org.slf4j:jul-to-slf4j:1.7.36"
+  ],
+  "org.springframework.boot:spring-boot-starter-security:2.7.3": [
+    "unique provider of org.springframework.security:spring-security-config:5.7.3",
+    "unique provider of org.springframework.security:spring-security-web:5.7.3",
+    "unique provider of org.springframework:spring-aop:5.3.22"
+  ],
+  "org.springframework.boot:spring-boot-starter-web:2.7.3": [
+    "unique provider of com.fasterxml.jackson.core:jackson-annotations:2.13.3",
+    "unique provider of com.fasterxml.jackson.core:jackson-core:2.13.3",
+    "unique provider of com.fasterxml.jackson.core:jackson-databind:2.13.3",
+    "unique provider of com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.3",
+    "unique provider of com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.3",
+    "unique provider of com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.3",
+    "unique provider of org.apache.tomcat.embed:tomcat-embed-core:9.0.65",
+    "unique provider of org.apache.tomcat.embed:tomcat-embed-websocket:9.0.65",
+    "unique provider of org.springframework:spring-web:5.3.22",
+    "unique provider of org.springframework:spring-webmvc:5.3.22"
+  ],
+  "org.springframework.boot:spring-boot-starter-websocket:2.7.3": [
+    "unique provider of org.springframework:spring-websocket:5.3.22"
+  ],
+  "org.springframework.boot:spring-boot-starter:2.7.3": [
+    "unique provider of jakarta.annotation:jakarta.annotation-api:1.3.5",
+    "unique provider of org.springframework.boot:spring-boot-autoconfigure:2.7.3",
+    "unique provider of org.springframework.boot:spring-boot:2.7.3",
+    "unique provider of org.springframework:spring-core:5.3.22"
+  ]
+}

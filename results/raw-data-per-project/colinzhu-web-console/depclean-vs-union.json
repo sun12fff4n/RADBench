@@ -1,0 +1,271 @@
+{
+  "project_id": "colinzhu-web-console",
+  "tool": "depclean",
+  "module_type": "single",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "depclean_total": 23,
+  "nia_total_classes": 80,
+  "nia_mapped_classes": 49,
+  "nia_proxy_recovered": 0,
+  "buckets": {
+    "used+hit": 9,
+    "used+nohit": 11,
+    "bloated+hit": 1,
+    "bloated+nohit": 2
+  },
+  "metrics": {
+    "tp": 2,
+    "fp": 1,
+    "tn": 9,
+    "fn": 11,
+    "precision": 0.6667,
+    "recall": 0.1538,
+    "f1": 0.25
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "io.netty:netty-transport:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 271,
+        "static_all_classes": 366,
+        "static_ratio": 0.74,
+        "nia_class_hits": 13,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 380,
+        "static_all_classes": 491,
+        "static_ratio": 0.774,
+        "nia_class_hits": 12,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-core:4.4.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 729,
+        "static_all_classes": 782,
+        "static_ratio": 0.932,
+        "nia_class_hits": 9,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 236,
+        "static_all_classes": 386,
+        "static_ratio": 0.611,
+        "nia_class_hits": 5,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-web:4.4.2",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 70,
+        "static_all_classes": 172,
+        "static_ratio": 0.407,
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 111,
+        "static_all_classes": 137,
+        "static_ratio": 0.81,
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 108,
+        "static_all_classes": 213,
+        "static_ratio": 0.507,
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 98,
+        "static_all_classes": 106,
+        "static_ratio": 0.925,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.6",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 43,
+        "static_all_classes": 52,
+        "static_ratio": 0.827,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "org.projectlombok:lombok:1.18.36",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 178,
+        "static_ratio": 0.022,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-web-common:4.4.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 19,
+        "static_ratio": 0.053,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-auth-common:4.4.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 38,
+        "static_all_classes": 84,
+        "static_ratio": 0.452,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 26,
+        "static_all_classes": 29,
+        "static_ratio": 0.897,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 270,
+        "static_all_classes": 356,
+        "static_ratio": 0.758,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport-native-unix-common:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 9,
+        "static_all_classes": 32,
+        "static_ratio": 0.281,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler-proxy:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 12,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-socks:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 48,
+        "static_all_classes": 107,
+        "static_ratio": 0.449,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 188,
+        "static_all_classes": 278,
+        "static_ratio": 0.676,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-dns:4.1.92.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 38,
+        "static_all_classes": 45,
+        "static_ratio": 0.844,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.15.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 156,
+        "static_all_classes": 196,
+        "static_ratio": 0.796,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "ch.qos.logback:logback-classic:1.4.12",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 178,
+        "static_ratio": 0.0,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "ch.qos.logback:logback-core:1.4.12",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 458,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-bridge-common:4.4.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ]
+  },
+  "runtime_size": 9,
+  "static_size": 4,
+  "base_union_size": 10,
+  "anchor_size": 0,
+  "final_union_size": 10,
+  "missing_from_tree_count": 0
+}

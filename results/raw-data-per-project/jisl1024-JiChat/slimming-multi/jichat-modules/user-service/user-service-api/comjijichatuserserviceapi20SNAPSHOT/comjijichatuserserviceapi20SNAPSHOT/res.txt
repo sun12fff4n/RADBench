@@ -1,0 +1,50 @@
+Project info>>>>/private/tmp/analysis-runs/jisl1024-JiChat/jichat-modules/user-service/user-service-api
+Project Name>>>>com.ji.jichat:user-service-api:2.0-SNAPSHOT
+OriginalSize>>>>38481KB
+BloatedSize>>>>29684KB
+All Dependencies>>>>66
+Used Dependencies>>>>15
+Used Self Direct Dependency>>>>2
+Used Self Indirect Dependency>>>>13
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>51
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>51
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>53
+realBloated>>>>51
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>2
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+unDeleteSelfIndirectDependency>>>>com.google.guava:guava:33.3.1-jre
+unDeleteSelfIndirectDependency>>>>io.swagger.core.v3:swagger-core-jakarta:2.2.19
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>15119
+buildClassExtendGraphTime>>>>197
+buildCallGraphTime>>>>2141
+levelTime>>>>6
+stringTime>>>>0
+licenseCheckTime>>>>5042
+bugCheckTime>>>>119
+maintenanceTimeCheckTime>>>>8668
+checkTime>>>>32268
+repairTime>>>>6786
+mvnTestTime>>>>3222
+====================BloatedType=========================
+java Reflect>>>>7
+outdated>>>>5
+vulnerable>>>>0
+licenseConflict>>>>3
+dependencyConflict>>>>17
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>1
+forName>>>>0
+loadClass>>>>0
+getClass>>>>0
+reflectEdges>>>>1
+unReflectEdges>>>>0

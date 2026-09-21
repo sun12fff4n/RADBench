@@ -1,0 +1,165 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] ------------------< org.apache.iotdb:pulsar-example >-------------------
+[INFO] Building IoTDB: Example: Apache Pulsar 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ pulsar-example >>>
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-client/2.7.5/pulsar-client-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-client/2.7.5/pulsar-client-2.7.5.pom (15 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar/2.7.5/pulsar-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar/2.7.5/pulsar-2.7.5.pom (63 kB at 666 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.68.Final/netty-bom-4.1.68.Final.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.68.Final/netty-bom-4.1.68.Final.pom (12 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.18.0/log4j-bom-2.18.0.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.18.0/log4j-bom-2.18.0.pom (8.6 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/logging/logging-parent/5/logging-parent-5.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/logging/logging-parent/5/logging-parent-5.pom (3.3 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.1/jackson-bom-2.11.1.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.1/jackson-bom-2.11.1.pom (13 kB at 209 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.16.1/protobuf-bom-3.16.1.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.16.1/protobuf-bom-3.16.1.pom (3.5 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bom/1.11.774/aws-java-sdk-bom-1.11.774.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bom/1.11.774/aws-java-sdk-bom-1.11.774.pom (48 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.774/aws-java-sdk-pom-1.11.774.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.774/aws-java-sdk-pom-1.11.774.pom (19 kB at 414 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/testcontainers/testcontainers-bom/1.15.3/testcontainers-bom-1.15.3.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/testcontainers/testcontainers-bom/1.15.3/testcontainers-bom-1.15.3.pom (7.1 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/protobuf-shaded/2.1.0-incubating/protobuf-shaded-2.1.0-incubating.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/protobuf-shaded/2.1.0-incubating/protobuf-shaded-2.1.0-incubating.pom (1.6 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar/2.1.0-incubating/pulsar-2.1.0-incubating.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar/2.1.0-incubating/pulsar-2.1.0-incubating.pom (46 kB at 1.3 MB/s)
+[INFO] Downloading from confluent: https://packages.confluent.io/maven/com/amazonaws/aws-java-sdk-bom/1.11.297/aws-java-sdk-bom-1.11.297.pom
+[INFO] Downloading from maven.restlet.org: https://maven.restlet.talend.com/com/amazonaws/aws-java-sdk-bom/1.11.297/aws-java-sdk-bom-1.11.297.pom
+[INFO] Downloading from central: https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bom/1.11.297/aws-java-sdk-bom-1.11.297.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bom/1.11.297/aws-java-sdk-bom-1.11.297.pom (28 kB at 235 kB/s)
+[INFO] Downloading from confluent: https://packages.confluent.io/maven/com/amazonaws/aws-java-sdk-pom/1.11.297/aws-java-sdk-pom-1.11.297.pom
+[INFO] Downloading from maven.restlet.org: https://maven.restlet.talend.com/com/amazonaws/aws-java-sdk-pom/1.11.297/aws-java-sdk-pom-1.11.297.pom
+[INFO] Downloading from central: https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.297/aws-java-sdk-pom-1.11.297.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.297/aws-java-sdk-pom-1.11.297.pom (13 kB at 285 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.pom (2.2 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.20/aircompressor-0.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.20/aircompressor-0.20.pom (6.3 kB at 225 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.pom (30 kB at 795 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-transaction-common/2.7.5/pulsar-transaction-common-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-transaction-common/2.7.5/pulsar-transaction-common-2.7.5.pom (2.6 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-transaction-parent/2.7.5/pulsar-transaction-parent-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-transaction-parent/2.7.5/pulsar-transaction-parent-2.7.5.pom (2.2 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.16.1/protobuf-java-3.16.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.16.1/protobuf-java-3.16.1.pom (5.6 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.16.1/protobuf-parent-3.16.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.16.1/protobuf-parent-3.16.1.pom (7.7 kB at 202 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.16.1/protobuf-java-util-3.16.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.16.1/protobuf-java-util-3.16.1.pom (4.8 kB at 140 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/bouncy-castle-bc/2.7.5/bouncy-castle-bc-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/bouncy-castle-bc/2.7.5/bouncy-castle-bc-2.7.5.pom (2.6 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/bouncy-castle-parent/2.7.5/bouncy-castle-parent-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/bouncy-castle-parent/2.7.5/bouncy-castle-parent-2.7.5.pom (1.6 kB at 8.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.pom (1.5 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.pom (1.1 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-ext-jdk15on/1.68/bcprov-ext-jdk15on-1.68.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-ext-jdk15on/1.68/bcprov-ext-jdk15on-1.68.pom (1.1 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.pom (6.5 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-client/2.7.5/pulsar-client-2.7.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-client/2.7.5/pulsar-client-2.7.5.jar (21 MB at 12 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/protobuf-shaded/2.1.0-incubating/protobuf-shaded-2.1.0-incubating.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.20/aircompressor-0.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar (214 kB at 3.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-transaction-common/2.7.5/pulsar-transaction-common-2.7.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar (14 kB at 118 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-transaction-common/2.7.5/pulsar-transaction-common-2.7.5.jar (9.0 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.16.1/protobuf-java-3.16.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.16.1/protobuf-java-util-3.16.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/protobuf-shaded/2.1.0-incubating/protobuf-shaded-2.1.0-incubating.jar (485 kB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/bouncy-castle-bc/2.7.5/bouncy-castle-bc-2.7.5-pkg.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.20/aircompressor-0.20.jar (185 kB at 794 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar (128 kB at 520 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.16.1/protobuf-java-util-3.16.1.jar (75 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-ext-jdk15on/1.68/bcprov-ext-jdk15on-1.68.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar (888 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar (78 kB at 148 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.16.1/protobuf-java-3.16.1.jar (1.7 MB at 3.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-ext-jdk15on/1.68/bcprov-ext-jdk15on-1.68.jar (6.0 MB at 7.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar (6.0 MB at 6.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/bouncy-castle-bc/2.7.5/bouncy-castle-bc-2.7.5-pkg.jar (11 MB at 9.6 MB/s)
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ pulsar-example ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ pulsar-example ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] Spotless.Java is keeping 4 files clean - 0 needs changes to be clean, 4 were already clean, 0 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ pulsar-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ pulsar-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ pulsar-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ pulsar-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ pulsar-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ pulsar-example ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pulsar-example ---
+[INFO] skip non existing resourceDirectory /project/examples/pulsar/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ pulsar-example ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 4 source files with javac [debug release 8] to target/classes
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ pulsar-example ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pulsar-example ---
+[INFO] skip non existing resourceDirectory /project/examples/pulsar/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ pulsar-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ pulsar-example <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ pulsar-example ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    org.apache.tsfile:tsfile:jar:2.1.1:compile
+[WARNING]    org.slf4j:slf4j-api:jar:2.0.9:compile
+[WARNING]    org.apache.iotdb:service-rpc:jar:2.0.5:compile
+[WARNING]    org.apache.tsfile:common:jar:2.1.1:compile
+[WARNING] Unused declared dependencies found:
+[WARNING]    org.apache.iotdb:iotdb-jdbc:jar:2.0.5:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38.237 s
+[INFO] Finished at: 2026-06-16T09:00:25Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 14 goals, 14 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

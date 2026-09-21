@@ -1,0 +1,54 @@
+ Volume trading_m2-combined-multi-ymanvieu-trading Creating 
+ Volume trading_m2-combined-multi-ymanvieu-trading Created 
+ Container ymanvieu-trading-wiremock Running 
+ Container ymanvieu-trading-db Running 
+ Container ymanvieu-trading-app Creating 
+ Container ymanvieu-trading-app Created 
+ Container ymanvieu-trading-db Waiting 
+ Container ymanvieu-trading-db Healthy 
+ Container ymanvieu-trading-app Starting 
+ Container ymanvieu-trading-app Started 
+ Container ymanvieu-trading-app Waiting 
+ Container ymanvieu-trading-db Waiting 
+ Container ymanvieu-trading-wiremock Waiting 
+ Container ymanvieu-trading-db Healthy 
+ Container ymanvieu-trading-wiremock Healthy 
+ Container ymanvieu-trading-app Healthy 
+==> Wait for boot
+    /api/rate/latest=200
+
+==> Public happy paths (200, permitAll)
+  ok   GET /api/rate/latest                                              -> 200
+  ok   GET /api/rate/latest?fromcur=EUR&tocur=USD                        -> 200
+  ok   POST /api/auth (admin/password)                                   -> 200
+
+==> Authenticated happy paths (Bearer JWT, user role)
+  ok   GET /api/portofolio (user JWT)                                    -> 200
+  ok   GET /api/portofolio/available-symbols (user)                      -> 200
+
+==> Project-defined error envelopes (ExceptionRestHandler advice)
+  ok   POST /api/auth wrong creds (BadCredentials -> 400)                -> 400
+  ok   POST /api/signup (1st time)                                       -> 200
+  ok   POST /api/signup (login=admin already exists)                     -> 409
+  ok   POST /api/refresh (malformed token -> JwtException 401)           -> 401
+
+==> Bean Validation (@Size on SignupForm, @NotEmpty on AuthenticationRequest)
+  ok   POST /api/signup (login too short → 400)                        -> 400
+  ok   POST /api/auth (empty body → 400)                               -> 400
+
+==> OAuth2 social login full flow (GitHub provider, mocked via wiremock)
+  ok   GET /api/oauth2/authorization/github (full OAuth2 dance)          -> 200
+  ok   GET /api/portofolio (OAuth2-issued JWT)                           -> 200
+
+==> Order placement (drives JPA writes + JMS infra fully wired)
+  ok   POST /api/portofolio/order BUY UBI x10 (success path)             -> 200
+  ok   POST /api/portofolio/order BUY BTC (not_enough_fund 400)          -> 400
+
+==> Additional handler coverage (project 200 paths only)
+  ok   GET /api/rate/history?fromcur=GFT&tocur=EUR                       -> 200
+  ok   POST /api/symbol/favorite (user JWT, add UBI/EUR)                 -> 200
+  ok   DELETE /api/symbol/favorite/UBI/EUR (user JWT)                    -> 200
+
+==> Summary: 18 passed, 0 failed
+ Container ymanvieu-trading-app Stopping 
+ Container ymanvieu-trading-app Stopped 

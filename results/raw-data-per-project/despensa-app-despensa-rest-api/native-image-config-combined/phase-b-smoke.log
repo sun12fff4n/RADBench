@@ -1,0 +1,66 @@
+ Volume despensa-app-despensa-rest-api-combined_m2-combined-despensa-app-despensa-rest-api Creating 
+ Volume despensa-app-despensa-rest-api-combined_m2-combined-despensa-app-despensa-rest-api Created 
+ Container despensa-app-despensa-rest-api-combined-despensa-app-mysql-1 Running 
+ Container despensa-app-despensa-rest-api-combined-despensa-rest-api-1 Creating 
+ Container despensa-app-despensa-rest-api-combined-despensa-rest-api-1 Created 
+ Container despensa-app-despensa-rest-api-combined-despensa-app-mysql-1 Waiting 
+ Container despensa-app-despensa-rest-api-combined-despensa-app-mysql-1 Healthy 
+ Container despensa-app-despensa-rest-api-combined-despensa-rest-api-1 Starting 
+ Container despensa-app-despensa-rest-api-combined-despensa-rest-api-1 Started 
+ Container despensa-app-despensa-rest-api-combined-despensa-rest-api-1 Waiting 
+ Container despensa-app-despensa-rest-api-combined-despensa-app-mysql-1 Waiting 
+ Container despensa-app-despensa-rest-api-combined-despensa-app-mysql-1 Healthy 
+ Container despensa-app-despensa-rest-api-combined-despensa-rest-api-1 Healthy 
+
+[0;34m== Setup — register fresh user, login, capture JWT + user id ==[0m
+[0;32mPASS[0m POST /auth/register                                          [2m[200, body ✓][0m
+[2muser_id=2  token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ...[0m
+[0;32mPASS[0m POST /auth/login (key fields: token + user)                  [2m[200, all fields ✓][0m
+
+[0;34m== Read endpoints — every controller surface returns real 200 ==[0m
+[0;32mPASS[0m GET  /users/{self}                                           [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /products (paged)                                       [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /shopping-lists (paged)                                 [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /unit-types (paged)                                     [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /admin/unit-types (paged, admin DTO)                    [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /resources/languages (i18n bundle)                      [2m[200, all fields ✓][0m
+
+[0;34m== ShoppingList CRUD chain — create → read → update → list-products → delete ==[0m
+[0;32mPASS[0m POST /shopping-lists (create — id+name)                    [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /shopping-lists/{id} (full DTO)                         [2m[200, all fields ✓][0m
+[0;32mPASS[0m PUT  /shopping-lists/{id} (update name)                      [2m[200][0m
+[0;32mPASS[0m GET  /shopping-lists/{id}/products (empty list)              [2m[200][0m
+[0;32mPASS[0m DELETE /shopping-lists/{id}                                  [2m[204][0m
+[0;32mPASS[0m GET  /shopping-lists/{id} (after delete → 404)             [2m[404][0m
+
+[0;34m== Enum + JPA Specification — SelectedProducts enum via @ModelAttribute ==[0m
+[0;32mPASS[0m GET  /shopping-lists/{id}?selected=YES (enum bind)           [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /shopping-lists/{id}?selected=NO  (enum bind)           [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /shopping-lists/{id}?selected=ALL (enum bind)           [2m[200, all fields ✓][0m
+[0;32mPASS[0m PUT  /products-selected (ActionType.SELECT enum deser)       [2m[204][0m
+[0;32mPASS[0m PUT  /products-selected (ActionType.DESELECT)                [2m[204][0m
+
+[0;34m== Pageable parameter binding ==[0m
+[0;32mPASS[0m GET  /products?page=0&size=2 (explicit pageable)             [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /unit-types?page=0&size=1&sort=id,desc (sort)           [2m[200, all fields ✓][0m
+
+[0;34m== Exception handling — @RestControllerAdvice → ErrorRes(ProblemDetail) ==[0m
+[0;31mFAIL[0m GET  /users/999999 (NotFoundException → ErrorRes)          [2m[got 200, want 404][0m
+[0;32mPASS[0m POST /users/{id} (405 → ErrorRes)                          [2m[405, all fields ✓][0m
+[0;32mPASS[0m GET  /shopping-lists/{id}?selected=BOGUS (bad enum)          [2m[400][0m
+
+[0;34m== Springdoc OpenAPI spec ==[0m
+[0;31mFAIL[0m GET  /api-docs (OpenAPI JSON)                                [2m[got 404, want 200][0m
+[0;33m--- body ---[0m
+  {"error":{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api-docs."}}[0;31mFAIL[0m GET  /api-docs (Public group)                                [2m[got 404, want 200][0m
+[0;33m--- body ---[0m
+  {"error":{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api-docs/Public."}}[0;31mFAIL[0m GET  /api-docs (Admin group)                                 [2m[got 404, want 200][0m
+[0;33m--- body ---[0m
+  {"error":{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api-docs/Admin."}}
+[0;34m== Auth-gate sanity ==[0m
+[0;32mPASS[0m GET  /users/{self} (garbage Bearer token → 401)            [2m[401][0m
+
+[0;34m== Summary ==[0m
+[0;31m4/28 checks failed[0m (24 passed).
+ Container despensa-app-despensa-rest-api-combined-despensa-rest-api-1 Stopping 
+ Container despensa-app-despensa-rest-api-combined-despensa-rest-api-1 Stopped 

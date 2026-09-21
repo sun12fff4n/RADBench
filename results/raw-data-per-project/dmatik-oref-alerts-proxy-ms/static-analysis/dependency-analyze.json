@@ -1,0 +1,59 @@
+{
+  "count": 9,
+  "g_static": [
+    "jakarta.persistence:jakarta.persistence-api:2.2.3",
+    "org.json:json:20211205",
+    "org.slf4j:slf4j-api:1.7.31",
+    "org.springframework.boot:spring-boot-autoconfigure:2.5.2",
+    "org.springframework.boot:spring-boot:2.5.2",
+    "org.springframework:spring-beans:5.3.8",
+    "org.springframework:spring-context:5.3.8",
+    "org.springframework:spring-core:5.3.8",
+    "org.springframework:spring-web:5.3.8"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "root": {
+      "g_static": [
+        "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "org.json:json:20211205",
+        "org.slf4j:slf4j-api:1.7.31",
+        "org.springframework.boot:spring-boot-autoconfigure:2.5.2",
+        "org.springframework.boot:spring-boot:2.5.2",
+        "org.springframework:spring-beans:5.3.8",
+        "org.springframework:spring-context:5.3.8",
+        "org.springframework:spring-core:5.3.8",
+        "org.springframework:spring-web:5.3.8"
+      ],
+      "ignoredTestScope": [
+        "junit:junit:4.13.2",
+        "org.junit.vintage:junit-vintage-engine:5.7.2",
+        "org.springframework.boot:spring-boot-starter-test:2.5.2",
+        "org.springframework.boot:spring-boot-test:2.5.2",
+        "org.springframework:spring-test:5.3.8"
+      ],
+      "ignoredUnusedDeclared": [
+        "org.projectlombok:lombok:1.18.20",
+        "org.springframework.boot:spring-boot-starter-web:2.5.2",
+        "org.springframework.data:spring-data-jpa:2.4.5"
+      ],
+      "usedDeclared": [
+        "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "org.json:json:20211205"
+      ],
+      "usedUndeclared": [
+        "org.slf4j:slf4j-api:1.7.31",
+        "org.springframework.boot:spring-boot-autoconfigure:2.5.2",
+        "org.springframework.boot:spring-boot:2.5.2",
+        "org.springframework:spring-beans:5.3.8",
+        "org.springframework:spring-context:5.3.8",
+        "org.springframework:spring-core:5.3.8",
+        "org.springframework:spring-web:5.3.8"
+      ]
+    }
+  },
+  "project_id": "dmatik-oref-alerts-proxy-ms"
+}

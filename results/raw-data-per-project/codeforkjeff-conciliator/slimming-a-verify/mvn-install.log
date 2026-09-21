@@ -1,0 +1,94 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.codefork.conciliator:conciliator >----------------
+[INFO] Building conciliator 3.1.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ conciliator ---
+[INFO] Executing: /bin/sh -c cd '/project' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /project
+[INFO] Storing buildNumber: 8f95521b53f695f81d82a864571213e3d488b28b at timestamp: 1789155376834
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/project' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /project
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default-prepare-agent) @ conciliator ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ conciliator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ conciliator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 91 source files to /project/target/classes
+[INFO] /project/src/main/java/com/codefork/refine/datasource/WebServiceDataSource.java: /project/src/main/java/com/codefork/refine/datasource/WebServiceDataSource.java uses unchecked or unsafe operations.
+[INFO] /project/src/main/java/com/codefork/refine/datasource/WebServiceDataSource.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/codefork/refine/datasource/DataSource.java:[26,24] package javax.annotation does not exist
+[ERROR] /project/src/main/java/com/codefork/refine/datasource/DataSource.java:[27,26] package javax.servlet.http does not exist
+[ERROR] /project/src/main/java/com/codefork/refine/datasource/DataSource.java:[87,84] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.codefork.refine.datasource.DataSource
+[ERROR] /project/src/main/java/com/codefork/refine/controllers/ReconciliationAPI.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /project/src/main/java/com/codefork/refine/controllers/ReconciliationAPI.java:[19,53] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: interface com.codefork.refine.controllers.ReconciliationAPI
+[ERROR] /project/src/main/java/com/codefork/refine/viaf/VIAFProxyController.java:[14,26] package javax.servlet.http does not exist
+[ERROR] /project/src/main/java/com/codefork/refine/viaf/VIAFProxyController.java:[32,13] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.codefork.refine.viaf.VIAFProxyController
+[ERROR] /project/src/main/java/com/codefork/refine/viaf/VIAFSourceSpecificController.java:[36,13] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.codefork.refine.viaf.VIAFSourceSpecificController
+[ERROR] /project/src/main/java/com/codefork/refine/datasource/DataSource.java:[81,6] cannot find symbol
+  symbol:   class PreDestroy
+  location: class com.codefork.refine.datasource.DataSource
+[ERROR] /project/src/main/java/com/codefork/refine/Application.java:[82,15] cannot access javax.servlet.Filter
+  class file for javax.servlet.Filter not found
+[INFO] 10 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.826 s
+[INFO] Finished at: 2026-09-11T19:36:22Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project conciliator: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/codefork/refine/datasource/DataSource.java:[26,24] package javax.annotation does not exist
+[ERROR] /project/src/main/java/com/codefork/refine/datasource/DataSource.java:[27,26] package javax.servlet.http does not exist
+[ERROR] /project/src/main/java/com/codefork/refine/datasource/DataSource.java:[87,84] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.codefork.refine.datasource.DataSource
+[ERROR] /project/src/main/java/com/codefork/refine/controllers/ReconciliationAPI.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /project/src/main/java/com/codefork/refine/controllers/ReconciliationAPI.java:[19,53] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: interface com.codefork.refine.controllers.ReconciliationAPI
+[ERROR] /project/src/main/java/com/codefork/refine/viaf/VIAFProxyController.java:[14,26] package javax.servlet.http does not exist
+[ERROR] /project/src/main/java/com/codefork/refine/viaf/VIAFProxyController.java:[32,13] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.codefork.refine.viaf.VIAFProxyController
+[ERROR] /project/src/main/java/com/codefork/refine/viaf/VIAFSourceSpecificController.java:[36,13] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.codefork.refine.viaf.VIAFSourceSpecificController
+[ERROR] /project/src/main/java/com/codefork/refine/datasource/DataSource.java:[81,6] cannot find symbol
+[ERROR]   symbol:   class PreDestroy
+[ERROR]   location: class com.codefork.refine.datasource.DataSource
+[ERROR] /project/src/main/java/com/codefork/refine/Application.java:[82,15] cannot access javax.servlet.Filter
+[ERROR]   class file for javax.servlet.Filter not found
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

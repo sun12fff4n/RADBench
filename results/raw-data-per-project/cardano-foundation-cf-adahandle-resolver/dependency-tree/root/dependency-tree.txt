@@ -1,0 +1,230 @@
+org.cardanofoundation.tools:cf-adahandle-resolver:jar:0.1.4
++- org.springframework.boot:spring-boot-starter:jar:3.3.11:compile
+|  +- org.springframework.boot:spring-boot:jar:3.3.11:compile
+|  |  \- org.springframework:spring-context:jar:6.1.19:compile
+|  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.3.11:compile
+|  +- org.springframework.boot:spring-boot-starter-logging:jar:3.3.11:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.5.18:compile
+|  |  |  \- ch.qos.logback:logback-core:jar:1.5.18:compile
+|  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.23.1:compile
+|  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.23.1:compile
+|  |  \- org.slf4j:jul-to-slf4j:jar:2.0.17:compile
+|  +- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+|  +- org.springframework:spring-core:jar:6.1.19:compile
+|  |  \- org.springframework:spring-jcl:jar:6.1.19:compile
+|  \- org.yaml:snakeyaml:jar:2.2:compile
++- org.springframework.boot:spring-boot-starter-web:jar:3.3.11:compile
+|  +- org.springframework.boot:spring-boot-starter-json:jar:3.3.11:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.17.3:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.17.3:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.17.3:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.17.3:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.17.3:compile
+|  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.17.3:compile
+|  +- org.springframework.boot:spring-boot-starter-tomcat:jar:3.3.11:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.40:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.40:compile
+|  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.40:compile
+|  +- org.springframework:spring-web:jar:6.1.19:compile
+|  |  +- org.springframework:spring-beans:jar:6.1.19:compile
+|  |  \- io.micrometer:micrometer-observation:jar:1.13.13:compile
+|  |     \- io.micrometer:micrometer-commons:jar:1.13.13:compile
+|  \- org.springframework:spring-webmvc:jar:6.1.19:compile
+|     +- org.springframework:spring-aop:jar:6.1.19:compile
+|     \- org.springframework:spring-expression:jar:6.1.19:compile
++- org.springframework.boot:spring-boot-starter-data-jpa:jar:3.3.11:compile
+|  +- org.springframework.boot:spring-boot-starter-aop:jar:3.3.11:compile
+|  |  \- org.aspectj:aspectjweaver:jar:1.9.24:compile
+|  +- org.springframework.boot:spring-boot-starter-jdbc:jar:3.3.11:compile
+|  |  +- com.zaxxer:HikariCP:jar:5.1.0:compile
+|  |  \- org.springframework:spring-jdbc:jar:6.1.19:compile
+|  +- org.hibernate.orm:hibernate-core:jar:6.5.3.Final:compile
+|  |  +- jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile
+|  |  +- jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.5.3.Final:runtime
+|  |  +- org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime
+|  |  +- io.smallrye:jandex:jar:3.1.2:runtime
+|  |  +- com.fasterxml:classmate:jar:1.7.0:runtime
+|  |  +- org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime
+|  |  |  \- org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime
+|  |  |     +- org.eclipse.angus:angus-activation:jar:2.0.2:runtime
+|  |  |     +- org.glassfish.jaxb:txw2:jar:4.0.5:runtime
+|  |  |     \- com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime
+|  |  +- jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime
+|  |  \- org.antlr:antlr4-runtime:jar:4.13.0:compile
+|  +- org.springframework.data:spring-data-jpa:jar:3.3.11:compile
+|  |  +- org.springframework.data:spring-data-commons:jar:3.3.11:compile
+|  |  +- org.springframework:spring-orm:jar:6.1.19:compile
+|  |  +- org.springframework:spring-tx:jar:6.1.19:compile
+|  |  \- org.slf4j:slf4j-api:jar:2.0.17:compile
+|  \- org.springframework:spring-aspects:jar:6.1.19:compile
++- com.bloxbean.cardano:yaci-store-spring-boot-starter:jar:0.1.2:compile
+|  +- com.bloxbean.cardano:yaci-store-common:jar:0.1.2:compile
+|  |  +- org.springframework.boot:spring-boot-starter-jooq:jar:3.3.11:compile
+|  |  +- org.springframework.boot:spring-boot-starter-actuator:jar:3.3.11:compile
+|  |  |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.3.11:compile
+|  |  |  |  \- org.springframework.boot:spring-boot-actuator:jar:3.3.11:compile
+|  |  |  \- io.micrometer:micrometer-jakarta9:jar:1.13.13:compile
+|  |  +- com.h2database:h2:jar:2.2.224:compile
+|  |  +- org.springframework.boot:spring-boot-starter-validation:jar:3.3.11:runtime
+|  |  |  \- org.hibernate.validator:hibernate-validator:jar:8.0.2.Final:runtime
+|  |  |     \- jakarta.validation:jakarta.validation-api:jar:3.0.2:compile
+|  |  +- org.flywaydb:flyway-core:jar:10.10.0:runtime
+|  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-toml:jar:2.17.3:runtime
+|  |  |  \- com.google.code.gson:gson:jar:2.10.1:runtime
+|  |  +- org.flywaydb:flyway-mysql:jar:10.10.0:runtime
+|  |  +- org.flywaydb:flyway-database-postgresql:jar:10.10.0:runtime
+|  |  +- io.micrometer:micrometer-registry-prometheus:jar:1.13.13:runtime
+|  |  |  +- io.micrometer:micrometer-core:jar:1.13.13:compile
+|  |  |  |  +- org.hdrhistogram:HdrHistogram:jar:2.2.2:runtime
+|  |  |  |  \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+|  |  |  +- io.prometheus:prometheus-metrics-core:jar:1.2.1:runtime
+|  |  |  |  +- io.prometheus:prometheus-metrics-model:jar:1.2.1:runtime
+|  |  |  |  \- io.prometheus:prometheus-metrics-config:jar:1.2.1:runtime
+|  |  |  +- io.prometheus:prometheus-metrics-tracer-common:jar:1.2.1:runtime
+|  |  |  \- io.prometheus:prometheus-metrics-exposition-formats:jar:1.2.1:runtime
+|  |  |     \- io.prometheus:prometheus-metrics-shaded-protobuf:jar:1.2.1:runtime
+|  |  \- org.springframework.boot:spring-boot-properties-migrator:jar:3.3.11:runtime
+|  |     \- org.springframework.boot:spring-boot-configuration-metadata:jar:3.3.11:runtime
+|  +- com.bloxbean.cardano:yaci-store-core:jar:0.1.2:compile
+|  +- com.bloxbean.cardano:yaci-store-events:jar:0.1.2:compile
+|  +- com.bloxbean.cardano:yaci-store-client:jar:0.1.2:compile
+|  +- com.bloxbean.cardano:yaci:jar:0.3.5:compile
+|  |  +- com.bloxbean.cardano:yaci-core:jar:0.3.5:compile
+|  |  |  \- io.netty:netty-all:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-buffer:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-dns:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-haproxy:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-http:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-http2:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-memcache:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-mqtt:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-redis:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-smtp:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-socks:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-stomp:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-codec-xml:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-common:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-handler:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-native-unix-common:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-handler-proxy:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-handler-ssl-ocsp:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-resolver:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-resolver-dns:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-rxtx:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-sctp:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-udt:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-classes-epoll:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-classes-kqueue:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-resolver-dns-classes-macos:jar:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-native-epoll:jar:linux-aarch_64:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-native-epoll:jar:linux-riscv64:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-transport-native-kqueue:jar:osx-aarch_64:4.1.119.Final:runtime
+|  |  |     +- io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.119.Final:runtime
+|  |  |     \- io.netty:netty-resolver-dns-native-macos:jar:osx-aarch_64:4.1.119.Final:runtime
+|  |  \- com.bloxbean.cardano:yaci-helper:jar:0.3.5:compile
+|  |     \- io.projectreactor:reactor-core:jar:3.6.16:compile
+|  |        \- org.reactivestreams:reactive-streams:jar:1.0.4:compile
+|  +- com.bloxbean.cardano:cardano-client-lib:jar:0.6.2:compile
+|  |  +- com.bloxbean.cardano:cardano-client-core:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-common:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-crypto:jar:0.6.2:compile
+|  |  |  |  \- net.i2p.crypto:eddsa:jar:0.3.0:runtime
+|  |  |  +- com.bloxbean.cardano:cardano-client-common-spec:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-address:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-metadata:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-transaction-spec:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-core-api:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-plutus:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-coinselection:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-governance:jar:0.6.2:compile
+|  |  |  \- org.bouncycastle:bcprov-jdk18on:jar:1.78:runtime
+|  |  +- com.bloxbean.cardano:cardano-client-function:jar:0.6.2:compile
+|  |  +- com.bloxbean.cardano:cardano-client-cip:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-cip8:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-cip20:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-cip25:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-cip27:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-cip30:jar:0.6.2:compile
+|  |  |  +- com.bloxbean.cardano:cardano-client-cip67:jar:0.6.2:compile
+|  |  |  \- com.bloxbean.cardano:cardano-client-cip68:jar:0.6.2:compile
+|  |  \- com.bloxbean.cardano:cardano-client-quicktx:jar:0.6.2:compile
+|  +- com.bloxbean.cardano:cardano-client-backend:jar:0.6.2:compile
+|  +- co.nstant.in:cbor:jar:0.9:compile
+|  +- org.codehaus.janino:janino:jar:3.1.12:compile
+|  |  \- org.codehaus.janino:commons-compiler:jar:3.1.12:compile
+|  +- com.google.guava:guava:jar:33.0.0-jre:compile
+|  |  +- com.google.guava:failureaccess:jar:1.0.2:compile
+|  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.23.0:compile
+|  |  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+|  +- org.springdoc:springdoc-openapi-starter-webmvc-ui:jar:2.3.0:compile
+|  |  +- org.springdoc:springdoc-openapi-starter-webmvc-api:jar:2.3.0:compile
+|  |  |  \- org.springdoc:springdoc-openapi-starter-common:jar:2.3.0:compile
+|  |  |     \- io.swagger.core.v3:swagger-core-jakarta:jar:2.2.19:compile
+|  |  |        +- io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.19:compile
+|  |  |        +- io.swagger.core.v3:swagger-models-jakarta:jar:2.2.19:compile
+|  |  |        \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.17.3:compile
+|  |  \- org.webjars:swagger-ui:jar:5.10.3:compile
+|  +- org.mapstruct:mapstruct:jar:1.5.5.Final:runtime
+|  \- org.apache.commons:commons-pool2:jar:2.12.1:runtime
++- com.bloxbean.cardano:yaci-store-utxo-spring-boot-starter:jar:0.1.2:compile
+|  +- com.bloxbean.cardano:yaci-store-utxo:jar:0.1.2:compile
+|  |  +- io.hypersistence:hypersistence-utils-hibernate-63:jar:3.7.1:compile
+|  |  |  \- io.hypersistence:hypersistence-tsid:jar:2.1.1:compile
+|  |  \- org.jooq:jooq:jar:3.19.22:compile
+|  |     \- io.r2dbc:r2dbc-spi:jar:1.0.0.RELEASE:compile
+|  \- com.bloxbean.cardano:yaci-store-utxo-api:jar:0.1.2:compile
+|     \- org.springframework.retry:spring-retry:jar:2.0.11:runtime
++- org.postgresql:postgresql:jar:42.6.0:compile
+|  \- org.checkerframework:checker-qual:jar:3.31.0:compile
++- org.springframework.boot:spring-boot-starter-test:jar:3.3.11:test
+|  +- org.springframework.boot:spring-boot-test:jar:3.3.11:test
+|  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.3.11:test
+|  +- com.jayway.jsonpath:json-path:jar:2.9.0:test
+|  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile
+|  |  \- jakarta.activation:jakarta.activation-api:jar:2.1.3:compile
+|  +- net.minidev:json-smart:jar:2.5.2:test
+|  |  \- net.minidev:accessors-smart:jar:2.5.2:test
+|  |     \- org.ow2.asm:asm:jar:9.7.1:test
+|  +- org.assertj:assertj-core:jar:3.25.3:test
+|  +- org.awaitility:awaitility:jar:4.2.2:test
+|  +- org.hamcrest:hamcrest:jar:2.2:test
+|  +- org.junit.jupiter:junit-jupiter:jar:5.10.5:test
+|  |  +- org.junit.jupiter:junit-jupiter-params:jar:5.10.5:test
+|  |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.10.5:test
+|  |     \- org.junit.platform:junit-platform-engine:jar:1.10.5:test
+|  +- org.skyscreamer:jsonassert:jar:1.5.3:test
+|  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:runtime
+|  +- org.springframework:spring-test:jar:6.1.19:test
+|  \- org.xmlunit:xmlunit-core:jar:2.9.1:test
++- org.mockito:mockito-core:jar:5.3.1:test
+|  +- net.bytebuddy:byte-buddy:jar:1.14.19:runtime
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.14.19:test
+|  \- org.objenesis:objenesis:jar:3.3:test
++- org.mockito:mockito-junit-jupiter:jar:5.3.1:test
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.10.5:test
+|     +- org.opentest4j:opentest4j:jar:1.3.0:test
+|     +- org.junit.platform:junit-platform-commons:jar:1.10.5:test
+|     \- org.apiguardian:apiguardian-api:jar:1.1.2:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- io.rest-assured:rest-assured:jar:5.3.2:test
+|  +- org.apache.groovy:groovy:jar:4.0.26:test
+|  +- org.apache.groovy:groovy-xml:jar:4.0.26:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.13:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.16:test
+|  |  \- commons-logging:commons-logging:jar:1.2:test
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.13:test
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- io.rest-assured:json-path:jar:5.4.0:test
+|  |  +- org.apache.groovy:groovy-json:jar:4.0.26:test
+|  |  \- io.rest-assured:rest-assured-common:jar:5.4.0:test
+|  \- io.rest-assured:xml-path:jar:5.4.0:test
+|     \- org.apache.commons:commons-lang3:jar:3.14.0:compile
++- org.projectlombok:lombok:jar:1.18.38:compile
+\- commons-codec:commons-codec:jar:1.16.1:compile

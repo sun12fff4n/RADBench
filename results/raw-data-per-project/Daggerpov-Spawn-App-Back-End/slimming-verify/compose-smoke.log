@@ -1,0 +1,56 @@
+ Network spawn_spawn-net Creating 
+ Network spawn_spawn-net Created 
+ Volume spawn_spawn_m2 Creating 
+ Volume spawn_spawn_m2 Created 
+ Container spawn-mysql Creating 
+ Container spawn-mysql Created 
+ Container spawn-app Creating 
+ Container spawn-app Created 
+ Container spawn-mysql Starting 
+ Container spawn-mysql Started 
+ Container spawn-mysql Waiting 
+ Container spawn-mysql Healthy 
+ Container spawn-app Starting 
+ Container spawn-app Started 
+ Container spawn-mysql Waiting 
+ Container spawn-app Waiting 
+ Container spawn-mysql Healthy 
+ Container spawn-app Healthy 
+
+[0;34m== Setup: inject ACTIVE user + activity, forge JWT ==[0m
+[2muser_id=6ae4a58c-47db-11f1-a8ce-f26e720fa69e[0m
+[2mactivity_id=aaaabbbb-cccc-dddd-eeee-ffff00001111[0m
+[2mtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpX...[0m
+
+[0;34m== Auth — token-pipeline endpoints ==[0m
+[0;32mPASS[0m GET  /auth/quick-sign-in                                     [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /auth/refresh-token (forged REFRESH JWT)                [2m[200, body ✓][0m
+
+[0;34m== Users — core profile surfaces ==[0m
+[0;32mPASS[0m GET  /users/{self} (BaseUserDTO key fields)                  [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /users/{self}/profile-info                              [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /users/{self}/stats                                     [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /users/{self}/interests (empty list)                    [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /users/{self}/social-media                              [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /users/{self}/activity-types                            [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /users/friends/{self} (empty)                           [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /users/recommended-friends/{self}                       [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /users/{self}/recent-users                              [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /users/search?query=test                                [2m[200, body ✓][0m
+
+[0;34m== Activities — real injected activity + feed ==[0m
+[0;32mPASS[0m GET  /activities/feedActivities/{self}                       [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /activities/profile/{self}                              [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /activities/{real-uuid}?isActivityExternalInvite=true (no token) [2m[200, all fields ✓][0m
+
+[0;34m== Notifications + friend-requests + blocked-users ==[0m
+[0;32mPASS[0m GET  /notifications/preferences/{self}                       [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /friend-requests/incoming/{self}                        [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /friend-requests/sent/{self}                            [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /blocked-users/{self}                                   [2m[200, body ✓][0m
+
+[0;34m== Auth-gate sanity — keep just one denial check ==[0m
+[0;32mPASS[0m GET  /users/{self} (no Authorization header → 401)         [2m[401][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 20/20 checks passed.[0m

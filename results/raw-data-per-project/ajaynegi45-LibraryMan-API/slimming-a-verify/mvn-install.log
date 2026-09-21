@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com:libraryman-api >-------------------------
+[INFO] Building libraryman-api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ libraryman-api ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ libraryman-api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 51 source files with javac [debug parameters release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/libraryman_api/borrowing/BorrowingService.java:[18,50] package org.springframework.transaction.annotation does not exist
+[ERROR] /project/src/main/java/com/libraryman_api/borrowing/BorrowingService.java:[107,6] cannot find symbol
+  symbol:   class Transactional
+  location: class com.libraryman_api.borrowing.BorrowingService
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.944 s
+[INFO] Finished at: 2026-09-11T19:33:43Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project libraryman-api: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/libraryman_api/borrowing/BorrowingService.java:[18,50] package org.springframework.transaction.annotation does not exist
+[ERROR] /project/src/main/java/com/libraryman_api/borrowing/BorrowingService.java:[107,6] cannot find symbol
+[ERROR]   symbol:   class Transactional
+[ERROR]   location: class com.libraryman_api.borrowing.BorrowingService
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

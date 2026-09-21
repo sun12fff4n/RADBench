@@ -1,0 +1,10 @@
+{
+  "io.quarkus:quarkus-jdbc-mysql:2.9.2.Final": [
+    "unique provider of mysql:mysql-connector-java:8.0.29"
+  ],
+  "io.quarkus:quarkus-resteasy-jackson:2.9.2.Final": [
+    "unique provider of com.fasterxml.jackson.core:jackson-databind:2.13.3",
+    "unique provider of io.quarkus:quarkus-jackson:2.9.2.Final",
+    "unique provider of org.jboss.resteasy:resteasy-jackson2-provider:4.7.5.Final"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "count": 11,
+  "g_static": [
+    "io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore:1.0.0-SNAPSHOT",
+    "io.jsonwebtoken:jjwt-api:0.12.7",
+    "io.jsonwebtoken:jjwt-impl:0.12.7",
+    "jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+    "jakarta.json:jakarta.json-api:1.1.6",
+    "javax.ws.rs:javax.ws.rs-api:2.1.1",
+    "org.apache.shiro:shiro-core:1.13.0",
+    "org.apache.shiro:shiro-jaxrs:1.13.0",
+    "org.apache.shiro:shiro-web:1.13.0",
+    "org.slf4j:jcl-over-slf4j:2.0.17",
+    "org.slf4j:slf4j-jdk14:2.0.17"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "finish": {
+      "g_static": [
+        "io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore:1.0.0-SNAPSHOT",
+        "io.jsonwebtoken:jjwt-api:0.12.7",
+        "io.jsonwebtoken:jjwt-impl:0.12.7",
+        "javax.ws.rs:javax.ws.rs-api:2.1.1",
+        "org.apache.shiro:shiro-core:1.13.0",
+        "org.apache.shiro:shiro-jaxrs:1.13.0",
+        "org.apache.shiro:shiro-web:1.13.0",
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "ignoredTestScope": [
+        "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+        "jakarta.inject:jakarta.inject-api:1.0",
+        "jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+        "jakarta.json:jakarta.json-api:1.1.6",
+        "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "org.apache.cxf:cxf-rt-rs-client:3.6.8",
+        "org.apache.johnzon:johnzon-jsonb:1.2.21",
+        "org.assertj:assertj-core:3.27.4",
+        "org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+        "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+        "org.junit.jupiter:junit-jupiter-api:5.13.4",
+        "org.junit.jupiter:junit-jupiter-engine:5.13.4"
+      ],
+      "ignoredUnusedDeclared": [],
+      "usedDeclared": [
+        "io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore:1.0.0-SNAPSHOT",
+        "io.jsonwebtoken:jjwt-api:0.12.7",
+        "io.jsonwebtoken:jjwt-impl:0.12.7",
+        "org.apache.shiro:shiro-jaxrs:1.13.0",
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "usedUndeclared": [
+        "javax.ws.rs:javax.ws.rs-api:2.1.1",
+        "org.apache.shiro:shiro-core:1.13.0",
+        "org.apache.shiro:shiro-web:1.13.0"
+      ]
+    },
+    "integration-test": {
+      "g_static": [
+        "jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+        "jakarta.json:jakarta.json-api:1.1.6",
+        "javax.ws.rs:javax.ws.rs-api:2.1.1",
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "ignoredTestScope": [
+        "jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+        "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "org.apache.cxf:cxf-rt-rs-client:3.6.8",
+        "org.apache.johnzon:johnzon-jsonb:1.2.21",
+        "org.assertj:assertj-core:3.27.4",
+        "org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+        "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+        "org.junit.jupiter:junit-jupiter-api:5.13.4",
+        "org.junit.jupiter:junit-jupiter-engine:5.13.4"
+      ],
+      "ignoredUnusedDeclared": [
+        "io.github.bmarwell.shiro:shiro.jwt.jaxrs.finish:1.0.0-SNAPSHOT",
+        "io.github.bmarwell.shiro:shiro.jwt.jaxrs.issuer:1.0.0-SNAPSHOT",
+        "javax.ws.rs:javax.ws.rs-api:2.1.1"
+      ],
+      "usedDeclared": [
+        "jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+        "jakarta.json:jakarta.json-api:1.1.6",
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "usedUndeclared": [
+        "javax.ws.rs:javax.ws.rs-api:2.1.1"
+      ]
+    },
+    "issuer": {
+      "g_static": [
+        "io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore:1.0.0-SNAPSHOT",
+        "io.jsonwebtoken:jjwt-api:0.12.7",
+        "io.jsonwebtoken:jjwt-impl:0.12.7",
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "ignoredTestScope": [
+        "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+        "jakarta.inject:jakarta.inject-api:1.0",
+        "jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+        "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "org.assertj:assertj-core:3.27.4",
+        "org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+        "org.junit.jupiter:junit-jupiter-api:5.13.4",
+        "org.junit.jupiter:junit-jupiter-engine:5.13.4"
+      ],
+      "ignoredUnusedDeclared": [],
+      "usedDeclared": [
+        "io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore:1.0.0-SNAPSHOT",
+        "io.jsonwebtoken:jjwt-api:0.12.7",
+        "io.jsonwebtoken:jjwt-impl:0.12.7",
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "usedUndeclared": []
+    },
+    "keystore": {
+      "g_static": [
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "ignoredTestScope": [
+        "jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+        "jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+        "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "org.assertj:assertj-core:3.27.4",
+        "org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+        "org.junit.jupiter:junit-jupiter-api:5.13.4",
+        "org.junit.jupiter:junit-jupiter-engine:5.13.4"
+      ],
+      "ignoredUnusedDeclared": [],
+      "usedDeclared": [
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "usedUndeclared": []
+    },
+    "start": {
+      "g_static": [
+        "javax.ws.rs:javax.ws.rs-api:2.1.1",
+        "org.apache.shiro:shiro-core:1.13.0",
+        "org.apache.shiro:shiro-jaxrs:1.13.0",
+        "org.apache.shiro:shiro-web:1.13.0",
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "ignoredTestScope": [
+        "jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+        "jakarta.inject:jakarta.inject-api:1.0",
+        "jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+        "jakarta.json:jakarta.json-api:1.1.6",
+        "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "org.assertj:assertj-core:3.27.4",
+        "org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+        "org.junit.jupiter:junit-jupiter-api:5.13.4",
+        "org.junit.jupiter:junit-jupiter-engine:5.13.4"
+      ],
+      "ignoredUnusedDeclared": [],
+      "usedDeclared": [
+        "org.apache.shiro:shiro-jaxrs:1.13.0",
+        "org.slf4j:jcl-over-slf4j:2.0.17",
+        "org.slf4j:slf4j-jdk14:2.0.17"
+      ],
+      "usedUndeclared": [
+        "javax.ws.rs:javax.ws.rs-api:2.1.1",
+        "org.apache.shiro:shiro-core:1.13.0",
+        "org.apache.shiro:shiro-web:1.13.0"
+      ]
+    }
+  },
+  "project_id": "bmarwell-shiro-jwt-showcase"
+}

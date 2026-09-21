@@ -1,0 +1,206 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.geo-atlas.app:geoatlas-tile-instance >--------------
+[INFO] Building geoatlas-tile-instance 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ geoatlas-tile-instance ---
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] The update time of the current org.geo-atlas.component:ogc-api:1.0.0-SNAPSHOT was not queried
+[WARNING] The update time of the current org.geotools:gt-http:28.5 was not queried
+[WARNING] Redundant dependency com.google.code.findbugs:jsr305:3.0.2 release time Optional[2017-03-31] has not been maintained for 3319 days
+[WARNING] Redundant dependency com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.5 release time Optional[2022-12-15] has not been maintained for 1233 days
+[WARNING] The current redundancy itself inDirectly depends on org.geo-atlas.component:ogc-api:1.0.0-SNAPSHOT, not security vulnerabilities, open source licenses or outdated dependencies, and there are indirect dependencies. Indirect dependencies are not all redundant dependencies, so there is no redundant dependency resolution
+[INFO] ALL DEPENDENCY[162]:
+[INFO]  USED DEPENDENCY[155]:
+[INFO]   USED DIRECT DEPENDENCY[6]:
+[INFO] 		org.geotools.jdbc:gt-jdbc-sqlserver:28.5:compile [49 KB]
+[INFO] 		com.microsoft.sqlserver:mssql-jdbc:12.8.1.jre11:compile [1 MB]
+[INFO] 		org.geotools.jdbc:gt-jdbc-mysql:28.5:compile [23 KB]
+[INFO] 		org.slf4j:slf4j-simple:2.0.16:compile [15 KB]
+[INFO] 		org.geo-atlas.boot:geoatlas-tile-boot-stater:1.0.0-SNAPSHOT:compile [1 KB]
+[INFO] 		org.geotools.jdbc:gt-jdbc-postgis:28.5:compile [85 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[123]:
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.19.0:compile [574 KB]
+[INFO] 		com.fasterxml:classmate:1.7.0:compile [67 KB]
+[INFO] 		com.google.guava:failureaccess:1.0.2:compile [4 KB]
+[INFO] 		org.apache.httpcomponents:httpclient:4.5.14:compile [767 KB]
+[INFO] 		it.geosolutions.jaiext.nullop:jt-nullop:1.1.24:compile [6 KB]
+[INFO] 		si.uom:si-units:2.0.1:compile [17 KB]
+[INFO] 		it.geosolutions.imageio-ext:imageio-ext-tiff:1.4.7:compile [362 KB]
+[INFO] 		it.geosolutions.jaiext.warp:jt-warp:1.1.24:compile [68 KB]
+[INFO] 		org.hibernate.validator:hibernate-validator:8.0.2.Final:compile [1 MB]
+[INFO] 		org.springframework:spring-tx:6.2.7:compile [278 KB]
+[INFO] 		org.geo-atlas.component:ogc-api:1.0.0-SNAPSHOT:compile [21 KB]
+[INFO] 		org.modelmapper:modelmapper:3.2.1:compile [4 MB]
+[INFO] 		commons-codec:commons-codec:1.17.1:compile [363 KB]
+[INFO] 		org.springframework.data:spring-data-commons:3.5.0:compile [1 MB]
+[INFO] 		it.geosolutions.jaiext.buffer:jt-buffer:1.1.24:compile [19 KB]
+[INFO] 		org.geo-atlas.library:tile:1.0.0-SNAPSHOT:compile [12 KB]
+[INFO] 		it.geosolutions.jaiext.errordiffusion:jt-errordiffusion:1.1.24:compile [18 KB]
+[INFO] 		it.geosolutions.jaiext.colorindexer:jt-colorindexer:1.1.25:compile [40 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.16:compile [67 KB]
+[INFO] 		it.geosolutions.jaiext.format:jt-format:1.1.24:compile [7 KB]
+[INFO] 		it.geosolutions.jaiext.utilities:jt-utilities:1.1.25:compile [182 KB]
+[INFO] 		it.geosolutions.jaiext.translate:jt-translate:1.1.24:compile [10 KB]
+[INFO] 		it.geosolutions.jaiext.bandcombine:jt-bandcombine:1.1.24:compile [16 KB]
+[INFO] 		org.geotools:gt-opengis:28.5:compile [347 KB]
+[INFO] 		com.google.protobuf:protobuf-java:3.11.4:compile [1 MB]
+[INFO] 		org.glassfish.jaxb:jaxb-core:4.0.5:runtime [135 KB]
+[INFO] 		javax.media:jai_codec:1.1.3:compile [252 KB]
+[INFO] 		org.ejml:ejml-core:0.41:compile [252 KB]
+[INFO] 		org.geotools:gt-render:28.5:compile [588 KB]
+[INFO] 		org.jaitools:jt-zonalstats:1.6.0:compile [20 KB]
+[INFO] 		org.apache.httpcomponents:httpcore:4.4.16:compile [320 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-validation:3.5.0:compile [4 KB]
+[INFO] 		it.geosolutions.jaiext.bandselect:jt-bandselect:1.1.24:compile [9 KB]
+[INFO] 		tech.units:indriya:2.0.2:compile [255 KB]
+[INFO] 		com.google.re2j:re2j:1.6:compile [110 KB]
+[INFO] 		it.geosolutions.imageio-ext:imageio-ext-geocore:1.4.7:compile [49 KB]
+[INFO] 		com.zaxxer:HikariCP:6.3.0:compile [166 KB]
+[INFO] 		it.geosolutions.imageio-ext:imageio-ext-streams:1.4.7:compile [52 KB]
+[INFO] 		org.geotools.ogc:org.w3.xlink:28.5:compile [51 KB]
+[INFO] 		org.springframework.data:spring-data-relational:3.5.0:compile [506 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-runtime:4.0.5:runtime [898 KB]
+[INFO] 		org.geo-atlas.component:tile-cache:1.0.0-SNAPSHOT:compile [222 KB]
+[INFO] 		it.geosolutions.jaiext.rescale:jt-rescale:1.1.24:compile [19 KB]
+[INFO] 		com.google.guava:guava:33.2.0-jre:compile [2 MB]
+[INFO] 		javax.media:jai_imageio:1.1:compile [1 MB]
+[INFO] 		org.eclipse.emf:org.eclipse.emf.common:2.15.0:compile [367 KB]
+[INFO] 		org.ejml:ejml-ddense:0.41:compile [398 KB]
+[INFO] 		org.locationtech.jts:jts-core:1.19.0:compile [1 MB]
+[INFO] 		tech.uom.lib:uom-lib-common:2.0:compile [21 KB]
+[INFO] 		org.geo-atlas.component:metadata:1.0.0-SNAPSHOT:compile [64 KB]
+[INFO] 		org.jasypt:jasypt:1.9.3:compile [138 KB]
+[INFO] 		jakarta.servlet:jakarta.servlet-api:5.0.0:compile [300 KB]
+[INFO] 		org.geotools:gt-coverage:28.5:compile [604 KB]
+[INFO] 		org.springframework:spring-jdbc:6.2.7:compile [461 KB]
+[INFO] 		com.github.ulisesbocchio:jasypt-spring-boot:3.0.5:compile [121 KB]
+[INFO] 		it.geosolutions.jaiext.shadedrelief:jt-shadedrelief:1.1.24:compile [38 KB]
+[INFO] 		javax.measure:unit-api:2.0:compile [36 KB]
+[INFO] 		net.sourceforge.jtds:jtds:1.3.1:compile [310 KB]
+[INFO] 		javax.activation:javax.activation-api:1.2.0:compile [55 KB]
+[INFO] 		org.geo-atlas.library:io:1.0.0-SNAPSHOT:compile [8 KB]
+[INFO] 		org.geotools:gt-cql:28.5:compile [195 KB]
+[INFO] 		commons-pool:commons-pool:1.6:compile [108 KB]
+[INFO] 		org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.15.0:compile [229 KB]
+[INFO] 		commons-dbcp:commons-dbcp:1.4:compile [156 KB]
+[INFO] 		net.sf.geographiclib:GeographicLib-Java:1.49:compile [36 KB]
+[INFO] 		it.geosolutions.jaiext.orderdither:jt-orderdither:1.1.24:compile [26 KB]
+[INFO] 		si.uom:si-quantity:2.0.1:compile [9 KB]
+[INFO] 		it.geosolutions.jaiext.scale2:jt-scale2:1.1.24:compile [94 KB]
+[INFO] 		systems.uom:systems-common:2.0.2:compile [24 KB]
+[INFO] 		it.geosolutions.jaiext.classifier:jt-classifier:1.1.24:compile [19 KB]
+[INFO] 		it.geosolutions.jaiext.binarize:jt-binarize:1.1.24:compile [14 KB]
+[INFO] 		it.geosolutions.jaiext.affine:jt-affine:1.1.24:compile [121 KB]
+[INFO] 		org.glassfish.jaxb:txw2:4.0.5:runtime [71 KB]
+[INFO] 		commons-io:commons-io:2.16.1:compile [496 KB]
+[INFO] 		it.geosolutions.jaiext.vectorbin:jt-vectorbin:1.1.24:compile [18 KB]
+[INFO] 		javax.media:jai_core:1.1.3:compile [1 MB]
+[INFO] 		com.conversantmedia:disruptor:1.2.15:compile [131 KB]
+[INFO] 		it.geosolutions.jaiext.mosaic:jt-mosaic:1.1.24:compile [40 KB]
+[INFO] 		io.airlift:aircompressor:0.20:compile [180 KB]
+[INFO] 		it.geosolutions.imageio-ext:imageio-ext-utilities:1.4.7:compile [41 KB]
+[INFO] 		org.eclipse.angus:angus-activation:2.0.2:runtime [26 KB]
+[INFO] 		it.geosolutions.jaiext.colorconvert:jt-colorconvert:1.1.24:compile [69 KB]
+[INFO] 		javax.inject:javax.inject:1:compile [2 KB]
+[INFO] 		org.hsqldb:hsqldb:jdk8:2.7.2:compile [1 MB]
+[INFO] 		no.ecc.vectortile:java-vector-tile:1.3.23:compile [86 KB]
+[INFO] 		it.geosolutions.jaiext.iterators:jt-iterators:1.1.25:compile [32 KB]
+[INFO] 		it.geosolutions.jaiext.bandmerge:jt-bandmerge:1.1.24:compile [33 KB]
+[INFO] 		org.apache.commons:commons-text:1.10.0:compile [232 KB]
+[INFO] 		it.geosolutions.jaiext.zonal:jt-zonal:1.1.24:compile [33 KB]
+[INFO] 		org.huldra.math:bigint:0.7.1:compile [21 KB]
+[INFO] 		javax.xml.bind:jaxb-api:2.4.0-b180830.0359:compile [125 KB]
+[INFO] 		org.geo-atlas.library:pyramid:1.0.0-SNAPSHOT:compile [62 KB]
+[INFO] 		org.geotools:gt-referencing:28.5:compile [1 MB]
+[INFO] 		org.apache.commons:commons-lang3:3.17.0:compile [657 KB]
+[INFO] 		it.geosolutions.jaiext.piecewise:jt-piecewise:1.1.24:compile [37 KB]
+[INFO] 		org.springframework.data:spring-data-jdbc:3.5.0:compile [399 KB]
+[INFO] 		jakarta.validation:jakarta.validation-api:3.0.2:compile [91 KB]
+[INFO] 		org.eclipse.emf:org.eclipse.emf.ecore:2.15.0:compile [1 MB]
+[INFO] 		it.geosolutions.jaiext.stats:jt-stats:1.1.24:compile [35 KB]
+[INFO] 		org.jaitools:jt-utils:1.6.0:compile [204 KB]
+[INFO] 		it.geosolutions.jaiext.scale:jt-scale:1.1.24:compile [91 KB]
+[INFO] 		org.geotools:gt-main:28.5:compile [1 MB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:4.0.2:runtime [127 KB]
+[INFO] 		it.geosolutions.jaiext.algebra:jt-algebra:1.1.24:compile [53 KB]
+[INFO] 		com.sun.istack:istack-commons-runtime:4.1.2:runtime [25 KB]
+[INFO] 		org.jboss.logging:jboss-logging:3.6.1.Final:compile [60 KB]
+[INFO] 		org.geotools:gt-epsg-hsql:28.5:compile [2 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-data-jdbc:3.5.0:compile [4 KB]
+[INFO] 		org.postgresql:postgresql:42.7.5:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-jdbc:3.5.0:compile [4 KB]
+[INFO] 		com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile [2 KB]
+[INFO] 		jakarta.activation:jakarta.activation-api:2.1.3:runtime [64 KB]
+[INFO] 		it.geosolutions.jaiext.imagefunction:jt-imagefunction:1.1.24:compile [12 KB]
+[INFO] 		mysql:mysql-connector-java:8.0.28:compile [2 MB]
+[INFO] 		commons-logging:commons-logging:1.2:compile [60 KB]
+[INFO] 		org.geotools:gt-metadata:28.5:compile [606 KB]
+[INFO] 		it.geosolutions.jaiext.lookup:jt-lookup:1.1.24:compile [41 KB]
+[INFO] 		it.geosolutions.jaiext.rlookup:jt-rlookup:1.1.24:compile [18 KB]
+[INFO] 		org.geotools.ogc:net.opengis.ows:28.5:compile [573 KB]
+[INFO] 		it.geosolutions.jaiext.border:jt-border:1.1.24:compile [14 KB]
+[INFO] 		it.geosolutions.jgridshift:jgridshift-core:1.3:compile [12 KB]
+[INFO] 		org.geotools:gt-jdbc:28.5:compile [242 KB]
+[INFO] 		it.geosolutions.jaiext.crop:jt-crop:1.1.24:compile [9 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[1]:
+[INFO] 		org.springframework.boot:spring-boot-starter-web:3.5.0:compile [4 KB]
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[25]:
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.19.0:compile [1 MB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0:compile [133 KB]
+[INFO] 		org.springframework:spring-jcl:6.2.7:compile [23 KB]
+[INFO] 		org.springframework:spring-web:6.2.7:compile [1 MB]
+[INFO] 		org.springframework:spring-core:6.2.7:compile [1 MB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:2.1.1:compile [25 KB]
+[INFO] 		org.springframework:spring-beans:6.2.7:compile [865 KB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:3.5.0:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-tomcat:3.5.0:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot:3.5.0:compile [1 MB]
+[INFO] 		io.micrometer:micrometer-observation:1.15.0:compile [73 KB]
+[INFO] 		org.yaml:snakeyaml:2.4:compile [331 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter:3.5.0:compile [4 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-core:10.1.41:compile [3 MB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-el:10.1.41:compile [259 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0:compile [35 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.19.0:compile [76 KB]
+[INFO] 		org.springframework:spring-webmvc:6.2.7:compile [1 MB]
+[INFO] 		org.springframework:spring-aop:6.2.7:compile [409 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-websocket:10.1.41:compile [275 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-json:3.5.0:compile [4 KB]
+[INFO] 		org.springframework:spring-expression:6.2.7:compile [310 KB]
+[INFO] 		io.micrometer:micrometer-commons:1.15.0:compile [48 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.0:compile [10 KB]
+[INFO] 		org.springframework:spring-context:6.2.7:compile [1 MB]
+[INFO]  UNUSED DEPENDENCY[7]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[7]:
+[INFO] 		com.google.j2objc:j2objc-annotations:3.0.0:compile [12 KB]
+[INFO] 		org.geo-atlas.library:base:1.0.0-SNAPSHOT:compile [3 KB]
+[INFO] 		org.geotools:gt-http:28.5:compile [23 KB]
+[INFO] 		com.google.errorprone:error_prone_annotations:2.26.1:compile [18 KB]
+[INFO] 		com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.5:compile [4 KB]
+[INFO] 		com.google.code.findbugs:jsr305:3.0.2:compile [19 KB]
+[INFO] 		org.checkerframework:checker-qual:3.48.3:compile [233 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/geoatlas-cloud-geo-atlas/app/geoatlas-tile-instance/bloatedOutput/orggeoatlasappgeoatlastileinstance100SNAPSHOT/orggeoatlasappgeoatlastileinstance100SNAPSHOT/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38:11 min
+[INFO] Finished at: 2026-05-02T16:24:41+02:00
+[INFO] ------------------------------------------------------------------------

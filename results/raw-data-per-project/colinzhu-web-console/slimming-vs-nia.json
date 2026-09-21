@@ -1,0 +1,363 @@
+{
+  "project_id": "colinzhu-web-console",
+  "slimming_total": 25,
+  "slimming_counts": {
+    "used": 18,
+    "gray": 7
+  },
+  "nia_total_classes": 80,
+  "nia_mapped_classes": 49,
+  "nia_proxy_recovered": 0,
+  "res_txt": {
+    "Top Project info": "/private/tmp/analysis-runs/colinzhu-web-console",
+    "Project info": "/private/tmp/analysis-runs/colinzhu-web-console",
+    "Project Name": "io.github.colinzhu:web-console:0.1.2",
+    "OriginalSize": "9331KB",
+    "BloatedSize": "0KB",
+    "All Dependencies": "23",
+    "Used Dependencies": "23",
+    "Used Self Direct Dependency": "4",
+    "Used Self Indirect Dependency": "19",
+    "Used Inherit Direct Dependency": "0",
+    "Used Inherit indirect Dependency": "0",
+    "Unused Dependencies": "0",
+    "Unused Self Direct Dependency": "0",
+    "Unused Self Indirect Dependency": "0",
+    "Unused Inherit Direct Dependency": "0",
+    "Unused Inherit Indirect Dependency": "0",
+    "checkBloated": "0",
+    "realBloated": "0",
+    "unDeleteSelfDirectDependencies": "0",
+    "unDeleteSelfIndirectDependencies": "0",
+    "unDeleteUnusedInheritDirectDependencies": "0",
+    "unDeleteUnusedInheritIndirectDependencies": "0",
+    "configSootTime": "11410",
+    "buildClassExtendGraphTime": "113",
+    "buildCallGraphTime": "26048",
+    "levelTime": "9",
+    "stringTime": "4",
+    "licenseCheckTime": "6937",
+    "bugCheckTime": "122",
+    "maintenanceTimeCheckTime": "0",
+    "checkTime": "45825",
+    "repairTime": "5710",
+    "mvnTestTime": "0",
+    "java Reflect": "0",
+    "outdated": "0",
+    "vulnerable": "0",
+    "licenseConflict": "0",
+    "dependencyConflict": "0",
+    "SpringAPI": "0",
+    "TomcatAPI": "0",
+    ".class": "869",
+    "forName": "5",
+    "loadClass": "5",
+    "getClass": "137",
+    "reflectEdges": "1003",
+    "unReflectEdges": "5"
+  },
+  "buckets": {
+    "used+hit": 5,
+    "used+nohit": 13,
+    "bloated+hit": 0,
+    "bloated+nohit": 0,
+    "unloaded+hit": 4,
+    "unloaded+nohit": 3
+  },
+  "metrics": {
+    "tp": 0,
+    "fp": 0,
+    "tn": 9,
+    "fn": 16,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "io.vertx:vertx-core:4.4.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 9
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.4.12",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "io.vertx:vertx-web:4.4.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.92.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns:4.1.92.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 1
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "io.github.colinzhu:web-console:0.1.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "client",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-auth-common:4.4.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-bridge-common:4.4.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.vertx:vertx-web-common:4.4.2",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-transport-native-unix-common:4.1.92.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-handler-proxy:4.1.92.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-socks:4.1.92.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.15.0",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-dns:4.1.92.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.1.92.Final",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.4.12",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.projectlombok:lombok:1.18.36",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "provided",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.6",
+        "fillColor": "",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      }
+    ],
+    "bloated+hit": [],
+    "bloated+nohit": [],
+    "unloaded+hit": [
+      {
+        "gav": "io.netty:netty-transport:4.1.92.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 13
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.92.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 12
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.1.92.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 5
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.92.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 2
+      }
+    ],
+    "unloaded+nohit": [
+      {
+        "gav": "io.netty:netty-handler:4.1.92.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.92.Final",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "compile",
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:1.7.21",
+        "fillColor": "gray",
+        "problem": [
+          "0",
+          "0",
+          "0"
+        ],
+        "scope": "runtime",
+        "nia_class_hits": 0
+      }
+    ]
+  }
+}

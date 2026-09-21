@@ -1,0 +1,120 @@
+Top Project info>>>>/private/tmp/analysis-runs/kairosdb-kairosdb
+Project info>>>>/private/tmp/analysis-runs/kairosdb-kairosdb
+Project Name>>>>org.kairosdb:kairosdb:1.4.0-SNAPSHOT
+OriginalSize>>>>68641KB
+BloatedSize>>>>260KB
+All Dependencies>>>>159
+Used Dependencies>>>>153
+Used Self Direct Dependency>>>>62
+Used Self Indirect Dependency>>>>91
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>6
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>6
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>6
+realBloated>>>>6
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>22677
+buildClassExtendGraphTime>>>>486
+buildCallGraphTime>>>>261722
+levelTime>>>>927
+stringTime>>>>91
+licenseCheckTime>>>>12017
+bugCheckTime>>>>478
+maintenanceTimeCheckTime>>>>1164
+checkTime>>>>309629
+repairTime>>>>73013
+mvnTestTime>>>>35192
+====================BloatedType=========================
+java Reflect>>>>4
+outdated>>>>3
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>2
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>9090
+forName>>>>163
+loadClass>>>>64
+getClass>>>>1221
+reflectEdges>>>>10276
+unReflectEdges>>>>71
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><org.jboss.resteasy.spi.PriorityServiceLoader: org.jboss.resteasy.spi.PriorityServiceLoader$Holder[] findClasses(java.lang.Class,java.lang.ClassLoader,java.util.function.Function)>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.lang.Object createFactory(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.mchange.v1.lang.ClassUtils: java.lang.Class forName(java.lang.String)>
+unSolvedReflect>>>><org.dom4j.util.PerThreadSingleton: java.lang.Object instance()>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: void registerJndiComponentResource(java.lang.String)>
+unSolvedReflect>>>><org.quartz.core.QuartzSchedulerMBeanImpl: void scheduleJob(java.util.Map,java.util.Map)>
+unSolvedReflect>>>><com.mchange.v1.lang.ClassUtils: java.lang.Class classForSimpleName(java.lang.String,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><org.eclipse.jetty.ee10.servlet.ServletContextHandler$ServletContextApi: void addListener(java.lang.String)>
+unSolvedReflect>>>><org.quartz.core.QuartzSchedulerMBeanImpl: void addJob(java.util.Map,boolean)>
+unSolvedReflect>>>><org.quartz.core.jmx.JobDetailSupport: org.quartz.JobDetail newJobDetail(javax.management.openmbean.CompositeData)>
+unSolvedReflect>>>><com.google.protobuf.Descriptors$FileDescriptor: com.google.protobuf.Descriptors$FileDescriptor[] findDescriptors(java.lang.Class,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: void registerResources(boolean)>
+unSolvedReflect>>>><com.google.protobuf.SchemaUtil: java.lang.Object getMapDefaultEntry(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.dom4j.dom.DOMDocumentFactory: void <clinit>()>
+unSolvedReflect>>>><jakarta.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.quartz.core.QuartzSchedulerMBeanImpl: void scheduleJob(java.lang.String,java.lang.String,java.util.Map)>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: void registerResources(boolean)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.lang.Object createFactory(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.commons.logging.impl.LogFactoryImpl: org.apache.commons.logging.Log createLogFromClass(java.lang.String,java.lang.String,boolean)>
+unSolvedReflect>>>><org.dom4j.util.PerThreadSingleton: java.lang.Object instance()>
+unSolvedReflect>>>><org.quartz.core.QuartzSchedulerMBeanImpl: void scheduleJob(java.util.Map,java.util.Map)>
+unSolvedReflect>>>><org.dom4j.util.SimpleSingleton: void reset()>
+unSolvedReflect>>>><org.jboss.resteasy.plugins.providers.RegisterBuiltin: void registerProviders(org.jboss.resteasy.spi.ResteasyProviderFactory,java.util.Set)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: java.lang.Object createInstance(java.lang.String,java.lang.Class,java.lang.Object[])>
+unSolvedReflect>>>><org.kairosdb.core.GuiceKairosDataPointFactory: void <init>(com.google.inject.Injector,org.kairosdb.core.KairosRootConfig)>
+unSolvedReflect>>>><org.eclipse.jetty.util.Loader: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><com.mchange.v1.lang.ClassUtils: java.lang.Class classForSimpleName(java.lang.String,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><org.kairosdb.core.CoreModule: java.lang.Class getClassForProperty(java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><net.jpountz.xxhash.XXHashFactory: java.lang.Object classInstance(java.lang.String)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: void registerProvider(java.lang.String)>
+unSolvedReflect>>>><org.jboss.resteasy.plugins.server.embedded.EmbeddedServers: java.lang.String resolveContext(org.jboss.resteasy.spi.ResteasyDeployment)>
+unSolvedReflect>>>><org.dom4j.DocumentFactory: org.dom4j.util.SingletonStrategy createSingleton()>
+unSolvedReflect>>>><org.dom4j.QName: void <clinit>()>
+unSolvedReflect>>>><org.dom4j.util.SimpleSingleton: void reset()>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: void initializeObjects()>
+unSolvedReflect>>>><jakarta.el.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader,java.util.Properties)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class findFirstByJaxbIndex(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.eclipse.jetty.ee10.servlet.ServletContextHandler: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: jakarta.ws.rs.core.Application createApplication(java.lang.String,org.jboss.resteasy.spi.Dispatcher,org.jboss.resteasy.spi.ResteasyProviderFactory)>
+unSolvedReflect>>>><org.quartz.core.jmx.JobDetailSupport: org.quartz.JobDetail newJobDetail(java.util.Map)>
+unSolvedReflect>>>><org.quartz.core.QuartzSchedulerMBeanImpl: void addJob(java.util.Map,boolean)>
+unSolvedReflect>>>><com.google.protobuf.GeneratedMessage$4: com.google.protobuf.Descriptors$FieldDescriptor loadDescriptor()>
+unSolvedReflect>>>><org.apache.http.impl.client.AbstractHttpClient: org.apache.http.conn.ClientConnectionManager createClientConnectionManager()>
+unSolvedReflect>>>><org.eclipse.jetty.session.SessionData: void serializeAttributes(org.eclipse.jetty.session.SessionData,java.io.ObjectOutputStream)>
+unSolvedReflect>>>><org.kairosdb.util.PluginClassLoader: java.lang.Class loadClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: void registerResources(boolean)>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.util.Hashtable createFactoryStore()>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.h2.mvstore.type.ObjectDataType$ObjectArrayType: java.lang.Object read(java.nio.ByteBuffer,int)>
+unSolvedReflect>>>><org.kairosdb.core.Main: void <init>(java.io.File)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: java.lang.Object createFromInjectorFactory(java.lang.String,org.jboss.resteasy.spi.ResteasyProviderFactory)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><jakarta.xml.bind.ServiceLoaderUtil: java.lang.Object lookupUsingOSGiServiceLoader(java.lang.String,java.util.logging.Logger)>
+unSolvedReflect>>>><org.quartz.core.QuartzSchedulerMBeanImpl: void scheduleJob(java.util.Map,java.util.Map)>
+unSolvedReflect>>>><com.mchange.v1.lang.ClassUtils: java.lang.Class classForSimpleName(java.lang.String,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><org.h2.util.SourceCompiler: java.lang.Class javaxToolsJavac(java.lang.String,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.jboss.resteasy.core.ResteasyDeploymentImpl: void initializeObjects()>
+unSolvedReflect>>>><jnr.ffi.Platform: jnr.ffi.Platform determinePlatform()>
+unSolvedReflect>>>><org.h2.mvstore.type.MetaType: org.h2.mvstore.type.DataType read(java.nio.ByteBuffer)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class[] getClassesFromContextPath(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.kairosdb.metrics4j.configuration.MetricConfig: java.lang.Object loadClass(org.kairosdb.metrics4j.shaded.config.Config,java.lang.String)>
+unSolvedReflect>>>><com.kenai.jffi.Foreign: int getVersionField(java.lang.String)>

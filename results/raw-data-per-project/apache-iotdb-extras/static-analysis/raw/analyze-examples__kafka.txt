@@ -1,0 +1,199 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -------------------< org.apache.iotdb:kafka-example >-------------------
+[INFO] Building IoTDB: Example: Apache Kafka 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ kafka-example >>>
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.13/2.8.2/kafka_2.13-2.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.13/2.8.2/kafka_2.13-2.8.2.pom (23 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-metadata/2.8.2/kafka-metadata-2.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-metadata/2.8.2/kafka-metadata-2.8.2.pom (2.0 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.pom (2.2 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.10.5/jackson-modules-java8-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.10.5/jackson-modules-java8-2.10.5.pom (3.2 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.10.5/jackson-base-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.10.5/jackson-base-2.10.5.pom (7.2 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.5/jackson-bom-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.5/jackson-bom-2.10.5.pom (13 kB at 398 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.10/jackson-parent-2.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.10/jackson-parent-2.10.pom (8.3 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.5/jackson-core-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.5/jackson-core-2.10.5.pom (4.6 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.pom (1.3 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-parent/2.2.0/metrics-parent-2.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-parent/2.2.0/metrics-parent-2.2.0.pom (10 kB at 184 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-raft/2.8.2/kafka-raft-2.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-raft/2.8.2/kafka-raft-2.8.2.pom (2.0 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/argparse4j/argparse4j/0.7.0/argparse4j-0.7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/argparse4j/argparse4j/0.7.0/argparse4j-0.7.0.pom (5.5 kB at 168 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.5/jackson-module-scala_2.13-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.5/jackson-module-scala_2.13-2.10.5.pom (4.1 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.5/jackson-module-paranamer-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.5/jackson-module-paranamer-2.10.5.pom (4.2 kB at 112 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.10.5/jackson-modules-base-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.10.5/jackson-modules-base-2.10.5.pom (3.4 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.5/jackson-dataformat-csv-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.5/jackson-dataformat-csv-2.10.5.pom (2.6 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.10.5/jackson-dataformats-text-2.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.10.5/jackson-dataformats-text-2.10.5.pom (3.0 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.3.0/scala-collection-compat_2.13-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.3.0/scala-collection-compat_2.13-2.3.0.pom (2.0 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1.pom (2.4 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.5/scala-reflect-2.13.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.5/scala-reflect-2.13.5.pom (1.8 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.pom (2.8 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.pom (1.8 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.pom (9.5 kB at 263 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/parent/3.5.9/parent-3.5.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/parent/3.5.9/parent-3.5.9.pom (29 kB at 800 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.9/zookeeper-jute-3.5.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.9/zookeeper-jute-3.5.9.pom (5.6 kB at 130 kB/s)
+[WARNING] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.50.Final/netty-handler-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.50.Final/netty-handler-4.1.50.Final.pom (3.6 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.50.Final/netty-parent-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.50.Final/netty-parent-4.1.50.Final.pom (58 kB at 988 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.50.Final/netty-common-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.50.Final/netty-common-4.1.50.Final.pom (10 kB at 212 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.50.Final/netty-resolver-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.50.Final/netty-resolver-4.1.50.Final.pom (1.6 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.50.Final/netty-buffer-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.50.Final/netty-buffer-4.1.50.Final.pom (1.6 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.50.Final/netty-transport-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.50.Final/netty-transport-4.1.50.Final.pom (1.9 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.50.Final/netty-codec-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.50.Final/netty-codec-4.1.50.Final.pom (3.6 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.50.Final/netty-transport-native-epoll-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.50.Final/netty-transport-native-epoll-4.1.50.Final.pom (18 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.50.Final/netty-transport-native-unix-common-4.1.50.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.50.Final/netty-transport-native-unix-common-4.1.50.Final.pom (19 kB at 239 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4.pom (11 kB at 324 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.13/2.8.2/kafka_2.13-2.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.13/2.8.2/kafka_2.13-2.8.2.jar (5.5 MB at 9.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-metadata/2.8.2/kafka-metadata-2.8.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-raft/2.8.2/kafka-raft-2.8.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/argparse4j/argparse4j/0.7.0/argparse4j-0.7.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.5/jackson-module-scala_2.13-2.10.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.5/jackson-module-paranamer-2.10.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-metadata/2.8.2/kafka-metadata-2.8.2.jar (304 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.5/jackson-dataformat-csv-2.10.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.5/jackson-dataformat-csv-2.10.5.jar (100 kB at 489 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.5/jackson-module-paranamer-2.10.5.jar (44 kB at 209 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.jar (34 kB at 144 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.3.0/scala-collection-compat_2.13-2.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.3.0/scala-collection-compat_2.13-2.3.0.jar (5.9 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-raft/2.8.2/kafka-raft-2.8.2.jar (169 kB at 555 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.5/scala-reflect-2.13.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/argparse4j/argparse4j/0.7.0/argparse4j-0.7.0.jar (90 kB at 295 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar (82 kB at 275 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.5/jackson-module-scala_2.13-2.10.5.jar (339 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.9/zookeeper-jute-3.5.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.jar (57 kB at 160 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.50.Final/netty-handler-4.1.50.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1.jar (638 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.50.Final/netty-common-4.1.50.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.9/zookeeper-jute-3.5.9.jar (251 kB at 557 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.50.Final/netty-resolver-4.1.50.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar (995 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.50.Final/netty-buffer-4.1.50.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.50.Final/netty-common-4.1.50.Final.jar (626 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.50.Final/netty-handler-4.1.50.Final.jar (455 kB at 935 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.50.Final/netty-codec-4.1.50.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.50.Final/netty-transport-4.1.50.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.50.Final/netty-resolver-4.1.50.Final.jar (33 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.50.Final/netty-transport-native-epoll-4.1.50.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.50.Final/netty-buffer-4.1.50.Final.jar (290 kB at 510 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.50.Final/netty-transport-native-unix-common-4.1.50.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.50.Final/netty-transport-native-epoll-4.1.50.Final.jar (124 kB at 185 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.50.Final/netty-transport-native-unix-common-4.1.50.Final.jar (33 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.50.Final/netty-codec-4.1.50.Final.jar (320 kB at 461 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.50.Final/netty-transport-4.1.50.Final.jar (473 kB at 648 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.5/scala-reflect-2.13.5.jar (3.7 MB at 4.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4.jar (54 kB at 70 kB/s)
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ kafka-example ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ kafka-example ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] Spotless.Java is keeping 8 files clean - 0 needs changes to be clean, 8 were already clean, 0 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ kafka-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ kafka-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ kafka-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ kafka-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ kafka-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ kafka-example ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ kafka-example ---
+[INFO] skip non existing resourceDirectory /project/examples/kafka/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ kafka-example ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 8 source files with javac [debug release 8] to target/classes
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ kafka-example ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ kafka-example ---
+[INFO] skip non existing resourceDirectory /project/examples/kafka/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ kafka-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ kafka-example <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ kafka-example ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    org.apache.tsfile:tsfile:jar:2.1.1:compile
+[WARNING]    org.apache.iotdb:isession:jar:2.0.5:compile
+[WARNING]    org.slf4j:slf4j-api:jar:2.0.9:compile
+[WARNING]    org.apache.iotdb:service-rpc:jar:2.0.5:compile
+[WARNING]    org.apache.kafka:kafka-clients:jar:2.8.2:compile
+[WARNING]    org.apache.tsfile:common:jar:2.1.1:compile
+[WARNING] Unused declared dependencies found:
+[WARNING]    org.apache.iotdb:iotdb-jdbc:jar:2.0.5:compile
+[WARNING]    org.apache.kafka:kafka_2.13:jar:2.8.2:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  39.508 s
+[INFO] Finished at: 2026-06-16T08:57:12Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 14 goals, 14 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

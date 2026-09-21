@@ -1,0 +1,219 @@
+== reactor install (skip tests + heavyweight lifecycle plugins) ==
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+  leaf module dirs: 32
+
+==== ./connectors/flink-iotdb-connector (-> connectors__flink-iotdb-connector) ====
+
+==== ./connectors/flink-sql-iotdb-connector (-> connectors__flink-sql-iotdb-connector) ====
+
+==== ./connectors/flink-tsfile-connector (-> connectors__flink-tsfile-connector) ====
+  analyze failed for ./connectors/flink-tsfile-connector (continuing)
+[ERROR] Failed to execute goal on project flink-tsfile-connector: Could not resolve dependencies for project org.apache.iotdb:flink-tsfile-connector:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./connectors/grafana-connector (-> connectors__grafana-connector) ====
+
+==== ./connectors/grafana-plugin (-> connectors__grafana-plugin) ====
+
+==== ./connectors/hadoop (-> connectors__hadoop) ====
+
+==== ./connectors/hive-connector (-> connectors__hive-connector) ====
+  analyze failed for ./connectors/hive-connector (continuing)
+[ERROR] Failed to execute goal on project hive-connector: Could not resolve dependencies for project org.apache.iotdb:hive-connector:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./connectors/spark-iotdb-connector/scala_2.11 (-> connectors__spark-iotdb-connector__scala_2.11) ====
+
+==== ./connectors/spark-iotdb-connector/scala_2.12 (-> connectors__spark-iotdb-connector__scala_2.12) ====
+
+==== ./connectors/spark-iotdb-table-connector/iotdb-table-connector-3.3 (-> connectors__spark-iotdb-table-connector__iotdb-table-connector-3.3) ====
+  analyze failed for ./connectors/spark-iotdb-table-connector/iotdb-table-connector-3.3 (continuing)
+[ERROR] Failed to execute goal on project spark-iotdb-table-connector-3.3: Could not resolve dependencies for project org.apache.iotdb:spark-iotdb-table-connector-3.3:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./connectors/spark-iotdb-table-connector/iotdb-table-connector-3.4 (-> connectors__spark-iotdb-table-connector__iotdb-table-connector-3.4) ====
+  analyze failed for ./connectors/spark-iotdb-table-connector/iotdb-table-connector-3.4 (continuing)
+[ERROR] Failed to execute goal on project spark-iotdb-table-connector-3.4: Could not resolve dependencies for project org.apache.iotdb:spark-iotdb-table-connector-3.4:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./connectors/spark-iotdb-table-connector/iotdb-table-connector-3.5 (-> connectors__spark-iotdb-table-connector__iotdb-table-connector-3.5) ====
+  analyze failed for ./connectors/spark-iotdb-table-connector/iotdb-table-connector-3.5 (continuing)
+[ERROR] Failed to execute goal on project spark-iotdb-table-connector-3.5: Could not resolve dependencies for project org.apache.iotdb:spark-iotdb-table-connector-3.5:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./connectors/spark-iotdb-table-connector/spark-iotdb-table-common (-> connectors__spark-iotdb-table-connector__spark-iotdb-table-common) ====
+
+==== ./connectors/spark-tsfile (-> connectors__spark-tsfile) ====
+  analyze failed for ./connectors/spark-tsfile (continuing)
+[ERROR] Failed to execute goal on project spark-tsfile: Could not resolve dependencies for project org.apache.iotdb:spark-tsfile:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./connectors/zeppelin-interpreter (-> connectors__zeppelin-interpreter) ====
+
+==== ./distributions (-> distributions) ====
+
+==== ./examples/flink (-> examples__flink) ====
+  analyze failed for ./examples/flink (continuing)
+[ERROR] Failed to execute goal on project flink-example: Could not resolve dependencies for project org.apache.iotdb:flink-example:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:flink-iotdb-connector:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:flink-iotdb-connector:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] dependency: org.apache.iotdb:flink-tsfile-connector:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:flink-tsfile-connector:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./examples/flink-sql (-> examples__flink-sql) ====
+  analyze failed for ./examples/flink-sql (continuing)
+[ERROR] Failed to execute goal on project flink-sql-example: Could not resolve dependencies for project org.apache.iotdb:flink-sql-example:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:flink-sql-iotdb-connector:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:flink-sql-iotdb-connector:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./examples/hadoop (-> examples__hadoop) ====
+  analyze failed for ./examples/hadoop (continuing)
+[ERROR] Failed to execute goal on project hadoop-example: Could not resolve dependencies for project org.apache.iotdb:hadoop-example:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./examples/iotdb-spring-boot-start (-> examples__iotdb-spring-boot-start) ====
+  analyze failed for ./examples/iotdb-spring-boot-start (continuing)
+[ERROR] Failed to execute goal on project iotdb-spring-boot-start-example: Could not resolve dependencies for project org.apache.iotdb:iotdb-spring-boot-start-example:jar:2.0.4-SNAPHOT
+[ERROR] dependency: org.apache.iotdb:iotdb-spring-boot-starter:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	Could not find artifact org.apache.iotdb:iotdb-spring-boot-starter:jar:2.0.4-SNAPSHOT
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./examples/kafka (-> examples__kafka) ====
+
+==== ./examples/mybatis-generator (-> examples__mybatis-generator) ====
+
+==== ./examples/mybatisplus-generator (-> examples__mybatisplus-generator) ====
+
+==== ./examples/pulsar (-> examples__pulsar) ====
+
+==== ./examples/rabbitmq (-> examples__rabbitmq) ====
+
+==== ./examples/rocketmq (-> examples__rocketmq) ====
+
+==== ./examples/spark-table (-> examples__spark-table) ====
+  analyze failed for ./examples/spark-table (continuing)
+[ERROR] Failed to execute goal on project table-spark-connector-example: Could not resolve dependencies for project org.apache.iotdb:table-spark-connector-example:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:spark-iotdb-table-connector-3.5:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:spark-iotdb-table-connector-3.5:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+==== ./iotdb-collector/collector-core (-> iotdb-collector__collector-core) ====
+
+==== ./iotdb-collector/collector-distribution (-> iotdb-collector__collector-distribution) ====
+
+==== ./iotdb-collector/collector-openapi (-> iotdb-collector__collector-openapi) ====
+
+==== ./iotdb-spring-boot-starter (-> iotdb-spring-boot-starter) ====
+
+==== ./mybatis-generator (-> mybatis-generator) ====

@@ -1,0 +1,195 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] geo-atlas                                                          [pom]
+[INFO] library                                                            [pom]
+[INFO] base                                                               [jar]
+[INFO] component                                                          [pom]
+[INFO] metadata                                                           [jar]
+[INFO] tile                                                               [jar]
+[INFO] mse                                                                [pom]
+[INFO] pyramid                                                            [jar]
+[INFO] tile-cache                                                         [jar]
+[INFO] ogc-api                                                            [jar]
+[INFO] boot                                                               [pom]
+[INFO] geoatlas-tile-boot-stater                                          [jar]
+[INFO] common                                                             [jar]
+[INFO] io                                                                 [jar]
+[INFO] app                                                                [pom]
+[INFO] geoatlas-tile-instance                                             [jar]
+[INFO] 
+[INFO] ----------------------< org.geo-atlas:geo-atlas >-----------------------
+[INFO] Building geo-atlas 1.0.0-SNAPSHOT                                 [1/16]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ geo-atlas ---
+[INFO] Installing /project/pom.xml to /root/.m2/repository/org/geo-atlas/geo-atlas/1.0.0-SNAPSHOT/geo-atlas-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------------< org.geo-atlas:library >------------------------
+[INFO] Building library 1.0.0-SNAPSHOT                                   [2/16]
+[INFO]   from library/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ library ---
+[INFO] Installing /project/library/pom.xml to /root/.m2/repository/org/geo-atlas/library/1.0.0-SNAPSHOT/library-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------------< org.geo-atlas.library:base >---------------------
+[INFO] Building base 1.0.0-SNAPSHOT                                      [3/16]
+[INFO]   from library/base/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from ECC: https://maven.ecc.no/releases/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.7 kB at 486 B/s)
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from ECC: https://maven.ecc.no/releases/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.7 kB at 13 kB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ base ---
+[INFO] skip non existing resourceDirectory /project/library/base/src/main/resources
+[INFO] skip non existing resourceDirectory /project/library/base/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ base ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ base ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ base ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.3.1:test (default-test) @ base ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ base ---
+[INFO] Building jar: /project/library/base/target/base-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ base ---
+[INFO] Installing /project/library/base/pom.xml to /root/.m2/repository/org/geo-atlas/library/base/1.0.0-SNAPSHOT/base-1.0.0-SNAPSHOT.pom
+[INFO] Installing /project/library/base/target/base-1.0.0-SNAPSHOT.jar to /root/.m2/repository/org/geo-atlas/library/base/1.0.0-SNAPSHOT/base-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------------< org.geo-atlas:component >-----------------------
+[INFO] Building component 1.0.0-SNAPSHOT                                 [4/16]
+[INFO]   from component/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ component ---
+[INFO] Installing /project/component/pom.xml to /root/.m2/repository/org/geo-atlas/component/1.0.0-SNAPSHOT/component-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< org.geo-atlas.component:metadata >------------------
+[INFO] Building metadata 1.0.0-SNAPSHOT                                  [5/16]
+[INFO]   from component/metadata/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ metadata ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ metadata ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 43 source files with javac [debug parameters release 21] to target/classes
+[INFO] /project/component/metadata/src/main/java/org/geoatlas/metadata/helper/FeatureSourceConveyor.java: /project/component/metadata/src/main/java/org/geoatlas/metadata/helper/FeatureSourceConveyor.java uses unchecked or unsafe operations.
+[INFO] /project/component/metadata/src/main/java/org/geoatlas/metadata/helper/FeatureSourceConveyor.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[3,53] package com.ulisesbocchio.jasyptspringboot.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[4,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[5,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[6,40] package org.jasypt.encryption.pbe.config does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[17,2] cannot find symbol
+  symbol: class EnableEncryptableProperties
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[24,12] cannot find symbol
+  symbol:   class PBEStringEncryptor
+  location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[14,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[34,19] cannot find symbol
+  symbol:   class PBEStringEncryptor
+  location: class org.geoatlas.metadata.persistence.managent.DataStoreInfoManagement
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[42,36] cannot find symbol
+  symbol:   class PBEStringEncryptor
+  location: class org.geoatlas.metadata.persistence.managent.DataStoreInfoManagement
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[25,9] cannot find symbol
+  symbol:   class PooledPBEStringEncryptor
+  location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[25,50] cannot find symbol
+  symbol:   class PooledPBEStringEncryptor
+  location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[26,9] cannot find symbol
+  symbol:   class SimpleStringPBEConfig
+  location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[26,44] cannot find symbol
+  symbol:   class SimpleStringPBEConfig
+  location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for geo-atlas 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] geo-atlas .......................................... SUCCESS [  1.266 s]
+[INFO] library ............................................ SUCCESS [  0.075 s]
+[INFO] base ............................................... SUCCESS [ 17.768 s]
+[INFO] component .......................................... SUCCESS [  0.031 s]
+[INFO] metadata ........................................... FAILURE [  8.973 s]
+[INFO] tile ............................................... SKIPPED
+[INFO] mse ................................................ SKIPPED
+[INFO] pyramid ............................................ SKIPPED
+[INFO] tile-cache ......................................... SKIPPED
+[INFO] ogc-api ............................................ SKIPPED
+[INFO] boot ............................................... SKIPPED
+[INFO] geoatlas-tile-boot-stater .......................... SKIPPED
+[INFO] common ............................................. SKIPPED
+[INFO] io ................................................. SKIPPED
+[INFO] app ................................................ SKIPPED
+[INFO] geoatlas-tile-instance ............................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.015 s
+[INFO] Finished at: 2026-09-21T20:30:03Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project metadata: Compilation failure: Compilation failure: 
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[3,53] package com.ulisesbocchio.jasyptspringboot.annotation does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[4,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[5,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[6,40] package org.jasypt.encryption.pbe.config does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[17,2] cannot find symbol
+[ERROR]   symbol: class EnableEncryptableProperties
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[24,12] cannot find symbol
+[ERROR]   symbol:   class PBEStringEncryptor
+[ERROR]   location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[14,33] package org.jasypt.encryption.pbe does not exist
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[34,19] cannot find symbol
+[ERROR]   symbol:   class PBEStringEncryptor
+[ERROR]   location: class org.geoatlas.metadata.persistence.managent.DataStoreInfoManagement
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/persistence/managent/DataStoreInfoManagement.java:[42,36] cannot find symbol
+[ERROR]   symbol:   class PBEStringEncryptor
+[ERROR]   location: class org.geoatlas.metadata.persistence.managent.DataStoreInfoManagement
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[25,9] cannot find symbol
+[ERROR]   symbol:   class PooledPBEStringEncryptor
+[ERROR]   location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[25,50] cannot find symbol
+[ERROR]   symbol:   class PooledPBEStringEncryptor
+[ERROR]   location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[26,9] cannot find symbol
+[ERROR]   symbol:   class SimpleStringPBEConfig
+[ERROR]   location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] /project/component/metadata/src/main/java/org/geoatlas/metadata/config/JasyptEncryptorConfiguration.java:[26,44] cannot find symbol
+[ERROR]   symbol:   class SimpleStringPBEConfig
+[ERROR]   location: class org.geoatlas.metadata.config.JasyptEncryptorConfiguration
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :metadata

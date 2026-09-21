@@ -1,0 +1,190 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -----------------< org.apache.iotdb:collector-openapi >-----------------
+[INFO] Building IoTDB: Collector: OpenAPI 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ collector-openapi >>>
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ collector-openapi ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ collector-openapi ---
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- openapi-generator:6.6.0:generate (generate-java-rest-codes-common) @ collector-openapi ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: jaxrs-jersey (server)
+[INFO] Generator 'jaxrs-jersey' is considered stable.
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation tryPing
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/model/ExecutionStatus.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/ping/impl/PingApiServiceImpl.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/PingApi.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/PingApiService.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/ping/factories/PingApiServiceFactory.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/OffsetDateTimeProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/LocalDateProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/pom.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/README.md
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/ApiException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/ApiOriginFilter.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/ApiResponseMessage.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/NotFoundException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/JacksonJsonProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/RFC3339DateFormat.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/ping/Bootstrap.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/webapp/WEB-INF/web.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/StringUtil.java
+[INFO] Skipped /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/VERSION
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- openapi-generator:6.6.0:generate (generate-java-rest-codes-v1-task) @ collector-openapi ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: jaxrs-jersey (server)
+[INFO] Generator 'jaxrs-jersey' is considered stable.
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation createTask
+[INFO] Processing operation alterTask
+[INFO] Processing operation startTask
+[INFO] Processing operation stopTask
+[INFO] Processing operation dropTask
+[INFO] Processing operation showTask
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/AlterTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/CreateTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/DropTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/ExecutionStatus.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/StartTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/StopTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/task/impl/TaskApiServiceImpl.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/TaskApi.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/TaskApiService.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/task/factories/TaskApiServiceFactory.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/OffsetDateTimeProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/LocalDateProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/pom.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/README.md
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/ApiException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/ApiOriginFilter.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/ApiResponseMessage.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/NotFoundException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/JacksonJsonProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/RFC3339DateFormat.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/task/Bootstrap.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/webapp/WEB-INF/web.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/StringUtil.java
+[INFO] Skipped /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/VERSION
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- openapi-generator:6.6.0:generate (generate-java-rest-codes-v1-plugin) @ collector-openapi ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: jaxrs-jersey (server)
+[INFO] Generator 'jaxrs-jersey' is considered stable.
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation createPlugin
+[INFO] Processing operation dropPlugin
+[INFO] Processing operation showPlugin
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/model/CreatePluginRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/model/DropPluginRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/model/ExecutionStatus.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/plugin/impl/PluginApiServiceImpl.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/PluginApi.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/PluginApiService.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/plugin/factories/PluginApiServiceFactory.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/OffsetDateTimeProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/LocalDateProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/pom.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/README.md
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/ApiException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/ApiOriginFilter.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/ApiResponseMessage.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/NotFoundException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/JacksonJsonProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/RFC3339DateFormat.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/plugin/Bootstrap.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/webapp/WEB-INF/web.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/StringUtil.java
+[INFO] Skipped /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/VERSION
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- build-helper:3.4.0:add-source (add-source) @ collector-openapi ---
+[INFO] Source directory: /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java added.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ collector-openapi ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ collector-openapi ---
+[INFO] skip non existing resourceDirectory /project/iotdb-collector/collector-openapi/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ collector-openapi ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 52 source files with javac [debug release 8] to target/classes
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/TaskApi.java: Some input files use or override a deprecated API.
+[INFO] /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/TaskApi.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ collector-openapi ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ collector-openapi ---
+[INFO] skip non existing resourceDirectory /project/iotdb-collector/collector-openapi/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ collector-openapi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ collector-openapi <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ collector-openapi ---
+[INFO] No dependency problems found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.959 s
+[INFO] Finished at: 2026-06-16T09:04:22Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 18 goals, 18 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

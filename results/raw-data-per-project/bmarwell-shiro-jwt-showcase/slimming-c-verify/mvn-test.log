@@ -1,0 +1,197 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Shiro + mpJWT                                               [pom]
+[INFO] Apache Shiro + mpJWT :: keystore                                   [jar]
+[INFO] Apache Shiro + mpJWT :: issuer server                              [war]
+[INFO] Apache Shiro + mpJWT :: start server                               [war]
+[INFO] Apache Shiro + mpJWT :: finish server                              [war]
+[INFO] Apache Shiro + mpJWT :: integration test                           [jar]
+[INFO] 
+[INFO] -----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.root >------------
+[INFO] Building Apache Shiro + mpJWT 1.0.0-SNAPSHOT                       [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.root ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] ---------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore >----------
+[INFO] Building Apache Shiro + mpJWT :: keystore 1.0.0-SNAPSHOT           [2/6]
+[INFO]   from keystore/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- keytool:1.7:generateKeyPair (generate-keypair) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Skip execution, keystore already exists at /project/keystore/src/main/resources/io/github/bmarwell/shiro/keystore/keystore.p12
+[INFO] Disabled
+[INFO] 
+[INFO] --- keytool:1.7:exportCertificate (export-public-certificate) @ shiro.jwt.jaxrs.keystore ---
+[WARNING] Certificate stored in file </tmp/issuer.crt>
+[INFO] 
+[INFO] --- keytool:1.7:importCertificate (import-public-certificate) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Skip execution, keystore already exists at /project/keystore/src/main/resources/io/github/bmarwell/shiro/keystore/truststore.p12
+[INFO] Disabled
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.keystore ---
+[INFO] skip non existing resourceDirectory /project/keystore/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.keystore ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.keystore ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.issuer >-----------
+[INFO] Building Apache Shiro + mpJWT :: issuer server 1.0.0-SNAPSHOT      [3/6]
+[INFO]   from issuer/pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.issuer ---
+[INFO] skip non existing resourceDirectory /project/issuer/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.issuer ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.issuer ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.start >-----------
+[INFO] Building Apache Shiro + mpJWT :: start server 1.0.0-SNAPSHOT       [4/6]
+[INFO]   from start/pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.start ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.start ---
+[INFO] skip non existing resourceDirectory /project/start/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.start ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.start ---
+[INFO] skip non existing resourceDirectory /project/start/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.start ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.start ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.finish >-----------
+[INFO] Building Apache Shiro + mpJWT :: finish server 1.0.0-SNAPSHOT      [5/6]
+[INFO]   from finish/pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.finish ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.finish ---
+[INFO] skip non existing resourceDirectory /project/finish/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.finish ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.finish ---
+[INFO] skip non existing resourceDirectory /project/finish/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.finish ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 3 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.finish ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.pom (5.2 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.3/surefire-providers-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.3/surefire-providers-3.5.3.pom (2.5 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.pom (3.1 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.pom (3.2 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.pom (2.8 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.pom (3.0 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.3/surefire-junit-platform-3.5.3.jar (27 kB at 580 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.3/common-java5-3.5.3.jar (18 kB at 489 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.jar (152 kB at 1.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.jar (256 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.jar (208 kB at 911 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.pom (3.0 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.jar (223 kB at 5.6 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.bmarwell.shiro.jwt.StormtrooperJsonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.594 s -- in io.github.bmarwell.shiro.jwt.StormtrooperJsonTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] -----< io.github.bmarwell.shiro:shiro.jwt.jaxrs.integration-test >------
+[INFO] Building Apache Shiro + mpJWT :: integration test 1.0.0-SNAPSHOT   [6/6]
+[INFO]   from integration-test/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Spotless apply skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] skip non existing resourceDirectory /project/integration-test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] skip non existing resourceDirectory /project/integration-test/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 6 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache Shiro + mpJWT 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] Apache Shiro + mpJWT ............................... SUCCESS [  0.554 s]
+[INFO] Apache Shiro + mpJWT :: keystore ................... SUCCESS [  1.497 s]
+[INFO] Apache Shiro + mpJWT :: issuer server .............. SUCCESS [  0.150 s]
+[INFO] Apache Shiro + mpJWT :: start server ............... SUCCESS [  0.258 s]
+[INFO] Apache Shiro + mpJWT :: finish server .............. SUCCESS [  5.960 s]
+[INFO] Apache Shiro + mpJWT :: integration test ........... SUCCESS [  1.218 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.975 s
+[INFO] Finished at: 2026-09-21T20:03:49Z
+[INFO] ------------------------------------------------------------------------

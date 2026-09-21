@@ -1,0 +1,721 @@
+[
+{
+  "name":"[Lcom.clickhouse.jdbcbridge.internal.jackson.databind.deser.Deserializers;"
+},
+{
+  "name":"[Lcom.clickhouse.jdbcbridge.internal.jackson.databind.ser.Serializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.ser.Serializers;"
+},
+{
+  "name":"bsh.Interpreter"
+},
+{
+  "name":"com.clickhouse.jdbcbridge.JdbcBridgeVerticleTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"afterSuite","parameterTypes":[] }, {"name":"beforeSuite","parameterTypes":[] }, {"name":"testLoadExtensions","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.JdbcBridgeVerticleTest$TestRepository",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.BaseRepository",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.ByteBufferTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testWriteAndRead","parameterTypes":[] }, {"name":"testWriteBoolean","parameterTypes":[] }, {"name":"testWriteEnum16","parameterTypes":[] }, {"name":"testWriteEnum8","parameterTypes":[] }, {"name":"testWriteFixedString","parameterTypes":[] }, {"name":"testWriteInt8","parameterTypes":[] }, {"name":"testWriteString","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.ColumnDefinitionTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testConstructor","parameterTypes":[] }, {"name":"testDecimals","parameterTypes":[] }, {"name":"testFromJson","parameterTypes":[] }, {"name":"testFromString","parameterTypes":[] }, {"name":"testParseOptions","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.DataTypeMappingTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testConstructor","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.DnsResolverTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testApply","parameterTypes":[] }, {"name":"testResolve","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.ExpandedUrlClassLoaderTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testExpandURLs","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.ExtensionTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testExtension","parameterTypes":[] }, {"name":"testNotFullyImplementedExtension","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.ExtensionTest$AnotherExtension",
+  "queryAllDeclaredConstructors":true,
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"<init>","parameterTypes":["int"] }, {"name":"<init>","parameterTypes":["java.lang.String"] }, {"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.ExtensionTest$EchoService",
+  "queryAllDeclaredConstructors":true,
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.ExtensionTest$MyExtension",
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.NamedDataSource",
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.NamedDataSourceTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testConstructor","parameterTypes":[] }, {"name":"testGetColumns","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.NamedQuery",
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.NamedSchema",
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.QueryParametersTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testMergeUri","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.QueryParserTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testExtractSchemaName","parameterTypes":[] }, {"name":"testExtractTableName","parameterTypes":[] }, {"name":"testNormalizeQuery","parameterTypes":[] }, {"name":"testQueryWithParameters","parameterTypes":[] }, {"name":"testUnescape","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.Repository",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.TableDefinitionTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testFromString","parameterTypes":[] }, {"name":"testUpdateValues","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.TypedParameterTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testBigDecimalParam","parameterTypes":[] }, {"name":"testBooleanParam","parameterTypes":[] }, {"name":"testDoubleParam","parameterTypes":[] }, {"name":"testFloatParam","parameterTypes":[] }, {"name":"testIntegerParam","parameterTypes":[] }, {"name":"testLongParam","parameterTypes":[] }, {"name":"testStringParam","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.core.UtilsTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testApplyVariables","parameterTypes":[] }, {"name":"testDigest","parameterTypes":[] }, {"name":"testIndexOfKeyword","parameterTypes":[] }, {"name":"testJavaObjectToJsonString","parameterTypes":[] }, {"name":"testLoadJson","parameterTypes":[] }, {"name":"testMultipleJavaObjectsToArrays","parameterTypes":[] }, {"name":"testSingleJavaObjectToArrays","parameterTypes":[] }, {"name":"testSplitByChar","parameterTypes":[] }, {"name":"testUnescapeQuotes","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.impl.ConfigDataSource",
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.impl.JdbcDataSource",
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.impl.JsonFileRepository",
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.impl.JsonFileRepositoryTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testGet","parameterTypes":[] }, {"name":"testPutAndGet","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.impl.ScriptDataSource",
+  "fields":[{"name":"EXTENSION_NAME"}],
+  "methods":[{"name":"initialize","parameterTypes":["com.clickhouse.jdbcbridge.core.ExtensionManager"] }, {"name":"newInstance","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.impl.ScriptDataSourceTest",
+  "allPublicClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"testScriptEval","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.BLCHeader$DrainStatusRef",
+  "fields":[{"name":"drainStatus"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.PS",
+  "fields":[{"name":"key"}, {"name":"value"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.PSA",
+  "fields":[{"name":"accessTime"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.PSAMS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.SSMSA",
+  "methods":[{"name":"<init>","parameterTypes":["com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.Caffeine","com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.CacheLoader","boolean"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.SSSMSA",
+  "methods":[{"name":"<init>","parameterTypes":["com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.Caffeine","com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.CacheLoader","boolean"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.github.benmanes.caffeine.cache.StripedBuffer",
+  "fields":[{"name":"tableBusy"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.micrometer.core.instrument.distribution.TimeWindowMax",
+  "fields":[{"name":"rotating"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.bootstrap.ServerBootstrap$1"
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.bootstrap.ServerBootstrap$ServerBootstrapAcceptor",
+  "methods":[{"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.buffer.AbstractByteBufAllocator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.buffer.AbstractReferenceCountedByteBuf",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.AbstractChannelHandlerContext",
+  "fields":[{"name":"handlerState"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.ChannelDuplexHandler",
+  "methods":[{"name":"bind","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.net.SocketAddress","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"close","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"flush","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"write","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerAdapter",
+  "methods":[{"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.ChannelInboundHandlerAdapter",
+  "methods":[{"name":"channelActive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"userEventTriggered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.ChannelInitializer",
+  "methods":[{"name":"channelRegistered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.ChannelOutboundBuffer",
+  "fields":[{"name":"totalPendingSize"}, {"name":"unwritable"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.ChannelOutboundHandlerAdapter",
+  "methods":[{"name":"bind","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.net.SocketAddress","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"close","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"flush","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.DefaultChannelConfig",
+  "fields":[{"name":"autoRead"}, {"name":"writeBufferWaterMark"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.DefaultChannelPipeline",
+  "fields":[{"name":"estimatorHandle"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.DefaultChannelPipeline$HeadContext",
+  "methods":[{"name":"bind","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.net.SocketAddress","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"channelActive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"close","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }, {"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"flush","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"userEventTriggered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"write","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.channel.DefaultChannelPipeline$TailContext",
+  "methods":[{"name":"channelActive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"userEventTriggered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.handler.codec.ByteToMessageDecoder",
+  "methods":[{"name":"channelInactive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.handler.codec.MessageToMessageDecoder",
+  "methods":[{"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.handler.codec.MessageToMessageEncoder",
+  "methods":[{"name":"write","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.handler.codec.dns.DatagramDnsQueryEncoder"
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.handler.codec.http.HttpObjectDecoder",
+  "methods":[{"name":"userEventTriggered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.handler.codec.http.websocketx.extensions.WebSocketServerExtensionHandler",
+  "methods":[{"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"write","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object","com.clickhouse.jdbcbridge.internal.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.resolver.dns.Cache$Entries",
+  "fields":[{"name":"expirationFuture"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.resolver.dns.DnsNameResolver$1"
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.resolver.dns.DnsNameResolver$3"
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.resolver.dns.DnsNameResolver$DnsResponseHandler",
+  "methods":[{"name":"channelActive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.DefaultAttributeMap",
+  "fields":[{"name":"attributes"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.Recycler$DefaultHandle",
+  "fields":[{"name":"state"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.ReferenceCountUtil",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.concurrent.DefaultPromise",
+  "fields":[{"name":"result"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.concurrent.SingleThreadEventExecutor",
+  "fields":[{"name":"state"}, {"name":"threadProperties"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.vertx.core.http.impl.Http1xOrH2CHandler",
+  "methods":[{"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.vertx.core.http.impl.Http1xUpgradeToH2CHandler",
+  "methods":[{"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"userEventTriggered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.vertx.core.http.impl.HttpServerChannelInitializer$1",
+  "methods":[{"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"userEventTriggered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.vertx.core.http.impl.HttpServerImpl$1"
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.vertx.core.http.impl.VertxHttpRequestDecoder"
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.vertx.core.http.impl.VertxHttpResponseEncoder"
+},
+{
+  "name":"com.clickhouse.jdbcbridge.internal.vertx.core.net.impl.VertxHandler",
+  "methods":[{"name":"channelInactive","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"userEventTriggered","parameterTypes":["com.clickhouse.jdbcbridge.internal.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BLCHeader$DrainStatusRef",
+  "fields":[{"name":"drainStatus"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PS",
+  "fields":[{"name":"key"}, {"name":"value"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSA",
+  "fields":[{"name":"accessTime"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSAMS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSMSA",
+  "methods":[{"name":"<init>","parameterTypes":["com.github.benmanes.caffeine.cache.Caffeine","com.github.benmanes.caffeine.cache.CacheLoader","boolean"] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSSMSA",
+  "methods":[{"name":"<init>","parameterTypes":["com.github.benmanes.caffeine.cache.Caffeine","com.github.benmanes.caffeine.cache.CacheLoader","boolean"] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.StripedBuffer",
+  "fields":[{"name":"tableBusy"}]
+},
+{
+  "name":"com.sun.management.GarbageCollectionNotificationInfo"
+},
+{
+  "name":"com.sun.management.GcInfo",
+  "fields":[{"name":"builder"}, {"name":"extAttributes"}],
+  "methods":[{"name":"getMemoryUsageBeforeGc","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.management.OperatingSystemMXBean",
+  "methods":[{"name":"getProcessCpuLoad","parameterTypes":[] }, {"name":"getSystemCpuLoad","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.buffer.AbstractByteBufAllocator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.buffer.AbstractReferenceCountedByteBuf",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"java.io.Serializable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Boolean",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Byte",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Character",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Comparable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Double",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Float",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Integer",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Long",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Object",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"toString","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Short",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.String",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}]
+},
+{
+  "name":"java.lang.Void",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.constant.Constable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.constant.ConstantDesc",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.MemoryUsage",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"from","parameterTypes":["javax.management.openmbean.CompositeData"] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getInputArguments","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }]
+},
+{
+  "name":"java.math.BigDecimal"
+},
+{
+  "name":"java.math.BigInteger"
+},
+{
+  "name":"java.net.SocketOption"
+},
+{
+  "name":"java.net.StandardSocketOptions",
+  "fields":[{"name":"IP_MULTICAST_IF"}, {"name":"IP_MULTICAST_LOOP"}, {"name":"IP_MULTICAST_TTL"}]
+},
+{
+  "name":"java.nio.Bits",
+  "fields":[{"name":"UNALIGNED"}]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"alignedSlice","parameterTypes":["int"] }]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.nio.channels.NetworkChannel",
+  "methods":[{"name":"getOption","parameterTypes":["java.net.SocketOption"] }, {"name":"setOption","parameterTypes":["java.net.SocketOption","java.lang.Object"] }]
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.concurrent.ForkJoinTask",
+  "fields":[{"name":"aux"}, {"name":"status"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"javax.management.ObjectName"
+},
+{
+  "name":"jdk.internal.misc.Unsafe",
+  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
+},
+{
+  "name":"junit.framework.Test"
+},
+{
+  "name":"org.apache.maven.surefire.testng.ConfigurationAwareTestNGReporter",
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.surefire.api.report.RunListener"] }]
+},
+{
+  "name":"org.apache.maven.surefire.testng.TestNGProvider",
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.surefire.api.provider.ProviderParameters"] }]
+},
+{
+  "name":"org.apache.maven.surefire.testng.conf.TestNG60Configurator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.surefire.testng.utils.GroupMatcherMethodSelector",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setGroups","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"org.graalvm.polyglot.Engine",
+  "methods":[{"name":"getImpl","parameterTypes":[] }]
+},
+{
+  "name":"org.graalvm.polyglot.management.Management"
+},
+{
+  "name":"org.junit.Test"
+},
+{
+  "name":"org.junit.runner.RunWith"
+},
+{
+  "name":"org.testng.annotations.Test"
+},
+{
+  "name":"org.testng.internal.DefaultListenerFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.testng.internal.IResultListener"
+},
+{
+  "name":"org.testng.reporters.EmailableReporter2",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.testng.reporters.FailedReporter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.testng.reporters.JUnitReportReporter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.testng.reporters.SuiteHTMLReporter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.testng.reporters.XMLReporter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.testng.reporters.jq.Main",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, {"name":"getAndAddLong","parameterTypes":["java.lang.Object","long","long"] }, {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }, {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }]
+},
+{
+  "name":"sun.misc.VM"
+},
+{
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[{"name":"publicSelectedKeys"}, {"name":"selectedKeys"}]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA512",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

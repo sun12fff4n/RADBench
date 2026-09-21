@@ -1,0 +1,27 @@
+org.apache.iotdb:mybatis-generator-example:jar:2.0.4-SNAPHOT
++- org.mybatis:mybatis:jar:3.5.19:compile
++- org.projectlombok:lombok:jar:1.18.38:provided
++- org.apache.iotdb:iotdb-jdbc:jar:2.0.5:compile
+|  +- org.apache.iotdb:service-rpc:jar:2.0.5:compile
+|  |  +- org.apache.iotdb:pipe-api:jar:2.0.5:compile
+|  |  \- org.xerial.snappy:snappy-java:jar:1.1.10.5:compile
+|  +- org.apache.iotdb:iotdb-thrift-commons:jar:2.0.5:compile
+|  +- org.apache.tsfile:common:jar:2.1.1:compile
+|  +- org.apache.tsfile:tsfile:jar:2.1.1:compile
+|  |  +- com.github.luben:zstd-jni:jar:1.5.5-5:compile
+|  |  +- commons-io:commons-io:jar:2.14.0:compile
+|  |  +- org.lz4:lz4-java:jar:1.8.0:compile
+|  |  +- org.tukaani:xz:jar:1.10:compile
+|  |  \- org.antlr:antlr4-runtime:jar:4.9.3:compile
+|  +- org.apache.iotdb:iotdb-thrift:jar:2.0.5:compile
+|  +- org.apache.thrift:libthrift:jar:0.14.1:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+|  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- commons-codec:commons-codec:jar:1.16.0:compile
+|  |  \- org.apache.httpcomponents:httpcore:jar:4.4.12:compile
+|  +- org.apache.commons:commons-lang3:jar:3.13.0:compile
+|  +- org.osgi:osgi.cmpn:jar:7.0.0:compile
+|  +- org.ops4j.pax.jdbc:pax-jdbc-common:jar:1.5.6:compile
+|  +- org.osgi:osgi.core:jar:7.0.0:compile
+|  \- org.slf4j:slf4j-api:jar:2.0.9:compile
+\- io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.30:compile

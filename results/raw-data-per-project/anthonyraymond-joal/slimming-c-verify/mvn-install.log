@@ -1,0 +1,135 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< org.araymond.joal:jack-of-all-trades >----------------
+[INFO] Building jack-of-all-trades 2.1.38-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ jack-of-all-trades ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 46 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ jack-of-all-trades ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 130 source files to /project/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/org/araymond/joal/core/client/emulated/BitTorrentClientProvider.java:[11,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/core/client/emulated/BitTorrentClientProvider.java:[33,50] cannot find symbol
+  symbol: class Provider
+[ERROR] /project/src/main/java/org/araymond/joal/core/config/JoalConfigProvider.java:[11,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/core/config/JoalConfigProvider.java:[25,44] cannot find symbol
+  symbol: class Provider
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebTorrentFileEventListener.java:[17,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/security/websocket/interceptor/AuthChannelInterceptorAdapter.java:[15,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/ApplicationReadyListener.java:[11,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebSpeedEventListener.java:[13,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/resources/WebSocketController.java:[32,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/WebSocketConfig.java:[12,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebConfigEventListener.java:[17,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebGlobalEventListener.java:[16,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/ApplicationClosingListener.java:[13,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/security/WebSocketAuthenticationSecurityConfig.java:[14,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebAnnounceEventListener.java:[19,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebTorrentFileEventListener.java:[26,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.services.corelistener.WebTorrentFileEventListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/security/websocket/interceptor/AuthChannelInterceptorAdapter.java:[28,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.config.security.websocket.interceptor.AuthChannelInterceptorAdapter
+[ERROR] /project/src/main/java/org/araymond/joal/ApplicationReadyListener.java:[23,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.ApplicationReadyListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebSpeedEventListener.java:[22,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.services.corelistener.WebSpeedEventListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/resources/WebSocketController.java:[48,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.resources.WebSocketController
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/WebSocketConfig.java:[23,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.config.WebSocketConfig
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebConfigEventListener.java:[27,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.services.corelistener.WebConfigEventListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebGlobalEventListener.java:[29,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.services.corelistener.WebGlobalEventListener
+[ERROR] /project/src/main/java/org/araymond/joal/ApplicationClosingListener.java:[24,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.ApplicationClosingListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/security/WebSocketAuthenticationSecurityConfig.java:[25,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.config.security.WebSocketAuthenticationSecurityConfig
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebAnnounceEventListener.java:[28,6] cannot find symbol
+  symbol:   class Inject
+  location: class org.araymond.joal.web.services.corelistener.WebAnnounceEventListener
+[INFO] 26 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.597 s
+[INFO] Finished at: 2026-09-21T19:57:35Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project jack-of-all-trades: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/org/araymond/joal/core/client/emulated/BitTorrentClientProvider.java:[11,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/core/client/emulated/BitTorrentClientProvider.java:[33,50] cannot find symbol
+[ERROR]   symbol: class Provider
+[ERROR] /project/src/main/java/org/araymond/joal/core/config/JoalConfigProvider.java:[11,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/core/config/JoalConfigProvider.java:[25,44] cannot find symbol
+[ERROR]   symbol: class Provider
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebTorrentFileEventListener.java:[17,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/security/websocket/interceptor/AuthChannelInterceptorAdapter.java:[15,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/ApplicationReadyListener.java:[11,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebSpeedEventListener.java:[13,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/resources/WebSocketController.java:[32,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/WebSocketConfig.java:[12,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebConfigEventListener.java:[17,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebGlobalEventListener.java:[16,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/ApplicationClosingListener.java:[13,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/security/WebSocketAuthenticationSecurityConfig.java:[14,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebAnnounceEventListener.java:[19,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebTorrentFileEventListener.java:[26,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.services.corelistener.WebTorrentFileEventListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/security/websocket/interceptor/AuthChannelInterceptorAdapter.java:[28,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.config.security.websocket.interceptor.AuthChannelInterceptorAdapter
+[ERROR] /project/src/main/java/org/araymond/joal/ApplicationReadyListener.java:[23,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.ApplicationReadyListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebSpeedEventListener.java:[22,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.services.corelistener.WebSpeedEventListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/resources/WebSocketController.java:[48,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.resources.WebSocketController
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/WebSocketConfig.java:[23,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.config.WebSocketConfig
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebConfigEventListener.java:[27,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.services.corelistener.WebConfigEventListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebGlobalEventListener.java:[29,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.services.corelistener.WebGlobalEventListener
+[ERROR] /project/src/main/java/org/araymond/joal/ApplicationClosingListener.java:[24,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.ApplicationClosingListener
+[ERROR] /project/src/main/java/org/araymond/joal/web/config/security/WebSocketAuthenticationSecurityConfig.java:[25,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.config.security.WebSocketAuthenticationSecurityConfig
+[ERROR] /project/src/main/java/org/araymond/joal/web/services/corelistener/WebAnnounceEventListener.java:[28,6] cannot find symbol
+[ERROR]   symbol:   class Inject
+[ERROR]   location: class org.araymond.joal.web.services.corelistener.WebAnnounceEventListener
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

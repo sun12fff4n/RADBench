@@ -1,0 +1,153 @@
+Project info>>>>/private/tmp/analysis-runs/jisl1024-JiChat/jichat-modules/user-service/user-service-app
+Project Name>>>>com.ji.jichat:user-service-app:2.0-SNAPSHOT
+OriginalSize>>>>123504KB
+BloatedSize>>>>381KB
+All Dependencies>>>>220
+Used Dependencies>>>>214
+Used Self Direct Dependency>>>>14
+Used Self Indirect Dependency>>>>200
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>6
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>6
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>9
+realBloated>>>>6
+unDeleteSelfDirectDependencies>>>>1
+unDeleteSelfIndirectDependencies>>>>2
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+unDeleteSelfDirectDependency>>>>com.ji.jichat:jichat-spring-boot-starter-swagger:2.0-SNAPSHOT
+unDeleteSelfIndirectDependency>>>>com.alibaba:easyexcel:4.0.3
+unDeleteSelfIndirectDependency>>>>org.springframework.security:spring-security-rsa:1.1.3
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>23450
+buildClassExtendGraphTime>>>>572
+buildCallGraphTime>>>>6083654
+levelTime>>>>754
+stringTime>>>>39
+licenseCheckTime>>>>75770
+bugCheckTime>>>>259
+maintenanceTimeCheckTime>>>>2634
+checkTime>>>>6200658
+repairTime>>>>41992
+mvnTestTime>>>>8665
+====================BloatedType=========================
+java Reflect>>>>2
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>1
+====================Java Reflect=========================
+SpringAPI>>>>35
+TomcatAPI>>>>0
+.class>>>>29551
+forName>>>>252
+loadClass>>>>199
+getClass>>>>2208
+reflectEdges>>>>31662
+unReflectEdges>>>>85
+springReflectAPI>>>><org.springframework.data.repository.util.ReactiveWrapperConverters: java.lang.Object toWrapper(java.lang.Object,java.lang.Class)>
+springReflectAPI>>>><org.springframework.data.convert.CustomConversions$ConversionTargetsCache: java.lang.Class computeIfAbsent(java.lang.Class,java.lang.Class,java.util.function.Function)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.beans.factory.config.ConstructorArgumentValues: org.springframework.beans.factory.config.ConstructorArgumentValues$ValueHolder getIndexedArgumentValue(int,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.core.convert.TypeDescriptor: org.springframework.core.convert.TypeDescriptor valueOf(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object getDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.http.codec.CodecConfigurerFactory: org.springframework.http.codec.CodecConfigurer create(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.util.List getDefaultStrategies(org.springframework.context.ApplicationContext,java.lang.Class)>
+unSolvedReflect>>>><org.apache.coyote.ProtocolHandler: org.apache.coyote.ProtocolHandler create(java.lang.String)>
+unSolvedReflect>>>><org.ehcache.core.spi.ServiceLocator: java.util.Set identifyImmediateDependenciesOf(java.lang.Class)>
+unSolvedReflect>>>><org.springframework.data.config.TypeFilterParser$FilterType$5: org.springframework.core.type.filter.TypeFilter getFilter(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.springframework.web.util.UrlPathHelper: boolean shouldRemoveTrailingServletPathSlash(jakarta.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><com.alibaba.nacos.shaded.com.google.protobuf.SchemaUtil: java.lang.Object getMapDefaultEntry(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: java.lang.Object createInstance(java.lang.String,java.lang.Class,java.lang.Object[])>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDescriptor(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Class loadClass(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setExceptionOverrideClassName(java.lang.String)>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLImplementation: org.apache.tomcat.util.net.SSLImplementation getInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.webservices.ServiceRefFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.apache.xmlbeans.impl.common.SAXHelper: void trySetXercesSecurityManager(org.xml.sax.XMLReader,org.apache.xmlbeans.XmlOptions)>
+unSolvedReflect>>>><org.apache.catalina.startup.LifecycleListenerRule: void begin(java.lang.String,java.lang.String,org.xml.sax.Attributes)>
+unSolvedReflect>>>><com.github.pagehelper.util.ClassUtil: java.lang.Object newInstance(java.lang.String,java.lang.Class,java.util.Properties,java.util.function.Supplier)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: boolean safeIsAssignableFrom(java.lang.Object,java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.websocket.Util: org.apache.tomcat.websocket.Util$TypeResult getGenericType(java.lang.Class,java.lang.Class)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.github.pagehelper.util.ClassUtil: java.lang.Object newInstance(java.lang.String,java.util.Properties)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl: jakarta.security.auth.message.config.AuthConfigProvider createAuthConfigProvider(java.lang.String,java.util.Map)>
+unSolvedReflect>>>><org.apache.catalina.realm.JNDIRealm: java.lang.Object constructInstance(java.lang.String)>
+unSolvedReflect>>>><jakarta.el.ExpressionFactory: jakarta.el.ExpressionFactory newInstance(java.util.Properties)>
+unSolvedReflect>>>><org.apache.catalina.realm.RealmBase: org.apache.catalina.realm.X509UsernameRetriever createUsernameRetriever(java.lang.String)>
+unSolvedReflect>>>><com.github.pagehelper.page.PageAutoDialect: void initDialectAlias(java.util.Properties)>
+unSolvedReflect>>>><com.alibaba.fastjson2.JSONReaderJSONB: com.alibaba.fastjson2.reader.ObjectReader getObjectReaderContext(com.alibaba.fastjson2.reader.ObjectReader,java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployWAR(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><javax.cache.Caching$CachingProviderRegistry: javax.cache.spi.CachingProvider loadCachingProvider(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.Registry: org.apache.tomcat.util.modeler.modules.ModelerSource getModelerSource(java.lang.String)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.mybatis.spring.config.MapperScannerBeanDefinitionParser: org.springframework.beans.factory.support.AbstractBeanDefinition parseInternal(org.w3c.dom.Element,org.springframework.beans.factory.xml.ParserContext)>
+unSolvedReflect>>>><com.alibaba.nacos.shaded.com.google.protobuf.GeneratedMessage$4: com.alibaba.nacos.shaded.com.google.protobuf.Descriptors$FieldDescriptor loadDescriptor()>
+unSolvedReflect>>>><com.alibaba.nacos.shaded.com.google.protobuf.Descriptors$FileDescriptor: com.alibaba.nacos.shaded.com.google.protobuf.Descriptors$FileDescriptor[] findDescriptors(java.lang.Class,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLUtilBase: javax.net.ssl.TrustManager[] getTrustManagers()>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.xmlbeans.XmlBeans: org.apache.xmlbeans.SchemaTypeSystem typeSystemForClassLoader(java.lang.ClassLoader,java.lang.String)>
+unSolvedReflect>>>><org.apache.ibatis.io.ResolverUtil: void addIfMatching(org.apache.ibatis.io.ResolverUtil$Test,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.SimpleServerAuthConfig: jakarta.security.auth.message.config.ServerAuthContext getAuthContext(java.lang.String,javax.security.auth.Subject,java.util.Map)>
+unSolvedReflect>>>><org.mybatis.spring.config.MapperScannerBeanDefinitionParser: org.springframework.beans.factory.support.AbstractBeanDefinition parseInternal(org.w3c.dom.Element,org.springframework.beans.factory.xml.ParserContext)>
+unSolvedReflect>>>><org.apache.catalina.core.NamingContextListener: java.lang.Object constructEnvEntry(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.webservices.ServiceRefFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.util.SessionIdGeneratorBase: java.security.SecureRandom createSecureRandom()>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><io.jsonwebtoken.lang.Classes$ExceptionIgnoringAccessor: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>
+unSolvedReflect>>>><com.github.pagehelper.page.PageAutoDialect: void initAutoDialectClass(java.util.Properties)>
+unSolvedReflect>>>><org.mapstruct.factory.Mappers: java.lang.Object doGetMapper(java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: java.lang.Class attemptFromContextLoader(java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.util.CharsetMapper getCharsetMapper()>
+unSolvedReflect>>>><org.apache.naming.factory.BeanFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.naming.NamingContext: java.lang.Object lookup(javax.naming.Name,boolean)>
+unSolvedReflect>>>><org.apache.catalina.startup.Tomcat: org.apache.catalina.Context addWebapp(org.apache.catalina.Host,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><javax.cache.configuration.FactoryBuilder$ClassFactory: java.lang.Object create()>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor: java.lang.invoke.MethodHandle createMethodHandle(java.lang.String,java.lang.String,java.lang.Class[])>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.mapstruct.factory.Mappers: java.lang.Class doGetMapperClass(java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.loader.WebappClassLoaderBase: java.lang.Class loadClass(java.lang.String,boolean)>
+unSolvedReflect>>>><jakarta.xml.bind.ModuleUtil: java.lang.Class findFirstByJaxbIndex(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.github.pagehelper.cache.CacheFactory: com.github.pagehelper.cache.Cache createCache(java.lang.String,java.lang.String,java.util.Properties)>
+unSolvedReflect>>>><org.apache.catalina.util.Introspection: java.lang.Class loadClass(org.apache.catalina.Context,java.lang.String)>
+unSolvedReflect>>>><org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor: byte[] getMirrorClassBytes(java.lang.String,java.lang.String,boolean)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.naming.factory.FactoryBase: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDirectory(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.http.impl.client.AbstractHttpClient: org.apache.http.conn.ClientConnectionManager createClientConnectionManager()>
+unSolvedReflect>>>><org.apache.naming.factory.FactoryBase: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><com.alibaba.fastjson2.reader.ObjectReaderImplObject: java.lang.Object readObject(com.alibaba.fastjson2.JSONReader,java.lang.reflect.Type,java.lang.Object,long)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.BeanFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>

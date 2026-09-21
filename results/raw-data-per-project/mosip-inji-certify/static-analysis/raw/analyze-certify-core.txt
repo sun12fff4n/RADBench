@@ -1,0 +1,75 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.mosip.certify:certify-core:jar:0.13.1
+[WARNING] 'version' contains an expression but should be a constant. @ io.mosip.certify:certify-core:${project.parent.version}, /project/certify-core/pom.xml, line 19, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules
+[INFO] Installing Central Publishing features
+[INFO] 
+[INFO] -------------------< io.mosip.certify:certify-core >--------------------
+[INFO] Building certify-core 0.13.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.8.1:analyze (default-cli) > test-compile @ certify-core >>>
+[INFO] 
+[INFO] --- git-commit-id:3.0.1:revision (get-the-git-infos) @ certify-core ---
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (default) @ certify-core ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/project/certify-core/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ certify-core ---
+[INFO] skip non existing resourceDirectory /project/certify-core/src/main/resources
+[INFO] skip non existing resourceDirectory /project/certify-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ certify-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ certify-core ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ certify-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.8.1:analyze (default-cli) < test-compile @ certify-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.8.1:analyze (default-cli) @ certify-core ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    org.springframework:spring-context:jar:6.1.4:compile
+[WARNING]    org.springframework:spring-core:jar:6.1.4:compile
+[WARNING]    org.springframework.data:spring-data-redis:jar:3.2.3:compile
+[WARNING]    org.springframework.boot:spring-boot-autoconfigure:jar:3.2.3:compile
+[WARNING]    org.springframework.security:spring-security-core:jar:6.2.2:compile
+[WARNING]    com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile
+[WARNING]    org.springframework:spring-beans:jar:6.1.4:compile
+[WARNING]    org.springframework:spring-webmvc:jar:6.1.4:compile
+[WARNING]    org.slf4j:slf4j-api:jar:2.0.12:compile
+[WARNING]    com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile
+[WARNING]    com.nimbusds:nimbus-jose-jwt:jar:9.24.4:compile
+[WARNING]    jakarta.validation:jakarta.validation-api:jar:3.0.2:compile
+[WARNING]    org.springframework.security:spring-security-web:jar:6.2.2:compile
+[WARNING] Unused declared dependencies found:
+[WARNING]    io.mosip.certify:certify-integration-api:jar:0.13.1:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.3:compile
+[WARNING]    org.apache.velocity.tools:velocity-tools-generic:jar:3.1:compile
+[WARNING]    org.json:json:jar:20241224:compile
+[WARNING]    org.springdoc:springdoc-openapi-starter-webmvc-ui:jar:2.5.0:compile
+[WARNING]    jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile
+[WARNING]    org.bitbucket.b_c:jose4j:jar:0.6.5:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-oauth2-resource-server:jar:3.2.3:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-data-redis:jar:3.2.3:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-cache:jar:3.2.3:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-validation:jar:3.2.3:compile
+[WARNING]    org.projectlombok:lombok:jar:1.18.30:compile
+[WARNING]    org.apache.velocity:velocity:jar:1.7:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.396 s
+[INFO] Finished at: 2026-06-16T09:11:54Z
+[INFO] ------------------------------------------------------------------------

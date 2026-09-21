@@ -1,0 +1,25 @@
+{
+  "project_id": "cardano-foundation-cf-adahandle-resolver",
+  "tool": "slimming",
+  "status": "ok",
+  "module_type": "single",
+  "orig_total_dep_entries": 171,
+  "post_total_dep_entries": 169,
+  "idc_count": 0,
+  "removed_count": 2,
+  "added_count": 0,
+  "idc": [],
+  "removed": [
+    {
+      "module": ".",
+      "ga": "com.google.errorprone:error_prone_annotations",
+      "version": "2.23.0"
+    },
+    {
+      "module": ".",
+      "ga": "org.checkerframework:checker-qual",
+      "version": "3.31.0"
+    }
+  ],
+  "added": []
+}

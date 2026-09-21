@@ -1,0 +1,438 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.mosip.certify:certify-core:jar:0.13.1
+[WARNING] 'version' contains an expression but should be a constant. @ io.mosip.certify:certify-core:${project.parent.version}, /project/certify-core/pom.xml, line 12, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 4 modules
+[INFO] Installing Central Publishing features
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] certify                                                            [pom]
+[INFO] certify-core                                                       [jar]
+[INFO] certify-service                                                    [jar]
+[INFO] certify-integration-api                                            [jar]
+[INFO] 
+[INFO] ------------------< io.mosip.certify:certify-parent >-------------------
+[INFO] Building certify 0.13.1                                            [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- git-commit-id:3.0.1:revision (get-the-git-infos) @ certify-parent ---
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (default) @ certify-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ certify-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ certify-parent ---
+[INFO] Not executing Javadoc as the project is not a Java classpath-capable package
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ certify-parent ---
+[INFO] 
+[INFO] --- gpg:1.5:sign (sign-artifacts) @ certify-parent ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ certify-parent ---
+[INFO] Installing /project/pom.xml to /root/.m2/repository/io/mosip/certify/certify-parent/0.13.1/certify-parent-0.13.1.pom
+[INFO] 
+[INFO] --- dependency:3.8.1:copy-dependencies (copy) @ certify-parent ---
+[INFO] 
+[INFO] -------------------< io.mosip.certify:certify-core >--------------------
+[INFO] Building certify-core 0.13.1                                       [2/4]
+[INFO]   from certify-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- git-commit-id:3.0.1:revision (get-the-git-infos) @ certify-core ---
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (default) @ certify-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ certify-core ---
+[INFO] skip non existing resourceDirectory /project/certify-core/src/main/resources
+[INFO] skip non existing resourceDirectory /project/certify-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ certify-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 49 source files to /project/certify-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[8,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialDefinition.java:[9,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/SecurityHelperService.java:[9,37] error: package org.springframework.stereotype does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/SecurityHelperService.java:[12,1] error: cannot find symbol
+  symbol: class Component
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[8,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[18,44] error: package org.apache.commons.validator.routines does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[19,51] error: package org.apache.commons.validator.routines does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[19] error: static import only from classes and interfaces
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[20,51] error: package org.apache.commons.validator.routines does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[20] error: static import only from classes and interfaces
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[21,31] error: package org.springframework.util does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[22,31] error: package org.springframework.util does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[24,29] error: package com.nimbusds.jose.util does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[38,19] error: cannot find symbol
+  symbol:   class PathMatcher
+  location: class CommonUtil
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[39,19] error: cannot find symbol
+  symbol:   class UrlValidator
+  location: class CommonUtil
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[13,51] error: package org.springframework.beans.factory.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[15,32] error: package org.springframework.cache does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[16,32] error: package org.springframework.cache does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[17,43] error: package org.springframework.cache.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[18,43] error: package org.springframework.cache.concurrent does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[19,40] error: package org.springframework.cache.support does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[20,45] error: package org.springframework.context.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[21,45] error: package org.springframework.context.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[23,30] error: package com.google.common.cache does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[27,39] error: cannot find symbol
+  symbol: class CachingConfigurerSupport
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[26,1] error: cannot find symbol
+  symbol: class Configuration
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[41,11] error: cannot find symbol
+  symbol:   class CacheManager
+  location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[51,12] error: cannot find symbol
+  symbol:   class ConcurrentMapCache
+  location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[7,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[10,1] error: cannot find symbol
+  symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusDetail.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[10,51] error: package org.springframework.beans.factory.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[11,40] error: package org.springframework.security.core does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[12,39] error: package org.springframework.security.web does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[13,37] error: package org.springframework.stereotype does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[14,38] error: package org.springframework.web.servlet does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[21,54] error: cannot find symbol
+  symbol: class AuthenticationEntryPoint
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[20,1] error: cannot find symbol
+  symbol: class Component
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[23,12] error: cannot find symbol
+  symbol:   class HandlerExceptionResolver
+  location: class LocalAuthenticationEntryPoint
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[29,83] error: cannot find symbol
+  symbol:   class AuthenticationException
+  location: class LocalAuthenticationEntryPoint
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationDTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationDTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationDTO.java:[14,1] error: cannot find symbol
+  symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/MetaDataDisplayDTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD13DTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD13DTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataDTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataDTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataDTO.java:[5,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataDTO.java:[12,1] error: cannot find symbol
+  symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD13DTO.java:[10,1] error: cannot find symbol
+  symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationSupportedDTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationSupportedDTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationSupportedDTO.java:[11,1] error: cannot find symbol
+  symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/ParsedAccessToken.java:[9,37] error: package org.springframework.stereotype does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/ParsedAccessToken.java:[14,1] error: cannot find symbol
+  symbol: class Component
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD11DTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD11DTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD11DTO.java:[12,1] error: cannot find symbol
+  symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialRequest.java:[12,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialConfigurationService.java:[3,33] error: package com.fasterxml.jackson.core does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialConfigurationService.java:[10,118] error: cannot find symbol
+  symbol:   class JsonProcessingException
+  location: interface CredentialConfigurationService
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialConfigurationService.java:[12,80] error: cannot find symbol
+  symbol:   class JsonProcessingException
+  location: interface CredentialConfigurationService
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialConfigurationService.java:[14,132] error: cannot find symbol
+  symbol:   class JsonProcessingException
+  location: interface CredentialConfigurationService
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[9,51] error: package org.springframework.beans.factory.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[12,45] error: package org.springframework.context.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[13,45] error: package org.springframework.context.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[14,43] error: package org.springframework.data.redis.cache does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[22,1] error: cannot find symbol
+  symbol: class Configuration
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialMetadata.java:[8,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialMetadata.java:[13,1] error: cannot find symbol
+  symbol: class JsonIgnoreProperties
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialLedgerService.java:[6,49] error: package org.springframework.transaction.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD12DTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD12DTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD12DTO.java:[10,1] error: cannot find symbol
+  symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[17,5] error: cannot find symbol
+  symbol:   class JsonInclude
+  location: class CredentialResponse<T>
+  where T is a type-variable:
+    T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[17,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[24,5] error: cannot find symbol
+  symbol:   class JsonInclude
+  location: class CredentialResponse<T>
+  where T is a type-variable:
+    T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[24,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[31,5] error: cannot find symbol
+  symbol:   class JsonInclude
+  location: class CredentialResponse<T>
+  where T is a type-variable:
+    T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[31,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[37,5] error: cannot find symbol
+  symbol:   class JsonInclude
+  location: class CredentialResponse<T>
+  where T is a type-variable:
+    T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[37,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[43,5] error: cannot find symbol
+  symbol:   class JsonInclude
+  location: class CredentialResponse<T>
+  where T is a type-variable:
+    T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[43,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialDefinition.java:[18] error: cannot find symbol
+  symbol:   class JsonProperty
+  location: class CredentialDefinition
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[20,5] error: cannot find symbol
+  symbol:   class JsonInclude
+  location: class VCError
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[20,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[26,5] error: cannot find symbol
+  symbol:   class JsonInclude
+  location: class VCError
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[26,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[29,5] error: cannot find symbol
+  symbol:   class Value
+  location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[32,5] error: cannot find symbol
+  symbol:   class Value
+  location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[35,5] error: cannot find symbol
+  symbol:   class Value
+  location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[39,5] error: cannot find symbol
+  symbol:   class Bean
+  location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[10,24] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[9] error: cannot find symbol
+  symbol:   class JsonFormat
+  location: class CredentialStatusResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusDetail.java:[10] error: cannot find symbol
+  symbol:   class JsonProperty
+  location: class CredentialStatusDetail
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[22,5] error: cannot find symbol
+  symbol:   class Autowired
+  location: class LocalAuthenticationEntryPoint
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationDTO.java:[14,24] error: package JsonInclude does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for certify 0.13.1:
+[INFO] 
+[INFO] certify ............................................ SUCCESS [  3.965 s]
+[INFO] certify-core ....................................... FAILURE [  6.048 s]
+[INFO] certify-service .................................... SKIPPED
+[INFO] certify-integration-api ............................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.276 s
+[INFO] Finished at: 2026-09-11T19:40:29Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project certify-core: Compilation failure: Compilation failure: 
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[8,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialDefinition.java:[9,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/SecurityHelperService.java:[9,37] error: package org.springframework.stereotype does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/SecurityHelperService.java:[12,1] error: cannot find symbol
+[ERROR]   symbol: class Component
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[8,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[18,44] error: package org.apache.commons.validator.routines does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[19,51] error: package org.apache.commons.validator.routines does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[19] error: static import only from classes and interfaces
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[20,51] error: package org.apache.commons.validator.routines does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[20] error: static import only from classes and interfaces
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[21,31] error: package org.springframework.util does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[22,31] error: package org.springframework.util does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[24,29] error: package com.nimbusds.jose.util does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[38,19] error: cannot find symbol
+[ERROR]   symbol:   class PathMatcher
+[ERROR]   location: class CommonUtil
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/util/CommonUtil.java:[39,19] error: cannot find symbol
+[ERROR]   symbol:   class UrlValidator
+[ERROR]   location: class CommonUtil
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[13,51] error: package org.springframework.beans.factory.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[15,32] error: package org.springframework.cache does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[16,32] error: package org.springframework.cache does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[17,43] error: package org.springframework.cache.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[18,43] error: package org.springframework.cache.concurrent does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[19,40] error: package org.springframework.cache.support does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[20,45] error: package org.springframework.context.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[21,45] error: package org.springframework.context.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[23,30] error: package com.google.common.cache does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[27,39] error: cannot find symbol
+[ERROR]   symbol: class CachingConfigurerSupport
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[26,1] error: cannot find symbol
+[ERROR]   symbol: class Configuration
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[41,11] error: cannot find symbol
+[ERROR]   symbol:   class CacheManager
+[ERROR]   location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[51,12] error: cannot find symbol
+[ERROR]   symbol:   class ConcurrentMapCache
+[ERROR]   location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[7,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[10,1] error: cannot find symbol
+[ERROR]   symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusDetail.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[10,51] error: package org.springframework.beans.factory.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[11,40] error: package org.springframework.security.core does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[12,39] error: package org.springframework.security.web does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[13,37] error: package org.springframework.stereotype does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[14,38] error: package org.springframework.web.servlet does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[21,54] error: cannot find symbol
+[ERROR]   symbol: class AuthenticationEntryPoint
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[20,1] error: cannot find symbol
+[ERROR]   symbol: class Component
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[23,12] error: cannot find symbol
+[ERROR]   symbol:   class HandlerExceptionResolver
+[ERROR]   location: class LocalAuthenticationEntryPoint
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[29,83] error: cannot find symbol
+[ERROR]   symbol:   class AuthenticationException
+[ERROR]   location: class LocalAuthenticationEntryPoint
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationDTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationDTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationDTO.java:[14,1] error: cannot find symbol
+[ERROR]   symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/MetaDataDisplayDTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD13DTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD13DTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataDTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataDTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataDTO.java:[5,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataDTO.java:[12,1] error: cannot find symbol
+[ERROR]   symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD13DTO.java:[10,1] error: cannot find symbol
+[ERROR]   symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationSupportedDTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationSupportedDTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationSupportedDTO.java:[11,1] error: cannot find symbol
+[ERROR]   symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/ParsedAccessToken.java:[9,37] error: package org.springframework.stereotype does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/ParsedAccessToken.java:[14,1] error: cannot find symbol
+[ERROR]   symbol: class Component
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD11DTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD11DTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD11DTO.java:[12,1] error: cannot find symbol
+[ERROR]   symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialRequest.java:[12,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialConfigurationService.java:[3,33] error: package com.fasterxml.jackson.core does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialConfigurationService.java:[10,118] error: cannot find symbol
+[ERROR]   symbol:   class JsonProcessingException
+[ERROR]   location: interface CredentialConfigurationService
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialConfigurationService.java:[12,80] error: cannot find symbol
+[ERROR]   symbol:   class JsonProcessingException
+[ERROR]   location: interface CredentialConfigurationService
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialConfigurationService.java:[14,132] error: cannot find symbol
+[ERROR]   symbol:   class JsonProcessingException
+[ERROR]   location: interface CredentialConfigurationService
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[9,51] error: package org.springframework.beans.factory.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[12,45] error: package org.springframework.context.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[13,45] error: package org.springframework.context.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[14,43] error: package org.springframework.data.redis.cache does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/RedisCacheConfig.java:[22,1] error: cannot find symbol
+[ERROR]   symbol: class Configuration
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialMetadata.java:[8,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialMetadata.java:[13,1] error: cannot find symbol
+[ERROR]   symbol: class JsonIgnoreProperties
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/spi/CredentialLedgerService.java:[6,49] error: package org.springframework.transaction.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD12DTO.java:[3,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD12DTO.java:[4,39] error: package com.fasterxml.jackson.annotation does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialIssuerMetadataVD12DTO.java:[10,1] error: cannot find symbol
+[ERROR]   symbol: class JsonInclude
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[17,5] error: cannot find symbol
+[ERROR]   symbol:   class JsonInclude
+[ERROR]   location: class CredentialResponse<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[17,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[24,5] error: cannot find symbol
+[ERROR]   symbol:   class JsonInclude
+[ERROR]   location: class CredentialResponse<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[24,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[31,5] error: cannot find symbol
+[ERROR]   symbol:   class JsonInclude
+[ERROR]   location: class CredentialResponse<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[31,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[37,5] error: cannot find symbol
+[ERROR]   symbol:   class JsonInclude
+[ERROR]   location: class CredentialResponse<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[37,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[43,5] error: cannot find symbol
+[ERROR]   symbol:   class JsonInclude
+[ERROR]   location: class CredentialResponse<T>
+[ERROR]   where T is a type-variable:
+[ERROR]     T extends Object declared in class CredentialResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialResponse.java:[43,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialDefinition.java:[18] error: cannot find symbol
+[ERROR]   symbol:   class JsonProperty
+[ERROR]   location: class CredentialDefinition
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[20,5] error: cannot find symbol
+[ERROR]   symbol:   class JsonInclude
+[ERROR]   location: class VCError
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[20,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[26,5] error: cannot find symbol
+[ERROR]   symbol:   class JsonInclude
+[ERROR]   location: class VCError
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/VCError.java:[26,28] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[29,5] error: cannot find symbol
+[ERROR]   symbol:   class Value
+[ERROR]   location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[32,5] error: cannot find symbol
+[ERROR]   symbol:   class Value
+[ERROR]   location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[35,5] error: cannot find symbol
+[ERROR]   symbol:   class Value
+[ERROR]   location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/SimpleCacheConfig.java:[39,5] error: cannot find symbol
+[ERROR]   symbol:   class Bean
+[ERROR]   location: class SimpleCacheConfig
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[10,24] error: package JsonInclude does not exist
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusResponse.java:[9] error: cannot find symbol
+[ERROR]   symbol:   class JsonFormat
+[ERROR]   location: class CredentialStatusResponse
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialStatusDetail.java:[10] error: cannot find symbol
+[ERROR]   symbol:   class JsonProperty
+[ERROR]   location: class CredentialStatusDetail
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/config/LocalAuthenticationEntryPoint.java:[22,5] error: cannot find symbol
+[ERROR]   symbol:   class Autowired
+[ERROR]   location: class LocalAuthenticationEntryPoint
+[ERROR] /project/certify-core/src/main/java/io/mosip/certify/core/dto/CredentialConfigurationDTO.java:[14,24] error: package JsonInclude does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :certify-core

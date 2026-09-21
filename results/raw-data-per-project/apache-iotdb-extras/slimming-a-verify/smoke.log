@@ -1,0 +1,69 @@
+ Network iotdb-collector_default Creating 
+ Network iotdb-collector_default Created 
+ Container iotdb-collector-app Creating 
+ Container iotdb-collector-app Created 
+ Container iotdb-collector-app Starting 
+ Container iotdb-collector-app Started 
+ Container iotdb-collector-app Waiting 
+container iotdb-collector-app exited (1)
+--- compose up failed; app logs ---
+iotdb-collector-app  | 	at org.glassfish.jersey.server.internal.scanning.AnnotationAcceptingListener$ClassReaderWrapper.access$200(AnnotationAcceptingListener.java:310)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.internal.scanning.AnnotationAcceptingListener.process(AnnotationAcceptingListener.java:151)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ResourceConfig.scanClasses(ResourceConfig.java:920)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ResourceConfig._getClasses(ResourceConfig.java:864)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ResourceConfig.getClasses(ResourceConfig.java:773)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ResourceConfig$RuntimeConfig.<init>(ResourceConfig.java:1216)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ResourceConfig$RuntimeConfig.<init>(ResourceConfig.java:1187)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ResourceConfig.createRuntimeConfig(ResourceConfig.java:1183)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ApplicationHandler$RuntimeConfigConfigurator.init(ApplicationHandler.java:184)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ApplicationHandler.lambda$initialize$0(ApplicationHandler.java:294)
+iotdb-collector-app  | 	at java.util.Arrays$ArrayList.forEach(Arrays.java:3880)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:294)
+iotdb-collector-app  | 	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:261)
+iotdb-collector-app  | 	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:311)
+iotdb-collector-app  | 	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:154)
+iotdb-collector-app  | 	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:339)
+iotdb-collector-app  | 	at javax.servlet.GenericServlet.init(GenericServlet.java:180)
+iotdb-collector-app  | 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632)
+iotdb-collector-app  | 	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415)
+iotdb-collector-app  | 	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750)
+iotdb-collector-app  | 	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+iotdb-collector-app  | 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:483)
+iotdb-collector-app  | 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+iotdb-collector-app  | 	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:313)
+iotdb-collector-app  | 	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+iotdb-collector-app  | 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:647)
+iotdb-collector-app  | 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:774)
+iotdb-collector-app  | 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379)
+iotdb-collector-app  | 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916)
+iotdb-collector-app  | 	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288)
+iotdb-collector-app  | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+iotdb-collector-app  | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+iotdb-collector-app  | 	at org.eclipse.jetty.server.Server.start(Server.java:423)
+iotdb-collector-app  | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+iotdb-collector-app  | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+iotdb-collector-app  | 	at org.eclipse.jetty.server.Server.doStart(Server.java:387)
+iotdb-collector-app  | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+iotdb-collector-app  | 	at org.apache.iotdb.collector.service.ApiService.start(ApiService.java:47)
+iotdb-collector-app  | 	at org.apache.iotdb.collector.Application.startServices(Application.java:96)
+iotdb-collector-app  | 	at org.apache.iotdb.collector.Application.main(Application.java:56)
+iotdb-collector-app  | Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.Versioned
+iotdb-collector-app  | 	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+iotdb-collector-app  | 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+iotdb-collector-app  | 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+iotdb-collector-app  | 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+iotdb-collector-app  | 	... 98 more
+iotdb-collector-app  | 2026-09-11 21:06:45,825 [Thread-0] WARN  o.a.i.c.Application:71 - [Application] Exiting ... 
+iotdb-collector-app  | 2026-09-11 21:06:45,827 [Thread-0] INFO  o.a.i.c.r.t.TaskRuntime:211 - Task runtime closed in 0ms 
+iotdb-collector-app  | 2026-09-11 21:06:45,835 [Thread-0] INFO  o.a.i.c.s.ApiService:89 - [ApiService] Stopped successfully. 
+iotdb-collector-app  | 2026-09-11 21:06:45,836 [Thread-0] WARN  o.a.i.c.Application:77 - [ScheduleService] Unexpected exception occurred when stopping: null 
+iotdb-collector-app  | java.lang.NullPointerException: null
+iotdb-collector-app  | 	at java.util.Objects.requireNonNull(Objects.java:203)
+iotdb-collector-app  | 	at java.util.Optional.<init>(Optional.java:96)
+iotdb-collector-app  | 	at java.util.Optional.of(Optional.java:108)
+iotdb-collector-app  | 	at org.apache.iotdb.collector.service.ScheduleService.pushEvent(ScheduleService.java:46)
+iotdb-collector-app  | 	at org.apache.iotdb.collector.service.ScheduleService.stop(ScheduleService.java:55)
+iotdb-collector-app  | 	at org.apache.iotdb.collector.Application.lambda$registerShutdownHook$0(Application.java:75)
+iotdb-collector-app  | 	at java.lang.Thread.run(Thread.java:750)
+iotdb-collector-app  | 2026-09-11 21:06:45,839 [Thread-0] WARN  o.a.i.c.Application:85 - [Application] JVM report: total memory 157286400, free memory 125407144, used memory 31879256 
+iotdb-collector-app  | 2026-09-11 21:06:45,839 [Thread-0] WARN  o.a.i.c.Application:90 - [Application] Exited. 

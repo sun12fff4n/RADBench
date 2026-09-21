@@ -1,0 +1,105 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< com.programmingskillz:family-tree-xml-parser >------------
+[INFO] Building family-tree-xml-parser 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:prepare-agent (prepare-agent) @ family-tree-xml-parser ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ family-tree-xml-parser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ family-tree-xml-parser ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /project/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entries.java:[5,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entries.java:[6,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entries.java:[8,2] cannot find symbol
+  symbol: class XmlRootElement
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[3,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[4,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[5,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[7,2] cannot find symbol
+  symbol: class XmlRootElement
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[10,22] package javax.xml.bind does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[11,22] package javax.xml.bind does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[12,22] package javax.xml.bind does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entries.java:[17,4] cannot find symbol
+  symbol:   class XmlElement
+  location: class com.programmingskillz.familytreexmlparser.domain.Entries
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[17,4] cannot find symbol
+  symbol:   class XmlAttribute
+  location: class com.programmingskillz.familytreexmlparser.domain.Entry
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[26,4] cannot find symbol
+  symbol:   class XmlValue
+  location: class com.programmingskillz.familytreexmlparser.domain.Entry
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[21,7] cannot find symbol
+  symbol:   class JAXBContext
+  location: class com.programmingskillz.familytreexmlparser.application.EntriesXmlParser
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[21,29] cannot find symbol
+  symbol:   variable JAXBContext
+  location: class com.programmingskillz.familytreexmlparser.application.EntriesXmlParser
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[22,7] cannot find symbol
+  symbol:   class Unmarshaller
+  location: class com.programmingskillz.familytreexmlparser.application.EntriesXmlParser
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[24,14] cannot find symbol
+  symbol:   class JAXBException
+  location: class com.programmingskillz.familytreexmlparser.application.EntriesXmlParser
+[INFO] 17 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.947 s
+[INFO] Finished at: 2026-09-21T20:23:25Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project family-tree-xml-parser: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entries.java:[5,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entries.java:[6,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entries.java:[8,2] cannot find symbol
+[ERROR]   symbol: class XmlRootElement
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[3,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[4,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[5,33] package javax.xml.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[7,2] cannot find symbol
+[ERROR]   symbol: class XmlRootElement
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[10,22] package javax.xml.bind does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[11,22] package javax.xml.bind does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[12,22] package javax.xml.bind does not exist
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entries.java:[17,4] cannot find symbol
+[ERROR]   symbol:   class XmlElement
+[ERROR]   location: class com.programmingskillz.familytreexmlparser.domain.Entries
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[17,4] cannot find symbol
+[ERROR]   symbol:   class XmlAttribute
+[ERROR]   location: class com.programmingskillz.familytreexmlparser.domain.Entry
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/domain/Entry.java:[26,4] cannot find symbol
+[ERROR]   symbol:   class XmlValue
+[ERROR]   location: class com.programmingskillz.familytreexmlparser.domain.Entry
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[21,7] cannot find symbol
+[ERROR]   symbol:   class JAXBContext
+[ERROR]   location: class com.programmingskillz.familytreexmlparser.application.EntriesXmlParser
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[21,29] cannot find symbol
+[ERROR]   symbol:   variable JAXBContext
+[ERROR]   location: class com.programmingskillz.familytreexmlparser.application.EntriesXmlParser
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[22,7] cannot find symbol
+[ERROR]   symbol:   class Unmarshaller
+[ERROR]   location: class com.programmingskillz.familytreexmlparser.application.EntriesXmlParser
+[ERROR] /project/src/main/java/com/programmingskillz/familytreexmlparser/application/EntriesXmlParser.java:[24,14] cannot find symbol
+[ERROR]   symbol:   class JAXBException
+[ERROR]   location: class com.programmingskillz.familytreexmlparser.application.EntriesXmlParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

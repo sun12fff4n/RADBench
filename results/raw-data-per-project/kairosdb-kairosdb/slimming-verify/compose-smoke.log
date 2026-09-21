@@ -1,0 +1,79 @@
+ Network kairosdb_default Creating 
+ Network kairosdb_default Created 
+ Volume kairosdb_kairosdb_cache Creating 
+ Volume kairosdb_kairosdb_cache Created 
+ Container kairosdb-app Creating 
+ Container kairosdb-app Created 
+ Container kairosdb-app Starting 
+ Container kairosdb-app Started 
+ Container kairosdb-app Waiting 
+ Container kairosdb-app Healthy 
+
+[0;34m== Version endpoint — MetricsResource (Guice DI, JAX-RS) ==[0m
+[0;32mPASS[0m GET  /api/v1/version                                         [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /api/v1/version (JSON content-type)                     [2m[200, header ✓][0m
+
+[0;34m== Health check — HealthCheckResource (Codahale HealthCheck) ==[0m
+[0;32mPASS[0m GET  /api/v1/health/check (→ 204 healthy)                  [2m[204][0m
+[0;32mPASS[0m GET  /api/v1/health/status                                   [2m[200, body ✓][0m
+
+[0;34m== Metric names — MetricsResource (Datastore query) ==[0m
+[0;32mPASS[0m GET  /api/v1/metricnames (results array)                     [2m[200, body ✓][0m
+
+[0;34m== Data ingestion — MetricsResource (DataPointsParser, Gson) ==[0m
+[0;32mPASS[0m POST /api/v1/datapoints (ingest metric)                      [2m[204][0m
+[0;32mPASS[0m POST /api/v1/datapoints (batch ingest)                       [2m[204][0m
+[0;32mPASS[0m POST /api/v1/datapoints (invalid JSON → 400)               [2m[400, body ✓][0m
+[0;32mPASS[0m POST /api/v1/datapoints (missing name → 400)               [2m[400, body ✓][0m
+[0;32mPASS[0m POST /api/v1/datapoints (gzip content-encoding)              [2m[204][0m
+
+[0;34m== Data query — MetricsResource (QueryParser, DatastoreQuery) ==[0m
+[0;32mPASS[0m POST /api/v1/datapoints/query (query metric)                 [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /api/v1/datapoints/query (with aggregator)              [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /api/v1/datapoints/query (group_by tag)                 [2m[200, body ✓][0m
+[0;32mPASS[0m POST /api/v1/datapoints/query (group_by time)                [2m[200, body ✓][0m
+[0;32mPASS[0m POST /api/v1/datapoints/query (no metrics → 400)           [2m[400, body ✓][0m
+
+[0;34m== Query tags — MetricsResource (tag query path) ==[0m
+[0;32mPASS[0m POST /api/v1/datapoints/query/tags                           [2m[200, body ✓][0m
+
+[0;34m== Features — FeaturesResource (FeatureProcessor DI) ==[0m
+[0;32mPASS[0m GET  /api/v1/features (list features)                        [2m[200][0m
+[0;32mPASS[0m GET  /api/v1/features/aggregators                            [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /api/v1/features/nonexistent (→ 404)                  [2m[404, body ✓][0m
+
+[0;34m== Rollups — RollUpResource (RollUpTasksStore, Scheduler) ==[0m
+[0;32mPASS[0m GET  /api/v1/rollups (list rollups)                          [2m[404][0m
+[0;31mFAIL[0m POST /api/v1/rollups (create rollup)                         [2m[got 404, want 200|201|204][0m
+
+[0;34m== Admin — AdminResource (QueryQueuingManager, Scheduler) ==[0m
+[0;32mPASS[0m GET  /api/v1/admin/scheduledjobs                             [2m[200][0m
+[0;32mPASS[0m GET  /api/v1/admin/runningqueries                            [2m[200, all fields ✓][0m
+
+[0;34m== Metric delete — MetricsResource (H2Datastore.deleteDataPoints) ==[0m
+[0;32mPASS[0m DELETE /api/v1/metric/test.metric (delete metric)            [2m[204][0m
+[0;32mPASS[0m POST /api/v1/datapoints/delete (delete by query)             [2m[204][0m
+
+[0;34m== Metadata — MetadataResource (ServiceKeyStore CRUD) ==[0m
+[0;32mPASS[0m GET  /api/v1/metadata/grafana (list service keys)            [2m[200][0m
+[0;32mPASS[0m POST /api/v1/metadata/grafana/smoke_key/test_val             [2m[204][0m
+[0;32mPASS[0m GET  /api/v1/metadata/grafana/smoke_key                      [2m[200][0m
+[0;32mPASS[0m GET  /api/v1/metadata/grafana/smoke_key/test_val             [2m[200][0m
+[0;32mPASS[0m DELETE /api/v1/metadata/grafana/smoke_key/test_val           [2m[204][0m
+
+[0;34m== Static web UI — Jetty StaticFileHandler ==[0m
+[0;32mPASS[0m GET  / (web UI root)                                         [2m[200, body ✓][0m
+[0;32mPASS[0m GET  / (Content-Type: text/html)                             [2m[200, header ✓][0m
+
+[0;34m== CORS support — MetricsResource.setHeaders() ==[0m
+[0;32mPASS[0m GET  /api/v1/version (CORS headers)                          [2m[200, header ✓][0m
+
+[0;34m== Error paths — 404/405 for unknown endpoints ==[0m
+[0;32mPASS[0m GET  /api/v1/nonexistent (→ 404)                           [2m[404][0m
+[0;32mPASS[0m DELETE /api/v1/version (→ 405)                             [2m[405][0m
+
+[0;34m== Concurrent requests — Jetty thread pool ==[0m
+[0;32mPASS[0m 5x parallel GET /api/v1/version                              [2m[all 200][0m
+
+[0;34m== Summary ==[0m
+[0;31m1/36 checks failed[0m (35 passed).

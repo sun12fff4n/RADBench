@@ -1,0 +1,160 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.zcunsoft:clklog-api >-----------------------
+[INFO] Building clklog-api 1.2.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ clklog-api ---
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[Fatal Error] sql-error-codes.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] catalog.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[INFO] ALL DEPENDENCY[120]:
+[INFO]  USED DEPENDENCY[120]:
+[INFO]   USED DIRECT DEPENDENCY[15]:
+[INFO] 		org.springframework.boot:spring-boot-starter-actuator:2.6.4:compile [4 KB]
+[INFO] 		com.clickhouse:clickhouse-jdbc:http:0.4.6:compile [1 MB]
+[INFO] 		org.projectlombok:lombok:1.18.22:compile [1 MB]
+[INFO] 		org.junit.jupiter:junit-jupiter:5.8.2:test [6 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-data-redis:2.6.4:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-data-jpa:2.6.4:compile [4 KB]
+[INFO] 		org.springdoc:springdoc-openapi-ui:1.6.15:compile [20 KB]
+[INFO] 		org.springframework.boot:spring-boot-configuration-processor:2.6.4:compile [115 KB]
+[INFO] 		com.github.xiaoymin:knife4j-springdoc-ui:3.0.3:compile [2 MB]
+[INFO] 		org.apache.poi:poi-ooxml:5.2.2:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-security:2.6.4:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-web:2.6.4:compile [4 KB]
+[INFO] 		org.apache.poi:poi-ooxml-schemas:4.1.2:compile [7 MB]
+[INFO] 		org.apache.poi:poi:5.2.2:compile [2 MB]
+[INFO] 		io.jsonwebtoken:jjwt:0.9.1:compile [110 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[105]:
+[INFO] 		org.springdoc:springdoc-openapi-webmvc-core:1.6.15:compile [40 KB]
+[INFO] 		com.fasterxml:classmate:1.5.1:compile [66 KB]
+[INFO] 		io.netty:netty-codec:4.1.74.Final:compile [329 KB]
+[INFO] 		org.springframework.security:spring-security-web:5.6.2:compile [623 KB]
+[INFO] 		ch.qos.logback:logback-core:1.2.10:compile [443 KB]
+[INFO] 		org.springframework.data:spring-data-redis:2.6.2:compile [2 MB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.1:compile [33 KB]
+[INFO] 		com.github.virtuald:curvesapi:1.07:compile [109 KB]
+[INFO] 		org.opentest4j:opentest4j:1.2.0:test [7 KB]
+[INFO] 		io.netty:netty-transport:4.1.74.Final:compile [467 KB]
+[INFO] 		org.jboss:jandex:2.4.2.Final:compile [225 KB]
+[INFO] 		org.glassfish.jaxb:txw2:2.3.6:compile [70 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-runtime:2.3.6:compile [995 KB]
+[INFO] 		org.springframework.boot:spring-boot:2.6.4:compile [1 MB]
+[INFO] 		io.netty:netty-handler:4.1.74.Final:compile [516 KB]
+[INFO] 		io.netty:netty-common:4.1.74.Final:compile [634 KB]
+[INFO] 		ch.qos.logback:logback-classic:1.2.10:compile [228 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-el:9.0.58:compile [251 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-aop:2.6.4:compile [4 KB]
+[INFO] 		org.apache.logging.log4j:log4j-to-slf4j:2.17.1:compile [17 KB]
+[INFO] 		org.hdrhistogram:HdrHistogram:2.1.12:compile [169 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-core:9.0.58:compile [3 MB]
+[INFO] 		jakarta.persistence:jakarta.persistence-api:2.2.3:compile [160 KB]
+[INFO] 		org.springframework:spring-aspects:5.3.16:compile [46 KB]
+[INFO] 		com.zaxxer:HikariCP:4.0.3:compile [155 KB]
+[INFO] 		org.springframework.data:spring-data-jpa:2.6.2:compile [362 KB]
+[INFO] 		io.micrometer:micrometer-core:1.8.3:compile [645 KB]
+[INFO] 		org.springframework:spring-aop:5.3.16:compile [374 KB]
+[INFO] 		io.lettuce:lettuce-core:6.1.6.RELEASE:compile [1 MB]
+[INFO] 		org.springframework.security:spring-security-config:5.6.2:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-actuator:2.6.4:compile [654 KB]
+[INFO] 		org.springframework:spring-webmvc:5.3.16:compile [1004 KB]
+[INFO] 		io.netty:netty-resolver:4.1.74.Final:compile [36 KB]
+[INFO] 		org.apache.logging.log4j:log4j-api:2.17.1:compile [294 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.8.2:test [224 KB]
+[INFO] 		org.springframework:spring-tx:5.3.16:compile [325 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-websocket:9.0.58:compile [271 KB]
+[INFO] 		jakarta.transaction:jakarta.transaction-api:1.3.3:compile [15 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.8.2:test [563 KB]
+[INFO] 		org.springframework:spring-expression:5.3.16:compile [282 KB]
+[INFO] 		com.sun.activation:jakarta.activation:1.2.2:runtime [66 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-jdbc:2.6.4:compile [4 KB]
+[INFO] 		org.latencyutils:LatencyUtils:2.0.3:runtime [29 KB]
+[INFO] 		org.springframework:spring-context:5.3.16:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:2.6.4:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-logging:2.6.4:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter:2.6.4:compile [4 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.13.1:compile [73 KB]
+[INFO] 		antlr:antlr:2.7.7:compile [434 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.8.2:test [188 KB]
+[INFO] 		org.springframework.security:spring-security-core:5.6.2:compile [428 KB]
+[INFO] 		org.apache.xmlbeans:xmlbeans:5.0.3:compile [2 MB]
+[INFO] 		org.webjars:webjars-locator-core:0.48:compile [15 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.13.1:compile [365 KB]
+[INFO] 		org.aspectj:aspectjweaver:1.9.7:compile [1 MB]
+[INFO] 		io.github.classgraph:classgraph:4.8.149:compile [545 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1:compile [9 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-json:2.6.4:compile [4 KB]
+[INFO] 		org.apache.commons:commons-math3:3.6.1:compile [2 MB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:1.3.5:compile [24 KB]
+[INFO] 		org.hibernate:hibernate-core:5.6.5.Final:compile [7 MB]
+[INFO] 		org.apache.commons:commons-collections4:4.4:compile [734 KB]
+[INFO] 		org.springframework:spring-jcl:5.3.16:compile [23 KB]
+[INFO] 		org.springframework.security:spring-security-crypto:5.6.2:compile [79 KB]
+[INFO] 		commons-codec:commons-codec:1.15:compile [345 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-tomcat:2.6.4:compile [4 KB]
+[INFO] 		commons-io:commons-io:2.11.0:compile [319 KB]
+[INFO] 		org.springframework:spring-jdbc:5.3.16:compile [417 KB]
+[INFO] 		org.yaml:snakeyaml:1.29:compile [322 KB]
+[INFO] 		org.reactivestreams:reactive-streams:1.0.3:compile [11 KB]
+[INFO] 		io.swagger.core.v3:swagger-core:2.2.8:compile [203 KB]
+[INFO] 		io.netty:netty-buffer:4.1.74.Final:compile [296 KB]
+[INFO] 		org.jboss.logging:jboss-logging:3.4.3.Final:compile [59 KB]
+[INFO] 		org.hibernate.common:hibernate-commons-annotations:5.1.2.Final:compile [77 KB]
+[INFO] 		org.springframework.boot:spring-boot-actuator-autoconfigure:2.6.4:compile [548 KB]
+[INFO] 		org.springframework:spring-oxm:5.3.16:compile [64 KB]
+[INFO] 		org.springframework:spring-web:5.3.16:compile [1 MB]
+[INFO] 		org.springframework:spring-orm:5.3.16:compile [199 KB]
+[INFO] 		org.springframework.data:spring-data-keyvalue:2.6.2:compile [118 KB]
+[INFO] 		org.slf4j:slf4j-api:1.7.36:compile [40 KB]
+[INFO] 		jakarta.validation:jakarta.validation-api:2.0.2:compile [89 KB]
+[INFO] 		org.apache.commons:commons-compress:1.21:compile [994 KB]
+[INFO] 		org.apache.poi:poi-ooxml-lite:5.2.2:compile [5 MB]
+[INFO] 		com.zaxxer:SparseBitSet:1.2:compile [23 KB]
+[INFO] 		org.springframework:spring-context-support:5.3.16:compile [182 KB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:compile [112 KB]
+[INFO] 		io.swagger.core.v3:swagger-annotations:2.2.8:compile [41 KB]
+[INFO] 		io.netty:netty-tcnative-classes:2.0.48.Final:compile [34 KB]
+[INFO] 		org.webjars:swagger-ui:4.17.1:compile [3 MB]
+[INFO] 		io.projectreactor:reactor-core:3.4.15:compile [1 MB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.8.2:test [98 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.8.2:test [181 KB]
+[INFO] 		org.springframework:spring-core:5.3.16:compile [1 MB]
+[INFO] 		org.springframework.data:spring-data-commons:2.6.2:compile [1 MB]
+[INFO] 		com.sun.istack:istack-commons-runtime:3.0.12:compile [29 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.13.1:compile [1 MB]
+[INFO] 		io.swagger.core.v3:swagger-models:2.2.8:compile [130 KB]
+[INFO] 		org.springframework:spring-beans:5.3.16:compile [681 KB]
+[INFO] 		org.springdoc:springdoc-openapi-common:1.6.15:compile [343 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.11.22:compile [3 MB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1:compile [118 KB]
+[INFO] 		org.slf4j:jul-to-slf4j:1.7.36:compile [4 KB]
+[INFO] 		com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.1:compile [50 KB]
+[INFO] 		org.apache.commons:commons-lang3:3.12.0:compile [573 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[0]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] No Bloated
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:14 min
+[INFO] Finished at: 2026-04-29T23:31:28+02:00
+[INFO] ------------------------------------------------------------------------

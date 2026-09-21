@@ -1,0 +1,43 @@
+ Volume spawn_m2-combined-Daggerpov-Spawn-App-Back-End Creating 
+ Volume spawn_m2-combined-Daggerpov-Spawn-App-Back-End Created 
+ Container spawn-mysql Running 
+ Container spawn-app Creating 
+ Container spawn-app Created 
+ Container spawn-mysql Waiting 
+ Container spawn-mysql Healthy 
+ Container spawn-app Starting 
+ Container spawn-app Started 
+ Container spawn-app Waiting 
+ Container spawn-mysql Waiting 
+ Container spawn-mysql Healthy 
+container spawn-app exited (1)
+spawn-app  |        add constraint FKaa0463hw4fy90b23usprc7t3i 
+spawn-app  |        foreign key (user_id) 
+spawn-app  |        references `user` (id) 
+spawn-app  |        on delete cascade
+spawn-app  | 01:52:51 [34mINFO [0;39m [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+spawn-app  | 01:52:54 [34mINFO [0;39m [o.s.d.j.r.query.QueryEnhancerFactory:49] Hibernate is in classpath; If applicable, HQL parser will be used.
+spawn-app  | 01:52:56 [1;31mERROR[0;39m [c.d.spawn.Exceptions.Logger.Logger:18] [FCMInitializer.java:35] initialize - GOOGLE_APPLICATION_CREDENTIALS environment variable is not set or empty
+spawn-app  | 01:53:12 [31mWARN [0;39m [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:633] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in URL [jar:nested:/project/target/spawn-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/danielagapov/spawn/Controllers/User/UserController.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'authService' defined in URL [jar:nested:/project/target/spawn-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/danielagapov/spawn/Services/Auth/AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'emailService' defined in URL [jar:nested:/project/target/spawn-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/com/danielagapov/spawn/Services/Email/EmailService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+spawn-app  | 01:53:12 [34mINFO [0;39m [o.s.o.j.LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+spawn-app  | 01:53:12 [34mINFO [0;39m [com.zaxxer.hikari.HikariDataSource:349] HikariPool-1 - Shutdown initiated...
+spawn-app  | 01:53:12 [34mINFO [0;39m [com.zaxxer.hikari.HikariDataSource:351] HikariPool-1 - Shutdown completed.
+spawn-app  | 01:53:12 [34mINFO [0;39m [o.a.catalina.core.StandardService:173] Stopping service [Tomcat]
+spawn-app  | 01:53:12 [34mINFO [0;39m [o.s.b.a.l.ConditionEvaluationReportLogger:82] 
+spawn-app  | 
+spawn-app  | Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+spawn-app  | 01:53:13 [1;31mERROR[0;39m [o.s.b.d.LoggingFailureAnalysisReporter:40] 
+spawn-app  | 
+spawn-app  | ***************************
+spawn-app  | APPLICATION FAILED TO START
+spawn-app  | ***************************
+spawn-app  | 
+spawn-app  | Description:
+spawn-app  | 
+spawn-app  | Parameter 0 of constructor in com.danielagapov.spawn.Services.Email.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+spawn-app  | 
+spawn-app  | 
+spawn-app  | Action:
+spawn-app  | 
+spawn-app  | Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+spawn-app  | 

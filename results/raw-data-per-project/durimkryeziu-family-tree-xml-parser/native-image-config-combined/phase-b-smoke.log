@@ -1,0 +1,29 @@
+ Network family-tree-xml-parser_default Creating 
+ Network family-tree-xml-parser_default Created 
+ Volume family-tree-xml-parser_m2-combined-durimkryeziu-family-tree-xml-parser Creating 
+ Volume family-tree-xml-parser_m2-combined-durimkryeziu-family-tree-xml-parser Created 
+ Container family-tree-xml-parser Creating 
+ Container family-tree-xml-parser Created 
+ Container family-tree-xml-parser Starting 
+ Container family-tree-xml-parser Started 
+ Container family-tree-xml-parser Waiting 
+ Container family-tree-xml-parser Healthy 
+
+[0;34m== Project-defined states (controller + ErrorHandler) ==[0m
+[0;32mPASS[0m POST /documents valid XML → 201                          [2m[201, all fields ✓][0m
+[0;32mPASS[0m POST /documents two roots → 400 MoreThanOneRoot          [2m[400, all fields ✓][0m
+[0;32mPASS[0m POST /documents no root → 400 RootIsMissing              [2m[400, all fields ✓][0m
+
+[0;34m== Content negotiation + error handling ==[0m
+[0;32mPASS[0m POST /documents JSON body → 415 UnsupportedMediaType     [2m[415][0m
+[0;32mPASS[0m GET  /documents (wrong method → 405)                     [2m[405][0m
+[0;32mPASS[0m POST /documents malformed XML → 400                      [2m[400][0m
+[0;31mFAIL[0m POST /documents empty entries → 400                      [2m[got 500, want 400][0m
+
+[0;34m== H2 console + infrastructure ==[0m
+[0;31mFAIL[0m GET  /h2-console (H2 web console)                          [2m[got 302, want 200][0m
+
+[0;34m== Summary ==[0m
+[0;31m2/8 checks failed[0m (6 passed).
+ Container family-tree-xml-parser Stopping 
+ Container family-tree-xml-parser Stopped 

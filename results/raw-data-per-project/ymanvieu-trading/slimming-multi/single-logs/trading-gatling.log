@@ -1,0 +1,148 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< fr.ymanvieu.trading:trading-gatling >-----------------
+[INFO] Building trading-gatling 5.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ trading-gatling ---
+[INFO] mvn test successfully
+[INFO] The project has no target folder
+[INFO] The project has no target/test-classes folder
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[INFO] ALL DEPENDENCY[111]:
+[INFO]  USED DEPENDENCY[111]:
+[INFO]   USED DIRECT DEPENDENCY[2]:
+[INFO] 		org.junit.jupiter:junit-jupiter:5.10.1:test [6 KB]
+[INFO] 		io.gatling.highcharts:gatling-charts-highcharts:3.10.2:test [181 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[109]:
+[INFO] 		io.netty:netty-handler:4.1.101.Final:test [548 KB]
+[INFO] 		io.netty:netty-tcnative-boringssl-static:linux-x86_64:2.0.61.Final:test [1 MB]
+[INFO] 		io.netty:netty-handler-proxy:4.1.101.Final:test [24 KB]
+[INFO] 		com.tdunning:t-digest:3.1:test [59 KB]
+[INFO] 		io.netty:netty-tcnative-boringssl-static:windows-x86_64:2.0.61.Final:test [982 KB]
+[INFO] 		io.netty:netty-buffer:4.1.101.Final:test [299 KB]
+[INFO] 		org.simpleflatmapper:lightning-csv:8.2.3:test [81 KB]
+[INFO] 		org.opentest4j:opentest4j:1.3.0:test [13 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.15.3:test [1 MB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.10.1:test [200 KB]
+[INFO] 		org.unbescape:unbescape:1.1.6.RELEASE:test [169 KB]
+[INFO] 		io.netty:netty-tcnative-classes:2.0.61.Final:test [34 KB]
+[INFO] 		org.jodd:jodd-util:6.2.2:test [329 KB]
+[INFO] 		net.sf.saxon:Saxon-HE:10.6:test [5 MB]
+[INFO] 		io.gatling:gatling-mqtt:3.10.2:test [97 KB]
+[INFO] 		io.gatling:gatling-http-java:3.10.2:test [107 KB]
+[INFO] 		net.debasishg:redisclient_2.13:3.42:test [400 KB]
+[INFO] 		io.netty:netty-codec:4.1.101.Final:test [337 KB]
+[INFO] 		io.netty:netty-transport:4.1.101.Final:test [485 KB]
+[INFO] 		com.typesafe.akka:akka-slf4j_2.13:2.6.20:test [16 KB]
+[INFO] 		io.gatling:gatling-charts:3.10.2:test [391 KB]
+[INFO] 		io.gatling:gatling-commons:3.10.2:test [172 KB]
+[INFO] 		com.aayushatharva.brotli4j:native-linux-x86_64:1.13.0:test [416 KB]
+[INFO] 		io.gatling:gatling-jms-java:3.10.2:test [37 KB]
+[INFO] 		org.hdrhistogram:HdrHistogram:2.1.12:test [169 KB]
+[INFO] 		com.aayushatharva.brotli4j:native-osx-aarch64:1.13.0:test [415 KB]
+[INFO] 		org.scala-lang.modules:scala-collection-compat_2.13:2.11.0:test [6 KB]
+[INFO] 		org.simpleflatmapper:sfm-util:8.2.3:test [61 KB]
+[INFO] 		io.gatling:gatling-jsonpath:3.10.2:test [130 KB]
+[INFO] 		io.gatling:gatling-jms:3.10.2:test [211 KB]
+[INFO] 		io.gatling:gatling-recorder-bc-shaded:1.77.0:test [7 MB]
+[INFO] 		io.netty:netty-resolver-dns:4.1.101.Final:test [167 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.10.1:test [238 KB]
+[INFO] 		io.netty:netty-transport-native-unix-common:4.1.101.Final:test [42 KB]
+[INFO] 		io.netty.incubator:netty-incubator-transport-native-io_uring:linux-x86_64:0.0.24.Final:test [36 KB]
+[INFO] 		io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.101.Final:test [18 KB]
+[INFO] 		io.gatling:gatling-redis-java:3.10.2:test [7 KB]
+[INFO] 		org.scala-lang.modules:scala-java8-compat_2.13:1.0.0:test [622 KB]
+[INFO] 		io.netty:netty-resolver:4.1.101.Final:test [36 KB]
+[INFO] 		com.aayushatharva.brotli4j:service:1.13.0:test [3 KB]
+[INFO] 		io.gatling:gatling-shared-model_2.13:0.0.4:test [160 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.10.1:test [103 KB]
+[INFO] 		org.scala-lang:scala-reflect:2.13.10:test [3 MB]
+[INFO] 		com.aayushatharva.brotli4j:brotli4j:1.13.0:test [44 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.15.3:test [73 KB]
+[INFO] 		ch.qos.logback:logback-core:1.4.11:test [583 KB]
+[INFO] 		io.gatling:gatling-http-client:3.10.2:test [182 KB]
+[INFO] 		io.gatling:gatling-redis:3.10.2:test [14 KB]
+[INFO] 		io.burt:jmespath-jackson:0.6.0:test [6 KB]
+[INFO] 		javax.jms:javax.jms-api:2.0.1:test [62 KB]
+[INFO] 		org.scala-lang.modules:scala-parser-combinators_2.13:2.3.0:test [184 KB]
+[INFO] 		io.netty.incubator:netty-incubator-transport-native-io_uring:linux-aarch_64:0.0.24.Final:test [37 KB]
+[INFO] 		io.burt:jmespath-core:0.6.0:test [477 KB]
+[INFO] 		ch.qos.logback:logback-classic:1.4.11:test [276 KB]
+[INFO] 		io.github.metarank:cfor_2.13:0.3:test [35 KB]
+[INFO] 		org.scala-lang:scala-library:2.13.12:test [5 MB]
+[INFO] 		io.gatling:gatling-mqtt-java:3.10.2:test [22 KB]
+[INFO] 		com.aayushatharva.brotli4j:native-osx-x86_64:1.13.0:test [431 KB]
+[INFO] 		com.typesafe.akka:akka-actor_2.13:2.6.20:test [3 MB]
+[INFO] 		io.gatling:gatling-shared-util_2.13:0.0.5:test [50 KB]
+[INFO] 		net.jodah:typetools:0.6.3:test [17 KB]
+[INFO] 		io.netty:netty-codec-socks:4.1.101.Final:test [118 KB]
+[INFO] 		io.netty:netty-resolver-dns-native-macos:osx-aarch_64:4.1.101.Final:test [19 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		io.gatling:gatling-netty-util:3.10.2:test [13 KB]
+[INFO] 		io.gatling:gatling-app:3.10.2:test [74 KB]
+[INFO] 		io.netty:netty-codec-dns:4.1.101.Final:test [65 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.9:test [63 KB]
+[INFO] 		io.netty:netty-tcnative-boringssl-static:2.0.61.Final:test [3 KB]
+[INFO] 		com.aayushatharva.brotli4j:native-windows-x86_64:1.13.0:test [1 MB]
+[INFO] 		org.apache.commons:commons-pool2:2.12.0:test [146 KB]
+[INFO] 		io.gatling:gatling-jdbc-java:3.10.2:test [5 KB]
+[INFO] 		com.google.errorprone:error_prone_annotations:2.21.1:test [16 KB]
+[INFO] 		io.gatling:gatling-jdbc:3.10.2:test [10 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.10.1:test [572 KB]
+[INFO] 		com.github.spotbugs:spotbugs-annotations:4.7.3:test [14 KB]
+[INFO] 		com.aayushatharva.brotli4j:native-linux-aarch64:1.13.0:test [414 KB]
+[INFO] 		io.gatling:gatling-recorder:3.10.2:test [725 KB]
+[INFO] 		com.typesafe.scala-logging:scala-logging_2.13:3.9.5:test [60 KB]
+[INFO] 		io.netty:netty-codec-http2:4.1.101.Final:test [476 KB]
+[INFO] 		io.gatling:gatling-http:3.10.2:test [1 MB]
+[INFO] 		org.scala-lang.modules:scala-swing_2.13:3.0.0:test [721 KB]
+[INFO] 		io.netty:netty-transport-classes-epoll:4.1.101.Final:test [143 KB]
+[INFO] 		io.gatling:gatling-core-java:3.10.2:test [302 KB]
+[INFO] 		com.softwaremill.quicklens:quicklens_2.13:1.9.6:test [100 KB]
+[INFO] 		io.netty:netty-tcnative-boringssl-static:osx-aarch_64:2.0.61.Final:test [975 KB]
+[INFO] 		io.netty:netty-tcnative-boringssl-static:linux-aarch_64:2.0.61.Final:test [1 MB]
+[INFO] 		io.suzaku:boopickle_2.13:1.3.3:test [242 KB]
+[INFO] 		io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.101.Final:test [39 KB]
+[INFO] 		org.checkerframework:checker-qual:3.37.0:test [219 KB]
+[INFO] 		io.netty:netty-codec-mqtt:4.1.101.Final:test [111 KB]
+[INFO] 		io.gatling:gatling-core:3.10.2:test [1 MB]
+[INFO] 		io.netty:netty-tcnative-boringssl-static:osx-x86_64:2.0.61.Final:test [1 MB]
+[INFO] 		io.gatling:gatling-graphite:3.10.2:test [100 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.10.1:test [206 KB]
+[INFO] 		io.netty:netty-codec-http:4.1.101.Final:test [642 KB]
+[INFO] 		com.github.ben-manes.caffeine:caffeine:3.1.8:test [868 KB]
+[INFO] 		com.github.scopt:scopt_2.13:3.7.1:test [78 KB]
+[INFO] 		io.netty.incubator:netty-incubator-transport-classes-io_uring:0.0.24.Final:test [100 KB]
+[INFO] 		com.typesafe:config:1.4.2:test [288 KB]
+[INFO] 		org.jodd:jodd-lagarto:6.0.6:test [220 KB]
+[INFO] 		io.netty:netty-common:4.1.101.Final:test [645 KB]
+[INFO] 		io.pebbletemplates:pebble:3.2.2:test [323 KB]
+[INFO] 		com.google.code.findbugs:jsr305:3.0.2:test [19 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.15.3:test [536 KB]
+[INFO] 		io.netty:netty-resolver-dns-classes-macos:4.1.101.Final:test [8 KB]
+[INFO] 		io.gatling:gatling-shared-enterprise:3.10.2:test [4 KB]
+[INFO] 		io.netty:netty-transport-native-epoll:linux-x86_64:4.1.101.Final:test [38 KB]
+[INFO] 		com.eatthepath:fast-uuid:0.2.0:test [5 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[0]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] No Bloated
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.323 s
+[INFO] Finished at: 2026-05-03T12:36:47+02:00
+[INFO] ------------------------------------------------------------------------

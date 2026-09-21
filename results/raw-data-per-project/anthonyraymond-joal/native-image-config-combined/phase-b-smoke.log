@@ -1,0 +1,54 @@
+ Network joal_default Creating 
+ Network joal_default Created 
+ Volume joal_m2-combined-anthonyraymond-joal Creating 
+ Volume joal_m2-combined-anthonyraymond-joal Created 
+ Container joal Creating 
+ Container joal Created 
+ Container joal Starting 
+ Container joal Started 
+ Container joal Waiting 
+ Container joal Healthy 
+[2mInstalling websocket-client into temp dir...[0m
+
+[0;34m== Startup (wait for reachability) ==[0m
+[2mWaiting for http://localhost:8080 to be reachable...[0m [0;32mready[0m (1s)
+
+[0;34m== HTTP: AbortNonPrefixedRequestFilter (non-prefixed → rejected) ==[0m
+[0;32mPASS[0m GET  / (no prefix → rejected)                         [2m[404][0m
+[0;32mPASS[0m GET  /hello (no prefix → rejected)                    [2m[404][0m
+[0;32mPASS[0m GET  /ui/ (no prefix → rejected)                      [2m[404][0m
+
+[0;34m== HTTP: Web UI endpoints (prefixed) ==[0m
+[0;32mPASS[0m GET  /joaltest/ui/ → SPA entry                        [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /joaltest/ui → redirect to ui/                   [2m[302][0m
+[0;32mPASS[0m GET  /joaltest/ui/manifest.json → PWA manifest        [2m[200, body ✓][0m
+
+[0;34m== HTTP: Spring Security ==[0m
+[0;32mPASS[0m GET  /joaltest/nonexistent → 403 (denied)             [2m[403][0m
+
+[0;34m== STOMP: Authentication ==[0m
+[0;32mPASS[0m STOMP CONNECT (valid token → CONNECTED)               [2m[CONNECTED][0m
+[0;32mPASS[0m STOMP CONNECT (wrong token → rejected)                [2m[ERROR][0m
+[0;32mPASS[0m STOMP CONNECT (empty token → rejected)                [2m[ERROR][0m
+[0;32mPASS[0m STOMP CONNECT (no-prefix URL → WS fails)              [2m[FAIL:ws:Handshake status 404 None -+-+- {'content-][0m
+
+[0;34m== STOMP: State Query ==[0m
+[0;32mPASS[0m SUBSCRIBE /joal/initialize-me → CONFIG_HAS_BEEN_LOADED [2m[MESSAGE][0m
+
+[0;34m== STOMP: Configuration ==[0m
+[0;32mPASS[0m SEND /joal/config/save (valid config) → OK            [2m[OK][0m
+[0;32mPASS[0m SEND /joal/config/save (invalid) → INVALID_CONFIG     [2m[MESSAGE][0m
+
+[0;34m== STOMP: Torrent Management ==[0m
+[0;32mPASS[0m SEND /joal/torrents/upload → OK                       [2m[OK][0m
+[0;32mPASS[0m SEND /joal/torrents/delete (bogus hash) → OK          [2m[OK][0m
+
+[0;34m== STOMP: Seeding Control ==[0m
+[0;32mPASS[0m SEND /joal/global/stop → OK                           [2m[OK][0m
+[0;32mPASS[0m SEND /joal/global/start → OK                          [2m[OK][0m
+[0;32mPASS[0m SEND /joal/global/stop (cleanup) → OK                 [2m[OK][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 19/19 checks passed.[0m
+ Container joal Stopping 
+ Container joal Stopped 

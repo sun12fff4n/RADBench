@@ -1,0 +1,178 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Shiro + mpJWT                                               [pom]
+[INFO] Apache Shiro + mpJWT :: keystore                                   [jar]
+[INFO] Apache Shiro + mpJWT :: issuer server                              [war]
+[INFO] Apache Shiro + mpJWT :: start server                               [war]
+[INFO] Apache Shiro + mpJWT :: finish server                              [war]
+[INFO] Apache Shiro + mpJWT :: integration test                           [jar]
+[INFO] 
+[INFO] -----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.root >------------
+[INFO] Building Apache Shiro + mpJWT 1.0.0-SNAPSHOT                       [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.root ---
+[WARNING] Thread[JGit-FileStoreAttributeReader-1,5,main]: got smaller file timestamp on /project (/run/host_mark/private), /project/.git: 2026-09-11T19:34:57Z < 2026-09-11T19:34:57.088115423Z. Aborting measurement at resolution PT0.911884577S.
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] 
+[INFO] --- failsafe:3.5.3:integration-test (default) @ shiro.jwt.jaxrs.root ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- failsafe:3.5.3:verify (default) @ shiro.jwt.jaxrs.root ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ shiro.jwt.jaxrs.root ---
+[INFO] Installing /project/pom.xml to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.root/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.root-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore >----------
+[INFO] Building Apache Shiro + mpJWT :: keystore 1.0.0-SNAPSHOT           [2/6]
+[INFO]   from keystore/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] 
+[INFO] --- keytool:1.7:generateKeyPair (generate-keypair) @ shiro.jwt.jaxrs.keystore ---
+[WARNING] Generating 256 bit EC (secp256r1) key pair and self-signed certificate (SHA256withECDSA) with a validity of 90 days
+[WARNING] 	for: CN=http://localhost:9081/, OU=, O=, L=, ST=, C=DE
+[WARNING] 
+[WARNING] Warning:
+[WARNING] Specifying -keysize for generating EC keys is deprecated, please use "-groupname secp256r1" instead.
+[INFO] 
+[INFO] --- keytool:1.7:exportCertificate (export-public-certificate) @ shiro.jwt.jaxrs.keystore ---
+[WARNING] Certificate stored in file </tmp/issuer.crt>
+[INFO] 
+[INFO] --- keytool:1.7:importCertificate (import-public-certificate) @ shiro.jwt.jaxrs.keystore ---
+[WARNING] Certificate was added to keystore
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.5.0:jar (default-jar) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Building jar: /project/keystore/target/shiro.jwt.jaxrs.keystore-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- failsafe:3.5.3:integration-test (default) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- failsafe:3.5.3:verify (default) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ shiro.jwt.jaxrs.keystore ---
+[INFO] Installing /project/keystore/pom.xml to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.keystore/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.keystore-1.0.0-SNAPSHOT.pom
+[INFO] Installing /project/keystore/target/shiro.jwt.jaxrs.keystore-1.0.0-SNAPSHOT.jar to /root/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.keystore/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.keystore-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.issuer >-----------
+[INFO] Building Apache Shiro + mpJWT :: issuer server 1.0.0-SNAPSHOT      [3/6]
+[INFO]   from issuer/pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] Sorting file /tmp/pom13679416610427401410.xml
+[INFO] Saved sorted pom file to /tmp/pom13679416610427401410.xml
+[INFO] Sorting file /tmp/pom14427743445541972647.xml
+[INFO] Pom file is already sorted, exiting
+[INFO] clean file: /project/issuer/pom.xml
+[INFO] Spotless.Pom is keeping 1 files clean - 1 were changed to be clean, 0 were already clean, 0 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.issuer ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 9 source files with javac [debug release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[18,26] package io.jsonwebtoken.io does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[19,26] package io.jsonwebtoken.io does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[32,41] cannot find symbol
+  symbol: class Serializer
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[48,62] cannot find symbol
+  symbol:   class SerializationException
+  location: class io.github.bmarwell.shiro.issuer.json.JsonbSerializer
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[53,78] cannot find symbol
+  symbol:   class SerializationException
+  location: class io.github.bmarwell.shiro.issuer.json.JsonbSerializer
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/KeyService.java:[22,23] package io.jsonwebtoken does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/KeyService.java:[23,23] package io.jsonwebtoken does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/KeyService.java:[53,12] cannot find symbol
+  symbol:   class JwtBuilder
+  location: class io.github.bmarwell.shiro.issuer.services.KeyService
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/TokenServiceImpl.java:[19,23] package io.jsonwebtoken does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/TokenServiceImpl.java:[33,13] cannot find symbol
+  symbol:   class JwtBuilder
+  location: class io.github.bmarwell.shiro.issuer.services.TokenServiceImpl
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[47,5] method does not override or implement a method from a supertype
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[52,5] method does not override or implement a method from a supertype
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/KeyService.java:[58,16] cannot find symbol
+  symbol:   variable Jwts
+  location: class io.github.bmarwell.shiro.issuer.services.KeyService
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache Shiro + mpJWT 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] Apache Shiro + mpJWT ............................... SUCCESS [  4.124 s]
+[INFO] Apache Shiro + mpJWT :: keystore ................... SUCCESS [  4.906 s]
+[INFO] Apache Shiro + mpJWT :: issuer server .............. FAILURE [  2.284 s]
+[INFO] Apache Shiro + mpJWT :: start server ............... SKIPPED
+[INFO] Apache Shiro + mpJWT :: finish server .............. SKIPPED
+[INFO] Apache Shiro + mpJWT :: integration test ........... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.634 s
+[INFO] Finished at: 2026-09-11T19:35:06Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:compile (default-compile) on project shiro.jwt.jaxrs.issuer: Compilation failure: Compilation failure: 
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[18,26] package io.jsonwebtoken.io does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[19,26] package io.jsonwebtoken.io does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[32,41] cannot find symbol
+[ERROR]   symbol: class Serializer
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[48,62] cannot find symbol
+[ERROR]   symbol:   class SerializationException
+[ERROR]   location: class io.github.bmarwell.shiro.issuer.json.JsonbSerializer
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[53,78] cannot find symbol
+[ERROR]   symbol:   class SerializationException
+[ERROR]   location: class io.github.bmarwell.shiro.issuer.json.JsonbSerializer
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/KeyService.java:[22,23] package io.jsonwebtoken does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/KeyService.java:[23,23] package io.jsonwebtoken does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/KeyService.java:[53,12] cannot find symbol
+[ERROR]   symbol:   class JwtBuilder
+[ERROR]   location: class io.github.bmarwell.shiro.issuer.services.KeyService
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/TokenServiceImpl.java:[19,23] package io.jsonwebtoken does not exist
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/TokenServiceImpl.java:[33,13] cannot find symbol
+[ERROR]   symbol:   class JwtBuilder
+[ERROR]   location: class io.github.bmarwell.shiro.issuer.services.TokenServiceImpl
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[47,5] method does not override or implement a method from a supertype
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/json/JsonbSerializer.java:[52,5] method does not override or implement a method from a supertype
+[ERROR] /project/issuer/src/main/java/io/github/bmarwell/shiro/issuer/services/KeyService.java:[58,16] cannot find symbol
+[ERROR]   symbol:   variable Jwts
+[ERROR]   location: class io.github.bmarwell.shiro.issuer.services.KeyService
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :shiro.jwt.jaxrs.issuer

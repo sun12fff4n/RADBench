@@ -1,0 +1,79 @@
+Top Project info>>>>/private/tmp/analysis-runs/extenda-structurizr-to-png
+Project info>>>>/private/tmp/analysis-runs/extenda-structurizr-to-png
+Project Name>>>>com.extendaretail:structurizr-to-png:0.0.1-local
+OriginalSize>>>>64279KB
+BloatedSize>>>>199KB
+All Dependencies>>>>79
+Used Dependencies>>>>76
+Used Self Direct Dependency>>>>17
+Used Self Indirect Dependency>>>>59
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>3
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>3
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>3
+realBloated>>>>3
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>15293
+buildClassExtendGraphTime>>>>268
+buildCallGraphTime>>>>99124
+levelTime>>>>127
+stringTime>>>>35
+licenseCheckTime>>>>9596
+bugCheckTime>>>>327
+maintenanceTimeCheckTime>>>>1183
+checkTime>>>>128415
+repairTime>>>>26973
+mvnTestTime>>>>6265
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>3
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>1
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>3383
+forName>>>>67
+loadClass>>>>19
+getClass>>>>426
+reflectEdges>>>>3795
+unReflectEdges>>>>30
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object newInstance(java.lang.String)>
+unSolvedReflect>>>><io.vertx.core.eventbus.impl.codecs.ClusterSerializableCodec: io.vertx.core.shareddata.ClusterSerializable decodeFromWire(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.lang.Object createFactory(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.eclipse.emf.common.EMFPlugin: void main(java.lang.String[])>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object newInstance(java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object callStatic2(java.lang.String,java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object opt(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><jcckit.util.Factory: java.lang.Object createObject(jcckit.util.ConfigParameters,java.lang.String)>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.scilab.forge.jlatexmath.MacroInfo: void <init>(java.lang.String,java.lang.String,float)>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object callStatic(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.type.TypeFactory: java.lang.Class classForName(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.ecore.impl.EPackageRegistryImpl$Delegator: java.lang.Object put(java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.lang.Object createFactory(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.commons.logging.LogFactory: java.util.Hashtable createFactoryStore()>
+unSolvedReflect>>>><org.eclipse.emf.common.CommonPlugin: java.lang.Class loadClass(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object callStatic(java.lang.String,java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object callStatic2(java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+unSolvedReflect>>>><org.scilab.forge.jlatexmath.MacroInfo: void <init>(java.lang.String,java.lang.String,float,float)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object field(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object newInstance(java.lang.String,double,double,double,double)>
+unSolvedReflect>>>><org.apache.commons.logging.impl.LogFactoryImpl: org.apache.commons.logging.Log createLogFromClass(java.lang.String,java.lang.String,boolean)>
+unSolvedReflect>>>><io.vertx.ext.web.handler.impl.UserHolder: int readFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><io.vertx.ext.web.sstore.AbstractSession: int readDataFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><net.sourceforge.plantuml.elk.proxy.Reflect: java.lang.Object callStatic(java.lang.String,java.lang.String)>

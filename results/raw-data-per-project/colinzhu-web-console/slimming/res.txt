@@ -1,0 +1,54 @@
+Top Project info>>>>/private/tmp/analysis-runs/colinzhu-web-console
+Project info>>>>/private/tmp/analysis-runs/colinzhu-web-console
+Project Name>>>>io.github.colinzhu:web-console:0.1.2
+OriginalSize>>>>9331KB
+BloatedSize>>>>0KB
+All Dependencies>>>>23
+Used Dependencies>>>>23
+Used Self Direct Dependency>>>>4
+Used Self Indirect Dependency>>>>19
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>0
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>0
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>0
+realBloated>>>>0
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>11410
+buildClassExtendGraphTime>>>>113
+buildCallGraphTime>>>>26048
+levelTime>>>>9
+stringTime>>>>4
+licenseCheckTime>>>>6937
+bugCheckTime>>>>122
+maintenanceTimeCheckTime>>>>0
+checkTime>>>>45825
+repairTime>>>>5710
+mvnTestTime>>>>0
+====================BloatedType=========================
+java Reflect>>>>0
+outdated>>>>0
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>869
+forName>>>>5
+loadClass>>>>5
+getClass>>>>137
+reflectEdges>>>>1003
+unReflectEdges>>>>5
+unSolvedReflect>>>><io.vertx.ext.web.sstore.AbstractSession: int readDataFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><io.vertx.core.eventbus.impl.codecs.ClusterSerializableCodec: io.vertx.core.shareddata.impl.ClusterSerializable decodeFromWire(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><io.vertx.ext.web.handler.impl.UserHolder: int readFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><io.vertx.core.impl.VertxBuilder: void initClusterManager(io.vertx.core.VertxOptions,java.util.Collection)>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>

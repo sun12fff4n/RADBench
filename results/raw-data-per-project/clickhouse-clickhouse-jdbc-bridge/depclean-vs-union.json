@@ -1,0 +1,530 @@
+{
+  "project_id": "clickhouse-clickhouse-jdbc-bridge",
+  "tool": "depclean",
+  "module_type": "single",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "depclean_total": 49,
+  "nia_total_classes": 104,
+  "nia_mapped_classes": 0,
+  "nia_proxy_recovered": 0,
+  "buckets": {
+    "used+hit": 13,
+    "used+nohit": 34,
+    "bloated+hit": 0,
+    "bloated+nohit": 2
+  },
+  "metrics": {
+    "tp": 2,
+    "fp": 0,
+    "tn": 13,
+    "fn": 34,
+    "precision": 1.0,
+    "recall": 0.0556,
+    "f1": 0.1053
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "com.github.ben-manes.caffeine:caffeine:2.9.3",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 153,
+        "static_all_classes": 692,
+        "static_ratio": 0.221,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.zaxxer:HikariCP:3.4.5",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 62,
+        "static_all_classes": 74,
+        "static_ratio": 0.838,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "dnsjava:dnsjava:3.5.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 236,
+        "static_all_classes": 287,
+        "static_ratio": 0.822,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-core:3.9.13",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 566,
+        "static_all_classes": 627,
+        "static_ratio": 0.903,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 109,
+        "static_all_classes": 136,
+        "static_ratio": 0.801,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.11.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 107,
+        "static_all_classes": 118,
+        "static_ratio": 0.907,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.11.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 636,
+        "static_all_classes": 658,
+        "static_ratio": 0.967,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-config:3.9.13",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 35,
+        "static_ratio": 0.371,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-web:3.9.13",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 37,
+        "static_all_classes": 145,
+        "static_ratio": 0.255,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.vertx:vertx-micrometer-metrics:3.9.13",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 25,
+        "static_all_classes": 55,
+        "static_ratio": 0.455,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.micrometer:micrometer-core:1.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 158,
+        "static_all_classes": 285,
+        "static_ratio": 0.554,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.micrometer:micrometer-registry-prometheus:1.1.19",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 11,
+        "static_all_classes": 14,
+        "static_ratio": 0.786,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:1.7.36",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 22,
+        "static_all_classes": 34,
+        "static_ratio": 0.647,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "org.checkerframework:checker-qual:3.19.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 16,
+        "static_all_classes": 356,
+        "static_ratio": 0.045,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.10.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 25,
+        "static_ratio": 0.16,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 378,
+        "static_all_classes": 486,
+        "static_ratio": 0.778,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-transport:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 267,
+        "static_all_classes": 362,
+        "static_ratio": 0.738,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 26,
+        "static_all_classes": 29,
+        "static_ratio": 0.897,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 261,
+        "static_all_classes": 339,
+        "static_ratio": 0.77,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 96,
+        "static_all_classes": 212,
+        "static_ratio": 0.453,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-tcnative-classes:2.0.48.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 27,
+        "static_all_classes": 28,
+        "static_ratio": 0.964,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-handler-proxy:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 12,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-socks:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 48,
+        "static_all_classes": 107,
+        "static_ratio": 0.449,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 230,
+        "static_all_classes": 379,
+        "static_ratio": 0.607,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 185,
+        "static_all_classes": 274,
+        "static_ratio": 0.675,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-resolver-dns:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 93,
+        "static_all_classes": 101,
+        "static_ratio": 0.921,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.netty:netty-codec-dns:4.1.74.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 38,
+        "static_all_classes": 45,
+        "static_ratio": 0.844,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.11.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 68,
+        "static_all_classes": 69,
+        "static_ratio": 0.986,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-web-common:3.9.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 18,
+        "static_ratio": 0.333,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-auth-common:3.9.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 27,
+        "static_ratio": 0.074,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.latencyutils:LatencyUtils:2.0.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 19,
+        "static_all_classes": 22,
+        "static_ratio": 0.864,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.hdrhistogram:HdrHistogram:2.1.10",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 39,
+        "static_all_classes": 60,
+        "static_ratio": 0.65,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.prometheus:simpleclient_common:0.5.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 2,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.prometheus:simpleclient:0.5.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 44,
+        "static_ratio": 0.182,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.slf4j:slf4j-jdk14:1.7.36",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 5,
+        "static_ratio": 0.6,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.testcontainers:testcontainers:1.16.3",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "junit:junit:4.13.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.hamcrest:hamcrest-core:1.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.commons:commons-compress:1.21",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.rnorth.duct-tape:duct-tape:1.0.8",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.jetbrains:annotations:17.0.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.github.docker-java:docker-java-api:3.2.12",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.github.docker-java:docker-java-transport-zerodep:3.2.12",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.github.docker-java:docker-java-transport:3.2.12",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.java.dev.jna:jna:5.8.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.testng:testng:6.14.3",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.beust:jcommander:1.72",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ],
+    "bloated+hit": [],
+    "bloated+nohit": [
+      {
+        "gav": "io.vertx:vertx-bridge-common:3.9.13",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.vertx:vertx-web-client:3.9.13",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 28,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ]
+  },
+  "runtime_size": 3,
+  "static_size": 11,
+  "base_union_size": 13,
+  "anchor_size": 0,
+  "final_union_size": 13,
+  "missing_from_tree_count": 0
+}

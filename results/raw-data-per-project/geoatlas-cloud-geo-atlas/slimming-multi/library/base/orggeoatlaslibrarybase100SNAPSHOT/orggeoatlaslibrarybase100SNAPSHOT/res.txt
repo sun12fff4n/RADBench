@@ -1,0 +1,61 @@
+Project info>>>>/private/tmp/analysis-runs/geoatlas-cloud-geo-atlas/library/base
+Project Name>>>>org.geo-atlas.library:base:1.0.0-SNAPSHOT
+OriginalSize>>>>16967KB
+BloatedSize>>>>49KB
+All Dependencies>>>>31
+Used Dependencies>>>>29
+Used Self Direct Dependency>>>>3
+Used Self Indirect Dependency>>>>26
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>2
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>2
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>2
+realBloated>>>>2
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>6748
+buildClassExtendGraphTime>>>>28
+buildCallGraphTime>>>>26065
+levelTime>>>>7
+stringTime>>>>5
+licenseCheckTime>>>>4057
+bugCheckTime>>>>82
+maintenanceTimeCheckTime>>>>1204
+checkTime>>>>38892
+repairTime>>>>7375
+mvnTestTime>>>>3203
+====================BloatedType=========================
+java Reflect>>>>2
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>1
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>8149
+forName>>>>94
+loadClass>>>>2
+getClass>>>>419
+reflectEdges>>>>8533
+unReflectEdges>>>>13
+unSolvedReflect>>>><org.geotools.util.logging.Logging: void setLoggerFactory(java.lang.String)>
+unSolvedReflect>>>><org.geotools.util.factory.Hints$Key: java.lang.Class getValueClass()>
+unSolvedReflect>>>><javax.media.jai.RegistryFileParser: java.lang.Object getInstance(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.ecore.impl.EPackageRegistryImpl$Delegator: java.lang.Object put(java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><tech.units.indriya.format.SymbolMap: void <init>(java.util.ResourceBundle)>
+unSolvedReflect>>>><org.geotools.util.factory.FactoryRegistry: boolean registerFromSystemProperty(java.lang.ClassLoader,java.lang.Class,java.lang.StringBuilder)>
+unSolvedReflect>>>><org.geotools.filter.FunctionImpl: org.opengis.parameter.Parameter toParameter(java.lang.String)>
+unSolvedReflect>>>><org.geotools.referencing.operation.transform.WarpTransform2DProvider: java.lang.Object createWarp(java.lang.String,float[],float[],float,float,float,float)>
+unSolvedReflect>>>><org.geotools.util.factory.GeoTools: java.lang.Object instantiate(java.lang.String,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.geotools.filter.FunctionImpl: org.opengis.parameter.Parameter toParameter(java.lang.String)>
+unSolvedReflect>>>><com.sun.media.jai.util.DataBufferUtils: java.lang.Class getDataBufferClass(int)>
+unSolvedReflect>>>><org.eclipse.emf.common.CommonPlugin: java.lang.Class loadClass(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.common.EMFPlugin: void main(java.lang.String[])>

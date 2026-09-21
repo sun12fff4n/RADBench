@@ -1,0 +1,44 @@
+ Network gitlab-panorama_default Creating 
+ Network gitlab-panorama_default Created 
+ Volume gitlab-panorama_m2-combined-galan-gitlab-panorama Creating 
+ Volume gitlab-panorama_m2-combined-galan-gitlab-panorama Created 
+ Container gitlab-panorama Creating 
+ Container gitlab-panorama Created 
+ Container gitlab-panorama Starting 
+ Container gitlab-panorama Started 
+ Container gitlab-panorama Waiting 
+ Container gitlab-panorama Healthy 
+
+[0;34m== Root + actuator ==[0m
+[0;32mPASS[0m GET  /                              (text default)         [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /                              (Accept text/html)     [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /actuator/health                                      [2m[200, all fields ✓][0m
+
+[0;34m== Adapter endpoints — empty in-memory state in 5 formats ==[0m
+[0;32mPASS[0m GET  /api/adapter/ccmenu (XML)                             [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/adapter/json (JSON empty array)                  [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/adapter/html (SPA template)                      [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /api/adapter/shell (text/plain blank for empty state) [2m[200][0m
+[0;32mPASS[0m GET  /api/adapter/prometheus (text/plain blank for empty state) [2m[200][0m
+
+[0;34m== Mutating endpoints — refresh + webhook ==[0m
+[0;32mPASS[0m GET  /api/state/refresh                                    [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /webhook/test (headers + body → 'accepted')         [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /webhook (push event → 201)                         [2m[201][0m
+[0;32mPASS[0m POST /webhook (pipeline event → 201)                     [2m[201][0m
+
+[0;34m== Webhook — richer payloads (Jackson @JsonProperty + InstantDeserializer + Status enum) ==[0m
+[0;32mPASS[0m POST /webhook (push event with nested project)             [2m[201][0m
+[0;32mPASS[0m POST /webhook (pipeline with attributes+timestamps)        [2m[201][0m
+[0;32mPASS[0m POST /webhook (push branch-delete SHA)                     [2m[201][0m
+
+[0;34m== Error handling — token rejection + unknown subtype + method not allowed ==[0m
+[0;32mPASS[0m POST /webhook (wrong token → 403)                        [2m[403][0m
+[0;32mPASS[0m POST /webhook (unknown object_kind → 400)                [2m[400][0m
+[0;31mFAIL[0m GET  /webhook (wrong method → 405)                       [2m[got 400, want 405][0m
+[0;33m--- body ---[0m
+  {"timestamp":"2026-05-22T02:54:17.515+00:00","status":400,"error":"Bad Request","path":"/webhook"}
+[0;34m== Summary ==[0m
+[0;31m1/18 checks failed[0m (17 passed).
+ Container gitlab-panorama Stopping 
+ Container gitlab-panorama Stopped 

@@ -1,0 +1,43 @@
+ Network conciliator_default Creating 
+ Network conciliator_default Created 
+ Volume conciliator_m2-combined-codeforkjeff-conciliator Creating 
+ Volume conciliator_m2-combined-codeforkjeff-conciliator Created 
+ Container conciliator-app Creating 
+ Container conciliator-app Created 
+ Container conciliator-app Starting 
+ Container conciliator-app Started 
+ Container conciliator-app Waiting 
+ Container conciliator-app Healthy 
+
+[0;34m== Utility / infra ==[0m
+[0;32mPASS[0m GET  /version                                                [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /stats (JSON with dataSources)                          [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /debug (memory usage line)                              [2m[200, body ✓][0m
+
+[0;34m== Reconcile service-metadata (no query param) ==[0m
+[0;32mPASS[0m GET  /reconcile/viaf (VIAFController)                        [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /reconcile/viaf/LC (VIAFSourceSpecificController)       [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /reconcile/viafproxy/LC (VIAFProxyController)           [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /reconcile/orcid (OrcidController)                      [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /reconcile/orcid/smartnames (OrcidSmartNamesController) [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /reconcile/openlibrary (OpenLibraryController)          [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /reconcile/solr (SolrController — unconfigured)       [2m[200][0m
+[0;32mPASS[0m GET  /reconcile/anothersolr (template controller)            [2m[200][0m
+
+[0;34m== Reconciliation query — Jackson JSON deser + SearchResponse serialization ==[0m
+[0;32mPASS[0m GET  /reconcile/viaf?query=Shakespeare (text)                [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /reconcile/viaf?query={...} (JSON struct)               [2m[200][0m
+
+[0;34m== ServiceNotImplementedException → 501 ==[0m
+[0;31mFAIL[0m GET  /reconcile/viaf/suggest/entity (→ 501)                [2m[got 500, want 501][0m
+[0;33m--- body ---[0m
+  {"timestamp":"2026-05-22T02:36:05.247+00:00","status":500,"error":"Internal Server Error","path":"/reconcile/viaf/suggest/entity"}[0;31mFAIL[0m GET  /reconcile/orcid/preview?id=x (→ 501)                 [2m[got 500, want 501][0m
+[0;33m--- body ---[0m
+  {"timestamp":"2026-05-22T02:36:05.442+00:00","status":500,"error":"Internal Server Error","path":"/reconcile/orcid/preview"}
+[0;34m== Spring 404 for unmapped paths ==[0m
+[0;32mPASS[0m GET  /bogus-no-such-route                                    [2m[404][0m
+
+[0;34m== Summary ==[0m
+[0;31m2/16 checks failed[0m (14 passed).
+ Container conciliator-app Stopping 
+ Container conciliator-app Stopped 

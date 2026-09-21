@@ -1,0 +1,117 @@
+org.apache.iotdb:rocketmq-example:jar:2.0.4-SNAPSHOT
++- org.apache.iotdb:iotdb-session:jar:2.0.5:compile
+|  +- org.apache.iotdb:service-rpc:jar:2.0.5:compile
+|  |  +- org.apache.iotdb:pipe-api:jar:2.0.5:compile
+|  |  \- org.xerial.snappy:snappy-java:jar:1.1.10.5:compile
+|  +- org.apache.iotdb:isession:jar:2.0.5:compile
+|  +- org.apache.iotdb:iotdb-thrift-commons:jar:2.0.5:compile
+|  +- org.apache.tsfile:common:jar:2.1.1:compile
+|  +- org.apache.tsfile:tsfile:jar:2.1.1:compile
+|  |  +- com.github.luben:zstd-jni:jar:1.5.5-5:compile
+|  |  +- commons-io:commons-io:jar:2.14.0:compile
+|  |  +- org.lz4:lz4-java:jar:1.8.0:compile
+|  |  +- org.tukaani:xz:jar:1.10:compile
+|  |  \- org.antlr:antlr4-runtime:jar:4.9.3:compile
+|  +- org.apache.iotdb:iotdb-thrift:jar:2.0.5:compile
+|  +- org.slf4j:slf4j-api:jar:2.0.9:compile
+|  \- org.apache.thrift:libthrift:jar:0.14.1:compile
+|     +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+|     |  +- commons-logging:commons-logging:jar:1.2:compile
+|     |  \- commons-codec:commons-codec:jar:1.16.0:compile
+|     \- org.apache.httpcomponents:httpcore:jar:4.4.12:compile
+\- org.apache.rocketmq:rocketmq-client:jar:5.3.3:compile
+   +- org.apache.rocketmq:rocketmq-remoting:jar:5.3.3:compile
+   |  +- org.apache.rocketmq:rocketmq-common:jar:5.3.3:compile
+   |  |  +- com.alibaba.fastjson2:fastjson2:jar:2.0.43:compile
+   |  |  +- io.netty:netty-all:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-buffer:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-dns:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-haproxy:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-http:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-http2:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-memcache:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-mqtt:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-redis:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-smtp:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-socks:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-stomp:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-codec-xml:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-common:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-handler:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-handler-proxy:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-handler-ssl-ocsp:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-resolver:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-resolver-dns:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-transport:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-transport-rxtx:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-transport-sctp:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-transport-udt:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-transport-classes-epoll:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-transport-classes-kqueue:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-resolver-dns-classes-macos:jar:4.1.114.Final:compile
+   |  |  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.114.Final:runtime
+   |  |  |  +- io.netty:netty-transport-native-epoll:jar:linux-aarch_64:4.1.114.Final:runtime
+   |  |  |  +- io.netty:netty-transport-native-epoll:jar:linux-riscv64:4.1.114.Final:runtime
+   |  |  |  +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.114.Final:runtime
+   |  |  |  +- io.netty:netty-transport-native-kqueue:jar:osx-aarch_64:4.1.114.Final:runtime
+   |  |  |  +- io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.114.Final:runtime
+   |  |  |  \- io.netty:netty-resolver-dns-native-macos:jar:osx-aarch_64:4.1.114.Final:runtime
+   |  |  +- commons-validator:commons-validator:jar:1.7:compile
+   |  |  |  +- commons-beanutils:commons-beanutils:jar:1.9.4:compile
+   |  |  |  +- commons-digester:commons-digester:jar:2.1:compile
+   |  |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+   |  |  +- com.google.guava:guava:jar:32.1.2-jre:compile
+   |  |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+   |  |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+   |  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+   |  |  |  +- org.checkerframework:checker-qual:jar:3.33.0:compile
+   |  |  |  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+   |  |  +- io.opentelemetry:opentelemetry-exporter-otlp:jar:1.29.0:compile
+   |  |  |  +- io.opentelemetry:opentelemetry-sdk-trace:jar:1.29.0:compile
+   |  |  |  |  \- io.opentelemetry:opentelemetry-semconv:jar:1.29.0-alpha:runtime
+   |  |  |  +- io.opentelemetry:opentelemetry-sdk-metrics:jar:1.29.0:compile
+   |  |  |  |  \- io.opentelemetry:opentelemetry-extension-incubator:jar:1.29.0-alpha:runtime
+   |  |  |  +- io.opentelemetry:opentelemetry-sdk-logs:jar:1.29.0:compile
+   |  |  |  |  \- io.opentelemetry:opentelemetry-api-events:jar:1.29.0-alpha:runtime
+   |  |  |  +- io.opentelemetry:opentelemetry-exporter-otlp-common:jar:1.29.0:runtime
+   |  |  |  |  \- io.opentelemetry:opentelemetry-exporter-common:jar:1.29.0:runtime
+   |  |  |  +- io.opentelemetry:opentelemetry-exporter-sender-okhttp:jar:1.29.0:runtime
+   |  |  |  |  \- com.squareup.okhttp3:okhttp:jar:4.11.0:runtime
+   |  |  |  |     +- com.squareup.okio:okio:jar:3.2.0:runtime
+   |  |  |  |     +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.6.20:runtime
+   |  |  |  |     |  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.6.20:runtime
+   |  |  |  |     |  \- org.jetbrains:annotations:jar:13.0:runtime
+   |  |  |  |     \- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.6.20:runtime
+   |  |  |  |        \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.6.20:runtime
+   |  |  |  \- io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.29.0:runtime
+   |  |  +- io.opentelemetry:opentelemetry-exporter-prometheus:jar:1.29.0-alpha:compile
+   |  |  +- io.opentelemetry:opentelemetry-exporter-logging:jar:1.29.0:compile
+   |  |  +- io.opentelemetry:opentelemetry-sdk:jar:1.29.0:compile
+   |  |  |  +- io.opentelemetry:opentelemetry-api:jar:1.29.0:compile
+   |  |  |  |  \- io.opentelemetry:opentelemetry-context:jar:1.29.0:compile
+   |  |  |  \- io.opentelemetry:opentelemetry-sdk-common:jar:1.29.0:compile
+   |  |  +- io.opentelemetry:opentelemetry-exporter-logging-otlp:jar:1.29.0:compile
+   |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.15.2:runtime
+   |  |  +- io.grpc:grpc-stub:jar:1.53.0:compile
+   |  |  |  +- io.grpc:grpc-api:jar:1.53.0:compile
+   |  |  |  |  \- io.grpc:grpc-context:jar:1.53.0:compile
+   |  |  |  \- com.google.errorprone:error_prone_annotations:jar:2.14.0:compile
+   |  |  +- io.grpc:grpc-netty-shaded:jar:1.53.0:compile
+   |  |  |  +- io.perfmark:perfmark-api:jar:0.25.0:runtime
+   |  |  |  \- io.grpc:grpc-core:jar:1.53.0:compile
+   |  |  |     +- com.google.code.gson:gson:jar:2.10.1:runtime
+   |  |  |     +- com.google.android:annotations:jar:4.1.1.4:runtime
+   |  |  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.21:runtime
+   |  |  +- com.squareup.okio:okio-jvm:jar:3.4.0:compile
+   |  |  +- org.apache.tomcat:annotations-api:jar:6.0.53:compile
+   |  |  \- org.apache.rocketmq:rocketmq-rocksdb:jar:1.0.2:compile
+   |  \- org.reflections:reflections:jar:0.9.11:compile
+   |     \- org.javassist:javassist:jar:3.21.0-GA:compile
+   +- org.apache.commons:commons-lang3:jar:3.13.0:compile
+   +- io.github.aliyunmq:rocketmq-slf4j-api:jar:1.0.1:compile
+   +- io.github.aliyunmq:rocketmq-logback-classic:jar:1.0.1:compile
+   +- org.yaml:snakeyaml:jar:2.0:compile
+   \- org.awaitility:awaitility:jar:4.1.0:compile
+      \- org.hamcrest:hamcrest:jar:2.1:compile

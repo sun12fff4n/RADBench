@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.hongdux:ruoyi-quarkus >----------------------
+[INFO] Building ruoyi-quarkus 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.7.0:analyze (default-cli) > test-compile @ ruoyi-quarkus >>>
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ ruoyi-quarkus ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- quarkus:3.15.1:generate-code (default) @ ruoyi-quarkus ---
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ruoyi-quarkus ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- quarkus:3.15.1:generate-code-tests (default) @ ruoyi-quarkus ---
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ ruoyi-quarkus ---
+[INFO] skip non existing resourceDirectory /project/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ruoyi-quarkus ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] <<< dependency:3.7.0:analyze (default-cli) < test-compile @ ruoyi-quarkus <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.7.0:analyze (default-cli) @ ruoyi-quarkus ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    io.smallrye:smallrye-jwt-common:jar:4.5.3:compile
+[WARNING]    io.smallrye.reactive:mutiny:jar:2.6.2:compile
+[WARNING]    org.eclipse.microprofile.jwt:microprofile-jwt-auth-api:jar:2.1:compile
+[WARNING]    org.hamcrest:hamcrest:jar:2.2:compile
+[WARNING]    io.quarkus:quarkus-vertx-http:jar:3.15.1:compile
+[WARNING]    jakarta.annotation:jakarta.annotation-api:jar:3.0.0:compile
+[WARNING]    jakarta.ws.rs:jakarta.ws.rs-api:jar:3.1.0:compile
+[WARNING]    org.eclipse.microprofile.config:microprofile-config-api:jar:3.1:compile
+[WARNING]    io.quarkus:quarkus-core:jar:3.15.1:compile
+[WARNING]    jakarta.inject:jakarta.inject-api:jar:2.0.1:compile
+[WARNING]    io.vertx:vertx-core:jar:4.5.10:compile
+[WARNING]    com.fasterxml.jackson.core:jackson-annotations:jar:2.17.2:compile
+[WARNING]    org.junit.jupiter:junit-jupiter-api:jar:5.10.3:test
+[WARNING]    jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.1.0:compile
+[WARNING]    org.slf4j:slf4j-api:jar:2.0.6:compile
+[WARNING]    io.quarkus.security:quarkus-security:jar:2.1.0:compile
+[WARNING]    io.vertx:vertx-web:jar:4.5.10:compile
+[WARNING] Unused declared dependencies found:
+[WARNING]    io.quarkus:quarkus-arc:jar:3.15.1:compile
+[WARNING]    io.quarkus:quarkus-rest-jackson:jar:3.15.1:compile
+[WARNING]    io.quarkus:quarkus-elytron-security-common:jar:3.15.1:compile
+[WARNING]    io.quarkus:quarkus-rest:jar:3.15.1:compile
+[WARNING]    eu.bitwalker:UserAgentUtils:jar:1.21:compile
+[WARNING] Non-test scoped test only dependencies found:
+[WARNING]    org.hamcrest:hamcrest:jar:2.2:compile
+[WARNING]    io.rest-assured:rest-assured:jar:5.5.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.047 s
+[INFO] Finished at: 2026-06-16T09:22:22Z
+[INFO] ------------------------------------------------------------------------

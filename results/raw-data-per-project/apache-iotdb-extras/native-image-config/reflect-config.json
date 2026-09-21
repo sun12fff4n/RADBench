@@ -1,0 +1,1025 @@
+[
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.KeyDeserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.ValueInstantiators;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.ser.Serializers;"
+},
+{
+  "name":"[Ljava.lang.Class;"
+},
+{
+  "name":"[Lorg.eclipse.jetty.servlet.ServletMapping;"
+},
+{
+  "name":"[Lorg.glassfish.jersey.servlet.internal.spi.ServletContainerProvider;"
+},
+{
+  "name":"ch.qos.logback.classic.Level",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.filter.LevelFilter",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setLevel","parameterTypes":["ch.qos.logback.classic.Level"] }]
+},
+{
+  "name":"ch.qos.logback.classic.joran.SerializedModelConfigurator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.ClassOfCallerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.DateConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LineOfCallerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LineSeparatorConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.MessageConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.ThreadConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.util.DefaultJoranConfigurator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.ConsoleAppender",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.FileAppender",
+  "methods":[{"name":"setAppend","parameterTypes":["boolean"] }, {"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.OutputStreamAppender",
+  "methods":[{"name":"setEncoder","parameterTypes":["ch.qos.logback.core.encoder.Encoder"] }]
+},
+{
+  "name":"ch.qos.logback.core.UnsynchronizedAppenderBase",
+  "methods":[{"name":"addFilter","parameterTypes":["ch.qos.logback.core.filter.Filter"] }]
+},
+{
+  "name":"ch.qos.logback.core.encoder.Encoder",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+  "methods":[{"name":"setCharset","parameterTypes":["java.nio.charset.Charset"] }, {"name":"setParent","parameterTypes":["ch.qos.logback.core.spi.ContextAware"] }]
+},
+{
+  "name":"ch.qos.logback.core.filter.AbstractMatcherFilter",
+  "methods":[{"name":"setOnMatch","parameterTypes":["ch.qos.logback.core.spi.FilterReply"] }, {"name":"setOnMismatch","parameterTypes":["ch.qos.logback.core.spi.FilterReply"] }]
+},
+{
+  "name":"ch.qos.logback.core.filter.Filter",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+  "methods":[{"name":"setPattern","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.RollingFileAppender",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setFile","parameterTypes":["java.lang.String"] }, {"name":"setRollingPolicy","parameterTypes":["ch.qos.logback.core.rolling.RollingPolicy"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.RollingPolicy",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.RollingPolicyBase",
+  "methods":[{"name":"setFileNamePattern","parameterTypes":["java.lang.String"] }, {"name":"setParent","parameterTypes":["ch.qos.logback.core.FileAppender"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.TimeBasedRollingPolicy",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setMaxHistory","parameterTypes":["int"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.helper.DateTokenConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.spi.ContextAware",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.spi.FilterReply",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.status.NopStatusListener",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.core.Versioned",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"addUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"checkCanDeserialize","parameterTypes":["boolean"] }, {"name":"checkCanSerialize","parameterTypes":["boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","boolean"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature[]"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature[]"] }, {"name":"getSize","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isEnabled","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"isReadable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isWriteable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"locateMapper","parameterTypes":["java.lang.Class","javax.ws.rs.core.MediaType"] }, {"name":"readFrom","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.InputStream"] }, {"name":"removeUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"setAnnotationsToUse","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.Annotations[]"] }, {"name":"setDefaultReadView","parameterTypes":["java.lang.Class"] }, {"name":"setDefaultView","parameterTypes":["java.lang.Class"] }, {"name":"setDefaultWriteView","parameterTypes":["java.lang.Class"] }, {"name":"setMapper","parameterTypes":["com.fasterxml.jackson.databind.ObjectMapper"] }, {"name":"version","parameterTypes":[] }, {"name":"writeTo","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.OutputStream"] }]
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.jaxrs.base.ProviderBase",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"_addSuperTypes","parameterTypes":["java.lang.Class","java.lang.Class","java.util.Collection","boolean"] }, {"name":"_configForReading","parameterTypes":["com.fasterxml.jackson.databind.ObjectMapper","java.lang.annotation.Annotation[]","java.lang.Class"] }, {"name":"_configForReading","parameterTypes":["com.fasterxml.jackson.databind.ObjectReader","java.lang.annotation.Annotation[]"] }, {"name":"_configForWriting","parameterTypes":["com.fasterxml.jackson.databind.ObjectMapper","java.lang.annotation.Annotation[]","java.lang.Class"] }, {"name":"_configForWriting","parameterTypes":["com.fasterxml.jackson.databind.ObjectWriter","java.lang.annotation.Annotation[]"] }, {"name":"_containedIn","parameterTypes":["java.lang.Class","java.util.HashSet"] }, {"name":"_createGenerator","parameterTypes":["com.fasterxml.jackson.databind.ObjectWriter","java.io.OutputStream","com.fasterxml.jackson.core.JsonEncoding"] }, {"name":"_createNoContentException","parameterTypes":[] }, {"name":"_createParser","parameterTypes":["com.fasterxml.jackson.databind.ObjectReader","java.io.InputStream"] }, {"name":"_endpointForReading","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap"] }, {"name":"_endpointForWriting","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap"] }, {"name":"_findCustomUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"_isIgnorableForReading","parameterTypes":["com.fasterxml.jackson.jaxrs.util.ClassKey"] }, {"name":"_isIgnorableForWriting","parameterTypes":["com.fasterxml.jackson.jaxrs.util.ClassKey"] }, {"name":"_isSpecialReadable","parameterTypes":["java.lang.Class"] }, {"name":"_locateMapperViaProvider","parameterTypes":["java.lang.Class","javax.ws.rs.core.MediaType"] }, {"name":"_modifyHeaders","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MultivaluedMap","com.fasterxml.jackson.jaxrs.cfg.EndpointConfigBase"] }, {"name":"_this","parameterTypes":[] }, {"name":"addUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"checkCanDeserialize","parameterTypes":["boolean"] }, {"name":"checkCanSerialize","parameterTypes":["boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","boolean"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature[]"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature[]"] }, {"name":"findEncoding","parameterTypes":["javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap"] }, {"name":"findSuperTypes","parameterTypes":["java.lang.Class","java.lang.Class"] }, {"name":"findSuperTypes","parameterTypes":["java.lang.Class","java.lang.Class","java.util.List"] }, {"name":"getSize","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"hasMatchingMediaType","parameterTypes":["javax.ws.rs.core.MediaType"] }, {"name":"hasMatchingMediaTypeForReading","parameterTypes":["javax.ws.rs.core.MediaType"] }, {"name":"hasMatchingMediaTypeForWriting","parameterTypes":["javax.ws.rs.core.MediaType"] }, {"name":"isEnabled","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"isReadable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isWriteable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"locateMapper","parameterTypes":["java.lang.Class","javax.ws.rs.core.MediaType"] }, {"name":"readFrom","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.InputStream"] }, {"name":"removeUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"setAnnotationsToUse","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.Annotations[]"] }, {"name":"setDefaultReadView","parameterTypes":["java.lang.Class"] }, {"name":"setDefaultView","parameterTypes":["java.lang.Class"] }, {"name":"setDefaultWriteView","parameterTypes":["java.lang.Class"] }, {"name":"setJSONPFunctionName","parameterTypes":["java.lang.String"] }, {"name":"setMapper","parameterTypes":["com.fasterxml.jackson.databind.ObjectMapper"] }, {"name":"writeTo","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.OutputStream"] }]
+},
+{
+  "name":"com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"_configForReading","parameterTypes":["com.fasterxml.jackson.databind.ObjectReader","java.lang.annotation.Annotation[]"] }, {"name":"_configForWriting","parameterTypes":["com.fasterxml.jackson.databind.ObjectWriter","java.lang.annotation.Annotation[]"] }, {"name":"_locateMapperViaProvider","parameterTypes":["java.lang.Class","javax.ws.rs.core.MediaType"] }, {"name":"hasMatchingMediaType","parameterTypes":["javax.ws.rs.core.MediaType"] }, {"name":"setJSONPFunctionName","parameterTypes":["java.lang.String"] }, {"name":"version","parameterTypes":[] }]
+},
+{
+  "name":"com.lmax.disruptor.AbstractSequencer",
+  "fields":[{"name":"gatingSequences"}]
+},
+{
+  "name":"com.lmax.disruptor.Value",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.swagger.annotations.ApiParam",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"io.swagger.jaxrs.listing.AcceptHeaderApiListingResource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"getListingJson","parameterTypes":["javax.ws.rs.core.Application","javax.servlet.ServletConfig","javax.ws.rs.core.HttpHeaders","javax.ws.rs.core.UriInfo"] }, {"name":"getListingYaml","parameterTypes":["javax.ws.rs.core.Application","javax.servlet.ServletConfig","javax.ws.rs.core.HttpHeaders","javax.ws.rs.core.UriInfo"] }]
+},
+{
+  "name":"io.swagger.jaxrs.listing.ApiListingResource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"getListing","parameterTypes":["javax.ws.rs.core.Application","javax.servlet.ServletConfig","javax.ws.rs.core.HttpHeaders","javax.ws.rs.core.UriInfo","java.lang.String"] }]
+},
+{
+  "name":"io.swagger.jaxrs.listing.BaseApiListingResource",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getBasePath","parameterTypes":["javax.ws.rs.core.UriInfo"] }, {"name":"getCookies","parameterTypes":["javax.ws.rs.core.HttpHeaders"] }, {"name":"getHeaders","parameterTypes":["javax.ws.rs.core.HttpHeaders"] }, {"name":"getListingJsonResponse","parameterTypes":["javax.ws.rs.core.Application","javax.servlet.ServletContext","javax.servlet.ServletConfig","javax.ws.rs.core.HttpHeaders","javax.ws.rs.core.UriInfo"] }, {"name":"getListingYamlResponse","parameterTypes":["javax.ws.rs.core.Application","javax.servlet.ServletContext","javax.servlet.ServletConfig","javax.ws.rs.core.HttpHeaders","javax.ws.rs.core.UriInfo"] }, {"name":"getQueryParams","parameterTypes":["javax.ws.rs.core.MultivaluedMap"] }, {"name":"process","parameterTypes":["javax.ws.rs.core.Application","javax.servlet.ServletContext","javax.servlet.ServletConfig","javax.ws.rs.core.HttpHeaders","javax.ws.rs.core.UriInfo"] }, {"name":"scan","parameterTypes":["javax.ws.rs.core.Application","javax.servlet.ServletContext","javax.servlet.ServletConfig","javax.ws.rs.core.UriInfo"] }]
+},
+{
+  "name":"io.swagger.jaxrs.listing.SwaggerSerializers",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getSize","parameterTypes":["io.swagger.models.Swagger","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isWriteable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"setPrettyPrint","parameterTypes":["boolean"] }, {"name":"writeTo","parameterTypes":["io.swagger.models.Swagger","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.OutputStream"] }]
+},
+{
+  "name":"java.awt.image.RenderedImage"
+},
+{
+  "name":"java.io.FilePermission"
+},
+{
+  "name":"java.lang.Boolean",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Byte",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Class",
+  "methods":[{"name":"getModule","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Double",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Float",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Integer",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Long",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Module",
+  "methods":[{"name":"getDescriptor","parameterTypes":[] }, {"name":"getLayer","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.ModuleLayer",
+  "methods":[{"name":"configuration","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.RuntimePermission"
+},
+{
+  "name":"java.lang.Short",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.String",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }, {"name":"fromString","parameterTypes":["java.lang.String"] }, {"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}]
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getUptime","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.module.Configuration",
+  "methods":[{"name":"findModule","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.module.ModuleReference",
+  "methods":[{"name":"location","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.module.ResolvedModule",
+  "methods":[{"name":"reference","parameterTypes":[] }]
+},
+{
+  "name":"java.net.NetPermission"
+},
+{
+  "name":"java.net.SocketPermission"
+},
+{
+  "name":"java.net.URLPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.nio.charset.Charset",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.security.AllPermission"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.SecurityPermission"
+},
+{
+  "name":"java.sql.SQLException",
+  "fields":[{"name":"next"}]
+},
+{
+  "name":"java.util.PropertyPermission"
+},
+{
+  "name":"java.util.concurrent.Flow$Subscriber"
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"javax.activation.DataSource"
+},
+{
+  "name":"javax.inject.Named",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"javax.inject.Singleton",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"javax.smartcardio.CardPermission"
+},
+{
+  "name":"javax.validation.Valid",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"javax.ws.rs.core.Application",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"javax.ws.rs.core.Feature",
+  "methods":[{"name":"configure","parameterTypes":["javax.ws.rs.core.FeatureContext"] }]
+},
+{
+  "name":"javax.ws.rs.ext.MessageBodyReader",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"addUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"checkCanDeserialize","parameterTypes":["boolean"] }, {"name":"checkCanSerialize","parameterTypes":["boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","boolean"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature[]"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature[]"] }, {"name":"getSize","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isEnabled","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"isReadable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isWriteable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"locateMapper","parameterTypes":["java.lang.Class","javax.ws.rs.core.MediaType"] }, {"name":"readFrom","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.InputStream"] }, {"name":"removeUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"setAnnotationsToUse","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.Annotations[]"] }, {"name":"setDefaultReadView","parameterTypes":["java.lang.Class"] }, {"name":"setDefaultView","parameterTypes":["java.lang.Class"] }, {"name":"setDefaultWriteView","parameterTypes":["java.lang.Class"] }, {"name":"setMapper","parameterTypes":["com.fasterxml.jackson.databind.ObjectMapper"] }, {"name":"version","parameterTypes":[] }, {"name":"writeTo","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.OutputStream"] }]
+},
+{
+  "name":"javax.ws.rs.ext.MessageBodyWriter",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"addUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"checkCanDeserialize","parameterTypes":["boolean"] }, {"name":"checkCanSerialize","parameterTypes":["boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature","boolean"] }, {"name":"configure","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","boolean"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"disable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature[]"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator$Feature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.core.JsonParser$Feature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.databind.DeserializationFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.databind.SerializationFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"enable","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature","com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature[]"] }, {"name":"getSize","parameterTypes":["io.swagger.models.Swagger","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"getSize","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"getSize","parameterTypes":["org.glassfish.jersey.media.multipart.MultiPart","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isEnabled","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature"] }, {"name":"isReadable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isWriteable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"locateMapper","parameterTypes":["java.lang.Class","javax.ws.rs.core.MediaType"] }, {"name":"readFrom","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.InputStream"] }, {"name":"removeUntouchable","parameterTypes":["java.lang.Class"] }, {"name":"setAnnotationsToUse","parameterTypes":["com.fasterxml.jackson.jaxrs.cfg.Annotations[]"] }, {"name":"setDefaultReadView","parameterTypes":["java.lang.Class"] }, {"name":"setDefaultView","parameterTypes":["java.lang.Class"] }, {"name":"setDefaultWriteView","parameterTypes":["java.lang.Class"] }, {"name":"setMapper","parameterTypes":["com.fasterxml.jackson.databind.ObjectMapper"] }, {"name":"setPrettyPrint","parameterTypes":["boolean"] }, {"name":"version","parameterTypes":[] }, {"name":"writeTo","parameterTypes":["io.swagger.models.Swagger","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.OutputStream"] }, {"name":"writeTo","parameterTypes":["java.lang.Object","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.OutputStream"] }, {"name":"writeTo","parameterTypes":["org.glassfish.jersey.media.multipart.MultiPart","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.OutputStream"] }]
+},
+{
+  "name":"javax.ws.rs.ext.ParamConverterProvider",
+  "methods":[{"name":"getConverter","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]"] }]
+},
+{
+  "name":"javax.xml.transform.Source"
+},
+{
+  "name":"javax.xml.transform.dom.DOMSource"
+},
+{
+  "name":"javax.xml.transform.sax.SAXSource"
+},
+{
+  "name":"javax.xml.transform.stream.StreamSource"
+},
+{
+  "name":"org.apache.iotdb.collector.api.filter.ApiOriginFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.ping.JacksonJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.ping.LocalDateProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConverter","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.ping.OffsetDateTimeProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConverter","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.ping.PingApi",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.servlet.ServletConfig"] }, {"name":"tryPing","parameterTypes":["javax.ws.rs.core.SecurityContext"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.ping.model.ExecutionStatus",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getCode","parameterTypes":[] }, {"name":"getMessage","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.plugin.JacksonJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.plugin.LocalDateProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConverter","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.plugin.OffsetDateTimeProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConverter","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.plugin.PluginApi",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.servlet.ServletConfig"] }, {"name":"createPlugin","parameterTypes":["org.apache.iotdb.collector.api.v1.plugin.model.CreatePluginRequest","javax.ws.rs.core.SecurityContext"] }, {"name":"dropPlugin","parameterTypes":["org.apache.iotdb.collector.api.v1.plugin.model.DropPluginRequest","javax.ws.rs.core.SecurityContext"] }, {"name":"showPlugin","parameterTypes":["javax.ws.rs.core.SecurityContext"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.plugin.model.CreatePluginRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.plugin.model.DropPluginRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.task.JacksonJsonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.task.LocalDateProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConverter","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.task.OffsetDateTimeProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConverter","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.task.TaskApi",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.servlet.ServletConfig"] }, {"name":"alterTask","parameterTypes":["org.apache.iotdb.collector.api.v1.task.model.AlterTaskRequest","javax.ws.rs.core.SecurityContext"] }, {"name":"createTask","parameterTypes":["org.apache.iotdb.collector.api.v1.task.model.CreateTaskRequest","javax.ws.rs.core.SecurityContext"] }, {"name":"dropTask","parameterTypes":["org.apache.iotdb.collector.api.v1.task.model.DropTaskRequest","javax.ws.rs.core.SecurityContext"] }, {"name":"showTask","parameterTypes":["javax.ws.rs.core.SecurityContext"] }, {"name":"startTask","parameterTypes":["org.apache.iotdb.collector.api.v1.task.model.StartTaskRequest","javax.ws.rs.core.SecurityContext"] }, {"name":"stopTask","parameterTypes":["org.apache.iotdb.collector.api.v1.task.model.StopTaskRequest","javax.ws.rs.core.SecurityContext"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.task.model.CreateTaskRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setProcessorAttribute","parameterTypes":["java.util.Map"] }, {"name":"setSinkAttribute","parameterTypes":["java.util.Map"] }, {"name":"setSourceAttribute","parameterTypes":["java.util.Map"] }, {"name":"setTaskId","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.task.model.DropTaskRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setTaskId","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.task.model.StartTaskRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.api.v1.task.model.StopTaskRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.iotdb.collector.config.ApiServiceOptions"
+},
+{
+  "name":"org.apache.iotdb.collector.config.PipeRuntimeOptions"
+},
+{
+  "name":"org.apache.iotdb.collector.config.PluginRuntimeOptions"
+},
+{
+  "name":"org.apache.iotdb.collector.config.TaskRuntimeOptions"
+},
+{
+  "name":"org.apache.iotdb.collector.runtime.plugin.meta.PluginMeta",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getClassName","parameterTypes":[] }, {"name":"getJarMD5","parameterTypes":[] }, {"name":"getJarName","parameterTypes":[] }, {"name":"getPluginName","parameterTypes":[] }, {"name":"isBuiltin","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jetty.util.ModuleLocation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jetty.util.log.Slf4jLog",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.hk2.internal.PerThreadContext",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.ContextInjectionResolverImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.Hk2InjectionManagerFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.Hk2RequestScope",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.InstanceSupplierFactoryBridge",
+  "methods":[{"name":"provide","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.JerseyErrorService",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.RequestContext",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.glassfish.jersey.process.internal.RequestScope"] }]
+},
+{
+  "name":"org.glassfish.jersey.inject.hk2.SupplierFactoryBridge",
+  "methods":[{"name":"provide","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.internal.JaxrsProviders",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider","javax.inject.Provider","javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.internal.inject.AbstractBinder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"bind","parameterTypes":["java.lang.Class"] }, {"name":"bind","parameterTypes":["java.lang.Object"] }, {"name":"bind","parameterTypes":["org.glassfish.jersey.internal.inject.Binding"] }, {"name":"bind","parameterTypes":["org.glassfish.jersey.internal.inject.InjectionResolver"] }, {"name":"bindAsContract","parameterTypes":["java.lang.Class"] }, {"name":"bindAsContract","parameterTypes":["java.lang.reflect.Type"] }, {"name":"bindAsContract","parameterTypes":["javax.ws.rs.core.GenericType"] }, {"name":"bindFactory","parameterTypes":["java.lang.Class"] }, {"name":"bindFactory","parameterTypes":["java.lang.Class","java.lang.Class"] }, {"name":"bindFactory","parameterTypes":["java.util.function.Supplier"] }, {"name":"configure","parameterTypes":[] }, {"name":"createManagedInstanceProvider","parameterTypes":["java.lang.Class"] }, {"name":"getBindings","parameterTypes":[] }, {"name":"install","parameterTypes":["org.glassfish.jersey.internal.inject.AbstractBinder[]"] }, {"name":"invokeConfigure","parameterTypes":[] }, {"name":"setInjectionManager","parameterTypes":["org.glassfish.jersey.internal.inject.InjectionManager"] }]
+},
+{
+  "name":"org.glassfish.jersey.internal.inject.Binder",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"bind","parameterTypes":["java.lang.Class"] }, {"name":"bind","parameterTypes":["java.lang.Object"] }, {"name":"bind","parameterTypes":["org.glassfish.jersey.internal.inject.Binding"] }, {"name":"bind","parameterTypes":["org.glassfish.jersey.internal.inject.InjectionResolver"] }, {"name":"bindAsContract","parameterTypes":["java.lang.Class"] }, {"name":"bindAsContract","parameterTypes":["java.lang.reflect.Type"] }, {"name":"bindAsContract","parameterTypes":["javax.ws.rs.core.GenericType"] }, {"name":"bindFactory","parameterTypes":["java.lang.Class"] }, {"name":"bindFactory","parameterTypes":["java.lang.Class","java.lang.Class"] }, {"name":"bindFactory","parameterTypes":["java.util.function.Supplier"] }, {"name":"getBindings","parameterTypes":[] }, {"name":"install","parameterTypes":["org.glassfish.jersey.internal.inject.AbstractBinder[]"] }]
+},
+{
+  "name":"org.glassfish.jersey.internal.inject.Custom",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.internal.inject.ParamConverters$AggregatedProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.glassfish.jersey.internal.inject.InjectionManager","javax.ws.rs.core.Configuration"] }]
+},
+{
+  "name":"org.glassfish.jersey.internal.inject.ReferencingFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.logging.LoggingFeatureAutoDiscoverable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.MultiPartFeature",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"configure","parameterTypes":["javax.ws.rs.core.FeatureContext"] }]
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.internal.FormDataParamInjectionFeature",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"configure","parameterTypes":["javax.ws.rs.core.FeatureContext"] }]
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.internal.FormDataParamInjectionFeature$1",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"configure","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.internal.MultiPartReaderClientSide",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"createMimeConfig","parameterTypes":["org.glassfish.jersey.media.multipart.MultiPartProperties"] }, {"name":"getMimeParts","parameterTypes":["org.jvnet.mimepull.MIMEMessage"] }, {"name":"isReadable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"readFrom","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.InputStream"] }, {"name":"readMultiPart","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.InputStream"] }, {"name":"unquoteMediaTypeParameters","parameterTypes":["javax.ws.rs.core.MediaType","java.lang.String[]"] }]
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.internal.MultiPartReaderServerSide",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.ws.rs.ext.Providers","javax.inject.Provider","javax.inject.Provider"] }, {"name":"readMultiPart","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.InputStream"] }]
+},
+{
+  "name":"org.glassfish.jersey.media.multipart.internal.MultiPartWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.ws.rs.ext.Providers"] }, {"name":"getSize","parameterTypes":["org.glassfish.jersey.media.multipart.MultiPart","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"isWriteable","parameterTypes":["java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType"] }, {"name":"writeTo","parameterTypes":["org.glassfish.jersey.media.multipart.MultiPart","java.lang.Class","java.lang.reflect.Type","java.lang.annotation.Annotation[]","javax.ws.rs.core.MediaType","javax.ws.rs.core.MultivaluedMap","java.io.OutputStream"] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.AbstractFormProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.message.internal.AbstractMessageReaderWriterProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.message.internal.BasicTypesMessageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.ByteArrayProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.DataSourceProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.EnumMessageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.FileProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.FormMultivaluedMapProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.FormProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.InputStreamProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.ReaderProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.RenderedImageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.SourceProvider$DomSourceReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.SourceProvider$SaxSourceReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.SourceProvider$SourceWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.inject.Provider","javax.inject.Provider"] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.SourceProvider$StreamSourceReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.StreamingOutputProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.message.internal.StringMessageProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.process.Inflector",
+  "methods":[{"name":"apply","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"org.glassfish.jersey.process.internal.RequestScope",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.server.BackgroundScheduler",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.server.ChunkedResponseWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.ManagedAsyncExecutor",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.server.ResourceConfig",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.server.ServerExecutorProvidersConfigurator$DefaultBackgroundSchedulerProvider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.server.ServerExecutorProvidersConfigurator$DefaultManagedAsyncExecutorProvider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.server.filter.internal.ServerFiltersAutoDiscoverable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.internal.JsonWithPaddingInterceptor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.internal.monitoring.MonitoringAutodiscoverable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.internal.monitoring.MonitoringContainerListener",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.internal.process.RequestProcessingConfigurator$ContainerRequestFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.glassfish.jersey.server.internal.process.RequestProcessingContextReference"] }]
+},
+{
+  "name":"org.glassfish.jersey.server.internal.process.RequestProcessingContextReference",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.internal.process.SecurityContextInjectee",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["javax.ws.rs.container.ContainerRequestContext"] }]
+},
+{
+  "name":"org.glassfish.jersey.server.model.Parameter$ServerParameterService",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.wadl.WadlFeature",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"configure","parameterTypes":["javax.ws.rs.core.FeatureContext"] }]
+},
+{
+  "name":"org.glassfish.jersey.server.wadl.internal.WadlAutoDiscoverable",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.server.wadl.processor.OptionsMethodProcessor$GenericOptionsInflector",
+  "queryAllPublicMethods":true,
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.glassfish.jersey.server.wadl.processor.OptionsMethodProcessor$PlainTextOptionsInflector",
+  "queryAllPublicMethods":true,
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.glassfish.jersey.servlet.ServletContainer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.servlet.WebComponent$HttpServletRequestReferencingFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.glassfish.jersey.servlet.WebComponent$HttpServletResponseReferencingFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.glassfish.jersey.servlet.WebComponent$WebComponentBinder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"configure","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.spi.AbstractThreadPoolProvider",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.glassfish.jersey.spi.ScheduledThreadPoolExecutorProvider",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"preDestroy","parameterTypes":[] }]
+},
+{
+  "name":"org.glassfish.jersey.spi.ThreadPoolExecutorProvider",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"preDestroy","parameterTypes":[] }]
+},
+{
+  "name":"org.jvnet.hk2.internal.DynamicConfigurationServiceImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.glassfish.hk2.api.ServiceLocator"] }]
+},
+{
+  "name":"org.jvnet.hk2.internal.ServiceLocatorRuntimeImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.glassfish.hk2.api.ServiceLocator"] }]
+},
+{
+  "name":"org.osgi.framework.BundleReference"
+},
+{
+  "name":"org.slf4j.Logger"
+},
+{
+  "name":"org.sqlite.JDBC"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

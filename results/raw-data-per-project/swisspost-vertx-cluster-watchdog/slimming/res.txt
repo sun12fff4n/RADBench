@@ -1,0 +1,71 @@
+Top Project info>>>>/private/tmp/analysis-runs/swisspost-vertx-cluster-watchdog
+Project info>>>>/private/tmp/analysis-runs/swisspost-vertx-cluster-watchdog
+Project Name>>>>org.swisspush:cluster-watchdog:3.1.7-SNAPSHOT
+OriginalSize>>>>26272KB
+BloatedSize>>>>0KB
+All Dependencies>>>>34
+Used Dependencies>>>>34
+Used Self Direct Dependency>>>>11
+Used Self Indirect Dependency>>>>23
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>0
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>0
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>0
+realBloated>>>>0
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>13783
+buildClassExtendGraphTime>>>>224
+buildCallGraphTime>>>>85107
+levelTime>>>>75
+stringTime>>>>15
+licenseCheckTime>>>>11027
+bugCheckTime>>>>244
+maintenanceTimeCheckTime>>>>2
+checkTime>>>>112764
+repairTime>>>>14682
+mvnTestTime>>>>0
+====================BloatedType=========================
+java Reflect>>>>0
+outdated>>>>0
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>0
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>4487
+forName>>>>40
+loadClass>>>>26
+getClass>>>>818
+reflectEdges>>>>5261
+unReflectEdges>>>>22
+unSolvedReflect>>>><org.apache.commons.lang.ArrayUtils: java.lang.Class class$(java.lang.String)>
+unSolvedReflect>>>><com.hazelcast.shaded.com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><com.hazelcast.query.impl.getters.ExtractorHelper: com.hazelcast.query.extractor.ValueExtractor instantiateExtractorWithClassForName(com.hazelcast.config.AttributeConfig)>
+unSolvedReflect>>>><com.hazelcast.shaded.com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><com.hazelcast.shaded.com.zaxxer.hikari.HikariConfig: java.lang.Class attemptFromContextLoader(java.lang.String)>
+unSolvedReflect>>>><com.hazelcast.internal.tpcengine.util.ReflectionUtil: java.lang.Object findStaticFieldValue(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><io.vertx.core.impl.VertxBuilder: void initClusterManager(io.vertx.core.VertxOptions,java.util.Collection)>
+unSolvedReflect>>>><com.hazelcast.shaded.com.zaxxer.hikari.util.UtilityElf: boolean safeIsAssignableFrom(java.lang.Object,java.lang.String)>
+unSolvedReflect>>>><com.hazelcast.internal.usercodedeployment.impl.ClassDataProvider: java.util.Map loadInnerClasses(java.lang.String)>
+unSolvedReflect>>>><com.hazelcast.instance.impl.executejar.MainMethodFinder: void findMainMethod(java.lang.ClassLoader,java.lang.String)>
+unSolvedReflect>>>><io.vertx.core.eventbus.impl.codecs.ClusterSerializableCodec: io.vertx.core.shareddata.impl.ClusterSerializable decodeFromWire(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><io.vertx.ext.web.handler.impl.UserHolder: int readFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><com.hazelcast.shaded.com.zaxxer.hikari.util.UtilityElf: java.lang.Object createInstance(java.lang.String,java.lang.Class,java.lang.Object[])>
+unSolvedReflect>>>><io.vertx.ext.web.sstore.AbstractSession: int readDataFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><com.hazelcast.internal.nio.ClassLoaderUtil: java.lang.Class tryLoadClass(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><com.hazelcast.query.impl.getters.ExtractorHelper: com.hazelcast.query.extractor.ValueExtractor instantiateExtractorWithConfigClassLoader(com.hazelcast.config.AttributeConfig,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.hazelcast.jet.impl.util.ReflectionUtils: java.lang.Object readStaticFieldOrNull(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><com.hazelcast.shaded.com.zaxxer.hikari.HikariConfig: void setExceptionOverrideClassName(java.lang.String)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><com.hazelcast.internal.nio.ClassLoaderUtil: java.lang.Class tryLoadClass(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.hazelcast.internal.nio.ClassLoaderUtil: java.lang.Object newInstance0(java.lang.ClassLoader,java.lang.String)>

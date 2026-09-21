@@ -1,0 +1,67 @@
+ Volume clklog_m2-combined-clklog-clklog-api Creating 
+ Volume clklog_m2-combined-clklog-clklog-api Created 
+ Container clklog-clickhouse Running 
+ Container clklog-redis Running 
+ Container clklog-app Creating 
+ Container clklog-app Created 
+ Container clklog-redis Waiting 
+ Container clklog-clickhouse Waiting 
+ Container clklog-redis Healthy 
+ Container clklog-clickhouse Healthy 
+ Container clklog-app Starting 
+ Container clklog-app Started 
+ Container clklog-clickhouse Waiting 
+ Container clklog-app Waiting 
+ Container clklog-redis Waiting 
+ Container clklog-clickhouse Healthy 
+ Container clklog-redis Healthy 
+ Container clklog-app Healthy 
+
+[0;34m== Infra sanity ==[0m
+[0;32mPASS[0m GET  /actuator/health                                        [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /actuator (HAL links)                                   [2m[200, body ✓][0m
+
+[0;34m== API surface (contract) ==[0m
+[0;32mPASS[0m GET  /v3/api-docs (springdoc)                                [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /swagger-ui.html → redirect                           [2m[302][0m
+[0;32mPASS[0m GET  /doc.html (knife4j)                                     [2m[200, body ✓][0m
+
+[0;34m== Public: GET /profile (only anonymous-friendly endpoint) ==[0m
+[0;32mPASS[0m GET  /profile                                                [2m[200, body ✓][0m
+
+[0;34m== Protected business endpoints (one per controller, deny path) ==[0m
+[0;32mPASS[0m POST /flow/getFlow (deny path)                               [2m[200, body ✓][0m
+[0;32mPASS[0m POST /device/getDeviceDetail (deny path)                     [2m[200, body ✓][0m
+[0;32mPASS[0m POST /os/getOsDetail (deny path)                             [2m[200, body ✓][0m
+[0;32mPASS[0m POST /area/getArea (deny path)                               [2m[200, body ✓][0m
+[0;32mPASS[0m POST /channel/getChannel (deny path)                         [2m[200, body ✓][0m
+[0;32mPASS[0m POST /searchword/getSearchWordTop10 (deny path)              [2m[200, body ✓][0m
+[0;32mPASS[0m POST /sourcewebsite/getSourceWebsite (deny path)             [2m[200, body ✓][0m
+[0;32mPASS[0m POST /visitor/getTopUserByRegion (deny path)                 [2m[200, body ✓][0m
+[0;32mPASS[0m POST /visitUri/getVisitUri (deny path)                       [2m[200, body ✓][0m
+[0;32mPASS[0m POST /userVisit/getUserVisit (deny path)                     [2m[200, body ✓][0m
+[0;32mPASS[0m POST /appCrashed/totalSummary (deny path)                    [2m[200, body ✓][0m
+[0;32mPASS[0m POST /download/exportFlowTrendDetail (deny path)             [2m[200, body ✓][0m
+[0;32mPASS[0m POST /profile/subscribe (deny path)                          [2m[200, body ✓][0m
+
+[0;34m== Auth-injection: Redis-staged LoginUser + manual JWT (jjwt 0.9.1 secret) ==[0m
+[2mStaged Redis key login_tokens:8f768ff6-922c-4811-b591-f6caeded4a5e[0m
+[2mForged token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...[0m
+[0;32mPASS[0m POST /profile/subscribe (real success after inject)          [2m[200, body ✓][0m
+[2mSeeded flow_trend_bydate (3 rows) + flow_trend_byhour (2 rows)[0m
+[0;32mPASS[0m POST /flow/getFlow (REAL 200 after CH seed) — pv summed=220 [2m[200, body ✓][0m
+[0;32mPASS[0m POST /searchword/getSearchWordTop10 (auth bypassed; CH missing → 500) [2m[500, body ✓][0m
+[0;31mFAIL[0m POST /channel/getChannel (empty projectName → validation)  [2m[got 404, want 400][0m
+[0;33m--- body ---[0m
+  {"timestamp":1779416939552,"status":404,"error":"Not Found","path":"/channel/getChannel"}[0;32mPASS[0m POST /flow/getFlow (forged token, no Redis entry → deny)   [2m[200, body ✓][0m
+
+[0;34m== HTTP method errors ==[0m
+[0;31mFAIL[0m GET  /flow/getFlow (wrong method → 405)                    [2m[got 200, want 405][0m
+[0;33m--- body ---[0m
+  {"code":403,"msg":"请求访问：/flow/getFlow，认证失败，无法访问系统资源","data":""}[0;31mFAIL[0m GET  /nonexistent (unmapped → 404)                         [2m[got 200, want 404][0m
+[0;33m--- body ---[0m
+  {"code":403,"msg":"请求访问：/nonexistent，认证失败，无法访问系统资源","data":""}
+[0;34m== Summary ==[0m
+[0;31m3/26 checks failed[0m (23 passed).
+ Container clklog-app Stopping 
+ Container clklog-app Stopped 

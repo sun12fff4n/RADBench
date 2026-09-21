@@ -1,0 +1,24 @@
+ Network oref-alerts_default Creating 
+ Network oref-alerts_default Created 
+ Volume oref-alerts_m2-combined-dmatik-oref-alerts-proxy-ms Creating 
+ Volume oref-alerts_m2-combined-dmatik-oref-alerts-proxy-ms Created 
+ Container oref-alerts Creating 
+ Container oref-alerts Created 
+ Container oref-alerts Starting 
+ Container oref-alerts Started 
+ Container oref-alerts Waiting 
+ Container oref-alerts Healthy 
+
+[0;34m== Endpoints — happy paths in test mode ==[0m
+[0;32mPASS[0m GET  /current  → 200 + key fields present                [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /history  → 200 + key fields present                [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /current  Content-Type header                         [2m[application/json][0m
+
+[0;34m== Project-defined non-2xx — sanity that routing works ==[0m
+[0;32mPASS[0m POST /current → 405 (Method Not Allowed)                 [2m[405][0m
+[0;32mPASS[0m GET  / → 404 (no route)                                  [2m[404][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 5/5 checks passed.[0m
+ Container oref-alerts Stopping 
+ Container oref-alerts Stopped 

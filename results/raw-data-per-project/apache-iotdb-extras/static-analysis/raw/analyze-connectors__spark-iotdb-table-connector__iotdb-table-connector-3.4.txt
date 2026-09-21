@@ -1,0 +1,143 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] ----------< org.apache.iotdb:spark-iotdb-table-connector-3.4 >----------
+[INFO] Building IoTDB: Table Connector: Apache Spark3.4 (Scala 2.12) 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ spark-iotdb-table-connector-3.4 >>>
+[WARNING] The POM for org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT is missing, no dependency information available
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sql_2.12/3.4.0/spark-sql_2.12-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sql_2.12/3.4.0/spark-sql_2.12-3.4.0.pom (19 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-parent_2.12/3.4.0/spark-parent_2.12-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-parent_2.12/3.4.0/spark-parent_2.12-3.4.0.pom (135 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/7.9.2/rocksdbjni-7.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/7.9.2/rocksdbjni-7.9.2.pom (7.4 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sketch_2.12/3.4.0/spark-sketch_2.12-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sketch_2.12/3.4.0/spark-sketch_2.12-3.4.0.pom (6.4 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-tags_2.12/3.4.0/spark-tags_2.12-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-tags_2.12/3.4.0/spark-tags_2.12-3.4.0.pom (5.8 kB at 138 kB/s)
+[WARNING] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-catalyst_2.12/3.4.0/spark-catalyst_2.12-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-catalyst_2.12/3.4.0/spark-catalyst_2.12-3.4.0.pom (12 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17.pom (1.8 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/2.1.1/scala-parser-combinators_2.12-2.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/2.1.1/scala-parser-combinators_2.12-2.1.1.pom (2.5 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-unsafe_2.12/3.4.0/spark-unsafe_2.12-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-unsafe_2.12/3.4.0/spark-unsafe_2.12-3.4.0.pom (8.2 kB at 242 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-vector/11.0.0/arrow-vector-11.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-vector/11.0.0/arrow-vector-11.0.0.pom (10 kB at 188 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-java-root/11.0.0/arrow-java-root-11.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-java-root/11.0.0/arrow-java-root-11.0.0.pom (45 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-format/11.0.0/arrow-format-11.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-format/11.0.0/arrow-format-11.0.0.pom (1.8 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory-core/11.0.0/arrow-memory-core-11.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory-core/11.0.0/arrow-memory-core-11.0.0.pom (3.4 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory/11.0.0/arrow-memory-11.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory/11.0.0/arrow-memory-11.0.0.pom (1.4 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory-netty/11.0.0/arrow-memory-netty-11.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory-netty/11.0.0/arrow-memory-netty-11.0.0.pom (2.9 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-core/1.8.3/orc-core-1.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-core/1.8.3/orc-core-1.8.3.pom (6.6 kB at 178 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc/1.8.3/orc-1.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc/1.8.3/orc-1.8.3.pom (33 kB at 663 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-shims/1.8.3/orc-shims-1.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-shims/1.8.3/orc-shims-1.8.3.pom (3.8 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.17.3/protobuf-java-3.17.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.17.3/protobuf-java-3.17.3.pom (5.6 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.17.3/protobuf-parent-3.17.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.17.3/protobuf-parent-3.17.3.pom (8.2 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.17.3/protobuf-bom-3.17.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.17.3/protobuf-bom-3.17.3.pom (3.5 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-mapreduce/1.8.3/orc-mapreduce-1.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-mapreduce/1.8.3/orc-mapreduce-1.8.3.pom (5.6 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-column/1.12.3/parquet-column-1.12.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-column/1.12.3/parquet-column-1.12.3.pom (6.0 kB at 138 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet/1.12.3/parquet-1.12.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet/1.12.3/parquet-1.12.3.pom (23 kB at 467 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-common/1.12.3/parquet-common-1.12.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-common/1.12.3/parquet-common-1.12.3.pom (3.4 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-format-structures/1.12.3/parquet-format-structures-1.12.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-format-structures/1.12.3/parquet-format-structures-1.12.3.pom (6.7 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-encoding/1.12.3/parquet-encoding-1.12.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-encoding/1.12.3/parquet-encoding-1.12.3.pom (3.2 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-hadoop/1.12.3/parquet-hadoop-1.12.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-hadoop/1.12.3/parquet-hadoop-1.12.3.pom (15 kB at 318 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-jackson/1.12.3/parquet-jackson-1.12.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-jackson/1.12.3/parquet-jackson-1.12.3.pom (3.3 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-asm9-shaded/4.22/xbean-asm9-shaded-4.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-asm9-shaded/4.22/xbean-asm9-shaded-4.22.pom (4.3 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/4.22/xbean-4.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/4.22/xbean-4.22.pom (19 kB at 467 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.12/protobuf-java-3.21.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.12/protobuf-java-3.21.12.pom (5.4 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.21.12/protobuf-parent-3.21.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.21.12/protobuf-parent-3.21.12.pom (9.0 kB at 244 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.21.12/protobuf-bom-3.21.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.21.12/protobuf-bom-3.21.12.pom (3.5 kB at 126 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sql_2.12/3.4.0/spark-sql_2.12-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sql_2.12/3.4.0/spark-sql_2.12-3.4.0.jar (9.3 MB at 11 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/7.9.2/rocksdbjni-7.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sketch_2.12/3.4.0/spark-sketch_2.12-3.4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/2.1.1/scala-parser-combinators_2.12-2.1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-vector/11.0.0/arrow-vector-11.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-catalyst_2.12/3.4.0/spark-catalyst_2.12-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sketch_2.12/3.4.0/spark-sketch_2.12-3.4.0.jar (31 kB at 132 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-format/11.0.0/arrow-format-11.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/2.1.1/scala-parser-combinators_2.12-2.1.1.jar (187 kB at 658 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory-core/11.0.0/arrow-memory-core-11.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-format/11.0.0/arrow-format-11.0.0.jar (110 kB at 355 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory-netty/11.0.0/arrow-memory-netty-11.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory-core/11.0.0/arrow-memory-core-11.0.0.jar (111 kB at 320 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-tags_2.12/3.4.0/spark-tags_2.12-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory-netty/11.0.0/arrow-memory-netty-11.0.0.jar (39 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-core/1.8.3/orc-core-1.8.3-shaded-protobuf.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-tags_2.12/3.4.0/spark-tags_2.12-3.4.0.jar (15 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-shims/1.8.3/orc-shims-1.8.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-vector/11.0.0/arrow-vector-11.0.0.jar (1.9 MB at 4.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-mapreduce/1.8.3/orc-mapreduce-1.8.3-shaded-protobuf.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-shims/1.8.3/orc-shims-1.8.3.jar (29 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-column/1.12.3/parquet-column-1.12.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-core/1.8.3/orc-core-1.8.3-shaded-protobuf.jar (2.8 MB at 4.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-common/1.12.3/parquet-common-1.12.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-common/1.12.3/parquet-common-1.12.3.jar (96 kB at 140 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-encoding/1.12.3/parquet-encoding-1.12.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-mapreduce/1.8.3/orc-mapreduce-1.8.3-shaded-protobuf.jar (1.7 MB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/yetus/audience-annotations/0.13.0/audience-annotations-0.13.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-encoding/1.12.3/parquet-encoding-1.12.3.jar (848 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/yetus/audience-annotations/0.13.0/audience-annotations-0.13.0.jar (21 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-hadoop/1.12.3/parquet-hadoop-1.12.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-format-structures/1.12.3/parquet-format-structures-1.12.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-column/1.12.3/parquet-column-1.12.3.jar (2.0 MB at 2.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-jackson/1.12.3/parquet-jackson-1.12.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-catalyst_2.12/3.4.0/spark-catalyst_2.12-3.4.0.jar (13 MB at 16 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-hadoop/1.12.3/parquet-hadoop-1.12.3.jar (991 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-asm9-shaded/4.22/xbean-asm9-shaded-4.22.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.12/protobuf-java-3.21.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-format-structures/1.12.3/parquet-format-structures-1.12.3.jar (726 kB at 854 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-asm9-shaded/4.22/xbean-asm9-shaded-4.22.jar (262 kB at 286 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-jackson/1.12.3/parquet-jackson-1.12.3.jar (2.0 MB at 2.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.12/protobuf-java-3.21.12.jar (1.7 MB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/7.9.2/rocksdbjni-7.9.2.jar (58 MB at 29 MB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.238 s
+[INFO] Finished at: 2026-06-16T08:49:05Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 0 goals, 0 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.
+[ERROR] Failed to execute goal on project spark-iotdb-table-connector-3.4: Could not resolve dependencies for project org.apache.iotdb:spark-iotdb-table-connector-3.4:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:spark-iotdb-table-common:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

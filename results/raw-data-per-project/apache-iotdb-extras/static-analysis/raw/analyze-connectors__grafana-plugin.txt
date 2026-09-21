@@ -1,0 +1,268 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] ---------------< org.apache.iotdb:iotdb-grafana-plugin >----------------
+[INFO] Building IoTDB: Connector: Grafana (Plugin) 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ iotdb-grafana-plugin >>>
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ iotdb-grafana-plugin ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ iotdb-grafana-plugin ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ iotdb-grafana-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ iotdb-grafana-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ iotdb-grafana-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ iotdb-grafana-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ iotdb-grafana-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ iotdb-grafana-plugin ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- frontend:1.15.1:install-node-and-yarn (install node and yarn) @ iotdb-grafana-plugin ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.15.1/frontend-plugin-core-1.15.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.15.1/frontend-plugin-core-1.15.1.pom (3.2 kB at 4.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.pom (5.5 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.0/jackson-base-2.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.0/jackson-base-2.13.0.pom (9.7 kB at 256 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.0/jackson-bom-2.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.0/jackson-bom-2.13.0.pom (17 kB at 133 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom (11 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom (58 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom (8.7 kB at 228 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/13/plexus-13.pom (27 kB at 403 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.15.1/frontend-plugin-core-1.15.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.15.1/frontend-plugin-core-1.15.1.jar (103 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar (76 kB at 606 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 kB at 138 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar (54 kB at 272 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar (375 kB at 1.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar (1.5 MB at 4.2 MB/s)
+[INFO] Installing node version v16.13.1
+[INFO] Downloading https://nodejs.org/dist/v16.13.1/node-v16.13.1-linux-x64.tar.gz to /root/.m2/repository/com/github/eirslett/node/16.13.1/node-16.13.1-linux-x64.tar.gz
+[INFO] No proxies configured
+[INFO] No proxy was configured, downloading directly
+[INFO] Unpacking /root/.m2/repository/com/github/eirslett/node/16.13.1/node-16.13.1-linux-x64.tar.gz into /project/connectors/grafana-plugin/node/tmp
+[INFO] Copying node binary from /project/connectors/grafana-plugin/node/tmp/node-v16.13.1-linux-x64/bin/node to /project/connectors/grafana-plugin/node/node
+[INFO] Installed node locally.
+[INFO] Installing Yarn version v1.22.17
+[INFO] Downloading https://github.com/yarnpkg/yarn/releases/download/v1.22.17/yarn-v1.22.17.tar.gz to /root/.m2/repository/com/github/eirslett/yarn/1.22.17/yarn-1.22.17.tar.gz
+[INFO] No proxies configured
+[INFO] No proxy was configured, downloading directly
+[INFO] Unpacking /root/.m2/repository/com/github/eirslett/yarn/1.22.17/yarn-1.22.17.tar.gz into /project/connectors/grafana-plugin/node/yarn
+[INFO] Installed Yarn locally.
+[INFO] 
+[INFO] --- frontend:1.15.1:yarn (yarn install) @ iotdb-grafana-plugin ---
+[INFO] Running 'yarn install' in /project/connectors/grafana-plugin
+[INFO] yarn install v1.22.17
+[INFO] [1/5] Validating package.json...
+[INFO] [2/5] Resolving packages...
+[INFO] warning Resolution field "rxjs@7.3.0" is incompatible with requested version "rxjs@7.5.7"
+[INFO] warning Resolution field "rxjs@7.3.0" is incompatible with requested version "rxjs@7.5.7"
+[INFO] warning Resolution field "rxjs@7.3.0" is incompatible with requested version "rxjs@^7.5.5"
+[INFO] warning Resolution field "rxjs@7.3.0" is incompatible with requested version "rxjs@7.5.7"
+[INFO] warning Resolution field "rxjs@7.3.0" is incompatible with requested version "rxjs@7.5.7"
+[INFO] [3/5] Fetching packages...
+[INFO] warning Pattern ["@grafana/ui@latest"] is trying to unpack in the same destination "/usr/local/share/.cache/yarn/v6/npm-@grafana-ui-9.3.6-81c3cc4c8f0045bf0a9648cbdab1db4f40c9d502-integrity/node_modules/@grafana/ui" as pattern ["@grafana/ui@9.3.6","@grafana/ui@9.3.6"]. This could result in non-deterministic behavior, skipping.
+[INFO] warning geotiff@2.0.4: The engine "browsers" appears to be invalid.
+[INFO] [4/5] Linking dependencies...
+[INFO] warning " > @grafana/data@9.3.6" has unmet peer dependency "react@^16.8.0 || ^17.0.0".
+[INFO] warning " > @grafana/data@9.3.6" has unmet peer dependency "react-dom@^16.8.0 || ^17.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui@9.3.6" has unmet peer dependency "react@^16.8.0 || ^17.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui@9.3.6" has unmet peer dependency "react-dom@^16.8.0 || ^17.0.0".
+[INFO] warning "@grafana/ui > @emotion/react@11.10.5" has unmet peer dependency "react@>=16.8.0".
+[INFO] warning "@grafana/ui > @monaco-editor/react@4.4.6" has unmet peer dependency "react@^16.8.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > @monaco-editor/react@4.4.6" has unmet peer dependency "react-dom@^16.8.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-aria/button@3.6.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-aria/dialog@3.3.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-aria/focus@3.8.0" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-aria/menu@3.6.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-aria/menu@3.6.1" has unmet peer dependency "react-dom@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-aria/overlays@3.10.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-aria/overlays@3.10.1" has unmet peer dependency "react-dom@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-aria/utils@3.13.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > @react-stately/menu@3.4.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/ui > rc-cascader@3.7.0" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/ui > rc-cascader@3.7.0" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/ui > rc-drawer@4.4.3" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/ui > rc-drawer@4.4.3" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/ui > rc-slider@10.0.1" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/ui > rc-slider@10.0.1" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/ui > rc-tooltip@5.2.2" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/ui > rc-tooltip@5.2.2" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/ui > react-beautiful-dnd@13.1.1" has unmet peer dependency "react@^16.8.5 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-beautiful-dnd@13.1.1" has unmet peer dependency "react-dom@^16.8.5 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-calendar@3.9.0" has unmet peer dependency "react@^16.3.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-calendar@3.9.0" has unmet peer dependency "react-dom@^16.3.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-colorful@5.6.1" has unmet peer dependency "react@>=16.8.0".
+[INFO] warning "@grafana/ui > react-colorful@5.6.1" has unmet peer dependency "react-dom@>=16.8.0".
+[INFO] warning "@grafana/ui > react-custom-scrollbars-2@4.5.0" has unmet peer dependency "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-custom-scrollbars-2@4.5.0" has unmet peer dependency "react-dom@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-dropzone@14.2.3" has unmet peer dependency "react@>= 16.8 || 18.0.0".
+[INFO] warning "@grafana/ui > react-highlight-words@0.18.0" has unmet peer dependency "react@^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0".
+[INFO] warning "@grafana/ui > react-hook-form@7.5.3" has unmet peer dependency "react@^16.8.0 || ^17".
+[INFO] warning "@grafana/ui > react-i18next@12.1.5" has unmet peer dependency "react@>= 16.8.0".
+[INFO] warning "@grafana/ui > react-inlinesvg@3.0.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-popper@2.3.0" has unmet peer dependency "react@^16.8.0 || ^17 || ^18".
+[INFO] warning "@grafana/ui > react-popper@2.3.0" has unmet peer dependency "react-dom@^16.8.0 || ^17 || ^18".
+[INFO] warning "@grafana/ui > react-popper-tooltip@4.4.2" has unmet peer dependency "react@>=16.6.0".
+[INFO] warning "@grafana/ui > react-popper-tooltip@4.4.2" has unmet peer dependency "react-dom@>=16.6.0".
+[INFO] warning "@grafana/ui > react-router-dom@5.3.4" has unmet peer dependency "react@>=15".
+[INFO] warning "@grafana/ui > react-select@5.6.0" has unmet peer dependency "react@^16.8.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-select@5.6.0" has unmet peer dependency "react-dom@^16.8.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-table@7.8.0" has unmet peer dependency "react@^16.8.3 || ^17.0.0-0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-transition-group@4.4.5" has unmet peer dependency "react@>=16.6.0".
+[INFO] warning "@grafana/ui > react-transition-group@4.4.5" has unmet peer dependency "react-dom@>=16.6.0".
+[INFO] warning "@grafana/ui > react-use@17.4.0" has unmet peer dependency "react@^16.8.0  || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-use@17.4.0" has unmet peer dependency "react-dom@^16.8.0  || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-window@1.8.8" has unmet peer dependency "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > react-window@1.8.8" has unmet peer dependency "react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/ui > slate-react@0.22.10" has unmet peer dependency "react@>=16.6.0".
+[INFO] warning "@grafana/ui > slate-react@0.22.10" has unmet peer dependency "react-dom@>=16.6.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @emotion/react > @emotion/use-insertion-effect-with-fallbacks@1.0.0" has unmet peer dependency "react@>=16.8.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/button > @react-aria/focus@3.10.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/button > @react-aria/interactions@3.13.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/button > @react-aria/utils@3.14.2" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/button > @react-stately/toggle@3.4.4" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/button > @react-types/button@3.7.0" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/button > @react-types/shared@3.16.0" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/dialog > @react-stately/overlays@3.4.4" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/dialog > @react-types/dialog@3.4.5" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-aria/i18n@3.6.3" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-aria/overlays@3.12.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-aria/overlays@3.12.1" has unmet peer dependency "react-dom@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-aria/selection@3.12.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-stately/collections@3.5.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-stately/menu@3.4.4" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-stately/tree@3.4.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-types/menu@3.7.3" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/overlays > @react-aria/ssr@3.4.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/overlays > @react-aria/visually-hidden@3.6.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/overlays > @react-types/overlays@3.6.5" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/utils > @react-stately/utils@3.5.2" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select@14.1.16" has unmet peer dependency "react@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select@14.1.16" has unmet peer dependency "react-dom@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-tree@5.7.2" has unmet peer dependency "react@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-tree@5.7.2" has unmet peer dependency "react-dom@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-util@5.27.2" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-util@5.27.2" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-tooltip > rc-trigger@5.3.4" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-tooltip > rc-trigger@5.3.4" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > react-beautiful-dnd > react-redux@7.2.9" has unmet peer dependency "react@^16.8.3 || ^17 || ^18".
+[INFO] warning "@grafana/toolkit > @grafana/ui > react-beautiful-dnd > use-memo-one@1.1.3" has unmet peer dependency "react@^16.8.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > react-inlinesvg > react-from-dom@0.6.2" has unmet peer dependency "react@^16.8.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > react-router-dom > react-router@5.3.4" has unmet peer dependency "react@>=15".
+[INFO] warning "@grafana/toolkit > @grafana/ui > react-select > use-isomorphic-layout-effect@1.1.2" has unmet peer dependency "react@^16.8.0 || ^17.0.0 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > react-use > nano-css@5.3.5" has unmet peer dependency "react@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > react-use > nano-css@5.3.5" has unmet peer dependency "react-dom@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > react-use > react-universal-interface@0.6.2" has unmet peer dependency "react@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > slate-react > slate-react-placeholder@0.2.9" has unmet peer dependency "react@>=16.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/button > @react-stately/toggle > @react-types/checkbox@3.4.1" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > @react-aria/menu > @react-aria/selection > @react-stately/selection@3.11.2" has unmet peer dependency "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select > rc-motion@2.6.3" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select > rc-motion@2.6.3" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select > rc-overflow@1.2.8" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select > rc-overflow@1.2.8" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select > rc-virtual-list@3.4.13" has unmet peer dependency "react@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select > rc-virtual-list@3.4.13" has unmet peer dependency "react-dom@*".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-tooltip > rc-trigger > rc-align@4.0.15" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-tooltip > rc-trigger > rc-align@4.0.15" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select > rc-overflow > rc-resize-observer@1.3.1" has unmet peer dependency "react@>=16.9.0".
+[INFO] warning "@grafana/toolkit > @grafana/ui > rc-cascader > rc-select > rc-overflow > rc-resize-observer@1.3.1" has unmet peer dependency "react-dom@>=16.9.0".
+[INFO] warning " > @grafana/runtime@9.3.6" has unmet peer dependency "react@17.0.2".
+[INFO] warning " > @grafana/runtime@9.3.6" has unmet peer dependency "react-dom@17.0.2".
+[INFO] warning "@grafana/runtime > @grafana/faro-web-sdk > @grafana/faro-core > @opentelemetry/otlp-transformer@0.34.0" has incorrect peer dependency "@opentelemetry/api@>=1.3.0 <1.4.0".
+[INFO] warning "@grafana/runtime > @grafana/faro-web-sdk > @grafana/faro-core > @opentelemetry/otlp-transformer > @opentelemetry/core@1.8.0" has incorrect peer dependency "@opentelemetry/api@>=1.0.0 <1.4.0".
+[INFO] warning "@grafana/runtime > @grafana/faro-web-sdk > @grafana/faro-core > @opentelemetry/otlp-transformer > @opentelemetry/resources@1.8.0" has incorrect peer dependency "@opentelemetry/api@>=1.0.0 <1.4.0".
+[INFO] warning "@grafana/runtime > @grafana/faro-web-sdk > @grafana/faro-core > @opentelemetry/otlp-transformer > @opentelemetry/sdk-metrics@1.8.0" has incorrect peer dependency "@opentelemetry/api@>=1.3.0 <1.4.0".
+[INFO] warning "@grafana/runtime > @grafana/faro-web-sdk > @grafana/faro-core > @opentelemetry/otlp-transformer > @opentelemetry/sdk-trace-base@1.8.0" has incorrect peer dependency "@opentelemetry/api@>=1.0.0 <1.4.0".
+[INFO] [5/5] Building fresh packages...
+[INFO] Done in 469.72s.
+[INFO] 
+[INFO] --- frontend:1.15.1:yarn (yarn build) @ iotdb-grafana-plugin ---
+[INFO] Running 'yarn build' in /project/connectors/grafana-plugin
+[INFO] yarn run v1.22.17
+[INFO] $ grafana-toolkit plugin:build
+[INFO]   Using Node.js v16.13.1
+[INFO]   Using @grafana/toolkit v9.3.6
+[INFO] - Preparing
+[INFO] ✔ Preparing
+[INFO] - Linting
+[INFO]   Warning: React version was set to "detect" in eslint-plugin-react settings, but the "react" package is not installed. Assuming latest React version for linting.
+[INFO] ✔ Linting
+[INFO] - Running tests
+[INFO] No tests found, exiting with code 0
+[INFO] ✔ Running tests
+[INFO] - Compiling...
+[INFO]   
+[INFO]   ✔ Compiling...
+[INFO]    assets by path img/ 229 KiB
+[INFO]     asset img/showData.png 167 KiB [emitted] [from: img/showData.png] [copied]
+[INFO]     asset img/addIoTDBDataSource.png 42.7 KiB [emitted] [from: img/addIoTDBDataSource.png] [copied]
+[INFO]     asset img/logo.svg 19.8 KiB [emitted] [from: img/logo.svg] [copied]
+[INFO]   assets by path *.md 11.4 KiB
+[INFO]     asset README.md 10.5 KiB [emitted] [from: ../README.md] [copied]
+[INFO]     asset CHANGELOG.md 889 bytes [emitted] [from: ../CHANGELOG.md] [copied]
+[INFO]   asset module.js 39.8 KiB [emitted] [minimized] (name: module) 2 related assets
+[INFO]   asset LICENSE 11.1 KiB [emitted] [from: ../LICENSE] [copied]
+[INFO]   asset plugin.json 1.25 KiB [emitted] [from: plugin.json] [copied]
+[INFO]   orphan modules 68.6 KiB [orphan] 13 modules
+[INFO]   runtime modules 1.25 KiB 6 modules
+[INFO]   modules by path ../node_modules/lodash/*.js 32 KiB
+[INFO]     ../node_modules/lodash/defaults.js 1.71 KiB [built] [code generated]
+[INFO]     ../node_modules/lodash/_baseRest.js 559 bytes [built] [code generated]
+[INFO]     ../node_modules/lodash/eq.js 799 bytes [built] [code generated]
+[INFO]     ../node_modules/lodash/_isIterateeCall.js 877 bytes [built] [code generated]
+[INFO]     ../node_modules/lodash/keysIn.js 778 bytes [built] [code generated]
+[INFO]     + 40 modules
+[INFO]   modules by path external "@grafana/ 126 bytes
+[INFO]     external "@grafana/data" 42 bytes [built] [code generated]
+[INFO]     external "@grafana/runtime" 42 bytes [built] [code generated]
+[INFO]     external "@grafana/ui" 42 bytes [built] [code generated]
+[INFO]   ./module.ts + 13 modules 69.6 KiB [built] [code generated]
+[INFO]   external "react" 42 bytes [built] [code generated]
+[INFO]   webpack 5.95.0 compiled successfully in 23242 ms 
+[INFO]   
+[INFO] Done in 91.35s.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ iotdb-grafana-plugin ---
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ iotdb-grafana-plugin <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ iotdb-grafana-plugin ---
+[INFO] Skipping pom project
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11:37 min
+[INFO] Finished at: 2026-06-16T08:41:15Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 13 goals, 13 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

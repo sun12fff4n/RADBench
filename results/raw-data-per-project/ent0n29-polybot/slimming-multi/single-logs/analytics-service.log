@@ -1,0 +1,134 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.polybot:analytics-service >--------------------
+[INFO] Building analytics-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ analytics-service ---
+WARNING: A Java agent has been loaded dynamically (/Users/yifan/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.17/byte-buddy-agent-1.14.17.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[INFO] ALL DEPENDENCY[92]:
+[INFO]  USED DEPENDENCY[92]:
+[INFO]   USED DIRECT DEPENDENCY[10]:
+[INFO] 		org.springframework.boot:spring-boot-starter-validation:3.3.1:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-actuator:3.3.1:compile [4 KB]
+[INFO] 		org.apache.httpcomponents.client5:httpclient5:5.3.1:runtime [841 KB]
+[INFO] 		io.micrometer:micrometer-registry-prometheus:1.13.1:compile [40 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-web:3.3.1:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-test:3.3.1:test [4 KB]
+[INFO] 		at.yawk.lz4:lz4-java:1.8.1:runtime [667 KB]
+[INFO] 		com.clickhouse:clickhouse-jdbc:0.6.5:runtime [1 MB]
+[INFO] 		org.projectlombok:lombok:1.18.42:provided [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-jdbc:3.3.1:compile [4 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[82]:
+[INFO] 		ch.qos.logback:logback-classic:1.5.6:compile [286 KB]
+[INFO] 		org.springframework.boot:spring-boot-actuator:3.3.1:compile [660 KB]
+[INFO] 		com.fasterxml:classmate:1.7.0:compile [67 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		org.slf4j:jul-to-slf4j:2.0.13:compile [6 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.17.1:compile [1 MB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.17.1:compile [568 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.10.2:test [200 KB]
+[INFO] 		com.jayway.jsonpath:json-path:2.9.0:test [270 KB]
+[INFO] 		org.yaml:snakeyaml:2.2:compile [326 KB]
+[INFO] 		org.ow2.asm:asm:9.6:test [120 KB]
+[INFO] 		org.opentest4j:opentest4j:1.3.0:test [13 KB]
+[INFO] 		io.micrometer:micrometer-observation:1.13.1:compile [70 KB]
+[INFO] 		org.apache.httpcomponents.core5:httpcore5:5.2.4:runtime [834 KB]
+[INFO] 		org.apache.logging.log4j:log4j-to-slf4j:2.23.1:compile [22 KB]
+[INFO] 		org.springframework:spring-jcl:6.1.10:compile [23 KB]
+[INFO] 		org.apache.logging.log4j:log4j-api:2.23.1:compile [334 KB]
+[INFO] 		org.objenesis:objenesis:3.3:test [48 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.13:compile [66 KB]
+[INFO] 		org.xmlunit:xmlunit-core:2.9.1:test [171 KB]
+[INFO] 		com.zaxxer:HikariCP:5.1.0:compile [158 KB]
+[INFO] 		org.springframework:spring-context:6.1.10:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter:3.3.1:compile [4 KB]
+[INFO] 		net.minidev:accessors-smart:2.5.1:test [29 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-websocket:10.1.25:compile [275 KB]
+[INFO] 		org.hamcrest:hamcrest:2.2:test [120 KB]
+[INFO] 		org.springframework.boot:spring-boot-test-autoconfigure:3.3.1:test [214 KB]
+[INFO] 		org.mockito:mockito-core:5.11.0:test [687 KB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:3.3.1:compile [1 MB]
+[INFO] 		org.springframework:spring-tx:6.1.10:compile [278 KB]
+[INFO] 		org.springframework.boot:spring-boot-test:3.3.1:test [240 KB]
+[INFO] 		org.springframework:spring-expression:6.1.10:compile [296 KB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:4.0.2:test [127 KB]
+[INFO] 		org.awaitility:awaitility:4.2.1:test [94 KB]
+[INFO] 		io.prometheus:prometheus-metrics-shaded-protobuf:1.2.1:runtime [1 MB]
+[INFO] 		io.prometheus:prometheus-metrics-tracer-common:1.2.1:compile [3 KB]
+[INFO] 		com.vaadin.external.google:android-json:0.0.20131108.vaadin1:test [17 KB]
+[INFO] 		io.prometheus:prometheus-metrics-core:1.2.1:compile [93 KB]
+[INFO] 		org.hibernate.validator:hibernate-validator:8.0.1.Final:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-json:3.3.1:compile [4 KB]
+[INFO] 		org.springframework:spring-beans:6.1.10:compile [840 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.10.2:test [206 KB]
+[INFO] 		org.skyscreamer:jsonassert:1.5.1:test [29 KB]
+[INFO] 		org.apache.httpcomponents.core5:httpcore5-h2:5.2.4:runtime [231 KB]
+[INFO] 		org.springframework:spring-aop:6.1.10:compile [407 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter:5.10.2:test [6 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.10.2:test [103 KB]
+[INFO] 		jakarta.validation:jakarta.validation-api:3.0.2:compile [91 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.1:compile [129 KB]
+[INFO] 		org.hdrhistogram:HdrHistogram:2.2.2:runtime [173 KB]
+[INFO] 		io.prometheus:prometheus-metrics-model:1.2.1:compile [86 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-logging:3.3.1:compile [4 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:2.1.1:compile [25 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.10.2:test [238 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-tomcat:3.3.1:compile [4 KB]
+[INFO] 		ch.qos.logback:logback-core:1.5.6:compile [595 KB]
+[INFO] 		org.springframework:spring-webmvc:6.1.10:compile [1022 KB]
+[INFO] 		org.springframework:spring-jdbc:6.1.10:compile [456 KB]
+[INFO] 		io.micrometer:micrometer-jakarta9:1.13.1:compile [31 KB]
+[INFO] 		org.springframework.boot:spring-boot:3.3.1:compile [1 MB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.17.1:compile [76 KB]
+[INFO] 		org.assertj:assertj-core:3.25.3:test [1 MB]
+[INFO] 		org.springframework:spring-core:6.1.10:compile [1 MB]
+[INFO] 		net.minidev:json-smart:2.5.1:test [119 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.1:compile [35 KB]
+[INFO] 		net.bytebuddy:byte-buddy-agent:1.14.17:test [251 KB]
+[INFO] 		io.micrometer:micrometer-core:1.13.1:compile [842 KB]
+[INFO] 		org.mockito:mockito-junit-jupiter:5.11.0:test [8 KB]
+[INFO] 		org.springframework.boot:spring-boot-actuator-autoconfigure:3.3.1:compile [758 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.10.2:test [572 KB]
+[INFO] 		org.latencyutils:LatencyUtils:2.0.3:runtime [29 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-el:10.1.25:compile [255 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.14.17:test [4 MB]
+[INFO] 		org.springframework:spring-test:6.1.10:test [836 KB]
+[INFO] 		jakarta.activation:jakarta.activation-api:2.1.3:test [64 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-parameter-names:2.17.1:compile [10 KB]
+[INFO] 		io.micrometer:micrometer-commons:1.13.1:compile [46 KB]
+[INFO] 		io.prometheus:prometheus-metrics-exposition-formats:1.2.1:runtime [197 KB]
+[INFO] 		org.jboss.logging:jboss-logging:3.5.3.Final:compile [57 KB]
+[INFO] 		io.prometheus:prometheus-metrics-config:1.2.1:compile [31 KB]
+[INFO] 		org.springframework:spring-web:6.1.10:compile [1 MB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-core:10.1.25:compile [3 MB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[0]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] No Bloated
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  55:07 min
+[INFO] Finished at: 2026-05-02T11:48:11+02:00
+[INFO] ------------------------------------------------------------------------

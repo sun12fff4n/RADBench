@@ -1,0 +1,46 @@
+{
+  "org.springframework.boot:spring-boot-starter-data-jpa:3.4.5": [
+    "unique provider of ch.qos.logback:logback-classic:1.5.18",
+    "unique provider of com.zaxxer:HikariCP:5.1.0",
+    "unique provider of jakarta.inject:jakarta.inject-api:2.0.1",
+    "unique provider of jakarta.persistence:jakarta.persistence-api:3.1.0",
+    "unique provider of jakarta.transaction:jakarta.transaction-api:2.0.1",
+    "unique provider of net.bytebuddy:byte-buddy:1.15.11",
+    "unique provider of org.apache.logging.log4j:log4j-api:2.24.3",
+    "unique provider of org.apache.logging.log4j:log4j-to-slf4j:2.24.3",
+    "unique provider of org.aspectj:aspectjweaver:1.9.24",
+    "unique provider of org.hibernate.orm:hibernate-core:6.6.13.Final",
+    "unique provider of org.jboss.logging:jboss-logging:3.6.1.Final",
+    "unique provider of org.slf4j:jul-to-slf4j:2.0.17",
+    "unique provider of org.slf4j:slf4j-api:2.0.17",
+    "unique provider of org.springframework.data:spring-data-commons:3.4.5",
+    "unique provider of org.springframework.data:spring-data-jpa:3.4.5",
+    "unique provider of org.springframework:spring-aspects:6.2.6",
+    "unique provider of org.springframework:spring-beans:6.2.6",
+    "unique provider of org.springframework:spring-context:6.2.6",
+    "unique provider of org.springframework:spring-jdbc:6.2.6",
+    "unique provider of org.springframework:spring-orm:6.2.6",
+    "unique provider of org.springframework:spring-tx:6.2.6"
+  ],
+  "org.springframework.boot:spring-boot-starter-oauth2-resource-server:3.4.5": [
+    "unique provider of com.nimbusds:nimbus-jose-jwt:9.37.3",
+    "unique provider of io.micrometer:micrometer-observation:1.14.6",
+    "unique provider of org.springframework.security:spring-security-config:6.4.5",
+    "unique provider of org.springframework.security:spring-security-core:6.4.5",
+    "unique provider of org.springframework.security:spring-security-crypto:6.4.5",
+    "unique provider of org.springframework.security:spring-security-oauth2-core:6.4.5",
+    "unique provider of org.springframework.security:spring-security-oauth2-jose:6.4.5",
+    "unique provider of org.springframework.security:spring-security-oauth2-resource-server:6.4.5"
+  ],
+  "org.springframework.boot:spring-boot-starter-security:3.4.5": [
+    "unique provider of org.springframework.security:spring-security-web:6.4.5",
+    "unique provider of org.springframework:spring-aop:6.2.6"
+  ],
+  "org.springframework.boot:spring-boot-starter-web:3.4.5": [
+    "unique provider of com.fasterxml.jackson.core:jackson-databind:2.18.3",
+    "unique provider of com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.3",
+    "unique provider of com.fasterxml.jackson.module:jackson-module-parameter-names:2.18.3",
+    "unique provider of org.springframework:spring-web:6.2.6",
+    "unique provider of org.springframework:spring-webmvc:6.2.6"
+  ]
+}

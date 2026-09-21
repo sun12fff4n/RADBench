@@ -1,0 +1,491 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache IoTDB Project Extras Parent POM                             [pom]
+[INFO] IoTDB Extras: Connectors                                           [pom]
+[INFO] IoTDB Extras: Distributions                                        [pom]
+[INFO] IoTDB: Collector                                                   [pom]
+[INFO] IoTDB: Collector: OpenAPI                                          [jar]
+[INFO] IoTDB: Collector: Core                                             [jar]
+[INFO] IoTDB: Collector: Distribution                                     [pom]
+[INFO] IoTDB Extras: Mybatis Generator Plugin                             [jar]
+[INFO] 
+[INFO] ----------------< org.apache.iotdb:iotdb-extras-parent >----------------
+[INFO] Building Apache IoTDB Project Extras Parent POM 2.0.4-SNAPSHOT     [1/8]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ iotdb-extras-parent ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ iotdb-extras-parent ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ iotdb-extras-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ iotdb-extras-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ iotdb-extras-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ iotdb-extras-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ iotdb-extras-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ iotdb-extras-parent ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ iotdb-extras-parent ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (unit-tests) @ iotdb-extras-parent ---
+[INFO] No tests to run.
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< org.apache.iotdb:connectors >---------------------
+[INFO] Building IoTDB Extras: Connectors 2.0.4-SNAPSHOT                   [2/8]
+[INFO]   from connectors/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ connectors ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ connectors ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ connectors ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ connectors ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ connectors ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ connectors ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ connectors ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ connectors ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ connectors ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (unit-tests) @ connectors ---
+[INFO] No tests to run.
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------< org.apache.iotdb:iotdb-extras-distributions >-------------
+[INFO] Building IoTDB Extras: Distributions 2.0.4-SNAPSHOT                [3/8]
+[INFO]   from distributions/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ iotdb-extras-distributions ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ iotdb-extras-distributions ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ iotdb-extras-distributions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ iotdb-extras-distributions ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ iotdb-extras-distributions ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (unit-tests) @ iotdb-extras-distributions ---
+[INFO] No tests to run.
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< org.apache.iotdb:iotdb-collector >------------------
+[INFO] Building IoTDB: Collector 2.0.4-SNAPSHOT                           [4/8]
+[INFO]   from iotdb-collector/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ iotdb-collector ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ iotdb-collector ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ iotdb-collector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ iotdb-collector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ iotdb-collector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ iotdb-collector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ iotdb-collector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ iotdb-collector ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ iotdb-collector ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (unit-tests) @ iotdb-collector ---
+[INFO] No tests to run.
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< org.apache.iotdb:collector-openapi >-----------------
+[INFO] Building IoTDB: Collector: OpenAPI 2.0.4-SNAPSHOT                  [5/8]
+[INFO]   from iotdb-collector/collector-openapi/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ collector-openapi ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ collector-openapi ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ collector-openapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- openapi-generator:6.6.0:generate (generate-java-rest-codes-common) @ collector-openapi ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: jaxrs-jersey (server)
+[INFO] Generator 'jaxrs-jersey' is considered stable.
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation tryPing
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/model/ExecutionStatus.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/ping/impl/PingApiServiceImpl.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/PingApi.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/PingApiService.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/ping/factories/PingApiServiceFactory.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/OffsetDateTimeProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/LocalDateProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/pom.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/README.md
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/ApiException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/ApiOriginFilter.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/ApiResponseMessage.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/NotFoundException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/JacksonJsonProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/RFC3339DateFormat.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/ping/Bootstrap.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/webapp/WEB-INF/web.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/ping/StringUtil.java
+[INFO] Skipped /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/VERSION
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- openapi-generator:6.6.0:generate (generate-java-rest-codes-v1-task) @ collector-openapi ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: jaxrs-jersey (server)
+[INFO] Generator 'jaxrs-jersey' is considered stable.
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation createTask
+[INFO] Processing operation alterTask
+[INFO] Processing operation startTask
+[INFO] Processing operation stopTask
+[INFO] Processing operation dropTask
+[INFO] Processing operation showTask
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/AlterTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/CreateTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/DropTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/ExecutionStatus.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/StartTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/model/StopTaskRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/task/impl/TaskApiServiceImpl.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/TaskApi.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/TaskApiService.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/task/factories/TaskApiServiceFactory.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/OffsetDateTimeProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/LocalDateProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/pom.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/README.md
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/ApiException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/ApiOriginFilter.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/ApiResponseMessage.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/NotFoundException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/JacksonJsonProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/RFC3339DateFormat.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/task/Bootstrap.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/webapp/WEB-INF/web.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/task/StringUtil.java
+[INFO] Skipped /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/VERSION
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- openapi-generator:6.6.0:generate (generate-java-rest-codes-v1-plugin) @ collector-openapi ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: jaxrs-jersey (server)
+[INFO] Generator 'jaxrs-jersey' is considered stable.
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation createPlugin
+[INFO] Processing operation dropPlugin
+[INFO] Processing operation showPlugin
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/model/CreatePluginRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/model/DropPluginRequest.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/model/ExecutionStatus.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/plugin/impl/PluginApiServiceImpl.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/PluginApi.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/PluginApiService.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/plugin/factories/PluginApiServiceFactory.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/OffsetDateTimeProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/LocalDateProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/pom.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/README.md
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/ApiException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/ApiOriginFilter.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/ApiResponseMessage.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/NotFoundException.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/JacksonJsonProvider.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/RFC3339DateFormat.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/java/org/apache/iotdb/collector/api/v1/plugin/Bootstrap.java
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/main/webapp/WEB-INF/web.xml
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java/org/apache/iotdb/collector/api/v1/plugin/StringUtil.java
+[INFO] Skipped /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/VERSION
+[INFO] writing file /project/iotdb-collector/collector-openapi/target/generated-sources/java/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- build-helper:3.4.0:add-source (add-source) @ collector-openapi ---
+[INFO] Source directory: /project/iotdb-collector/collector-openapi/target/generated-sources/java/src/gen/java added.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ collector-openapi ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ collector-openapi ---
+[INFO] skip non existing resourceDirectory /project/iotdb-collector/collector-openapi/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ collector-openapi ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 52 source files with javac [debug release 8] to target/classes
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ collector-openapi ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ collector-openapi ---
+[INFO] skip non existing resourceDirectory /project/iotdb-collector/collector-openapi/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ collector-openapi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ collector-openapi ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (unit-tests) @ collector-openapi ---
+[INFO] 
+[INFO] ------------------< org.apache.iotdb:collector-core >-------------------
+[INFO] Building IoTDB: Collector: Core 2.0.4-SNAPSHOT                     [6/8]
+[INFO]   from iotdb-collector/collector-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ collector-core ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ collector-core ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ collector-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ collector-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ collector-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ collector-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ collector-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ collector-core ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ collector-core ---
+[INFO] Copying 2 resources from src/assembly/resources/conf to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ collector-core ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 157 source files with javac [debug release 8] to target/classes
+[WARNING] unknown enum constant com.google.j2objc.annotations.ReflectionSupport.Level.FULL
+  reason: class file for com.google.j2objc.annotations.ReflectionSupport$Level not found
+[INFO] /project/iotdb-collector/collector-core/src/main/java/org/apache/iotdb/collector/utils/builder/PipeTreeModelTsFileBuilder.java: Some input files use or override a deprecated API.
+[INFO] /project/iotdb-collector/collector-core/src/main/java/org/apache/iotdb/collector/utils/builder/PipeTreeModelTsFileBuilder.java: Recompile with -Xlint:deprecation for details.
+[INFO] /project/iotdb-collector/collector-core/src/main/java/org/apache/iotdb/collector/utils/builder/PipeTableModeTsFileBuilder.java: /project/iotdb-collector/collector-core/src/main/java/org/apache/iotdb/collector/utils/builder/PipeTableModeTsFileBuilder.java uses unchecked or unsafe operations.
+[INFO] /project/iotdb-collector/collector-core/src/main/java/org/apache/iotdb/collector/utils/builder/PipeTableModeTsFileBuilder.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ collector-core ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ collector-core ---
+[INFO] skip non existing resourceDirectory /project/iotdb-collector/collector-core/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ collector-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ collector-core ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (unit-tests) @ collector-core ---
+[INFO] 
+[INFO] --------------< org.apache.iotdb:collector-distribution >---------------
+[INFO] Building IoTDB: Collector: Distribution 2.0.4-SNAPSHOT             [7/8]
+[INFO]   from iotdb-collector/collector-distribution/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ collector-distribution ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ collector-distribution ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ collector-distribution ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ collector-distribution ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ collector-distribution ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ collector-distribution ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ collector-distribution ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ collector-distribution ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ collector-distribution ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (unit-tests) @ collector-distribution ---
+[INFO] No tests to run.
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------< org.apache.iotdb:mybatis-generator-plugin >--------------
+[INFO] Building IoTDB Extras: Mybatis Generator Plugin 2.0.4-SNAPSHOT     [8/8]
+[INFO]   from mybatis-generator/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ mybatis-generator-plugin ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ mybatis-generator-plugin ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ mybatis-generator-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ mybatis-generator-plugin ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ mybatis-generator-plugin ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ mybatis-generator-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ mybatis-generator-plugin ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ mybatis-generator-plugin ---
+[INFO] skip non existing resourceDirectory /project/mybatis-generator/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ mybatis-generator-plugin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ mybatis-generator-plugin ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (unit-tests) @ mybatis-generator-plugin ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache IoTDB Project Extras Parent POM 2.0.4-SNAPSHOT:
+[INFO] 
+[INFO] Apache IoTDB Project Extras Parent POM ............. SUCCESS [  5.463 s]
+[INFO] IoTDB Extras: Connectors ........................... SUCCESS [  0.724 s]
+[INFO] IoTDB Extras: Distributions ........................ SUCCESS [  0.311 s]
+[INFO] IoTDB: Collector ................................... SUCCESS [  0.409 s]
+[INFO] IoTDB: Collector: OpenAPI .......................... SUCCESS [ 10.348 s]
+[INFO] IoTDB: Collector: Core ............................. SUCCESS [ 12.860 s]
+[INFO] IoTDB: Collector: Distribution ..................... SUCCESS [  0.859 s]
+[INFO] IoTDB Extras: Mybatis Generator Plugin ............. SUCCESS [  0.311 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  33.662 s
+[INFO] Finished at: 2026-09-11T21:05:12Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 99 goals, 99 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

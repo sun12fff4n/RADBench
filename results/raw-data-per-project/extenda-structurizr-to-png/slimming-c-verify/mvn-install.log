@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.extendaretail:structurizr-to-png >----------------
+[INFO] Building structurizr-to-png 0.0.1-local
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sortpom:4.0.0:verify (default) @ structurizr-to-png ---
+[INFO] Verifying file /project/pom.xml
+[INFO] 
+[INFO] --- enforcer:3.6.1:enforce (enforce) @ structurizr-to-png ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (jacoco-surefire) @ structurizr-to-png ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ structurizr-to-png ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ structurizr-to-png ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 15 source files with javac [debug target 21] to target/classes
+[INFO] /project/src/main/java/com/extendaretail/dsl2png/cli/Arguments.java: /project/src/main/java/com/extendaretail/dsl2png/cli/Arguments.java uses or overrides a deprecated API.
+[INFO] /project/src/main/java/com/extendaretail/dsl2png/cli/Arguments.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ structurizr-to-png ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ structurizr-to-png ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ structurizr-to-png ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ structurizr-to-png ---
+[INFO] Building jar: /project/target/structurizr-to-png.jar
+[INFO] 
+[INFO] --- dependency:3.8.1:copy-dependencies (copy-dependencies) @ structurizr-to-png ---
+[INFO] 
+[INFO] --- jacoco:0.8.13:report (jacoco-report) @ structurizr-to-png ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ structurizr-to-png ---
+[INFO] Installing /project/pom.xml to /root/.m2/repository/com/extendaretail/structurizr-to-png/0.0.1-local/structurizr-to-png-0.0.1-local.pom
+[INFO] Installing /project/target/structurizr-to-png.jar to /root/.m2/repository/com/extendaretail/structurizr-to-png/0.0.1-local/structurizr-to-png-0.0.1-local.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.012 s
+[INFO] Finished at: 2026-09-21T20:23:57Z
+[INFO] ------------------------------------------------------------------------

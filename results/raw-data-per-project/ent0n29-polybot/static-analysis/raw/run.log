@@ -1,0 +1,14 @@
+== reactor install (skip tests + heavyweight lifecycle plugins) ==
+  leaf module dirs: 6
+
+==== ./analytics-service (-> analytics-service) ====
+
+==== ./executor-service (-> executor-service) ====
+
+==== ./infrastructure-orchestrator-service (-> infrastructure-orchestrator-service) ====
+
+==== ./ingestor-service (-> ingestor-service) ====
+
+==== ./polybot-core (-> polybot-core) ====
+
+==== ./strategy-service (-> strategy-service) ====

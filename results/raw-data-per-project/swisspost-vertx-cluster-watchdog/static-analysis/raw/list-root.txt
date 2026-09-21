@@ -1,0 +1,14 @@
+
+The following files have been resolved:
+   io.vertx:vertx-core:jar:4.5.23:compile -- module io.vertx.core [auto]
+   io.vertx:vertx-web:jar:4.5.23:compile -- module io.vertx.web [auto]
+   io.vertx:vertx-hazelcast:jar:4.5.23:compile -- module io.vertx.clustermanager.hazelcast [auto]
+   commons-io:commons-io:jar:2.15.1:compile -- module org.apache.commons.io
+   commons-lang:commons-lang:jar:2.6:compile -- module commons.lang (auto)
+   org.apache.commons:commons-collections4:jar:4.4:compile -- module org.apache.commons.collections4 [auto]
+   org.slf4j:slf4j-api:jar:2.0.10:compile -- module org.slf4j
+   org.slf4j:slf4j-simple:jar:2.0.10:compile -- module org.slf4j.simple
+   io.micrometer:micrometer-core:jar:1.12.13:compile -- module micrometer.core [auto]
+   junit:junit:jar:4.13.2:test -- module junit [auto]
+   io.vertx:vertx-unit:jar:4.5.23:test -- module io.vertx.testing.unit [auto]
+

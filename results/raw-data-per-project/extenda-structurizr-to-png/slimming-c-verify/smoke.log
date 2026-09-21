@@ -1,0 +1,43 @@
+ Network structurizr-to-png_default Creating 
+ Network structurizr-to-png_default Created 
+ Volume structurizr-to-png_maven_cache Creating 
+ Volume structurizr-to-png_maven_cache Created 
+ Container structurizr-to-png-app Creating 
+ Container structurizr-to-png-app Created 
+ Container structurizr-to-png-app Starting 
+ Container structurizr-to-png-app Started 
+ Container structurizr-to-png-app Waiting 
+ Container structurizr-to-png-app Healthy 
+
+[0;34m== Static file serving — Vert.x StaticHandler (/ and /index.html) ==[0m
+[0;32mPASS[0m GET  / (root → static index.html)                          [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /index.html (explicit path)                             [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /index.html (Content-Type: text/html)                   [2m[200, header ✓][0m
+
+[0;34m== Theme JSON — StaticHandler + JSON content at /themes/* ==[0m
+[0;32mPASS[0m GET  /themes/theme.json (Content-Type: application/json)     [2m[200, header ✓][0m
+[0;32mPASS[0m GET  /themes/theme.json (full schema)                        [2m[200, all fields ✓][0m
+
+[0;34m== Image serving — /images/* route (DSL parse → render → file serve) ==[0m
+[0;31mFAIL[0m GET  /images/structurizr-PriceTracker-SystemContext.png      [2m[got 404, want 200][0m
+[0;31mFAIL[0m GET  /images/...SystemContext.png (Content-Type: image/png)  [2m[got 404, want 200][0m
+[0;31mFAIL[0m GET  /images/structurizr-PriceTracker-Container.png          [2m[got 404, want 200][0m
+[0;32mPASS[0m GET  /images/...Container.png (Content-Type: image/png)      [2m[200, header ✓][0m
+
+[0;34m== Error paths — 404 for missing/invalid resources ==[0m
+[0;32mPASS[0m GET  /images/structurizr-NonExistent.png (→ 404)           [2m[404][0m
+[0;32mPASS[0m GET  /images/not-a-structurizr-file.png (→ 404)            [2m[404][0m
+[0;32mPASS[0m GET  /images/ (empty name → 404)                           [2m[404][0m
+[0;32mPASS[0m GET  /nonexistent-path (no matching route → 404)           [2m[404][0m
+[0;32mPASS[0m GET  /themes/nonexistent.json (missing theme → 404)        [2m[404][0m
+
+[0;34m== EventBus bridge — SockJS info endpoint at /eventbus/* ==[0m
+[0;32mPASS[0m GET  /eventbus/info (SockJS server info)                     [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /eventbus/info (unique entropy per request)             [2m[entropy differs][0m
+
+[0;34m== Concurrent requests — Vert.x event loop + CopyOnWriteArrayList ==[0m
+[0;32mPASS[0m 5x parallel GET /index.html                                  [2m[all 200][0m
+[0;32mPASS[0m 3x parallel GET /images/...Container.png                     [2m[all 200][0m
+
+[0;34m== Summary ==[0m
+[0;31m3/18 checks failed[0m (15 passed).

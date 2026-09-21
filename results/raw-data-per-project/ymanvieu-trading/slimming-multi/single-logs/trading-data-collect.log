@@ -1,0 +1,203 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< fr.ymanvieu.trading:trading-data-collect >--------------
+[INFO] Building trading-data-collect 5.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ trading-data-collect ---
+WARNING: A Java agent has been loaded dynamically (/Users/yifan/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[Fatal Error] catalog.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] comment-test.xml:5:7: The string "--" is not permitted within comments.
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] Redundant dependency org.checkerframework:checker-qual:3.31.0 release time Optional[2023-02-17] has not been maintained for 1170 days
+[WARNING] Redundant dependency com.google.code.findbugs:jsr305:3.0.2 release time Optional[2017-03-31] has not been maintained for 3320 days
+[WARNING] Redundant dependency com.google.j2objc:j2objc-annotations:2.8 release time Optional[2023-01-11] has not been maintained for 1207 days
+[INFO] ALL DEPENDENCY[151]:
+[INFO]  USED DEPENDENCY[146]:
+[INFO]   USED DIRECT DEPENDENCY[13]:
+[INFO] 		org.postgresql:postgresql:42.6.0:compile [1 MB]
+[INFO] 		org.apache.activemq:artemis-jms-server:2.31.2:compile [119 KB]
+[INFO] 		org.projectlombok:lombok:1.18.30:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-artemis:3.2.0:compile [4 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.3:compile [120 KB]
+[INFO] 		org.springframework.retry:spring-retry:2.0.4:compile [149 KB]
+[INFO] 		fr.ymanvieu.trading:trading-common:5.0.0-SNAPSHOT:compile [157 KB]
+[INFO] 		com.h2database:h2:2.2.224:compile [2 MB]
+[INFO] 		fr.ymanvieu.trading:trading-test:5.0.0-SNAPSHOT:test [3 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-test:3.2.0:test [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-devtools:3.2.0:compile [198 KB]
+[INFO] 		jakarta.jms:jakarta.jms-api:3.1.0:compile [57 KB]
+[INFO] 		org.springframework.boot:spring-boot-configuration-processor:3.2.0:compile [119 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[133]:
+[INFO] 		com.fasterxml:classmate:1.6.0:runtime [67 KB]
+[INFO] 		ch.qos.logback:logback-classic:1.4.11:compile [276 KB]
+[INFO] 		net.minidev:accessors-smart:2.5.0:test [29 KB]
+[INFO] 		jakarta.inject:jakarta.inject-api:2.0.1:runtime [10 KB]
+[INFO] 		io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.101.Final:compile [24 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.14.10:runtime [4 MB]
+[INFO] 		io.netty:netty-handler-proxy:4.1.101.Final:compile [24 KB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:4.0.1:runtime [126 KB]
+[INFO] 		org.yaml:snakeyaml:2.2:compile [326 KB]
+[INFO] 		jakarta.activation:jakarta.activation-api:2.1.2:runtime [64 KB]
+[INFO] 		com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.15.3:compile [54 KB]
+[INFO] 		org.springframework:spring-orm:6.1.1:compile [228 KB]
+[INFO] 		org.opentest4j:opentest4j:1.3.0:test [13 KB]
+[INFO] 		io.netty:netty-transport:4.1.101.Final:compile [485 KB]
+[INFO] 		org.apache.activemq:activemq-artemis-native:2.0.0:compile [40 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.10.1:test [200 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-runtime:4.0.4:runtime [898 KB]
+[INFO] 		io.netty:netty-transport-native-unix-common:4.1.101.Final:compile [42 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.15.3:compile [73 KB]
+[INFO] 		org.xmlunit:xmlunit-core:2.9.1:test [171 KB]
+[INFO] 		jakarta.persistence:jakarta.persistence-api:3.1.0:compile [161 KB]
+[INFO] 		org.assertj:assertj-core:3.24.2:test [1 MB]
+[INFO] 		io.netty:netty-codec-socks:4.1.101.Final:compile [118 KB]
+[INFO] 		org.apache.logging.log4j:log4j-api:2.21.1:compile [310 KB]
+[INFO] 		io.netty:netty-transport-classes-kqueue:4.1.101.Final:compile [105 KB]
+[INFO] 		org.apache.activemq:artemis-jakarta-client:2.31.2:compile [186 KB]
+[INFO] 		org.springframework:spring-expression:6.1.1:compile [293 KB]
+[INFO] 		org.mockito:mockito-core:5.7.0:test [683 KB]
+[INFO] 		com.fasterxml.woodstox:woodstox-core:6.5.1:compile [1 MB]
+[INFO] 		commons-beanutils:commons-beanutils:1.9.4:compile [241 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-security:3.2.0:compile [4 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter:5.10.1:test [6 KB]
+[INFO] 		net.minidev:json-smart:2.5.0:test [117 KB]
+[INFO] 		com.querydsl:querydsl-jpa:jakarta:5.0.0:compile [134 KB]
+[INFO] 		org.skyscreamer:jsonassert:1.5.1:test [29 KB]
+[INFO] 		org.springframework:spring-jdbc:6.1.1:compile [445 KB]
+[INFO] 		org.springframework:spring-test:6.1.1:test [832 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.10.1:test [238 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-aop:3.2.0:compile [4 KB]
+[INFO] 		io.micrometer:micrometer-core:1.12.0:compile [860 KB]
+[INFO] 		org.springframework.security:spring-security-core:6.2.0:compile [500 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.15.3:compile [536 KB]
+[INFO] 		org.springframework.boot:spring-boot-test-autoconfigure:3.2.0:test [213 KB]
+[INFO] 		org.springframework:spring-tx:6.1.1:compile [277 KB]
+[INFO] 		net.bytebuddy:byte-buddy-agent:1.14.10:test [250 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:2.1.1:compile [25 KB]
+[INFO] 		org.apache.activemq:artemis-selector:2.31.2:compile [106 KB]
+[INFO] 		org.apache.commons:commons-lang3:3.13.0:compile [617 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-data-jpa:3.2.0:compile [4 KB]
+[INFO] 		org.apache.activemq:artemis-service-extensions:2.31.2:compile [33 KB]
+[INFO] 		org.antlr:antlr4-runtime:4.10.1:compile [314 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.10.1:test [103 KB]
+[INFO] 		org.springframework.data:spring-data-jpa:3.2.0:compile [1 MB]
+[INFO] 		org.glassfish.jaxb:txw2:4.0.4:runtime [71 KB]
+[INFO] 		org.ow2.asm:asm:9.3:test [119 KB]
+[INFO] 		io.netty:netty-transport-classes-epoll:4.1.101.Final:compile [143 KB]
+[INFO] 		org.eclipse.angus:angus-activation:2.0.1:runtime [26 KB]
+[INFO] 		org.springframework.security:spring-security-web:6.2.0:compile [759 KB]
+[INFO] 		org.apache.activemq:artemis-server:2.31.2:compile [2 MB]
+[INFO] 		io.netty:netty-buffer:4.1.101.Final:compile [299 KB]
+[INFO] 		ch.qos.logback:logback-core:1.4.11:compile [583 KB]
+[INFO] 		org.springframework:spring-aop:6.1.1:compile [404 KB]
+[INFO] 		org.apache.commons:commons-dbcp2:2.10.0:compile [208 KB]
+[INFO] 		org.aspectj:aspectjweaver:1.9.20.1:compile [2 MB]
+[INFO] 		io.micrometer:micrometer-observation:1.12.0:compile [70 KB]
+[INFO] 		commons-collections:commons-collections:3.2.2:compile [574 KB]
+[INFO] 		com.google.guava:failureaccess:1.0.1:compile [4 KB]
+[INFO] 		org.jgroups:jgroups:5.3.0.Final:compile [2 MB]
+[INFO] 		io.netty:netty-codec-http:4.1.101.Final:compile [642 KB]
+[INFO] 		org.springframework:spring-web:6.1.1:compile [1 MB]
+[INFO] 		org.springframework.security:spring-security-crypto:6.2.0:compile [82 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:3.2.0:compile [1 MB]
+[INFO] 		org.springframework:spring-aspects:6.1.1:compile [48 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-core:4.0.4:runtime [135 KB]
+[INFO] 		org.jctools:jctools-core:2.1.2:compile [246 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter:3.2.0:compile [4 KB]
+[INFO] 		org.jboss.logging:jboss-logging:3.5.3.Final:runtime [57 KB]
+[INFO] 		com.jayway.jsonpath:json-path:2.8.0:test [271 KB]
+[INFO] 		jakarta.transaction:jakarta.transaction-api:2.0.1:compile [27 KB]
+[INFO] 		org.springframework.data:spring-data-commons:3.2.0:compile [1 MB]
+[INFO] 		org.springframework:spring-jcl:6.1.1:compile [23 KB]
+[INFO] 		org.objenesis:objenesis:3.3:test [48 KB]
+[INFO] 		org.springframework:spring-beans:6.1.1:compile [852 KB]
+[INFO] 		org.apache.activemq:artemis-quorum-api:2.31.2:compile [12 KB]
+[INFO] 		io.netty:netty-codec:4.1.101.Final:compile [337 KB]
+[INFO] 		org.flywaydb:flyway-core:9.22.3:compile [864 KB]
+[INFO] 		org.apache.activemq:artemis-jdbc-store:2.31.2:compile [109 KB]
+[INFO] 		com.google.guava:guava:32.1.3-jre:compile [2 MB]
+[INFO] 		io.netty:netty-common:4.1.101.Final:compile [645 KB]
+[INFO] 		com.github.ben-manes.caffeine:caffeine:3.1.8:compile [868 KB]
+[INFO] 		org.springframework.boot:spring-boot:3.2.0:compile [1 MB]
+[INFO] 		org.hamcrest:hamcrest:2.2:test [120 KB]
+[INFO] 		org.hibernate.orm:hibernate-core:6.3.1.Final:compile [10 MB]
+[INFO] 		org.apache.commons:commons-configuration2:2.9.0:compile [629 KB]
+[INFO] 		org.apache.activemq:artemis-commons:2.31.2:compile [650 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.10.1:test [572 KB]
+[INFO] 		org.apache.commons:commons-text:1.10.0:compile [232 KB]
+[INFO] 		io.smallrye:jandex:3.1.2:runtime [319 KB]
+[INFO] 		com.vaadin.external.google:android-json:0.0.20131108.vaadin1:test [17 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-logging:3.2.0:compile [4 KB]
+[INFO] 		com.mysema.commons:mysema-commons-lang:0.2.4:compile [11 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.9:compile [63 KB]
+[INFO] 		com.zaxxer:HikariCP:5.0.1:compile [158 KB]
+[INFO] 		io.netty:netty-handler:4.1.101.Final:compile [548 KB]
+[INFO] 		org.apache.activemq:artemis-jms-client:2.31.2:compile [186 KB]
+[INFO] 		org.springframework.boot:spring-boot-test:3.2.0:test [239 KB]
+[INFO] 		org.springframework:spring-context:6.1.1:compile [1 MB]
+[INFO] 		org.springframework:spring-core:6.1.1:compile [1 MB]
+[INFO] 		com.querydsl:querydsl-core:5.0.0:compile [460 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.15.3:compile [1 MB]
+[INFO] 		org.slf4j:jul-to-slf4j:2.0.9:compile [6 KB]
+[INFO] 		org.springframework.security:spring-security-config:6.2.0:compile [1 MB]
+[INFO] 		org.springframework:spring-messaging:6.1.1:compile [598 KB]
+[INFO] 		com.sun.istack:istack-commons-runtime:4.1.2:runtime [25 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.10.1:test [206 KB]
+[INFO] 		io.micrometer:micrometer-commons:1.12.0:compile [46 KB]
+[INFO] 		com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile [2 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-jdbc:3.2.0:compile [4 KB]
+[INFO] 		org.apache.logging.log4j:log4j-to-slf4j:2.21.1:compile [22 KB]
+[INFO] 		org.mockito:mockito-junit-jupiter:5.7.0:test [8 KB]
+[INFO] 		org.codehaus.woodstox:stax2-api:4.2.1:compile [191 KB]
+[INFO] 		org.apache.activemq:artemis-journal:2.31.2:compile [230 KB]
+[INFO] 		org.hibernate.common:hibernate-commons-annotations:6.0.6.Final:runtime [66 KB]
+[INFO] 		commons-logging:commons-logging:1.2:compile [60 KB]
+[INFO] 		org.apache.activemq:artemis-core-client:2.31.2:compile [822 KB]
+[INFO] 		com.google.code.gson:gson:2.10.1:compile [276 KB]
+[INFO] 		com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.3:compile [123 KB]
+[INFO] 		org.apache.commons:commons-pool2:2.12.0:compile [146 KB]
+[INFO] 		org.springframework:spring-jms:6.1.1:compile [262 KB]
+[INFO] 		io.netty:netty-resolver:4.1.101.Final:compile [36 KB]
+[INFO] 		org.awaitility:awaitility:4.2.0:test [93 KB]
+[INFO] 		io.netty:netty-transport-native-epoll:linux-x86_64:4.1.101.Final:compile [38 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[5]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[5]:
+[INFO] 		com.google.errorprone:error_prone_annotations:2.21.1:compile [16 KB]
+[INFO] 		org.mapstruct:mapstruct:1.6.0.Beta1:compile [31 KB]
+[INFO] 		org.checkerframework:checker-qual:3.31.0:compile [218 KB]
+[INFO] 		com.google.j2objc:j2objc-annotations:2.8:compile [9 KB]
+[INFO] 		com.google.code.findbugs:jsr305:3.0.2:compile [19 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+WARNING: A Java agent has been loaded dynamically (/Users/yifan/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/ymanvieu-trading/trading-data-collect/bloatedOutput/frymanvieutradingtradingdatacollect500SNAPSHOT/frymanvieutradingtradingdatacollect500SNAPSHOT/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23:13 min
+[INFO] Finished at: 2026-05-03T11:24:50+02:00
+[INFO] ------------------------------------------------------------------------

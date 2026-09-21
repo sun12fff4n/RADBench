@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -------------< org.apache.iotdb:flink-sql-iotdb-connector >-------------
+[INFO] Building IoTDB: Connector: Apache Flink SQL 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ flink-sql-iotdb-connector >>>
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ flink-sql-iotdb-connector ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ flink-sql-iotdb-connector ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] Spotless.Java is keeping 17 files clean - 0 needs changes to be clean, 17 were already clean, 0 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ flink-sql-iotdb-connector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ flink-sql-iotdb-connector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ flink-sql-iotdb-connector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ flink-sql-iotdb-connector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ flink-sql-iotdb-connector ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ flink-sql-iotdb-connector ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ flink-sql-iotdb-connector ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ flink-sql-iotdb-connector ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 17 source files with javac [debug release 8] to target/classes
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] /project/connectors/flink-sql-iotdb-connector/src/main/java/org/apache/iotdb/flink/sql/wrapper/SchemaWrapper.java: Some input files use or override a deprecated API.
+[INFO] /project/connectors/flink-sql-iotdb-connector/src/main/java/org/apache/iotdb/flink/sql/wrapper/SchemaWrapper.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ flink-sql-iotdb-connector ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ flink-sql-iotdb-connector ---
+[INFO] skip non existing resourceDirectory /project/connectors/flink-sql-iotdb-connector/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ flink-sql-iotdb-connector ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ flink-sql-iotdb-connector <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ flink-sql-iotdb-connector ---
+[INFO] No dependency problems found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.689 s
+[INFO] Finished at: 2026-06-16T08:27:40Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 14 goals, 14 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

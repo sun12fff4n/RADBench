@@ -1,0 +1,439 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -----------------< org.apache.iotdb:rocketmq-example >------------------
+[INFO] Building IoTDB: Example: Apache RocketMQ 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ rocketmq-example >>>
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-client/5.3.3/rocketmq-client-5.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-client/5.3.3/rocketmq-client-5.3.3.pom (2.7 kB at 5.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-all/5.3.3/rocketmq-all-5.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-all/5.3.3/rocketmq-all-5.3.3.pom (50 kB at 728 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-remoting/5.3.3/rocketmq-remoting-5.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-remoting/5.3.3/rocketmq-remoting-5.3.3.pom (2.1 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-common/5.3.3/rocketmq-common-5.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-common/5.3.3/rocketmq-common-5.3.3.pom (4.5 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson2/fastjson2/2.0.43/fastjson2-2.0.43.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson2/fastjson2/2.0.43/fastjson2-2.0.43.pom (11 kB at 231 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson2/fastjson2-parent/2.0.43/fastjson2-parent-2.0.43.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson2/fastjson2-parent/2.0.43/fastjson2-parent-2.0.43.pom (47 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.16.0/jackson-bom-2.16.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.16.0/jackson-bom-2.16.0.pom (18 kB at 506 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.25.1/protobuf-bom-3.25.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.25.1/protobuf-bom-3.25.1.pom (3.7 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/11.0.15/jetty-bom-11.0.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/11.0.15/jetty-bom-11.0.15.pom (20 kB at 701 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.41/jersey-bom-2.41.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.41/jersey-bom-2.41.pom (20 kB at 483 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.6.21/kotlin-bom-1.6.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.6.21/kotlin-bom-1.6.21.pom (9.3 kB at 301 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.114.Final/netty-all-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.114.Final/netty-all-4.1.114.Final.pom (37 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.114.Final/netty-buffer-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.114.Final/netty-buffer-4.1.114.Final.pom (1.6 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.114.Final/netty-parent-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.114.Final/netty-parent-4.1.114.Final.pom (92 kB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.114.Final/netty-codec-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.114.Final/netty-codec-4.1.114.Final.pom (5.5 kB at 189 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.114.Final/netty-codec-dns-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.114.Final/netty-codec-dns-4.1.114.Final.pom (2.7 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-haproxy/4.1.114.Final/netty-codec-haproxy-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-haproxy/4.1.114.Final/netty-codec-haproxy-4.1.114.Final.pom (2.4 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.114.Final/netty-codec-http-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.114.Final/netty-codec-http-4.1.114.Final.pom (4.4 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.114.Final/netty-codec-http2-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.114.Final/netty-codec-http2-4.1.114.Final.pom (5.2 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-memcache/4.1.114.Final/netty-codec-memcache-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-memcache/4.1.114.Final/netty-codec-memcache-4.1.114.Final.pom (2.5 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-mqtt/4.1.114.Final/netty-codec-mqtt-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-mqtt/4.1.114.Final/netty-codec-mqtt-4.1.114.Final.pom (2.6 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-redis/4.1.114.Final/netty-codec-redis-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-redis/4.1.114.Final/netty-codec-redis-4.1.114.Final.pom (2.5 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-smtp/4.1.114.Final/netty-codec-smtp-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-smtp/4.1.114.Final/netty-codec-smtp-4.1.114.Final.pom (2.5 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.114.Final/netty-codec-socks-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.114.Final/netty-codec-socks-4.1.114.Final.pom (2.5 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-stomp/4.1.114.Final/netty-codec-stomp-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-stomp/4.1.114.Final/netty-codec-stomp-4.1.114.Final.pom (2.5 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-xml/4.1.114.Final/netty-codec-xml-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-xml/4.1.114.Final/netty-codec-xml-4.1.114.Final.pom (2.5 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.114.Final/netty-common-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.114.Final/netty-common-4.1.114.Final.pom (12 kB at 380 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.114.Final/netty-handler-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.114.Final/netty-handler-4.1.114.Final.pom (4.6 kB at 165 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.114.Final/netty-transport-native-unix-common-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.114.Final/netty-transport-native-unix-common-4.1.114.Final.pom (33 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.114.Final/netty-handler-proxy-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.114.Final/netty-handler-proxy-4.1.114.Final.pom (3.6 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-ssl-ocsp/4.1.114.Final/netty-handler-ssl-ocsp-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-ssl-ocsp/4.1.114.Final/netty-handler-ssl-ocsp-4.1.114.Final.pom (2.0 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.114.Final/netty-resolver-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.114.Final/netty-resolver-4.1.114.Final.pom (1.6 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.114.Final/netty-resolver-dns-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.114.Final/netty-resolver-dns-4.1.114.Final.pom (3.7 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.114.Final/netty-transport-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.114.Final/netty-transport-4.1.114.Final.pom (2.2 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-rxtx/4.1.114.Final/netty-transport-rxtx-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-rxtx/4.1.114.Final/netty-transport-rxtx-4.1.114.Final.pom (1.8 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-sctp/4.1.114.Final/netty-transport-sctp-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-sctp/4.1.114.Final/netty-transport-sctp-4.1.114.Final.pom (2.9 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-udt/4.1.114.Final/netty-transport-udt-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-udt/4.1.114.Final/netty-transport-udt-4.1.114.Final.pom (2.7 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.114.Final/netty-transport-classes-epoll-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.114.Final/netty-transport-classes-epoll-4.1.114.Final.pom (2.1 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.114.Final/netty-transport-classes-kqueue-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.114.Final/netty-transport-classes-kqueue-4.1.114.Final.pom (2.1 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.114.Final/netty-resolver-dns-classes-macos-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.114.Final/netty-resolver-dns-classes-macos-4.1.114.Final.pom (2.0 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.114.Final/netty-transport-native-epoll-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.114.Final/netty-transport-native-epoll-4.1.114.Final.pom (27 kB at 876 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.114.Final/netty-transport-native-kqueue-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.114.Final/netty-transport-native-kqueue-4.1.114.Final.pom (31 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.114.Final/netty-resolver-dns-native-macos-4.1.114.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.114.Final/netty-resolver-dns-native-macos-4.1.114.Final.pom (19 kB at 573 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.7/commons-validator-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.7/commons-validator-1.7.pom (14 kB at 336 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/2.1/commons-digester-2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/2.1/commons-digester-2.1.pom (10 kB at 293 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.29.0/opentelemetry-exporter-otlp-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.29.0/opentelemetry-exporter-otlp-1.29.0.pom (2.8 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.29.0/opentelemetry-sdk-trace-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.29.0/opentelemetry-sdk-trace-1.29.0.pom (2.2 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.29.0/opentelemetry-api-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.29.0/opentelemetry-api-1.29.0.pom (1.8 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.29.0/opentelemetry-context-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.29.0/opentelemetry-context-1.29.0.pom (1.6 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.29.0/opentelemetry-sdk-common-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.29.0/opentelemetry-sdk-common-1.29.0.pom (2.0 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha.pom (1.8 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.29.0/opentelemetry-sdk-metrics-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.29.0/opentelemetry-sdk-metrics-1.29.0.pom (2.2 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-extension-incubator/1.29.0-alpha/opentelemetry-extension-incubator-1.29.0-alpha.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-extension-incubator/1.29.0-alpha/opentelemetry-extension-incubator-1.29.0-alpha.pom (1.8 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.29.0/opentelemetry-sdk-logs-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.29.0/opentelemetry-sdk-logs-1.29.0.pom (2.2 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.29.0-alpha/opentelemetry-api-events-1.29.0-alpha.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.29.0-alpha/opentelemetry-api-events-1.29.0-alpha.pom (1.8 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.29.0/opentelemetry-exporter-otlp-common-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.29.0/opentelemetry-exporter-otlp-common-1.29.0.pom (1.8 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.29.0/opentelemetry-exporter-common-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.29.0/opentelemetry-exporter-common-1.29.0.pom (1.8 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.29.0/opentelemetry-exporter-sender-okhttp-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.29.0/opentelemetry-exporter-sender-okhttp-1.29.0.pom (2.2 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.11.0/okhttp-4.11.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.11.0/okhttp-4.11.0.pom (2.0 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.2.0/okio-3.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.2.0/okio-3.2.0.pom (1.6 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.2.0/okio-jvm-3.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.2.0/okio-jvm-3.2.0.pom (1.9 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.pom (1.6 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.pom (1.6 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.pom (1.2 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.pom (1.4 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.29.0/opentelemetry-sdk-extension-autoconfigure-spi-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.29.0/opentelemetry-sdk-extension-autoconfigure-spi-1.29.0.pom (1.8 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.29.0/opentelemetry-sdk-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.29.0/opentelemetry-sdk-1.29.0.pom (2.5 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-prometheus/1.29.0-alpha/opentelemetry-exporter-prometheus-1.29.0-alpha.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-prometheus/1.29.0-alpha/opentelemetry-exporter-prometheus-1.29.0-alpha.pom (2.0 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.29.0/opentelemetry-exporter-logging-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.29.0/opentelemetry-exporter-logging-1.29.0.pom (2.0 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging-otlp/1.29.0/opentelemetry-exporter-logging-otlp-1.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging-otlp/1.29.0/opentelemetry-exporter-logging-otlp-1.29.0.pom (2.8 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.53.0/grpc-stub-1.53.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.53.0/grpc-stub-1.53.0.pom (1.8 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.53.0/grpc-api-1.53.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.53.0/grpc-api-1.53.0.pom (2.0 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.53.0/grpc-context-1.53.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.53.0/grpc-context-1.53.0.pom (1.2 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.pom (2.2 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.14.0/error_prone_parent-2.14.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.14.0/error_prone_parent-2.14.0.pom (11 kB at 431 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.53.0/grpc-netty-shaded-1.53.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.53.0/grpc-netty-shaded-1.53.0.pom (2.0 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.25.0/perfmark-api-0.25.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.25.0/perfmark-api-0.25.0.pom (1.5 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.53.0/grpc-core-1.53.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.53.0/grpc-core-1.53.0.pom (2.5 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.pom (1.8 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.21/animal-sniffer-annotations-1.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.21/animal-sniffer-annotations-1.21.pom (2.6 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.21/animal-sniffer-parent-1.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.21/animal-sniffer-parent-1.21.pom (7.8 kB at 280 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/65/mojo-parent-65.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/65/mojo-parent-65.pom (35 kB at 991 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.1/junit-bom-5.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.1/junit-bom-5.8.1.pom (5.6 kB at 194 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.4.0/okio-jvm-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.4.0/okio-jvm-3.4.0.pom (1.9 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/annotations-api/6.0.53/annotations-api-6.0.53.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/annotations-api/6.0.53/annotations-api-6.0.53.pom (1.3 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-slf4j-api/1.0.1/rocketmq-slf4j-api-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-slf4j-api/1.0.1/rocketmq-slf4j-api-1.0.1.pom (2.2 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-logging/1.0.1/rocketmq-logging-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-logging/1.0.1/rocketmq-logging-1.0.1.pom (7.5 kB at 249 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-logback-classic/1.0.1/rocketmq-logback-classic-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-logback-classic/1.0.1/rocketmq-logback-classic-1.0.1.pom (4.2 kB at 146 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-rocksdb/1.0.2/rocketmq-rocksdb-1.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-rocksdb/1.0.2/rocketmq-rocksdb-1.0.2.pom (6.7 kB at 223 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/awaitility/awaitility/4.1.0/awaitility-4.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/awaitility/awaitility/4.1.0/awaitility-4.1.0.pom (3.5 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/awaitility/awaitility-parent/4.1.0/awaitility-parent-4.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/awaitility/awaitility-parent/4.1.0/awaitility-parent-4.1.0.pom (10 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.pom (1.1 kB at 9.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.pom (9.9 kB at 308 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom (9.8 kB at 281 kB/s)
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.pom (21 kB at 651 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-client/5.3.3/rocketmq-client-5.3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-client/5.3.3/rocketmq-client-5.3.3.jar (567 kB at 6.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-remoting/5.3.3/rocketmq-remoting-5.3.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-common/5.3.3/rocketmq-common-5.3.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson2/fastjson2/2.0.43/fastjson2-2.0.43.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.114.Final/netty-all-4.1.114.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.114.Final/netty-buffer-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-remoting/5.3.3/rocketmq-remoting-5.3.3.jar (478 kB at 5.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.114.Final/netty-codec-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.114.Final/netty-buffer-4.1.114.Final.jar (337 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.114.Final/netty-codec-dns-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.114.Final/netty-all-4.1.114.Final.jar (4.6 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-haproxy/4.1.114.Final/netty-codec-haproxy-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.114.Final/netty-codec-4.1.114.Final.jar (352 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.114.Final/netty-codec-http-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.114.Final/netty-codec-dns-4.1.114.Final.jar (67 kB at 284 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.114.Final/netty-codec-http2-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-haproxy/4.1.114.Final/netty-codec-haproxy-4.1.114.Final.jar (38 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-memcache/4.1.114.Final/netty-codec-memcache-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-common/5.3.3/rocketmq-common-5.3.3.jar (338 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-mqtt/4.1.114.Final/netty-codec-mqtt-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-memcache/4.1.114.Final/netty-codec-memcache-4.1.114.Final.jar (45 kB at 162 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-redis/4.1.114.Final/netty-codec-redis-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-mqtt/4.1.114.Final/netty-codec-mqtt-4.1.114.Final.jar (114 kB at 383 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-smtp/4.1.114.Final/netty-codec-smtp-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.114.Final/netty-codec-http2-4.1.114.Final.jar (490 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.114.Final/netty-codec-socks-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.114.Final/netty-codec-http-4.1.114.Final.jar (668 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-stomp/4.1.114.Final/netty-codec-stomp-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-redis/4.1.114.Final/netty-codec-redis-4.1.114.Final.jar (46 kB at 147 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-xml/4.1.114.Final/netty-codec-xml-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/fastjson2/fastjson2/2.0.43/fastjson2-2.0.43.jar (2.0 MB at 5.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.114.Final/netty-common-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.114.Final/netty-codec-socks-4.1.114.Final.jar (121 kB at 361 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.114.Final/netty-handler-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-smtp/4.1.114.Final/netty-codec-smtp-4.1.114.Final.jar (21 kB at 64 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-stomp/4.1.114.Final/netty-codec-stomp-4.1.114.Final.jar (35 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.114.Final/netty-transport-native-unix-common-4.1.114.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.114.Final/netty-handler-proxy-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-xml/4.1.114.Final/netty-codec-xml-4.1.114.Final.jar (20 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-ssl-ocsp/4.1.114.Final/netty-handler-ssl-ocsp-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-ssl-ocsp/4.1.114.Final/netty-handler-ssl-ocsp-4.1.114.Final.jar (27 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.114.Final/netty-resolver-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.114.Final/netty-transport-native-unix-common-4.1.114.Final.jar (44 kB at 117 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.114.Final/netty-handler-proxy-4.1.114.Final.jar (26 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.114.Final/netty-resolver-dns-4.1.114.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.114.Final/netty-transport-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.114.Final/netty-handler-4.1.114.Final.jar (577 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-rxtx/4.1.114.Final/netty-transport-rxtx-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.114.Final/netty-common-4.1.114.Final.jar (695 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-sctp/4.1.114.Final/netty-transport-sctp-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.114.Final/netty-resolver-4.1.114.Final.jar (38 kB at 91 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-sctp/4.1.114.Final/netty-transport-sctp-4.1.114.Final.jar (51 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.114.Final/netty-transport-classes-epoll-4.1.114.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-udt/4.1.114.Final/netty-transport-udt-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-rxtx/4.1.114.Final/netty-transport-rxtx-4.1.114.Final.jar (18 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.114.Final/netty-transport-classes-kqueue-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.114.Final/netty-transport-4.1.114.Final.jar (521 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.114.Final/netty-resolver-dns-classes-macos-4.1.114.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.114.Final/netty-resolver-dns-4.1.114.Final.jar (188 kB at 438 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.114.Final/netty-transport-native-epoll-4.1.114.Final-linux-x86_64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-udt/4.1.114.Final/netty-transport-udt-4.1.114.Final.jar (32 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.114.Final/netty-transport-native-epoll-4.1.114.Final-linux-aarch_64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.114.Final/netty-transport-classes-epoll-4.1.114.Final.jar (148 kB at 327 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.114.Final/netty-transport-native-epoll-4.1.114.Final-linux-riscv64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.114.Final/netty-transport-classes-kqueue-4.1.114.Final.jar (109 kB at 238 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.114.Final/netty-transport-native-kqueue-4.1.114.Final-osx-x86_64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.114.Final/netty-resolver-dns-classes-macos-4.1.114.Final.jar (9.1 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.114.Final/netty-transport-native-kqueue-4.1.114.Final-osx-aarch_64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.114.Final/netty-transport-native-epoll-4.1.114.Final-linux-x86_64.jar (40 kB at 72 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.114.Final/netty-transport-native-kqueue-4.1.114.Final-osx-x86_64.jar (25 kB at 45 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.114.Final/netty-transport-native-epoll-4.1.114.Final-linux-riscv64.jar (36 kB at 65 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.114.Final/netty-transport-native-epoll-4.1.114.Final-linux-aarch_64.jar (42 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/2.1/commons-digester-2.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.7/commons-validator-1.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.114.Final/netty-resolver-dns-native-macos-4.1.114.Final-osx-aarch_64.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.114.Final/netty-resolver-dns-native-macos-4.1.114.Final-osx-x86_64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.114.Final/netty-transport-native-kqueue-4.1.114.Final-osx-aarch_64.jar (26 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.29.0/opentelemetry-exporter-otlp-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.114.Final/netty-resolver-dns-native-macos-4.1.114.Final-osx-aarch_64.jar (20 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.29.0/opentelemetry-sdk-trace-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/2.1/commons-digester-2.1.jar (197 kB at 333 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.7/commons-validator-1.7.jar (190 kB at 321 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.114.Final/netty-resolver-dns-native-macos-4.1.114.Final-osx-x86_64.jar (20 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-extension-incubator/1.29.0-alpha/opentelemetry-extension-incubator-1.29.0-alpha.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.29.0/opentelemetry-sdk-metrics-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.29.0/opentelemetry-exporter-otlp-1.29.0.jar (60 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.29.0/opentelemetry-sdk-logs-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-extension-incubator/1.29.0-alpha/opentelemetry-extension-incubator-1.29.0-alpha.jar (7.7 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.29.0-alpha/opentelemetry-api-events-1.29.0-alpha.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.29.0/opentelemetry-sdk-logs-1.29.0.jar (47 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.29.0/opentelemetry-exporter-otlp-common-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha.jar (40 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.29.0/opentelemetry-exporter-common-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.29.0/opentelemetry-sdk-trace-1.29.0.jar (117 kB at 162 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.29.0/opentelemetry-exporter-sender-okhttp-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.29.0/opentelemetry-sdk-metrics-1.29.0.jar (257 kB at 351 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.11.0/okhttp-4.11.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.29.0-alpha/opentelemetry-api-events-1.29.0-alpha.jar (6.0 kB at 8.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.2.0/okio-3.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.29.0/opentelemetry-exporter-otlp-common-1.29.0.jar (106 kB at 140 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.2.0/okio-3.2.0.jar (26 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.29.0/opentelemetry-exporter-sender-okhttp-1.29.0.jar (24 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.11.0/okhttp-4.11.0.jar (787 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar (18 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.29.0/opentelemetry-sdk-extension-autoconfigure-spi-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.jar (201 kB at 250 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-prometheus/1.29.0-alpha/opentelemetry-exporter-prometheus-1.29.0-alpha.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar (24 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.29.0/opentelemetry-exporter-logging-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar (1.5 MB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.29.0/opentelemetry-sdk-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-prometheus/1.29.0-alpha/opentelemetry-exporter-prometheus-1.29.0-alpha.jar (39 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.29.0/opentelemetry-api-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.29.0/opentelemetry-exporter-logging-1.29.0.jar (11 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.29.0/opentelemetry-context-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.29.0/opentelemetry-sdk-extension-autoconfigure-spi-1.29.0.jar (16 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.29.0/opentelemetry-sdk-common-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.29.0/opentelemetry-sdk-1.29.0.jar (6.8 kB at 7.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging-otlp/1.29.0/opentelemetry-exporter-logging-otlp-1.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.29.0/opentelemetry-api-1.29.0.jar (138 kB at 160 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.29.0/opentelemetry-context-1.29.0.jar (47 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.53.0/grpc-stub-1.53.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.29.0/opentelemetry-sdk-common-1.29.0.jar (43 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.53.0/grpc-api-1.53.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging-otlp/1.29.0/opentelemetry-exporter-logging-otlp-1.29.0.jar (12 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.53.0/grpc-context-1.53.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.53.0/grpc-stub-1.53.0.jar (51 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.29.0/opentelemetry-exporter-common-1.29.0.jar (68 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.53.0/grpc-netty-shaded-1.53.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar (549 kB at 613 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.25.0/perfmark-api-0.25.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.53.0/grpc-api-1.53.0.jar (262 kB at 288 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.53.0/grpc-core-1.53.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.53.0/grpc-context-1.53.0.jar (31 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.jar (16 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.21/animal-sniffer-annotations-1.21.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.25.0/perfmark-api-0.25.0.jar (6.7 kB at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.4.0/okio-jvm-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar (3.1 kB at 3.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/annotations-api/6.0.53/annotations-api-6.0.53.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.53.0/grpc-core-1.53.0.jar (731 kB at 755 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-rocksdb/1.0.2/rocketmq-rocksdb-1.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.21/animal-sniffer-annotations-1.21.jar (3.3 kB at 3.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.4.0/okio-jvm-3.4.0.jar (360 kB at 360 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/annotations-api/6.0.53/annotations-api-6.0.53.jar (15 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-slf4j-api/1.0.1/rocketmq-slf4j-api-1.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.jar (131 kB at 124 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar (735 kB at 695 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-logback-classic/1.0.1/rocketmq-logback-classic-1.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-slf4j-api/1.0.1/rocketmq-slf4j-api-1.0.1.jar (68 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/awaitility/awaitility/4.1.0/awaitility-4.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar (335 kB at 301 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar (123 kB at 94 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/awaitility/awaitility/4.1.0/awaitility-4.1.0.jar (93 kB at 70 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/aliyunmq/rocketmq-logback-classic/1.0.1/rocketmq-logback-classic-1.0.1.jar (940 kB at 705 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.53.0/grpc-netty-shaded-1.53.0.jar (9.3 MB at 6.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rocketmq/rocketmq-rocksdb/1.0.2/rocketmq-rocksdb-1.0.2.jar (30 MB at 15 MB/s)
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ rocketmq-example ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ rocketmq-example ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] Spotless.Java is keeping 8 files clean - 0 needs changes to be clean, 8 were already clean, 0 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ rocketmq-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ rocketmq-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ rocketmq-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ rocketmq-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ rocketmq-example ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ rocketmq-example ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ rocketmq-example ---
+[INFO] skip non existing resourceDirectory /project/examples/rocketmq/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ rocketmq-example ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 8 source files with javac [debug release 8] to target/classes
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ rocketmq-example ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ rocketmq-example ---
+[INFO] skip non existing resourceDirectory /project/examples/rocketmq/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ rocketmq-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ rocketmq-example <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ rocketmq-example ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    org.apache.tsfile:tsfile:jar:2.1.1:compile
+[WARNING]    org.apache.rocketmq:rocketmq-common:jar:5.3.3:compile
+[WARNING]    org.apache.rocketmq:rocketmq-remoting:jar:5.3.3:compile
+[WARNING]    org.apache.iotdb:isession:jar:2.0.5:compile
+[WARNING]    org.slf4j:slf4j-api:jar:2.0.9:compile
+[WARNING]    org.apache.iotdb:service-rpc:jar:2.0.5:compile
+[WARNING]    org.apache.tsfile:common:jar:2.1.1:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.673 s
+[INFO] Finished at: 2026-06-16T09:01:59Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 14 goals, 14 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

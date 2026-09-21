@@ -1,0 +1,69 @@
+ Network eno_default Creating 
+ Network eno_default Created 
+ Container eno-ws Creating 
+ Container eno-ws Created 
+ Container eno-ws Starting 
+ Container eno-ws Started 
+ Container eno-ws Waiting 
+container eno-ws is unhealthy
+--- compose up failed; app logs ---
+eno-ws  |  /\\  | ____|_ __   ___   \ \      / / ___| \ \ \ \
+eno-ws  | ( ( ) |  _| | '_ \ / _ \   \ \ /\ / /\___ \  \ \ \ \
+eno-ws  |  \\/  | |___| | | | (_) |   \ V  V /  ___) |  ) ) ) )
+eno-ws  |   '   |_____|_| |_|\___/     \_/\_/  |____/  / / / /
+eno-ws  |  ===========================================/_/_/_/
+eno-ws  | 2026-09-21 19:55:08.871 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+eno-ws  | 2026-09-21 19:55:09.081 [main] INFO  fr.insee.eno.ws.EnoWsApplication - Starting EnoWsApplication v3.62.0 using Java 21.0.9 with PID 1 (/opt/eno-ws/eno-ws.jar started by java in /opt/eno-ws)
+eno-ws  | 2026-09-21 19:55:09.084 [main] INFO  fr.insee.eno.ws.EnoWsApplication - No active profile set, falling back to 1 default profile: "default"
+eno-ws  | 2026-09-21 19:55:10.810 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [fr.insee.eno.ws.EnoWsApplication]: Could not evaluate condition on org.springframework.boot.autoconfigure.http.client.reactive.ClientHttpConnectorAutoConfiguration due to io/netty/resolver/AddressResolverGroup not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+eno-ws  | 2026-09-21 19:55:10.829 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+eno-ws  | 
+eno-ws  | Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+eno-ws  | 2026-09-21 19:55:10.911 [main] ERROR o.s.boot.SpringApplication - Application run failed
+eno-ws  | org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [fr.insee.eno.ws.EnoWsApplication]: Could not evaluate condition on org.springframework.boot.autoconfigure.http.client.reactive.ClientHttpConnectorAutoConfiguration due to io/netty/resolver/AddressResolverGroup not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:627)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:850)
+eno-ws  | 	at java.base/java.lang.Iterable.forEach(Unknown Source)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:847)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:817)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+eno-ws  | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+eno-ws  | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+eno-ws  | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+eno-ws  | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+eno-ws  | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+eno-ws  | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+eno-ws  | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+eno-ws  | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+eno-ws  | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+eno-ws  | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+eno-ws  | 	at fr.insee.eno.ws.EnoWsApplication.main(EnoWsApplication.java:26)
+eno-ws  | 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+eno-ws  | 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+eno-ws  | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:106)
+eno-ws  | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+eno-ws  | 	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40)
+eno-ws  | Caused by: java.lang.IllegalStateException: Could not evaluate condition on org.springframework.boot.autoconfigure.http.client.reactive.ClientHttpConnectorAutoConfiguration due to io/netty/resolver/AddressResolverGroup not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+eno-ws  | 	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:54)
+eno-ws  | 	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:99)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:247)
+eno-ws  | 	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:617)
+eno-ws  | 	... 23 common frames omitted
+eno-ws  | Caused by: java.lang.NoClassDefFoundError: io/netty/resolver/AddressResolverGroup
+eno-ws  | 	at org.springframework.boot.http.client.ReactorHttpClientBuilder.<init>(ReactorHttpClientBuilder.java:53)
+eno-ws  | 	at org.springframework.boot.http.client.reactive.ReactorClientHttpConnectorBuilder.<init>(ReactorClientHttpConnectorBuilder.java:45)
+eno-ws  | 	at org.springframework.boot.http.client.reactive.ClientHttpConnectorBuilder.reactor(ClientHttpConnectorBuilder.java:112)
+eno-ws  | 	at org.springframework.boot.http.client.reactive.ClientHttpConnectorBuilder.detect(ClientHttpConnectorBuilder.java:187)
+eno-ws  | 	at org.springframework.boot.autoconfigure.http.client.reactive.ConditionalOnClientHttpConnectorBuilderDetection.getMatchOutcome(ConditionalOnClientHttpConnectorBuilderDetection.java:36)
+eno-ws  | 	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+eno-ws  | 	... 26 common frames omitted
+eno-ws  | Caused by: java.lang.ClassNotFoundException: io.netty.resolver.AddressResolverGroup
+eno-ws  | 	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+eno-ws  | 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+eno-ws  | 	at org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader.loadClass(JarUrlClassLoader.java:107)
+eno-ws  | 	at org.springframework.boot.loader.launch.LaunchedClassLoader.loadClass(LaunchedClassLoader.java:91)
+eno-ws  | 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+eno-ws  | 	... 32 common frames omitted
+eno-ws  | Picked up JAVA_TOOL_OPTIONS: -XX:MaxRAMPercentage=75     -XX:+UseZGC 

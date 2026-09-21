@@ -1,0 +1,102 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -------------< org.apache.iotdb:iotdb-spring-boot-starter >-------------
+[INFO] Building IoTDB Extras: SpringBoot Starter 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ iotdb-spring-boot-starter >>>
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.7/spring-context-6.2.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.7/spring-context-6.2.7.pom (2.8 kB at 5.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.pom (2.0 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.1/spring-boot-configuration-processor-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.1/spring-boot-configuration-processor-3.5.1.pom (1.9 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.1/spring-boot-configuration-processor-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.1/spring-boot-configuration-processor-3.5.1.jar (135 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.7/spring-context-6.2.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.7/spring-context-6.2.7.jar (1.4 MB at 11 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.jar (886 kB at 6.4 MB/s)
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ iotdb-spring-boot-starter ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ iotdb-spring-boot-starter ---
+[INFO] Index file does not exist. Fallback to an empty index
+[INFO] Spotless.Java is keeping 2 files clean - 0 needs changes to be clean, 2 were already clean, 0 were skipped because caching determined they were already clean
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ iotdb-spring-boot-starter ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ iotdb-spring-boot-starter ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ iotdb-spring-boot-starter ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-ban-duplicate-classes) @ iotdb-spring-boot-starter ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (vulnerability-checks) @ iotdb-spring-boot-starter ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ iotdb-spring-boot-starter ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ iotdb-spring-boot-starter ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ iotdb-spring-boot-starter ---
+[WARNING] The following annotation processors were found on the classpath: [org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor].
+Compile avoidance has been deactivated.
+Please use the maven-compiler-plugin version 3.5 or above and use the <annotationProcessorPaths> configuration element to declare the processors instead.
+If you did not intend to use the processors above (e.g. they were leaked by a dependency), you can use the <proc>none</proc> option to disable annotation processing.
+
+For more information see https://gradle.com/enterprise/help/maven-extension-compile-avoidance.
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug release 8] to target/classes
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- xml-format:3.2.2:xml-format (xml-format) @ iotdb-spring-boot-starter ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ iotdb-spring-boot-starter ---
+[INFO] skip non existing resourceDirectory /project/iotdb-spring-boot-starter/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ iotdb-spring-boot-starter ---
+[WARNING] The following annotation processors were found on the classpath: [org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor].
+Compile avoidance has been deactivated.
+Please use the maven-compiler-plugin version 3.5 or above and use the <annotationProcessorPaths> configuration element to declare the processors instead.
+If you did not intend to use the processors above (e.g. they were leaked by a dependency), you can use the <proc>none</proc> option to disable annotation processing.
+
+For more information see https://gradle.com/enterprise/help/maven-extension-compile-avoidance.
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.6.0:analyze (default-cli) < test-compile @ iotdb-spring-boot-starter <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.0:analyze (default-cli) @ iotdb-spring-boot-starter ---
+[INFO] No dependency problems found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.179 s
+[INFO] Finished at: 2026-06-16T09:04:52Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 14 goals, 14 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.

@@ -1,0 +1,151 @@
+Project info>>>>/private/tmp/analysis-runs/InseeFr-Eno/eno-ws
+Project Name>>>>fr.insee.eno:eno-ws:3.62.0
+OriginalSize>>>>86504KB
+BloatedSize>>>>51KB
+All Dependencies>>>>131
+Used Dependencies>>>>128
+Used Self Direct Dependency>>>>9
+Used Self Indirect Dependency>>>>118
+Used Inherit Direct Dependency>>>>1
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>3
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>3
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>3
+realBloated>>>>3
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>19157
+buildClassExtendGraphTime>>>>264
+buildCallGraphTime>>>>2480950
+levelTime>>>>139
+stringTime>>>>12
+licenseCheckTime>>>>6604
+bugCheckTime>>>>240
+maintenanceTimeCheckTime>>>>1482
+checkTime>>>>2513702
+repairTime>>>>23382
+mvnTestTime>>>>11620
+====================BloatedType=========================
+java Reflect>>>>1
+outdated>>>>1
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>1
+====================Java Reflect=========================
+SpringAPI>>>>33
+TomcatAPI>>>>0
+.class>>>>27376
+forName>>>>131
+loadClass>>>>189
+getClass>>>>1315
+reflectEdges>>>>28616
+unReflectEdges>>>>90
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.lang.Object beanOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.lang.Object getDefaultStrategy(org.springframework.context.ApplicationContext,java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.BeanFactoryUtils: java.util.Map beansOfTypeIncludingAncestors(org.springframework.beans.factory.ListableBeanFactory,java.lang.Class,boolean,boolean)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.http.codec.CodecConfigurerFactory: org.springframework.http.codec.CodecConfigurer create(java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+springReflectAPI>>>><org.springframework.web.servlet.DispatcherServlet: java.util.List getDefaultStrategies(org.springframework.context.ApplicationContext,java.lang.Class)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void processSessionCustomizer(org.eclipse.persistence.internal.sessions.factories.model.session.SessionConfig,org.eclipse.persistence.internal.sessions.AbstractSession)>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.sessions.Login buildEISLoginConfig(org.eclipse.persistence.internal.sessions.factories.model.login.EISLoginConfig)>
+unSolvedReflect>>>><javax.xml.bind.ServiceLoaderUtil: java.lang.Object lookupUsingOSGiServiceLoader(java.lang.String,java.util.logging.Logger)>
+unSolvedReflect>>>><org.eclipse.persistence.sessions.DatasourceLogin: void setPlatformClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.realm.JNDIRealm: java.lang.Object constructInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.NamingContextListener: java.lang.Object constructEnvEntry(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.apache.coyote.ProtocolHandler: org.apache.coyote.ProtocolHandler create(java.lang.String)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.dynamic.metadata.OXMMetadata: org.eclipse.persistence.jaxb.javamodel.JavaClass[] createClassModelFromOXM(org.eclipse.persistence.dynamic.DynamicClassLoader)>
+unSolvedReflect>>>><javax.activation.MailcapCommandMap: javax.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.startup.LifecycleListenerRule: void begin(java.lang.String,java.lang.String,org.xml.sax.Attributes)>
+unSolvedReflect>>>><jakarta.security.auth.message.config.AuthConfigFactory: jakarta.security.auth.message.config.AuthConfigFactory lambda$getFactory$0(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployWAR(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.eclipse.persistence.sessions.DatasourceLogin: void setPlatformClassName(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Class loadClass(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.sdo.helper.SDOClassLoader: java.lang.Class loadClass(java.lang.String,org.eclipse.persistence.sdo.SDOType)>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.apache.tomcat.util.digester.ObjectCreateRule: void begin(java.lang.String,java.lang.String,org.xml.sax.Attributes)>
+unSolvedReflect>>>><org.springframework.web.util.UrlPathHelper: boolean shouldRemoveTrailingServletPathSlash(jakarta.servlet.http.HttpServletRequest)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.javamodel.xjc.XJCJavaAnnotationImpl: java.lang.annotation.Annotation getJavaAnnotation()>
+unSolvedReflect>>>><org.eclipse.persistence.internal.helper.Helper: java.lang.String getComponentTypeNameFromArrayString(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDirectory(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataAsmFactory: void buildClassMetadata(org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataClass,java.lang.String,boolean)>
+unSolvedReflect>>>><org.springframework.cglib.core.ReflectUtils: java.lang.Class defineClass(java.lang.String,byte[],java.lang.ClassLoader,java.security.ProtectionDomain,java.lang.Class)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.JAXBContext$TypeMappingInfoInput: org.eclipse.persistence.jaxb.TypeMappingInfo[] getXmlBindingsClasses(org.eclipse.persistence.jaxb.xmlmodel.XmlBindings,java.lang.ClassLoader,org.eclipse.persistence.jaxb.TypeMappingInfo[])>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.javamodel.reflection.JavaModelImpl: org.eclipse.persistence.jaxb.javamodel.JavaClass getClass(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.platform.xml.XMLPlatformFactory: java.lang.Class getXMLPlatformClass()>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void buildOc4jJGroupsTransportManagerConfig(org.eclipse.persistence.internal.sessions.factories.model.transport.Oc4jJGroupsTransportManagerConfig,org.eclipse.persistence.sessions.coordination.RemoteCommandManager)>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLUtilBase: javax.net.ssl.TrustManager[] getTrustManagers()>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.sessions.Login buildDatabaseLoginConfig(org.eclipse.persistence.internal.sessions.factories.model.login.DatabaseLoginConfig)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.jpa.deployment.PersistenceUnitProcessor: org.eclipse.persistence.jpa.ArchiveFactory getArchiveFactory(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.util.Introspection: java.lang.Class loadClass(org.apache.catalina.Context,java.lang.String)>
+unSolvedReflect>>>><io.swagger.v3.core.jackson.ModelResolver: void setConfiguration(io.swagger.v3.core.util.Configuration)>
+unSolvedReflect>>>><org.apache.tomcat.SimpleInstanceManager: java.lang.Object newInstance(java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.realm.RealmBase: org.apache.catalina.realm.X509UsernameRetriever createUsernameRetriever(java.lang.String)>
+unSolvedReflect>>>><reactor.core.publisher.CallSiteSupplierFactory: java.util.stream.Stream lambda$static$0(java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.NamingContext: java.lang.Object lookup(javax.naming.Name,boolean)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.platform.server.ServerPlatform buildServerPlatformConfig(org.eclipse.persistence.internal.sessions.factories.model.platform.ServerPlatformConfig,org.eclipse.persistence.internal.sessions.DatabaseSessionImpl)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.util.CharsetMapper getCharsetMapper()>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void processSessionConfig(org.eclipse.persistence.internal.sessions.factories.model.session.SessionConfig,org.eclipse.persistence.internal.sessions.AbstractSession)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.Registry: org.apache.tomcat.util.modeler.modules.ModelerSource getModelerSource(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.JAXBContext$ContextPathInput: java.util.List getXmlBindingsClasses(org.eclipse.persistence.jaxb.xmlmodel.XmlBindings,java.lang.ClassLoader,java.util.List)>
+unSolvedReflect>>>><org.apache.naming.factory.webservices.ServiceRefFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.tomcat.websocket.Util: org.apache.tomcat.websocket.Util$TypeResult getGenericType(java.lang.Class,java.lang.Class)>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.platform.server.ServerPlatform buildCustomServerPlatformConfig(org.eclipse.persistence.internal.sessions.factories.model.platform.CustomServerPlatformConfig,org.eclipse.persistence.internal.sessions.DatabaseSessionImpl)>
+unSolvedReflect>>>><org.springframework.util.ClassUtils: boolean isLoadable(java.lang.Class,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.eclipse.persistence.sdo.SDOType: java.lang.Class getInstanceClass()>
+unSolvedReflect>>>><org.apache.catalina.servlets.WebdavServlet: void init()>
+unSolvedReflect>>>><org.apache.catalina.core.StandardContext: org.apache.catalina.Wrapper createWrapper()>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.javamodel.xjc.XJCJavaMethodImpl: boolean hasActualTypeArguments()>
+unSolvedReflect>>>><org.apache.catalina.loader.WebappClassLoaderBase: java.lang.Class loadClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.jaxb.JaxbClassLoader: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><org.apache.tomcat.util.modeler.ManagedBean: javax.management.DynamicMBean createMBean(java.lang.Object)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.jpa.deployment.PersistenceUnitProcessor: java.lang.Class loadClass(java.lang.String,java.lang.ClassLoader,boolean,org.eclipse.persistence.internal.jpa.metadata.MetadataProject)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.xmlbeans.impl.common.SAXHelper: void trySetXercesSecurityManager(org.xml.sax.XMLReader,org.apache.xmlbeans.XmlOptions)>
+unSolvedReflect>>>><org.apache.xmlbeans.XmlBeans: org.apache.xmlbeans.SchemaTypeSystem typeSystemForClassLoader(java.lang.ClassLoader,java.lang.String)>
+unSolvedReflect>>>><org.apache.naming.factory.FactoryBase: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.catalina.startup.HostConfig: void deployDescriptor(org.apache.catalina.util.ContextName,java.io.File)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl: jakarta.security.auth.message.config.AuthConfigProvider createAuthConfigProvider(java.lang.String,java.util.Map)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.eclipse.persistence.descriptors.InheritancePolicy: java.lang.Class classFromValue(java.lang.Object,org.eclipse.persistence.internal.sessions.AbstractSession)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.compiler.XMLProcessor: org.eclipse.persistence.oxm.XMLNameTransformer getXMLNameTransformerClassFromString(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void buildUserDefinedTransportManagerConfig(org.eclipse.persistence.internal.sessions.factories.model.transport.UserDefinedTransportManagerConfig,org.eclipse.persistence.sessions.coordination.RemoteCommandManager)>
+unSolvedReflect>>>><org.apache.naming.factory.BeanFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.naming.factory.LookupFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.apache.tomcat.util.net.SSLImplementation: org.apache.tomcat.util.net.SSLImplementation getInstance(java.lang.String)>
+unSolvedReflect>>>><jakarta.el.ImportHandler: java.lang.Class findClass(java.lang.String,boolean)>
+unSolvedReflect>>>><org.apache.catalina.authenticator.jaspic.SimpleServerAuthConfig: jakarta.security.auth.message.config.ServerAuthContext getAuthContext(java.lang.String,javax.security.auth.Subject,java.util.Map)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.JAXBContext$ContextPathInput: org.eclipse.persistence.jaxb.JAXBContext$JAXBContextState createContextState()>
+unSolvedReflect>>>><org.apache.naming.factory.FactoryBase: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.springframework.cglib.core.ReflectUtils: java.lang.Class defineClass(java.lang.String,byte[],java.lang.ClassLoader,java.security.ProtectionDomain,java.lang.Class)>
+unSolvedReflect>>>><org.apache.naming.factory.webservices.ServiceRefFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: void processLoginConfig(org.eclipse.persistence.internal.sessions.factories.model.login.LoginConfig,org.eclipse.persistence.sessions.DatasourceLogin)>
+unSolvedReflect>>>><org.eclipse.persistence.internal.sessions.factories.SessionsFactory: org.eclipse.persistence.platform.server.ServerPlatform buildServerPlatformConfig(org.eclipse.persistence.internal.sessions.factories.model.platform.ServerPlatformConfig,org.eclipse.persistence.internal.sessions.DatabaseSessionImpl)>
+unSolvedReflect>>>><org.apache.catalina.core.DefaultInstanceManager: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.catalina.startup.Tomcat: org.apache.catalina.Context addWebapp(org.apache.catalina.Host,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.eclipse.persistence.jaxb.javamodel.reflection.JavaModelImpl: org.eclipse.persistence.jaxb.javamodel.JavaClass getClass(java.lang.String)>
+unSolvedReflect>>>><org.apache.catalina.util.SessionIdGeneratorBase: java.security.SecureRandom createSecureRandom()>

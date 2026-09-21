@@ -1,0 +1,753 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/log4j-provider.properties\\E"
+  }, {
+    "pattern":"\\QMETA-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/ch.qos.logback.classic.spi.Configurator\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.net.spi.InetAddressResolverProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.util.spi.ResourceBundleControlProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.json.spi.JsonProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.parsers.DocumentBuilderFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.parsers.SAXParserFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.stream.XMLInputFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.stream.XMLOutputFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.core.util.ContextDataProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.core.util.WatchEventService\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.spi.Provider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.util.PropertySource\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.maven.surefire.spi.MasterProcessChannelProcessorFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.assertj.core.configuration.Configuration\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.assertj.core.presentation.Representation\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.commons.support.scanning.ClasspathScanner\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.engine.TestEngine\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.LauncherDiscoveryListener\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.LauncherSessionListener\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.PostDiscoveryFilter\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.junit.platform.launcher.TestExecutionListener\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.slf4j.spi.SLF4JServiceProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/spring.factories\\E"
+  }, {
+    "pattern":"\\QMETA-INF/validation.xml\\E"
+  }, {
+    "pattern":"\\Qfr/insee/pogues/model/jaxb.properties\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/cleaning/ddi-edt-v13.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/cleaning/ddi-lk6x162e.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/cleaning/ddi-m7oqvx8y.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/cleaning/ddi-srcv.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/codes-filtered/ddi-m8hgkyw0.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-kx0a2hn8.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-kzy5kbtl.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-l20g2ba7.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-l5v3spn0.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-l7j0wwqx.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-l8x6fhtd.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-ldodefpq.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-lhpz68wp.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-li49zxju.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-ljr4jm9a.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-lmyjrqbb.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-lqnje8yr.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-lx4qzdty.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/ddi-m5o3qhu0.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/pagination/ddi-llxh9g6g.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/ddi/pagination/ddi-lnycjn6n.xml\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/codes-filtered/pogues-m8hgkyw0.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-kx0a2hn8.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-l20g2ba7.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-l7j0wwqx.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-l8x6fhtd.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-ldodefpq.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-lhpz68wp.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-li49zxju.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-ljr4jm9a.json\\E"
+  }, {
+    "pattern":"\\Qfunctional/pogues/pogues-lx4qzdty.json\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-articulation.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-controls-line.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-controls.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-dates-2.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-dates.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-declarations.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-dimensions.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-durations-2.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-durations.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-dynamic-table-2.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-dynamic-table-size.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-dynamic-table.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-dynamic-unit.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-filter-description.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-filters-calculated.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-filters-extended.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-filters-nested.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-filters-simple.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-ghost-variables.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-labels.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-loop-except.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-loop-filter.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-loop-paginated-occurrence.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-loops-extended-sequence.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-loops-extended-subsequence.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-loops-sequence.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-loops-subsequence.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-mandatory-questions.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-mandatory.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-mcq.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-multimode.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-no-data-cell.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-other-specify.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-pairwise-in-loop.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-pairwise-variables.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-pairwise.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-resetable-external.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-resizing.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-roundabout-controls.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-roundabout-except.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-roundabout-subsequence.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-roundabout.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-self-cleaning.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-simple.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-subsequences.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-suggester-arbitrary.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-suggester-options-table.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-suggester-options.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-suggester.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-table-cell-filter.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-table-cell-readonly.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-table-custom-header.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-tables-date.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-tooltips.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/ddi/ddi-variables.xml\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-articulation.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-controls-line.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-controls.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-dates-2.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-declarations.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-dimensions.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-durations-2.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-dynamic-table-2.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-dynamic-table-size.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-dynamic-table.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-dynamic-unit.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-filter-description.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-filters-calculated.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-filters-extended.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-filters-nested.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-filters-simple.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-ghost-variables.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-labels.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-loop-except.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-loop-filter.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-loop-paginated-occurrence.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-loops-extended-sequence.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-loops-extended-subsequence.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-loops-sequence.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-loops-subsequence.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-mandatory-questions.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-mandatory.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-mcq.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-multimode.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-no-data-cell.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-other-specify.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-pairwise-in-loop.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-pairwise-variables-not-defined.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-pairwise-variables.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-pairwise.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-resetable-external.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-resizing.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-roundabout-controls.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-roundabout-except.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-roundabout-subsequence.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-roundabout.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-self-cleaning.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-simple.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-subsequences.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-suggester-arbitrary.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-suggester-options-table.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-suggester-options.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-suggester.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-table-cell-filter.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-table-cell-readonly.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-table-custom-header.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-tables-date.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-tooltips.json\\E"
+  }, {
+    "pattern":"\\Qintegration/pogues/pogues-variables.json\\E"
+  }, {
+    "pattern":"\\Qjndi.properties\\E"
+  }, {
+    "pattern":"\\Qjunit-platform.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.jsn\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.json\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.xml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.yaml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test.yml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.jsn\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.json\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.xml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.yaml\\E"
+  }, {
+    "pattern":"\\Qlog4j2-test18b4aac2.yml\\E"
+  }, {
+    "pattern":"\\Qlog4j2.StatusLogger.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2.component.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2.jsn\\E"
+  }, {
+    "pattern":"\\Qlog4j2.json\\E"
+  }, {
+    "pattern":"\\Qlog4j2.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2.system.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j2.xml\\E"
+  }, {
+    "pattern":"\\Qlog4j2.yaml\\E"
+  }, {
+    "pattern":"\\Qlog4j2.yml\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.jsn\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.json\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.properties\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.xml\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.yaml\\E"
+  }, {
+    "pattern":"\\Qlog4j218b4aac2.yml\\E"
+  }, {
+    "pattern":"\\Qlogback-test.scmo\\E"
+  }, {
+    "pattern":"\\Qlogback-test.xml\\E"
+  }, {
+    "pattern":"\\Qlogback.scmo\\E"
+  }, {
+    "pattern":"\\Qlogback.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-kanye31s_1.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-kx0a2hn8.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-kzfezgxb.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-kzguw1v7.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-l7j0wwqx.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-l9o7l439.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-lb3ei722.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-ldodefpq.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-ljps8p2l.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-lk6x162e.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-ll27mb7f.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-ll28it6e.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-lmyjrqbb.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-lna9ksqx.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/ddi-simpsonsvtl.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/group-processing/ddi-lhpz68wp.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/group-processing/group-input-outside-loop.json\\E"
+  }, {
+    "pattern":"\\Qnon-regression/group-processing/group-input.json\\E"
+  }, {
+    "pattern":"\\Qnon-regression/suggester-processing/ddi-l7ugetj0.xml\\E"
+  }, {
+    "pattern":"\\Qnon-regression/suggester-processing/suggester-input.json\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/attachmentlocationtype946btype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/basedonobjecttype6a47type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/bindingtypecdd3type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/categoryschemetype86betype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/categorytype9263type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/cellcoordinatesasdefinedtype9f25type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/celllabeltypea963type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/citationtype95bftype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/codedomainc43cdoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/codedomainelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/codedomaintypef4b2type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/codelistschemetype8931type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/codelisttype2716type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/coderepresentation4036doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/coderepresentationbasetype7cdbtype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/coderepresentationelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/codetype8794type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/codevaluetype23f4type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/commandcodetype0de0type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/commandtypef4cdtype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/computationitem5105doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/computationitemelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/computationitemtype16dbtype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/contenttype485ftype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/controlconstructschemetype1144type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/controlconstructtype4fe9type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datacollectiontype5dfbtype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datetimedomainedcedoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datetimedomainelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datetimedomainreferencec373doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datetimedomainreferenceelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datetimedomaintype7d44type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datetimerepresentation4d48doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datetimerepresentationbasetypecfedtype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/datetimerepresentationelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/ddiinstance502edoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/ddiinstancetype5884type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/domainreferencetype314etype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/domainspecificvaluetype7e3atype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/dynamictexttype3389type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/generationinstructiontypec3bftype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/gridattachmenttypefe3atype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/griddimensiontype6615type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/gridresponsedomaininmixedtypea46atype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/idtype856btype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/ifthenelsec9dadoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/ifthenelseelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/ifthenelsetypefb50type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/index.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/inparametertype4534type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/instructiontypea7c7type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/instrumentschemetype9337type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/instrumenttype041ctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/internationalstringtype56d9type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/interviewerinstructionreferencetype0e4atype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/interviewerinstructionschemetype99fetype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/labeltype1704type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/literaltextelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/literaltextf643doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/literaltexttype6519type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/loop2289doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/loopelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/looptypeb07ftype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/manageddatetimerepresentation903bdoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/manageddatetimerepresentationelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/manageddatetimerepresentationtypec911type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/managedrepresentationschemetype0247type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/nametypeb81btype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/nominaldomained3fdoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/nominaldomainelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/nominaldomaintypec215type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/numberrangetype77c4type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/numberrangevaluetypee909type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/numericdomainb4aedoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/numericdomainelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/numericdomaintype3a04type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/numericrepresentationbasetypefcadtype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/numericrepresentationdc28doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/numericrepresentationelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/parametertype88eftype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/processinginstructionschemetype8615type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/questionconstruct67cedoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/questionconstructelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/questionconstructtypee524type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/questiongridfce1doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/questiongridtype8ed7type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/questionitem9674doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/questionitemtype26eatype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/questionschemetype80d8type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/rangetyped45btype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/rangevaluetyped2d2type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/referencetypef68dtype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/referencewithbindingtype6db2type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/resourcepackagetype1fe4type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/responsecardinalitytype0d4btype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/responsedomaininmixedtypea584type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/rostertype5678type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/selectdimensiontypeae8btype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/sequence454cdoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/sequenceelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/sequencetype31c2type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/standardkeyvaluepairtypedfbdtype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/statementitemca9ddoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/statementitemelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/statementitemtypec073type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/stringtype9895type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/structuredmixedgridresponsedomaintypedb20type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/structuredmixedresponsedomaintypeb746type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/structuredstringtype13c4type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/studyunittype3347type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/textcontenttypefb09type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/textdomain74fcdoctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/textdomainelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/textdomaintype2cd5type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/textrepresentationbasetype3d9btype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/textrepresentationc0f6doctype.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/textrepresentationelement.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/texttype6456type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/typeofobjecttype4f76type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/valuetype64a7type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/variablegrouptype0b90type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/variablerepresentationtype11d8type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/variableschemetype9900type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sEE94839A4B1DFEB120873783625BFBB4/variabletypefe25type.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLCONFIG/index.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLLANG/index.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLSCHEMA/index.xsb\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xmlbeans/metadata/system/sXMLTOOLS/index.xsb\\E"
+  }, {
+    "pattern":"\\Qregrouping/questionnaire-dsfr-before.json\\E"
+  }, {
+    "pattern":"\\Qregrouping/regrouping-treatment.json\\E"
+  }, {
+    "pattern":"\\Qschema.regrouping.json\\E"
+  }, {
+    "pattern":"\\Qschema.suggesters.json\\E"
+  }, {
+    "pattern":"\\Qspecific-treatments.json\\E"
+  }, {
+    "pattern":"\\Qspring.properties\\E"
+  }, {
+    "pattern":"\\Qsuggester-examples/suggesters-example-1.json\\E"
+  }, {
+    "pattern":"\\Qsuggester-examples/suggesters-example-2.json\\E"
+  }, {
+    "pattern":"\\Qsuggester-examples/suggesters-example-3.json\\E"
+  }, {
+    "pattern":"\\Qsuggester-examples/suggesters-example-4.json\\E"
+  }, {
+    "pattern":"\\Qsuggester-examples/suggesters-example.json\\E"
+  }, {
+    "pattern":"\\Qsuggester-treatment/ddi-lgl1kmol.xml\\E"
+  }, {
+    "pattern":"\\Qsuggester-treatment/ddi-m0p3wmjl.xml\\E"
+  }, {
+    "pattern":"\\Qsuggester-treatment/suggester-in-roundabout.json\\E"
+  }, {
+    "pattern":"\\Qsuggester-treatment/suggesters.json\\E"
+  }, {
+    "pattern":"\\Qunit/ddi/ddi-multiple-choice-other-specify.xml\\E"
+  }, {
+    "pattern":"\\Qunit/ddi/ddi-multiple-choice-question.xml\\E"
+  }, {
+    "pattern":"\\Qunit/ddi/ddi-unique-choice-other-specify.xml\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt72b/nfkc.nrm\\E"
+  }]},
+  "bundles":[{
+    "name":"org.apache.xmlbeans.impl.regex.message",
+    "locales":["", "und"]
+  }, {
+    "name":"org.eclipse.persistence.exceptions.i18n.DescriptorExceptionResource",
+    "classNames":["org.eclipse.persistence.exceptions.i18n.DescriptorExceptionResource"]
+  }, {
+    "name":"org.eclipse.persistence.exceptions.i18n.ExceptionResource",
+    "classNames":["org.eclipse.persistence.exceptions.i18n.ExceptionResource"]
+  }, {
+    "name":"org.eclipse.persistence.internal.localization.i18n.ToStringLocalizationResource",
+    "classNames":["org.eclipse.persistence.internal.localization.i18n.ToStringLocalizationResource"]
+  }]
+}

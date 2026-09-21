@@ -1,0 +1,53 @@
+ Network iotdb-collector_default Creating 
+ Network iotdb-collector_default Created 
+ Volume iotdb-collector_m2-nonspring-smoke-apache-iotdb-extras Creating 
+ Volume iotdb-collector_m2-nonspring-smoke-apache-iotdb-extras Created 
+ Container iotdb-collector-app Creating 
+ Container iotdb-collector-app Created 
+ Container iotdb-collector-app Starting 
+ Container iotdb-collector-app Started 
+ Container iotdb-collector-app Waiting 
+ Container iotdb-collector-app Healthy 
+
+[0;34m== Ping — PingApiServiceImpl (Jetty + Jersey bootstrap) ==[0m
+[0;32mPASS[0m GET  /ping (health check)                                    [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /ping (CORS Access-Control-Allow-Origin)                [2m[200, header ✓][0m
+[0;32mPASS[0m GET  /ping (JSON content-type)                               [2m[200, header ✓][0m
+
+[0;34m== Task show — TaskApiServiceImpl (empty state) ==[0m
+[0;32mPASS[0m POST /task/v1/show (list tasks)                              [2m[200][0m
+
+[0;34m== Plugin show — PluginApiServiceImpl (plugin registry) ==[0m
+[0;32mPASS[0m POST /plugin/v1/show (list plugins)                          [2m[200][0m
+
+[0;34m== Task validation — request validation handlers ==[0m
+[0;32mPASS[0m POST /task/v1/create (missing taskId → 500)                [2m[500][0m
+[0;32mPASS[0m POST /task/v1/start (missing taskId → 500)                 [2m[500][0m
+[0;32mPASS[0m POST /task/v1/stop (missing taskId → 500)                  [2m[500][0m
+[0;32mPASS[0m POST /task/v1/drop (missing taskId → 500)                  [2m[500][0m
+
+[0;34m== Plugin validation — request validation handlers ==[0m
+[0;32mPASS[0m POST /plugin/v1/create (missing fields → 500)              [2m[500][0m
+[0;32mPASS[0m POST /plugin/v1/drop (missing pluginName → 500)            [2m[500][0m
+
+[0;34m== CORS headers — ApiOriginFilter ==[0m
+[0;32mPASS[0m POST /task/v1/show (CORS Allow-Methods)                      [2m[200, header ✓][0m
+[0;32mPASS[0m POST /plugin/v1/show (CORS Allow-Headers)                    [2m[200, header ✓][0m
+
+[0;34m== Error paths — 404 and method not allowed ==[0m
+[0;32mPASS[0m GET  /nonexistent (→ 404)                                  [2m[404][0m
+[0;32mPASS[0m GET  /task/v1/create (wrong method → 405)                  [2m[405][0m
+[0;32mPASS[0m GET  /plugin/v1/create (wrong method → 405)                [2m[405][0m
+
+[0;34m== Task lifecycle — create/drop ==[0m
+[0;32mPASS[0m POST /task/v1/create (create task)                           [2m[200][0m
+[0;32mPASS[0m POST /task/v1/create (duplicate → 409)                     [2m[409][0m
+[0;32mPASS[0m POST /task/v1/drop (drop task)                               [2m[200][0m
+
+[0;34m== Concurrent requests — Jetty thread pool ==[0m
+[0;32mPASS[0m 5x parallel GET /ping                                        [2m[all 200][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 20/20 checks passed.[0m
+ Container iotdb-collector-app Stopping 
+ Container iotdb-collector-app Stopped 

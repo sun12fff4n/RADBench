@@ -1,0 +1,275 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------------< io.github.qmjy:map-offline-server >------------------
+[INFO] Building map-offline-server 1.0.3-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ map-offline-server ---
+[INFO] mvn test successfully
+[INFO] artifact org.eclipse.emf:org.eclipse.emf.common: checking for updates from osgeo
+[INFO] artifact org.eclipse.emf:org.eclipse.emf.common: checking for updates from central
+[INFO] artifact org.eclipse.emf:org.eclipse.emf.ecore: checking for updates from osgeo
+[INFO] artifact org.eclipse.emf:org.eclipse.emf.ecore: checking for updates from central
+[INFO] artifact org.eclipse.collections:eclipse-collections-api: checking for updates from osgeo
+[INFO] artifact org.eclipse.collections:eclipse-collections-api: checking for updates from central
+[INFO] artifact org.eclipse.collections:eclipse-collections: checking for updates from osgeo
+[INFO] artifact org.eclipse.collections:eclipse-collections: checking for updates from central
+[INFO] artifact org.eclipse.collections:eclipse-collections-forkjoin: checking for updates from osgeo
+[INFO] artifact org.eclipse.collections:eclipse-collections-forkjoin: checking for updates from central
+[INFO] artifact com.google.guava:guava: checking for updates from osgeo
+[INFO] artifact com.google.guava:guava: checking for updates from central
+[INFO] The project has no target/test-classes folder
+[Fatal Error] plugin.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] arq-properties.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] tdb-properties.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] jena-properties.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] The update time of the current org.geotools:gt-http:32.0 was not queried
+[WARNING] Redundant dependency org.apiguardian:apiguardian-api:1.1.2 release time Optional[2021-06-27] has not been maintained for 1768 days
+[WARNING] Redundant dependency net.jcip:jcip-annotations:1.0 release time Optional[2008-08-14] has not been maintained for 6468 days
+[WARNING] Redundant dependency org.jetbrains:annotations:13.0 release time Optional[2013-12-17] has not been maintained for 4516 days
+[WARNING] Redundant dependency jakarta.inject:jakarta.inject-api:2.0.1 release time Optional[2021-10-16] has not been maintained for 1657 days
+[INFO] ALL DEPENDENCY[212]:
+[INFO]  USED DEPENDENCY[206]:
+[INFO]   USED DIRECT DEPENDENCY[26]:
+[INFO] 		org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.13:compile [22 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter:5.12.2:test [6 KB]
+[INFO] 		org.geotools:gt-referencing:32.0:compile [1 MB]
+[INFO] 		junit:junit:4.13.2:test [375 KB]
+[INFO] 		org.geotools:gt-geojson:32.0:compile [65 KB]
+[INFO] 		io.github.sebasbaumh:mapbox-vector-tile-java:25.1.0:compile [103 KB]
+[INFO] 		com.graphhopper:graphhopper-core:9.0-pre1:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-jdbc:3.5.6:compile [4 KB]
+[INFO] 		org.geotools:gt-tpk:32.0:compile [35 KB]
+[INFO] 		org.geotools:gt-render:32.0:compile [595 KB]
+[INFO] 		org.apache.jena:apache-jena-libs:3.2.0:compile [unknow]
+[INFO] 		org.geotools:gt-metadata:32.0:compile [497 KB]
+[INFO] 		org.geotools:gt-epsg-hsql:32.0:compile [2 MB]
+[INFO] 		org.geotools:gt-api:32.0:compile [221 KB]
+[INFO] 		org.geotools:gt-geojson-core:32.0:compile [56 KB]
+[INFO] 		org.projectlombok:lombok:1.18.40:provided [1 MB]
+[INFO] 		org.geotools:gt-main:32.0:compile [1 MB]
+[INFO] 		com.ibm.icu:icu4j:62.1:compile [11 MB]
+[INFO] 		org.geotools:gt-shapefile:32.0:compile [239 KB]
+[INFO] 		org.mapdb:mapdb:3.0.5:compile [716 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-web:3.5.6:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-thymeleaf:3.5.6:compile [4 KB]
+[INFO] 		org.openstreetmap.osmosis:osmosis-osm-binary:0.48.3:compile [226 KB]
+[INFO] 		org.openstreetmap.osmosis:osmosis-pbf:0.48.3:compile [24 KB]
+[INFO] 		org.xerial:sqlite-jdbc:3.43.0.0:compile [12 MB]
+[INFO] 		com.sun.xml.bind:jaxb-impl:2.3.9:compile [1 MB]
+[INFO]   USED TRANSITIVE DEPENDENCY[180]:
+[INFO] 		org.webjars:swagger-ui:5.28.1:compile [1 MB]
+[INFO] 		com.fasterxml:classmate:1.7.0:compile [67 KB]
+[INFO] 		org.springframework:spring-tx:6.2.11:compile [278 KB]
+[INFO] 		it.geosolutions.imageio-ext:imageio-ext-tiff:1.4.13:compile [361 KB]
+[INFO] 		org.apache.jena:jena-shaded-guava:3.2.0:compile [2 MB]
+[INFO] 		com.github.jsonld-java:jsonld-java:0.9.0:compile [120 KB]
+[INFO] 		org.springframework:spring-expression:6.2.11:compile [310 KB]
+[INFO] 		com.graphhopper.external:jackson-datatype-jts:2.14:compile [21 KB]
+[INFO] 		org.apache.jena:jena-core:3.2.0:compile [1 MB]
+[INFO] 		org.apache.commons:commons-compress:1.18:compile [577 KB]
+[INFO] 		org.apache.jena:jena-base:3.2.0:compile [212 KB]
+[INFO] 		it.geosolutions.jaiext.bandselect:jt-bandselect:1.1.27:compile [9 KB]
+[INFO] 		org.geotools.ogc:net.opengis.ows:32.0:compile [572 KB]
+[INFO] 		it.geosolutions.jaiext.imagefunction:jt-imagefunction:1.1.27:compile [12 KB]
+[INFO] 		it.geosolutions.jaiext.lookup:jt-lookup:1.1.27:compile [41 KB]
+[INFO] 		org.hsqldb:hsqldb:2.7.3:compile [1 MB]
+[INFO] 		io.swagger.core.v3:swagger-models-jakarta:2.2.36:compile [136 KB]
+[INFO] 		com.googlecode.json-simple:json-simple:1.1.1:compile [23 KB]
+[INFO] 		org.slf4j:jcl-over-slf4j:2.0.17:compile [17 KB]
+[INFO] 		org.apache.httpcomponents:httpclient:4.5.2:compile [719 KB]
+[INFO] 		org.opentest4j:opentest4j:1.3.0:test [13 KB]
+[INFO] 		xml-apis:xml-apis:1.4.01:compile [215 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-el:10.1.46:compile [258 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-core:10.1.46:compile [3 MB]
+[INFO] 		org.apache.commons:commons-csv:1.3:compile [38 KB]
+[INFO] 		org.springdoc:springdoc-openapi-starter-common:2.8.13:compile [526 KB]
+[INFO] 		org.apache.logging.log4j:log4j-api:2.24.3:compile [340 KB]
+[INFO] 		net.jpountz.lz4:lz4:1.3.0:compile [231 KB]
+[INFO] 		it.geosolutions.jaiext.iterators:jt-iterators:1.1.27:compile [32 KB]
+[INFO] 		it.geosolutions.imageio-ext:imageio-ext-streams:1.4.13:compile [52 KB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:4.0.2:compile [127 KB]
+[INFO] 		commons-cli:commons-cli:1.3:compile [51 KB]
+[INFO] 		org.locationtech.jts:jts-core:1.20.0:compile [1 MB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.12.2:test [249 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-websocket:10.1.46:compile [277 KB]
+[INFO] 		javax.media:jai_codec:1.1.3:compile [252 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-core:4.0.5:runtime [135 KB]
+[INFO] 		org.ejml:ejml-core:0.41:compile [252 KB]
+[INFO] 		org.jaitools:jt-zonalstats:1.6.0:compile [20 KB]
+[INFO] 		org.apache.httpcomponents:httpcore:4.4.16:compile [320 KB]
+[INFO] 		org.apache.logging.log4j:log4j-to-slf4j:2.24.3:compile [23 KB]
+[INFO] 		com.fasterxml.woodstox:woodstox-core:7.1.1:compile [1 MB]
+[INFO] 		org.springframework:spring-jdbc:6.2.11:compile [461 KB]
+[INFO] 		com.google.re2j:re2j:1.6:compile [110 KB]
+[INFO] 		io.swagger.core.v3:swagger-core-jakarta:2.2.36:compile [245 KB]
+[INFO] 		com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.19.2:compile [127 KB]
+[INFO] 		it.geosolutions.jaiext.orderdither:jt-orderdither:1.1.27:compile [26 KB]
+[INFO] 		org.jetbrains.kotlin:kotlin-stdlib:1.9.25:compile [1 MB]
+[INFO] 		it.geosolutions.jaiext.scale2:jt-scale2:1.1.27:compile [94 KB]
+[INFO] 		org.hamcrest:hamcrest-core:3.0:test [2 KB]
+[INFO] 		org.codehaus.janino:commons-compiler:3.1.12:compile [167 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:2.1.1:compile [25 KB]
+[INFO] 		org.codehaus.janino:janino:3.1.12:compile [933 KB]
+[INFO] 		org.thymeleaf:thymeleaf:3.1.3.RELEASE:compile [916 KB]
+[INFO] 		org.apache.thrift:libthrift:0.9.3:compile [228 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-logging:3.5.6:compile [4 KB]
+[INFO] 		org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE:compile [184 KB]
+[INFO] 		it.geosolutions.jaiext.format:jt-format:1.1.27:compile [7 KB]
+[INFO] 		si.uom:si-units:2.1:compile [14 KB]
+[INFO] 		org.glassfish.jaxb:jaxb-runtime:4.0.5:runtime [898 KB]
+[INFO] 		org.geotools:gt-coverage:32.0:compile [610 KB]
+[INFO] 		it.geosolutions.jaiext.errordiffusion:jt-errordiffusion:1.1.27:compile [18 KB]
+[INFO] 		it.geosolutions.jaiext.bandcombine:jt-bandcombine:1.1.27:compile [16 KB]
+[INFO] 		org.eclipse.emf:org.eclipse.emf.common:2.15.0:compile [367 KB]
+[INFO] 		javax.media:jai_imageio:1.1:compile [1 MB]
+[INFO] 		org.ejml:ejml-ddense:0.41:compile [398 KB]
+[INFO] 		com.google.protobuf:protobuf-java:4.31.1:compile [1 MB]
+[INFO] 		org.apache.httpcomponents:httpclient-cache:4.5.2:compile [155 KB]
+[INFO] 		io.micrometer:micrometer-observation:1.15.4:compile [73 KB]
+[INFO] 		it.geosolutions.imageio-ext:imageio-ext-utilities:1.4.13:compile [41 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.17:compile [68 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-json:3.5.6:compile [4 KB]
+[INFO] 		org.unbescape:unbescape:1.1.6.RELEASE:compile [169 KB]
+[INFO] 		com.sun.activation:jakarta.activation:1.2.2:runtime [66 KB]
+[INFO] 		it.geosolutions.imageio-ext:imageio-ext-geocore:1.4.13:compile [57 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.12.2:test [285 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.2:compile [35 KB]
+[INFO] 		org.apache.xmlgraphics:xmlgraphics-commons:2.7:compile [660 KB]
+[INFO] 		org.apache.jena:jena-iri:3.2.0:compile [134 KB]
+[INFO] 		xerces:xercesImpl:2.12.0:compile [1 MB]
+[INFO] 		org.mapdb:elsa:3.0.0-M5:compile [116 KB]
+[INFO] 		org.springframework:spring-aop:6.2.11:compile [410 KB]
+[INFO] 		org.slf4j:jul-to-slf4j:2.0.17:compile [6 KB]
+[INFO] 		it.geosolutions.jaiext.buffer:jt-buffer:1.1.27:compile [19 KB]
+[INFO] 		org.springframework:spring-webmvc:6.2.11:compile [1 MB]
+[INFO] 		com.google.guava:guava:19.0:compile [2 MB]
+[INFO] 		org.apache.jena:jena-rdfconnection:3.2.0:compile [39 KB]
+[INFO] 		org.hibernate.validator:hibernate-validator:8.0.3.Final:compile [1 MB]
+[INFO] 		org.geotools.ogc:org.w3.xlink:32.0:compile [52 KB]
+[INFO] 		ch.qos.logback:logback-core:1.5.18:compile [612 KB]
+[INFO] 		org.springframework:spring-context:6.2.11:compile [1 MB]
+[INFO] 		javax.activation:javax.activation-api:1.2.0:compile [55 KB]
+[INFO] 		com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.2:compile [58 KB]
+[INFO] 		it.geosolutions.jaiext.scale:jt-scale:1.1.27:compile [91 KB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:3.5.6:compile [1 MB]
+[INFO] 		commons-pool:commons-pool:1.6:compile [108 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.19.2:compile [1 MB]
+[INFO] 		org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.15.0:compile [229 KB]
+[INFO] 		net.sf.geographiclib:GeographicLib-Java:1.49:compile [36 KB]
+[INFO] 		it.geosolutions.jaiext.rescale:jt-rescale:1.1.27:compile [19 KB]
+[INFO] 		com.graphhopper:graphhopper-web-api:9.0-pre1:compile [103 KB]
+[INFO] 		tech.units:indriya:2.2:compile [282 KB]
+[INFO] 		it.geosolutions.jaiext.colorindexer:jt-colorindexer:1.1.27:compile [40 KB]
+[INFO] 		org.glassfish.jaxb:txw2:4.0.5:runtime [71 KB]
+[INFO] 		it.geosolutions.jaiext.mosaic:jt-mosaic:1.1.27:compile [40 KB]
+[INFO] 		commons-io:commons-io:2.16.1:compile [496 KB]
+[INFO] 		org.yaml:snakeyaml:2.4:compile [331 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.19.2:compile [577 KB]
+[INFO] 		io.airlift:aircompressor:0.27:compile [248 KB]
+[INFO] 		org.codehaus.woodstox:stax2-api:4.2.2:compile [191 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter:3.5.6:compile [4 KB]
+[INFO] 		javax.media:jai_core:1.1.3:compile [1 MB]
+[INFO] 		com.conversantmedia:disruptor:1.2.15:compile [131 KB]
+[INFO] 		org.springframework.boot:spring-boot:3.5.6:compile [1 MB]
+[INFO] 		it.geosolutions.jaiext.utilities:jt-utilities:1.1.27:compile [182 KB]
+[INFO] 		org.eclipse.angus:angus-activation:2.0.2:runtime [26 KB]
+[INFO] 		it.geosolutions.jaiext.affine:jt-affine:1.1.27:compile [121 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.19.2:compile [77 KB]
+[INFO] 		it.geosolutions.jaiext.classifier:jt-classifier:1.1.27:compile [19 KB]
+[INFO] 		it.geosolutions.jaiext.shadedrelief:jt-shadedrelief:1.1.27:compile [38 KB]
+[INFO] 		it.geosolutions.jaiext.border:jt-border:1.1.27:compile [14 KB]
+[INFO] 		org.huldra.math:bigint:0.7.1:compile [21 KB]
+[INFO] 		org.openstreetmap.osmosis:osmosis-core:0.48.3:compile [311 KB]
+[INFO] 		org.webjars:webjars-locator-lite:1.1.0:compile [7 KB]
+[INFO] 		javax.xml.bind:jaxb-api:2.4.0-b180830.0359:compile [125 KB]
+[INFO] 		com.zaxxer:HikariCP:6.3.3:compile [167 KB]
+[INFO] 		it.geosolutions.jaiext.piecewise:jt-piecewise:1.1.27:compile [37 KB]
+[INFO] 		it.geosolutions.jaiext.algebra:jt-algebra:1.1.27:compile [56 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.12.2:test [227 KB]
+[INFO] 		org.hamcrest:hamcrest:3.0:test [123 KB]
+[INFO] 		org.apache.commons:commons-lang3:3.17.0:compile [657 KB]
+[INFO] 		org.springframework:spring-core:6.2.11:compile [1 MB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.12.2:test [148 KB]
+[INFO] 		systems.uom:systems-common:2.1:compile [26 KB]
+[INFO] 		si.uom:si-quantity:2.1:compile [11 KB]
+[INFO] 		it.geosolutions.jaiext.warp:jt-warp:1.1.27:compile [68 KB]
+[INFO] 		jakarta.validation:jakarta.validation-api:3.0.2:compile [91 KB]
+[INFO] 		com.github.andrewoma.dexx:collection:0.6:compile [158 KB]
+[INFO] 		com.carrotsearch:hppc:0.8.1:compile [1 MB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2:compile [133 KB]
+[INFO] 		it.geosolutions.jaiext.binarize:jt-binarize:1.1.27:compile [14 KB]
+[INFO] 		org.eclipse.emf:org.eclipse.emf.ecore:2.15.0:compile [1 MB]
+[INFO] 		org.jaitools:jt-utils:1.6.0:compile [204 KB]
+[INFO] 		it.geosolutions.jaiext.nullop:jt-nullop:1.1.27:compile [6 KB]
+[INFO] 		it.geosolutions.jaiext.vectorbin:jt-vectorbin:1.1.27:compile [18 KB]
+[INFO] 		com.sun.istack:istack-commons-runtime:4.1.2:runtime [25 KB]
+[INFO] 		org.jboss.logging:jboss-logging:3.6.1.Final:compile [60 KB]
+[INFO] 		it.geosolutions.jaiext.crop:jt-crop:1.1.27:compile [9 KB]
+[INFO] 		ch.qos.logback:logback-classic:1.5.18:compile [299 KB]
+[INFO] 		org.apache.jena:jena-tdb:3.2.0:compile [515 KB]
+[INFO] 		org.eclipse.collections:eclipse-collections:7.1.2:compile [9 MB]
+[INFO] 		org.springframework:spring-web:6.2.11:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-validation:3.5.6:compile [4 KB]
+[INFO] 		io.micrometer:micrometer-commons:1.15.4:compile [48 KB]
+[INFO] 		it.geosolutions.jaiext.rlookup:jt-rlookup:1.1.27:compile [18 KB]
+[INFO] 		it.geosolutions.jaiext.translate:jt-translate:1.1.27:compile [10 KB]
+[INFO] 		org.apache.jena:jena-arq:3.2.0:compile [2 MB]
+[INFO] 		tech.uom.lib:uom-lib-common:2.2:compile [22 KB]
+[INFO] 		org.eclipse.collections:eclipse-collections-api:7.1.2:compile [778 KB]
+[INFO] 		it.geosolutions.jaiext.zonal:jt-zonal:1.1.27:compile [33 KB]
+[INFO] 		it.geosolutions.jaiext.bandmerge:jt-bandmerge:1.1.27:compile [33 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.12.2:test [587 KB]
+[INFO] 		org.springframework:spring-beans:6.2.11:compile [869 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.2:compile [10 KB]
+[INFO] 		org.springframework:spring-jcl:6.2.11:compile [23 KB]
+[INFO] 		org.attoparser:attoparser:2.0.7.RELEASE:compile [240 KB]
+[INFO] 		org.eclipse.collections:eclipse-collections-forkjoin:7.1.2:compile [41 KB]
+[INFO] 		org.geotools:gt-cql:32.0:compile [196 KB]
+[INFO] 		org.springdoc:springdoc-openapi-starter-webmvc-api:2.8.13:compile [41 KB]
+[INFO] 		javax.measure:unit-api:2.2:compile [37 KB]
+[INFO] 		it.geosolutions.jaiext.colorconvert:jt-colorconvert:1.1.27:compile [69 KB]
+[INFO] 		net.sf.jpf:jpf:1.5:compile [191 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-tomcat:3.5.6:compile [4 KB]
+[INFO] 		org.apache.commons:commons-text:1.12.0:compile [245 KB]
+[INFO] 		it.geosolutions.jaiext.stats:jt-stats:1.1.27:compile [35 KB]
+[INFO] 		commons-codec:commons-codec:1.18.0:compile [364 KB]
+[INFO] 		de.westnordost:osm-legal-default-speeds-jvm:1.4:compile [99 KB]
+[INFO] 		io.swagger.core.v3:swagger-annotations-jakarta:2.2.36:compile [49 KB]
+[INFO] 		commons-logging:commons-logging:1.0.4:compile [37 KB]
+[INFO] 		it.geosolutions.jgridshift:jgridshift-core:1.3:compile [12 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[6]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[6]:
+[INFO] 		org.jetbrains:annotations:13.0:compile [17 KB]
+[INFO] 		org.jspecify:jspecify:1.0.0:compile [3 KB]
+[INFO] 		jakarta.inject:jakarta.inject-api:2.0.1:compile [10 KB]
+[INFO] 		net.jcip:jcip-annotations:1.0:compile [2 KB]
+[INFO] 		org.geotools:gt-http:32.0:compile [26 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:compile [6 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/qmjy-mapbox-offline-server/bloatedOutput/iogithubqmjymapofflineserver103SNAPSHOT/iogithubqmjymapofflineserver103SNAPSHOT/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:55 h
+[INFO] Finished at: 2026-04-30T02:44:38+02:00
+[INFO] ------------------------------------------------------------------------

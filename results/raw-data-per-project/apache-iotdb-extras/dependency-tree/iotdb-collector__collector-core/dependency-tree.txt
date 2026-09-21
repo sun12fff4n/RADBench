@@ -1,0 +1,77 @@
+org.apache.iotdb:collector-core:jar:2.0.4-SNAPSHOT
++- org.apache.iotdb:collector-openapi:jar:2.0.4-SNAPSHOT:compile
+|  +- io.swagger:swagger-annotations:jar:1.6.14:compile
+|  +- io.swagger:swagger-models:jar:1.6.14:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.16.2:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.16.2:compile
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.16.2:compile
+|  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.16.2:compile
+|  |     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+|  |     \- jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.16.2:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.16.2:compile
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.16.2:compile
+|  +- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+|  +- io.swagger:swagger-jaxrs:jar:1.6.14:compile
+|  |  +- io.swagger:swagger-core:jar:1.6.14:compile
+|  |  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.17.0:compile
+|  |  +- org.yaml:snakeyaml:jar:2.2:compile
+|  |  \- org.reflections:reflections:jar:0.10.2:compile
+|  \- org.glassfish.jersey.media:jersey-media-multipart:jar:2.40:compile
+|     \- org.jvnet.mimepull:mimepull:jar:1.9.15:compile
++- org.apache.iotdb:service-rpc:jar:2.0.5:compile
+|  \- org.xerial.snappy:snappy-java:jar:1.1.10.5:compile
++- org.apache.iotdb:pipe-api:jar:2.0.5:compile
++- org.apache.tsfile:tsfile:jar:2.1.1:compile
+|  +- org.lz4:lz4-java:jar:1.8.0:compile
+|  +- org.tukaani:xz:jar:1.10:compile
+|  \- org.antlr:antlr4-runtime:jar:4.9.3:compile
++- jakarta.servlet:jakarta.servlet-api:jar:4.0.4:compile
++- jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.6:compile
++- org.slf4j:slf4j-api:jar:2.0.9:compile
++- org.eclipse.jetty:jetty-http:jar:9.4.57.v20241219:compile
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.57.v20241219:compile
++- org.eclipse.jetty:jetty-util:jar:9.4.57.v20241219:compile
++- org.eclipse.jetty:jetty-server:jar:9.4.57.v20241219:compile
++- org.eclipse.jetty:jetty-servlet:jar:9.4.57.v20241219:compile
+|  +- org.eclipse.jetty:jetty-security:jar:9.4.57.v20241219:compile
+|  \- org.eclipse.jetty:jetty-util-ajax:jar:9.4.57.v20241219:compile
++- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.40:compile
+|  +- org.glassfish.hk2.external:jakarta.inject:jar:2.6.1:compile
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.40:compile
+|  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+|  \- org.glassfish.jersey.core:jersey-server:jar:2.40:compile
+|     \- org.glassfish.jersey.core:jersey-client:jar:2.40:compile
++- org.glassfish.jersey.inject:jersey-hk2:jar:2.40:compile
+|  +- org.glassfish.hk2:hk2-locator:jar:2.6.1:compile
+|  |  +- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.6.1:compile
+|  |  +- org.glassfish.hk2:hk2-api:jar:2.6.1:compile
+|  |  \- org.glassfish.hk2:hk2-utils:jar:2.6.1:compile
+|  \- org.javassist:javassist:jar:3.29.2-GA:compile
++- com.lmax:disruptor:jar:3.4.4:compile
++- org.apache.commons:commons-lang3:jar:3.13.0:compile
++- org.apache.iotdb:iotdb-thrift-commons:jar:2.0.5:compile
++- org.apache.iotdb:iotdb-thrift:jar:2.0.5:compile
++- org.apache.iotdb:iotdb-session:jar:2.0.5:compile
+|  \- org.apache.iotdb:isession:jar:2.0.5:compile
++- org.apache.thrift:libthrift:jar:0.14.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  \- org.apache.httpcomponents:httpcore:jar:4.4.12:compile
++- com.google.guava:guava:jar:32.1.2-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- org.checkerframework:checker-qual:jar:3.33.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+|  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
++- org.apache.tsfile:common:jar:2.1.1:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- ch.qos.logback:logback-classic:jar:1.3.15:compile
+|  \- ch.qos.logback:logback-core:jar:1.3.15:compile
++- org.xerial:sqlite-jdbc:jar:3.49.1.0:compile
++- commons-io:commons-io:jar:2.14.0:compile
++- com.github.luben:zstd-jni:jar:1.5.5-5:compile
++- com.github.ben-manes.caffeine:caffeine:jar:2.9.3:compile
++- commons-codec:commons-codec:jar:1.16.0:compile
+\- org.apache.kafka:kafka-clients:jar:2.8.2:compile

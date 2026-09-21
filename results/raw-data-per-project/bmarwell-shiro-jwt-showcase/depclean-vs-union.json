@@ -1,0 +1,671 @@
+{
+  "project_id": "bmarwell-shiro-jwt-showcase",
+  "tool": "depclean",
+  "module_type": "multi",
+  "ground_truth_mode": "runtime_static_anchor_union",
+  "depclean_total": 63,
+  "nia_total_classes": 1816,
+  "nia_mapped_classes": 142,
+  "nia_proxy_recovered": 0,
+  "buckets": {
+    "used+hit": 10,
+    "used+nohit": 44,
+    "bloated+hit": 2,
+    "bloated+nohit": 7
+  },
+  "metrics": {
+    "tp": 7,
+    "fp": 2,
+    "tn": 10,
+    "fn": 44,
+    "precision": 0.7778,
+    "recall": 0.1373,
+    "f1": 0.2333
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.apache.shiro:shiro-web:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 79,
+        "static_all_classes": 109,
+        "static_ratio": 0.725,
+        "nia_class_hits": 38,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.shiro:shiro-core:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 226,
+        "static_all_classes": 367,
+        "static_ratio": 0.616,
+        "nia_class_hits": 33,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "javax.ws.rs:javax.ws.rs-api:2.1.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 60,
+        "static_all_classes": 138,
+        "static_ratio": 0.435,
+        "nia_class_hits": 24,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.jsonwebtoken:jjwt-impl:0.12.7",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 336,
+        "static_all_classes": 350,
+        "static_ratio": 0.96,
+        "nia_class_hits": 16,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.apache.shiro:shiro-jaxrs:1.13.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 7,
+        "static_all_classes": 7,
+        "static_ratio": 1.0,
+        "nia_class_hits": 5,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 15,
+        "static_all_classes": 27,
+        "static_ratio": 0.556,
+        "nia_class_hits": 3,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.jsonwebtoken:jjwt-api:0.12.7",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 187,
+        "static_all_classes": 196,
+        "static_ratio": 0.954,
+        "nia_class_hits": 2,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "jakarta.json:jakarta.json-api:1.1.6",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 31,
+        "static_all_classes": 35,
+        "static_ratio": 0.886,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "io.github.bmarwell.shiro:shiro.jwt.jaxrs.keystore:1.0.0-SNAPSHOT",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 1,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:jcl-over-slf4j:2.0.17",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 9,
+        "static_ratio": 0.667,
+        "nia_class_hits": 0,
+        "ground_truth_hit": true
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "org.apache.shiro:shiro-lang:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 30,
+        "static_all_classes": 37,
+        "static_ratio": 0.811,
+        "nia_class_hits": 2,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.17",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 49,
+        "static_all_classes": 56,
+        "static_ratio": 0.875,
+        "nia_class_hits": 2,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.shiro:shiro-cache:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 8,
+        "static_ratio": 0.5,
+        "nia_class_hits": 1,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.shiro:shiro-event:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 13,
+        "static_ratio": 1.0,
+        "nia_class_hits": 1,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.shiro:shiro-crypto-core:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 4,
+        "static_ratio": 0.25,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.shiro:shiro-crypto-cipher:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 13,
+        "static_ratio": 0.615,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.shiro:shiro-config-core:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 5,
+        "static_all_classes": 6,
+        "static_ratio": 0.833,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.shiro:shiro-config-ogdl:1.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 21,
+        "static_all_classes": 23,
+        "static_ratio": 0.913,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "commons-beanutils:commons-beanutils:1.9.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 64,
+        "static_all_classes": 137,
+        "static_ratio": 0.467,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "commons-collections:commons-collections:3.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 7,
+        "static_all_classes": 460,
+        "static_ratio": 0.015,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.owasp.encoder:encoder:1.2.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 19,
+        "static_all_classes": 21,
+        "static_ratio": 0.905,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.cxf:cxf-rt-rs-client:3.6.8",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.cxf:cxf-rt-transports-http:3.6.8",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.cxf:cxf-core:3.6.8",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 15,
+        "static_ratio": 0.067,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.fasterxml.woodstox:woodstox-core:6.6.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.codehaus.woodstox:stax2-api:4.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.ws.xmlschema:xmlschema-core:2.3.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.cxf:cxf-rt-frontend-jaxrs:3.6.8",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 60,
+        "static_all_classes": 138,
+        "static_ratio": 0.435,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.cxf:cxf-rt-security:3.6.8",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "javax.xml.bind:jaxb-api:2.3.1",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 112,
+        "static_ratio": 0.027,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-core:4.0.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:2.1.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.angus:angus-activation:2.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:4.0.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:4.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.johnzon:johnzon-jsonb:1.2.21",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.johnzon:johnzon-mapper:1.2.21",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apache.johnzon:johnzon-core:1.2.21",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 63,
+        "static_all_classes": 85,
+        "static_ratio": 0.741,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 148,
+        "static_ratio": 0.081,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.inject:jakarta.inject-api:1.0",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 6,
+        "static_ratio": 0.5,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 7,
+        "static_all_classes": 14,
+        "static_ratio": 0.5,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.13.4",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.3.0",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.13.4",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.13.4",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.13.4",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "org.assertj:assertj-core:3.27.4",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.15.11",
+        "type": "inherited",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "io.github.bmarwell.shiro:shiro.jwt.jaxrs.finish:1.0.0-SNAPSHOT",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 17,
+        "ground_truth_hit": true
+      },
+      {
+        "gav": "org.slf4j:slf4j-jdk14:2.0.17",
+        "type": "inherited",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1,
+        "ground_truth_hit": true
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "org.apache.shiro:shiro-crypto-hash:1.13.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 25,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "javax.activation:javax.activation-api:1.2.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 31,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.el:jakarta.el-api:3.0.3",
+        "type": "inherited",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 49,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.interceptor:jakarta.interceptor-api:1.2.5",
+        "type": "inherited",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 10,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.ejb:jakarta.ejb-api:3.2.6",
+        "type": "inherited",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 87,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "jakarta.transaction:jakarta.transaction-api:1.3.2",
+        "type": "inherited",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 19,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      },
+      {
+        "gav": "io.github.bmarwell.shiro:shiro.jwt.jaxrs.issuer:1.0.0-SNAPSHOT",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0,
+        "ground_truth_hit": false
+      }
+    ]
+  },
+  "runtime_size": 4,
+  "static_size": 11,
+  "base_union_size": 12,
+  "anchor_size": 0,
+  "final_union_size": 12,
+  "missing_from_tree_count": 0
+}

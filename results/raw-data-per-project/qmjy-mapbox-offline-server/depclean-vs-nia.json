@@ -1,0 +1,1949 @@
+{
+  "project_id": "qmjy-mapbox-offline-server",
+  "depclean_total": 213,
+  "nia_total_classes": 1232,
+  "nia_mapped_classes": 907,
+  "nia_proxy_recovered": 11,
+  "buckets": {
+    "used+hit": 35,
+    "used+nohit": 115,
+    "bloated+hit": 12,
+    "bloated+nohit": 51
+  },
+  "metrics": {
+    "tp": 51,
+    "fp": 12,
+    "tn": 35,
+    "fn": 115,
+    "precision": 0.8095,
+    "recall": 0.3072,
+    "f1": 0.4454
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-autoconfigure:3.5.6",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 30,
+        "static_all_classes": 1473,
+        "static_ratio": 0.02,
+        "nia_class_hits": 226
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot:3.5.6",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 349,
+        "static_all_classes": 1134,
+        "static_ratio": 0.308,
+        "nia_class_hits": 120
+      },
+      {
+        "gav": "org.springframework:spring-context:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 429,
+        "static_all_classes": 862,
+        "static_ratio": 0.498,
+        "nia_class_hits": 68
+      },
+      {
+        "gav": "org.springframework:spring-web:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 508,
+        "static_all_classes": 1241,
+        "static_ratio": 0.409,
+        "nia_class_hits": 60
+      },
+      {
+        "gav": "org.springframework:spring-webmvc:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 144,
+        "static_all_classes": 547,
+        "static_ratio": 0.263,
+        "nia_class_hits": 57
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-core:10.1.46",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1152,
+        "static_all_classes": 1532,
+        "static_ratio": 0.752,
+        "nia_class_hits": 36
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-annotations-jakarta:2.2.36",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 45,
+        "static_all_classes": 61,
+        "static_ratio": 0.738,
+        "nia_class_hits": 33
+      },
+      {
+        "gav": "org.springframework:spring-core:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 798,
+        "static_all_classes": 1189,
+        "static_ratio": 0.671,
+        "nia_class_hits": 31
+      },
+      {
+        "gav": "org.springframework:spring-aop:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 121,
+        "static_all_classes": 289,
+        "static_ratio": 0.419,
+        "nia_class_hits": 23
+      },
+      {
+        "gav": "org.springframework:spring-tx:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 41,
+        "static_all_classes": 208,
+        "static_ratio": 0.197,
+        "nia_class_hits": 23
+      },
+      {
+        "gav": "org.springframework:spring-beans:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 327,
+        "static_all_classes": 451,
+        "static_ratio": 0.725,
+        "nia_class_hits": 22
+      },
+      {
+        "gav": "org.springframework:spring-jdbc:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 82,
+        "static_all_classes": 303,
+        "static_ratio": 0.271,
+        "nia_class_hits": 12
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 740,
+        "static_all_classes": 808,
+        "static_ratio": 0.916,
+        "nia_class_hits": 11
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 640,
+        "static_all_classes": 979,
+        "static_ratio": 0.654,
+        "nia_class_hits": 9
+      },
+      {
+        "gav": "com.zaxxer:HikariCP:6.3.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 68,
+        "static_all_classes": 80,
+        "static_ratio": 0.85,
+        "nia_class_hits": 7
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:3.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 15,
+        "static_all_classes": 144,
+        "static_ratio": 0.104,
+        "nia_class_hits": 6
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.5.18",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 22,
+        "static_all_classes": 189,
+        "static_ratio": 0.116,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 9,
+        "static_all_classes": 18,
+        "static_ratio": 0.5,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.19.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 191,
+        "static_all_classes": 219,
+        "static_ratio": 0.872,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "org.xerial:sqlite-jdbc:3.43.0.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 106,
+        "static_all_classes": 120,
+        "static_ratio": 0.883,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "jakarta.inject:jakarta.inject-api:2.0.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 7,
+        "static_ratio": 0.571,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.17",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 50,
+        "static_all_classes": 56,
+        "static_ratio": 0.893,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-to-slf4j:2.24.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 7,
+        "static_all_classes": 10,
+        "static_ratio": 0.7,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-api:2.24.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 146,
+        "static_all_classes": 213,
+        "static_ratio": 0.685,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.yaml:snakeyaml:2.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 222,
+        "static_all_classes": 237,
+        "static_ratio": 0.937,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 22,
+        "static_all_classes": 23,
+        "static_ratio": 0.957,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 60,
+        "static_all_classes": 65,
+        "static_ratio": 0.923,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 5,
+        "static_ratio": 0.8,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 90,
+        "static_all_classes": 115,
+        "static_ratio": 0.783,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 15,
+        "static_all_classes": 24,
+        "static_ratio": 0.625,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.webjars:webjars-locator-lite:1.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 3,
+        "static_ratio": 1.0,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:2.1.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 37,
+        "static_all_classes": 46,
+        "static_ratio": 0.804,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.hsqldb:hsqldb:2.7.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 541,
+        "static_all_classes": 685,
+        "static_ratio": 0.79,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.19.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 60,
+        "static_all_classes": 64,
+        "static_ratio": 0.938,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.woodstox:woodstox-core:7.1.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 172,
+        "static_all_classes": 942,
+        "static_ratio": 0.183,
+        "nia_class_hits": 1
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "ch.qos.logback:logback-core:1.5.18",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 64,
+        "static_all_classes": 473,
+        "static_ratio": 0.135,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework:spring-jcl:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 14,
+        "static_all_classes": 15,
+        "static_ratio": 0.933,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 72,
+        "static_all_classes": 74,
+        "static_ratio": 0.973,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.micrometer:micrometer-observation:1.15.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 42,
+        "static_all_classes": 59,
+        "static_ratio": 0.712,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.micrometer:micrometer-commons:1.15.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 22,
+        "static_all_classes": 36,
+        "static_ratio": 0.611,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework:spring-expression:6.2.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 144,
+        "static_all_classes": 156,
+        "static_ratio": 0.923,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.17.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 176,
+        "static_all_classes": 396,
+        "static_ratio": 0.444,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jspecify:jspecify:1.0.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 5,
+        "static_ratio": 0.4,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-main:32.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 346,
+        "static_all_classes": 1176,
+        "static_ratio": 0.294,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-referencing:32.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 235,
+        "static_all_classes": 505,
+        "static_ratio": 0.465,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-http:32.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 17,
+        "static_ratio": 0.235,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-metadata:32.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 183,
+        "static_all_classes": 245,
+        "static_ratio": 0.747,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "javax.media:jai_core:1.1.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 257,
+        "static_all_classes": 826,
+        "static_ratio": 0.311,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "javax.measure:unit-api:2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 48,
+        "static_all_classes": 62,
+        "static_ratio": 0.774,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.locationtech.jts:jts-core:1.20.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 415,
+        "static_all_classes": 732,
+        "static_ratio": 0.567,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ejml:ejml-ddense:0.41",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 94,
+        "static_all_classes": 151,
+        "static_ratio": 0.623,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ejml:ejml-core:0.41",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 132,
+        "static_all_classes": 198,
+        "static_ratio": 0.667,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-api:32.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 337,
+        "static_all_classes": 398,
+        "static_ratio": 0.847,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools.ogc:net.opengis.ows:32.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 417,
+        "static_ratio": 0.014,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.emf:org.eclipse.emf.common:2.15.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 194,
+        "static_all_classes": 220,
+        "static_ratio": 0.882,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.emf:org.eclipse.emf.ecore:2.15.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 549,
+        "static_all_classes": 636,
+        "static_ratio": 0.863,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.15.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 80,
+        "static_all_classes": 107,
+        "static_ratio": 0.748,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-geojson-core:32.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 24,
+        "static_all_classes": 27,
+        "static_ratio": 0.889,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-io:commons-io:2.16.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 126,
+        "static_all_classes": 347,
+        "static_ratio": 0.363,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-shapefile:32.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 90,
+        "static_all_classes": 102,
+        "static_ratio": 0.882,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-geojson:32.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 43,
+        "static_all_classes": 47,
+        "static_ratio": 0.915,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.googlecode.json-simple:json-simple:1.1.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 11,
+        "static_all_classes": 12,
+        "static_ratio": 0.917,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-tpk:32.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 14,
+        "static_all_classes": 15,
+        "static_ratio": 0.933,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-coverage:32.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 59,
+        "static_all_classes": 229,
+        "static_ratio": 0.258,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "javax.media:jai_imageio:1.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 298,
+        "static_all_classes": 559,
+        "static_ratio": 0.533,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.imageio-ext:imageio-ext-tiff:1.4.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 266,
+        "static_all_classes": 272,
+        "static_ratio": 0.978,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.imageio-ext:imageio-ext-utilities:1.4.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 14,
+        "static_ratio": 0.214,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "javax.media:jai_codec:1.1.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 9,
+        "static_all_classes": 95,
+        "static_ratio": 0.095,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.imageio-ext:imageio-ext-geocore:1.4.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 31,
+        "static_all_classes": 45,
+        "static_ratio": 0.689,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.imageio-ext:imageio-ext-streams:1.4.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 30,
+        "static_ratio": 0.133,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "javax.xml.bind:jaxb-api:2.4.0-b180830.0359",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 95,
+        "static_all_classes": 112,
+        "static_ratio": 0.848,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "javax.activation:javax.activation-api:1.2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 27,
+        "static_all_classes": 31,
+        "static_ratio": 0.871,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 484,
+        "static_all_classes": 559,
+        "static_ratio": 0.866,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-core:4.0.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 99,
+        "static_all_classes": 107,
+        "static_ratio": 0.925,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:4.0.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 49,
+        "static_all_classes": 57,
+        "static_ratio": 0.86,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:4.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 23,
+        "static_ratio": 0.348,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.airlift:aircompressor:0.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 40,
+        "static_all_classes": 124,
+        "static_ratio": 0.323,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.iterators:jt-iterators:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 19,
+        "static_ratio": 0.421,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.utilities:jt-utilities:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 32,
+        "static_all_classes": 85,
+        "static_ratio": 0.376,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.algebra:jt-algebra:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 19,
+        "static_all_classes": 24,
+        "static_ratio": 0.792,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.lookup:jt-lookup:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 7,
+        "static_ratio": 0.286,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.vectorbin:jt-vectorbin:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 5,
+        "static_ratio": 0.4,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.stats:jt-stats:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 18,
+        "static_ratio": 0.167,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.warp:jt-warp:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 9,
+        "static_ratio": 0.667,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.colorconvert:jt-colorconvert:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 7,
+        "static_ratio": 0.286,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.colorindexer:jt-colorindexer:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 27,
+        "static_ratio": 0.037,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.piecewise:jt-piecewise:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 5,
+        "static_all_classes": 21,
+        "static_ratio": 0.238,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.classifier:jt-classifier:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 10,
+        "static_ratio": 0.2,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.rlookup:jt-rlookup:1.1.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 5,
+        "static_all_classes": 8,
+        "static_ratio": 0.625,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "systems.uom:systems-common:2.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 13,
+        "static_ratio": 0.077,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "si.uom:si-quantity:2.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 24,
+        "static_all_classes": 28,
+        "static_ratio": 0.857,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "si.uom:si-units:2.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 5,
+        "static_ratio": 0.4,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "tech.units:indriya:2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 57,
+        "static_all_classes": 137,
+        "static_ratio": 0.416,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "tech.uom.lib:uom-lib-common:2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 10,
+        "static_all_classes": 34,
+        "static_ratio": 0.294,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 3,
+        "static_ratio": 0.667,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.sf.geographiclib:GeographicLib-Java:1.49",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 18,
+        "static_ratio": 0.722,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.graphhopper:graphhopper-core:9.0-pre1",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 632,
+        "static_all_classes": 670,
+        "static_ratio": 0.943,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.graphhopper:graphhopper-web-api:9.0-pre1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 72,
+        "static_all_classes": 77,
+        "static_ratio": 0.935,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.graphhopper.external:jackson-datatype-jts:2.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 14,
+        "static_all_classes": 15,
+        "static_ratio": 0.933,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.carrotsearch:hppc:0.8.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 186,
+        "static_all_classes": 950,
+        "static_ratio": 0.196,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.janino:janino:3.1.12",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 492,
+        "static_all_classes": 519,
+        "static_ratio": 0.948,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.janino:commons-compiler:3.1.12",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 63,
+        "static_all_classes": 144,
+        "static_ratio": 0.438,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.woodstox:stax2-api:4.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 104,
+        "static_all_classes": 125,
+        "static_ratio": 0.832,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.xmlgraphics:xmlgraphics-commons:2.7",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 25,
+        "static_all_classes": 375,
+        "static_ratio": 0.067,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "de.westnordost:osm-legal-default-speeds-jvm:1.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 57,
+        "static_all_classes": 57,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jetbrains:annotations:13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 32,
+        "static_ratio": 0.062,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.openstreetmap.osmosis:osmosis-osm-binary:0.48.3",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 73,
+        "static_all_classes": 79,
+        "static_ratio": 0.924,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.openstreetmap.osmosis:osmosis-pbf:0.48.3",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 12,
+        "static_ratio": 0.167,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.openstreetmap.osmosis:osmosis-core:0.48.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 41,
+        "static_all_classes": 286,
+        "static_ratio": 0.143,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-logging:commons-logging:1.0.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 18,
+        "static_ratio": 0.722,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.commons:commons-compress:1.18",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 10,
+        "static_all_classes": 336,
+        "static_ratio": 0.03,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "xerces:xercesImpl:2.12.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 757,
+        "static_all_classes": 962,
+        "static_ratio": 0.787,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "xml-apis:xml-apis:1.4.01",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 253,
+        "static_all_classes": 346,
+        "static_ratio": 0.731,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.ibm.icu:icu4j:62.1",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 686,
+        "static_all_classes": 1420,
+        "static_ratio": 0.483,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.sun.xml.bind:jaxb-impl:2.3.9",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 632,
+        "static_all_classes": 719,
+        "static_ratio": 0.879,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.sun.activation:jakarta.activation:1.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 31,
+        "static_all_classes": 43,
+        "static_ratio": 0.721,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.jena:jena-arq:3.2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1657,
+        "static_all_classes": 1962,
+        "static_ratio": 0.845,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.jena:jena-core:3.2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 867,
+        "static_all_classes": 982,
+        "static_ratio": 0.883,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.jena:jena-iri:3.2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 58,
+        "static_all_classes": 59,
+        "static_ratio": 0.983,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.jena:jena-base:3.2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 112,
+        "static_all_classes": 168,
+        "static_ratio": 0.667,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.jena:jena-shaded-guava:3.2.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 858,
+        "static_all_classes": 1690,
+        "static_ratio": 0.508,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.commons:commons-csv:1.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 15,
+        "static_all_classes": 15,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.andrewoma.dexx:collection:0.6",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 100,
+        "static_all_classes": 132,
+        "static_ratio": 0.758,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpclient:4.5.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 288,
+        "static_all_classes": 463,
+        "static_ratio": 0.622,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpcore:4.4.16",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 167,
+        "static_all_classes": 253,
+        "static_ratio": 0.66,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-codec:commons-codec:1.18.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 16,
+        "static_all_classes": 115,
+        "static_ratio": 0.139,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.github.jsonld-java:jsonld-java:0.9.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 46,
+        "static_all_classes": 46,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.slf4j:jcl-over-slf4j:2.0.17",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 9,
+        "static_ratio": 0.889,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpclient-cache:4.5.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 59,
+        "static_all_classes": 80,
+        "static_ratio": 0.738,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.thrift:libthrift:0.9.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 52,
+        "static_all_classes": 179,
+        "static_ratio": 0.291,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.mapdb:mapdb:3.0.5",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 328,
+        "static_all_classes": 359,
+        "static_ratio": 0.914,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.collections:eclipse-collections-api:7.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 661,
+        "static_all_classes": 1123,
+        "static_ratio": 0.589,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.jcip:jcip-annotations:1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 4,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.collections:eclipse-collections:7.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2867,
+        "static_all_classes": 4906,
+        "static_ratio": 0.584,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.guava:guava:19.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 915,
+        "static_all_classes": 1717,
+        "static_ratio": 0.533,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.jpountz.lz4:lz4:1.3.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 69,
+        "static_ratio": 0.174,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.mapdb:elsa:3.0.0-M5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 114,
+        "static_all_classes": 117,
+        "static_ratio": 0.974,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.github.sebasbaumh:mapbox-vector-tile-java:25.1.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 38,
+        "static_all_classes": 43,
+        "static_ratio": 0.884,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.protobuf:protobuf-java:4.31.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 578,
+        "static_all_classes": 756,
+        "static_ratio": 0.765,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.projectlombok:lombok:1.18.40",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 5,
+        "static_all_classes": 179,
+        "static_ratio": 0.028,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "junit:junit:4.13.2",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hamcrest:hamcrest-core:3.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:3.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.12.2",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.12.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.3.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.12.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.12.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.12.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.12.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-common:2.8.13",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 251,
+        "static_ratio": 0.0,
+        "nia_class_hits": 49
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-models-jakarta:2.2.36",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 69,
+        "static_ratio": 0.0,
+        "nia_class_hits": 27
+      },
+      {
+        "gav": "io.swagger.core.v3:swagger-core-jakarta:2.2.36",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 125,
+        "static_ratio": 0.0,
+        "nia_class_hits": 14
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.13",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 11,
+        "static_ratio": 0.0,
+        "nia_class_hits": 8
+      },
+      {
+        "gav": "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 101,
+        "static_ratio": 0.0,
+        "nia_class_hits": 7
+      },
+      {
+        "gav": "org.springdoc:springdoc-openapi-starter-webmvc-api:2.8.13",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 17,
+        "static_ratio": 0.0,
+        "nia_class_hits": 7
+      },
+      {
+        "gav": "org.thymeleaf:thymeleaf:3.1.3.RELEASE",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 578,
+        "static_ratio": 0.0,
+        "nia_class_hits": 6
+      },
+      {
+        "gav": "org.hibernate.validator:hibernate-validator:8.0.3.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 905,
+        "static_ratio": 0.0,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.46",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 179,
+        "static_ratio": 0.0,
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "org.slf4j:jul-to-slf4j:2.0.17",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-el:10.1.46",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 155,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.6.1.Final",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 35,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-web:3.5.6",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter:3.5.6",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-logging:3.5.6",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-json:3.5.6",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-tomcat:3.5.6",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.6",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.attoparser:attoparser:2.0.7.RELEASE",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 159,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.unbescape:unbescape:1.1.6.RELEASE",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 69,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-jdbc:3.5.6",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-validation:3.5.6",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.7.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 44,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.webjars:swagger-ui:5.28.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.commons:commons-text:1.12.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 161,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.re2j:re2j:1.6",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 47,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools.ogc:org.w3.xlink:32.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 24,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-epsg-hsql:32.0",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 8,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.angus:angus-activation:2.0.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 11,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jaitools:jt-zonalstats:1.6.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.jaitools:jt-utils:1.6.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 117,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.affine:jt-affine:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 9,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.scale:jt-scale:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 9,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.bandmerge:jt-bandmerge:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 9,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.bandselect:jt-bandselect:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.bandcombine:jt-bandcombine:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.border:jt-border:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 3,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.buffer:jt-buffer:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.crop:jt-crop:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.mosaic:jt-mosaic:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 14,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.nullop:jt-nullop:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 3,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.rescale:jt-rescale:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.translate:jt-translate:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.scale2:jt-scale2:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 9,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.huldra.math:bigint:0.7.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.zonal:jt-zonal:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.binarize:jt-binarize:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.format:jt-format:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 3,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.errordiffusion:jt-errordiffusion:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.orderdither:jt-orderdither:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.imagefunction:jt-imagefunction:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 7,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jaiext.shadedrelief:jt-shadedrelief:1.1.27",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 24,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-pool:commons-pool:1.6",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 55,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-render:32.0",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 242,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.geotools:gt-cql:32.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 57,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.conversantmedia:disruptor:1.2.15",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 57,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "it.geosolutions.jgridshift:jgridshift-core:1.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.sf.jpf:jpf:1.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 129,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.jena:apache-jena-libs:3.2.0",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.jena:jena-tdb:3.2.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 319,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-cli:commons-cli:1.3",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 26,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.jena:jena-rdfconnection:3.2.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 17,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.collections:eclipse-collections-forkjoin:7.1.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 13,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      }
+    ]
+  }
+}

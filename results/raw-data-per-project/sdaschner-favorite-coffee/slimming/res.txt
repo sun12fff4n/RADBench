@@ -1,0 +1,70 @@
+Top Project info>>>>/private/tmp/analysis-runs/sdaschner-favorite-coffee
+Project info>>>>/private/tmp/analysis-runs/sdaschner-favorite-coffee
+Project Name>>>>com.sebastian-daschner:favorite-coffee:1.0
+OriginalSize>>>>38700KB
+BloatedSize>>>>13308KB
+All Dependencies>>>>130
+Used Dependencies>>>>122
+Used Self Direct Dependency>>>>7
+Used Self Indirect Dependency>>>>115
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>8
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>8
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>8
+realBloated>>>>8
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>22091
+buildClassExtendGraphTime>>>>231
+buildCallGraphTime>>>>76808
+levelTime>>>>93
+stringTime>>>>9
+licenseCheckTime>>>>9792
+bugCheckTime>>>>190
+maintenanceTimeCheckTime>>>>1560
+checkTime>>>>115938
+repairTime>>>>37753
+mvnTestTime>>>>16755
+====================BloatedType=========================
+java Reflect>>>>7
+outdated>>>>8
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>1
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>4338
+forName>>>>42
+loadClass>>>>24
+getClass>>>>562
+reflectEdges>>>>4867
+unReflectEdges>>>>21
+unSolvedReflect>>>><io.vertx.codegen.Helper: java.lang.reflect.Method getReflectMethod(java.lang.ClassLoader,javax.lang.model.element.ExecutableElement)>
+unSolvedReflect>>>><io.vertx.ext.web.sstore.impl.SharedDataSessionImpl: int readDataFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><reactor.core.publisher.Traces: java.util.stream.Stream lambda$static$0(java.lang.String)>
+unSolvedReflect>>>><io.quarkus.vertx.runtime.VertxRecorder: io.quarkus.vertx.runtime.EventConsumerInvoker createInvoker(java.lang.String)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><io.quarkus.qute.runtime.EngineProducer: io.quarkus.qute.TemplateInstance$Initializer createInitializer(java.lang.String)>
+unSolvedReflect>>>><io.quarkus.bootstrap.runner.Timing: void staticInitStarted(java.lang.ClassLoader,boolean)>
+unSolvedReflect>>>><io.quarkus.qute.runtime.EngineProducer: io.quarkus.qute.Resolver createResolver(java.lang.String)>
+unSolvedReflect>>>><io.vertx.core.eventbus.impl.codecs.ClusterSerializableCodec: io.vertx.core.shareddata.impl.ClusterSerializable decodeFromWire(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><org.neo4j.ogm.session.SessionFactory: org.neo4j.ogm.driver.Driver newConfiguredDriverInstance(org.neo4j.ogm.config.Configuration)>
+unSolvedReflect>>>><org.jboss.resteasy.spi.ResteasyProviderFactory: org.jboss.resteasy.spi.ResteasyProviderFactory newInstance()>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><org.jboss.resteasy.plugins.providers.RegisterBuiltin: void registerProviders(org.jboss.resteasy.spi.ResteasyProviderFactory)>
+unSolvedReflect>>>><io.vertx.codegen.type.TypeUse: void <clinit>()>
+unSolvedReflect>>>><io.vertx.core.impl.VertxBuilder: void initClusterManager(io.vertx.core.VertxOptions,java.util.Collection)>
+unSolvedReflect>>>><io.vertx.ext.web.handler.impl.UserHolder: int readFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><io.quarkus.runtime.configuration.RuntimeConfigSource: java.lang.Iterable getConfigSources(java.lang.ClassLoader)>
+unSolvedReflect>>>><io.smallrye.config.ConfigMappingLoader: java.lang.Class loadClass(java.lang.Class,io.smallrye.config.ConfigMappingMetadata)>
+unSolvedReflect>>>><javax.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><io.quarkus.bootstrap.runner.Timing: void restart(java.lang.ClassLoader)>
+unSolvedReflect>>>><javax.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>

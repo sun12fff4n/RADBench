@@ -1,0 +1,36 @@
+{
+  "count": 4,
+  "g_static": [
+    "ch.qos.logback:logback-classic:1.4.12",
+    "io.vertx:vertx-core:4.4.2",
+    "io.vertx:vertx-web:4.4.2",
+    "org.slf4j:slf4j-api:2.0.6"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "root": {
+      "g_static": [
+        "ch.qos.logback:logback-classic:1.4.12",
+        "io.vertx:vertx-core:4.4.2",
+        "io.vertx:vertx-web:4.4.2",
+        "org.slf4j:slf4j-api:2.0.6"
+      ],
+      "ignoredTestScope": [
+        "org.projectlombok:lombok:1.18.36"
+      ],
+      "ignoredUnusedDeclared": [],
+      "usedDeclared": [
+        "ch.qos.logback:logback-classic:1.4.12",
+        "io.vertx:vertx-web:4.4.2",
+        "org.slf4j:slf4j-api:2.0.6"
+      ],
+      "usedUndeclared": [
+        "io.vertx:vertx-core:4.4.2"
+      ]
+    }
+  },
+  "project_id": "colinzhu-web-console"
+}

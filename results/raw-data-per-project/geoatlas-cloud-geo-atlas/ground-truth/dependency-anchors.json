@@ -1,0 +1,112 @@
+{
+  "org.geo-atlas.boot:geoatlas-tile-boot-stater:1.0.0-SNAPSHOT": [
+    "unique provider of com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.5",
+    "unique provider of com.github.ulisesbocchio:jasypt-spring-boot:3.0.5",
+    "unique provider of com.google.code.findbugs:jsr305:3.0.2",
+    "unique provider of com.google.guava:guava:33.2.0-jre",
+    "unique provider of com.zaxxer:HikariCP:6.3.0",
+    "unique provider of commons-codec:commons-codec:1.17.1",
+    "unique provider of commons-io:commons-io:2.16.1",
+    "unique provider of commons-logging:commons-logging:1.2",
+    "unique provider of it.geosolutions.jaiext.colorindexer:jt-colorindexer:1.1.25",
+    "unique provider of it.geosolutions.jaiext.crop:jt-crop:1.1.24",
+    "unique provider of it.geosolutions.jaiext.utilities:jt-utilities:1.1.25",
+    "unique provider of jakarta.activation:jakarta.activation-api:2.1.3",
+    "unique provider of jakarta.servlet:jakarta.servlet-api:5.0.0",
+    "unique provider of jakarta.validation:jakarta.validation-api:3.0.2",
+    "unique provider of jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+    "unique provider of javax.inject:javax.inject:1",
+    "unique provider of javax.measure:unit-api:2.0",
+    "unique provider of javax.media:jai_codec:1.1.3",
+    "unique provider of javax.media:jai_imageio:1.1",
+    "unique provider of no.ecc.vectortile:java-vector-tile:1.3.23",
+    "unique provider of org.apache.httpcomponents:httpclient:4.5.14",
+    "unique provider of org.geo-atlas.component:metadata:1.0.0-SNAPSHOT",
+    "unique provider of org.geo-atlas.component:ogc-api:1.0.0-SNAPSHOT",
+    "unique provider of org.geo-atlas.component:tile-cache:1.0.0-SNAPSHOT",
+    "unique provider of org.geo-atlas.library:base:1.0.0-SNAPSHOT",
+    "unique provider of org.geo-atlas.library:io:1.0.0-SNAPSHOT",
+    "unique provider of org.geo-atlas.library:pyramid:1.0.0-SNAPSHOT",
+    "unique provider of org.geo-atlas.library:tile:1.0.0-SNAPSHOT",
+    "unique provider of org.geotools:gt-coverage:28.5",
+    "unique provider of org.geotools:gt-cql:28.5",
+    "unique provider of org.geotools:gt-metadata:28.5",
+    "unique provider of org.geotools:gt-opengis:28.5",
+    "unique provider of org.geotools:gt-referencing:28.5",
+    "unique provider of org.geotools:gt-render:28.5",
+    "unique provider of org.hibernate.validator:hibernate-validator:8.0.2.Final",
+    "unique provider of org.hsqldb:hsqldb:2.7.2",
+    "unique provider of org.jaitools:jt-zonalstats:1.6.0",
+    "unique provider of org.jasypt:jasypt:1.9.3",
+    "unique provider of org.locationtech.jts:jts-core:1.19.0",
+    "unique provider of org.modelmapper:modelmapper:3.2.1",
+    "unique provider of org.springframework.data:spring-data-commons:3.5.0",
+    "unique provider of org.springframework.data:spring-data-jdbc:3.5.0",
+    "unique provider of org.springframework.data:spring-data-relational:3.5.0",
+    "unique provider of org.springframework:spring-jdbc:6.2.7",
+    "unique provider of org.springframework:spring-tx:6.2.7",
+    "unique provider of si.uom:si-units:2.0.1"
+  ],
+  "org.geotools.jdbc:gt-jdbc-mysql:28.5": [
+    "unique provider of mysql:mysql-connector-java:8.0.28"
+  ],
+  "org.geotools.jdbc:gt-jdbc-postgis:28.5": [
+    "unique provider of com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "unique provider of javax.media:jai_core:1.1.3",
+    "unique provider of org.apache.commons:commons-lang3:3.17.0",
+    "unique provider of org.geotools:gt-jdbc:28.5",
+    "unique provider of org.geotools:gt-main:28.5",
+    "unique provider of org.postgresql:postgresql:42.7.5"
+  ],
+  "org.geotools.jdbc:gt-jdbc-sqlserver:28.5": [
+    "unique provider of net.sourceforge.jtds:jtds:1.3.1"
+  ],
+  "org.geotools:gt-epsg-hsql:28.5": [
+    "unique provider of org.hsqldb:hsqldb:2.7.2"
+  ],
+  "org.slf4j:slf4j-simple:2.0.16": [
+    "unique provider of org.slf4j:slf4j-api:2.0.16"
+  ],
+  "org.springframework.boot:spring-boot-starter-data-jdbc:3.5.0": [
+    "unique provider of com.zaxxer:HikariCP:6.3.0",
+    "unique provider of org.slf4j:slf4j-api:2.0.16",
+    "unique provider of org.springframework.data:spring-data-commons:3.5.0",
+    "unique provider of org.springframework.data:spring-data-jdbc:3.5.0",
+    "unique provider of org.springframework.data:spring-data-relational:3.5.0",
+    "unique provider of org.springframework:spring-beans:6.2.7",
+    "unique provider of org.springframework:spring-context:6.2.7",
+    "unique provider of org.springframework:spring-core:6.2.7",
+    "unique provider of org.springframework:spring-jcl:6.2.7",
+    "unique provider of org.springframework:spring-jdbc:6.2.7",
+    "unique provider of org.springframework:spring-tx:6.2.7"
+  ],
+  "org.springframework.boot:spring-boot-starter-validation:3.5.0": [
+    "unique provider of jakarta.validation:jakarta.validation-api:3.0.2",
+    "unique provider of org.apache.tomcat.embed:tomcat-embed-el:10.1.41",
+    "unique provider of org.hibernate.validator:hibernate-validator:8.0.2.Final"
+  ],
+  "org.springframework.boot:spring-boot-starter-web:3.5.0": [
+    "unique provider of ch.qos.logback:logback-classic:1.5.18",
+    "unique provider of com.fasterxml.jackson.core:jackson-annotations:2.19.0",
+    "unique provider of com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "unique provider of com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0",
+    "unique provider of com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0",
+    "unique provider of com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.0",
+    "unique provider of jakarta.annotation:jakarta.annotation-api:2.1.1",
+    "unique provider of org.apache.logging.log4j:log4j-api:2.24.3",
+    "unique provider of org.apache.logging.log4j:log4j-to-slf4j:2.24.3",
+    "unique provider of org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "unique provider of org.apache.tomcat.embed:tomcat-embed-el:10.1.41",
+    "unique provider of org.apache.tomcat.embed:tomcat-embed-websocket:10.1.41",
+    "unique provider of org.springframework.boot:spring-boot-autoconfigure:3.5.0",
+    "unique provider of org.springframework.boot:spring-boot:3.5.0",
+    "unique provider of org.springframework:spring-aop:6.2.7",
+    "unique provider of org.springframework:spring-beans:6.2.7",
+    "unique provider of org.springframework:spring-context:6.2.7",
+    "unique provider of org.springframework:spring-core:6.2.7",
+    "unique provider of org.springframework:spring-jcl:6.2.7",
+    "unique provider of org.springframework:spring-web:6.2.7",
+    "unique provider of org.springframework:spring-webmvc:6.2.7",
+    "unique provider of org.yaml:snakeyaml:2.4"
+  ]
+}

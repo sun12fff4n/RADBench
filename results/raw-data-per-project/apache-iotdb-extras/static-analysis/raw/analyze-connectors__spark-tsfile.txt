@@ -1,0 +1,44 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -------------------< org.apache.iotdb:spark-tsfile >--------------------
+[INFO] Building IoTDB: Connector: Apache Spark TSFile 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ spark-tsfile >>>
+[WARNING] The POM for org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT is missing, no dependency information available
+[WARNING] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scalatest/scalatest_2.11/3.0.9/scalatest_2.11-3.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scalatest/scalatest_2.11/3.0.9/scalatest_2.11-3.0.9.pom (5.1 kB at 5.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scalactic/scalactic_2.11/3.0.9/scalactic_2.11-3.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scalactic/scalactic_2.11/3.0.9/scalactic_2.11-3.0.9.pom (2.2 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0.pom (2.8 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scalatest/scalatest_2.11/3.0.9/scalatest_2.11-3.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scalatest/scalatest_2.11/3.0.9/scalatest_2.11-3.0.9.jar (11 MB at 9.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scalactic/scalactic_2.11/3.0.9/scalactic_2.11-3.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0.jar (679 kB at 7.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scalactic/scalactic_2.11/3.0.9/scalactic_2.11-3.0.9.jar (761 kB at 4.8 MB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.862 s
+[INFO] Finished at: 2026-06-16T08:51:47Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 0 goals, 0 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.
+[ERROR] Failed to execute goal on project spark-tsfile: Could not resolve dependencies for project org.apache.iotdb:spark-tsfile:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	org.apache.iotdb:hadoop-tsfile:jar:2.0.4-SNAPSHOT was not found in https://repository.apache.org/snapshots during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

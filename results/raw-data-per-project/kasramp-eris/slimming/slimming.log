@@ -1,0 +1,384 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.madadipouya.eris:eris >----------------------
+[INFO] Building Eris 0.2.84-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ eris ---
+[INFO] Downloading from sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/google/guava/guava/maven-metadata.xml
+[INFO] Downloading from spring-releases: https://repo.spring.io/libs-release/com/google/guava/guava/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml (5.8 kB at 16 kB/s)
+[WARNING] Could not transfer metadata com.google.guava:guava/maven-metadata.xml from/to spring-releases (https://repo.spring.io/libs-release): status code: 401, reason phrase:  (401)
+WARNING: A Java agent has been loaded dynamically (/Users/yifan/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.12/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] catalog.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] digester-rules.xml:25:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] catalog.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] digester-rules.xml:25:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] mbeans-descriptors.xml:18:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] conflictLicense: EPL 2.0	dependency: jakarta.transaction:jakarta.transaction-api:2.0.1
+[WARNING] Redundant dependency org.sonatype.plexus:plexus-sec-dispatcher:1.3 release time Optional[2009-04-29] has not been maintained for 6211 days
+[WARNING] Redundant dependency org.sonatype.plexus:plexus-cipher:1.4 release time Optional[2009-04-29] has not been maintained for 6211 days
+[WARNING] Redundant dependency org.apache.maven:maven-settings-builder:3.0 release time Optional[2010-10-04] has not been maintained for 5688 days
+[WARNING] Redundant dependency jakarta.transaction:jakarta.transaction-api:2.0.1 release time Optional[2022-03-31] has not been maintained for 1492 days
+[WARNING] Redundant dependency com.google.auto.value:auto-value-annotations:1.10.1 release time Optional[2022-11-17] has not been maintained for 1260 days
+[WARNING] Redundant dependency org.jetbrains:annotations:13.0 release time Optional[2013-12-17] has not been maintained for 4517 days
+[WARNING] The current redundancy itself inDirectly depends on commons-validator:commons-validator:1.10.0, not security vulnerabilities, open source licenses or outdated dependencies, and there are indirect dependencies. Indirect dependencies are not all redundant dependencies, so there is no redundant dependency resolution
+[WARNING] The current redundancy itself inDirectly depends on io.github.resilience4j:resilience4j-consumer:2.1.0, not security vulnerabilities, open source licenses or outdated dependencies, and there are indirect dependencies. Indirect dependencies are not all redundant dependencies, so there is no redundant dependency resolution
+[WARNING] The current redundancy itself inDirectly depends on org.springframework.security:spring-security-rsa:1.1.2, not security vulnerabilities, open source licenses or outdated dependencies, and there are indirect dependencies. Indirect dependencies are not all redundant dependencies, so there is no redundant dependency resolution
+[INFO] ALL DEPENDENCY[282]:
+[INFO]  USED DEPENDENCY[268]:
+[INFO]   USED DIRECT DEPENDENCY[22]:
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.15.4:compile [1 MB]
+[INFO] 		com.segment.analytics.java:analytics:3.5.1:compile [32 KB]
+[INFO] 		org.mockito:mockito-junit-jupiter:5.11.0:test [8 KB]
+[INFO] 		com.github.ben-manes.caffeine:caffeine:3.1.8:compile [868 KB]
+[INFO] 		org.mockito:mockito-core:5.11.0:test [687 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-web:3.2.4:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-actuator:3.2.4:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-cache:3.2.4:compile [4 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-security:3.2.4:compile [4 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-contract-wiremock:4.3.0:test [84 KB]
+[INFO] 		org.apache.commons:commons-lang3:3.14.0:compile [642 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j:3.1.1:compile [2 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-engine:5.10.2:test [238 KB]
+[INFO] 		org.apache.commons:commons-collections4:4.4:compile [734 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-starter-contract-stub-runner:4.3.0:test [2 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-test:3.2.4:test [4 KB]
+[INFO] 		org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0:compile [22 KB]
+[INFO] 		org.assertj:assertj-core:3.27.6:test [1 MB]
+[INFO] 		org.springframework.cloud:spring-cloud-starter-consul-discovery:4.1.1:compile [2 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-aop:3.2.4:compile [4 KB]
+[INFO] 		org.owasp:dependency-check-maven:12.1.5:compile [124 KB]
+[INFO] 		org.jscience:jscience:4.3.1:compile [666 KB]
+[INFO]   USED TRANSITIVE DEPENDENCY[246]:
+[INFO] 		com.jcraft:jzlib:1.1.3:test [70 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-starter-consul:4.1.1:compile [2 KB]
+[INFO] 		io.swagger.core.v3:swagger-annotations-jakarta:2.2.21:compile [47 KB]
+[INFO] 		com.h3xstream.retirejs:retirejs-core:3.0.4:compile [33 KB]
+[INFO] 		org.apache.maven:maven-plugin-api:3.0:compile [47 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.10.2:test [200 KB]
+[INFO] 		com.toomuchcoding.jsonassert:jsonassert:0.8.0:test [15 KB]
+[INFO] 		org.opentest4j:opentest4j:1.3.0:test [13 KB]
+[INFO] 		net.bytebuddy:byte-buddy-agent:1.14.12:test [250 KB]
+[INFO] 		org.apache.httpcomponents.core5:httpcore5-h2:5.2.4:compile [231 KB]
+[INFO] 		io.github.resilience4j:resilience4j-micrometer:2.1.0:runtime [53 KB]
+[INFO] 		org.apache.commons:commons-jcs3-core:3.2.1:compile [534 KB]
+[INFO] 		org.apache.commons:commons-text:1.14.0:compile [253 KB]
+[INFO] 		jakarta.xml.bind:jakarta.xml.bind-api:4.0.2:compile [127 KB]
+[INFO] 		org.apache.httpcomponents.client5:httpclient5:5.2.3:compile [823 KB]
+[INFO] 		org.springframework.boot:spring-boot-actuator:3.2.4:compile [635 KB]
+[INFO] 		io.micrometer:micrometer-commons:1.12.4:compile [46 KB]
+[INFO] 		org.sonatype.sisu:sisu-inject-plexus:1.4.2:compile [196 KB]
+[INFO] 		us.springett:cpe-parser:3.0.0:compile [31 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-starter:4.1.2:compile [2 KB]
+[INFO] 		jakarta.activation:jakarta.activation-api:2.1.3:compile [64 KB]
+[INFO] 		com.jcraft:jsch.agentproxy.sshagent:0.0.9:test [4 KB]
+[INFO] 		org.apache.logging.log4j:log4j-api:2.21.1:compile [310 KB]
+[INFO] 		org.hdrhistogram:HdrHistogram:2.1.12:runtime [169 KB]
+[INFO] 		joda-time:joda-time:2.14.0:compile [624 KB]
+[INFO] 		org.codehaus.plexus:plexus-classworlds:2.2.3:compile [45 KB]
+[INFO] 		org.sonatype.aether:aether-impl:1.7:compile [103 KB]
+[INFO] 		com.github.spullara.mustache.java:compiler:0.9.6:compile [98 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-el:10.1.19:compile [254 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-contract-spec:4.1.2:test [1 KB]
+[INFO] 		org.apache.httpcomponents:httpcore:4.4.16:compile [320 KB]
+[INFO] 		io.github.resilience4j:resilience4j-framework-common:2.1.0:compile [85 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-contract-stub-runner:4.1.2:test [239 KB]
+[INFO] 		io.swagger.core.v3:swagger-core-jakarta:2.2.21:compile [222 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.10.2:test [103 KB]
+[INFO] 		org.bouncycastle:bcpg-jdk18on:1.78:compile [464 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-contract-converters:4.1.2:test [30 KB]
+[INFO] 		org.springframework:spring-context:6.1.5:compile [1 MB]
+[INFO] 		org.apache.groovy:groovy-nio:4.0.20:test [15 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-loadbalancer:4.1.2:compile [135 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:2.1.1:compile [25 KB]
+[INFO] 		org.aspectj:aspectjweaver:1.9.21:compile [2 MB]
+[INFO] 		com.rackspace.eclipse.webtools.sourceediting:org.eclipse.wst.xml.xpath2.processor:2.1.100:test [642 KB]
+[INFO] 		org.apache.httpcomponents.core5:httpcore5:5.2.4:compile [834 KB]
+[INFO] 		io.github.resilience4j:resilience4j-timelimiter:2.1.0:compile [26 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-validation:3.2.4:compile [4 KB]
+[INFO] 		org.semver4j:semver4j:5.8.0:compile [43 KB]
+[INFO] 		org.ow2.asm:asm:9.3:test [119 KB]
+[INFO] 		org.jsoup:jsoup:1.21.2:compile [488 KB]
+[INFO] 		io.github.resilience4j:resilience4j-circularbuffer:2.1.0:runtime [12 KB]
+[INFO] 		io.projectreactor.addons:reactor-extra:3.5.1:compile [102 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-tomcat:3.2.4:compile [4 KB]
+[INFO] 		org.reactivestreams:reactive-streams:1.0.4:compile [11 KB]
+[INFO] 		com.github.tomakehurst:wiremock-jre8-standalone:2.35.1:test [15 MB]
+[INFO] 		commons-collections:commons-collections:3.2.2:compile [574 KB]
+[INFO] 		com.segment.backo:backo:1.0.0:compile [4 KB]
+[INFO] 		org.bouncycastle:bcprov-jdk18on:1.77:compile [7 MB]
+[INFO] 		org.jboss.logging:jboss-logging:3.5.3.Final:compile [57 KB]
+[INFO] 		org.apache.maven:maven-repository-metadata:3.9.5:compile [27 KB]
+[INFO] 		javax.activation:javax.activation-api:1.2.0:compile [55 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-contract-spec-groovy:4.1.2:test [4 KB]
+[INFO] 		org.springframework.security:spring-security-config:6.2.3:compile [1 MB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		com.github.jknack:handlebars:4.3.1:test [931 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.15.4:compile [535 KB]
+[INFO] 		javax.ws.rs:javax.ws.rs-api:2.0.1:compile [112 KB]
+[INFO] 		org.springframework:spring-beans:6.1.5:compile [837 KB]
+[INFO] 		io.github.resilience4j:resilience4j-circuitbreaker:2.1.0:compile [81 KB]
+[INFO] 		edu.princeton.cup:java-cup:10k:test [82 KB]
+[INFO] 		com.squareup.okhttp3:logging-interceptor:4.12.0:compile [15 KB]
+[INFO] 		org.springframework:spring-web:6.1.5:compile [1 MB]
+[INFO] 		org.hamcrest:hamcrest-core:2.2:test [1 KB]
+[INFO] 		org.springframework:spring-aop:6.1.5:compile [405 KB]
+[INFO] 		org.codehaus.plexus:plexus-interpolation:1.14:compile [59 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter:3.2.4:compile [4 KB]
+[INFO] 		org.apache.maven:maven-settings:3.0:compile [45 KB]
+[INFO] 		com.ibm.icu:icu4j:4.6:test [5 MB]
+[INFO] 		commons-io:commons-io:2.20.0:compile [550 KB]
+[INFO] 		ch.qos.logback:logback-core:1.4.14:compile [583 KB]
+[INFO] 		net.javacrumbs.json-unit:json-unit-assertj:2.38.0:test [27 KB]
+[INFO] 		javax.inject:javax.inject:1:compile [2 KB]
+[INFO] 		com.samskivert:jmustache:1.15:runtime [83 KB]
+[INFO] 		org.springframework.security:spring-security-web:6.2.3:compile [762 KB]
+[INFO] 		org.hibernate.validator:hibernate-validator:8.0.1.Final:compile [1 MB]
+[INFO] 		net.javacrumbs.json-unit:json-unit-core:2.38.0:test [135 KB]
+[INFO] 		org.apache.maven.shared:maven-artifact-transfer:0.13.1:compile [155 KB]
+[INFO] 		io.micrometer:micrometer-core:1.12.4:compile [862 KB]
+[INFO] 		org.springframework.security:spring-security-core:6.2.3:compile [500 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-api:5.10.2:test [206 KB]
+[INFO] 		io.github.jeremylong:open-vulnerability-clients:7.3.2:compile [240 KB]
+[INFO] 		org.apache.maven.shared:maven-common-artifact-filters:3.4.0:compile [57 KB]
+[INFO] 		org.jetbrains.kotlin:kotlin-stdlib:1.9.23:compile [1 MB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-websocket:10.1.19:compile [275 KB]
+[INFO] 		jakarta.validation:jakarta.validation-api:3.0.2:compile [91 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-starter-loadbalancer:4.1.2:compile [2 KB]
+[INFO] 		org.jetbrains.kotlin:kotlin-stdlib-common:1.9.23:compile [222 KB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-core:10.1.19:compile [3 MB]
+[INFO] 		net.java.dev.jna:jna-platform:4.1.0:test [1 MB]
+[INFO] 		io.github.resilience4j:resilience4j-core:2.1.0:compile [75 KB]
+[INFO] 		com.google.guava:failureaccess:1.0.3:compile [10 KB]
+[INFO] 		ch.qos.logback:logback-classic:1.4.14:compile [276 KB]
+[INFO] 		org.apache.groovy:groovy-json:4.0.20:test [126 KB]
+[INFO] 		org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.23:compile [961 bytes]
+[INFO] 		org.apache.maven:maven-core:3.0:compile [514 KB]
+[INFO] 		org.sonatype.sisu:sisu-inject-bean:1.4.2:compile [149 KB]
+[INFO] 		org.eclipse.packager:packager-rpm:0.21.0:compile [179 KB]
+[INFO] 		org.apache.logging.log4j:log4j-to-slf4j:2.21.1:compile [22 KB]
+[INFO] 		org.eclipse.jgit:org.eclipse.jgit:6.6.1.202309021850-r:test [2 MB]
+[INFO] 		io.github.resilience4j:resilience4j-retry:2.1.0:compile [47 KB]
+[INFO] 		net.java.dev.jna:jna:4.1.0:test [893 KB]
+[INFO] 		org.anarres.jdiagnostics:jdiagnostics:1.0.7:compile [58 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-context:4.1.2:compile [184 KB]
+[INFO] 		org.codehaus.plexus:plexus-component-annotations:2.0.0:compile [4 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-contract-spec-java:4.1.2:test [118 KB]
+[INFO] 		org.springframework:spring-jcl:6.1.5:compile [23 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.12:compile [66 KB]
+[INFO] 		commons-logging:commons-logging:1.2:compile [60 KB]
+[INFO] 		com.squareup.retrofit2:retrofit:2.9.0:compile [122 KB]
+[INFO] 		io.swagger.core.v3:swagger-models-jakarta:2.2.21:compile [131 KB]
+[INFO] 		io.projectreactor:reactor-core:3.6.4:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:3.2.4:compile [1 MB]
+[INFO] 		org.springframework.cloud:spring-cloud-consul-core:4.1.1:compile [21 KB]
+[INFO] 		commons-codec:commons-codec:1.16.1:compile [356 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-contract-verifier:4.1.2:test [716 KB]
+[INFO] 		com.google.code.gson:gson:2.10.1:compile [276 KB]
+[INFO] 		org.codehaus.plexus:plexus-utils:4.0.2:compile [188 KB]
+[INFO] 		org.apache.velocity:velocity-engine-core:2.4.1:compile [503 KB]
+[INFO] 		org.apache.commons:commons-pool2:2.12.0:compile [146 KB]
+[INFO] 		com.googlecode.javaewah:JavaEWAH:1.2.3:test [166 KB]
+[INFO] 		org.eclipse.packager:packager-core:0.21.0:compile [20 KB]
+[INFO] 		org.springframework:spring-context-support:6.1.5:compile [169 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-commons:4.1.2:compile [257 KB]
+[INFO] 		org.awaitility:awaitility:4.2.0:test [93 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.4:compile [10 KB]
+[INFO] 		org.springframework.boot:spring-boot-actuator-autoconfigure:3.2.4:compile [737 KB]
+[INFO] 		org.codehaus.plexus:plexus-xml:3.0.1:compile [92 KB]
+[INFO] 		com.squareup.okio:okio-jvm:3.6.0:compile [351 KB]
+[INFO] 		net.minidev:accessors-smart:2.5.0:test [29 KB]
+[INFO] 		org.springframework:spring-expression:6.1.5:compile [295 KB]
+[INFO] 		com.moandjiezana.toml:toml4j:0.7.2:compile [61 KB]
+[INFO] 		org.apache.lucene:lucene-facet:9.12.0:compile [343 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-json:3.2.4:compile [4 KB]
+[INFO] 		org.apache.httpcomponents:httpclient:4.5.14:compile [767 KB]
+[INFO] 		org.yaml:snakeyaml:2.2:compile [326 KB]
+[INFO] 		org.apache.lucene:lucene-analysis-common:9.12.0:compile [1 MB]
+[INFO] 		com.hankcs:aho-corasick-double-array-trie:1.2.3:compile [16 KB]
+[INFO] 		com.squareup.okhttp3:okhttp:4.12.0:compile [771 KB]
+[INFO] 		org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23:compile [968 bytes]
+[INFO] 		com.esotericsoftware:minlog:1.3.1:compile [5 KB]
+[INFO] 		org.sonatype.ossindex:ossindex-service-api:1.8.2:compile [29 KB]
+[INFO] 		dk.brics:automaton:1.12-4:test [204 KB]
+[INFO] 		org.eclipse.jgit:org.eclipse.jgit.ssh.jsch:6.7.0.202309050840-r:test [41 KB]
+[INFO] 		org.javolution:javolution:5.2.3:compile [287 KB]
+[INFO] 		org.apache.maven:maven-model:3.9.5:compile [212 KB]
+[INFO] 		org.xmlunit:xmlunit-core:2.9.1:test [171 KB]
+[INFO] 		com.google.guava:guava:33.4.8-jre:compile [2 MB]
+[INFO] 		org.whitesource:pecoff4j:0.0.2.1:compile [114 KB]
+[INFO] 		org.springframework:spring-test:6.1.5:test [834 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-transport-http:1.9.16:test [54 KB]
+[INFO] 		commons-validator:commons-validator:1.10.0:compile [197 KB]
+[INFO] 		com.fasterxml:classmate:1.6.0:compile [67 KB]
+[INFO] 		org.apache.maven:maven-aether-provider:3.0:runtime [49 KB]
+[INFO] 		org.tukaani:xz:1.9:compile [113 KB]
+[INFO] 		com.squareup.retrofit2:retrofit-mock:2.9.0:compile [19 KB]
+[INFO] 		com.squareup.okio:okio:3.6.0:compile [25 KB]
+[INFO] 		com.jcraft:jsch.agentproxy.core:0.0.9:test [9 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-named-locks:1.9.16:test [36 KB]
+[INFO] 		net.minidev:json-smart:2.5.0:test [117 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-consul-discovery:4.1.1:compile [73 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-connector-basic:1.9.16:test [39 KB]
+[INFO] 		org.skyscreamer:jsonassert:1.5.1:test [29 KB]
+[INFO] 		org.apache.groovy:groovy-xml:4.0.20:test [207 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter:5.10.2:test [6 KB]
+[INFO] 		io.micrometer:micrometer-observation:1.12.4:compile [70 KB]
+[INFO] 		io.github.resilience4j:resilience4j-spring-boot3:2.1.0:compile [93 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-circuitbreaker-resilience4j:3.1.1:compile [37 KB]
+[INFO] 		com.jcraft:jsch:0.1.55:test [275 KB]
+[INFO] 		org.sonatype.goodies:package-url-java:1.2.0:compile [28 KB]
+[INFO] 		io.github.resilience4j:resilience4j-ratelimiter:2.1.0:compile [42 KB]
+[INFO] 		org.apache.httpcomponents.client5:httpclient5-cache:5.2.3:runtime [240 KB]
+[INFO] 		org.springdoc:springdoc-openapi-starter-common:2.5.0:compile [476 KB]
+[INFO] 		org.apache.commons:commons-compress:1.28.0:compile [1 MB]
+[INFO] 		org.apache.lucene:lucene-sandbox:9.12.0:compile [297 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-spi:1.9.16:test [50 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.4:compile [35 KB]
+[INFO] 		com.stoyanr:evictor:1.0.0:compile [28 KB]
+[INFO] 		org.glassfish:jakarta.json:2.0.1:compile [140 KB]
+[INFO] 		org.sonatype.sisu:sisu-guice:noaop:2.1.7:compile [460 KB]
+[INFO] 		org.springframework.boot:spring-boot-test:3.2.4:test [239 KB]
+[INFO] 		org.junit.jupiter:junit-jupiter-params:5.10.2:test [572 KB]
+[INFO] 		org.apache.commons:commons-dbcp2:2.10.0:compile [208 KB]
+[INFO] 		org.latencyutils:LatencyUtils:2.0.3:runtime [29 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-api:1.9.18:compile [153 KB]
+[INFO] 		org.apache.lucene:lucene-queryparser:9.12.0:compile [411 KB]
+[INFO] 		org.apache.lucene:lucene-core:9.12.0:compile [4 MB]
+[INFO] 		com.segment.analytics.java:analytics-core:3.5.1:compile [45 KB]
+[INFO] 		org.apache.groovy:groovy:4.0.20:test [7 MB]
+[INFO] 		com.h2database:h2:2.2.224:compile [2 MB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-impl:1.9.16:test [310 KB]
+[INFO] 		org.webjars:swagger-ui:5.13.0:compile [3 MB]
+[INFO] 		org.springdoc:springdoc-openapi-starter-webmvc-api:2.5.0:compile [41 KB]
+[INFO] 		org.apache.maven.resolver:maven-resolver-util:1.4.1:compile [163 KB]
+[INFO] 		net.bytebuddy:byte-buddy:1.14.12:test [4 MB]
+[INFO] 		com.jayway.jsonpath:json-path:2.9.0:test [270 KB]
+[INFO] 		io.github.resilience4j:resilience4j-consumer:2.1.0:compile [8 KB]
+[INFO] 		org.apache.maven.shared:maven-dependency-tree:3.3.0:compile [41 KB]
+[INFO] 		com.fasterxml.jackson.module:jackson-module-blackbird:2.15.4:compile [63 KB]
+[INFO] 		com.ecwid.consul:consul-api:1.4.5:compile [164 KB]
+[INFO] 		org.objenesis:objenesis:3.3:test [48 KB]
+[INFO] 		com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.4:compile [53 KB]
+[INFO] 		org.springframework:spring-webmvc:6.1.5:compile [1021 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.15.4:compile [73 KB]
+[INFO] 		org.apache.maven:maven-artifact:3.0:compile [50 KB]
+[INFO] 		org.hamcrest:hamcrest:2.2:test [120 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-contract-shade:4.1.2:test [7 MB]
+[INFO] 		org.sonatype.ossindex:ossindex-service-client:1.8.2:compile [51 KB]
+[INFO] 		com.github.package-url:packageurl-java:1.5.0:compile [16 KB]
+[INFO] 		com.vaadin.external.google:android-json:0.0.20131108.vaadin1:compile [17 KB]
+[INFO] 		org.springframework.boot:spring-boot:3.2.4:compile [1 MB]
+[INFO] 		org.apache.maven:maven-resolver-provider:3.9.5:test [72 KB]
+[INFO] 		org.springframework.security:spring-security-crypto:6.2.3:compile [82 KB]
+[INFO] 		com.jcraft:jsch.agentproxy.usocket-jna:0.0.9:test [6 KB]
+[INFO] 		com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.4:compile [120 KB]
+[INFO] 		io.github.resilience4j:resilience4j-spring6:2.1.0:compile [107 KB]
+[INFO] 		org.springframework.cloud:spring-cloud-test-support:4.1.2:test [32 KB]
+[INFO] 		com.jcraft:jsch.agentproxy.jsch:0.0.9:test [4 KB]
+[INFO] 		org.sonatype.aether:aether-spi:1.7:compile [13 KB]
+[INFO] 		org.apache.lucene:lucene-queries:9.12.0:compile [500 KB]
+[INFO] 		com.squareup.retrofit2:converter-gson:2.9.0:compile [4 KB]
+[INFO] 		commons-beanutils:commons-beanutils:1.9.4:test [241 KB]
+[INFO] 		org.owasp:dependency-check-core:12.1.5:compile [1 MB]
+[INFO] 		com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile [2 KB]
+[INFO] 		org.owasp:dependency-check-utils:12.1.5:compile [57 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-logging:3.2.4:compile [4 KB]
+[INFO] 		org.apache.maven:maven-model-builder:3.9.5:compile [193 KB]
+[INFO] 		org.sonatype.aether:aether-util:1.7:compile [105 KB]
+[INFO] 		io.github.jeremylong:jcs3-slf4j:1.0.5:compile [5 KB]
+[INFO] 		org.sonatype.aether:aether-api:1.7:compile [72 KB]
+[INFO] 		org.springframework:spring-core:6.1.5:compile [1 MB]
+[INFO] 		org.slf4j:jul-to-slf4j:2.0.12:compile [6 KB]
+[INFO] 		org.springframework.boot:spring-boot-test-autoconfigure:3.2.4:test [214 KB]
+[INFO] 		net.javacrumbs.json-unit:json-unit-json-path:2.38.0:test [7 KB]
+[INFO] 		io.micrometer:micrometer-jakarta9:1.12.4:compile [31 KB]
+[INFO] 		commons-digester:commons-digester:2.1:compile [192 KB]
+[INFO] 		javax.xml.bind:jaxb-api:2.3.1:compile [125 KB]
+[INFO] 		org.springframework.security:spring-security-rsa:1.1.2:compile [19 KB]
+[INFO]   USED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[0]:
+[INFO]  UNUSED DEPENDENCY[14]:
+[INFO]   UNUSED DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[14]:
+[INFO] 		com.google.j2objc:j2objc-annotations:3.0.0:compile [12 KB]
+[INFO] 		com.google.errorprone:error_prone_annotations:2.21.1:compile [16 KB]
+[INFO] 		org.jspecify:jspecify:1.0.0:compile [3 KB]
+[INFO] 		org.sonatype.plexus:plexus-cipher:1.4:compile [13 KB]
+[INFO] 		com.google.auto.value:auto-value-annotations:1.10.1:compile [7 KB]
+[INFO] 		org.apache.maven.reporting:maven-reporting-api:4.0.0:compile [9 KB]
+[INFO] 		org.checkerframework:checker-qual:3.37.0:compile [219 KB]
+[INFO] 		org.apache.maven.shared:file-management:3.2.0:compile [25 KB]
+[INFO] 		jakarta.transaction:jakarta.transaction-api:2.0.1:compile [27 KB]
+[INFO] 		org.sonatype.plexus:plexus-sec-dispatcher:1.3:compile [27 KB]
+[INFO] 		org.jetbrains:annotations:13.0:compile [17 KB]
+[INFO] 		org.apache.maven:maven-settings-builder:3.0:compile [36 KB]
+[INFO] 		io.github.resilience4j:resilience4j-annotations:2.1.0:compile [10 KB]
+[INFO] 		org.apache.maven.doxia:doxia-sink-api:2.0.0:compile [11 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[0]:
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[0]:
+WARNING: A Java agent has been loaded dynamically (/Users/yifan/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.12/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/kasramp-eris/bloatedOutput/commadadipouyaeriseris0284SNAPSHOT/commadadipouyaeriseris0284SNAPSHOT/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:39 h
+[INFO] Finished at: 2026-05-01T10:50:16+02:00
+[INFO] ------------------------------------------------------------------------

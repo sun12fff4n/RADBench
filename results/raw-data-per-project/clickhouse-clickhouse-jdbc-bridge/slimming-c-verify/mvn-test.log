@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.clickhouse:clickhouse-jdbc-bridge >----------------
+[INFO] Building ClickHouse JDBC Bridge 2.1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- license:2.11:check (check-license) @ clickhouse-jdbc-bridge ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ clickhouse-jdbc-bridge ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] The encoding used to copy filtered properties files has not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ clickhouse-jdbc-bridge ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ clickhouse-jdbc-bridge ---
+[INFO] Copying 10 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ clickhouse-jdbc-bridge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /project/target/test-classes
+[INFO] /project/src/test/java/com/clickhouse/jdbcbridge/core/TypedParameterTest.java: /project/src/test/java/com/clickhouse/jdbcbridge/core/TypedParameterTest.java uses unchecked or unsafe operations.
+[INFO] /project/src/test/java/com/clickhouse/jdbcbridge/core/TypedParameterTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ clickhouse-jdbc-bridge ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository registerType
+INFO: Registering new type of NamedDataSource: [jdbc] -> [com.clickhouse.jdbcbridge.core.NamedDataSource]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository registerType
+INFO: Default type of NamedDataSource is set to [jdbc]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+INFO: Loading JSON from file [src/test/resources/datasources/test-nds.json]...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds01] of NamedDataSource(id=nds1)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.NamedDataSource close
+INFO: Closing datasource[id=nds1, instance=com.clickhouse.jdbcbridge.core.NamedDataSource@54e041a4]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds001] of NamedDataSource(id=nds1)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.NamedDataSource close
+INFO: Closing datasource[id=nds1, instance=com.clickhouse.jdbcbridge.core.NamedDataSource@54e041a4]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds] of NamedDataSource(id=nds1)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds01] of NamedDataSource(id=nds02)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.NamedDataSource close
+INFO: Closing datasource[id=nds02, instance=com.clickhouse.jdbcbridge.core.NamedDataSource@2c78324b]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds001] of NamedDataSource(id=nds02)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.NamedDataSource close
+INFO: Closing datasource[id=nds02, instance=com.clickhouse.jdbcbridge.core.NamedDataSource@2c78324b]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+INFO: Loading JSON from file [src/test/resources/datasources/test-datasource.json]...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds01] of NamedDataSource(id=nds)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.NamedDataSource close
+INFO: Closing datasource[id=nds, instance=com.clickhouse.jdbcbridge.core.NamedDataSource@5f77d0f9]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing NamedDataSource(id=nds) and all its aliases...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds01] of NamedDataSource(id=nds04)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds001] of NamedDataSource(id=nds)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.NamedDataSource close
+INFO: Closing datasource[id=nds, instance=com.clickhouse.jdbcbridge.core.NamedDataSource@5f77d0f9]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing NamedDataSource(id=nds) and all its aliases...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds01] of NamedDataSource(id=nds)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.BaseRepository remove
+INFO: Removing alias [nds001] of NamedDataSource(id=nds)...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.NamedDataSource close
+INFO: Closing datasource[id=nds, instance=com.clickhouse.jdbcbridge.core.NamedDataSource@463fd068]
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+INFO: Loading JSON from file [src/test/resources/test.json]...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+INFO: Loading JSON from file [src/test/resources/file_does_not_exist.json]...
+Sep 21, 2026 8:05:04 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+WARNING: Failed to load JSON from file src/test/resources/file_does_not_exist.json
+Sep 21, 2026 8:05:05 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+INFO: Loading JSON from file [src/test/resources/datasources/test-datasource.json]...
+Sep 21, 2026 8:05:05 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+INFO: Loading JSON from file [src/test/resources/datasources/test-datasource.json]...
+Sep 21, 2026 8:05:05 PM com.clickhouse.jdbcbridge.core.Utils loadTextFromFile
+INFO: Loading text from file [src/test/resources/simple.query]...
+Sep 21, 2026 8:05:05 PM com.clickhouse.jdbcbridge.core.Utils loadJsonFromFile
+INFO: Loading JSON from file [src/test/resources/server.json]...
+[ERROR] Tests run: 48, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.869 s <<< FAILURE! - in TestSuite
+[ERROR] com.clickhouse.jdbcbridge.impl.ScriptDataSourceTest.testScriptEval  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at com.clickhouse.jdbcbridge.impl.ScriptDataSourceTest.testScriptEval(ScriptDataSourceTest.java:37)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ScriptDataSourceTest.testScriptEval:37 expected object to not be null
+[INFO] 
+[ERROR] Tests run: 48, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.334 s
+[INFO] Finished at: 2026-09-21T20:05:06Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project clickhouse-jdbc-bridge: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /project/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

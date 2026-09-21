@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.geo-atlas.boot:geoatlas-tile-boot-stater >------------
+[INFO] Building geoatlas-tile-boot-stater 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.8.1:analyze (default-cli) > test-compile @ geoatlas-tile-boot-stater >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ geoatlas-tile-boot-stater ---
+[INFO] skip non existing resourceDirectory /project/boot/geoatlas-tile-boot-stater/src/main/resources
+[INFO] skip non existing resourceDirectory /project/boot/geoatlas-tile-boot-stater/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ geoatlas-tile-boot-stater ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ geoatlas-tile-boot-stater ---
+[INFO] skip non existing resourceDirectory /project/boot/geoatlas-tile-boot-stater/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ geoatlas-tile-boot-stater ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.8.1:analyze (default-cli) < test-compile @ geoatlas-tile-boot-stater <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.8.1:analyze (default-cli) @ geoatlas-tile-boot-stater ---
+[WARNING] Unused declared dependencies found:
+[WARNING]    org.geo-atlas.component:ogc-api:jar:1.0.0-SNAPSHOT:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.329 s
+[INFO] Finished at: 2026-06-16T08:47:37Z
+[INFO] ------------------------------------------------------------------------

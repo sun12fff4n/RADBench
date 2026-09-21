@@ -1,0 +1,40 @@
+ Network iotdb-collector_default Creating 
+ Network iotdb-collector_default Created 
+ Volume iotdb-collector_m2-nonspring-combined-apache-iotdb-extras Creating 
+ Volume iotdb-collector_m2-nonspring-combined-apache-iotdb-extras Created 
+ Container iotdb-collector-app Creating 
+ Container iotdb-collector-app Created 
+ Container iotdb-collector-app Starting 
+ Container iotdb-collector-app Started 
+ Container iotdb-collector-app Waiting 
+container iotdb-collector-app exited (1)
+iotdb-collector-app  |  openssl-devel-1:3.5.1-7.0.1.el9_7.x86_64             ol9_appstream       4.4 MB
+iotdb-collector-app  |   replacing openssl-devel-1:3.0.7-17.0.1.el9_2.x86_64                           
+iotdb-collector-app  |  openssl-libs-1:3.5.1-7.0.1.el9_7.x86_64              ol9_baseos_latest   2.4 MB
+iotdb-collector-app  |    replacing openssl-libs-1:3.0.7-17.0.1.el9_2.x86_64                           
+iotdb-collector-app  | Transaction Summary:
+iotdb-collector-app  |  Installing:        2 packages
+iotdb-collector-app  |  Reinstalling:      0 packages
+iotdb-collector-app  |  Upgrading:         6 packages
+iotdb-collector-app  |  Obsoleting:        0 packages
+iotdb-collector-app  |  Removing:          0 packages
+iotdb-collector-app  |  Downgrading:       0 packages
+iotdb-collector-app  | Downloading packages...
+iotdb-collector-app  | Running transaction test...
+iotdb-collector-app  | Installing: openssl-fips-provider-so;3.0.7-8.0.1.el9;x86_64;ol9_baseos_latest
+iotdb-collector-app  | Installing: openssl-fips-provider;3.0.7-8.0.1.el9;x86_64;ol9_baseos_latest
+iotdb-collector-app  | Updating: openssl-libs;1:3.5.1-7.0.1.el9_7;x86_64;ol9_baseos_latest
+iotdb-collector-app  | Updating: libcurl;7.76.1-35.el9_7.3;x86_64;ol9_baseos_latest
+iotdb-collector-app  | Updating: curl;7.76.1-35.el9_7.3;x86_64;ol9_baseos_latest
+iotdb-collector-app  | Updating: libcurl-devel;7.76.1-35.el9_7.3;x86_64;ol9_appstream
+iotdb-collector-app  | Updating: openssl;1:3.5.1-7.0.1.el9_7;x86_64;ol9_baseos_latest
+iotdb-collector-app  | Updating: openssl-devel;1:3.5.1-7.0.1.el9_7;x86_64;ol9_appstream
+iotdb-collector-app  | Cleanup: openssl;1:3.0.7-17.0.1.el9_2;x86_64;installed
+iotdb-collector-app  | Cleanup: openssl-devel;1:3.0.7-17.0.1.el9_2;x86_64;installed
+iotdb-collector-app  | Cleanup: libcurl-devel;7.76.1-23.el9_2.4;x86_64;installed
+iotdb-collector-app  | Cleanup: curl;7.76.1-23.el9_2.4;x86_64;installed
+iotdb-collector-app  | Cleanup: libcurl;7.76.1-23.el9_2.4;x86_64;installed
+iotdb-collector-app  | Cleanup: openssl-libs;1:3.0.7-17.0.1.el9_2;x86_64;installed
+iotdb-collector-app  | Complete.
+iotdb-collector-app  | Error: Could not find or load main class org.apache.iotdb.collector.Application
+iotdb-collector-app  | Caused by: java.lang.ClassNotFoundException: org.apache.iotdb.collector.Application

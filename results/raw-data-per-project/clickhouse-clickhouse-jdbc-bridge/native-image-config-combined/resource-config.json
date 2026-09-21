@@ -1,0 +1,61 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/services/com.clickhouse.jdbcbridge.core.DataTypeConverter\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.clickhouse.jdbcbridge.core.RepositoryManager\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.clickhouse.jdbcbridge.internal.vertx.config.spi.ConfigProcessor\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.clickhouse.jdbcbridge.internal.vertx.config.spi.ConfigStoreFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.clickhouse.jdbcbridge.internal.vertx.core.spi.BufferFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.clickhouse.jdbcbridge.internal.vertx.core.spi.FutureFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.clickhouse.jdbcbridge.internal.vertx.core.spi.VertxFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.clickhouse.jdbcbridge.internal.vertx.core.spi.VertxMetricsFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.TruffleLanguage$Provider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.instrumentation.TruffleInstrument$Provider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.vertx.core.spi.BufferFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.maven.surefire.spi.MasterProcessChannelProcessorFactory\\E"
+  }, {
+    "pattern":"\\Qcom/clickhouse/jdbcbridge/internal/slf4j/impl/StaticLoggerBinder.class\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/truffle/nfi/backend/libffi/LibFFILanguage.class\\E"
+  }, {
+    "pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"
+  }, {
+    "pattern":"\\Qorg/testng/bullet_point.png\\E"
+  }, {
+    "pattern":"\\Qorg/testng/collapseall.gif\\E"
+  }, {
+    "pattern":"\\Qorg/testng/failed.png\\E"
+  }, {
+    "pattern":"\\Qorg/testng/header\\E"
+  }, {
+    "pattern":"\\Qorg/testng/jquery-1.7.1.min.js\\E"
+  }, {
+    "pattern":"\\Qorg/testng/navigator-bullet.png\\E"
+  }, {
+    "pattern":"\\Qorg/testng/passed.png\\E"
+  }, {
+    "pattern":"\\Qorg/testng/skipped.png\\E"
+  }, {
+    "pattern":"\\Qorg/testng/testng-reports.css\\E"
+  }, {
+    "pattern":"\\Qorg/testng/testng-reports.js\\E"
+  }, {
+    "pattern":"\\Qsit/ch-server/jdbc-bridge.xml\\E"
+  }, {
+    "pattern":"\\Qtestng.css\\E"
+  }, {
+    "pattern":"jdk.jfr:\\Qjdk/jfr/internal/types/metadata.bin\\E"
+  }]},
+  "bundles":[]
+}

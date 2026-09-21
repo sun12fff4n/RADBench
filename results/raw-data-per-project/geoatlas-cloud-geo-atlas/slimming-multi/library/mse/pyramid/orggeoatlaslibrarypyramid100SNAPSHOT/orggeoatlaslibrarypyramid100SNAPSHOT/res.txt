@@ -1,0 +1,68 @@
+Project info>>>>/private/tmp/analysis-runs/geoatlas-cloud-geo-atlas/library/mse/pyramid
+Project Name>>>>org.geo-atlas.library:pyramid:1.0.0-SNAPSHOT
+OriginalSize>>>>29637KB
+BloatedSize>>>>479KB
+All Dependencies>>>>103
+Used Dependencies>>>>96
+Used Self Direct Dependency>>>>9
+Used Self Indirect Dependency>>>>87
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>7
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>7
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>7
+realBloated>>>>7
+unDeleteSelfDirectDependencies>>>>0
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>8906
+buildClassExtendGraphTime>>>>155
+buildCallGraphTime>>>>53468
+levelTime>>>>19
+stringTime>>>>11
+licenseCheckTime>>>>5964
+bugCheckTime>>>>81
+maintenanceTimeCheckTime>>>>1374
+checkTime>>>>71529
+repairTime>>>>11702
+mvnTestTime>>>>5613
+====================BloatedType=========================
+java Reflect>>>>3
+outdated>>>>3
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>1
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>8788
+forName>>>>144
+loadClass>>>>8
+getClass>>>>539
+reflectEdges>>>>9278
+unReflectEdges>>>>20
+unSolvedReflect>>>><it.geosolutions.imageioimpl.plugins.tiff.TIFFImageMetadata: it.geosolutions.imageioimpl.plugins.tiff.TIFFIFD parseIFD(org.w3c.dom.Node)>
+unSolvedReflect>>>><tech.units.indriya.format.SymbolMap: void <init>(java.util.ResourceBundle)>
+unSolvedReflect>>>><org.geotools.util.factory.GeoTools: java.lang.Object instantiate(java.lang.String,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><org.geotools.util.factory.FactoryRegistry: boolean registerFromSystemProperty(java.lang.ClassLoader,java.lang.Class,java.lang.StringBuilder)>
+unSolvedReflect>>>><com.google.protobuf.GeneratedMessage$4: com.google.protobuf.Descriptors$FieldDescriptor loadDescriptor()>
+unSolvedReflect>>>><it.geosolutions.jaiext.RegistryFileParser: java.lang.Object getInstance(java.lang.String)>
+unSolvedReflect>>>><javax.media.jai.RegistryFileParser: java.lang.Object getInstance(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.ecore.impl.EPackageRegistryImpl$Delegator: java.lang.Object put(java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><com.sun.media.jai.util.DataBufferUtils: java.lang.Class getDataBufferClass(int)>
+unSolvedReflect>>>><org.geotools.filter.FunctionImpl: org.opengis.parameter.Parameter toParameter(java.lang.String)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.geotools.referencing.operation.transform.WarpTransform2DProvider: java.lang.Object createWarp(java.lang.String,float[],float[],float,float,float,float)>
+unSolvedReflect>>>><org.geotools.filter.FunctionImpl: org.opengis.parameter.Parameter toParameter(java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.common.EMFPlugin: void main(java.lang.String[])>
+unSolvedReflect>>>><org.geotools.util.logging.Logging: void setLoggerFactory(java.lang.String)>
+unSolvedReflect>>>><com.google.protobuf.Descriptors$FileDescriptor: com.google.protobuf.Descriptors$FileDescriptor[] findDescriptors(java.lang.Class,java.lang.String[],java.lang.String[])>
+unSolvedReflect>>>><org.geotools.data.DataUtilities: java.lang.Class type(java.lang.String)>
+unSolvedReflect>>>><com.google.protobuf.SchemaUtil: java.lang.Object getMapDefaultEntry(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><org.eclipse.emf.common.CommonPlugin: java.lang.Class loadClass(java.lang.String,java.lang.String)>
+unSolvedReflect>>>><com.sun.media.imageioimpl.plugins.tiff.TIFFImageMetadata: com.sun.media.imageioimpl.plugins.tiff.TIFFIFD parseIFD(org.w3c.dom.Node)>

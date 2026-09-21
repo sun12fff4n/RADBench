@@ -1,0 +1,52 @@
+{
+  "count": 8,
+  "g_static": [
+    "com.hazelcast:hazelcast:5.3.5",
+    "commons-lang:commons-lang:2.6",
+    "io.micrometer:micrometer-core:1.12.13",
+    "io.vertx:vertx-core:4.5.23",
+    "io.vertx:vertx-hazelcast:4.5.23",
+    "io.vertx:vertx-web:4.5.23",
+    "org.apache.commons:commons-collections4:4.4",
+    "org.slf4j:slf4j-api:2.0.10"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "root": {
+      "g_static": [
+        "com.hazelcast:hazelcast:5.3.5",
+        "commons-lang:commons-lang:2.6",
+        "io.micrometer:micrometer-core:1.12.13",
+        "io.vertx:vertx-core:4.5.23",
+        "io.vertx:vertx-hazelcast:4.5.23",
+        "io.vertx:vertx-web:4.5.23",
+        "org.apache.commons:commons-collections4:4.4",
+        "org.slf4j:slf4j-api:2.0.10"
+      ],
+      "ignoredTestScope": [
+        "io.vertx:vertx-unit:4.5.23",
+        "junit:junit:4.13.2"
+      ],
+      "ignoredUnusedDeclared": [
+        "commons-io:commons-io:2.15.1",
+        "org.slf4j:slf4j-simple:2.0.10"
+      ],
+      "usedDeclared": [
+        "commons-lang:commons-lang:2.6",
+        "io.micrometer:micrometer-core:1.12.13",
+        "io.vertx:vertx-core:4.5.23",
+        "io.vertx:vertx-hazelcast:4.5.23",
+        "io.vertx:vertx-web:4.5.23",
+        "org.apache.commons:commons-collections4:4.4",
+        "org.slf4j:slf4j-api:2.0.10"
+      ],
+      "usedUndeclared": [
+        "com.hazelcast:hazelcast:5.3.5"
+      ]
+    }
+  },
+  "project_id": "swisspost-vertx-cluster-watchdog"
+}

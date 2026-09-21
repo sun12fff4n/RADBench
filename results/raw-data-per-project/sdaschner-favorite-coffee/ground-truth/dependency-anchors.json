@@ -1,0 +1,51 @@
+{
+  "io.quarkiverse.mcp:quarkus-mcp-server-stdio:1.0.0.Beta4": [
+    "unique provider of io.quarkiverse.mcp:quarkus-mcp-server-core:1.0.0.Beta4"
+  ],
+  "io.quarkus:quarkus-rest-client-jsonb:3.19.1": [
+    "unique provider of jakarta.ws.rs:jakarta.ws.rs-api:3.1.0",
+    "unique provider of org.eclipse.microprofile.rest.client:microprofile-rest-client-api:4.0"
+  ],
+  "io.quarkus:quarkus-resteasy-jsonb:2.13.3.Final": [
+    "unique provider of jakarta.json.bind:jakarta.json.bind-api:1.0.2"
+  ],
+  "io.quarkus:quarkus-resteasy-qute:2.13.3.Final": [
+    "unique provider of io.quarkus.arc:arc:2.13.3.Final",
+    "unique provider of io.quarkus.qute:qute-core:2.13.3.Final",
+    "unique provider of io.quarkus:quarkus-bootstrap-runner:2.13.3.Final",
+    "unique provider of io.quarkus:quarkus-core:2.13.3.Final",
+    "unique provider of io.quarkus:quarkus-qute:2.13.3.Final",
+    "unique provider of io.smallrye.config:smallrye-config-core:2.12.0",
+    "unique provider of jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+    "unique provider of jakarta.inject:jakarta.inject-api:1.0",
+    "unique provider of jakarta.validation:jakarta.validation-api:2.0.2",
+    "unique provider of org.jboss.resteasy:resteasy-core-spi:4.7.7.Final",
+    "unique provider of org.jboss.resteasy:resteasy-core:4.7.7.Final",
+    "unique provider of org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final",
+    "unique provider of org.jboss.threads:jboss-threads:3.4.3.Final",
+    "unique provider of org.slf4j:slf4j-api:1.7.36"
+  ],
+  "io.quarkus:quarkus-smallrye-health:2.13.3.Final": [
+    "unique provider of io.netty:netty-buffer:4.1.82.Final",
+    "unique provider of io.netty:netty-codec-haproxy:4.1.82.Final",
+    "unique provider of io.netty:netty-codec-http:4.1.82.Final",
+    "unique provider of io.netty:netty-codec:4.1.82.Final",
+    "unique provider of io.netty:netty-common:4.1.82.Final",
+    "unique provider of io.netty:netty-transport:4.1.82.Final",
+    "unique provider of io.smallrye:smallrye-context-propagation-api:1.2.2",
+    "unique provider of io.smallrye:smallrye-health-api:3.3.0",
+    "unique provider of io.vertx:vertx-core:4.3.4",
+    "unique provider of io.vertx:vertx-web:4.3.4",
+    "unique provider of org.eclipse.microprofile.health:microprofile-health-api:3.1",
+    "unique provider of org.glassfish:jakarta.json:1.1.6"
+  ],
+  "org.neo4j:neo4j-ogm-quarkus:2.1.0": [
+    "unique provider of com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
+    "unique provider of io.github.classgraph:classgraph:4.8.151",
+    "unique provider of io.netty:netty-handler:4.1.82.Final",
+    "unique provider of org.neo4j.driver:neo4j-java-driver:5.3.1",
+    "unique provider of org.neo4j:neo4j-ogm-api:4.0.1",
+    "unique provider of org.neo4j:neo4j-ogm-bolt-driver:4.0.1",
+    "unique provider of org.neo4j:neo4j-ogm-core:4.0.1"
+  ]
+}

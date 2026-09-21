@@ -1,0 +1,173 @@
+{
+  "count": 26,
+  "g_static": [
+    "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+    "com.fasterxml.jackson.core:jackson-core:2.19.2",
+    "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+    "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.19.2",
+    "com.networknt:json-schema-validator:1.5.9",
+    "fr.insee.ddi:ddi-lifecycle:1.1.0",
+    "fr.insee.eno:eno-core:3.62.0",
+    "fr.insee.eno:eno-treatments:3.62.0",
+    "fr.insee.lunatic:lunatic-model:5.12.0",
+    "fr.insee.pogues:pogues-model:1.14.0",
+    "fr.insee.trevas:vtl-parser:1.12.0",
+    "io.projectreactor:reactor-core:3.7.12",
+    "io.swagger.core.v3:swagger-annotations-jakarta:2.2.36",
+    "io.swagger.core.v3:swagger-models-jakarta:2.2.36",
+    "javax.xml.bind:jaxb-api:2.3.1",
+    "org.antlr:antlr4-runtime:4.9.3",
+    "org.apache.xmlbeans:xmlbeans:5.2.0",
+    "org.slf4j:slf4j-api:2.0.17",
+    "org.springframework.boot:spring-boot-autoconfigure:3.5.7",
+    "org.springframework.boot:spring-boot:3.5.7",
+    "org.springframework:spring-beans:6.2.12",
+    "org.springframework:spring-context:6.2.12",
+    "org.springframework:spring-core:6.2.12",
+    "org.springframework:spring-expression:6.2.12",
+    "org.springframework:spring-web:6.2.12",
+    "org.springframework:spring-webflux:6.2.12"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "eno-core": {
+      "g_static": [
+        "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+        "com.fasterxml.jackson.core:jackson-core:2.19.2",
+        "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.19.2",
+        "fr.insee.ddi:ddi-lifecycle:1.1.0",
+        "fr.insee.lunatic:lunatic-model:5.12.0",
+        "fr.insee.pogues:pogues-model:1.14.0",
+        "fr.insee.trevas:vtl-parser:1.12.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "org.antlr:antlr4-runtime:4.9.3",
+        "org.apache.xmlbeans:xmlbeans:5.2.0",
+        "org.slf4j:slf4j-api:2.0.17",
+        "org.springframework:spring-beans:6.2.12",
+        "org.springframework:spring-core:6.2.12",
+        "org.springframework:spring-expression:6.2.12"
+      ],
+      "ignoredTestScope": [
+        "ch.qos.logback:logback-classic:1.5.20",
+        "com.vaadin.external.google:android-json:0.0.20131108.vaadin1",
+        "org.assertj:assertj-core:3.27.6",
+        "org.junit.jupiter:junit-jupiter-api:5.12.2",
+        "org.junit.jupiter:junit-jupiter-params:5.12.2",
+        "org.junit.jupiter:junit-jupiter:5.12.2",
+        "org.junit.platform:junit-platform-launcher:1.12.2",
+        "org.projectlombok:lombok:1.18.42",
+        "org.skyscreamer:jsonassert:1.5.3"
+      ],
+      "ignoredUnusedDeclared": [],
+      "usedDeclared": [
+        "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.19.2",
+        "fr.insee.ddi:ddi-lifecycle:1.1.0",
+        "fr.insee.lunatic:lunatic-model:5.12.0",
+        "fr.insee.pogues:pogues-model:1.14.0",
+        "fr.insee.trevas:vtl-parser:1.12.0",
+        "org.slf4j:slf4j-api:2.0.17",
+        "org.springframework:spring-beans:6.2.12",
+        "org.springframework:spring-core:6.2.12",
+        "org.springframework:spring-expression:6.2.12"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+        "com.fasterxml.jackson.core:jackson-core:2.19.2",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "org.antlr:antlr4-runtime:4.9.3",
+        "org.apache.xmlbeans:xmlbeans:5.2.0"
+      ]
+    },
+    "eno-treatments": {
+      "g_static": [
+        "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+        "com.fasterxml.jackson.core:jackson-core:2.19.2",
+        "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+        "com.networknt:json-schema-validator:1.5.9",
+        "fr.insee.eno:eno-core:3.62.0",
+        "fr.insee.lunatic:lunatic-model:5.12.0",
+        "org.slf4j:slf4j-api:2.0.17"
+      ],
+      "ignoredTestScope": [
+        "ch.qos.logback:logback-classic:1.5.20",
+        "org.junit.jupiter:junit-jupiter-api:5.12.2",
+        "org.junit.jupiter:junit-jupiter-params:5.12.2",
+        "org.junit.jupiter:junit-jupiter:5.12.2",
+        "org.junit.platform:junit-platform-launcher:1.12.2",
+        "org.mockito:mockito-core:5.17.0",
+        "org.projectlombok:lombok:1.18.42"
+      ],
+      "ignoredUnusedDeclared": [],
+      "usedDeclared": [
+        "com.fasterxml.jackson.core:jackson-databind:2.19.2",
+        "com.networknt:json-schema-validator:1.5.9",
+        "fr.insee.eno:eno-core:3.62.0",
+        "fr.insee.lunatic:lunatic-model:5.12.0",
+        "org.slf4j:slf4j-api:2.0.17"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-annotations:2.19.2",
+        "com.fasterxml.jackson.core:jackson-core:2.19.2"
+      ]
+    },
+    "eno-ws": {
+      "g_static": [
+        "com.fasterxml.jackson.core:jackson-core:2.19.2",
+        "fr.insee.eno:eno-core:3.62.0",
+        "fr.insee.eno:eno-treatments:3.62.0",
+        "fr.insee.lunatic:lunatic-model:5.12.0",
+        "fr.insee.pogues:pogues-model:1.14.0",
+        "io.projectreactor:reactor-core:3.7.12",
+        "io.swagger.core.v3:swagger-annotations-jakarta:2.2.36",
+        "io.swagger.core.v3:swagger-models-jakarta:2.2.36",
+        "org.slf4j:slf4j-api:2.0.17",
+        "org.springframework.boot:spring-boot-autoconfigure:3.5.7",
+        "org.springframework.boot:spring-boot:3.5.7",
+        "org.springframework:spring-beans:6.2.12",
+        "org.springframework:spring-context:6.2.12",
+        "org.springframework:spring-core:6.2.12",
+        "org.springframework:spring-web:6.2.12",
+        "org.springframework:spring-webflux:6.2.12"
+      ],
+      "ignoredTestScope": [
+        "org.junit.jupiter:junit-jupiter-api:5.12.2",
+        "org.junit.jupiter:junit-jupiter-params:5.12.2",
+        "org.junit.platform:junit-platform-launcher:1.12.2",
+        "org.projectlombok:lombok:1.18.42",
+        "org.springframework.boot:spring-boot-starter-test:3.5.7",
+        "org.springframework.boot:spring-boot-test:3.5.7"
+      ],
+      "ignoredUnusedDeclared": [
+        "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.13",
+        "org.springframework.boot:spring-boot-starter-web:3.5.7",
+        "org.springframework.boot:spring-boot-starter-webflux:3.5.7"
+      ],
+      "usedDeclared": [
+        "fr.insee.eno:eno-core:3.62.0",
+        "fr.insee.eno:eno-treatments:3.62.0",
+        "fr.insee.lunatic:lunatic-model:5.12.0",
+        "fr.insee.pogues:pogues-model:1.14.0"
+      ],
+      "usedUndeclared": [
+        "com.fasterxml.jackson.core:jackson-core:2.19.2",
+        "io.projectreactor:reactor-core:3.7.12",
+        "io.swagger.core.v3:swagger-annotations-jakarta:2.2.36",
+        "io.swagger.core.v3:swagger-models-jakarta:2.2.36",
+        "org.slf4j:slf4j-api:2.0.17",
+        "org.springframework.boot:spring-boot-autoconfigure:3.5.7",
+        "org.springframework.boot:spring-boot:3.5.7",
+        "org.springframework:spring-beans:6.2.12",
+        "org.springframework:spring-context:6.2.12",
+        "org.springframework:spring-core:6.2.12",
+        "org.springframework:spring-web:6.2.12",
+        "org.springframework:spring-webflux:6.2.12"
+      ]
+    }
+  },
+  "project_id": "InseeFr-Eno"
+}

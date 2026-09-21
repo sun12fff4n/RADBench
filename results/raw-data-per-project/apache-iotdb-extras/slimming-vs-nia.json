@@ -1,0 +1,905 @@
+{
+  "project_id": "apache-iotdb-extras",
+  "slimming_total": 86,
+  "slimming_counts": {
+    "": 50,
+    "gray": 31,
+    "red": 5
+  },
+  "nia_total_classes": 201,
+  "nia_mapped_classes": 0,
+  "nia_proxy_recovered": 0,
+  "multi_module_aggregated": true,
+  "modules": [
+    "iotdb-collector",
+    "mybatis-generator"
+  ],
+  "buckets": {
+    "used+hit": 0,
+    "used+nohit": 50,
+    "bloated+hit": 0,
+    "bloated+nohit": 5,
+    "unloaded+hit": 0,
+    "unloaded+nohit": 31
+  },
+  "metrics": {
+    "tp": 5,
+    "fp": 0,
+    "tn": 0,
+    "fn": 81,
+    "precision": 1.0,
+    "recall": 0.0581,
+    "f1": 0.1099
+  },
+  "details": {
+    "used+hit": [],
+    "used+nohit": [
+      {
+        "gav": "org.apache.iotdb:collector-core:2.0.4-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.lmax:disruptor:3.4.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.tsfile:tsfile:2.1.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.iotdb:pipe-api:2.0.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.xerial:sqlite-jdbc:3.49.1.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.github.ben-manes.caffeine:caffeine:2.9.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.iotdb:collector-openapi:2.0.4-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "io.swagger:swagger-annotations:1.6.14",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.16.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.16.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.16.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:1.2.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.16.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jersey.media:jersey-media-multipart:2.40",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.jvnet.mimepull:mimepull:1.9.15",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "io.swagger:swagger-jaxrs:1.6.14",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.google.guava:guava:32.1.2-jre",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "io.swagger:swagger-core:1.6.14",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.reflections:reflections:0.10.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jersey.containers:jersey-container-servlet-core:2.40",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jersey.core:jersey-server:2.40",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jersey.core:jersey-client:2.40",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.hk2:osgi-resource-locator:1.0.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpcore:4.4.12",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpclient:4.5.14",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "commons-logging:commons-logging:1.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.kafka:kafka-clients:2.8.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.iotdb:iotdb-session:2.0.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.iotdb:isession:2.0.5",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.lz4:lz4-java:1.8.0",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.tukaani:xz:1.10",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.antlr:antlr4-runtime:4.9.3",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.google.guava:failureaccess:1.0.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.eclipse.jetty:jetty-servlet:9.4.57.v20241219",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.eclipse.jetty:jetty-security:9.4.57.v20241219",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jersey.inject:jersey-hk2:2.40",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.hk2:hk2-locator:2.6.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.hk2:hk2-api:2.6.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.hk2:hk2-utils:2.6.1",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.javassist:javassist:3.29.2-GA",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.3.15",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.3.15",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.iotdb:mybatis-generator-plugin:2.0.4-SNAPSHOT",
+        "fillColor": "",
+        "problem": [],
+        "scope": "client",
+        "nia_class_hits": 0,
+        "modules": [
+          "mybatis-generator"
+        ]
+      },
+      {
+        "gav": "org.mybatis.generator:mybatis-generator-core:1.4.2",
+        "fillColor": "",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "mybatis-generator"
+        ]
+      }
+    ],
+    "bloated+hit": [],
+    "bloated+nohit": [
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.18.0",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.google.j2objc:j2objc-annotations:2.8",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.checkerframework:checker-qual:3.33.0",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.eclipse.jetty:jetty-util-ajax:9.4.57.v20241219",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.hk2.external:aopalliance-repackaged:2.6.1",
+        "fillColor": "red",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      }
+    ],
+    "unloaded+hit": [],
+    "unloaded+nohit": [
+      {
+        "gav": "com.github.luben:zstd-jni:1.5.5-5",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "commons-io:commons-io:2.14.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.eclipse.jetty:jetty-http:9.4.57.v20241219",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.eclipse.jetty:jetty-io:9.4.57.v20241219",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.eclipse.jetty:jetty-util:9.4.57.v20241219",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.iotdb:service-rpc:2.0.5",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.thrift:libthrift:0.14.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.tsfile:common:2.1.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.iotdb:iotdb-thrift-commons:2.0.5",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.iotdb:iotdb-thrift:2.0.5",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.9",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.xerial.snappy:snappy-java:1.1.10.5",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.google.code.findbugs:jsr305:3.0.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.checkerframework:checker-qual:3.19.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.10.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "io.swagger:swagger-models:1.6.14",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "jakarta.validation:jakarta.validation-api:2.0.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.16.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.16.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.jersey.core:jersey-common:2.40",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.yaml:snakeyaml:2.2",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.13.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.17.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.javassist:javassist:3.28.0-GA",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.glassfish.hk2.external:jakarta.inject:2.6.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "commons-codec:commons-codec:1.16.0",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpcore:4.4.16",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.eclipse.jetty:jetty-server:9.4.57.v20241219",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.lz4:lz4-java:1.7.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      },
+      {
+        "gav": "org.xerial.snappy:snappy-java:1.1.8.1",
+        "fillColor": "gray",
+        "problem": [],
+        "scope": "compile",
+        "nia_class_hits": 0,
+        "modules": [
+          "iotdb-collector"
+        ]
+      }
+    ]
+  }
+}

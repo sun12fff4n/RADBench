@@ -1,0 +1,131 @@
+{
+  "project_id": "geoatlas-cloud-geo-atlas",
+  "module_type": "multi",
+  "modules": [
+    {
+      "modpath": "app/geoatlas-tile-instance",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 7,
+      "gray": 40,
+      "targets": 40,
+      "direct_deleted": 0,
+      "transitive_excluded": 30,
+      "exclusion_parents": 5,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/app__geoatlas-tile-instance/pom.xml"
+    },
+    {
+      "modpath": "boot/geoatlas-tile-boot-stater",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 132,
+      "gray": 5,
+      "targets": 5,
+      "direct_deleted": 0,
+      "transitive_excluded": 2,
+      "exclusion_parents": 1,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/boot__geoatlas-tile-boot-stater/pom.xml"
+    },
+    {
+      "modpath": "component/metadata",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 2,
+      "gray": 15,
+      "targets": 15,
+      "direct_deleted": 0,
+      "transitive_excluded": 15,
+      "exclusion_parents": 4,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/component__metadata/pom.xml"
+    },
+    {
+      "modpath": "component/ogc-api",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 7,
+      "gray": 36,
+      "targets": 36,
+      "direct_deleted": 3,
+      "transitive_excluded": 6,
+      "exclusion_parents": 2,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/component__ogc-api/pom.xml"
+    },
+    {
+      "modpath": "component/tile-cache",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 6,
+      "gray": 32,
+      "targets": 32,
+      "direct_deleted": 6,
+      "transitive_excluded": 18,
+      "exclusion_parents": 2,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/component__tile-cache/pom.xml"
+    },
+    {
+      "modpath": "library/base",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 2,
+      "gray": 6,
+      "targets": 6,
+      "direct_deleted": 0,
+      "transitive_excluded": 6,
+      "exclusion_parents": 2,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/library__base/pom.xml"
+    },
+    {
+      "modpath": "library/common",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 0,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/library__common/pom.xml"
+    },
+    {
+      "modpath": "library/io",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 0,
+      "targets": 0,
+      "direct_deleted": 0,
+      "transitive_excluded": 0,
+      "exclusion_parents": 0,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/library__io/pom.xml"
+    },
+    {
+      "modpath": "library/mse/pyramid",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 7,
+      "gray": 20,
+      "targets": 20,
+      "direct_deleted": 3,
+      "transitive_excluded": 11,
+      "exclusion_parents": 1,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/library__mse__pyramid/pom.xml"
+    },
+    {
+      "modpath": "library/tile",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 3,
+      "gray": 5,
+      "targets": 5,
+      "direct_deleted": 0,
+      "transitive_excluded": 5,
+      "exclusion_parents": 1,
+      "pom": "geoatlas-cloud-geo-atlas/slimming-a/library__tile/pom.xml"
+    }
+  ],
+  "status": "ok",
+  "modules_ok": 10,
+  "modules_total": 10,
+  "total_direct_deleted": 12,
+  "total_transitive_excluded": 93
+}

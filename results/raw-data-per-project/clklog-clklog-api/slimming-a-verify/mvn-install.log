@@ -1,0 +1,93 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.zcunsoft:clklog-api >-----------------------
+[INFO] Building clklog-api 1.2.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar (47 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar (2.6 MB at 683 kB/s)
+[INFO] 
+[INFO] --- spring-boot:2.6.4:build-info (build-info) @ clklog-api ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ clklog-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ clklog-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 261 source files to /project/target/classes
+[INFO] /project/src/main/java/com/zcunsoft/clklog/api/cfg/ClickhouseConfig.java: /project/src/main/java/com/zcunsoft/clklog/api/cfg/ClickhouseConfig.java uses or overrides a deprecated API.
+[INFO] /project/src/main/java/com/zcunsoft/clklog/api/cfg/ClickhouseConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/model/LoginUser.java:[4,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/model/LoginUser.java:[5,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/model/LoginUser.java:[14,35] cannot find symbol
+  symbol: class UserDetails
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/model/LoginUser.java:[180,37] cannot find symbol
+  symbol:   class GrantedAuthority
+  location: class com.zcunsoft.clklog.common.model.LoginUser
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/handle/LogoutSuccessHandlerImpl.java:[9,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/handle/LogoutSuccessHandlerImpl.java:[32,91] cannot find symbol
+  symbol:   class Authentication
+  location: class com.zcunsoft.clklog.security.handle.LogoutSuccessHandlerImpl
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/filter/JwtAuthenticationTokenFilter.java:[6,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/filter/JwtAuthenticationTokenFilter.java:[7,49] package org.springframework.security.core.context does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/handle/AuthenticationEntryPointImpl.java:[7,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/handle/AuthenticationEntryPointImpl.java:[28,84] cannot find symbol
+  symbol:   class AuthenticationException
+  location: class com.zcunsoft.clklog.security.handle.AuthenticationEntryPointImpl
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/framework/config/SecurityConfig.java:[7,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/framework/config/SecurityConfig.java:[43,12] cannot find symbol
+  symbol:   class AuthenticationManager
+  location: class com.zcunsoft.clklog.framework.config.SecurityConfig
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/utils/SecurityUtils.java:[7,49] package org.springframework.security.core.context does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/utils/SecurityUtils.java:[45,19] cannot find symbol
+  symbol:   class Authentication
+  location: class com.zcunsoft.clklog.common.utils.SecurityUtils
+[INFO] 14 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.181 s
+[INFO] Finished at: 2026-09-11T19:36:08Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project clklog-api: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/model/LoginUser.java:[4,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/model/LoginUser.java:[5,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/model/LoginUser.java:[14,35] cannot find symbol
+[ERROR]   symbol: class UserDetails
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/model/LoginUser.java:[180,37] cannot find symbol
+[ERROR]   symbol:   class GrantedAuthority
+[ERROR]   location: class com.zcunsoft.clklog.common.model.LoginUser
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/handle/LogoutSuccessHandlerImpl.java:[9,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/handle/LogoutSuccessHandlerImpl.java:[32,91] cannot find symbol
+[ERROR]   symbol:   class Authentication
+[ERROR]   location: class com.zcunsoft.clklog.security.handle.LogoutSuccessHandlerImpl
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/filter/JwtAuthenticationTokenFilter.java:[6,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/filter/JwtAuthenticationTokenFilter.java:[7,49] package org.springframework.security.core.context does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/handle/AuthenticationEntryPointImpl.java:[7,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/security/handle/AuthenticationEntryPointImpl.java:[28,84] cannot find symbol
+[ERROR]   symbol:   class AuthenticationException
+[ERROR]   location: class com.zcunsoft.clklog.security.handle.AuthenticationEntryPointImpl
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/framework/config/SecurityConfig.java:[7,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/framework/config/SecurityConfig.java:[43,12] cannot find symbol
+[ERROR]   symbol:   class AuthenticationManager
+[ERROR]   location: class com.zcunsoft.clklog.framework.config.SecurityConfig
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/utils/SecurityUtils.java:[7,49] package org.springframework.security.core.context does not exist
+[ERROR] /project/src/main/java/com/zcunsoft/clklog/common/utils/SecurityUtils.java:[45,19] cannot find symbol
+[ERROR]   symbol:   class Authentication
+[ERROR]   location: class com.zcunsoft.clklog.common.utils.SecurityUtils
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

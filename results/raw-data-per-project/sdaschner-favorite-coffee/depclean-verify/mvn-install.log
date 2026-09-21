@@ -1,0 +1,582 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bom/2.13.3.Final/quarkus-bom-2.13.3.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bom/2.13.3.Final/quarkus-bom-2.13.3.Final.pom (362 kB at 626 kB/s)
+[INFO] 
+[INFO] ---------------< com.sebastian-daschner:favorite-coffee >---------------
+[INFO] Building favorite-coffee 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-maven-plugin/2.13.3.Final/quarkus-maven-plugin-2.13.3.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-maven-plugin/2.13.3.Final/quarkus-maven-plugin-2.13.3.Final.pom (10 kB at 265 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-build-parent/2.13.3.Final/quarkus-build-parent-2.13.3.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-build-parent/2.13.3.Final/quarkus-build-parent-2.13.3.Final.pom (65 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-parent/2.13.3.Final/quarkus-parent-2.13.3.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-parent/2.13.3.Final/quarkus-parent-2.13.3.Final.pom (16 kB at 386 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/39/jboss-parent-39.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/39/jboss-parent-39.pom (68 kB at 565 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-maven-plugin/2.13.3.Final/quarkus-maven-plugin-2.13.3.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-maven-plugin/2.13.3.Final/quarkus-maven-plugin-2.13.3.Final.jar (443 kB at 7.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.4.0/maven-resources-plugin-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.4.0/maven-resources-plugin-3.4.0.pom (7.9 kB at 225 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/45/maven-plugins-45.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/45/maven-plugins-45.pom (8.4 kB at 288 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/45/maven-parent-45.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/45/maven-parent-45.pom (53 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/35/apache-35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/35/apache-35.pom (24 kB at 215 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.13.1/junit-bom-5.13.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.13.1/junit-bom-5.13.1.pom (5.6 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.4.0/maven-resources-plugin-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.4.0/maven-resources-plugin-3.4.0.jar (31 kB at 964 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.15.0/maven-compiler-plugin-3.15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.15.0/maven-compiler-plugin-3.15.0.pom (9.5 kB at 298 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/47/maven-plugins-47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/47/maven-plugins-47.pom (7.2 kB at 257 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/47/maven-parent-47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/47/maven-parent-47.pom (54 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/37/apache-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/37/apache-37.pom (26 kB at 512 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.2/junit-bom-5.14.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.2/junit-bom-5.14.2.pom (5.7 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.15.0/maven-compiler-plugin-3.15.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.15.0/maven-compiler-plugin-3.15.0.jar (84 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.pom (8.0 kB at 244 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M5/surefire-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M5/surefire-3.0.0-M5.pom (27 kB at 212 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 857 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 576 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar (43 kB at 897 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.pom (7.6 kB at 247 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.jar (35 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.pom (8.1 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/43/maven-plugins-43.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/43/maven-plugins-43.pom (7.5 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/43/maven-parent-43.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/43/maven-parent-43.pom (50 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom (24 kB at 590 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.3/junit-bom-5.10.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.3/junit-bom-5.10.3.pom (5.6 kB at 195 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.jar (33 kB at 987 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.pom (3.2 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom (5.1 kB at 189 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom (1.2 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.pom (2.8 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom (5.6 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom (1.5 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.pom (3.2 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.pom (3.2 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.pom (3.2 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.20.2/assertj-core-3.20.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.20.2/assertj-core-3.20.2.pom (26 kB at 736 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/2.2.13/assertj-parent-pom-2.2.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/2.2.13/assertj-parent-pom-2.2.13.pom (24 kB at 236 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar (176 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar (2.4 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.20.2/assertj-core-3.20.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar (103 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar (188 kB at 1.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar (213 kB at 1.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 29 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.20.2/assertj-core-3.20.2.jar (4.9 MB at 17 MB/s)
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ favorite-coffee ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.4.0/maven-filtering-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.4.0/maven-filtering-3.4.0.pom (6.5 kB at 209 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/43/maven-shared-components-43.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/43/maven-shared-components-43.pom (3.8 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom (612 B at 5.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom (2.7 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom (14 kB at 440 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom (3.2 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/15/spice-parent-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/15/spice-parent-15.pom (8.4 kB at 232 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (8.4 kB at 199 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.pom (13 kB at 320 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.pom (3.7 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/18/plexus-18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/18/plexus-18.pom (29 kB at 790 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom (5.6 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.pom (3.0 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/16/plexus-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/16/plexus-16.pom (28 kB at 790 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.1/junit-bom-5.10.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.1/junit-bom-5.10.1.pom (5.6 kB at 171 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom (20 kB at 613 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom (77 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom (24 kB at 636 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.pom (31 kB at 947 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/72/commons-parent-72.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/72/commons-parent-72.pom (78 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.0-M2/junit-bom-5.11.0-M2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.0-M2/junit-bom-5.11.0-M2.pom (5.7 kB at 197 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.pom (33 kB at 271 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/92/commons-parent-92.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/92/commons-parent-92.pom (80 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.13.4/junit-bom-5.13.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.13.4/junit-bom-5.13.4.pom (5.7 kB at 218 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.4.0/maven-filtering-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.4.0/maven-filtering-3.4.0.jar (56 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar (41 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar (193 kB at 3.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar (86 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar (94 kB at 1.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar (509 kB at 7.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar (2.5 kB at 29 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar (714 kB at 6.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar (8.5 kB at 50 kB/s)
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ favorite-coffee ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.pom (2.4 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom (11 kB at 342 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom (5.9 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/39/maven-shared-components-39.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/39/maven-shared-components-39.pom (3.2 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/39/maven-parent-39.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/39/maven-parent-39.pom (48 kB at 202 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/29/apache-29.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/29/apache-29.pom (21 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom (20 kB at 636 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom (79 kB at 741 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom (4.7 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom (6.4 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom (14 kB at 466 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.2/plexus-java-1.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.2/plexus-java-1.5.2.pom (4.1 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.5.2/plexus-languages-1.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.5.2/plexus-languages-1.5.2.pom (3.9 kB at 138 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/24/plexus-24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/24/plexus-24.pom (31 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.pom (18 kB at 552 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.16.2/plexus-compiler-api-2.16.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.16.2/plexus-compiler-api-2.16.2.pom (1.4 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.16.2/plexus-compiler-2.16.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.16.2/plexus-compiler-2.16.2.pom (7.5 kB at 260 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/25/plexus-25.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/25/plexus-25.pom (31 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.1/junit-bom-5.14.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.1/junit-bom-5.14.1.pom (5.7 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.pom (1.3 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.16.2/plexus-compiler-javac-2.16.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.16.2/plexus-compiler-javac-2.16.2.pom (1.3 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.16.2/plexus-compilers-2.16.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.16.2/plexus-compilers-2.16.2.pom (1.6 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar (126 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.2/plexus-java-1.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar (151 kB at 4.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.16.2/plexus-compiler-api-2.16.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar (14 kB at 347 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.2/plexus-java-1.5.2.jar (57 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.16.2/plexus-compiler-javac-2.16.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar (327 kB at 7.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar (353 kB at 7.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.16.2/plexus-compiler-api-2.16.2.jar (29 kB at 477 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.jar (5.2 kB at 87 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.16.2/plexus-compiler-javac-2.16.2.jar (30 kB at 460 kB/s)
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 18 source files with javac [debug target 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[5,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[6,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[7,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[13,54] cannot find symbol
+  symbol: class ParamConverterProvider
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[12,2] cannot find symbol
+  symbol: class Provider
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[16,16] cannot find symbol
+  symbol:   class ParamConverter
+  location: class com.sebastian_daschner.coffee.CustomParamConverterProvider
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[25,45] cannot find symbol
+  symbol: class ParamConverter
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[3,39] package org.eclipse.microprofile.health does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[4,39] package org.eclipse.microprofile.health does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[5,39] package org.eclipse.microprofile.health does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[7,32] package javax.enterprise.context does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[11,32] cannot find symbol
+  symbol: class HealthCheck
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[9,2] cannot find symbol
+  symbol: class Readiness
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[10,2] cannot find symbol
+  symbol: class ApplicationScoped
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[14,12] cannot find symbol
+  symbol:   class HealthCheckResponse
+  location: class com.sebastian_daschner.coffee.Health
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[3,24] package javax.ws.rs.core does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[4,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[5,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[8,56] cannot find symbol
+  symbol: class ExceptionMapper
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[7,2] cannot find symbol
+  symbol: class Provider
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[11,12] cannot find symbol
+  symbol:   class Response
+  location: class com.sebastian_daschner.coffee.IllegalArgumentExceptionMapper
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[5,34] package javax.json.bind.serializer does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[6,34] package javax.json.bind.serializer does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[7,25] package javax.json.stream does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[9,46] cannot find symbol
+  symbol: class JsonbSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[4,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[5,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[7,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[13,2] cannot find symbol
+  symbol: class NodeEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[14,2] cannot find symbol
+  symbol: class JsonbTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[12,42] cannot find symbol
+  symbol:   class JsonGenerator
+  location: class com.sebastian_daschner.coffee.beans.FlavorTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[12,67] cannot find symbol
+  symbol:   class SerializationContext
+  location: class com.sebastian_daschner.coffee.beans.FlavorTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[6,34] package org.neo4j.ogm.cypher.query does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[7,29] package org.neo4j.ogm.session does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[8,29] package org.neo4j.ogm.session does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[9,33] package org.neo4j.ogm.transaction does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[11,32] package javax.enterprise.context does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[12,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[18,2] cannot find symbol
+  symbol: class ApplicationScoped
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[22,5] cannot find symbol
+  symbol:   class SessionFactory
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[6,47] package org.neo4j.ogm.annotation.typeconversion does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[7,24] package org.neo4j.ogm.id does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[8,36] package org.neo4j.ogm.typeconversion does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[10,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[15,52] package org.neo4j.ogm.annotation.Relationship does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[15,1] static import only from classes and interfaces
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[17,2] cannot find symbol
+  symbol: class NodeEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[56,54] cannot find symbol
+  symbol:   class Session
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[70,62] cannot find symbol
+  symbol:   class Session
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[189,41] cannot find symbol
+  symbol:   class Session
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[197,65] cannot find symbol
+  symbol:   class Session
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[209,51] cannot find symbol
+  symbol:   class Session
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[245,54] cannot find symbol
+  symbol:   class Session
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Origin.java:[3,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Origin.java:[4,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Origin.java:[6,2] cannot find symbol
+  symbol: class NodeEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[5,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[8,2] cannot find symbol
+  symbol: class RelationshipEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/UserRating.java:[8,2] cannot find symbol
+  symbol: class RelationshipEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/User.java:[3,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/User.java:[4,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/User.java:[5,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/User.java:[11,2] cannot find symbol
+  symbol: class NodeEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[5,1] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/UserRating.java:[4,1] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[3,1] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[6,32] package javax.enterprise.context does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[7,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[8,18] package javax.json does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[9,24] package javax.validation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[10,36] package javax.validation.constraints does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[12,24] package javax.ws.rs.core does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[13,24] package javax.ws.rs.core does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[20,2] cannot find symbol
+  symbol: class Path
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[21,2] cannot find symbol
+  symbol: class ApplicationScoped
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[22,2] cannot find symbol
+  symbol: class Produces
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[23,2] cannot find symbol
+  symbol: class Consumes
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[55,40] cannot find symbol
+  symbol:   class JsonObject
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeansResource
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[77,62] cannot find symbol
+  symbol:   class JsonObject
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeansResource
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[77,12] cannot find symbol
+  symbol:   class Response
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeansResource
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[90,12] cannot find symbol
+  symbol:   class Response
+  location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeansResource
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[11,1] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[6,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[7,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[8,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[9,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[11,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[12,19] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[13,19] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[14,19] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[15,19] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[16,24] package javax.ws.rs.core does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[19,2] cannot find symbol
+  symbol: class Path
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[20,2] cannot find symbol
+  symbol: class Produces
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[24,5] cannot find symbol
+  symbol:   class Template
+  location: class com.sebastian_daschner.coffee.beans.boundary.IndexController
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[30,12] cannot find symbol
+  symbol:   class TemplateInstance
+  location: class com.sebastian_daschner.coffee.beans.boundary.IndexController
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/boundary/UserPageController.java:[6,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/boundary/UserPageController.java:[7,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/boundary/UserPageController.java:[8,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/boundary/UserPageController.java:[10,20] package javax.inject does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.766 s
+[INFO] Finished at: 2026-06-16T21:46:48Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile) on project favorite-coffee: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[5,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[6,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[7,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[13,54] cannot find symbol
+[ERROR]   symbol: class ParamConverterProvider
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[12,2] cannot find symbol
+[ERROR]   symbol: class Provider
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[16,16] cannot find symbol
+[ERROR]   symbol:   class ParamConverter
+[ERROR]   location: class com.sebastian_daschner.coffee.CustomParamConverterProvider
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/CustomParamConverterProvider.java:[25,45] cannot find symbol
+[ERROR]   symbol: class ParamConverter
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[3,39] package org.eclipse.microprofile.health does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[4,39] package org.eclipse.microprofile.health does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[5,39] package org.eclipse.microprofile.health does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[7,32] package javax.enterprise.context does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[11,32] cannot find symbol
+[ERROR]   symbol: class HealthCheck
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[9,2] cannot find symbol
+[ERROR]   symbol: class Readiness
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[10,2] cannot find symbol
+[ERROR]   symbol: class ApplicationScoped
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/Health.java:[14,12] cannot find symbol
+[ERROR]   symbol:   class HealthCheckResponse
+[ERROR]   location: class com.sebastian_daschner.coffee.Health
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[3,24] package javax.ws.rs.core does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[4,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[5,23] package javax.ws.rs.ext does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[8,56] cannot find symbol
+[ERROR]   symbol: class ExceptionMapper
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[7,2] cannot find symbol
+[ERROR]   symbol: class Provider
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/IllegalArgumentExceptionMapper.java:[11,12] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class com.sebastian_daschner.coffee.IllegalArgumentExceptionMapper
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[5,34] package javax.json.bind.serializer does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[6,34] package javax.json.bind.serializer does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[7,25] package javax.json.stream does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[9,46] cannot find symbol
+[ERROR]   symbol: class JsonbSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[4,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[5,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[7,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[13,2] cannot find symbol
+[ERROR]   symbol: class NodeEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Flavor.java:[14,2] cannot find symbol
+[ERROR]   symbol: class JsonbTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[12,42] cannot find symbol
+[ERROR]   symbol:   class JsonGenerator
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.FlavorTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/FlavorTypeSerializer.java:[12,67] cannot find symbol
+[ERROR]   symbol:   class SerializationContext
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.FlavorTypeSerializer
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[6,34] package org.neo4j.ogm.cypher.query does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[7,29] package org.neo4j.ogm.session does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[8,29] package org.neo4j.ogm.session does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[9,33] package org.neo4j.ogm.transaction does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[11,32] package javax.enterprise.context does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[12,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[18,2] cannot find symbol
+[ERROR]   symbol: class ApplicationScoped
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[22,5] cannot find symbol
+[ERROR]   symbol:   class SessionFactory
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[6,47] package org.neo4j.ogm.annotation.typeconversion does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[7,24] package org.neo4j.ogm.id does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[8,36] package org.neo4j.ogm.typeconversion does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[10,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[15,52] package org.neo4j.ogm.annotation.Relationship does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[15,1] static import only from classes and interfaces
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[17,2] cannot find symbol
+[ERROR]   symbol: class NodeEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[56,54] cannot find symbol
+[ERROR]   symbol:   class Session
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[70,62] cannot find symbol
+[ERROR]   symbol:   class Session
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[189,41] cannot find symbol
+[ERROR]   symbol:   class Session
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[197,65] cannot find symbol
+[ERROR]   symbol:   class Session
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[209,51] cannot find symbol
+[ERROR]   symbol:   class Session
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeans.java:[245,54] cannot find symbol
+[ERROR]   symbol:   class Session
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeans
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Origin.java:[3,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Origin.java:[4,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/Origin.java:[6,2] cannot find symbol
+[ERROR]   symbol: class NodeEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[5,34] package javax.json.bind.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[8,2] cannot find symbol
+[ERROR]   symbol: class RelationshipEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/UserRating.java:[8,2] cannot find symbol
+[ERROR]   symbol: class RelationshipEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/User.java:[3,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/User.java:[4,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/User.java:[5,32] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/User.java:[11,2] cannot find symbol
+[ERROR]   symbol: class NodeEntity
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/CoffeeBean.java:[5,1] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/entity/UserRating.java:[4,1] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/entity/FlavorProfile.java:[3,1] package org.neo4j.ogm.annotation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[6,32] package javax.enterprise.context does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[7,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[8,18] package javax.json does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[9,24] package javax.validation does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[10,36] package javax.validation.constraints does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[12,24] package javax.ws.rs.core does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[13,24] package javax.ws.rs.core does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[20,2] cannot find symbol
+[ERROR]   symbol: class Path
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[21,2] cannot find symbol
+[ERROR]   symbol: class ApplicationScoped
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[22,2] cannot find symbol
+[ERROR]   symbol: class Produces
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[23,2] cannot find symbol
+[ERROR]   symbol: class Consumes
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[55,40] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeansResource
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[77,62] cannot find symbol
+[ERROR]   symbol:   class JsonObject
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeansResource
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[77,12] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeansResource
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[90,12] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.CoffeeBeansResource
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/CoffeeBeansResource.java:[11,1] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[6,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[7,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[8,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[9,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[11,20] package javax.inject does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[12,19] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[13,19] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[14,19] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[15,19] package javax.ws.rs does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[16,24] package javax.ws.rs.core does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[19,2] cannot find symbol
+[ERROR]   symbol: class Path
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[20,2] cannot find symbol
+[ERROR]   symbol: class Produces
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[24,5] cannot find symbol
+[ERROR]   symbol:   class Template
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.IndexController
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/beans/boundary/IndexController.java:[30,12] cannot find symbol
+[ERROR]   symbol:   class TemplateInstance
+[ERROR]   location: class com.sebastian_daschner.coffee.beans.boundary.IndexController
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/boundary/UserPageController.java:[6,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/boundary/UserPageController.java:[7,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/boundary/UserPageController.java:[8,23] package io.quarkus.qute does not exist
+[ERROR] /project/src/main/java/com/sebastian_daschner/coffee/user/boundary/UserPageController.java:[10,20] package javax.inject does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

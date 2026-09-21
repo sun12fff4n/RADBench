@@ -1,0 +1,723 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/services/java.sql.Driver\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.validation.spi.ValidationProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.bind.JAXBContext\\E"
+  }, {
+    "pattern":"\\QMETA-INF/spring-autoconfigure-metadata.properties\\E"
+  }, {
+    "pattern":"\\QMETA-INF/spring.factories\\E"
+  }, {
+    "pattern":"\\Qapplication-test.yml\\E"
+  }, {
+    "pattern":"\\Qapplication.yml\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/api/DocumentController$Response.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/api/DocumentController.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/api/DocumentControllerTest.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/api/ErrorHandler$ErrorMessage.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/api/ErrorHandler.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/api/\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/application/DocumentService.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/application/EntriesXmlParser.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/application/EntriesXmlParserTest.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/application/validator/EntriesValidator.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/application/validator/PathValidator.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/domain/Entries.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/infrastructure/DocumentRepository.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/infrastructure/ScheduledFileReader.class\\E"
+  }, {
+    "pattern":"\\Qcom/programmingskillz/familytreexmlparser/infrastructure/ScheduledFileReaderTest.class\\E"
+  }, {
+    "pattern":"\\Qcom/zaxxer/hikari/HikariConfig.class\\E"
+  }, {
+    "pattern":"\\Qcom/zaxxer/hikari/HikariConfigMXBean.class\\E"
+  }, {
+    "pattern":"\\Qcom/zaxxer/hikari/HikariDataSource.class\\E"
+  }, {
+    "pattern":"\\Qdb/migration/V1__Create_schema.sql\\E"
+  }, {
+    "pattern":"\\Qdb/migration\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Boolean.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Class.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Object.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/String.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/reflect/Constructor.class\\E"
+  }, {
+    "pattern":"\\Qjava/nio/file/DirectoryStream.class\\E"
+  }, {
+    "pattern":"\\Qjava/nio/file/Files.class\\E"
+  }, {
+    "pattern":"\\Qjava/nio/file/Path.class\\E"
+  }, {
+    "pattern":"\\Qjava/nio/file/Paths.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Iterator.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Optional.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/function/Consumer.class\\E"
+  }, {
+    "pattern":"\\Qjavassist/runtime/Desc.class\\E"
+  }, {
+    "pattern":"\\Qjavax/xml/bind/JAXBContext.class\\E"
+  }, {
+    "pattern":"\\Qjavax/xml/bind/JAXBException.class\\E"
+  }, {
+    "pattern":"\\Qjavax/xml/bind/Unmarshaller.class\\E"
+  }, {
+    "pattern":"\\Qjdk/internal/reflect/ConstructorAccessor.class\\E"
+  }, {
+    "pattern":"\\Qjdk/internal/reflect/ConstructorAccessorImpl.class\\E"
+  }, {
+    "pattern":"\\Qjdk/internal/reflect/MagicAccessorImpl.class\\E"
+  }, {
+    "pattern":"\\Qjdk/internal/reflect/SerializationConstructorAccessorImpl.class\\E"
+  }, {
+    "pattern":"\\Qlogback-test.xml\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.MockMaker\\E"
+  }, {
+    "pattern":"\\Qmockito-extensions/org.mockito.plugins.StackTraceCleanerProvider\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/authenticator/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/connector/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/core/RestrictedFilters.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/core/RestrictedListeners.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/core/RestrictedServlets.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/core/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/deploy/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/loader/JdbcLeakPrevention.class\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/loader/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/mapper/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/mbeans/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/realm/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/session/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/startup/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/users/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/util/CharsetMapperDefault.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/util/ServerInfo.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/valves/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/webresources/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/tomcat/util/descriptor/web/mbeans-descriptors.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/tomcat/util/modeler/mbeans-descriptors.dtd\\E"
+  }, {
+    "pattern":"\\Qorg/assertj/core/api/AbstractBooleanAssert.class\\E"
+  }, {
+    "pattern":"\\Qorg/assertj/core/api/AbstractObjectAssert.class\\E"
+  }, {
+    "pattern":"\\Qorg/assertj/core/api/Assertions.class\\E"
+  }, {
+    "pattern":"\\Qorg/flywaydb/core/internal/dbsupport/h2/createMetaDataTable.sql\\E"
+  }, {
+    "pattern":"\\Qorg/flywaydb/core/internal/version.txt\\E"
+  }, {
+    "pattern":"\\Qorg/h2/util/data.zip\\E"
+  }, {
+    "pattern":"\\Qorg/json/JSONObject.class\\E"
+  }, {
+    "pattern":"\\Qorg/junit/runner/RunWith.class\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/Matchers.class\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/Mockito.class\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/stubbing/OngoingStubbing.class\\E"
+  }, {
+    "pattern":"\\Qorg/mockito/stubbing/Stubber.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/api/extension/listener/AnnotationEnabler.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/api/mockito/PowerMockito.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/api/mockito/expectation/PowerMockitoStubber.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/core/MockGateway.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/core/testlisteners/GlobalNotificationBuildSupport.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/default.properties\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/modules/junit4/internal/impl/PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/modules/junit4/internal/impl/PowerMockJUnit47RunnerDelegateImpl.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/modules/junit4/internal/impl/PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/modules/junit4/internal/impl/PowerMockJUnit49RunnerDelegateImpl.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/modules/junit4/internal/impl/testcaseworkaround/PowerMockJUnit4MethodValidator.class\\E"
+  }, {
+    "pattern":"\\Qorg/powermock/tests/utils/PowerMockTestNotifier.class\\E"
+  }, {
+    "pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/beans/factory/Aware.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/beans/factory/BeanFactoryAware.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/AutoConfigurationPackages$BasePackages.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/AutoConfigureAfter.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/AutoConfigureBefore.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/AutoConfigureOrder.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/ImportAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/ImportAutoConfigurationImportSelector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/CacheAutoConfiguration$CacheConfigurationImportSelector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/CacheAutoConfiguration$CacheManagerJpaDependencyConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/CacheAutoConfiguration$CacheManagerValidator.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/CacheAutoConfiguration$CacheManagerValidatorPostProcessor.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/CaffeineCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/CouchbaseCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/EhCacheCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/GenericCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/GuavaCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/HazelcastCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/InfinispanCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/JCacheCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/NoOpCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/condition/BeanTypeRegistry.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/condition/ConditionalOnBean.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/condition/ConditionalOnClass.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/condition/ConditionalOnProperty.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/condition/ConditionalOnResource.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/condition/ConditionalOnSingleCandidate.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/condition/ConditionalOnWebApplication.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/context/ConfigurationPropertiesAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/context/MessageSourceAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/context/PropertyPlaceholderAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/dao/PersistenceExceptionTranslationAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration$FlywayInitializerJpaDependencyConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayJpaDependencyConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$SpringBootFlyway.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$StringOrNumberToMigrationVersionConverter.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration$H2ConsoleSecurityConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/info/ProjectInfoAutoConfiguration$GitResourceAvailableCondition.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/info/ProjectInfoAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$JacksonObjectMapperConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$ParameterNamesModuleConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$DataSourceAvailableCondition.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$EmbeddedDatabaseCondition.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$EmbeddedDatabaseConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$PooledDataSourceAvailableCondition.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$PooledDataSourceCondition$ExplicitType.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$PooledDataSourceCondition$PooledDataSourceAvailable.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$PooledDataSourceCondition.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$PooledDataSourceConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration$TomcatDataSourceJmxConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Dbcp.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Dbcp2.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceInitializerPostProcessor$Registrar.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/DataSourceTransactionManagerAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/JdbcTemplateAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/JndiDataSourceAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/metadata/DataSourcePoolMetadataProvidersConfiguration$CommonsDbcp2PoolDataSourceMetadataProviderConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/metadata/DataSourcePoolMetadataProvidersConfiguration$CommonsDbcpPoolDataSourceMetadataProviderConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/metadata/DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/metadata/DataSourcePoolMetadataProvidersConfiguration$TomcatDataSourcePoolMetadataProviderConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jdbc/metadata/DataSourcePoolMetadataProvidersConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/jmx/JmxAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/mail/MailSenderValidatorAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/security/SecurityAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration$EnableTransactionManagementConfiguration$JdkDynamicAutoProxyConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration$EnableTransactionManagementConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration$TransactionTemplateConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/validation/PrimaryDefaultValidatorPostProcessor.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration$DefaultDispatcherServletCondition.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration$DispatcherServletConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration$DispatcherServletRegistrationCondition.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration$BeanPostProcessorsRegistrar.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration$EmbeddedJetty.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration$EmbeddedUndertow.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$ErrorPageCustomizer.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$ErrorTemplateMissingCondition.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$ExpressionCollector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$ExpressionResolver.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$PreserveErrorControllerTargetClassPostProcessor.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$SpelView.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/GsonHttpMessageConvertersConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration$LocaleCharsetMappingsCustomizer.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/HttpMessageConvertersAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/JacksonHttpMessageConvertersConfiguration$MappingJackson2XmlHttpMessageConverterConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/JacksonHttpMessageConvertersConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/MultipartAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration$DuplicateServerPropertiesDetector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebClientAutoConfiguration$RestTemplateConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebClientAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$OptionalPathExtensionContentNegotiationStrategy.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$ResourceChainResourceHandlerRegistrationCustomizer.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$ResourceHandlerRegistrationCustomizer.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WelcomePageHandlerMapping.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/websocket/WebSocketAutoConfiguration$JettyWebSocketConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/websocket/WebSocketAutoConfiguration$TomcatWebSocketConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/websocket/WebSocketAutoConfiguration$UndertowWebSocketConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/autoconfigure/websocket/WebSocketAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessorRegistrar.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/context/properties/EnableConfigurationProperties.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/logging/logback/base.xml\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/logging/logback/console-appender.xml\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/logging/logback/defaults.xml\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/logging/logback/file-appender.xml\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/autoconfigure/properties/PropertyMapping.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/autoconfigure/web/servlet/AutoConfigureMockMvc.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/autoconfigure/web/servlet/MockMvcAutoConfiguration$MockMvcDispatcherServletCustomizer.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/autoconfigure/web/servlet/MockMvcAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/autoconfigure/web/servlet/MockMvcSecurityAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/autoconfigure/web/servlet/MockMvcSecurityConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/autoconfigure/web/servlet/MockMvcWebClientAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/autoconfigure/web/servlet/MockMvcWebDriverAutoConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/context/ImportsContextCustomizer$ImportsCleanupPostProcessor.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/context/SpringBootTest.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/mock/mockito/MockitoPostProcessor$SpyPostProcessor.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/boot/test/mock/mockito/MockitoPostProcessor.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/ApplicationContextAware.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/EnvironmentAware.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/annotation/AdviceModeImportSelector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/annotation/AutoProxyRegistrar.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/annotation/Conditional.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/annotation/Configuration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/annotation/DeferredImportSelector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/annotation/Import.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/annotation/ImportAware.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/context/annotation/ImportBeanDefinitionRegistrar.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/stereotype/Component.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/stereotype/Controller.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/stereotype/Repository.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/stereotype/Service.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/test/context/ActiveProfiles.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/test/context/BootstrapWith.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/test/util/ReflectionTestUtils.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/transaction/annotation/AbstractTransactionManagementConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/transaction/annotation/EnableTransactionManagement.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/transaction/annotation/TransactionManagementConfigurationSelector.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/bind/annotation/ControllerAdvice.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/bind/annotation/ResponseBody.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/bind/annotation/RestController.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/bind/annotation/RestControllerAdvice.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/context/ServletContextAware.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/servlet/DispatcherServlet.properties\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport$EmptyHandlerMapping.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport$NoOpValidator.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/servlet/config/annotation/WebMvcConfigurer.class\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class\\E"
+  }, {
+    "pattern":"\\Qsun/reflect/ReflectionFactory.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Boolean.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Class.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Object.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/String.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/reflect/Constructor.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/file/DirectoryStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/file/Files.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/file/Path.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/file/Paths.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Iterator.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Optional.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/function/Consumer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/reflect/ConstructorAccessor.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/reflect/ConstructorAccessorImpl.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/reflect/MagicAccessorImpl.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/reflect/SerializationConstructorAccessorImpl.class\\E"
+  }, {
+    "pattern":"java.sql:\\Qjava/sql/Wrapper.class\\E"
+  }, {
+    "pattern":"java.sql:\\Qjavax/sql/CommonDataSource.class\\E"
+  }, {
+    "pattern":"java.sql:\\Qjavax/sql/DataSource.class\\E"
+  }, {
+    "pattern":"jdk.unsupported:\\Qsun/reflect/ReflectionFactory.class\\E"
+  }]},
+  "bundles":[{
+    "name":"javax.servlet.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"javax.servlet.http.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.authenticator.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.authenticator.jaspic.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.connector.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.core.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.deploy.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.loader.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.mapper.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.mbeans.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.realm.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.security.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.servlets.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.session.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.util.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.valves.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.webresources.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.coyote.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.coyote.http11.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.coyote.http11.filters.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.naming.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.buf.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.compat.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.descriptor.web.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.digester.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.http.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.http.parser.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.net.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.scan.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.threads.res.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.websocket.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.websocket.server.LocalStrings",
+    "locales":[""]
+  }]
+}

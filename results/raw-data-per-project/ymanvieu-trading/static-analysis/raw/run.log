@@ -1,0 +1,12 @@
+== reactor install (skip tests + heavyweight lifecycle plugins) ==
+  leaf module dirs: 5
+
+==== ./trading-common (-> trading-common) ====
+
+==== ./trading-data-collect (-> trading-data-collect) ====
+
+==== ./trading-gatling (-> trading-gatling) ====
+
+==== ./trading-test (-> trading-test) ====
+
+==== ./trading-webapp (-> trading-webapp) ====

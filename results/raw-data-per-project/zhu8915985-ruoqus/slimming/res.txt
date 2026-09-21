@@ -1,0 +1,83 @@
+Top Project info>>>>/private/tmp/analysis-runs/zhu8915985-ruoqus
+Project info>>>>/private/tmp/analysis-runs/zhu8915985-ruoqus
+Project Name>>>>com.hongdux:ruoyi-quarkus:1.0.0-SNAPSHOT
+OriginalSize>>>>63535KB
+BloatedSize>>>>111KB
+All Dependencies>>>>230
+Used Dependencies>>>>222
+Used Self Direct Dependency>>>>13
+Used Self Indirect Dependency>>>>209
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>8
+Unused Self Direct Dependency>>>>0
+Unused Self Indirect Dependency>>>>8
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>10
+realBloated>>>>8
+unDeleteSelfDirectDependencies>>>>1
+unDeleteSelfIndirectDependencies>>>>1
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+unDeleteSelfDirectDependency>>>>io.quarkus:quarkus-elytron-security-common:3.15.1
+unDeleteSelfIndirectDependency>>>>io.quarkus:quarkus-jsonp:3.15.1
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>16628
+buildClassExtendGraphTime>>>>180
+buildCallGraphTime>>>>116927
+levelTime>>>>220
+stringTime>>>>50
+licenseCheckTime>>>>15051
+bugCheckTime>>>>629
+maintenanceTimeCheckTime>>>>2209
+checkTime>>>>161820
+repairTime>>>>51390
+mvnTestTime>>>>23256
+====================BloatedType=========================
+java Reflect>>>>8
+outdated>>>>0
+vulnerable>>>>0
+licenseConflict>>>>0
+dependencyConflict>>>>3
+====================Java Reflect=========================
+SpringAPI>>>>0
+TomcatAPI>>>>0
+.class>>>>10794
+forName>>>>259
+loadClass>>>>40
+getClass>>>>1258
+reflectEdges>>>>11992
+unReflectEdges>>>>32
+unSolvedReflect>>>><io.vertx.ext.web.sstore.AbstractSession: int readDataFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><io.netty.handler.ssl.SslHandler: boolean ignoreException(java.lang.Throwable)>
+unSolvedReflect>>>><io.smallrye.config.ConfigMappingLoader: java.lang.Class getImplementationClass(java.lang.Class)>
+unSolvedReflect>>>><io.quarkus.bootstrap.runner.Timing: void staticInitStarted(java.lang.ClassLoader,boolean)>
+unSolvedReflect>>>><org.codehaus.groovy.runtime.InvokerHelper: java.lang.Object invokeStaticMethod(java.lang.String,java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><com.fasterxml.jackson.databind.util.ClassUtil: java.lang.reflect.Method[] getClassMethods(java.lang.Class)>
+unSolvedReflect>>>><org.apache.http.impl.client.AbstractHttpClient: org.apache.http.conn.ClientConnectionManager createClientConnectionManager()>
+unSolvedReflect>>>><io.vertx.core.eventbus.impl.codecs.ClusterSerializableCodec: io.vertx.core.shareddata.impl.ClusterSerializable decodeFromWire(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><org.codehaus.groovy.runtime.ProxyGeneratorAdapter$InnerLoader: java.lang.Class loadClass(java.lang.String)>
+unSolvedReflect>>>><io.smallrye.config.ConfigMappingLoader: java.lang.Class loadClass(java.lang.Class,io.smallrye.config.ConfigMappingMetadata)>
+unSolvedReflect>>>><jakarta.el.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader,java.util.Properties)>
+unSolvedReflect>>>><org.codehaus.groovy.reflection.GeneratedMetaMethod$Proxy: void createProxy()>
+unSolvedReflect>>>><io.quarkus.runtime.configuration.RuntimeOverrideConfigSource: void <init>(java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.ws.rs.ext.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.codehaus.groovy.runtime.InvokerHelper: groovy.lang.Script createScript(java.lang.Class,groovy.lang.Binding)>
+unSolvedReflect>>>><io.quarkus.bootstrap.runner.Timing: void restart(java.lang.ClassLoader)>
+unSolvedReflect>>>><jakarta.el.FactoryFinder: java.lang.Object newInstance(java.lang.String,java.lang.ClassLoader,java.util.Properties)>
+unSolvedReflect>>>><jakarta.activation.MailcapCommandMap: jakarta.activation.DataContentHandler getDataContentHandler(java.lang.String)>
+unSolvedReflect>>>><org.codehaus.groovy.transform.stc.StaticTypeCheckingVisitor: java.util.List resolveWithResolver(java.util.List,org.codehaus.groovy.ast.ClassNode,org.codehaus.groovy.ast.expr.Expression,org.codehaus.groovy.ast.expr.ClosureExpression,org.codehaus.groovy.ast.MethodNode,org.codehaus.groovy.ast.expr.Expression,org.codehaus.groovy.ast.expr.Expression)>
+unSolvedReflect>>>><org.apache.commons.lang3.ClassUtils: void lambda$convertClassNamesToClasses$3(java.util.List,java.lang.String)>
+unSolvedReflect>>>><groovy.lang.MetaClassRegistry$MetaClassCreationHandle: groovy.lang.MetaClass createWithCustomLookup(java.lang.Class,groovy.lang.MetaClassRegistry)>
+unSolvedReflect>>>><org.codehaus.groovy.runtime.InvokerHelper: java.lang.Object invokeConstructorOf(java.lang.String,java.lang.Object)>
+unSolvedReflect>>>><org.codehaus.groovy.runtime.m12n.StandardPropertiesModuleFactory: org.codehaus.groovy.runtime.m12n.ExtensionModule newModule(java.util.Properties,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.codehaus.groovy.transform.stc.StaticTypeCheckingVisitor: java.util.List getSignaturesFromHint(org.codehaus.groovy.ast.MethodNode,org.codehaus.groovy.ast.expr.Expression,org.codehaus.groovy.ast.expr.Expression,org.codehaus.groovy.ast.ASTNode)>
+unSolvedReflect>>>><io.vertx.core.impl.VertxBuilder: void initClusterManager(io.vertx.core.VertxOptions,java.util.Collection)>
+unSolvedReflect>>>><io.vertx.ext.web.handler.impl.UserHolder: int readFromBuffer(int,io.vertx.core.buffer.Buffer)>
+unSolvedReflect>>>><groovyjarjarpicocli.AutoComplete$App: java.lang.Integer call()>
+unSolvedReflect>>>><jakarta.json.spi.JsonProvider: jakarta.json.spi.JsonProvider newInstance(java.lang.String)>
+unSolvedReflect>>>><org.codehaus.groovy.reflection.GeneratedMetaMethod$DgmMethodRecord: java.util.List loadDgmInfo()>
+unSolvedReflect>>>><io.vertx.codegen.type.TypeUse: void <clinit>()>
+unSolvedReflect>>>><io.vertx.codegen.Helper: java.lang.reflect.Method getReflectMethod(java.lang.ClassLoader,javax.lang.model.element.ExecutableElement)>

@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[INFO] 
+[INFO] -------------------< org.apache.iotdb:flink-example >-------------------
+[INFO] Building IoTDB: Example: Apache Flink 2.0.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.0:analyze (default-cli) > test-compile @ flink-example >>>
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/iotdb/flink-iotdb-connector/2.0.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/iotdb/flink-iotdb-connector/2.0.4-SNAPSHOT/flink-iotdb-connector-2.0.4-SNAPSHOT.pom
+[WARNING] The POM for org.apache.iotdb:flink-iotdb-connector:jar:2.0.4-SNAPSHOT is missing, no dependency information available
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/iotdb/flink-tsfile-connector/2.0.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/iotdb/flink-tsfile-connector/2.0.4-SNAPSHOT/flink-tsfile-connector-2.0.4-SNAPSHOT.pom
+[WARNING] The POM for org.apache.iotdb:flink-tsfile-connector:jar:2.0.4-SNAPSHOT is missing, no dependency information available
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/iotdb/flink-iotdb-connector/2.0.4-SNAPSHOT/flink-iotdb-connector-2.0.4-SNAPSHOT.jar
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/iotdb/flink-tsfile-connector/2.0.4-SNAPSHOT/flink-tsfile-connector-2.0.4-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.403 s
+[INFO] Finished at: 2026-06-16T08:54:08Z
+[INFO] ------------------------------------------------------------------------
+[INFO] 0 goals, 0 executed
+[WARNING] Unexpected error while contacting Gradle Enterprise server at https://ge.apache.org/
+[WARNING] No build scan will be published: Gradle Enterprise features were not enabled due to an unexpected error while contacting Gradle Enterprise.
+[ERROR] Failed to execute goal on project flink-example: Could not resolve dependencies for project org.apache.iotdb:flink-example:jar:2.0.4-SNAPSHOT
+[ERROR] dependency: org.apache.iotdb:flink-iotdb-connector:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	Could not find artifact org.apache.iotdb:flink-iotdb-connector:jar:2.0.4-SNAPSHOT in apache.snapshots (https://repository.apache.org/snapshots)
+[ERROR] dependency: org.apache.iotdb:flink-tsfile-connector:jar:2.0.4-SNAPSHOT (compile)
+[ERROR] 	Could not find artifact org.apache.iotdb:flink-tsfile-connector:jar:2.0.4-SNAPSHOT in apache.snapshots (https://repository.apache.org/snapshots)
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

@@ -1,0 +1,158 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------------< io.github.qmjy:map-offline-server >------------------
+[INFO] Building map-offline-server 1.0.3-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from jts-snapshots: https://repo.eclipse.org/content/repositories/jts-snapshots/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.7 kB at 1.7 kB/s)
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloading from jts-snapshots: https://repo.eclipse.org/content/repositories/jts-snapshots/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.7 kB at 41 kB/s)
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/collections/eclipse-collections-api/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-api/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/collections/eclipse-collections-api/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-api/maven-metadata.xml (2.2 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/maven-metadata.xml
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/collections/eclipse-collections/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/collections/eclipse-collections/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/maven-metadata.xml (2.2 kB at 41 kB/s)
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/collections/eclipse-collections-forkjoin/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/collections/eclipse-collections-forkjoin/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-forkjoin/maven-metadata.xml (2.2 kB at 15 kB/s)
+[INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/com/google/guava/guava/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/google/guava/guava/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml (5.9 kB at 99 kB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ map-offline-server ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 567 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ map-offline-server ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 86 source files with javac [debug release 21] to target/classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+  reason: class file for org.eclipse.jdt.annotation.DefaultLocation not found
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+  reason: class file for org.eclipse.jdt.annotation.DefaultLocation not found
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+  reason: class file for org.eclipse.jdt.annotation.DefaultLocation not found
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+  reason: class file for org.eclipse.jdt.annotation.DefaultLocation not found
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.PARAMETER
+[WARNING] unknown enum constant org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE
+[INFO] 72 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/io/github/qmjy/mapserver/service/AsyncService.java:[34,33] package org.jetbrains.annotations does not exist
+[ERROR] /project/src/main/java/io/github/qmjy/mapserver/service/AsyncService.java:[115,6] cannot find symbol
+  symbol:   class NotNull
+  location: class io.github.qmjy.mapserver.service.AsyncService
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.672 s
+[INFO] Finished at: 2026-09-21T20:43:55Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project map-offline-server: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/io/github/qmjy/mapserver/service/AsyncService.java:[34,33] package org.jetbrains.annotations does not exist
+[ERROR] /project/src/main/java/io/github/qmjy/mapserver/service/AsyncService.java:[115,6] cannot find symbol
+[ERROR]   symbol:   class NotNull
+[ERROR]   location: class io.github.qmjy.mapserver.service.AsyncService
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

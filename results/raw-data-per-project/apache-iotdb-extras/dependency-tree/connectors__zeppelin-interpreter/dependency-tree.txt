@@ -1,0 +1,89 @@
+org.apache.iotdb:zeppelin-iotdb:jar:2.0.4-SNAPSHOT
++- org.apache.iotdb:iotdb-jdbc:jar:2.0.5:compile
+|  +- org.apache.iotdb:iotdb-thrift-commons:jar:2.0.5:compile
+|  +- org.apache.tsfile:common:jar:2.1.1:compile
+|  +- org.apache.tsfile:tsfile:jar:2.1.1:compile
+|  |  +- com.github.luben:zstd-jni:jar:1.5.5-5:compile
+|  |  +- org.lz4:lz4-java:jar:1.8.0:compile
+|  |  +- org.tukaani:xz:jar:1.10:compile
+|  |  \- org.antlr:antlr4-runtime:jar:4.9.3:compile
+|  +- org.apache.iotdb:iotdb-thrift:jar:2.0.5:compile
+|  +- org.osgi:osgi.cmpn:jar:7.0.0:compile
+|  +- org.ops4j.pax.jdbc:pax-jdbc-common:jar:1.5.6:compile
+|  \- org.osgi:osgi.core:jar:7.0.0:compile
++- org.apache.iotdb:service-rpc:jar:2.0.5:compile
+|  +- org.apache.iotdb:pipe-api:jar:2.0.5:compile
+|  \- org.xerial.snappy:snappy-java:jar:1.1.10.5:compile
++- org.slf4j:slf4j-api:jar:2.0.9:compile
++- org.apache.commons:commons-lang3:jar:3.13.0:compile
++- org.apache.thrift:libthrift:jar:0.14.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.16.0:compile
+|  \- org.apache.httpcomponents:httpcore:jar:4.4.12:compile
+\- org.apache.zeppelin:zeppelin-interpreter:jar:0.11.1:provided
+   +- org.apache.zeppelin:zeppelin-common:jar:0.11.1:provided
+   +- io.atomix:atomix:jar:3.0.0-rc5:provided
+   |  +- io.atomix:atomix-cluster:jar:3.0.0-rc5:provided
+   |  |  +- io.netty:netty-transport:jar:4.1.27.Final:provided
+   |  |  |  +- io.netty:netty-buffer:jar:4.1.27.Final:provided
+   |  |  |  \- io.netty:netty-resolver:jar:4.1.27.Final:provided
+   |  |  +- io.netty:netty-codec:jar:4.1.27.Final:provided
+   |  |  +- io.netty:netty-handler:jar:4.1.27.Final:provided
+   |  |  \- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.27.Final:provided
+   |  |     +- io.netty:netty-common:jar:4.1.27.Final:provided
+   |  |     \- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:provided
+   |  +- io.atomix:atomix-primitive:jar:3.0.0-rc5:provided
+   |  |  \- io.atomix:atomix-storage:jar:3.0.0-rc5:provided
+   |  \- io.atomix:atomix-utils:jar:3.0.0-rc5:provided
+   |     +- com.google.guava:guava:jar:32.1.2-jre:provided
+   |     |  +- com.google.guava:failureaccess:jar:1.0.1:provided
+   |     |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:provided
+   |     |  +- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+   |     |  +- org.checkerframework:checker-qual:jar:3.33.0:provided
+   |     |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:provided
+   |     |  \- com.google.j2objc:j2objc-annotations:jar:2.8:provided
+   |     +- org.apache.commons:commons-math3:jar:3.6.1:provided
+   |     +- com.esotericsoftware:kryo:jar:4.0.2:provided
+   |     |  +- com.esotericsoftware:reflectasm:jar:1.11.3:provided
+   |     |  |  \- org.ow2.asm:asm:jar:5.0.4:provided
+   |     |  +- com.esotericsoftware:minlog:jar:1.3.0:provided
+   |     |  \- org.objenesis:objenesis:jar:2.5.1:provided
+   |     +- com.typesafe:config:jar:1.3.2:provided
+   |     \- io.github.lukehutch:fast-classpath-scanner:jar:2.21:provided
+   +- io.atomix:atomix-raft:jar:3.0.0-rc5:provided
+   +- io.atomix:atomix-primary-backup:jar:3.0.0-rc5:provided
+   +- com.google.code.gson:gson:jar:2.10.1:provided
+   +- org.apache.commons:commons-configuration2:jar:2.8.0:provided
+   |  \- org.apache.commons:commons-text:jar:1.9:provided
+   +- commons-beanutils:commons-beanutils:jar:1.9.4:provided
+   |  \- commons-collections:commons-collections:jar:3.2.2:provided
+   +- org.apache.commons:commons-exec:jar:1.3:provided
+   +- org.apache.commons:commons-pool2:jar:2.11.1:provided
+   +- commons-io:commons-io:jar:2.14.0:compile
+   +- org.slf4j:slf4j-reload4j:jar:1.7.35:provided
+   +- ch.qos.reload4j:reload4j:jar:1.2.25:provided
+   +- org.apache.maven:maven-plugin-api:jar:3.6.3:provided
+   |  +- org.apache.maven:maven-model:jar:3.6.3:provided
+   |  +- org.apache.maven:maven-artifact:jar:3.6.3:provided
+   |  +- org.codehaus.plexus:plexus-utils:jar:3.2.1:provided
+   |  \- org.codehaus.plexus:plexus-classworlds:jar:2.6.0:provided
+   +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4:provided
+   |  +- javax.enterprise:cdi-api:jar:1.0:provided
+   |  |  \- javax.annotation:jsr250-api:jar:1.0:provided
+   |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.4:provided
+   |  \- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:provided
+   +- org.apache.maven:maven-resolver-provider:jar:3.6.3:provided
+   |  +- org.apache.maven:maven-model-builder:jar:3.6.3:provided
+   |  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.25:provided
+   |  |  \- org.apache.maven:maven-builder-support:jar:3.6.3:provided
+   |  +- org.apache.maven:maven-repository-metadata:jar:3.6.3:provided
+   |  +- org.apache.maven.resolver:maven-resolver-api:jar:1.4.1:provided
+   |  +- org.apache.maven.resolver:maven-resolver-spi:jar:1.4.1:provided
+   |  +- org.apache.maven.resolver:maven-resolver-util:jar:1.4.1:provided
+   |  +- org.apache.maven.resolver:maven-resolver-impl:jar:1.4.1:provided
+   |  \- javax.inject:javax.inject:jar:1:provided
+   +- org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.4.1:provided
+   +- org.apache.maven.resolver:maven-resolver-transport-file:jar:1.4.1:provided
+   +- org.apache.maven.resolver:maven-resolver-transport-http:jar:1.4.1:provided
+   \- jline:jline:jar:2.14.3:provided

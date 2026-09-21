@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< io.github.bmarwell.shiro:shiro.jwt.jaxrs.start >-----------
+[INFO] Building Apache Shiro + mpJWT :: start server 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.8.1:analyze (default-cli) > test-compile @ shiro.jwt.jaxrs.start >>>
+[INFO] 
+[INFO] --- spotless:2.46.1:apply (default) @ shiro.jwt.jaxrs.start ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shiro.jwt.jaxrs.start ---
+[INFO] skip non existing resourceDirectory /project/start/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ shiro.jwt.jaxrs.start ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shiro.jwt.jaxrs.start ---
+[INFO] skip non existing resourceDirectory /project/start/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ shiro.jwt.jaxrs.start ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< dependency:3.8.1:analyze (default-cli) < test-compile @ shiro.jwt.jaxrs.start <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.8.1:analyze (default-cli) @ shiro.jwt.jaxrs.start ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    jakarta.inject:jakarta.inject-api:jar:1.0:provided
+[WARNING]    javax.ws.rs:javax.ws.rs-api:jar:2.1.1:compile
+[WARNING]    org.apache.shiro:shiro-web:jar:1.13.0:compile
+[WARNING]    org.apache.shiro:shiro-core:jar:1.13.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.145 s
+[INFO] Finished at: 2026-06-16T08:29:42Z
+[INFO] ------------------------------------------------------------------------

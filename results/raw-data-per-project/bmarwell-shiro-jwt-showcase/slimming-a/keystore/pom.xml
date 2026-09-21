@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 2022 The shiro-jjwt-showcase team
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~         http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.github.bmarwell.shiro</groupId>
+    <artifactId>shiro.jwt.jaxrs.root</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>shiro.jwt.jaxrs.keystore</artifactId>
+  <packaging>jar</packaging>
+  <name>Apache Shiro + mpJWT :: keystore</name>
+
+  <properties>
+    <keystore.path>${project.basedir}/src/main/resources/io/github/bmarwell/shiro/keystore/keystore.p12</keystore.path>
+    <truststore.path>${project.basedir}/src/main/resources/io/github/bmarwell/shiro/keystore/truststore.p12</truststore.path>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>keytool-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>generate-keypair</id>
+            <goals>
+              <goal>generateKeyPair</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <keystore>${keystore.path}</keystore>
+              <dname>CN=${liberty.env.ISSUER_NAME}, OU=, O=, L=, S=, C=DE</dname>
+              <keyalg>ec</keyalg>
+              <keysize>256</keysize>
+              <storepass>changeit</storepass>
+              <keypass>changeit</keypass>
+              <alias>issuer</alias>
+              <skipIfExist>true</skipIfExist>
+              <storetype>pkcs12</storetype>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>export-public-certificate</id>
+            <goals>
+              <goal>exportCertificate</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <keystore>${keystore.path}</keystore>
+              <file>${java.io.tmpdir}/issuer.crt</file>
+              <alias>issuer</alias>
+              <rfc>true</rfc>
+              <storepass>changeit</storepass>
+              <storetype>pkcs12</storetype>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>import-public-certificate</id>
+            <goals>
+              <goal>importCertificate</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <keystore>${truststore.path}</keystore>
+              <storepass>changeit</storepass>
+              <storetype>pkcs12</storetype>
+              <file>${java.io.tmpdir}/issuer.crt</file>
+              <skipIfExist>true</skipIfExist>
+              <noprompt>true</noprompt>
+              <alias>issuer</alias>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

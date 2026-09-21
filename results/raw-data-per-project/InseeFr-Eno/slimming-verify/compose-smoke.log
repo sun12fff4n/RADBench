@@ -1,0 +1,30 @@
+ Network eno_default Creating 
+ Network eno_default Created 
+ Container eno-ws Creating 
+ Container eno-ws Created 
+ Container eno-ws Starting 
+ Container eno-ws Started 
+ Container eno-ws Waiting 
+ Container eno-ws Healthy 
+
+[0;34m== Root + Swagger + OpenAPI ==[0m
+[0;32mPASS[0m GET  /  → 302 (redirect to swagger-ui.html)              [2m[302][0m
+[0;32mPASS[0m GET  /swagger-ui/index.html                                [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /v3/api-docs (OpenAPI spec)                           [2m[200, all fields ✓][0m
+
+[0;34m== Parameters API (Java DTOs — 3 contexts × LUNATIC × CAPI) ==[0m
+[0;32mPASS[0m GET  /parameters/java/DEFAULT/LUNATIC/CAPI                 [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /parameters/java/BUSINESS/LUNATIC/CAWI                [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /parameters/java/HOUSEHOLD/LUNATIC/CAPI               [2m[200, all fields ✓][0m
+
+[0;34m== Real DDI → Lunatic conversion (the project's core business) ==[0m
+[0;32mPASS[0m POST /questionnaire/DEFAULT/lunatic-json/CAPI (DDI → Lunatic) [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /questionnaire/BUSINESS/lunatic-json/CAPI (different ctx) [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /questionnaire/ddi-2-lunatic-json (custom params)     [2m[200, all fields ✓][0m
+
+[0;34m== Pogues → Lunatic conversion (direct path, bypasses legacy WS) ==[0m
+[0;32mPASS[0m POST /questionnaire/pogues-2-lunatic/DEFAULT/CAPI          [2m[200, all fields ✓][0m
+[0;32mPASS[0m POST /questionnaire/pogues-2-lunatic (custom params)       [2m[200, all fields ✓][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 11/11 checks passed.[0m

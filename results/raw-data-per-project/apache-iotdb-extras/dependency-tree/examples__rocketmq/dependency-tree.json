@@ -1,0 +1,1113 @@
+{
+  "groupId": "org.apache.iotdb",
+  "artifactId": "rocketmq-example",
+  "version": "2.0.4-SNAPSHOT",
+  "type": "jar",
+  "scope": "",
+  "classifier": "",
+  "optional": "false",
+  "children": [
+    {
+      "groupId": "org.apache.iotdb",
+      "artifactId": "iotdb-session",
+      "version": "2.0.5",
+      "type": "jar",
+      "scope": "compile",
+      "classifier": "",
+      "optional": "false",
+      "children": [
+        {
+          "groupId": "org.apache.iotdb",
+          "artifactId": "service-rpc",
+          "version": "2.0.5",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false",
+          "children": [
+            {
+              "groupId": "org.apache.iotdb",
+              "artifactId": "pipe-api",
+              "version": "2.0.5",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            },
+            {
+              "groupId": "org.xerial.snappy",
+              "artifactId": "snappy-java",
+              "version": "1.1.10.5",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            }
+            ]
+        },
+        {
+          "groupId": "org.apache.iotdb",
+          "artifactId": "isession",
+          "version": "2.0.5",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.apache.iotdb",
+          "artifactId": "iotdb-thrift-commons",
+          "version": "2.0.5",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.apache.tsfile",
+          "artifactId": "common",
+          "version": "2.1.1",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.apache.tsfile",
+          "artifactId": "tsfile",
+          "version": "2.1.1",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false",
+          "children": [
+            {
+              "groupId": "com.github.luben",
+              "artifactId": "zstd-jni",
+              "version": "1.5.5-5",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            },
+            {
+              "groupId": "commons-io",
+              "artifactId": "commons-io",
+              "version": "2.14.0",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            },
+            {
+              "groupId": "org.lz4",
+              "artifactId": "lz4-java",
+              "version": "1.8.0",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            },
+            {
+              "groupId": "org.tukaani",
+              "artifactId": "xz",
+              "version": "1.10",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            },
+            {
+              "groupId": "org.antlr",
+              "artifactId": "antlr4-runtime",
+              "version": "4.9.3",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            }
+            ]
+        },
+        {
+          "groupId": "org.apache.iotdb",
+          "artifactId": "iotdb-thrift",
+          "version": "2.0.5",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "2.0.9",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.apache.thrift",
+          "artifactId": "libthrift",
+          "version": "0.14.1",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false",
+          "children": [
+            {
+              "groupId": "org.apache.httpcomponents",
+              "artifactId": "httpclient",
+              "version": "4.5.14",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false",
+              "children": [
+                {
+                  "groupId": "commons-logging",
+                  "artifactId": "commons-logging",
+                  "version": "1.2",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                },
+                {
+                  "groupId": "commons-codec",
+                  "artifactId": "commons-codec",
+                  "version": "1.16.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                }
+                ]
+            },
+            {
+              "groupId": "org.apache.httpcomponents",
+              "artifactId": "httpcore",
+              "version": "4.4.12",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            }
+            ]
+        }
+        ]
+    },
+    {
+      "groupId": "org.apache.rocketmq",
+      "artifactId": "rocketmq-client",
+      "version": "5.3.3",
+      "type": "jar",
+      "scope": "compile",
+      "classifier": "",
+      "optional": "false",
+      "children": [
+        {
+          "groupId": "org.apache.rocketmq",
+          "artifactId": "rocketmq-remoting",
+          "version": "5.3.3",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false",
+          "children": [
+            {
+              "groupId": "org.apache.rocketmq",
+              "artifactId": "rocketmq-common",
+              "version": "5.3.3",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false",
+              "children": [
+                {
+                  "groupId": "com.alibaba.fastjson2",
+                  "artifactId": "fastjson2",
+                  "version": "2.0.43",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-all",
+                  "version": "4.1.114.Final",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-buffer",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-dns",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-haproxy",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-http",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-http2",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-memcache",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-mqtt",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-redis",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-smtp",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-socks",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-stomp",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-codec-xml",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-common",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-handler",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-native-unix-common",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-handler-proxy",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-handler-ssl-ocsp",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-resolver",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-resolver-dns",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-rxtx",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-sctp",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-udt",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-classes-epoll",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-classes-kqueue",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-resolver-dns-classes-macos",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-native-epoll",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "linux-x86_64",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-native-epoll",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "linux-aarch_64",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-native-epoll",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "linux-riscv64",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-native-kqueue",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "osx-x86_64",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-transport-native-kqueue",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "osx-aarch_64",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-resolver-dns-native-macos",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "osx-x86_64",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.netty",
+                      "artifactId": "netty-resolver-dns-native-macos",
+                      "version": "4.1.114.Final",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "osx-aarch_64",
+                      "optional": "false"
+                    }
+                    ]
+                },
+                {
+                  "groupId": "commons-validator",
+                  "artifactId": "commons-validator",
+                  "version": "1.7",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "commons-beanutils",
+                      "artifactId": "commons-beanutils",
+                      "version": "1.9.4",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "commons-digester",
+                      "artifactId": "commons-digester",
+                      "version": "2.1",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "commons-collections",
+                      "artifactId": "commons-collections",
+                      "version": "3.2.2",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    }
+                    ]
+                },
+                {
+                  "groupId": "com.google.guava",
+                  "artifactId": "guava",
+                  "version": "32.1.2-jre",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "com.google.guava",
+                      "artifactId": "failureaccess",
+                      "version": "1.0.1",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "com.google.guava",
+                      "artifactId": "listenablefuture",
+                      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "com.google.code.findbugs",
+                      "artifactId": "jsr305",
+                      "version": "3.0.2",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "org.checkerframework",
+                      "artifactId": "checker-qual",
+                      "version": "3.33.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "com.google.j2objc",
+                      "artifactId": "j2objc-annotations",
+                      "version": "2.8",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    }
+                    ]
+                },
+                {
+                  "groupId": "io.opentelemetry",
+                  "artifactId": "opentelemetry-exporter-otlp",
+                  "version": "1.29.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "io.opentelemetry",
+                      "artifactId": "opentelemetry-sdk-trace",
+                      "version": "1.29.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "io.opentelemetry",
+                          "artifactId": "opentelemetry-semconv",
+                          "version": "1.29.0-alpha",
+                          "type": "jar",
+                          "scope": "runtime",
+                          "classifier": "",
+                          "optional": "false"
+                        }
+                        ]
+                    },
+                    {
+                      "groupId": "io.opentelemetry",
+                      "artifactId": "opentelemetry-sdk-metrics",
+                      "version": "1.29.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "io.opentelemetry",
+                          "artifactId": "opentelemetry-extension-incubator",
+                          "version": "1.29.0-alpha",
+                          "type": "jar",
+                          "scope": "runtime",
+                          "classifier": "",
+                          "optional": "false"
+                        }
+                        ]
+                    },
+                    {
+                      "groupId": "io.opentelemetry",
+                      "artifactId": "opentelemetry-sdk-logs",
+                      "version": "1.29.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "io.opentelemetry",
+                          "artifactId": "opentelemetry-api-events",
+                          "version": "1.29.0-alpha",
+                          "type": "jar",
+                          "scope": "runtime",
+                          "classifier": "",
+                          "optional": "false"
+                        }
+                        ]
+                    },
+                    {
+                      "groupId": "io.opentelemetry",
+                      "artifactId": "opentelemetry-exporter-otlp-common",
+                      "version": "1.29.0",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "io.opentelemetry",
+                          "artifactId": "opentelemetry-exporter-common",
+                          "version": "1.29.0",
+                          "type": "jar",
+                          "scope": "runtime",
+                          "classifier": "",
+                          "optional": "false"
+                        }
+                        ]
+                    },
+                    {
+                      "groupId": "io.opentelemetry",
+                      "artifactId": "opentelemetry-exporter-sender-okhttp",
+                      "version": "1.29.0",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "com.squareup.okhttp3",
+                          "artifactId": "okhttp",
+                          "version": "4.11.0",
+                          "type": "jar",
+                          "scope": "runtime",
+                          "classifier": "",
+                          "optional": "false",
+                          "children": [
+                            {
+                              "groupId": "com.squareup.okio",
+                              "artifactId": "okio",
+                              "version": "3.2.0",
+                              "type": "jar",
+                              "scope": "runtime",
+                              "classifier": "",
+                              "optional": "false"
+                            },
+                            {
+                              "groupId": "org.jetbrains.kotlin",
+                              "artifactId": "kotlin-stdlib",
+                              "version": "1.6.20",
+                              "type": "jar",
+                              "scope": "runtime",
+                              "classifier": "",
+                              "optional": "false",
+                              "children": [
+                                {
+                                  "groupId": "org.jetbrains.kotlin",
+                                  "artifactId": "kotlin-stdlib-common",
+                                  "version": "1.6.20",
+                                  "type": "jar",
+                                  "scope": "runtime",
+                                  "classifier": "",
+                                  "optional": "false"
+                                },
+                                {
+                                  "groupId": "org.jetbrains",
+                                  "artifactId": "annotations",
+                                  "version": "13.0",
+                                  "type": "jar",
+                                  "scope": "runtime",
+                                  "classifier": "",
+                                  "optional": "false"
+                                }
+                                ]
+                            },
+                            {
+                              "groupId": "org.jetbrains.kotlin",
+                              "artifactId": "kotlin-stdlib-jdk8",
+                              "version": "1.6.20",
+                              "type": "jar",
+                              "scope": "runtime",
+                              "classifier": "",
+                              "optional": "false",
+                              "children": [
+                                {
+                                  "groupId": "org.jetbrains.kotlin",
+                                  "artifactId": "kotlin-stdlib-jdk7",
+                                  "version": "1.6.20",
+                                  "type": "jar",
+                                  "scope": "runtime",
+                                  "classifier": "",
+                                  "optional": "false"
+                                }
+                                ]
+                            }
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                      "groupId": "io.opentelemetry",
+                      "artifactId": "opentelemetry-sdk-extension-autoconfigure-spi",
+                      "version": "1.29.0",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "",
+                      "optional": "false"
+                    }
+                    ]
+                },
+                {
+                  "groupId": "io.opentelemetry",
+                  "artifactId": "opentelemetry-exporter-prometheus",
+                  "version": "1.29.0-alpha",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                },
+                {
+                  "groupId": "io.opentelemetry",
+                  "artifactId": "opentelemetry-exporter-logging",
+                  "version": "1.29.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                },
+                {
+                  "groupId": "io.opentelemetry",
+                  "artifactId": "opentelemetry-sdk",
+                  "version": "1.29.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "io.opentelemetry",
+                      "artifactId": "opentelemetry-api",
+                      "version": "1.29.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "io.opentelemetry",
+                          "artifactId": "opentelemetry-context",
+                          "version": "1.29.0",
+                          "type": "jar",
+                          "scope": "compile",
+                          "classifier": "",
+                          "optional": "false"
+                        }
+                        ]
+                    },
+                    {
+                      "groupId": "io.opentelemetry",
+                      "artifactId": "opentelemetry-sdk-common",
+                      "version": "1.29.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    }
+                    ]
+                },
+                {
+                  "groupId": "io.opentelemetry",
+                  "artifactId": "opentelemetry-exporter-logging-otlp",
+                  "version": "1.29.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "com.fasterxml.jackson.core",
+                      "artifactId": "jackson-core",
+                      "version": "2.15.2",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "",
+                      "optional": "false"
+                    }
+                    ]
+                },
+                {
+                  "groupId": "io.grpc",
+                  "artifactId": "grpc-stub",
+                  "version": "1.53.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "io.grpc",
+                      "artifactId": "grpc-api",
+                      "version": "1.53.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "io.grpc",
+                          "artifactId": "grpc-context",
+                          "version": "1.53.0",
+                          "type": "jar",
+                          "scope": "compile",
+                          "classifier": "",
+                          "optional": "false"
+                        }
+                        ]
+                    },
+                    {
+                      "groupId": "com.google.errorprone",
+                      "artifactId": "error_prone_annotations",
+                      "version": "2.14.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false"
+                    }
+                    ]
+                },
+                {
+                  "groupId": "io.grpc",
+                  "artifactId": "grpc-netty-shaded",
+                  "version": "1.53.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false",
+                  "children": [
+                    {
+                      "groupId": "io.perfmark",
+                      "artifactId": "perfmark-api",
+                      "version": "0.25.0",
+                      "type": "jar",
+                      "scope": "runtime",
+                      "classifier": "",
+                      "optional": "false"
+                    },
+                    {
+                      "groupId": "io.grpc",
+                      "artifactId": "grpc-core",
+                      "version": "1.53.0",
+                      "type": "jar",
+                      "scope": "compile",
+                      "classifier": "",
+                      "optional": "false",
+                      "children": [
+                        {
+                          "groupId": "com.google.code.gson",
+                          "artifactId": "gson",
+                          "version": "2.10.1",
+                          "type": "jar",
+                          "scope": "runtime",
+                          "classifier": "",
+                          "optional": "false"
+                        },
+                        {
+                          "groupId": "com.google.android",
+                          "artifactId": "annotations",
+                          "version": "4.1.1.4",
+                          "type": "jar",
+                          "scope": "runtime",
+                          "classifier": "",
+                          "optional": "false"
+                        },
+                        {
+                          "groupId": "org.codehaus.mojo",
+                          "artifactId": "animal-sniffer-annotations",
+                          "version": "1.21",
+                          "type": "jar",
+                          "scope": "runtime",
+                          "classifier": "",
+                          "optional": "false"
+                        }
+                        ]
+                    }
+                    ]
+                },
+                {
+                  "groupId": "com.squareup.okio",
+                  "artifactId": "okio-jvm",
+                  "version": "3.4.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                },
+                {
+                  "groupId": "org.apache.tomcat",
+                  "artifactId": "annotations-api",
+                  "version": "6.0.53",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                },
+                {
+                  "groupId": "org.apache.rocketmq",
+                  "artifactId": "rocketmq-rocksdb",
+                  "version": "1.0.2",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                }
+                ]
+            },
+            {
+              "groupId": "org.reflections",
+              "artifactId": "reflections",
+              "version": "0.9.11",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false",
+              "children": [
+                {
+                  "groupId": "org.javassist",
+                  "artifactId": "javassist",
+                  "version": "3.21.0-GA",
+                  "type": "jar",
+                  "scope": "compile",
+                  "classifier": "",
+                  "optional": "false"
+                }
+                ]
+            }
+            ]
+        },
+        {
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-lang3",
+          "version": "3.13.0",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "io.github.aliyunmq",
+          "artifactId": "rocketmq-slf4j-api",
+          "version": "1.0.1",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "io.github.aliyunmq",
+          "artifactId": "rocketmq-logback-classic",
+          "version": "1.0.1",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.yaml",
+          "artifactId": "snakeyaml",
+          "version": "2.0",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false"
+        },
+        {
+          "groupId": "org.awaitility",
+          "artifactId": "awaitility",
+          "version": "4.1.0",
+          "type": "jar",
+          "scope": "compile",
+          "classifier": "",
+          "optional": "false",
+          "children": [
+            {
+              "groupId": "org.hamcrest",
+              "artifactId": "hamcrest",
+              "version": "2.1",
+              "type": "jar",
+              "scope": "compile",
+              "classifier": "",
+              "optional": "false"
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}

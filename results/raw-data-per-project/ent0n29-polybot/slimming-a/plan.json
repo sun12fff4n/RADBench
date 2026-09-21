@@ -1,0 +1,83 @@
+{
+  "project_id": "ent0n29-polybot",
+  "module_type": "multi",
+  "modules": [
+    {
+      "modpath": "analytics-service",
+      "status": "ok",
+      "base": "original",
+      "red": 0,
+      "gray": 19,
+      "targets": 19,
+      "direct_deleted": 0,
+      "transitive_excluded": 19,
+      "exclusion_parents": 5,
+      "pom": "ent0n29-polybot/slimming-a/analytics-service/pom.xml"
+    },
+    {
+      "modpath": "executor-service",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 2,
+      "gray": 29,
+      "targets": 29,
+      "direct_deleted": 0,
+      "transitive_excluded": 29,
+      "exclusion_parents": 5,
+      "pom": "ent0n29-polybot/slimming-a/executor-service/pom.xml"
+    },
+    {
+      "modpath": "infrastructure-orchestrator-service",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 3,
+      "gray": 28,
+      "targets": 28,
+      "direct_deleted": 0,
+      "transitive_excluded": 28,
+      "exclusion_parents": 3,
+      "pom": "ent0n29-polybot/slimming-a/infrastructure-orchestrator-service/pom.xml"
+    },
+    {
+      "modpath": "ingestor-service",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 67,
+      "gray": 15,
+      "targets": 15,
+      "direct_deleted": 0,
+      "transitive_excluded": 10,
+      "exclusion_parents": 3,
+      "pom": "ent0n29-polybot/slimming-a/ingestor-service/pom.xml"
+    },
+    {
+      "modpath": "polybot-core",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 3,
+      "gray": 20,
+      "targets": 20,
+      "direct_deleted": 2,
+      "transitive_excluded": 17,
+      "exclusion_parents": 5,
+      "pom": "ent0n29-polybot/slimming-a/polybot-core/pom.xml"
+    },
+    {
+      "modpath": "strategy-service",
+      "status": "ok",
+      "base": "pom-result",
+      "red": 3,
+      "gray": 26,
+      "targets": 26,
+      "direct_deleted": 0,
+      "transitive_excluded": 26,
+      "exclusion_parents": 3,
+      "pom": "ent0n29-polybot/slimming-a/strategy-service/pom.xml"
+    }
+  ],
+  "status": "ok",
+  "modules_ok": 6,
+  "modules_total": 6,
+  "total_direct_deleted": 2,
+  "total_transitive_excluded": 129
+}

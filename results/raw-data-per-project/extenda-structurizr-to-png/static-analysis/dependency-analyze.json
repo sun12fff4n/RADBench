@@ -1,0 +1,65 @@
+{
+  "count": 11,
+  "g_static": [
+    "ch.qos.logback:logback-classic:1.5.18",
+    "com.structurizr:structurizr-client:4.1.0",
+    "com.structurizr:structurizr-core:4.1.0",
+    "com.structurizr:structurizr-dsl:4.1.0",
+    "com.structurizr:structurizr-export:4.1.0",
+    "commons-cli:commons-cli:1.10.0",
+    "io.vertx:vertx-bridge-common:5.0.4",
+    "io.vertx:vertx-core:5.0.4",
+    "io.vertx:vertx-web:5.0.4",
+    "net.sourceforge.plantuml:plantuml:1.2025.7",
+    "org.slf4j:slf4j-api:2.0.17"
+  ],
+  "keep_scopes": [
+    "compile",
+    "runtime"
+  ],
+  "per_module": {
+    "root": {
+      "g_static": [
+        "ch.qos.logback:logback-classic:1.5.18",
+        "com.structurizr:structurizr-client:4.1.0",
+        "com.structurizr:structurizr-core:4.1.0",
+        "com.structurizr:structurizr-dsl:4.1.0",
+        "com.structurizr:structurizr-export:4.1.0",
+        "commons-cli:commons-cli:1.10.0",
+        "io.vertx:vertx-bridge-common:5.0.4",
+        "io.vertx:vertx-core:5.0.4",
+        "io.vertx:vertx-web:5.0.4",
+        "net.sourceforge.plantuml:plantuml:1.2025.7",
+        "org.slf4j:slf4j-api:2.0.17"
+      ],
+      "ignoredTestScope": [
+        "io.vertx:vertx-junit5:5.0.4",
+        "io.vertx:vertx-tcp-eventbus-bridge:5.0.4",
+        "org.assertj:assertj-core:3.27.6",
+        "org.junit.jupiter:junit-jupiter-api:5.13.4",
+        "org.junit.jupiter:junit-jupiter-engine:5.13.4",
+        "org.mockito:mockito-core:5.20.0"
+      ],
+      "ignoredUnusedDeclared": [
+        "org.fusesource.jansi:jansi:2.4.2",
+        "org.slf4j:jcl-over-slf4j:2.0.17"
+      ],
+      "usedDeclared": [
+        "ch.qos.logback:logback-classic:1.5.18",
+        "com.structurizr:structurizr-client:4.1.0",
+        "com.structurizr:structurizr-dsl:4.1.0",
+        "com.structurizr:structurizr-export:4.1.0",
+        "commons-cli:commons-cli:1.10.0",
+        "io.vertx:vertx-core:5.0.4",
+        "io.vertx:vertx-web:5.0.4",
+        "net.sourceforge.plantuml:plantuml:1.2025.7",
+        "org.slf4j:slf4j-api:2.0.17"
+      ],
+      "usedUndeclared": [
+        "com.structurizr:structurizr-core:4.1.0",
+        "io.vertx:vertx-bridge-common:5.0.4"
+      ]
+    }
+  },
+  "project_id": "extenda-structurizr-to-png"
+}

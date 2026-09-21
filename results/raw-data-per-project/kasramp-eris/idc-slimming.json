@@ -1,0 +1,82 @@
+{
+  "project_id": "kasramp-eris",
+  "tool": "slimming",
+  "status": "ok",
+  "module_type": "single",
+  "orig_total_dep_entries": 174,
+  "post_total_dep_entries": 168,
+  "idc_count": 6,
+  "removed_count": 6,
+  "added_count": 0,
+  "idc": [
+    {
+      "module": ".",
+      "ga": "org.apache.maven.resolver:maven-resolver-named-locks",
+      "original_version": "1.9.16",
+      "new_version": "1.9.22"
+    },
+    {
+      "module": ".",
+      "ga": "org.apache.maven.resolver:maven-resolver-spi",
+      "original_version": "1.9.16",
+      "new_version": "1.9.22"
+    },
+    {
+      "module": ".",
+      "ga": "org.apache.maven.resolver:maven-resolver-impl",
+      "original_version": "1.9.16",
+      "new_version": "1.9.22"
+    },
+    {
+      "module": ".",
+      "ga": "org.apache.maven.resolver:maven-resolver-connector-basic",
+      "original_version": "1.9.16",
+      "new_version": "1.9.22"
+    },
+    {
+      "module": ".",
+      "ga": "org.eclipse.jgit:org.eclipse.jgit",
+      "original_version": "6.6.1.202309021850-r",
+      "new_version": "6.7.0.202309050840-r"
+    },
+    {
+      "module": ".",
+      "ga": "org.apache.maven.resolver:maven-resolver-transport-http",
+      "original_version": "1.9.16",
+      "new_version": "1.9.22"
+    }
+  ],
+  "removed": [
+    {
+      "module": ".",
+      "ga": "com.google.errorprone:error_prone_annotations",
+      "version": "2.21.1"
+    },
+    {
+      "module": ".",
+      "ga": "org.jspecify:jspecify",
+      "version": "1.0.0"
+    },
+    {
+      "module": ".",
+      "ga": "io.github.resilience4j:resilience4j-annotations",
+      "version": "2.1.0"
+    },
+    {
+      "module": ".",
+      "ga": "jakarta.transaction:jakarta.transaction-api",
+      "version": "2.0.1"
+    },
+    {
+      "module": ".",
+      "ga": "org.checkerframework:checker-qual",
+      "version": "3.37.0"
+    },
+    {
+      "module": ".",
+      "ga": "com.google.j2objc:j2objc-annotations",
+      "version": "3.0.0"
+    }
+  ],
+  "added": []
+}

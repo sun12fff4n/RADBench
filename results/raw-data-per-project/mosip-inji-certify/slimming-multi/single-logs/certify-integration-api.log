@@ -1,0 +1,120 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.mosip.certify:certify-core:jar:0.13.1
+[WARNING] 'version' contains an expression but should be a constant. @ io.mosip.certify:certify-core:${project.parent.version}, /private/tmp/analysis-runs/mosip-inji-certify/certify-core/pom.xml, line 19, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules
+[INFO] Installing Central Publishing features
+[INFO] 
+[INFO] --------------< io.mosip.certify:certify-integration-api >--------------
+[INFO] Building certify-integration-api 0.13.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ certify-integration-api ---
+[INFO] mvn test successfully
+[INFO] The project has no target/test-classes folder
+[Fatal Error] catalog.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] RmiInvocationWrapperRTD.xml:2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[INFO] ------------------------------------------------------------------------
+[INFO] ---------------------------< START ANALYSE >----------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] *************************** S L I M M I N G ****************************
+[INFO] ------------------------------------------------------------------------
+[INFO] Successfully collect licenses Successfully!
+[WARNING] conflictLicense: Eclipse Public License - v 1.0	dependency: ch.qos.logback:logback-classic:1.4.14
+[WARNING] conflictLicense: Eclipse Public License - v 1.0	dependency: ch.qos.logback:logback-core:1.4.14
+[WARNING] conflictLicense: EPL 2.0	dependency: jakarta.servlet:jakarta.servlet-api:6.0.0
+[WARNING] conflictLicense: EPL 2.0	dependency: jakarta.annotation:jakarta.annotation-api:2.1.1
+[WARNING] Redundant dependency org.glassfish:jakarta.json:2.0.0 release time Optional[2020-08-04] has not been maintained for 2098 days
+[WARNING] Redundant dependency com.nimbusds:nimbus-jose-jwt:9.24.4 release time Optional[2022-09-09] has not been maintained for 1332 days
+[WARNING] Redundant dependency jakarta.annotation:jakarta.annotation-api:2.1.1 release time Optional[2022-06-14] has not been maintained for 1419 days
+[WARNING] Redundant dependency org.bitbucket.b_c:jose4j:0.6.5 release time Optional[2019-01-17] has not been maintained for 2662 days
+[WARNING] Redundant dependency jakarta.validation:jakarta.validation-api:3.0.2 release time Optional[2022-05-26] has not been maintained for 1438 days
+[WARNING] Redundant dependency io.setl:rdf-urdna:1.1 release time Optional[2021-04-03] has not been maintained for 1856 days
+[WARNING] Redundant dependency jakarta.servlet:jakarta.servlet-api:6.0.0 release time Optional[2022-05-12] has not been maintained for 1452 days
+[WARNING] Redundant dependency com.github.stephenc.jcip:jcip-annotations:1.0-1 release time Optional[2013-02-13] has not been maintained for 4826 days
+[WARNING] Redundant dependency com.apicatalog:titanium-json-ld:1.1.0 release time Optional[2021-06-10] has not been maintained for 1788 days
+[INFO] ALL DEPENDENCY[57]:
+[INFO]  USED DEPENDENCY[13]:
+[INFO]   USED SELF DIRECT DEPENDENCY[0]:
+[INFO]   USED TRANSITIVE DEPENDENCY[0]:
+[INFO]   USED INHERIT DIRECT DEPENDENCY[4]:
+[INFO] 		org.projectlombok:lombok:1.18.30:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-starter-oauth2-resource-server:3.2.3:compile [4 KB]
+[INFO] 		org.junit.vintage:junit-vintage-engine:5.10.2:test [65 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-validation:3.2.3:compile [4 KB]
+[INFO]   USED INHERIT TRANSITIVE DEPENDENCY[9]:
+[INFO] 		junit:junit:4.13.2:test [375 KB]
+[INFO] 		org.apiguardian:apiguardian-api:1.1.2:test [6 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter:3.2.3:compile [4 KB]
+[INFO] 		org.junit.platform:junit-platform-commons:1.10.2:test [103 KB]
+[INFO] 		org.junit.platform:junit-platform-engine:1.10.2:test [200 KB]
+[INFO] 		org.opentest4j:opentest4j:1.3.0:test [13 KB]
+[INFO] 		org.springframework.boot:spring-boot-starter-logging:3.2.3:compile [4 KB]
+[INFO] 		org.hamcrest:hamcrest-core:2.2:test [1 KB]
+[INFO] 		org.hamcrest:hamcrest:2.2:test [120 KB]
+[INFO]  UNUSED DEPENDENCY[44]:
+[INFO]   UNUSED DIRECT DEPENDENCY[1]:
+[INFO] 		decentralized-identity:jsonld-common-java:0.5.0:compile [27 KB]
+[INFO]   UNUSED TRANSITIVE DEPENDENCY[7]:
+[INFO] 		io.setl:rdf-urdna:1.1:compile [19 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-databind:2.15.4:compile [1 MB]
+[INFO] 		org.glassfish:jakarta.json:2.0.0:compile [139 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-annotations:2.15.4:compile [73 KB]
+[INFO] 		commons-codec:commons-codec:1.16.1:compile [356 KB]
+[INFO] 		com.fasterxml.jackson.core:jackson-core:2.15.4:compile [535 KB]
+[INFO] 		com.apicatalog:titanium-json-ld:1.1.0:compile [275 KB]
+[INFO]   UNUSED INHERIT DIRECT DEPENDENCY[3]:
+[INFO] 		org.json:json:20241224:compile [78 KB]
+[INFO] 		jakarta.servlet:jakarta.servlet-api:6.0.0:compile [339 KB]
+[INFO] 		org.bitbucket.b_c:jose4j:0.6.5:compile [254 KB]
+[INFO]   UNUSED INHERIT TRANSITIVE DEPENDENCY[33]:
+[INFO] 		org.springframework.security:spring-security-core:6.2.2:compile [500 KB]
+[INFO] 		org.springframework.security:spring-security-config:6.2.2:compile [1 MB]
+[INFO] 		jakarta.validation:jakarta.validation-api:3.0.2:compile [91 KB]
+[INFO] 		org.springframework:spring-context:6.1.4:compile [1 MB]
+[INFO] 		org.springframework:spring-web:6.1.4:compile [1 MB]
+[INFO] 		org.springframework:spring-beans:6.1.4:compile [837 KB]
+[INFO] 		jakarta.annotation:jakarta.annotation-api:2.1.1:compile [25 KB]
+[INFO] 		org.yaml:snakeyaml:2.2:compile [326 KB]
+[INFO] 		ch.qos.logback:logback-classic:1.4.14:compile [276 KB]
+[INFO] 		io.micrometer:micrometer-commons:1.12.3:compile [46 KB]
+[INFO] 		org.springframework:spring-jcl:6.1.4:compile [23 KB]
+[INFO] 		org.springframework:spring-core:6.1.4:compile [1 MB]
+[INFO] 		org.springframework:spring-aop:6.1.4:compile [405 KB]
+[INFO] 		org.apache.logging.log4j:log4j-to-slf4j:2.21.1:compile [22 KB]
+[INFO] 		org.slf4j:jul-to-slf4j:2.0.12:compile [6 KB]
+[INFO] 		org.springframework.security:spring-security-web:6.2.2:compile [762 KB]
+[INFO] 		com.nimbusds:nimbus-jose-jwt:9.24.4:compile [665 KB]
+[INFO] 		ch.qos.logback:logback-core:1.4.14:compile [583 KB]
+[INFO] 		com.fasterxml:classmate:1.6.0:compile [67 KB]
+[INFO] 		org.springframework.security:spring-security-oauth2-jose:6.2.2:compile [94 KB]
+[INFO] 		org.slf4j:slf4j-api:2.0.12:compile [66 KB]
+[INFO] 		com.github.stephenc.jcip:jcip-annotations:1.0-1:compile [4 KB]
+[INFO] 		org.springframework.security:spring-security-oauth2-core:6.2.2:compile [102 KB]
+[INFO] 		org.apache.logging.log4j:log4j-api:2.21.1:compile [310 KB]
+[INFO] 		org.hibernate.validator:hibernate-validator:8.0.1.Final:compile [1 MB]
+[INFO] 		org.springframework.security:spring-security-oauth2-resource-server:6.2.2:compile [96 KB]
+[INFO] 		org.springframework.boot:spring-boot:3.2.3:compile [1 MB]
+[INFO] 		org.springframework.boot:spring-boot-autoconfigure:3.2.3:compile [1 MB]
+[INFO] 		org.apache.tomcat.embed:tomcat-embed-el:10.1.19:compile [254 KB]
+[INFO] 		org.jboss.logging:jboss-logging:3.5.3.Final:compile [57 KB]
+[INFO] 		org.springframework.security:spring-security-crypto:6.2.2:compile [82 KB]
+[INFO] 		org.springframework:spring-expression:6.1.4:compile [295 KB]
+[INFO] 		io.micrometer:micrometer-observation:1.12.3:compile [70 KB]
+[INFO] mvn test successfully
+[INFO] Repair Successfully
+[INFO] After Repair Pom Path:/private/tmp/analysis-runs/mosip-inji-certify/certify-integration-api/bloatedOutput/iomosipcertifycertifyintegrationapi0131/iomosipcertifycertifyintegrationapi0131/pom-result.xml
+[INFO] MeasureText: org.graphper.layout.AWTMeasureText was loaded as the primary measurement method.
+[INFO] Print TreeCallGraph.svg, red is bloated, gray is unload
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34.503 s
+[INFO] Finished at: 2026-05-03T10:39:19+02:00
+[INFO] ------------------------------------------------------------------------

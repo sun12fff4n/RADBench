@@ -1,0 +1,26 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----< io.github.bmarwell.shiro:shiro.jwt.jaxrs.integration-test >------
+[INFO] Building Apache Shiro + mpJWT :: integration test 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- slimming:1.0:singleModuleCheck (default-cli) @ shiro.jwt.jaxrs.integration-test ---
+[INFO] mvn test successfully
+[INFO] The project has no target folder
+[INFO] The project has no target/test-classes folder
+[WARNING] Third-party library /Users/yifan/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.finish/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.finish-1.0.0-SNAPSHOT.war not found /META-INF/versions/
+[WARNING] Third-party library /Users/yifan/.m2/repository/io/github/bmarwell/shiro/shiro.jwt.jaxrs.issuer/1.0.0-SNAPSHOT/shiro.jwt.jaxrs.issuer-1.0.0-SNAPSHOT.war not found /META-INF/versions/
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.447 s
+[INFO] Finished at: 2026-05-25T09:15:47+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal neu.lab:slimming:1.0:singleModuleCheck (default-cli) on project shiro.jwt.jaxrs.integration-test: Execution default-cli of goal neu.lab:slimming:1.0:singleModuleCheck failed: Cannot invoke "sootup.core.inputlocation.AnalysisInputLocation.getClassSources(sootup.core.views.View)" because "location" is null -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException

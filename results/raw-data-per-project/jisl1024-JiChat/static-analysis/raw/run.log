@@ -1,0 +1,30 @@
+== reactor install (skip tests + heavyweight lifecycle plugins) ==
+  leaf module dirs: 14
+
+==== ./jichat-dependencies (-> jichat-dependencies) ====
+
+==== ./jichat-framework/jichat-common (-> jichat-framework__jichat-common) ====
+
+==== ./jichat-framework/jichat-mybatis-gen (-> jichat-framework__jichat-mybatis-gen) ====
+
+==== ./jichat-framework/jichat-spring-boot-starter-excel (-> jichat-framework__jichat-spring-boot-starter-excel) ====
+
+==== ./jichat-framework/jichat-spring-boot-starter-mybatis (-> jichat-framework__jichat-spring-boot-starter-mybatis) ====
+
+==== ./jichat-framework/jichat-spring-boot-starter-security (-> jichat-framework__jichat-spring-boot-starter-security) ====
+
+==== ./jichat-framework/jichat-spring-boot-starter-swagger (-> jichat-framework__jichat-spring-boot-starter-swagger) ====
+
+==== ./jichat-framework/jichat-spring-boot-starter-web (-> jichat-framework__jichat-spring-boot-starter-web) ====
+
+==== ./jichat-gateway (-> jichat-gateway) ====
+
+==== ./jichat-modules/chat-client (-> jichat-modules__chat-client) ====
+
+==== ./jichat-modules/chat-service/chat-service-api (-> jichat-modules__chat-service__chat-service-api) ====
+
+==== ./jichat-modules/chat-service/chat-service-app (-> jichat-modules__chat-service__chat-service-app) ====
+
+==== ./jichat-modules/user-service/user-service-api (-> jichat-modules__user-service__user-service-api) ====
+
+==== ./jichat-modules/user-service/user-service-app (-> jichat-modules__user-service__user-service-app) ====

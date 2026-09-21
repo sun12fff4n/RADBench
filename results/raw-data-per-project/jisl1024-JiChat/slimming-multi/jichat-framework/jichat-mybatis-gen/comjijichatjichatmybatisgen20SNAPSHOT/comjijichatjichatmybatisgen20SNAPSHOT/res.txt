@@ -1,0 +1,82 @@
+Project info>>>>/private/tmp/analysis-runs/jisl1024-JiChat/jichat-framework/jichat-mybatis-gen
+Project Name>>>>com.ji.jichat:jichat-mybatis-gen:2.0-SNAPSHOT
+OriginalSize>>>>20175KB
+BloatedSize>>>>19978KB
+All Dependencies>>>>46
+Used Dependencies>>>>9
+Used Self Direct Dependency>>>>1
+Used Self Indirect Dependency>>>>8
+Used Inherit Direct Dependency>>>>0
+Used Inherit indirect Dependency>>>>0
+Unused Dependencies>>>>37
+Unused Self Direct Dependency>>>>5
+Unused Self Indirect Dependency>>>>32
+Unused Inherit Direct Dependency>>>>0
+Unused Inherit Indirect Dependency>>>>0
+checkBloated>>>>38
+realBloated>>>>37
+unDeleteSelfDirectDependencies>>>>1
+unDeleteSelfIndirectDependencies>>>>0
+unDeleteUnusedInheritDirectDependencies>>>>0
+unDeleteUnusedInheritIndirectDependencies>>>>0
+unDeleteSelfDirectDependency>>>>com.ji.jichat:jichat-spring-boot-starter-mybatis:2.0-SNAPSHOT
+====================Analyze Time(unit:ms)=========================
+configSootTime>>>>8991
+buildClassExtendGraphTime>>>>110
+buildCallGraphTime>>>>42867
+levelTime>>>>14
+stringTime>>>>4
+licenseCheckTime>>>>4562
+bugCheckTime>>>>80
+maintenanceTimeCheckTime>>>>5894
+checkTime>>>>63284
+repairTime>>>>11302
+mvnTestTime>>>>3836
+====================BloatedType=========================
+java Reflect>>>>0
+outdated>>>>3
+vulnerable>>>>0
+licenseConflict>>>>3
+dependencyConflict>>>>8
+====================Java Reflect=========================
+SpringAPI>>>>14
+TomcatAPI>>>>0
+.class>>>>7595
+forName>>>>58
+loadClass>>>>37
+getClass>>>>572
+reflectEdges>>>>8096
+unReflectEdges>>>>26
+springReflectAPI>>>><org.springframework.cglib.core.internal.CustomizerRegistry: java.util.List get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContexts: java.util.Collection get(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cglib.core.KeyFactory$Generator: java.util.List getCustomizers(java.lang.Class)>
+springReflectAPI>>>><org.springframework.cache.interceptor.CacheAspectSupport: java.lang.Object getBean(java.lang.String,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.lang.Object instantiateClass(java.lang.Class,java.lang.Class)>
+springReflectAPI>>>><org.springframework.beans.BeanUtils: java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.Class,java.lang.String)>
+springReflectAPI>>>><org.springframework.beans.factory.support.AbstractBeanFactory: java.lang.Object doGetBean(java.lang.String,java.lang.Class,java.lang.Object[],boolean)>
+unSolvedReflect>>>><com.github.pagehelper.util.ClassUtil: java.lang.Object newInstance(java.lang.String,java.util.Properties)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: java.lang.Object createInstance(java.lang.String,java.lang.Class,java.lang.Object[])>
+unSolvedReflect>>>><com.github.pagehelper.cache.CacheFactory: com.github.pagehelper.cache.Cache createCache(java.lang.String,java.lang.String,java.util.Properties)>
+unSolvedReflect>>>><com.github.pagehelper.util.ClassUtil: java.lang.Object newInstance(java.lang.String,java.lang.Class,java.util.Properties,java.util.function.Supplier)>
+unSolvedReflect>>>><freemarker.ext.beans.DefaultMemberAccessPolicy: void <init>()>
+unSolvedReflect>>>><freemarker.ext.beans.MemberSelectorListMemberAccessPolicy$MemberSelector: freemarker.ext.beans.MemberSelectorListMemberAccessPolicy$MemberSelector parse(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadThreadContextMap()>
+unSolvedReflect>>>><org.apache.logging.log4j.spi.Provider: java.lang.Class loadLoggerContextFactory()>
+unSolvedReflect>>>><ch.qos.logback.core.util.EnvUtil: boolean isClassAvailable(java.lang.Class,java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.DriverDataSource: void <init>(java.lang.String,java.lang.String,java.util.Properties,java.lang.String,java.lang.String)>
+unSolvedReflect>>>><org.mybatis.spring.config.MapperScannerBeanDefinitionParser: org.springframework.beans.factory.support.AbstractBeanDefinition parseInternal(org.w3c.dom.Element,org.springframework.beans.factory.xml.ParserContext)>
+unSolvedReflect>>>><freemarker.ext.beans.MemberSelectorListMemberAccessPolicy$MemberSelector: freemarker.ext.beans.MemberSelectorListMemberAccessPolicy$MemberSelector parse(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><com.github.pagehelper.page.PageAutoDialect: void initAutoDialectClass(java.util.Properties)>
+unSolvedReflect>>>><ch.qos.logback.classic.util.ContextInitializer: ch.qos.logback.classic.spi.Configurator instantiateConfiguratorByClassName(java.lang.String,java.lang.ClassLoader)>
+unSolvedReflect>>>><org.mybatis.spring.config.MapperScannerBeanDefinitionParser: org.springframework.beans.factory.support.AbstractBeanDefinition parseInternal(org.w3c.dom.Element,org.springframework.beans.factory.xml.ParserContext)>
+unSolvedReflect>>>><ch.qos.logback.core.util.OptionHelper: java.lang.Object instantiateByClassNameAndParameter(java.lang.String,java.lang.Class,java.lang.ClassLoader,java.lang.Class,java.lang.Object)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: java.lang.Class attemptFromContextLoader(java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setDriverClassName(java.lang.String)>
+unSolvedReflect>>>><org.apache.ibatis.io.ResolverUtil: void addIfMatching(org.apache.ibatis.io.ResolverUtil$Test,java.lang.String)>
+unSolvedReflect>>>><org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider loadExplicitlySpecified(java.lang.ClassLoader)>
+unSolvedReflect>>>><org.mybatis.spring.config.MapperScannerBeanDefinitionParser: org.springframework.beans.factory.support.AbstractBeanDefinition parseInternal(org.w3c.dom.Element,org.springframework.beans.factory.xml.ParserContext)>
+unSolvedReflect>>>><com.zaxxer.hikari.util.UtilityElf: boolean safeIsAssignableFrom(java.lang.Object,java.lang.String)>
+unSolvedReflect>>>><com.baomidou.mybatisplus.generator.util.ClassUtils: java.lang.Class toClassConfident(java.lang.String)>
+unSolvedReflect>>>><com.zaxxer.hikari.HikariConfig: void setExceptionOverrideClassName(java.lang.String)>
+unSolvedReflect>>>><org.springframework.beans.BeanUtils: java.beans.PropertyEditor findEditorByConvention(java.lang.Class)>
+unSolvedReflect>>>><com.github.pagehelper.page.PageAutoDialect: void initDialectAlias(java.util.Properties)>

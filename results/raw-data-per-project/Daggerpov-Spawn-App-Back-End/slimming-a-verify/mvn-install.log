@@ -1,0 +1,175 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.danielagapov:spawn >-----------------------
+[INFO] Building spawn 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spawn ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] Copying 37 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ spawn ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 266 source files with javac [debug parameters release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/AdminUserInitializer.java:[11,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/AdminUserInitializer.java:[35,13] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class com.danielagapov.spawn.Config.AdminUserInitializer
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/FCMInitializer.java:[4,30] package com.google.auth.oauth2 does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/JWTFilterConfig.java:[13,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/JWTFilterConfig.java:[14,49] package org.springframework.security.core.context does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/JWTFilterConfig.java:[15,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/JWTFilterConfig.java:[16,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/JWT/IJWTService.java:[4,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/JWT/IJWTService.java:[24,40] cannot find symbol
+  symbol:   class UserDetails
+  location: interface com.danielagapov.spawn.Services.JWT.IJWTService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/S3Config.java:[7,47] package software.amazon.awssdk.auth.credentials does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/S3Config.java:[8,47] package software.amazon.awssdk.auth.credentials does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/S3Config.java:[9,38] package software.amazon.awssdk.regions does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[8,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[15,50] package org.springframework.security.crypto.bcrypt does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[16,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[124,12] cannot find symbol
+  symbol:   class AuthenticationManager
+  location: class com.danielagapov.spawn.Config.SecurityConfig
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[138,5] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class com.danielagapov.spawn.Config.SecurityConfig
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Controllers/AuthController.java:[27,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[4,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[5,51] package org.springframework.security.core.authority does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[6,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[16,34] cannot find symbol
+  symbol: class UserDetails
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[28,33] cannot find symbol
+  symbol:   class GrantedAuthority
+  location: class com.danielagapov.spawn.Models.User.UserInfo
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[28,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[30,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[31,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[32,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[48,19] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class com.danielagapov.spawn.Services.Auth.AuthService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[49,19] cannot find symbol
+  symbol:   class AuthenticationManager
+  location: class com.danielagapov.spawn.Services.Auth.AuthService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[43,1] cannot find symbol
+  symbol:   class PasswordEncoder
+  location: class com.danielagapov.spawn.Services.Auth.AuthService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/JWT/JWTService.java:[17,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/JWT/JWTService.java:[67,47] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.danielagapov.spawn.Services.JWT.JWTService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/OAuth/GoogleOAuthStrategy.java:[11,42] package com.google.api.client.http.javanet does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/S3/S3Service.java:[12,40] package software.amazon.awssdk.core.sync does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[6,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[7,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[8,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[16,41] cannot find symbol
+  symbol: class UserDetailsService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[27,12] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.danielagapov.spawn.Services.UserDetails.UserInfoService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[27,67] cannot find symbol
+  symbol:   class UsernameNotFoundException
+  location: class com.danielagapov.spawn.Services.UserDetails.UserInfoService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[37,12] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.danielagapov.spawn.Services.UserDetails.UserInfoService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[37,61] cannot find symbol
+  symbol:   class UsernameNotFoundException
+  location: class com.danielagapov.spawn.Services.UserDetails.UserInfoService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Util/EmailTemplates.java:[4,36] package software.amazon.awssdk.utils does not exist
+[INFO] 43 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.615 s
+[INFO] Finished at: 2026-09-11T19:31:22Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project spawn: Compilation failure: Compilation failure: 
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/AdminUserInitializer.java:[11,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/AdminUserInitializer.java:[35,13] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class com.danielagapov.spawn.Config.AdminUserInitializer
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/FCMInitializer.java:[4,30] package com.google.auth.oauth2 does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/JWTFilterConfig.java:[13,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/JWTFilterConfig.java:[14,49] package org.springframework.security.core.context does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/JWTFilterConfig.java:[15,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/JWTFilterConfig.java:[16,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/JWT/IJWTService.java:[4,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/JWT/IJWTService.java:[24,40] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: interface com.danielagapov.spawn.Services.JWT.IJWTService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/S3Config.java:[7,47] package software.amazon.awssdk.auth.credentials does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/S3Config.java:[8,47] package software.amazon.awssdk.auth.credentials does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/S3Config.java:[9,38] package software.amazon.awssdk.regions does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[8,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[15,50] package org.springframework.security.crypto.bcrypt does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[16,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[124,12] cannot find symbol
+[ERROR]   symbol:   class AuthenticationManager
+[ERROR]   location: class com.danielagapov.spawn.Config.SecurityConfig
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Config/SecurityConfig.java:[138,5] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class com.danielagapov.spawn.Config.SecurityConfig
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Controllers/AuthController.java:[27,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[4,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[5,51] package org.springframework.security.core.authority does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[6,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[16,34] cannot find symbol
+[ERROR]   symbol: class UserDetails
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Models/User/UserInfo.java:[28,33] cannot find symbol
+[ERROR]   symbol:   class GrantedAuthority
+[ERROR]   location: class com.danielagapov.spawn.Models.User.UserInfo
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[28,51] package org.springframework.security.authentication does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[30,41] package org.springframework.security.core does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[31,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[32,52] package org.springframework.security.crypto.password does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[48,19] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class com.danielagapov.spawn.Services.Auth.AuthService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[49,19] cannot find symbol
+[ERROR]   symbol:   class AuthenticationManager
+[ERROR]   location: class com.danielagapov.spawn.Services.Auth.AuthService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/Auth/AuthService.java:[43,1] cannot find symbol
+[ERROR]   symbol:   class PasswordEncoder
+[ERROR]   location: class com.danielagapov.spawn.Services.Auth.AuthService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/JWT/JWTService.java:[17,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/JWT/JWTService.java:[67,47] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.danielagapov.spawn.Services.JWT.JWTService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/OAuth/GoogleOAuthStrategy.java:[11,42] package com.google.api.client.http.javanet does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/S3/S3Service.java:[12,40] package software.amazon.awssdk.core.sync does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[6,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[7,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[8,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[16,41] cannot find symbol
+[ERROR]   symbol: class UserDetailsService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[27,12] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.danielagapov.spawn.Services.UserDetails.UserInfoService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[27,67] cannot find symbol
+[ERROR]   symbol:   class UsernameNotFoundException
+[ERROR]   location: class com.danielagapov.spawn.Services.UserDetails.UserInfoService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[37,12] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.danielagapov.spawn.Services.UserDetails.UserInfoService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Services/UserDetails/UserInfoService.java:[37,61] cannot find symbol
+[ERROR]   symbol:   class UsernameNotFoundException
+[ERROR]   location: class com.danielagapov.spawn.Services.UserDetails.UserInfoService
+[ERROR] /project/src/main/java/com/danielagapov/spawn/Util/EmailTemplates.java:[4,36] package software.amazon.awssdk.utils does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,38 @@
+ Network javainterviews_default Creating 
+ Network javainterviews_default Created 
+ Volume javainterviews_m2-nonspring-combined-caravanacloud-javainterviews Creating 
+ Volume javainterviews_m2-nonspring-combined-caravanacloud-javainterviews Created 
+ Container javainterviews-app Creating 
+ Container javainterviews-app Created 
+ Container javainterviews-app Starting 
+ Container javainterviews-app Started 
+ Container javainterviews-app Waiting 
+ Container javainterviews-app Healthy 
+
+[0;34m== Hello endpoint — HelloResource (JAX-RS, ReverseInplace algo) ==[0m
+[0;32mPASS[0m GET  /hello (default name)                                   [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /hello?name=world (custom name)                         [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /hello (JSON content-type)                              [2m[200, header ✓][0m
+
+[0;34m== PairSum random — PairSumResource (algorithm + JSON) ==[0m
+[0;32mPASS[0m GET  /pairsum/random (default n=10)                          [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /pairsum/random?n=5 (custom n)                          [2m[200, all fields ✓][0m
+[0;32mPASS[0m GET  /pairsum/random (JSON content-type)                     [2m[200, header ✓][0m
+
+[0;34m== Mutant endpoint — MutantResource ==[0m
+[0;32mPASS[0m GET  /mutant/random                                          [2m[200, body ✓][0m
+
+[0;34m== Static resources — META-INF/resources ==[0m
+[0;32mPASS[0m GET  / (static index.html)                                   [2m[200][0m
+
+[0;34m== Error paths — 404 for unknown endpoints ==[0m
+[0;32mPASS[0m GET  /nonexistent (→ 404)                                  [2m[404][0m
+[0;32mPASS[0m GET  /api/v1/nothing (→ 404)                               [2m[404][0m
+
+[0;34m== Concurrent requests — Vert.x event loop (Quarkus) ==[0m
+[0;32mPASS[0m 5x parallel GET /hello                                       [2m[all 200][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 11/11 checks passed.[0m
+ Container javainterviews-app Stopping 
+ Container javainterviews-app Stopped 

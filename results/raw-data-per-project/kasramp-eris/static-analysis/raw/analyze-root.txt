@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.madadipouya.eris:eris >----------------------
+[INFO] Building Eris 0.2.84-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.6.1:analyze (default-cli) > test-compile @ eris >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eris ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 4 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ eris ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eris ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ eris ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< dependency:3.6.1:analyze (default-cli) < test-compile @ eris <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.6.1:analyze (default-cli) @ eris ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    org.springframework:spring-context-support:jar:6.1.5:compile
+[WARNING]    io.github.resilience4j:resilience4j-circuitbreaker:jar:2.1.0:compile
+[WARNING]    org.springframework.boot:spring-boot:jar:3.2.4:compile
+[WARNING]    org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile
+[WARNING]    org.springframework:spring-beans:jar:6.1.5:compile
+[WARNING]    io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.21:compile
+[WARNING]    jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+[WARNING]    org.springframework.cloud:spring-cloud-commons:jar:4.1.2:compile
+[WARNING]    io.swagger.core.v3:swagger-models-jakarta:jar:2.2.21:compile
+[WARNING]    org.junit.jupiter:junit-jupiter-api:jar:5.10.2:test
+[WARNING]    com.segment.analytics.java:analytics-core:jar:3.5.1:compile
+[WARNING]    com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile
+[WARNING]    org.springframework.security:spring-security-web:jar:6.2.3:compile
+[WARNING]    org.slf4j:slf4j-api:jar:2.0.12:compile
+[WARNING]    org.springframework:spring-webmvc:jar:6.1.5:compile
+[WARNING]    org.springframework:spring-context:jar:6.1.5:compile
+[WARNING]    io.github.resilience4j:resilience4j-annotations:jar:2.1.0:compile
+[WARNING]    org.springframework:spring-test:jar:6.1.5:test
+[WARNING]    org.springframework.cloud:spring-cloud-circuitbreaker-resilience4j:jar:3.1.1:compile
+[WARNING]    org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile
+[WARNING]    com.github.tomakehurst:wiremock-jre8-standalone:jar:2.35.1:test
+[WARNING]    org.hamcrest:hamcrest:jar:2.2:test
+[WARNING]    org.springframework:spring-web:jar:6.1.5:compile
+[WARNING]    org.springframework.security:spring-security-config:jar:6.2.3:compile
+[WARNING]    org.springframework.security:spring-security-crypto:jar:6.2.3:compile
+[WARNING]    org.aspectj:aspectjweaver:jar:1.9.21:compile
+[WARNING]    org.springframework.boot:spring-boot-test:jar:3.2.4:test
+[WARNING]    org.springframework:spring-core:jar:6.1.5:compile
+[WARNING]    io.github.resilience4j:resilience4j-timelimiter:jar:2.1.0:compile
+[WARNING] Unused declared dependencies found:
+[WARNING]    org.owasp:dependency-check-maven:maven-plugin:12.1.5:compile
+[WARNING]    com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-aop:jar:3.2.4:compile
+[WARNING]    org.springdoc:springdoc-openapi-starter-webmvc-ui:jar:2.5.0:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile
+[WARNING]    org.springframework.cloud:spring-cloud-starter-consul-discovery:jar:4.1.1:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-security:jar:3.2.4:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-cache:jar:3.2.4:compile
+[WARNING]    org.springframework.boot:spring-boot-starter-actuator:jar:3.2.4:compile
+[WARNING]    org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j:jar:3.1.1:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.731 s
+[INFO] Finished at: 2026-06-16T07:28:35Z
+[INFO] ------------------------------------------------------------------------

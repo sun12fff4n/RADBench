@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.swisspush:cluster-watchdog >-------------------
+[INFO] Building cluster-watchdog 3.1.7-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> dependency:3.7.0:analyze (default-cli) > test-compile @ cluster-watchdog >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-maven) @ cluster-watchdog ---
+[INFO] 
+[INFO] --- jacoco:0.8.9:prepare-agent (pre-unit-test) @ cluster-watchdog ---
+[INFO] surefireArgLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.9/org.jacoco.agent-0.8.9-runtime.jar=destfile=/project/target/coverage-reports/jacoco-ut.exec
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ cluster-watchdog ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ cluster-watchdog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ cluster-watchdog ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ cluster-watchdog ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /project/target/test-classes
+[INFO] 
+[INFO] <<< dependency:3.7.0:analyze (default-cli) < test-compile @ cluster-watchdog <<<
+[INFO] 
+[INFO] 
+[INFO] --- dependency:3.7.0:analyze (default-cli) @ cluster-watchdog ---
+[WARNING] Used undeclared dependencies found:
+[WARNING]    com.hazelcast:hazelcast:jar:5.3.5:compile
+[WARNING] Unused declared dependencies found:
+[WARNING]    commons-io:commons-io:jar:2.15.1:compile
+[WARNING]    org.slf4j:slf4j-simple:jar:2.0.10:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.634 s
+[INFO] Finished at: 2026-06-16T09:13:56Z
+[INFO] ------------------------------------------------------------------------

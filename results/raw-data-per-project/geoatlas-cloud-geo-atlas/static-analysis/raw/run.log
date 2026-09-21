@@ -1,0 +1,22 @@
+== reactor install (skip tests + heavyweight lifecycle plugins) ==
+  leaf module dirs: 10
+
+==== ./app/geoatlas-tile-instance (-> app__geoatlas-tile-instance) ====
+
+==== ./boot/geoatlas-tile-boot-stater (-> boot__geoatlas-tile-boot-stater) ====
+
+==== ./component/metadata (-> component__metadata) ====
+
+==== ./component/ogc-api (-> component__ogc-api) ====
+
+==== ./component/tile-cache (-> component__tile-cache) ====
+
+==== ./library/base (-> library__base) ====
+
+==== ./library/common (-> library__common) ====
+
+==== ./library/io (-> library__io) ====
+
+==== ./library/mse/pyramid (-> library__mse__pyramid) ====
+
+==== ./library/tile (-> library__tile) ====

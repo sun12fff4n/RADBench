@@ -1,0 +1,2363 @@
+{
+  "project_id": "Daggerpov-Spawn-App-Back-End",
+  "depclean_total": 259,
+  "nia_total_classes": 1768,
+  "nia_mapped_classes": 1218,
+  "nia_proxy_recovered": 45,
+  "buckets": {
+    "used+hit": 61,
+    "used+nohit": 145,
+    "bloated+hit": 5,
+    "bloated+nohit": 48
+  },
+  "metrics": {
+    "tp": 48,
+    "fp": 5,
+    "tn": 61,
+    "fn": 145,
+    "precision": 0.9057,
+    "recall": 0.2487,
+    "f1": 0.3902
+  },
+  "details": {
+    "used+hit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-autoconfigure:3.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 103,
+        "static_all_classes": 1397,
+        "static_ratio": 0.074,
+        "nia_class_hits": 259
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot:3.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 274,
+        "static_all_classes": 988,
+        "static_ratio": 0.277,
+        "nia_class_hits": 117
+      },
+      {
+        "gav": "org.hibernate.orm:hibernate-core:6.5.3.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6361,
+        "static_all_classes": 6822,
+        "static_ratio": 0.932,
+        "nia_class_hits": 115
+      },
+      {
+        "gav": "org.springframework:spring-context:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 488,
+        "static_all_classes": 842,
+        "static_ratio": 0.58,
+        "nia_class_hits": 85
+      },
+      {
+        "gav": "org.springframework:spring-web:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 405,
+        "static_all_classes": 1124,
+        "static_ratio": 0.36,
+        "nia_class_hits": 56
+      },
+      {
+        "gav": "org.springframework.data:spring-data-commons:3.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 586,
+        "static_all_classes": 917,
+        "static_ratio": 0.639,
+        "nia_class_hits": 56
+      },
+      {
+        "gav": "org.springframework:spring-webmvc:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 147,
+        "static_all_classes": 526,
+        "static_ratio": 0.279,
+        "nia_class_hits": 51
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy:1.14.19",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2486,
+        "static_all_classes": 2885,
+        "static_ratio": 0.862,
+        "nia_class_hits": 47
+      },
+      {
+        "gav": "org.springframework.security:spring-security-config:6.3.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 179,
+        "static_all_classes": 611,
+        "static_ratio": 0.293,
+        "nia_class_hits": 38
+      },
+      {
+        "gav": "org.springframework:spring-core:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 780,
+        "static_all_classes": 1142,
+        "static_ratio": 0.683,
+        "nia_class_hits": 30
+      },
+      {
+        "gav": "org.springframework.security:spring-security-web:6.3.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 302,
+        "static_all_classes": 520,
+        "static_ratio": 0.581,
+        "nia_class_hits": 30
+      },
+      {
+        "gav": "org.springframework:spring-tx:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 94,
+        "static_all_classes": 207,
+        "static_ratio": 0.454,
+        "nia_class_hits": 28
+      },
+      {
+        "gav": "org.springframework.security:spring-security-core:6.3.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 244,
+        "static_all_classes": 388,
+        "static_ratio": 0.629,
+        "nia_class_hits": 25
+      },
+      {
+        "gav": "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 196,
+        "static_all_classes": 207,
+        "static_ratio": 0.947,
+        "nia_class_hits": 24
+      },
+      {
+        "gav": "org.springframework:spring-beans:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 326,
+        "static_all_classes": 443,
+        "static_ratio": 0.736,
+        "nia_class_hits": 23
+      },
+      {
+        "gav": "org.springframework.data:spring-data-jpa:3.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 677,
+        "static_all_classes": 734,
+        "static_ratio": 0.922,
+        "nia_class_hits": 21
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-core:10.1.31",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1144,
+        "static_all_classes": 1493,
+        "static_ratio": 0.766,
+        "nia_class_hits": 20
+      },
+      {
+        "gav": "org.springframework:spring-aop:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 195,
+        "static_all_classes": 288,
+        "static_ratio": 0.677,
+        "nia_class_hits": 20
+      },
+      {
+        "gav": "io.jsonwebtoken:jjwt-impl:0.12.6",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 325,
+        "static_all_classes": 339,
+        "static_ratio": 0.959,
+        "nia_class_hits": 16
+      },
+      {
+        "gav": "ch.qos.logback:logback-classic:1.5.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 23,
+        "static_all_classes": 189,
+        "static_ratio": 0.122,
+        "nia_class_hits": 14
+      },
+      {
+        "gav": "org.springframework:spring-orm:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 27,
+        "static_all_classes": 109,
+        "static_ratio": 0.248,
+        "nia_class_hits": 13
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-databind:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 744,
+        "static_all_classes": 785,
+        "static_ratio": 0.948,
+        "nia_class_hits": 10
+      },
+      {
+        "gav": "org.springframework:spring-jdbc:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 89,
+        "static_all_classes": 301,
+        "static_ratio": 0.296,
+        "nia_class_hits": 10
+      },
+      {
+        "gav": "com.zaxxer:HikariCP:5.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 65,
+        "static_all_classes": 76,
+        "static_ratio": 0.855,
+        "nia_class_hits": 7
+      },
+      {
+        "gav": "com.mysql:mysql-connector-j:8.3.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 581,
+        "static_all_classes": 1068,
+        "static_ratio": 0.544,
+        "nia_class_hits": 7
+      },
+      {
+        "gav": "ch.qos.logback:logback-core:1.5.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 62,
+        "static_all_classes": 476,
+        "static_ratio": 0.13,
+        "nia_class_hits": 6
+      },
+      {
+        "gav": "io.jsonwebtoken:jjwt-api:0.12.6",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 187,
+        "static_all_classes": 196,
+        "static_ratio": 0.954,
+        "nia_class_hits": 6
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-annotations:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 73,
+        "static_all_classes": 74,
+        "static_ratio": 0.986,
+        "nia_class_hits": 5
+      },
+      {
+        "gav": "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 18,
+        "static_ratio": 0.722,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "com.fasterxml.jackson.core:jackson-core:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 190,
+        "static_all_classes": 218,
+        "static_ratio": 0.872,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "jakarta.inject:jakarta.inject-api:2.0.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 5,
+        "static_all_classes": 7,
+        "static_ratio": 0.714,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "org.springframework:spring-context-support:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 56,
+        "static_all_classes": 104,
+        "static_ratio": 0.538,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "javax.annotation:javax.annotation-api:1.3.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 15,
+        "static_ratio": 0.4,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.31",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 177,
+        "static_ratio": 0.006,
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "jakarta.transaction:jakarta.transaction-api:2.0.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 14,
+        "static_all_classes": 20,
+        "static_ratio": 0.7,
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "org.apache.commons:commons-text:1.12.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 161,
+        "static_ratio": 0.025,
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "io.projectreactor:reactor-core:3.6.11",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 908,
+        "static_all_classes": 945,
+        "static_ratio": 0.961,
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "org.springframework.data:spring-data-redis:3.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 906,
+        "static_all_classes": 1230,
+        "static_ratio": 0.737,
+        "nia_class_hits": 3
+      },
+      {
+        "gav": "org.slf4j:slf4j-api:2.0.16",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 50,
+        "static_all_classes": 56,
+        "static_ratio": 0.893,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "com.h2database:h2:2.2.224",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 999,
+        "static_all_classes": 1052,
+        "static_ratio": 0.95,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "org.springframework.security:spring-security-crypto:6.3.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 31,
+        "static_all_classes": 52,
+        "static_ratio": 0.596,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "org.eclipse.angus:jakarta.mail:2.0.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 311,
+        "static_all_classes": 356,
+        "static_ratio": 0.874,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "com.google.code.findbugs:jsr305:3.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 14,
+        "static_all_classes": 35,
+        "static_ratio": 0.4,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "com.google.code.gson:gson:2.10.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 211,
+        "static_all_classes": 218,
+        "static_ratio": 0.968,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-to-slf4j:2.23.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 10,
+        "static_ratio": 0.8,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.apache.logging.log4j:log4j-api:2.23.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 148,
+        "static_all_classes": 209,
+        "static_ratio": 0.708,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 22,
+        "static_all_classes": 23,
+        "static_ratio": 0.957,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 58,
+        "static_all_classes": 63,
+        "static_ratio": 0.921,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 5,
+        "static_ratio": 0.8,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 92,
+        "static_all_classes": 115,
+        "static_ratio": 0.8,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "jakarta.activation:jakarta.activation-api:2.1.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 46,
+        "static_all_classes": 46,
+        "static_ratio": 1.0,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.aspectj:aspectjweaver:1.9.22.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 846,
+        "static_all_classes": 1002,
+        "static_ratio": 0.844,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.jboss.logging:jboss-logging:3.5.3.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 29,
+        "static_all_classes": 35,
+        "static_ratio": 0.829,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.springframework:spring-aspects:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 33,
+        "static_ratio": 0.242,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.postgresql:postgresql:42.7.4",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 396,
+        "static_all_classes": 472,
+        "static_ratio": 0.839,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "org.reactivestreams:reactive-streams:1.0.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 13,
+        "static_ratio": 1.0,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "io.netty:netty-common:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 395,
+        "static_all_classes": 516,
+        "static_ratio": 0.766,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "io.netty:netty-buffer:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 128,
+        "static_all_classes": 154,
+        "static_ratio": 0.831,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.google.guava:guava:33.3.0-jre",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1197,
+        "static_all_classes": 2017,
+        "static_ratio": 0.593,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.17.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 60,
+        "static_all_classes": 64,
+        "static_ratio": 0.938,
+        "nia_class_hits": 1
+      },
+      {
+        "gav": "com.fasterxml.woodstox:woodstox-core:6.7.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 944,
+        "static_ratio": 0.001,
+        "nia_class_hits": 1
+      }
+    ],
+    "used+nohit": [
+      {
+        "gav": "org.apache.tomcat.embed:tomcat-embed-el:10.1.31",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 156,
+        "static_ratio": 0.006,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.micrometer:micrometer-observation:1.13.6",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 41,
+        "static_all_classes": 56,
+        "static_ratio": 0.732,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.micrometer:micrometer-commons:1.13.6",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 22,
+        "static_all_classes": 36,
+        "static_ratio": 0.611,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework:spring-expression:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 143,
+        "static_all_classes": 149,
+        "static_ratio": 0.96,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.github.cdimascio:dotenv-java:3.0.2",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 11,
+        "static_all_classes": 13,
+        "static_ratio": 0.846,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-test:3.3.5",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test:3.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework:spring-test:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-test-autoconfigure:3.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.jayway.jsonpath:json-path:2.9.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.minidev:json-smart:2.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.minidev:accessors-smart:2.5.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.ow2.asm:asm:9.6",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.assertj:assertj-core:3.25.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.awaitility:awaitility:4.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hamcrest:hamcrest:2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter:5.10.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-api:5.10.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.opentest4j:opentest4j:1.3.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-commons:1.10.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apiguardian:apiguardian-api:1.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-params:5.10.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.jupiter:junit-jupiter-engine:5.10.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.junit.platform:junit-platform-engine:1.10.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.mockito:mockito-core:5.11.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "net.bytebuddy:byte-buddy-agent:1.14.19",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.objenesis:objenesis:3.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.mockito:mockito-junit-jupiter:5.11.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.skyscreamer:jsonassert:1.5.3",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework:spring-jcl:6.1.14",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 14,
+        "static_all_classes": 15,
+        "static_ratio": 0.933,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.xmlunit:xmlunit-core:2.9.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.hibernate.common:hibernate-commons-annotations:6.0.6.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 59,
+        "static_all_classes": 59,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.smallrye:jandex:3.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 123,
+        "static_all_classes": 164,
+        "static_ratio": 0.75,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml:classmate:1.7.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 40,
+        "static_all_classes": 44,
+        "static_ratio": 0.909,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 485,
+        "static_all_classes": 559,
+        "static_ratio": 0.868,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:jaxb-core:4.0.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 100,
+        "static_all_classes": 107,
+        "static_ratio": 0.935,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.eclipse.angus:angus-activation:2.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 11,
+        "static_ratio": 0.091,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.glassfish.jaxb:txw2:4.0.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 50,
+        "static_all_classes": 57,
+        "static_ratio": 0.877,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.sun.istack:istack-commons-runtime:4.1.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 9,
+        "static_all_classes": 23,
+        "static_ratio": 0.391,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.antlr:antlr4-runtime:4.13.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 190,
+        "static_all_classes": 215,
+        "static_ratio": 0.884,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.checkerframework:checker-qual:3.42.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 42,
+        "static_all_classes": 369,
+        "static_ratio": 0.114,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.projectlombok:lombok:1.18.32",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 10,
+        "static_all_classes": 178,
+        "static_ratio": 0.056,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:s3:2.25.27",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 1882,
+        "static_all_classes": 2076,
+        "static_ratio": 0.907,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:aws-xml-protocol:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 63,
+        "static_all_classes": 63,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:aws-query-protocol:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 11,
+        "static_all_classes": 44,
+        "static_ratio": 0.25,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:protocol-core:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 27,
+        "static_all_classes": 27,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:aws-core:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 93,
+        "static_all_classes": 113,
+        "static_ratio": 0.823,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:sdk-core:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 591,
+        "static_all_classes": 628,
+        "static_ratio": 0.941,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:annotations:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 10,
+        "static_all_classes": 13,
+        "static_ratio": 0.769,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:http-client-spi:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 64,
+        "static_all_classes": 70,
+        "static_ratio": 0.914,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:utils:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 141,
+        "static_all_classes": 145,
+        "static_ratio": 0.972,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:arns:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 8,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:profiles:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 25,
+        "static_all_classes": 27,
+        "static_ratio": 0.926,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:crt-core:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 7,
+        "static_all_classes": 7,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:http-auth:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 10,
+        "static_all_classes": 10,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:http-auth-spi:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 39,
+        "static_all_classes": 39,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:identity-spi:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 25,
+        "static_all_classes": 25,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:http-auth-aws:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 103,
+        "static_all_classes": 104,
+        "static_ratio": 0.99,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:checksums-spi:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 1,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:checksums:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 2,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:metrics-spi:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 16,
+        "static_ratio": 0.812,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:endpoints-spi:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 6,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:auth:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 118,
+        "static_all_classes": 150,
+        "static_ratio": 0.787,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:regions:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 421,
+        "static_all_classes": 422,
+        "static_ratio": 0.998,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:json-utils:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 17,
+        "static_ratio": 0.706,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.eventstream:eventstream:1.0.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 18,
+        "static_all_classes": 19,
+        "static_ratio": 0.947,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:third-party-jackson-core:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 155,
+        "static_all_classes": 185,
+        "static_ratio": 0.838,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:apache-client:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 40,
+        "static_all_classes": 41,
+        "static_ratio": 0.976,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpclient:4.5.13",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 300,
+        "static_all_classes": 470,
+        "static_ratio": 0.638,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents:httpcore:4.4.16",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 167,
+        "static_all_classes": 253,
+        "static_ratio": 0.66,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-codec:commons-codec:1.16.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 18,
+        "static_all_classes": 110,
+        "static_ratio": 0.164,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "software.amazon.awssdk:netty-nio-client:2.25.27",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 159,
+        "static_all_classes": 164,
+        "static_ratio": 0.97,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-http:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 87,
+        "static_all_classes": 391,
+        "static_ratio": 0.223,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec-http2:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 253,
+        "static_all_classes": 281,
+        "static_ratio": 0.9,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-transport:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 298,
+        "static_all_classes": 386,
+        "static_ratio": 0.772,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-codec:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 50,
+        "static_all_classes": 219,
+        "static_ratio": 0.228,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-handler:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 266,
+        "static_all_classes": 363,
+        "static_ratio": 0.733,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-transport-classes-epoll:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 62,
+        "static_all_classes": 67,
+        "static_ratio": 0.925,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-transport-native-unix-common:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 28,
+        "static_all_classes": 32,
+        "static_ratio": 0.875,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.netty:netty-resolver:4.1.114.Final",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 29,
+        "static_ratio": 0.414,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.notnoop.apns:apns:1.0.0.Beta6",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 41,
+        "static_all_classes": 42,
+        "static_ratio": 0.976,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-httpclient:commons-httpclient:3.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 119,
+        "static_all_classes": 167,
+        "static_ratio": 0.713,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-logging:commons-logging:1.0.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 18,
+        "static_ratio": 0.722,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.commons:commons-lang3:3.14.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 106,
+        "static_all_classes": 404,
+        "static_ratio": 0.262,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.lettuce:lettuce-core:6.3.2.RELEASE",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 914,
+        "static_all_classes": 1367,
+        "static_ratio": 0.669,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.data:spring-data-keyvalue:3.3.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 66,
+        "static_all_classes": 90,
+        "static_ratio": 0.733,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.commons:commons-pool2:2.12.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 68,
+        "static_all_classes": 84,
+        "static_ratio": 0.81,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.firebase:firebase-admin:9.4.1",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 145,
+        "static_all_classes": 816,
+        "static_ratio": 0.178,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.http-client:google-http-client:1.45.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 155,
+        "static_all_classes": 219,
+        "static_ratio": 0.708,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.errorprone:error_prone_annotations:2.30.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 17,
+        "static_all_classes": 28,
+        "static_ratio": 0.607,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.j2objc:j2objc-annotations:3.0.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 18,
+        "static_ratio": 0.222,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opencensus:opencensus-api:0.31.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 148,
+        "static_all_classes": 380,
+        "static_ratio": 0.389,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opencensus:opencensus-contrib-http-util:0.31.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 12,
+        "static_ratio": 0.25,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api:api-common:2.37.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 36,
+        "static_all_classes": 45,
+        "static_ratio": 0.8,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.auto.value:auto-value-annotations:1.11.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 3,
+        "static_all_classes": 9,
+        "static_ratio": 0.333,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.auth:google-auth-library-oauth2-http:1.27.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 122,
+        "static_all_classes": 161,
+        "static_ratio": 0.758,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.guava:failureaccess:1.0.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2,
+        "static_all_classes": 2,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.http-client:google-http-client-jackson2:1.45.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 5,
+        "static_all_classes": 6,
+        "static_ratio": 0.833,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud:google-cloud-core:2.44.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 19,
+        "static_all_classes": 108,
+        "static_ratio": 0.176,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api:gax-httpjson:2.54.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 115,
+        "static_all_classes": 124,
+        "static_ratio": 0.927,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud:google-cloud-core-grpc:2.44.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 13,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api:gax:2.54.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 308,
+        "static_all_classes": 351,
+        "static_ratio": 0.877,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api:gax-grpc:2.54.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 97,
+        "static_all_classes": 104,
+        "static_ratio": 0.933,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-alts:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 149,
+        "static_all_classes": 171,
+        "static_ratio": 0.871,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-grpclb:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 98,
+        "static_ratio": 0.01,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.conscrypt:conscrypt-openjdk-uber:2.5.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 176,
+        "static_all_classes": 316,
+        "static_ratio": 0.557,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-auth:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 5,
+        "static_all_classes": 7,
+        "static_ratio": 0.714,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.protobuf:protobuf-java:3.25.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 633,
+        "static_all_classes": 735,
+        "static_ratio": 0.861,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.protobuf:protobuf-java-util:3.25.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 42,
+        "static_all_classes": 44,
+        "static_ratio": 0.955,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-core:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 476,
+        "static_all_classes": 490,
+        "static_ratio": 0.971,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.android:annotations:4.1.1.4",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 2,
+        "static_ratio": 0.5,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.mojo:animal-sniffer-annotations:1.24",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 1,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.perfmark:perfmark-api:0.27.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 6,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-protobuf:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 5,
+        "static_ratio": 0.8,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-protobuf-lite:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 4,
+        "static_all_classes": 4,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api.grpc:proto-google-common-protos:2.45.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 123,
+        "static_all_classes": 929,
+        "static_ratio": 0.132,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.threeten:threetenbp:1.7.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 193,
+        "static_all_classes": 207,
+        "static_ratio": 0.932,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-api:1.37.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 117,
+        "static_all_classes": 148,
+        "static_ratio": 0.791,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-context:1.37.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 38,
+        "static_all_classes": 40,
+        "static_ratio": 0.95,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry.semconv:opentelemetry-semconv:1.25.0-alpha",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 51,
+        "static_all_classes": 79,
+        "static_ratio": 0.646,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-api:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 300,
+        "static_all_classes": 308,
+        "static_ratio": 0.974,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-netty-shaded:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1701,
+        "static_all_classes": 2772,
+        "static_ratio": 0.614,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-util:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 13,
+        "static_all_classes": 74,
+        "static_ratio": 0.176,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-stub:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 44,
+        "static_all_classes": 48,
+        "static_ratio": 0.917,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-xds:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 2405,
+        "static_all_classes": 3508,
+        "static_ratio": 0.686,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.re2j:re2j:1.7",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 47,
+        "static_all_classes": 47,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-rls:1.68.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 31,
+        "static_all_classes": 131,
+        "static_ratio": 0.237,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud:google-cloud-firestore:3.26.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 234,
+        "static_all_classes": 237,
+        "static_ratio": 0.987,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api.grpc:proto-google-cloud-firestore-v1:3.26.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 364,
+        "static_all_classes": 373,
+        "static_ratio": 0.976,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud:proto-google-cloud-firestore-bundle-v1:3.26.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 27,
+        "static_all_classes": 27,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry.instrumentation:opentelemetry-grpc-1.6:2.1.0-alpha",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 21,
+        "static_all_classes": 21,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:2.1.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 64,
+        "static_all_classes": 181,
+        "static_ratio": 0.354,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-extension-incubator:1.35.0-alpha",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 1,
+        "static_all_classes": 32,
+        "static_ratio": 0.031,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-incubator:2.1.0-alpha",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 11,
+        "static_all_classes": 73,
+        "static_ratio": 0.151,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents.client5:httpclient5:5.3.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 253,
+        "static_all_classes": 501,
+        "static_ratio": 0.505,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents.core5:httpcore5:5.2.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 320,
+        "static_all_classes": 634,
+        "static_ratio": 0.505,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.apache.httpcomponents.core5:httpcore5-h2:5.2.5",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 90,
+        "static_all_classes": 149,
+        "static_ratio": 0.604,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.codehaus.woodstox:stax2-api:4.2.2",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 72,
+        "static_all_classes": 125,
+        "static_ratio": 0.576,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.auth0:java-jwt:4.4.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 55,
+        "static_all_classes": 56,
+        "static_ratio": 0.982,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api-client:google-api-client:2.4.0",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 38,
+        "static_all_classes": 131,
+        "static_ratio": 0.29,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.oauth-client:google-oauth-client:1.35.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 11,
+        "static_all_classes": 58,
+        "static_ratio": 0.19,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.auth:google-auth-library-credentials:1.23.0",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 6,
+        "static_all_classes": 6,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.http-client:google-http-client-gson:1.44.1",
+        "type": "transitive",
+        "status": "used",
+        "static_used_classes": 8,
+        "static_all_classes": 9,
+        "static_ratio": 0.889,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.auth0:jwks-rsa:0.22.1",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 15,
+        "static_all_classes": 15,
+        "static_ratio": 1.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.17.2",
+        "type": "direct",
+        "status": "used",
+        "static_used_classes": 12,
+        "static_all_classes": 14,
+        "static_ratio": 0.857,
+        "nia_class_hits": 0
+      }
+    ],
+    "bloated+hit": [
+      {
+        "gav": "org.thymeleaf:thymeleaf:3.1.2.RELEASE",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 578,
+        "static_ratio": 0.0,
+        "nia_class_hits": 6
+      },
+      {
+        "gav": "org.thymeleaf:thymeleaf-spring6:3.1.2.RELEASE",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 101,
+        "static_ratio": 0.0,
+        "nia_class_hits": 4
+      },
+      {
+        "gav": "io.jsonwebtoken:jjwt-jackson:0.12.6",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 5,
+        "static_ratio": 0.0,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "org.springframework:spring-oxm:6.1.14",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 33,
+        "static_ratio": 0.0,
+        "nia_class_hits": 2
+      },
+      {
+        "gav": "org.slf4j:jul-to-slf4j:2.0.16",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 1
+      }
+    ],
+    "bloated+nohit": [
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-web:3.3.5",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter:3.3.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-logging:3.3.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.yaml:snakeyaml:2.2",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 232,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-json:3.3.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-tomcat:3.3.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-data-jpa:3.3.5",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-aop:3.3.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-jdbc:3.3.5",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-security:3.3.5",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-mail:3.3.5",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-thymeleaf:3.3.5",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.attoparser:attoparser:2.0.7.RELEASE",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 159,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.unbescape:unbescape:1.1.6.RELEASE",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 69,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.springframework.boot:spring-boot-starter-data-redis:3.2.5",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api-client:google-api-client-gson:2.7.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-context:1.66.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud:google-cloud-storage:2.43.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 625,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 0,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.apis:google-api-services-storage:v1-rev20240819-2.0.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 162,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud:google-cloud-core-http:2.44.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 9,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.http-client:google-http-client-appengine:1.45.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 13,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-inprocess:1.68.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 23,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api.grpc:proto-google-iam-v1:1.40.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 62,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api.grpc:proto-google-cloud-storage-v2:2.43.1-beta",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 334,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api.grpc:grpc-google-cloud-storage-v2:2.43.1-beta",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 13,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api.grpc:gapic-google-cloud-storage-v2:2.43.1-beta",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 29,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-sdk:1.37.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 6,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-sdk-trace:1.37.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 94,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-sdk-logs:1.37.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 39,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-opentelemetry:1.68.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 41,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-sdk-metrics:1.37.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 240,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-api-incubator:1.42.1-alpha",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 78,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-sdk-common:1.37.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 42,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.37.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 20,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud.opentelemetry:exporter-metrics:0.31.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 22,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud:google-cloud-monitoring:3.31.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 135,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.api.grpc:proto-google-cloud-monitoring-v3:3.31.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 704,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opencensus:opencensus-proto:0.2.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 284,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud.opentelemetry:shared-resourcemapping:0.32.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 69,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.opentelemetry.contrib:opentelemetry-gcp-resources:1.37.0-alpha",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 4,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.cloud.opentelemetry:detector-resources-support:0.32.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 15,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-googleapis:1.68.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 10,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "io.grpc:grpc-services:1.68.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 401,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.twilio.sdk:twilio:10.9.1",
+        "type": "direct",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 2778,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "commons-io:commons-io:2.14.0",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 333,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "org.json:json:20240303",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 31,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      },
+      {
+        "gav": "com.google.http-client:google-http-client-apache-v2:1.44.1",
+        "type": "transitive",
+        "status": "bloated",
+        "static_used_classes": 0,
+        "static_all_classes": 6,
+        "static_ratio": 0.0,
+        "nia_class_hits": 0
+      }
+    ]
+  }
+}

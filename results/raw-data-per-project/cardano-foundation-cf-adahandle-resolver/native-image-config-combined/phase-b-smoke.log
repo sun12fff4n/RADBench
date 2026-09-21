@@ -1,0 +1,30 @@
+ Network adahandle-resolver_default Creating 
+ Network adahandle-resolver_default Created 
+ Volume adahandle-resolver_m2-combined-cardano-foundation-cf-adahandle-resolver Creating 
+ Volume adahandle-resolver_m2-combined-cardano-foundation-cf-adahandle-resolver Created 
+ Container adahandle-resolver Creating 
+ Container adahandle-resolver Created 
+ Container adahandle-resolver Starting 
+ Container adahandle-resolver Started 
+ Container adahandle-resolver Waiting 
+ Container adahandle-resolver Healthy 
+
+[0;34m== Infra sanity ==[0m
+[0;32mPASS[0m GET  /actuator/health                                        [2m[200, body ✓][0m
+
+[0;34m== API surface (contract) ==[0m
+[0;32mPASS[0m GET  /v3/api-docs (OpenAPI spec)                             [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /swagger-ui.html → redirect                           [2m[302][0m
+[0;32mPASS[0m OpenAPI spec lists 3 controller routes                       [2m[3 paths exposed][0m
+
+[0;34m== API: ada-handles lookup by address ==[0m
+[0;32mPASS[0m GET  /api/v1/ada-handles/by-stake-address/{}                 [2m[200, body ✓][0m
+[0;32mPASS[0m GET  /api/v1/ada-handles/by-payment-address/{}               [2m[200, body ✓][0m
+
+[0;34m== API: addresses lookup by handle (not-found branch) ==[0m
+[0;32mPASS[0m GET  /api/v1/addresses/by-ada-handle/{} → 404              [2m[404][0m
+
+[0;34m== Summary ==[0m
+[0;32mAll 7/7 checks passed.[0m
+ Container adahandle-resolver Stopping 
+ Container adahandle-resolver Stopped 
